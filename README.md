@@ -1,3 +1,5 @@
+#"Cuba is Young" Project
+
 ##Instructions
 
 ###Dependencies
@@ -22,6 +24,17 @@
 - ...Make our page templates...
 - ...And take care of some git house cleaning.
 
-###Little Set-up things
-- the `touch .gitignore` command in our directory will create a .gitignore file for us. Inside the .gitignore we'll list files that don't need to be included when we push to our repository. For now, I'm including `.DS_Store`, which is an extra annoying hidden file that shows up inside a directory in a Mac and could mess up our branch merges.
+###Git things
+- Running `touch .gitignore` in our directory will create a .gitignore file for us. Inside the .gitignore we'll list files that don't need to be included when we push to our repository. For now, I'm including `.DS_Store` — an extra annoying hidden file that shows up inside a directory on Macs and could mess up our branch merges — and `node_modules/`, which is the directory that populates when you run `npm install`.
   - In the future, we'll probably put our photo folder in the .gitignore so we don't keep pushing all of those large files up the tree every time we push.
+- Remember that you add specific files to the tree! Do not `git add -A` unless you're sure that you didn't change anything on your branch that will conflict with someone else's branch.
+- Make it a habit to run `git status` before you commit to see peruse the changes you've made and make sure you're not committing something you don't want to.
+- Careful not to `git push origin master` unless you're on the `master` branch!
+
+###Node things
+- To install our Node dependencies (the packages we need for our app to run, which are listed in package.json), run `npm install` in the main directory.
+
+###Heroku things
+- To view this app, we have to run a local server. The Heroku command to run a local server is:`heroku local web`. Now if you go to http://localhost:5000/ in your browser, you'll see a local version of your app.
+- If you push to the master branch, **you will be deploying those changes to the site**, so only push to a branch you create until it's time to merge!
+- Our site is located at [cubayouth.herokuapp.com](cubayouth.herokuapp.com).
