@@ -29,12 +29,11 @@
   - In the future, we'll probably put our photo folder in the .gitignore so we don't keep pushing all of those large files up the tree every time we push.
 - Remember that you add specific files to the tree! Do not `git add -A` unless you're sure that you didn't change anything on your branch that will conflict with someone else's branch.
 - Make it a habit to run `git status` before you commit to see peruse the changes you've made and make sure you're not committing something you don't want to.
-- Careful not to `git push origin master` unless you're on the `master` branch!
 
 ###Node things
 - To install our Node dependencies (the packages we need for our app to run, which are listed in package.json), run `npm install` in the main directory.
 
 ###Heroku things
 - To view this app, we have to run a local server. The Heroku command to run a local server is:`heroku local web`. Now if you go to http://localhost:5000/ in your browser, you'll see a local version of your app.
-- If you push to the master branch, **you will be deploying those changes to the site**, so only push to your created branch until it's time to merge!
+- If you push to the `deploy` branch, **you will be deploying those changes to the site**, so do not push to this branch unless you know it's ready for deployment!
 - Our site is located at [cubayouth.herokuapp.com](cubayouth.herokuapp.com).
