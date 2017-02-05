@@ -36,5 +36,5 @@
 
 ###Heroku things
 - To view this app, we have to run a local server. The Heroku command to run a local server is:`heroku local web`. Now if you go to http://localhost:5000/ in your browser, you'll see a local version of your app.
-- If you push to the master branch, **you will be deploying those changes to the site**, so only push to a branch you create until it's time to merge!
+- If you push to the master branch, **you will be deploying those changes to the site**, so only push to your created branch until it's time to merge!
 - Our site is located at [cubayouth.herokuapp.com](cubayouth.herokuapp.com).
