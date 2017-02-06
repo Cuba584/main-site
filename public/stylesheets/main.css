@@ -1,1 +1,46 @@
 
+
+
+
+/* ------------------ Global Styles ------------ */
+
+body {
+  font-family: sans-serif;
+  color: blue;
+}
+
+/* ------------------  Header ------------------ */
+
+header {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: left;
+}
+
+
+
+/* ------------------ Navigation ------------------ */
+
+
+
+/* ------------------  Story Page ------------------ */
+
+
+/* ------------------  Footer ------------------ */
+footer ul {
+  list-style-type: none;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: left;
+}
