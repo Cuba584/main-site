@@ -12,7 +12,10 @@
   "dependencies": {
     "archieml": "^0.4.2",
     "ejs": "2.4.1",
-    "express": "4.13.3"
+    "express": "4.13.3",
+    "googleapis": "^16.1.0",
+    "html-entities": "^1.2.0",
+    "htmlparser2": "^3.9.2"
   },
   "repository": {
     "type": "git",
