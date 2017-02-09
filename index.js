@@ -142,7 +142,7 @@ function sendIt(parsed){
 
 app.get('/', function(request, response) {
 //  response.render('pages/index', {'body': thisText});
-  response.render('pages/drivetest', {'body': thisText});
+  response.render('pages/drivetest', {body: thisText});
 });
 
 app.listen(app.get('port'), function() {
