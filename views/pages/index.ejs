@@ -7,8 +7,12 @@
 <body>
 
   <% include ../partials/nav.ejs %>
-  
+
+  <%for (i in body){ %>
+    <%= body[i] %>
+  <% } %>
+
   <% include ../partials/footer.ejs %>
-  
+
 </body>
 </html>

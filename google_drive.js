@@ -4,6 +4,7 @@ var config = require('./config.json');
 var express = require('express');
 var archieml = require('./node_modules/archieml/archieml.js');
 var app = express();
+var chalk = require('./node_modules/chalk');
 var url = require('url');
 var htmlparser = require('htmlparser2');
 var Entities = require('html-entities').AllHtmlEntities;
@@ -19,7 +20,8 @@ var drive = google.drive('v2');
 var OAuth2 = google.auth.OAuth2;
 var oauth2Client = new OAuth2(CLIENT_ID, CLIENT_SECRET, "http://127.0.0.1:3000/oauth2callback");
 google.options({ auth: oauth2Client });
-var KEY = '1JjYD90DyoaBuRYNxa4_nqrHKkgZf1HrUj30i3rTWX1s';
+// var KEY = '1JjYD90DyoaBuRYNxa4_nqrHKkgZf1HrUj30i3rTWX1s';
+var KEY = '1eXbE48sI_6qaGeU6gCE3gv3Pw1L5xFapiiKRCKxqX0c';
 
 app.get('/oauth2callback', function (req, res) {
   res.type('json');
@@ -34,15 +36,14 @@ app.get('/oauth2callback', function (req, res) {
         // plain text which is fine for simple parsing, and html which is
         // useful if we want to preserve links in the source document (see below).
 
-        // Parse the document as Text
+        //Parse the document as Text
         // export_link = doc.exportLinks['text/plain'];
         // oauth2Client._makeRequest({method: "GET", uri: export_link}, function(err, body) {
         //   var parsed = archieml.load(body);
-
+        //
         //   res.type('json');
         //   res.send(parsed);
         // });
-
 
         // Parse the document as HTML
         //
@@ -128,6 +129,7 @@ app.get('/oauth2callback', function (req, res) {
           var parser = new htmlparser.Parser(handler);
 
           parser.write(body);
+          printIt(body);
           parser.done();
         });
       });
