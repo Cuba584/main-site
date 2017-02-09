@@ -4,6 +4,7 @@ var archieml = require('archieml');
 var parsed = archieml.load("key: value");
 var thisText;
 
+
 app.set('port', (process.env.PORT || 3000));
 
 app.use(express.static(__dirname + '/public'));
@@ -107,6 +108,7 @@ app.get('/oauth2callback', function (req, res) {
             });
 
             var parsed = archieml.load(parsedText);
+            sendIt(parsed);
             res.send(parsed);
           });
 
@@ -114,7 +116,6 @@ app.get('/oauth2callback', function (req, res) {
 
           parser.write(body);
           parser.done();
-          sendIt(body);
         });
       });
     }
@@ -133,14 +134,15 @@ app.param('key', function (req, res, next, key) {
   next();
 })
 
-function sendIt(body){
-
-  thisText = body;
+function sendIt(parsed){
+  thisText = parsed;
   console.log(thisText);
+  // console.log(parsed);
 }
 
 app.get('/', function(request, response) {
-  response.render('pages/index', {'body': thisText});
+//  response.render('pages/index', {'body': thisText});
+  response.render('pages/drivetest', {'body': thisText});
 });
 
 app.listen(app.get('port'), function() {
