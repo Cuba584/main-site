@@ -3,6 +3,11 @@ var app = express();
 var archieml = require('archieml');
 var parsed = archieml.load("key: value");
 var thisText;
+var artBody;
+var tourismBody;
+var entreBody;
+var agingBody;
+var skateBody;
 
 app.set('port', (process.env.PORT || 3000));
 
@@ -21,7 +26,14 @@ var googleAuth = require('google-auth-library');
 var archieml = require('archieml');
 
 // Edit the file ID for the Google Doc. Be sure it's set to the "Share" preferences to "anyone on the internet"
-var fileId = '1eXbE48sI_6qaGeU6gCE3gv3Pw1L5xFapiiKRCKxqX0c';
+//var fileId = '1eXbE48sI_6qaGeU6gCE3gv3Pw1L5xFapiiKRCKxqX0c';
+var fileIds = {
+    "art": "1ieI3nN9jke_bAr7sK9VQAI9NMhWTKivI6ttv3iGBhRQ",
+    "tourism": "1hYVU1e8l0vP7U5vGmWJY1k2B7mnjHpQi1qd4gn9xkFE",
+    "entre": "1GVusAF86-rrv6RwSMF_H47xO2eG2tVayfumcj7Q1akM",
+    "aging": "1RY9sG1oazoFfE9ZGEK9U3zaAmyOJB6mYcc6VDKy7xBA",
+    "skate": "1M1o12fbc33KOhkNJl-Vagimqbm3Diof-cKVbNvZuFi0"
+}
 
 // Overall varibales
 var SCOPES = ['https://www.googleapis.com/auth/drive'];
@@ -120,7 +132,7 @@ function storeToken(token) {
  *
  * @param {String} The URL to request the content from
  */
-function getFileContents(exportLink){
+function getFileContents(exportLink, currentTopic){
   oauth2Client.request({
       method: 'GET',
       uri: exportLink
@@ -129,16 +141,33 @@ function getFileContents(exportLink){
           console.log('Getting file contents failed.', err);
           return;
       }
-
       var data = archieml.load(body);
-      console.log(data);
-      sendIt(data);
+    //  console.log(data);
+    console.log(currentTopic);
+      sendIt(data, currentTopic);
   });
 }
 
-function sendIt(data){
-  thisText = data;
-  console.log(thisText);
+function sendIt(data, currentTopic){
+  switch(currentTopic) {
+    case "art":
+    artBody= data
+    break;
+    case "tourism":
+    tourismBody= data
+    break;
+    case "entre":
+    entreBody= data
+    break;
+    case "aging":
+    agingBody= data
+    break;
+    case "skate":
+    skateBody= data
+    break;
+  }
+//  thisText = data;
+//  console.log(thisText);
   // console.log(parsed);
 }
 /**
@@ -147,36 +176,37 @@ function sendIt(data){
  * @param {Object} Google Drive authorization
  */
 function getExportLink(auth){
-  var service = google.drive('v2');
-  var request = service.files.get({
-    auth: auth,
-    fileId: fileId
-  },function(err,response){
-    if(err){
-      console.log('Getting export link failed.', err);
-      return;
-    }
+  for (i in fileIds){
+  (function(i){
+    var currentTopic = i;
+    var service = google.drive('v2');
+    var request = service.files.get({
+      auth: auth,
+      fileId: fileIds[i]
+    },function(err,response){
+      if(err){
+        console.log('Getting export link failed.', err);
+        return;
+      }
 
-    var exportLink = response['exportLinks']['text/plain'];
+      var exportLink = response['exportLinks']['text/plain'];
 
-    getFileContents(exportLink);
+      getFileContents(exportLink, currentTopic);
 
-  });
+    });
+  })(i);
+}
 }
 
 app.get('/', function(request, response) {
 //  response.render('pages/index', {'body': thisText});
-  if (typeof thisText !== 'undefined') {
-  response.render('pages/index', {body: thisText});
-} else {
-  response.render('pages/404');
-}
+  response.render('pages/index');
 });
 
 app.get('/arttest', function(request, response) {
 //  response.render('pages/index', {'body': thisText});
-  if (typeof thisText !== 'undefined') {
-  response.render('pages/arttest', {body: thisText});
+  if (typeof artBody !== 'undefined') {
+  response.render('pages/arttest', {body: artBody});
 } else {
   response.render('pages/404');
 }
@@ -184,8 +214,8 @@ app.get('/arttest', function(request, response) {
 
 app.get('/entretest', function(request, response) {
 //  response.render('pages/index', {'body': thisText});
-  if (typeof thisText !== 'undefined') {
-  response.render('pages/entretest', {body: thisText});
+  if (typeof entreBody !== 'undefined') {
+  response.render('pages/entretest', {body: entreBody});
 } else {
   response.render('pages/404');
 }
@@ -193,8 +223,8 @@ app.get('/entretest', function(request, response) {
 
 app.get('/tourismtest', function(request, response) {
 //  response.render('pages/index', {'body': thisText});
-  if (typeof thisText !== 'undefined') {
-  response.render('pages/tourismtest', {body: thisText});
+  if (typeof tourismBody !== 'undefined') {
+  response.render('pages/tourismtest', {body: tourismBody});
 } else {
   response.render('pages/404');
 }
@@ -202,8 +232,8 @@ app.get('/tourismtest', function(request, response) {
 
 app.get('/skatetest', function(request, response) {
 //  response.render('pages/index', {'body': thisText});
-  if (typeof thisText !== 'undefined') {
-  response.render('pages/skatetest', {body: thisText});
+  if (typeof skateBody !== 'undefined') {
+  response.render('pages/skatetest', {body: skateBody});
 } else {
   response.render('pages/404');
 }
@@ -211,8 +241,8 @@ app.get('/skatetest', function(request, response) {
 
 app.get('/agingtest', function(request, response) {
 //  response.render('pages/index', {'body': thisText});
-  if (typeof thisText !== 'undefined') {
-  response.render('pages/agingtest', {body: thisText});
+  if (typeof agingBody !== 'undefined') {
+  response.render('pages/agingtest', {body: agingBody});
 } else {
   response.render('pages/404');
 }
