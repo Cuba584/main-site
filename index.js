@@ -4,7 +4,6 @@ var archieml = require('archieml');
 var parsed = archieml.load("key: value");
 var thisText;
 
-
 app.set('port', (process.env.PORT || 3000));
 
 app.use(express.static(__dirname + '/public'));
@@ -142,7 +141,11 @@ function sendIt(parsed){
 
 app.get('/', function(request, response) {
 //  response.render('pages/index', {'body': thisText});
+  if (typeof thisText !== 'undefined') {
   response.render('pages/drivetest', {body: thisText});
+} else {
+  response.render('pages/index');
+}
 });
 
 app.listen(app.get('port'), function() {

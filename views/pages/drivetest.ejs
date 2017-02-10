@@ -5,7 +5,6 @@
   }
 </style>
 
-
 <%for (i in body["text"]){ if (body["text"][i]["type"] == "text") {%>
 <p> <%=body["text"][i]["value"] %> </p>
 <% } else if (body["text"][i]["type"] == "image") {%>
