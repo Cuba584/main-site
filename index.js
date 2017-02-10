@@ -8,135 +8,160 @@ app.set('port', (process.env.PORT || 3000));
 
 app.use(express.static(__dirname + '/public'));
 
+//archieml
+
 // views is directory for all template files
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-
-
-
-//archieml
-
-var config = require('./config.json');
-var url = require('url');
-var htmlparser = require('htmlparser2');
-var Entities = require('html-entities').AllHtmlEntities;
-
-var CLIENT_ID= config.google_id;
-var CLIENT_SECRET=config.google_secret;
-
-// Grab google packages and the drive api
+var fs = require('fs');
+var readline = require('readline');
 var google = require('googleapis');
-var drive = google.drive('v2');
+var googleAuth = require('google-auth-library');
+var archieml = require('archieml');
 
-// Set up auth
-var OAuth2 = google.auth.OAuth2;
-var oauth2Client = new OAuth2(CLIENT_ID, CLIENT_SECRET, "http://127.0.0.1:3000/oauth2callback");
-google.options({ auth: oauth2Client });
-var KEY = '1eXbE48sI_6qaGeU6gCE3gv3Pw1L5xFapiiKRCKxqX0c';
+// Edit the file ID for the Google Doc. Be sure it's set to the "Share" preferences to "anyone on the internet"
+var fileId = '1eXbE48sI_6qaGeU6gCE3gv3Pw1L5xFapiiKRCKxqX0c';
 
-app.get('/oauth2callback', function (req, res) {
-  res.type('json');
-  var code = url.parse(req.url, true).query.code;
-  oauth2Client.getToken(code, function(err, tokens) {
-    if(!err) {
-      oauth2Client.setCredentials(tokens);
+// Overall varibales
+var SCOPES = ['https://www.googleapis.com/auth/drive'];
+var TOKEN_DIR = (process.env.HOME || process.env.HOMEPATH ||
+    process.env.USERPROFILE) + '/.credentials/';
+var TOKEN_PATH = TOKEN_DIR + 'drive-api-quickstart.json';
 
-      request = drive.files.get({fileId: KEY}, function (err, doc) {
-        if (err) return res.send(err)
-
-        export_link = doc.exportLinks['text/html'];
-        oauth2Client._makeRequest({method: "GET", uri: export_link}, function(err, body) {
-
-          var handler = new htmlparser.DomHandler(function(error, dom) {
-            var tagHandlers = {
-              _base: function (tag) {
-                var str = '';
-                tag.children.forEach(function(child) {
-                  if (func = tagHandlers[child.name || child.type]) str += func(child);
-                });
-                return str;
-              },
-              text: function (textTag) {
-                return textTag.data;
-              },
-              span: function (spanTag) {
-                return tagHandlers._base(spanTag);
-              },
-              p: function (pTag) {
-                return tagHandlers._base(pTag) + '\n';
-              },
-              a: function (aTag) {
-                var href = aTag.attribs.href;
-                if (href === undefined) return '';
-
-                // extract real URLs from Google's tracking
-                // from: http://www.google.com/url?q=http%3A%2F%2Fwww.nytimes.com...
-                // to: http://www.nytimes.com...
-                if (aTag.attribs.href && url.parse(aTag.attribs.href,true).query && url.parse(aTag.attribs.href,true).query.q) {
-                  href = url.parse(aTag.attribs.href,true).query.q;
-                }
-
-                var str = '<a href="' + href + '">';
-                str += tagHandlers._base(aTag);
-                str += '</a>';
-                return str;
-              },
-              li: function (tag) {
-                return '* ' + tagHandlers._base(tag) + '\n';
-              }
-            };
-
-            ['ul', 'ol'].forEach(function(tag) {
-              tagHandlers[tag] = tagHandlers.span;
-            });
-            ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].forEach(function(tag) {
-              tagHandlers[tag] = tagHandlers.p;
-            });
-
-            var body = dom[0].children[1];
-            var parsedText = tagHandlers._base(body);
-
-            // Convert html entities into the characters as they exist in the google doc
-            var entities = new Entities();
-            parsedText = entities.decode(parsedText);
-
-            // Remove smart quotes from inside tags
-            parsedText = parsedText.replace(/<[^<>]*>/g, function(match){
-              return match.replace(/”|“/g, '"').replace(/‘|’/g, "'");
-            });
-
-            var parsed = archieml.load(parsedText);
-            sendIt(parsed);
-            res.send(parsed);
-          });
-
-          var parser = new htmlparser.Parser(handler);
-
-          parser.write(body);
-          parser.done();
-        });
-      });
-    }
-  });
+// Load client secrets from a local file.
+var oauth2Client;
+fs.readFile('client_secret.json', function processClientSecrets(err, content) {
+  if (err) {
+    console.log('Error loading client secret file: ' + err);
+    return;
+  }
+  // Authorize a client with the loaded credentials, then call the
+  // Drive API.
+  authorize(JSON.parse(content), getExportLink);
 });
 
-app.get('/:key', function (req, res) {
-  var redirect_url = oauth2Client.generateAuthUrl({
-    scope: 'https://www.googleapis.com/auth/drive'
+/**
+ * Create an OAuth2 client with the given credentials, and then execute the
+ * given callback function.
+ *
+ * @param {Object} credentials The authorization client credentials.
+ * @param {function} callback The callback to call with the authorized client.
+ */
+function authorize(credentials, callback) {
+  var clientSecret = credentials.installed.client_secret;
+  var clientId = credentials.installed.client_id;
+  var redirectUrl = credentials.installed.redirect_uris[0];
+  var auth = new googleAuth();
+  oauth2Client = new auth.OAuth2(clientId, clientSecret, redirectUrl);
+
+  // Check if we have previously stored a token.
+  fs.readFile(TOKEN_PATH, function(err, token) {
+    if (err) {
+      getNewToken(oauth2Client, callback);
+    } else {
+      oauth2Client.credentials = JSON.parse(token);
+      callback(oauth2Client);
+    }
   });
-  res.redirect(redirect_url);
-})
+}
 
-app.param('key', function (req, res, next, key) {
-  KEY = key || KEY;
-  next();
-})
+/**
+ * Get and store new token after prompting for user authorization, and then
+ * execute the given callback with the authorized OAuth2 client.
+ *
+ * @param {google.auth.OAuth2} oauth2Client The OAuth2 client to get token for.
+ * @param {getEventsCallback} callback The callback to call with the authorized
+ *     client.
+ */
+function getNewToken(oauth2Client, callback) {
+  var authUrl = oauth2Client.generateAuthUrl({
+    access_type: 'offline',
+    scope: SCOPES
+  });
+  console.log('Authorize this app by visiting this url: ', authUrl);
+  var rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+  rl.question('Enter the code from that page here: ', function(code) {
+    rl.close();
+    oauth2Client.getToken(code, function(err, token) {
+      if (err) {
+        console.log('Error while trying to retrieve access token', err);
+        return;
+      }
+      oauth2Client.credentials = token;
+      storeToken(token);
+      callback(oauth2Client);
+    });
+  });
+}
 
-function sendIt(parsed){
-  thisText = parsed;
+/**
+ * Store token to disk be used in later program executions.
+ *
+ * @param {Object} token The token to store to disk.
+ */
+function storeToken(token) {
+  try {
+    fs.mkdirSync(TOKEN_DIR);
+  } catch (err) {
+    if (err.code != 'EEXIST') {
+      throw err;
+    }
+  }
+  fs.writeFile(TOKEN_PATH, JSON.stringify(token));
+  console.log('Token stored to ' + TOKEN_PATH);
+}
+
+/**
+ * Get the actual file contents as plain text
+ *
+ * @param {String} The URL to request the content from
+ */
+function getFileContents(exportLink){
+  oauth2Client.request({
+      method: 'GET',
+      uri: exportLink
+  }, function(err, body) {
+      if (err) {
+          console.log('Getting file contents failed.', err);
+          return;
+      }
+
+      var data = archieml.load(body);
+      console.log(data);
+      sendIt(data);
+  });
+}
+
+function sendIt(data){
+  thisText = data;
   console.log(thisText);
   // console.log(parsed);
+}
+/**
+ * Get the download link, also called the export link, from the file response
+ *
+ * @param {Object} Google Drive authorization
+ */
+function getExportLink(auth){
+  var service = google.drive('v2');
+  var request = service.files.get({
+    auth: auth,
+    fileId: fileId
+  },function(err,response){
+    if(err){
+      console.log('Getting export link failed.', err);
+      return;
+    }
+
+    var exportLink = response['exportLinks']['text/plain'];
+
+    getFileContents(exportLink);
+
+  });
 }
 
 app.get('/', function(request, response) {
