@@ -167,9 +167,54 @@ function getExportLink(auth){
 app.get('/', function(request, response) {
 //  response.render('pages/index', {'body': thisText});
   if (typeof thisText !== 'undefined') {
-  response.render('pages/drivetest', {body: thisText});
+  response.render('pages/index', {body: thisText});
 } else {
-  response.render('pages/index');
+  response.render('pages/404');
+}
+});
+
+app.get('/arttest', function(request, response) {
+//  response.render('pages/index', {'body': thisText});
+  if (typeof thisText !== 'undefined') {
+  response.render('pages/arttest', {body: thisText});
+} else {
+  response.render('pages/404');
+}
+});
+
+app.get('/entretest', function(request, response) {
+//  response.render('pages/index', {'body': thisText});
+  if (typeof thisText !== 'undefined') {
+  response.render('pages/entretest', {body: thisText});
+} else {
+  response.render('pages/404');
+}
+});
+
+app.get('/tourismtest', function(request, response) {
+//  response.render('pages/index', {'body': thisText});
+  if (typeof thisText !== 'undefined') {
+  response.render('pages/tourismtest', {body: thisText});
+} else {
+  response.render('pages/404');
+}
+});
+
+app.get('/skatetest', function(request, response) {
+//  response.render('pages/index', {'body': thisText});
+  if (typeof thisText !== 'undefined') {
+  response.render('pages/skatetest', {body: thisText});
+} else {
+  response.render('pages/404');
+}
+});
+
+app.get('/agingtest', function(request, response) {
+//  response.render('pages/index', {'body': thisText});
+  if (typeof thisText !== 'undefined') {
+  response.render('pages/agingtest', {body: thisText});
+} else {
+  response.render('pages/404');
 }
 });
 

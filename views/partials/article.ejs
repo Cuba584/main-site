@@ -1,0 +1,6 @@
+<%for (i in body["text"]){ if (body["text"][i]["type"] == "text") {%>
+<p> <%=body["text"][i]["value"] %> </p>
+<% } else if (body["text"][i]["type"] == "image") {%>
+  <img src=' <%=body["text"][i]["value"]["src"] %> ' alt='
+  <%=body["text"][i]["value"]["alt"] %> '>
+<%} } %>
