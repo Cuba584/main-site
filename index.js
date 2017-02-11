@@ -233,6 +233,7 @@ app.get('/tourismtest', function(request, response) {
 
 app.get('/skatetest', function(request, response) {
 //  response.render('pages/index', {'body': thisText});
+console.log(skateBody);
   if (typeof skateBody !== 'undefined') {
   response.render('pages/skatetest', {body: skateBody});
 } else {
