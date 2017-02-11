@@ -201,6 +201,7 @@ function getExportLink(auth){
 app.get('/', function(request, response) {
 //  response.render('pages/index', {'body': thisText});
   response.render('pages/index');
+
 });
 
 app.get('/arttest', function(request, response) {
