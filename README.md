@@ -1,4 +1,4 @@
-#"Cuba is Young" Project
+#Cuba's New Wave
 
 ##Instructions
 
