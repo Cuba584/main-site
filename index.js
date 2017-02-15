@@ -41,5 +41,6 @@ app.get('/pages/*', function(request, response){
 });
 
 app.get('*', function(request, response){
+
   response.render('pages/404');
 });
