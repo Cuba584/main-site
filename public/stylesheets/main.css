@@ -17,7 +17,6 @@ header {
   top: 0;
   left: 0;
   padding: 1rem;
-  background-color: #efefef;
   text-align: left;
 }
 
@@ -25,6 +24,10 @@ header {
 
 /* ------------------ Navigation ------------------ */
 
+
+nav ul {
+  list-style-type: none;
+}
 
 
 /* ------------------  Story Page ------------------ */

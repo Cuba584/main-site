@@ -1,0 +1,61 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.innerHero img {
+  width: 100vw;
+  margin-left: -8px;
+}
+
+#innerTitle {
+  font-family: 'Rokkitt', sans-serif;
+  text-align: center;
+  color: #FFD800;
+  font-size: 8em;
+  margin-top: -75px;
+}
+
+#innerSub {
+  text-align: center;
+  color: #FFD800;
+  font-size: 4em;
+  margin-top: -110px;
+}
+
+#innerIntro {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 900;
+}
+
+#innerContent {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 35px;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+#innerImage {
+  height: 50vw;
+  margin-left: -10px;
+}
+
+.storyImage {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+#innerImageCaption {
+margin-left: 20px;
+margin-right: 10%;
+margin-top: -5px;
+font-size: 14px;
+line-height: 23px;
+}
+
+/* -------------- Media Queries -------- */
