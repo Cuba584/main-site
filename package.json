@@ -15,7 +15,8 @@
     "ejs": "2.4.1",
     "express": "4.13.3",
     "google-auth-library": "^0.10.0",
-    "googleapis": "^16.1.0"
+    "googleapis": "^16.1.0",
+    "json": "^9.0.4"
   },
   "repository": {
     "type": "git",
