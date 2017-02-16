@@ -1,39 +1,79 @@
-#"Cuba is Young" Project
+#"Cuba's New Wave" main site
 
-##Instructions
+##Installation
 
-###Dependencies
+1. Install these dependencies if you don't already have them:
+  - [Git](https://sourceforge.net/projects/git-osx-installer/)
+  - [NodeJS](https://nodejs.org/en/download/)
+  
+2. Open terminal and `cd` into the folder of your choosing. For instance, if you start at root (~), to get to your Desktop, you would run: 
+  `cd Desktop`
+  Or for your Documents folder, just replace `Desktop` with `Documents`.
+
+3. Clone this repository by running:
+  `git clone https://github.com/Cuba584/main-site/`
+  And then cd into that folder:
+  `cd main-site`
+  
+4. Install the NodeJS packages by running:
+  `npm install`
+  
+5. Retrieve a client_secret.json file from Lindsay to put in your directory.
+
+6. Run: 
+  ``node parse.js``
+  And follow the instructions.
+
+##Running the site locally
+
+1. In the main-site directory, run: 
+
+  `heroku local web`
+
+2. Open the browser of your choice and navigate to: 
+
+  `localhost:5000`
+
+##Deploying Site Changes
+
+1. Pushing to the `master` branch will automatically deploy changes to the site. You can also check progress of the deployment and push other branches to deployment in the Heroku dashboard.
+
+2. The site is located at [cubayouth.herokuapp.com](cubayouth.herokuapp.com).
+
+##Updating Articles
+
+1. In the main-site directory, run:
+  `node parse.js`
+
+2. Add, commit and push the new JSON files:
+  
+  `git add data/`
+  
+  `git commit -m "updated articles"`
+  
+  `git push origin master`
+
+##Adding new inner pages
+
+1. Create a new Google Doc for the page content and make sure it's shared publicly. Then go to File -> Publish to the web... and click the "Publish" button
+
+2. Copy the doc id from the doc URL, between /d/ and /edit. (ex: "1K1u7fOcFDjG3hpQ7J89BO-m23ihIpZJYM-cU5_ztwi0")
+
+3. On line 11 of parse.js, add a new key value pair to fileIds for your document.
+
+4. On line 9 of index.js, add the key from step 3. 
+
+5. Follow the "Updating Articles" instructions.
+
+##Notes for the developers
+- Remember that you can add specific files to the tree! Do not `git add -A` unless you're sure that you didn't change anything on your branch that will conflict with someone else's branch.
+- Make it a habit to run `git status` before you commit to see peruse the changes you've made and make sure you're not committing something you don't want to.
+- If you push to the `master` branch, **you will be deploying those changes to the site**, so do not push to this branch unless you know it's ready for deployment!
+
+##Dependencies
 
 - This site was build up from the [tutorial](https://devcenter.heroku.com/articles/getting-started-with-nodejs) for how to get started with NodeJS and Heroku. You can find the example code [here](https://github.com/heroku/node-js-getting-started).
 
-###For the devs
-- This was the basic layout when I stripped the tutorial extra code:
-  - public
-    - stylesheets
-  - views
-    - pages
-      - index.ejs
-    - partials
-      - header.ejs
-      - nav.ejs
-  - index.js
-  - Procfile
-  - package.json
-  - README.md
-- Now we just need to pull in a data set (which is TBD from the Google Docs API)...
-- ...Make our page templates...
-- ...And take care of some git house cleaning.
+- We are using Google Docs to pull in article content, through an [ArchieML](http://archieml.org/) [boilerplate by stuartathompson](https://github.com/stuartathompson/node-archieml-boilerplate).
 
-###Git things
-- Running `touch .gitignore` in our directory will create a .gitignore file for us. Inside the .gitignore we'll list files that don't need to be included when we push to our repository. For now, I'm including `.DS_Store` — an extra annoying hidden file that shows up inside a directory on Macs and could mess up our branch merges — and `node_modules/`, which is the directory that populates when you run `npm install`.
-  - In the future, we'll probably put our photo folder in the .gitignore so we don't keep pushing all of those large files up the tree every time we push.
-- Remember that you add specific files to the tree! Do not `git add -A` unless you're sure that you didn't change anything on your branch that will conflict with someone else's branch.
-- Make it a habit to run `git status` before you commit to see peruse the changes you've made and make sure you're not committing something you don't want to.
-
-###Node things
-- To install our Node dependencies (the packages we need for our app to run, which are listed in package.json), run `npm install` in the main directory.
-
-###Heroku things
-- To view this app, we have to run a local server. The Heroku command to run a local server is:`heroku local web`. Now if you go to http://localhost:5000/ in your browser, you'll see a local version of your app.
-- If you push to the `deploy` branch, **you will be deploying those changes to the site**, so do not push to this branch unless you know it's ready for deployment!
-- Our site is located at [cubayouth.herokuapp.com](cubayouth.herokuapp.com).
+- SASS is coming soon!
