@@ -1,25 +1,48 @@
 /* ------------------ Global Styles ------------ */
+$body-color: blue;
+
 body {
   font-family: sans-serif;
-  color: blue; }
+  color: $body-color;
+}
 
 /* ------------------  Header ------------------ */
-.header-footer, header, footer {
+
+.header-footer {
   text-align: left;
-  padding: 1rem; }
+  padding: 1rem;
+}
+
+header {
+  @extend .header-footer;
+}
+
+
 
 /* ------------------ Navigation ------------------ */
-nav ul {
-  list-style-type: none; }
 
-nav a {
-  color: #000;
-  position: relative; }
+
+nav {
+  ul {
+  list-style-type: none;
+  }
+  a {
+    color: #000;
+    position: relative;
+  }
+}
+
+
 
 /* ------------------  Story Page ------------------ */
+
+
 /* ------------------  Footer ------------------ */
 footer ul {
-  list-style-type: none; }
+  list-style-type: none;
+}
 
 footer {
-  background-color: #efefef; }
+  @extend .header-footer;
+  background-color: #efefef;
+}
