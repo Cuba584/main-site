@@ -1,17 +1,25 @@
 $(document).ready(function(){
 
-  // hide element on page load
-  $('#section0').css('opacity', 0);
-  //section text fades in from left when 20% from top
-  $('#section0').waypoint(function() {
-      $('#section0').addClass('fadeInLeft');
-  }, { offset: '20%' });
-});
+var sectionId = ["#section0", "#section0img"];
 
-$(document).ready(function(){
-  $('#section0img').css('opacity', 0);
-  //section img fades in from right when 20% from top
-  $('#section0img').waypoint(function(){
-    $('#section0img').addClass('fadeInRight');
-  }, { offset: '20%'});
+
+for (var i in sectionId){
+  (function(i){
+    $(sectionId[i]).css('opacity', 0);
+
+    if(sectionId[i].includes("img")){
+
+      $(sectionId[i]).waypoint(function() {
+          $(sectionId[i]).addClass('fadeInRight');
+      }, { offset: '50%' });
+      console.log('LEFT')
+    }else{
+
+      $(sectionId[i]).waypoint(function() {
+          $(sectionId[i]).addClass('fadeInLeft');
+      }, { offset: '50%' });
+      console.log('RIGHT')
+    }
+  })(i)
+}
 });

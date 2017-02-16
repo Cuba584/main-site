@@ -1,17 +1,19 @@
 <html>
    <head>
+
+
+     <link rel="stylesheet" type="text/css" href="animate.css"></link>
      <link rel="stylesheet" type="text/css" href="poem.css"></link>
      <!-- Link to local Animate.css -->
-     <link rel="stylesheet" type="text/css" href="animate.css"></link>
-     <!-- jQuery CDN -->
+
      <script
         src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous">
       </script>
-      <!-- link to jquery file -->
       <script src="jquery.waypoints.js"></script>
       <script type="text/javascript" src="poem.js"></script>
+
       <!-- Google Fonts! -->
       <link href="https://fonts.googleapis.com/css?family=Rubik|Rubik+Mono+One|Rokkitt" rel="stylesheet">
    </head>
@@ -22,24 +24,26 @@
          <h2>a poem by philip murray</h2>
      </div>
 
+
+     <div class="fill">
+       Filling space with this block.
+     </div>
+
      <!-- This entity is a row in the interactive - text paired with an image -->
      <div class="poemRow">
-         <div class="animated" id="section0">
+         <div id="section0" class="animated" >
           In Regla, just across the bay by launch,<br>
           The tiny church has a Negress Virgin,
           Although the child is white,
          </div>
 
-         <div class="animated" id="section0img">
+         <div id="section0img" class="animated" >
            <img src="mockPokemonApp.jpg">
         </div>
     </div>
     <!-- End row 1 -->
     <!-- The next row would be identical with different text and img - not sure if I need count up with the section0, section1, and then tie that into the loop? Halp -->
 
-    <div class="fill">
-      Filling space with this block.
-    </div>
 
    </body>
 
