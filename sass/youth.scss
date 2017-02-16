@@ -1,50 +1,66 @@
-body {
-  font-family: 'Roboto', sans-serif; }
+$page-color: #FFD800;
+$body-font-size: 14px;
 
-.inner, #innerIntro, #innerContent, #innerImageCaption {
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.inner {
   margin-left: 20%;
   margin-right: 20%;
-  line-height: 23px; }
+  line-height: 23px;
+}
 
 .innerHero img {
   width: 100vw;
-  margin-left: -8px; }
+  margin-left: -8px;
+}
 
 #innerTitle {
   font-family: 'Rokkitt', sans-serif;
   text-align: center;
-  color: #FFD800;
+  color: $page-color;
   font-size: 8em;
-  margin-top: -75px; }
+  margin-top: -75px;
+}
 
 #innerSub {
   text-align: center;
-  color: #FFD800;
+  color: $page-color;
   font-size: 4em;
-  margin-top: -110px; }
+  margin-top: -110px;
+}
 
 #innerIntro {
-  font-size: 14px;
-  font-weight: 900; }
+  @extend .inner;
+  font-size: $body-font-size;
+  font-weight: 900;
+}
 
 #innerContent {
+  @extend .inner;
   margin-top: 35px;
-  font-size: 14px; }
+  font-size: $body-font-size;
+}
 
 #innerImage {
   height: 50vw;
-  margin-left: -10px; }
+  margin-left: -10px;
+}
 
 .storyImage {
   display: flex;
   justify-content: space-around;
   margin-top: 25px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+}
 
 #innerImageCaption {
+  @extend .inner;
   margin-left: 20px;
   margin-right: 10%;
   margin-top: -5px;
-  font-size: 14px; }
+  font-size: $body-font-size;
+}
 
 /* -------------- Media Queries -------- */
