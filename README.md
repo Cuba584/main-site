@@ -11,17 +11,27 @@
   Or for your Documents folder, just replace `Desktop` with `Documents`.
 
 3. Clone this repository by running:
+
   `git clone https://github.com/Cuba584/main-site/`
+  
   And then cd into that folder:
+  
   `cd main-site`
   
 4. Install the NodeJS packages by running:
+
   `npm install`
   
-5. Retrieve a client_secret.json file from Lindsay to put in your directory.
+You are now set up to run the project locally, and unless you delete this folder on your computer, you won't have to follow these instructions again. If you want to set up your computer to also be able to use the Google Docs implementation, read on:
+  
+5. Retrieve a client_secret.json file from the Slack (you'll have to change the file extension to .json when you download it) to put in your directory.
 
-6. Run: 
+6. Log in to the Cuba 584 Gmail account (login details are in our Drive) in your browser.
+
+7. Run:
+
   ``node parse.js``
+  
   And follow the instructions.
 
 ##Running the site locally
