@@ -82,6 +82,7 @@ Sass (.scss) files are stored in the sass/ directory. Compiled CSS is in the pub
 The .scss files will compile into CSS files with matching names, so to create a new CSS file, just create a new .scss in the sass/ directory and run one of the compiling scripts from below.
 
 There are two options for Sass compiling:
+
 1. To simply compile all the files from the sass/ directory, run:
   `npm run sass`
 
