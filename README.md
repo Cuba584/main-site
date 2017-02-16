@@ -6,25 +6,25 @@
   - [Git](https://sourceforge.net/projects/git-osx-installer/)
   - [NodeJS](https://nodejs.org/en/download/)
   - [Heroku](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
-  
-2. Open terminal and `cd` into the folder of your choosing. For instance, if you start at root (~), to get to your Desktop, you would run: 
+
+2. Open terminal and `cd` into the folder of your choosing. For instance, if you start at root (~), to get to your Desktop, you would run:
   `cd Desktop`
   Or for your Documents folder, just replace `Desktop` with `Documents`.
 
 3. Clone this repository by running:
 
   `git clone https://github.com/Cuba584/main-site/`
-  
+
   And then cd into that folder:
-  
+
   `cd main-site`
-  
+
 4. Install the NodeJS packages by running:
 
   `npm install`
-  
+
 You are now set up to run the project locally, and unless you delete this folder on your computer, you won't have to follow these instructions again. If you want to set up your computer to also be able to use the Google Docs implementation, read on:
-  
+
 5. Retrieve a client_secret.json file from the Slack (you'll have to change the file extension to .json when you download it) to put in your directory.
 
 6. Log in to the Cuba 584 Gmail account (login details are in our Drive) in your browser.
@@ -32,16 +32,16 @@ You are now set up to run the project locally, and unless you delete this folder
 7. Run:
 
   ``node parse.js``
-  
+
   And follow the instructions.
 
 ##Running the site locally
 
-1. In the main-site directory, run: 
+1. In the main-site directory, run:
 
   `heroku local web`
 
-2. Open the browser of your choice and navigate to: 
+2. Open the browser of your choice and navigate to:
 
   `localhost:5000`
 
@@ -57,11 +57,11 @@ You are now set up to run the project locally, and unless you delete this folder
   `node parse.js`
 
 2. Add, commit and push the new JSON files:
-  
+
   `git add data/`
-  
+
   `git commit -m "updated articles"`
-  
+
   `git push origin master`
 
 ##Adding new inner pages
@@ -72,9 +72,22 @@ You are now set up to run the project locally, and unless you delete this folder
 
 3. On line 11 of parse.js, add a new key value pair to fileIds for your document.
 
-4. On line 9 of index.js, add the key from step 3. 
+4. On line 9 of index.js, add the key from step 3.
 
 5. Follow the "Updating Articles" instructions.
+
+##Editing CSS and running Sass
+
+Sass (.scss) files are stored in the sass/ directory. Compiled CSS is in the public/stylesheets/ directory.
+The .scss files will compile into CSS files with matching names, so to create a new CSS file, just create a new .scss in the sass/ directory and run one of the compiling scripts from below.
+
+There are two options for Sass compiling:
+1. To simply compile all the files from the sass/ directory, run:
+  `npm run sass`
+
+2. To have the .scss files compile and update the CSS files automatically as you edit the .scss, run:
+  `npm run sass-watch`
+  - To exit this mode, hit CTRL + C
 
 ##Notes for the developers
 - Remember that you can add specific files to the tree! Do not `git add -A` unless you're sure that you didn't change anything on your branch that will conflict with someone else's branch.
@@ -87,4 +100,4 @@ You are now set up to run the project locally, and unless you delete this folder
 
 - We are using Google Docs to pull in article content, through an [ArchieML](http://archieml.org/) [boilerplate by stuartathompson](https://github.com/stuartathompson/node-archieml-boilerplate).
 
-- SASS is coming soon!
+- We are also using [node-sass](https://github.com/sass/node-sass), a library that integrates node with LibSass.
