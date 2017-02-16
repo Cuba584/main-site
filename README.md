@@ -18,7 +18,11 @@
 4. Install the NodeJS packages by running:
   `npm install`
   
-5. Retrieve a client_secrets.json file from Lindsay to put in your directory.
+5. Retrieve a client_secret.json file from Lindsay to put in your directory.
+
+6. Run: 
+  ``node parse.js``
+  And follow the instructions.
 
 ##Running the site locally
 
