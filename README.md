@@ -5,7 +5,7 @@
 1. Install these dependencies if you don't already have them:
   - [Git](https://sourceforge.net/projects/git-osx-installer/)
   - [NodeJS](https://nodejs.org/en/download/)
-  - [Heroku](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
+  - [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
 
 2. Open terminal and `cd` into the folder of your choosing. For instance, if you start at root (~), to get to your Desktop, you would run:
   `cd Desktop`
