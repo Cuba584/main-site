@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-var sectionId = ["#section0", "#section0img"];
+var sectionId = ["#section0", "#section0img", "#section1", "#section1img", "#section2", "#section2img"];
 
 
 for (var i in sectionId){
