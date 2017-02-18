@@ -7,7 +7,7 @@ var sent = require('./parse.js');
 var fs = require('fs');
 
 var pages = [
-  'aging', 'art', 'skate', 'tourism'
+  'aging', 'art', 'skate', 'tourism', 'youth'
 ]
 
 app.set('port', (process.env.PORT || 5000));

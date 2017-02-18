@@ -11,12 +11,12 @@ body {
   line-height: 23px;
 }
 
-.innerHero img {
+.inner-hero img {
   width: 100vw;
   margin-left: -8px;
 }
 
-#innerTitle {
+#inner-title {
   font-family: 'Rokkitt', sans-serif;
   text-align: center;
   color: $page-color;
@@ -24,43 +24,67 @@ body {
   margin-top: -75px;
 }
 
-#innerSub {
+#inner-sub {
   text-align: center;
   color: $page-color;
   font-size: 4em;
   margin-top: -110px;
 }
 
-#innerIntro {
+#inner-intro {
   @extend .inner;
   font-size: $body-font-size;
   font-weight: 900;
 }
 
-#innerContent {
+#inner-content {
   @extend .inner;
   margin-top: 35px;
   font-size: $body-font-size;
 }
 
-#innerImage {
+#inner-image {
   height: 50vw;
   margin-left: -10px;
 }
 
-.storyImage {
+.story-image {
   display: flex;
   justify-content: space-around;
   margin-top: 25px;
   margin-bottom: 40px;
 }
 
-#innerImageCaption {
+#inner-image-caption {
   @extend .inner;
   margin-left: 20px;
   margin-right: 10%;
   margin-top: -5px;
   font-size: $body-font-size;
+}
+
+.pull-quote {
+  background-color: $page-color;
+  height: 150px;
+  width: 80vw;
+  margin-left: 225px;
+  color: white;
+  font-weight: bolder;
+  font-size: 2em;
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+
+}
+
+.pull-quote hr{
+  background-color: white;
+  height: 8px;
+  margin-right: 725px;
+  border-radius: 30px;
+  border-style: none;
+
 }
 
 /* -------------- Media Queries -------- */
