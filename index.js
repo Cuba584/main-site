@@ -28,10 +28,6 @@ app.get('/', function(request, response) {
   response.render('pages/index');
 });
 
-app.get('/pages/', function(request, response){
-  response.render('pages/404');
-});
-
 //gets the name of the page being requested and sends the relevant JSON file
 app.get('/pages/*', function(request, response){
   var lastIdx = request.originalUrl.lastIndexOf('/');
@@ -41,6 +37,5 @@ app.get('/pages/*', function(request, response){
 });
 
 app.get('*', function(request, response){
-
   response.render('pages/404');
 });
