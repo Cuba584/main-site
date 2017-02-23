@@ -37,18 +37,6 @@ app.get('/pages/:id', function(req, res){
 
 });
 
-//gets the name of the page being requested and sends the relevant JSON file
-// app.get('/pages/*', function(err, request, response){
-//
-//   console.log(request._parsedOriginalUrl.pathname);
-//   var lastIdx = request.originalUrl.lastIndexOf('/');
-//   console.log(lastIdx);
-//   var pageName = request.originalUrl.substring(lastIdx+1);
-//   console.log(pageName);
-//   var bodyData = JSON.parse(fs.readFileSync('./data/' + pageName + '.json'));
-//   response.render('pages/inner', {body: bodyData});
-// });
-
 app.get('*', function(request, response){
   response.render('pages/404');
 });
