@@ -1,8 +1,53 @@
-<div class="container" style="margin-top: 100px">
-<%for (i in body["text"]){ if (body["text"][i]["type"] == "text") {%>
-<p> <%=body["text"][i]["value"] %> </p>
-<% } else if (body["text"][i]["type"] == "image") {%>
-  <img src=' <%=body["text"][i]["value"]["src"] %> ' alt='
-  <%=body["text"][i]["value"]["alt"] %> '>
-<%} } %>
+
+<div class="inner-hero">
+  <img src=' <%=body["hero"]["src"] %> ' alt='
+  <%=body["hero"]["alt"] %> '>
 </div>
+
+<div id="inner-title">
+  <h1><%=body["header"]["text"] %></h1>
+  <h2 id="inner-sub"><%=body["header"]["subtitle"] %></h2>
+</div>
+
+<p id="inner-intro"> <%=body["lede"]["text"] %> </p>
+
+<h3 id="inner-subhead"> <%=body["subhead"]["text"] %> </h3>
+
+<div>
+<p>Reporters:</p>
+  <% for (r in body["reporters"]) {%>
+  <p><%= body["reporters"][r]["name"] %></p>
+  <% } %>
+<p>Videographers:</p>
+  <% for (v in body["reporters"]) {%>
+  <p><%= body["reporters"][v]["name"] %></p>
+  <% } %>
+<p>Designers:</p>
+  <% for (d in body["reporters"]) {%>
+  <p><%= body["reporters"][v]["name"] %></p>
+  <% } %>
+</div>
+
+<% for (i in body["text"]) {
+  if (body["text"][i]["type"] == "text") {%>
+<p> <%=body["text"][i]["value"] %> </p>
+
+<%} else if (body["text"][i]["type"] == "video") {%>
+    <iframe src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<% } else if (body["text"][i]["type"] == "interactive") {%>
+<p> <%=body["text"][i]["value"]["text"] %>  </p>
+
+<% } else if (body["text"][i]["type"] == "pullquote") {%>
+<div class="pull-quote">
+  <hr>
+  <p> <%=body["text"][i]["value"]["text"] %> </p>
+</div>
+
+<% } else if (body["text"][i]["type"] == "story-image") {%>
+<div class="story-image">
+  <img id="story-image" src=' <%=body["text"][i]["value"]["src"] %> ' alt='
+  <%=body["text"][i]["value"]["alt"] %> '>
+  <p id="inner-image-caption"><%=body["text"][i]["value"]["caption"] %></p>
+</div>
+<%} } %>
