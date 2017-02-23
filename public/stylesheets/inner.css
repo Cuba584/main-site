@@ -1,0 +1,90 @@
+body {
+  font-family: 'Domine', sans-serif; }
+
+.inner, #inner-title, #inner-content, #inner-subhead, #inner-image-caption {
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 23px; }
+
+.inner-hero img {
+  width: 100vw; }
+
+#inner-title {
+  font-family: 'Rokkitt', sans-serif;
+  text-align: center;
+  background-color: #0DC7C9;
+  color: #ffffff;
+  font-size: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -75px;
+  z-index: 1;
+  position: relative; }
+
+#inner-title h1 {
+  margin-bottom: 20px; }
+
+#inner-sub {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px; }
+
+#inner-intro {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  margin-left: 330px;
+  margin-right: 330px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 23px; }
+
+#inner-content {
+  margin-top: 35px;
+  font-size: 14px; }
+
+#inner-subhead {
+  color: #0DC7C9;
+  font-size: 22px;
+  margin-bottom: -15px;
+  font-family: 'Montserrat', sans-serif; }
+
+#inner-image {
+  height: 50vw;
+  margin-left: -10px; }
+
+.story-image {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  margin-bottom: 40px; }
+
+#inner-image-caption {
+  margin-left: 20px;
+  margin-right: 10%;
+  margin-top: -5px;
+  font-size: 14px; }
+
+.pull-quote {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #0DC7C9;
+  height: 150px;
+  width: 80vw;
+  margin-left: 225px;
+  color: white;
+  font-weight: bolder;
+  font-size: 2em;
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 30px; }
+
+.pull-quote hr {
+  background-color: white;
+  height: 8px;
+  margin-right: 725px;
+  border-radius: 30px;
+  border-style: none; }
+
+/* -------------- Media Queries -------- */

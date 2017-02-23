@@ -1,10 +1,10 @@
 /* ------------------ Global Styles ------------ */
 body {
-  font-family: sans-serif;
-  color: blue; }
+  font-family: 'Domine', sans-serif;
+  color: #000; }
 
 /* ------------------  Header ------------------ */
-.header-footer, header, footer {
+header {
   text-align: left;
   padding: 1rem; }
 
@@ -22,4 +22,6 @@ footer ul {
   list-style-type: none; }
 
 footer {
+  text-align: left;
+  padding: 1rem;
   background-color: #efefef; }

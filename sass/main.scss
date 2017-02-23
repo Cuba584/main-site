@@ -1,20 +1,21 @@
 /* ------------------ Global Styles ------------ */
 $body-color: blue;
+$main-text-color: #000;
 
 body {
-  font-family: sans-serif;
-  color: $body-color;
+  font-family: 'Domine', sans-serif;
+  color: $main-text-color;
 }
 
 /* ------------------  Header ------------------ */
 
-.header-footer {
+@mixin header-footer {
   text-align: left;
   padding: 1rem;
 }
 
 header {
-  @extend .header-footer;
+  @include header-footer;
 }
 
 
@@ -43,6 +44,6 @@ footer ul {
 }
 
 footer {
-  @extend .header-footer;
+  @include header-footer;
   background-color: #efefef;
 }
