@@ -1,15 +1,52 @@
 {
-  "text": [
+  "hero": {
+    "src": "https://img.holidayplace.co.uk/gallery/content/113015/responsive/01-700.jpg",
+    "alt": "Tourism Hero"
+  },
+  "header": {
+    "text": "Youth Culture/Sports",
+    "subtitle": "A journey across race, economics, and water"
+  },
+  "subhead": {
+    "text": "A broken down ferry"
+  },
+  "lede": {
+    "text": "Leonardo’s daily journey between Regla and Old Havana provides some much-needed context to the myriad stories about Cuba’s international tourist boom."
+  },
+  "reporters": [
     {
-      "type": "image",
-      "value": {
-        "src": "http://images1.miaminewtimes.com/imager/u/original/8238516/alexandergonzalezborrego_.jpg",
-        "alt": "Skate Culture"
-      }
+      "name": "JOHN DOE"
     },
+    {
+      "name": "JANE DOE"
+    }
+  ],
+  "videographers": [
+    {
+      "name": "JILL DOE"
+    },
+    {
+      "name": "JORDAN DOE"
+    }
+  ],
+  "designers": [
+    {
+      "name": "JOSEPH DOE"
+    },
+    {
+      "name": "JENNA DOE"
+    }
+  ],
+  "text": [
     {
       "type": "text",
       "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum nibh imperdiet dolor maximus tempor. Morbi at dui et sem semper rhoncus eget vel ex. Nulla ante mi, maximus quis risus ut, egestas gravida lacus. Donec ornare finibus lectus gravida egestas. Cras lobortis ultricies massa, id luctus risus semper vitae. Suspendisse sodales mauris sed ex malesuada porta. Praesent a commodo mi, ut convallis lacus. Vivamus rhoncus velit vel arcu efficitur, id blandit libero dictum. Etiam vitae velit turpis. Nunc quis imperdiet erat. Nulla sodales eros at erat lacinia eleifend. Aliquam erat volutpat. Maecenas enim lectus, facilisis ac suscipit a, dictum nec dui. Sed in lectus aliquet, tristique sem id, convallis neque."
+    },
+    {
+      "type": "video",
+      "value": {
+        "id": "200984993"
+      }
     },
     {
       "type": "text",
@@ -20,6 +57,12 @@
       "value": "Etiam condimentum porta quam ut luctus. Vestibulum condimentum, libero et efficitur faucibus, lacus erat luctus elit, a commodo turpis tellus nec odio. Cras at dui est. Pellentesque eget orci tortor. Aliquam sagittis augue vitae mi imperdiet, sit amet eleifend nisl egestas. Duis elementum porttitor enim ornare pretium. Suspendisse aliquam elit vel libero ultricies efficitur. Nam non vestibulum felis. Sed cursus nec justo sit amet eleifend. Etiam placerat, lectus ut semper sodales, risus diam mollis mi, accumsan sodales arcu lacus id nulla. Integer erat ante, dapibus a risus volutpat, vestibulum pulvinar orci. Vivamus condimentum cursus malesuada. Sed justo sem, aliquam sit amet tincidunt porttitor, posuere in justo. Nam consequat ipsum in lacinia aliquet. Nulla est neque, aliquet et laoreet consectetur, imperdiet a nisi."
     },
     {
+      "type": "pullquote",
+      "value": {
+        "text": "Donec in euismod lectus, eget sollicitudin ante. Cras porta sapien quis finibus pulvinar."
+      }
+    },
+    {
       "type": "text",
       "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
     },
@@ -28,12 +71,26 @@
       "value": "Suspendisse potenti. Quisque luctus faucibus dolor quis egestas. Integer fermentum arcu nulla, id finibus diam molestie condimentum. Aenean ullamcorper ultrices tellus quis vulputate. Proin dictum sem nisi, id iaculis mauris vehicula vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero arcu, bibendum ac arcu non, tincidunt ullamcorper leo."
     },
     {
+      "type": "image",
+      "value": {
+        "src": "https://img.holidayplace.co.uk/gallery/content/113015/responsive/01-700.jpg",
+        "alt": "Tourism",
+        "caption": "Morbi et accumsan ex. Mauris ac elit blandit mi sollicitudin interdum sit amet non mi. Pellentesque nunc lectus, laoreet at auctor at, scelerisque ut odio."
+      }
+    },
+    {
       "type": "text",
       "value": "Quisque ultrices, arcu sed lobortis ullamcorper, purus ex egestas justo, at faucibus orci diam et quam. Nullam volutpat ullamcorper arcu eu imperdiet. Maecenas euismod libero eget pharetra pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra neque ut magna semper, id dictum eros consequat. Nullam mollis neque ac odio pellentesque sagittis. Proin ornare nunc sed velit lobortis, ut convallis sapien efficitur. Donec elementum felis ut ligula convallis, vel faucibus arcu tempor. Aenean mollis id ante sed ornare. Mauris non porta magna, eu lacinia mauris. Nulla facilisi."
     },
     {
       "type": "text",
       "value": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec dapibus mi et rutrum hendrerit. Quisque orci nisl, ornare id eros at, posuere accumsan purus. Donec dignissim magna id tincidunt faucibus. Proin venenatis justo ut metus vehicula sagittis. Nulla facilisi. Nunc hendrerit ornare justo, in imperdiet ligula pharetra quis. Duis mauris velit, rutrum mollis vestibulum ac, maximus sed purus."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "text": "this is an interactive description."
+      }
     },
     {
       "type": "text",

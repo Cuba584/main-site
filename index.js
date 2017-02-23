@@ -1,13 +1,14 @@
 var express = require('express');
 var app = express();
 var ejs = require('ejs');
+var bodyParser = require('body-parser');
 var archieml = require('archieml');
 var parsed = archieml.load('key: value');
 var sent = require('./parse.js');
 var fs = require('fs');
 
 var pages = [
-  'aging', 'art', 'skate', 'tourism', 'youth'
+  'aging', 'art', 'skate', 'tourism', 'youth', 'entre'
 ]
 
 app.set('port', (process.env.PORT || 5000));
@@ -28,13 +29,25 @@ app.get('/', function(request, response) {
   response.render('pages/index');
 });
 
-//gets the name of the page being requested and sends the relevant JSON file
-app.get('/pages/*', function(request, response){
-  var lastIdx = request.originalUrl.lastIndexOf('/');
-  var pageName = request.originalUrl.substring(lastIdx+1);
+app.get('/pages/:id', function(req, res){
+  console.log(req.params.id);
+  var pageName = req.params.id;
   var bodyData = JSON.parse(fs.readFileSync('./data/' + pageName + '.json'));
-  response.render('pages/inner', {body: bodyData});
+  res.render('pages/inner', {body: bodyData});
+
 });
+
+//gets the name of the page being requested and sends the relevant JSON file
+// app.get('/pages/*', function(err, request, response){
+//
+//   console.log(request._parsedOriginalUrl.pathname);
+//   var lastIdx = request.originalUrl.lastIndexOf('/');
+//   console.log(lastIdx);
+//   var pageName = request.originalUrl.substring(lastIdx+1);
+//   console.log(pageName);
+//   var bodyData = JSON.parse(fs.readFileSync('./data/' + pageName + '.json'));
+//   response.render('pages/inner', {body: bodyData});
+// });
 
 app.get('*', function(request, response){
   response.render('pages/404');

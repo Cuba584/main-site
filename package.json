@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "archieml": "^0.4.2",
+    "body-parser": "^1.16.1",
     "chalk": "^1.1.3",
     "ejs": "2.4.1",
     "express": "4.13.3",
