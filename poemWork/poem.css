@@ -1,0 +1,31 @@
+body{
+  font-size: 1.5em;
+  /* -------Ignore this font, I don't like it  -------*/
+  font-family: 'Rokkitt', sans-serif;
+  text-align: right;
+}
+
+img {
+  width: 50vw;
+}
+
+/* -This div just fills up the page so I can see that the scroll is working.-*/
+.fill{
+  height: 300px;
+  background-color: blue;
+  width: 100vw;
+  margin-left: -8px;
+  margin-top: 5%;
+  padding-top: 50%;
+  text-align: center;
+}
+
+#section0{
+  margin-right: 5vw;
+}
+
+.poemRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
