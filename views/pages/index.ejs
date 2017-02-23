@@ -5,8 +5,44 @@
 </head>
 
 <body>
-  <% include ../partials/nav.ejs %>
-  
+    <% include ../partials/nav.ejs %>
+
+  <div id="fullpage" class="fullpage-wrapper">
+  	<div class="section" id="section0">
+  		<video id="my-video" loop muted data-autoplay>
+  			<source src="/assets/flowers.mp4" type="video/mp4">
+  			<source src="/assets/flowers.webm" type="video/webm">
+  		</video>
+  		<div class="layer">
+  			<div class="arrow bounce">
+          <i class="fa fa-angle-down fa-5x" aria-hidden="true"></i>
+        </div>
+  		</div>
+  	</div>
+  	<div class="section" id="section1">
+      <h1 class="title">Cuba's</h1>
+      <h1 class="title">NEWWAVE</h1>
+      <p id="#subtitle">
+        A look at the future for Cuba through the eyes of five Havana youth.
+      </p>
+
+  <div class="flex-container">
+    <div class="flex-item">
+      <p class="box-title">Agency of Rap</p>
+    </div>
+    <div class="flex-item">
+      <p class="box-title">Digital Entrepreneurs</p></div>
+    <div class="flex-item">
+      <p class="box-title">Across the Harbor </p></div>
+    <div class="flex-item"><p class="box-title">A New Understanding</p></div>
+    <div class="flex-item"><p class="box-title">Skater Girl</p></div>
+  </div>
+
+
+    </div>
+  </div>
+
+
   <% include ../partials/footer.ejs %>
 
 </body>
