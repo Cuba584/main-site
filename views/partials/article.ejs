@@ -1,29 +1,44 @@
-<%for (i in body["text"])
-{if (body["text"][i]["type"] == "hero") {%>
-  <div class="inner-hero">
-    <img src=' <%=body["text"][i]["value"]["src"] %> ' alt='
-    <%=body["text"][i]["value"]["alt"] %> '>
-  </div>
 
-<% } else if (body["text"][i]["type"] == "header") {%>
-  <div id="inner-title">
-    <h1><%=body["text"][i]["value"]["text"] %></h1>
-    <h2 id="inner-sub"><%=body["text"][i]["value"]["subtitle"] %></h2>
-  </div>
+<div class="inner-hero">
+  <img src=' <%=body["hero"]["src"] %> ' alt='
+  <%=body["hero"]["alt"] %> '>
+</div>
 
-<% } else if (body["text"][i]["type"] == "lede") {%>
-<p id="inner-intro"> <%=body["text"][i]["value"]["text"] %> </p>
+<div id="inner-title">
+  <h1><%=body["header"]["text"] %></h1>
+  <h2 id="inner-sub"><%=body["header"]["subtitle"] %></h2>
+</div>
 
-<% } else if (body["text"][i]["type"] == "text") {%>
+<p id="inner-intro"> <%=body["lede"]["text"] %> </p>
+
+<h3 id="inner-subhead"> <%=body["subhead"]["text"] %> </h3>
+
+<div>
+<p>Reporters:</p>
+  <% for (r in body["reporters"]) {%>
+  <p><%= body["reporters"][r]["name"] %></p>
+  <% } %>
+<p>Videographers:</p>
+  <% for (v in body["reporters"]) {%>
+  <p><%= body["reporters"][v]["name"] %></p>
+  <% } %>
+<p>Designers:</p>
+  <% for (d in body["reporters"]) {%>
+  <p><%= body["reporters"][v]["name"] %></p>
+  <% } %>
+</div>
+
+<% for (i in body["text"]) {
+  if (body["text"][i]["type"] == "text") {%>
 <p> <%=body["text"][i]["value"] %> </p>
 
 <%} else if (body["text"][i]["type"] == "video") {%>
     <iframe src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <% } else if (body["text"][i]["type"] == "interactive") {%>
-<p> <%=body["text"][i]["value"]["text"] %> </p>
+<p> <%=body["text"][i]["value"]["text"] %>  </p>
 
-<% } else if (body["text"][i]["type"] == "pull-quote") {%>
+<% } else if (body["text"][i]["type"] == "pullquote") {%>
 <div class="pull-quote">
   <hr>
   <p> <%=body["text"][i]["value"]["text"] %> </p>
