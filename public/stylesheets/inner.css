@@ -1,55 +1,53 @@
 body {
-  font-family: 'Domine', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  color: #333; }
 
-.inner, #inner-title, #inner-content, #inner-subhead, #inner-image-caption {
-  margin-left: 20%;
-  margin-right: 20%;
-  line-height: 23px; }
+.inner, .inner-title, #inner-intro, #inner-content, #inner-subhead, #inner-image-caption {
+  line-height: 25pt;
+  margin-left: 280px;
+  margin-right: 280px; }
 
 .inner-hero img {
   width: 100vw; }
 
-#inner-title {
-  font-family: 'Rokkitt', sans-serif;
-  text-align: center;
+.inner-title {
   background-color: #0DC7C9;
   color: #ffffff;
-  font-size: 35px;
+  font-family: 'Rokkitt', sans-serif;
+  font-size: 31pt;
+  margin-top: -75px;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: -75px;
+  text-align: center;
   z-index: 1;
   position: relative; }
 
-#inner-title h1 {
+.inner-title h1 {
   margin-bottom: 20px; }
 
 #inner-sub {
-  text-align: center;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px; }
+  font-size: 15pt;
+  text-align: center; }
 
 #inner-intro {
   font-family: 'Roboto', sans-serif;
-  font-size: 13px;
-  margin-left: 330px;
-  margin-right: 330px;
-  text-align: center;
-  font-size: 14px;
+  font-size: 10pt;
   font-weight: 900;
-  line-height: 23px; }
+  text-align: center; }
 
 #inner-content {
-  margin-top: 35px;
-  font-size: 14px; }
+  font-size: 10pt;
+  margin-top: 35px; }
 
 #inner-subhead {
   color: #0DC7C9;
-  font-size: 22px;
-  margin-bottom: -15px;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20pt;
+  margin-bottom: -15px; }
 
+/* ------------- Left-aligned image style -------*/
 #inner-image {
   height: 50vw;
   margin-left: -10px; }
@@ -57,24 +55,27 @@ body {
 .story-image {
   display: flex;
   justify-content: space-around;
-  margin-top: 25px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  margin-top: 25px; }
 
 #inner-image-caption {
+  font-size: 10pt;
   margin-left: 20px;
-  margin-right: 10%;
-  margin-top: -5px;
-  font-size: 14px; }
+  margin-right: 20px;
+  margin-top: -5px; }
 
+/* ----------------  Pull quote style -------------- */
 .pull-quote {
   font-family: 'Montserrat', sans-serif;
   background-color: #0DC7C9;
+  font-size: 28pt;
+  font-weight: bolder;
   height: 150px;
   width: 80vw;
   margin-left: 225px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   color: white;
-  font-weight: bolder;
-  font-size: 2em;
   padding-top: 50px;
   padding-left: 25px;
   padding-right: 25px;
@@ -82,9 +83,9 @@ body {
 
 .pull-quote hr {
   background-color: white;
-  height: 8px;
-  margin-right: 725px;
   border-radius: 30px;
-  border-style: none; }
+  border-style: none;
+  height: 8px;
+  margin-right: 725px; }
 
 /* -------------- Media Queries -------- */
