@@ -29,6 +29,10 @@ gulp.task('connect', function(){
     response.render('pages/index');
   });
 
+  app.get('/about', function(request, response){
+    response.render('pages/about');
+  });
+
   app.get('/pages/:id', function(req, res){
     console.log(req.params.id);
     var pageName = req.params.id;

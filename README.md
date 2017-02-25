@@ -6,6 +6,8 @@
   - [Git](https://sourceforge.net/projects/git-osx-installer/)
   - [NodeJS](https://nodejs.org/en/download/)
   - [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
+  - Gulp CLI
+    - to install, run ``npm install -g gulp-cli`` AFTER you install NodeJS
 
 2. Open terminal and `cd` into the folder of your choosing. For instance, if you start at root (~), to get to your Desktop, you would run:
   `cd Desktop`
@@ -39,7 +41,9 @@ You are now set up to run the project locally, and unless you delete this folder
 
 1. In the main-site directory, run:
 
-  `heroku local web`
+  `gulp`
+  
+  This command will automatically run the local server and compile your SASS as you save your .scss files. Note that you will have to refresh your browser after your save your files to see your changes.
 
 2. Open the browser of your choice and navigate to:
 
@@ -81,14 +85,8 @@ You are now set up to run the project locally, and unless you delete this folder
 Sass (.scss) files are stored in the sass/ directory. Compiled CSS is in the public/stylesheets/ directory.
 The .scss files will compile into CSS files with matching names, so to create a new CSS file, just create a new .scss in the sass/ directory and run one of the compiling scripts from below.
 
-There are two options for Sass compiling:
-
-1. To simply compile all the files from the sass/ directory, run:
-  `npm run sass`
-
-2. To have the .scss files compile and update the CSS files automatically as you edit the .scss, run:
-  `npm run sass-watch`
-  - To exit this mode, hit CTRL + C
+To compile all the files from the sass/ directory, run:
+  `gulp sass`
 
 ##Notes for the developers
 - Remember that you can add specific files to the tree! Do not `git add -A` unless you're sure that you didn't change anything on your branch that will conflict with someone else's branch.
@@ -102,3 +100,5 @@ There are two options for Sass compiling:
 - We are using Google Docs to pull in article content, through an [ArchieML](http://archieml.org/) [boilerplate by stuartathompson](https://github.com/stuartathompson/node-archieml-boilerplate).
 
 - We are also using [node-sass](https://github.com/sass/node-sass), a library that integrates node with LibSass.
+
+- We are using [Gulp](http://gulpjs.com/) for automating development actions.
