@@ -20,6 +20,8 @@
     "fullpage.js": "^2.9.2",
     "google-auth-library": "^0.10.0",
     "googleapis": "^16.1.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
     "json": "^9.0.4",
     "node-sass": "^4.5.0"
   },
