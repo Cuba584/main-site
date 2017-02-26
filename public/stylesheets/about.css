@@ -1,0 +1,12 @@
+.team-nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none; }
+  .team-nav ul li {
+    padding-bottom: 2px; }
+
+.team-nav .active {
+  border-bottom: 1px solid #95989A; }
+
+.hero img {
+  width: 100vw; }

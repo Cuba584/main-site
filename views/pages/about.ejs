@@ -2,6 +2,7 @@
 <html>
 <head>
   <% include ../partials/header.ejs %>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/about.css">
 </head>
 
 <body>
@@ -9,10 +10,10 @@
   <% include ../partials/nav.ejs %>
 
   <div class="hero">
-    <img alt="Team Photo" src="/assets/images/mockTeamPhoto.jpeg">
+    <img alt="Team Photo" src="/assets/images/mockTeamPhoto.jpg">
   </div>
 
-  <h2>Students in UNC-Chapel Hill’s School of Media and Journalism are honored to tell the stories of change in Havana, Cuba.</h2>
+  <p>ABOUT US</p>
 
   <div class="divider">
     <img alt="Logo" src="/assets/images/logo.png">
@@ -32,15 +33,23 @@
     <p>Meet the team</p>
   </div>
 
-  <div id="team-nav">
+  <div class="team-nav">
     <ul>
-      <li>Everyone</li>
-      <li>Videographers</li>
-      <li>Reporters</li>
-      <li>Designers</li>
-      <li>Developers</li>
-      <li>Coaches</li>
+      <li class="everyone">Everyone</li>
+      <li class="videographers">Videographers</li>
+      <li class="reporters">Reporters</li>
+      <li class="designers">Designers</li>
+      <li class="developers">Developers</li>
+      <li class="coaches">Coaches</li>
     </ul>
+  </div>
+
+  <div id="team-photos">
+    <img class="videographer" src="/assets/images/mockAlma.jpg">
+    <img class="reporter" src="/assets/images/mockLindsay.jpg">
+    <img class="designer" src="/assets/images/mockKate.jpg">
+    <img class="developer" src="/assets/images/mockPeyton.jpg">
+    <img class="coach" src="/assets/images/mockMC.jpg">
   </div>
 
   <div id="special-thanks">
@@ -50,5 +59,6 @@
   </div>
 
   <% include ../partials/footer.ejs %>
+  <script src="/js/about.js"></script>
 </body>
 </html>
