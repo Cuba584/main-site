@@ -1,20 +1,23 @@
 <div class="container inner">
+
   <section id="top-fold">
 
     <div class="inner-hero">
       <img src=' <%=body["hero"]["src"] %> ' alt='
       <%=body["hero"]["alt"] %> '>
     <div class="center-wrapper">
-      <div id="inner-title-box">
+      <div class="<%= body["master-class"]["class"] %>" id="inner-title-box">
         <h1><%=body["header"]["text"] %></h1>
-        <h2><%=body["header"]["subtitle"] %></h2>
+        <h3><%=body["header"]["subtitle"] %></h3>
       </div>
     </div>
     </div>
 
 
 
-    <h3 id="inner-intro"> <%=body["lede"]["text"] %> </h3>
+    <div class="center-wrapper">
+      <p id="inner-intro"> <%=body["lede"]["text"] %> </p>
+    </div>
 
     <div class="byline-box center-wrapper">
       <div class="byline-item">
