@@ -8,8 +8,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "sass": "node_modules/.bin/node-sass sass/ -o public/stylesheets/",
-    "sass-watch": "node_modules/.bin/node-sass -w sass/ -o public/stylesheets/"
+    "sass": "node_modules/.bin/node-sass sass/ -o public/stylesheets/"
   },
   "dependencies": {
     "archieml": "^0.4.2",

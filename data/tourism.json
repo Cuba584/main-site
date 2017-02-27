@@ -1,40 +1,34 @@
 {
+  "master-class": {
+    "class": "harbor"
+  },
   "hero": {
-    "src": "https://img.holidayplace.co.uk/gallery/content/113015/responsive/01-700.jpg",
-    "alt": "Tourism Hero"
+    "src": "/assets/images/across_test.png",
+    "alt": "Across the Harbor Hero"
   },
   "header": {
     "text": "Across the Harbor",
     "subtitle": "A journey across race, economics, and water"
-  },
-  "subhead": {
-    "text": "A broken down ferry"
   },
   "lede": {
     "text": "Leonardo’s daily journey between Regla and Old Havana provides some much-needed context to the myriad stories about Cuba’s international tourist boom."
   },
   "reporters": [
     {
-      "name": "JOHN DOE"
-    },
-    {
-      "name": "JANE DOE"
+      "name": "Kiane Cole"
     }
   ],
   "videographers": [
     {
-      "name": "JILL DOE"
+      "name": "Veasey Conway"
     },
     {
-      "name": "JORDAN DOE"
+      "name": "Rob Gourley"
     }
   ],
   "designers": [
     {
-      "name": "JOSEPH DOE"
-    },
-    {
-      "name": "JENNA DOE"
+      "name": "Peyton Chance"
     }
   ],
   "text": [
@@ -51,6 +45,12 @@
     {
       "type": "text",
       "value": "Donec gravida vestibulum nisl ut ullamcorper. Donec efficitur efficitur feugiat. Pellentesque eu turpis sit amet lectus interdum scelerisque. Nam a mi non ante auctor molestie. Duis ut faucibus ligula, sed viverra magna. Duis id lacus posuere, hendrerit magna vitae, fringilla lectus. Sed pulvinar suscipit convallis."
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "A broken down ferry"
+      }
     },
     {
       "type": "text",

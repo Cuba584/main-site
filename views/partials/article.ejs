@@ -1,53 +1,78 @@
+<div class="container inner">
 
-<div class="inner-hero">
-  <img src=' <%=body["hero"]["src"] %> ' alt='
-  <%=body["hero"]["alt"] %> '>
+  <section id="top-fold">
+
+    <div class="inner-hero">
+      <img src=' <%=body["hero"]["src"] %> ' alt='
+      <%=body["hero"]["alt"] %> '>
+    <div class="center-wrapper">
+      <div class="<%= body["master-class"]["class"] %>" id="inner-title-box">
+        <h1><%=body["header"]["text"] %></h1>
+        <h3><%=body["header"]["subtitle"] %></h3>
+      </div>
+    </div>
+    </div>
+
+
+
+    <div class="center-wrapper">
+      <p id="inner-intro"> <%=body["lede"]["text"] %> </p>
+    </div>
+
+    <div class="byline-box center-wrapper">
+      <div class="byline-item">
+      <p class="byline-head">written by:</p>
+        <% for (r in body["reporters"]) {%>
+        <p><%= body["reporters"][r]["name"] %></p>
+        <% } %>
+      </div>
+      <div class="byline-item">
+      <p class="byline-head">photos by:</p>
+        <% for (v in body["videographers"]) {%>
+        <p><%= body["videographers"][v]["name"] %></p>
+        <% } %>
+      </div>
+      <div class="byline-item">
+      <p class="byline-head">design by:</p>
+        <% for (d in body["designers"]) {%>
+        <p><%= body["designers"][d]["name"] %></p>
+        <% } %>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="center-wrapper" id="body">
+    <div class="max-width">
+    <% for (i in body["text"]) {
+      if (body["text"][i]["type"] == "text") {%>
+    <p> <%=body["text"][i]["value"] %> </p>
+
+    <%} else if (body["text"][i]["type"] == "subhead") {%>
+
+      <h4><%=body["text"][i]["value"]["text"] %></h4>
+
+    <%} else if (body["text"][i]["type"] == "video") {%>
+        <iframe src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+    <% } else if (body["text"][i]["type"] == "interactive") {%>
+    <p> <%=body["text"][i]["value"]["text"] %>  </p>
+
+    <% } else if (body["text"][i]["type"] == "pullquote") {%>
+    <div class="pull-quote-box">
+
+      <h3 class="pull-quote">
+        <hr> <span><%=body["text"][i]["value"]["text"] %></span> </h3>
+    </div>
+
+    <% } else if (body["text"][i]["type"] == "story-image") {%>
+      <figure>
+        <img class="inner-image" src=' <%=body["text"][i]["value"]["src"] %> ' alt='
+        <%=body["text"][i]["value"]["alt"] %> '>
+        <figcaption><%=body["text"][i]["value"]["caption"] %></figcaption>
+      </figure>
+    <%} } %>
+  </div>
+  </section>
+
 </div>
-
-<div id="inner-title">
-  <h1><%=body["header"]["text"] %></h1>
-  <h2 id="inner-sub"><%=body["header"]["subtitle"] %></h2>
-</div>
-
-<p id="inner-intro"> <%=body["lede"]["text"] %> </p>
-
-<h3 id="inner-subhead"> <%=body["subhead"]["text"] %> </h3>
-
-<div>
-<p>Reporters:</p>
-  <% for (r in body["reporters"]) {%>
-  <p><%= body["reporters"][r]["name"] %></p>
-  <% } %>
-<p>Videographers:</p>
-  <% for (v in body["reporters"]) {%>
-  <p><%= body["reporters"][v]["name"] %></p>
-  <% } %>
-<p>Designers:</p>
-  <% for (d in body["reporters"]) {%>
-  <p><%= body["reporters"][v]["name"] %></p>
-  <% } %>
-</div>
-
-<% for (i in body["text"]) {
-  if (body["text"][i]["type"] == "text") {%>
-<p> <%=body["text"][i]["value"] %> </p>
-
-<%} else if (body["text"][i]["type"] == "video") {%>
-    <iframe src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<% } else if (body["text"][i]["type"] == "interactive") {%>
-<p> <%=body["text"][i]["value"]["text"] %>  </p>
-
-<% } else if (body["text"][i]["type"] == "pullquote") {%>
-<div class="pull-quote">
-  <hr>
-  <p> <%=body["text"][i]["value"]["text"] %> </p>
-</div>
-
-<% } else if (body["text"][i]["type"] == "story-image") {%>
-<div class="story-image">
-  <img id="story-image" src=' <%=body["text"][i]["value"]["src"] %> ' alt='
-  <%=body["text"][i]["value"]["alt"] %> '>
-  <p id="inner-image-caption"><%=body["text"][i]["value"]["caption"] %></p>
-</div>
-<%} } %>

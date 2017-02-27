@@ -1,113 +1,162 @@
 $page-color: #0DC7C9;
-$body-font-size: 14px;
+$dark-gray: #333;
+$montserrat: 'Montserrat', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
+$arts-color: #C71731;
+$entre-color: #29D172;
+$youth-color: #A84CD4;
+$aging-color: #00C4C7;
+$harbor-color: #FFB11A;
+
+@mixin config-page-colors($prefix, $colors...) {
+    @each $i in $colors {
+        .#{$prefix}#{nth($i, 1)} {
+            background-color: nth($i, 2);
+        }
+    }
+}
+@include config-page-colors('',
+    'arts'   #C71731,
+    'entre' #29D172,
+    'youth' #A84CD4,
+    'aging' #00C4C7,
+    'harbor' #FFB11A
+);
+
+// @each $page in 'arts' 'entre' 'youth' 'aging'
+// 'harbor' {
+//   .#{$page}{
+//     background-color:#{$page}-color;
+//   }
+// }
+
+/* font sizing from http://typecast.com/blog/a-more-modern-scale-for-web-typography because I have no idea what font sizes we need to have :) :/ */
+html {font-size:.7em;}
 
 body {
-  font-family: 'Domine', sans-serif;
-}
-
-// ---- This sets margins for most inner page content -----
-.inner {
-  margin-left: 20%;
-  margin-right: 20%;
-  line-height: 23px;
-}
-
-.inner-hero img {
-  width: 100vw;
-}
-
-#inner-title {
-  @extend .inner;
-  font-family: 'Rokkitt', sans-serif;
-  text-align: center;
-  background-color: $page-color;
-  color: #ffffff;
-  font-size: 35px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: -75px;
-  z-index: 1; position:relative;
-}
-
-#inner-title h1{
-  margin-bottom: 20px;
-}
-
-#inner-sub {
-  text-align: center;
-  color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-}
-
-#inner-intro {
-  font-family: 'Roboto', sans-serif;
-  font-size: 13px;
-  margin-left: 330px;
-  margin-right: 330px;
-  text-align: center;
-  font-size: $body-font-size;
-  font-weight: 900;
-  line-height: 23px;
-}
-
-#inner-content {
-  @extend .inner;
-  margin-top: 35px;
-  font-size: $body-font-size;
-}
-
-#inner-subhead {
-  @extend .inner;
-  color: $page-color;
-  font-size: 22px;
-  margin-bottom: -15px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-#inner-image {
-  height: 50vw;
-  margin-left: -10px;
-}
-
-.story-image {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 25px;
-  margin-bottom: 40px;
-}
-
-#inner-image-caption {
-  @extend .inner;
-  margin-left: 20px;
-  margin-right: 10%;
-  margin-top: -5px;
-  font-size: $body-font-size;
-}
-
-.pull-quote {
-  font-family: 'Montserrat', sans-serif;
-  background-color: $page-color;
-  height: 150px;
-  width: 80vw;
-  margin-left: 225px;
-  color: white;
-  font-weight: bolder;
-  font-size: 2em;
-  padding-top: 50px;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 30px;
-
-}
-
-.pull-quote hr{
+  font-size: 1.375em;
   background-color: white;
-  height: 8px;
-  margin-right: 725px;
-  border-radius: 30px;
-  border-style: none;
-
+  font-family: $roboto;
+  font-weight: 300;
+  line-height: 1.45;
+  color: #333;
+  margin:0;
 }
 
-/* -------------- Media Queries -------- */
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  // margin: 1.414em 0 0.5em;
+  font-family: $montserrat;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3em;
+  font-weight:500;
+}
+
+h2 {font-size: 2.25em;}
+
+h3 {font-size: 1.75em;}
+
+h4 {font-size: 1.125em;}
+
+small, .font_small {font-size: 0.75em;}
+
+.inner {
+
+/*------standard classes------*/
+  .max-width{
+    max-width:800px;
+  }
+
+  .center-wrapper{
+    display: flex;
+    justify-content: center;
+  }
+
+/*------page ids------*/
+
+
+  #inner-intro { /*inherits from h3*/
+    text-align:center;
+    max-width:40%;
+    font-weight:300;
+  }
+
+  .inner-hero img {
+    width:100vw;
+  }
+
+  .byline-box{
+    display:flex;
+
+    .byline-item{
+      text-align:center;
+      margin-left:10px;
+    }
+
+    &:nth-child(1){
+      margin-left:0;
+    }
+
+  }
+
+  #inner-image-caption {
+
+  }
+
+  figure {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+
+  .pull-quote-box{
+      width:100vw;
+      background-color: $page-color;
+  }
+
+  .pull-quote span::before{
+    content: '\201C';
+  }
+
+  .pull-quote span::after{
+    content: '\201D';
+  }
+  .pull-quote {
+    font-family: $montserrat;
+    width: 70vw;
+    color: white;
+    padding:.8em;
+    margin:0;
+    display:inline-block;
+  }
+
+  .pull-quote hr{
+    background-color: white;
+    height: 8px;
+    margin-right: 725px;
+    border-radius: 30px;
+    border-style: none;
+  }
+}
+
+#inner-title-box {
+  font-family: $montserrat;
+  text-align: center;
+  // background-color: $page-color;
+  color: #fff;
+  width:50%;
+  padding:2em;
+  margin-top:-90px;
+  h1, h3{
+    margin:0;
+  }
+
+}

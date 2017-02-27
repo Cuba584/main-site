@@ -1,40 +1,37 @@
 {
+  "master-class": {
+    "class": "youth"
+  },
   "hero": {
-    "src": "https://img.holidayplace.co.uk/gallery/content/113015/responsive/01-700.jpg",
-    "alt": "Tourism Hero"
+    "src": "/assets/images/sports_test.png",
+    "alt": "Youth Culture/Sports Hero"
   },
   "header": {
-    "text": "Youth Culture/Sports",
-    "subtitle": "A journey across race, economics, and water"
-  },
-  "subhead": {
-    "text": "A broken down ferry"
+    "text": "They Called Her Skater Girl",
+    "subtitle": "Cuba’s youth know how to turn a tune, and a tide"
   },
   "lede": {
-    "text": "Leonardo’s daily journey between Regla and Old Havana provides some much-needed context to the myriad stories about Cuba’s international tourist boom."
+    "text": "Because skateboarding is a male-dominated activity in which women are starting to participate, skateboarding communities are becoming a unique place for young men and women to interact."
   },
   "reporters": [
     {
-      "name": "JOHN DOE"
-    },
-    {
-      "name": "JANE DOE"
+      "name": "Delanie McGuire"
     }
   ],
   "videographers": [
     {
-      "name": "JILL DOE"
+      "name": "Vivian Feldman"
     },
     {
-      "name": "JORDAN DOE"
+      "name": "Claire Collins"
     }
   ],
   "designers": [
     {
-      "name": "JOSEPH DOE"
+      "name": "Ally Levine"
     },
     {
-      "name": "JENNA DOE"
+      "name": "Alma Washington"
     }
   ],
   "text": [
@@ -51,6 +48,12 @@
     {
       "type": "text",
       "value": "Donec gravida vestibulum nisl ut ullamcorper. Donec efficitur efficitur feugiat. Pellentesque eu turpis sit amet lectus interdum scelerisque. Nam a mi non ante auctor molestie. Duis ut faucibus ligula, sed viverra magna. Duis id lacus posuere, hendrerit magna vitae, fringilla lectus. Sed pulvinar suscipit convallis."
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "A broken down ferry"
+      }
     },
     {
       "type": "text",
