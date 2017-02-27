@@ -1,12 +1,39 @@
-.team-nav ul {
-  display: flex;
-  justify-content: space-around;
-  list-style: none; }
-  .team-nav ul li {
-    padding-bottom: 2px; }
-
-.team-nav .active {
-  border-bottom: 1px solid #95989A; }
+.team-nav {
+  background-color: #efefef; }
+  .team-nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 15px;
+    font-family: "Montserrat", sans-serif; }
+    .team-nav ul li {
+      color: #070707;
+      font-weight: 300;
+      cursor: pointer; }
+  .team-nav .active {
+    font-weight: 400; }
 
 .hero img {
   width: 100vw; }
+
+#team-photos div {
+  display: inline-block; }
+
+#team-photos p {
+  margin: 0px; }
+
+.about-container {
+  margin: 10px 5%;
+  text-align: center; }
+
+#about-title {
+  font-weight: 400;
+  margin: 30px 0px; }
+
+.divider img {
+  width: 110px; }
+
+.divider h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; }

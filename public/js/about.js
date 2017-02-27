@@ -1,5 +1,5 @@
 var categorySelector = '.team-nav li';
-var everyoneSelector = '#team-photos img';
+var everyoneSelector = '#team-photos div';
 var coachesSelector = '.coach';
 var reportersSelector = '.reporter';
 var videographersSelector = '.videographer';
@@ -21,43 +21,38 @@ var makeActive = function () {
     };
 
     this.classList.add('active');
-    for (var q = 0; q < everyone.length; q++) {
-      everyone[q].style.display = "none";
+    for (var i = 0; i < everyone.length; i++) {
+      everyone[i].style.display = "none";
     };
     if (this.classList.contains('coaches')) {
-      var c;
-      for (c = 0; c < coaches.length; c++) {
-        coaches[c].style.display = "inline-block";
+      for (var i = 0; i < coaches.length; i++) {
+        coaches[i].style.display = "inline-block";
       };
     }
     else if (this.classList.contains('reporters')) {
-      var r;
-      for (r = 0; r < reporters.length; r++) {
-        reporters[r].style.display = "inline-block";
+      for (var i = 0; i < reporters.length; i++) {
+        reporters[i].style.display = "inline-block";
       }
     }
     else if (this.classList.contains('videographers')) {
-      var v;
-      for (v = 0; v < videographers.length; v++) {
-        videographers[v].style.display = "inline-block";
+      for (var i = 0; i < videographers.length; i++) {
+        videographers[i].style.display = "inline-block";
       }
     }
     else if (this.classList.contains('developers')) {
-      var dv;
-      for (dv = 0; dv < developers.length; dv++) {
-        developers[dv].style.display = "inline-block";
+      for (var i = 0; i < developers.length; i++) {
+        developers[i].style.display = "inline-block";
       }
     }
     else if (this.classList.contains('designers')) {
-      var ds;
-      for (ds = 0; ds < designers.length; ds++) {
-        designers[ds].style.display = "inline-block";
+      for (var i = 0; i < designers.length; i++) {
+        designers[i].style.display = "inline-block";
       }
     }
     else if (this.classList.contains('everyone')) {
-      var e;
-      for (e = 0; e < everyone.length; e++) {
-        everyone[e].style.display = "inline-block";
+      var i;
+      for (i = 0; i < everyone.length; i++) {
+        everyone[i].style.display = "inline-block";
       }
     };
 };

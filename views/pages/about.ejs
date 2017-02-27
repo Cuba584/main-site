@@ -2,7 +2,6 @@
 <html>
 <head>
   <% include ../partials/header.ejs %>
-  <link rel="stylesheet" type="text/css" href="/stylesheets/about.css">
 </head>
 
 <body>
@@ -12,12 +11,14 @@
   <div class="hero">
     <img alt="Team Photo" src="/assets/images/mockTeamPhoto.jpg">
   </div>
+  <div class="about-container">
 
-  <p>ABOUT US</p>
+  <h1 id="about-title">About Us</h1>
+  <p>Students in UNC-Chapel Hill’s School of Media and Journalism are honored to tell the stories of change in Havana, Cuba.</p>
 
   <div class="divider">
-    <img alt="Logo" src="/assets/images/logo.png">
-    <p>About the project</p>
+    <img alt="Logo" src="/assets/logo.png">
+    <h3>The Project</h3>
   </div>
 
   <p class="about">
@@ -29,28 +30,64 @@
   </p>
 
   <div class="divider">
-    <img alt="Logo" src="/assets/images/logo.png">
-    <p>Meet the team</p>
+    <img alt="Logo" src="/assets/logo.png">
+    <h3>The Team</h3>
   </div>
+
+</div> <!--end container -->
 
   <div class="team-nav">
     <ul>
-      <li class="everyone">Everyone</li>
-      <li class="videographers">Videographers</li>
-      <li class="reporters">Reporters</li>
-      <li class="designers">Designers</li>
-      <li class="developers">Developers</li>
-      <li class="coaches">Coaches</li>
+      <li class="everyone active">Everyone</li>
+      <li class="videographers">Videographer</li>
+      <li class="reporters">Reporter</li>
+      <li class="designers">Designer</li>
+      <li class="developers">Developer</li>
+      <li class="coaches">Coach</li>
     </ul>
   </div>
 
+  <div class="about-container">
+
   <div id="team-photos">
-    <img class="videographer" src="/assets/images/mockAlma.jpg">
-    <img class="reporter" src="/assets/images/mockLindsay.jpg">
-    <img class="designer" src="/assets/images/mockKate.jpg">
-    <img class="developer" src="/assets/images/mockPeyton.jpg">
-    <img class="coach" src="/assets/images/mockMC.jpg">
+    <div class="videographer">
+      <img alt="Alma Washington" src="/assets/images/team/mockAlma.jpg">
+      <p class="role">VIDEOGRAPHER</p>
+      <p class="team-name">Alma Washington</p>
+      <p class="portfolio"><a href="http://almawashington.com/"> www.almawashington.com</a></p>
+      <p class="twitter-handle"><a href="#">@alma</a></p>
+    </div>
+    <div class="reporter">
+      <img alt="Lindsay Carbonell" src="/assets/images/team/mockLindsay.jpg">
+      <p class="role">REPORTER</p>
+      <p class="team-name">Lindsay Carbonell</p>
+      <p class="portfolio"><a href="http://www.lindsaycarbonell.com/"> www.lindsaycarbonell.com/</a></p>
+      <p class="twitter-handle"><a href="#">@lindsay</a></p>
+    </div>
+    <div class="designer">
+      <img alt="Kate Boyd" src="/assets/images/team/mockKate.jpg">
+      <p class="role">DESIGNER</p>
+      <p class="team-name">Kate Boyd</p>
+      <p class="portfolio"><a href="http://www.kwboyd.com/"> www.kwboyd.com/</a></p>
+      <p class="twitter-handle"><a href="#">@kate</a></p>
+    </div>
+    <div class="developer">
+      <img alt="Peyton Chance" src="/assets/images/team/mockPeyton.jpg">
+      <p class="role">DEVELOPER</p>
+      <p class="team-name">Peyton Chance</p>
+      <p class="portfolio"><a href="#"> www.peytonwebsite.com/</a></p>
+      <p class="twitter-handle"><a href="#">@peyton</a></p>
+    </div>
+    <div class="coach">
+      <img alt="Mary Claire Brogden" src="/assets/images/team/mockMC.jpg">
+      <p class="role">COACH</p>
+      <p class="team-name">Mary Claire Brogden</p>
+      <p class="portfolio"><a href="#"> www.mcwebsite.com/</a></p>
+      <p class="twitter-handle"><a href="#">@mc</a></p>
+    </div>
   </div>
+
+</div> <!--end container -->
 
   <div id="special-thanks">
     <p>Special Thanks</p>
