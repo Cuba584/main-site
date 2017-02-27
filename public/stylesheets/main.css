@@ -1,6 +1,6 @@
 /* ------------------ Global Styles ------------ */
 body {
-  font-family: 'Domine', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #000; }
 
 /* ------------------  Header ------------------ */
@@ -13,7 +13,7 @@ nav {
   margin: 0;
   background-color: #fff;
   opacity: 0.8;
-  font-family: "Monserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif; }
   nav ul {
     display: flex;
     justify-content: space-between;
@@ -125,15 +125,15 @@ nav {
   .card2 #title1 {
     font-size: 4em;
     color: #83c4d6;
-    font-family: "Monserrat", sans-serif; }
+    font-family: "Montserrat", sans-serif; }
   .card2 #title2 {
     font-size: 5em;
     color: #83c4d6;
-    font-family: "Monserrat", sans-serif; }
+    font-family: "Montserrat", sans-serif; }
 
 #subtitle {
   color: #3f3f3f;
-  font-family: "Monserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 /* Hiding video controls
 * See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
@@ -203,7 +203,7 @@ video::-webkit-media-controls {
   padding: 10px 0 0 10px;
   color: black;
   display: flex;
-  font-family: "Monserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: white; }
   .flex-item .box-title {
     text-transform: uppercase; }

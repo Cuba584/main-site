@@ -4,11 +4,11 @@ $main-text-color: #000;
 $light-gray: #efefef;
 $dark-gray: #696969;
 $title: #83c4d6;
-$monserrat: 'Monserrat', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
 $roboto: 'Roboto', sans-serif;
 
 body {
-  font-family: 'Domine', sans-serif;
+  font-family: $roboto;
   color: $main-text-color;
 }
 
@@ -32,7 +32,7 @@ nav {
   margin: 0;
   background-color: #fff;
   opacity: 0.8;
-  font-family: $monserrat;
+  font-family: $montserrat;
   ul {
   display: flex;
   justify-content: space-between;
@@ -167,18 +167,18 @@ nav {
   #title1{
     font-size: 4em;
     color: $title;
-    font-family: $monserrat;
+    font-family: $montserrat;
   }
   #title2 {
     font-size: 5em;
     color: $title;
-    font-family: $monserrat;
+    font-family: $montserrat;
   }
 }
 
 #subtitle {
   color: #3f3f3f;
-  font-family: $monserrat;
+  font-family: $montserrat;
 }
 
 /* Hiding video controls
@@ -261,7 +261,7 @@ video::-webkit-media-controls {
   padding: 10px 0 0 10px;
   color: black;
   display: flex;
-  font-family: $monserrat;
+  font-family: $montserrat;
   color: white;
   .box-title {
     text-transform: uppercase;

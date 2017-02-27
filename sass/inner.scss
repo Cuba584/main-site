@@ -1,10 +1,35 @@
 $page-color: #0DC7C9;
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400%7CRoboto:300,400');
-
-$roboto: 'Roboto', sans-serif;
-$montserrat: 'Monserrat', sans-serif;
 $dark-gray: #333;
+$montserrat: 'Montserrat', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
+$arts-color: #C71731;
+$entre-color: #29D172;
+$youth-color: #A84CD4;
+$aging-color: #00C4C7;
+$harbor-color: #FFB11A;
+
+@mixin config-page-colors($prefix, $colors...) {
+    @each $i in $colors {
+        .#{$prefix}#{nth($i, 1)} {
+            background-color: nth($i, 2);
+        }
+    }
+}
+@include config-page-colors('',
+    'arts'   #C71731,
+    'entre' #29D172,
+    'youth' #A84CD4,
+    'aging' #00C4C7,
+    'harbor' #FFB11A
+);
+
+// @each $page in 'arts' 'entre' 'youth' 'aging'
+// 'harbor' {
+//   .#{$page}{
+//     background-color:#{$page}-color;
+//   }
+// }
 
 /* font sizing from http://typecast.com/blog/a-more-modern-scale-for-web-typography because I have no idea what font sizes we need to have :) :/ */
 html {font-size:.7em;}
@@ -12,7 +37,7 @@ html {font-size:.7em;}
 body {
   font-size: 1.375em;
   background-color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: $roboto;
   font-weight: 300;
   line-height: 1.45;
   color: #333;
@@ -23,6 +48,7 @@ p {margin-bottom: 1.3em;}
 
 h1, h2, h3, h4 {
   // margin: 1.414em 0 0.5em;
+  font-family: $montserrat;
   font-weight: inherit;
   line-height: 1.2;
 }
@@ -30,7 +56,7 @@ h1, h2, h3, h4 {
 h1 {
   margin-top: 0;
   font-size: 3em;
-  font-weight:400;
+  font-weight:500;
 }
 
 h2 {font-size: 2.25em;}
@@ -55,27 +81,11 @@ small, .font_small {font-size: 0.75em;}
 
 /*------page ids------*/
 
-  #inner-title-box {
-    @extend .inner;
-    font-family: $montserrat;
-    text-align: center;
-    background-color: $page-color;
-    color: #fff;
-    // font-size: 35px;
-    max-width:50%;
-    padding:1em;
-    margin-top:-90px;
-    h1{
-      margin:0;
-    }
-    h2{
-      margin:0;
-      font-weight:300;
-    }
-  }
 
   #inner-intro { /*inherits from h3*/
     text-align:center;
+    max-width:40%;
+    font-weight:300;
   }
 
   .inner-hero img {
@@ -90,10 +100,10 @@ small, .font_small {font-size: 0.75em;}
       margin-left:10px;
     }
 
-  }
+    &:nth-child(1){
+      margin-left:0;
+    }
 
-  .byline-item:nth-child(1){
-    margin-left:0;
   }
 
   #inner-image-caption {
@@ -108,8 +118,6 @@ small, .font_small {font-size: 0.75em;}
   }
 
   .pull-quote-box{
-      // display:flex;
-      // align-items:flex-end;
       width:100vw;
       background-color: $page-color;
   }
@@ -122,7 +130,7 @@ small, .font_small {font-size: 0.75em;}
     content: '\201D';
   }
   .pull-quote {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $montserrat;
     width: 70vw;
     color: white;
     padding:.8em;
@@ -137,4 +145,18 @@ small, .font_small {font-size: 0.75em;}
     border-radius: 30px;
     border-style: none;
   }
+}
+
+#inner-title-box {
+  font-family: $montserrat;
+  text-align: center;
+  // background-color: $page-color;
+  color: #fff;
+  width:50%;
+  padding:2em;
+  margin-top:-90px;
+  h1, h3{
+    margin:0;
+  }
+
 }
