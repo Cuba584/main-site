@@ -1,69 +1,211 @@
 $page-color: #0DC7C9;
-$body-font-size: 14px;
+<<<<<<< HEAD
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400%7CRoboto:300,400');
+
+$roboto: 'Roboto', sans-serif;
+$montserrat: 'Monserrat', sans-serif;
+$dark-gray: #333;
+
+/* font sizing from http://typecast.com/blog/a-more-modern-scale-for-web-typography because I have no idea what font sizes we need to have :) :/ */
+html {font-size:.7em;}
 
 body {
-  font-family: 'Domine', sans-serif;
+  font-size: 1.375em;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.45;
+  color: #333;
+  margin:0;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  // margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3em;
+  font-weight:400;
+}
+
+h2 {font-size: 2.25em;}
+
+h3 {font-size: 1.75em;}
+
+h4 {font-size: 1.125em;}
+
+small, .font_small {font-size: 0.75em;}
+
+.inner {
+
+/*------standard classes------*/
+  .max-width{
+    max-width:800px;
+  }
+
+  .center-wrapper{
+    display: flex;
+    justify-content: center;
+  }
+
+/*------page ids------*/
+
+  #inner-title-box {
+    @extend .inner;
+    font-family: $montserrat;
+    text-align: center;
+    background-color: $page-color;
+    color: #fff;
+    // font-size: 35px;
+    max-width:50%;
+    padding:1em;
+    margin-top:-90px;
+    h1{
+      margin:0;
+    }
+    h2{
+      margin:0;
+      font-weight:300;
+    }
+  }
+
+  #inner-intro { /*inherits from h3*/
+    text-align:center;
+  }
+
+  .inner-hero img {
+    width:100vw;
+  }
+
+  .byline-box{
+    display:flex;
+
+    .byline-item{
+      text-align:center;
+      margin-left:10px;
+    }
+
+  }
+
+  .byline-item:nth-child(1){
+    margin-left:0;
+  }
+
+  #inner-image-caption {
+
+  }
+
+  figure {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+
+  .pull-quote-box{
+      // display:flex;
+      // align-items:flex-end;
+      width:100vw;
+      background-color: $page-color;
+  }
+
+  .pull-quote span::before{
+    content: '\201C';
+  }
+
+  .pull-quote span::after{
+    content: '\201D';
+  }
+  .pull-quote {
+    font-family: 'Montserrat', sans-serif;
+    width: 70vw;
+    color: white;
+    padding:.8em;
+    margin:0;
+    display:inline-block;
+  }
+
+  .pull-quote hr{
+    background-color: white;
+    height: 8px;
+    margin-right: 725px;
+    border-radius: 30px;
+    border-style: none;
+
+  }
+
+=======
+$body-font-size: 10pt;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
 }
 
 // ---- This sets margins for most inner page content -----
 .inner {
-  margin-left: 20%;
-  margin-right: 20%;
-  line-height: 23px;
+  line-height: 25pt;
+  margin-left: 280px;
+  margin-right: 280px;
 }
 
 .inner-hero img {
   width: 100vw;
 }
 
-#inner-title {
+.inner-title {
   @extend .inner;
-  font-family: 'Rokkitt', sans-serif;
-  text-align: center;
   background-color: $page-color;
   color: #ffffff;
-  font-size: 35px;
+  font-family: 'Rokkitt', sans-serif;
+  font-size: 31pt;
+  margin-top: -75px;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: -75px;
+  text-align: center;
   z-index: 1; position:relative;
 }
 
-#inner-title h1{
+.inner-title h1{
   margin-bottom: 20px;
 }
 
 #inner-sub {
-  text-align: center;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 15pt;
+  text-align: center;
 }
 
 #inner-intro {
+  @extend .inner;
   font-family: 'Roboto', sans-serif;
-  font-size: 13px;
-  margin-left: 330px;
-  margin-right: 330px;
-  text-align: center;
   font-size: $body-font-size;
   font-weight: 900;
-  line-height: 23px;
+  text-align: center;
 }
 
 #inner-content {
   @extend .inner;
-  margin-top: 35px;
   font-size: $body-font-size;
+  margin-top: 35px;
 }
 
 #inner-subhead {
   @extend .inner;
   color: $page-color;
-  font-size: 22px;
-  margin-bottom: -15px;
   font-family: 'Montserrat', sans-serif;
+  font-size: 20pt;
+  margin-bottom: -15px;
 }
+
+/* ------------- Left-aligned image style -------*/
 
 #inner-image {
   height: 50vw;
@@ -73,41 +215,44 @@ body {
 .story-image {
   display: flex;
   justify-content: space-around;
-  margin-top: 25px;
   margin-bottom: 40px;
+  margin-top: 25px;
 }
 
 #inner-image-caption {
   @extend .inner;
-  margin-left: 20px;
-  margin-right: 10%;
-  margin-top: -5px;
   font-size: $body-font-size;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -5px;
 }
+
+/* ----------------  Pull quote style -------------- */
 
 .pull-quote {
   font-family: 'Montserrat', sans-serif;
   background-color: $page-color;
+  font-size: 28pt;
+  font-weight: bolder;
   height: 150px;
   width: 80vw;
   margin-left: 225px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   color: white;
-  font-weight: bolder;
-  font-size: 2em;
   padding-top: 50px;
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 30px;
-
 }
 
 .pull-quote hr{
   background-color: white;
-  height: 8px;
-  margin-right: 725px;
   border-radius: 30px;
   border-style: none;
-
+  height: 8px;
+  margin-right: 725px;
+>>>>>>> a65f86095e458820c11a81af011ee08d86747faa
 }
 
 /* -------------- Media Queries -------- */

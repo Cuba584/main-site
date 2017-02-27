@@ -18,7 +18,6 @@ gulp.task('connect', function(){
   app.set('port', (process.env.PORT || 5000));
   app.use(express.static(__dirname + '/public'));
 
-  // views is directory for all template files
   app.set('views', __dirname + '/views');
   app.set('view engine', 'ejs');
 
@@ -28,6 +27,10 @@ gulp.task('connect', function(){
 
   app.get('/', function(request, response) {
     response.render('pages/index');
+  });
+
+  app.get('/about', function(request, response){
+    response.render('pages/about');
   });
 
   app.get('/pages/:id', function(req, res){
@@ -44,7 +47,6 @@ gulp.task('connect', function(){
 
 });
 
-// Compile Our Sass
 gulp.task('sass', function() {
   console.log("compiling sass...");
     return gulp.src('./sass/*.scss')
@@ -54,7 +56,6 @@ gulp.task('sass', function() {
 });
 
 gulp.task('watch', function() {
-    refresh.listen();
     gulp.watch('./sass/*.scss', ['sass']);
 
 });
