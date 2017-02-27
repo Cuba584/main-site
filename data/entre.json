@@ -1,4 +1,7 @@
 {
+  "master-class": {
+    "class": "entre"
+  },
   "hero": {
     "src": "/assets/images/entre_test.png",
     "alt": "Entrepreneurship Hero"
