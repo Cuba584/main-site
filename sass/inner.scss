@@ -1,69 +1,69 @@
 $page-color: #0DC7C9;
-$body-font-size: 14px;
+$body-font-size: 10pt;
 
 body {
-  font-family: 'Domine', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
 }
 
 // ---- This sets margins for most inner page content -----
 .inner {
-  margin-left: 20%;
-  margin-right: 20%;
-  line-height: 23px;
+  line-height: 25pt;
+  margin-left: 280px;
+  margin-right: 280px;
 }
 
 .inner-hero img {
   width: 100vw;
 }
 
-#inner-title {
+.inner-title {
   @extend .inner;
-  font-family: 'Rokkitt', sans-serif;
-  text-align: center;
   background-color: $page-color;
   color: #ffffff;
-  font-size: 35px;
+  font-family: 'Rokkitt', sans-serif;
+  font-size: 31pt;
+  margin-top: -75px;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: -75px;
+  text-align: center;
   z-index: 1; position:relative;
 }
 
-#inner-title h1{
+.inner-title h1{
   margin-bottom: 20px;
 }
 
 #inner-sub {
-  text-align: center;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 15pt;
+  text-align: center;
 }
 
 #inner-intro {
+  @extend .inner;
   font-family: 'Roboto', sans-serif;
-  font-size: 13px;
-  margin-left: 330px;
-  margin-right: 330px;
-  text-align: center;
   font-size: $body-font-size;
   font-weight: 900;
-  line-height: 23px;
+  text-align: center;
 }
 
 #inner-content {
   @extend .inner;
-  margin-top: 35px;
   font-size: $body-font-size;
+  margin-top: 35px;
 }
 
 #inner-subhead {
   @extend .inner;
   color: $page-color;
-  font-size: 22px;
-  margin-bottom: -15px;
   font-family: 'Montserrat', sans-serif;
+  font-size: 20pt;
+  margin-bottom: -15px;
 }
+
+/* ------------- Left-aligned image style -------*/
 
 #inner-image {
   height: 50vw;
@@ -73,41 +73,43 @@ body {
 .story-image {
   display: flex;
   justify-content: space-around;
-  margin-top: 25px;
   margin-bottom: 40px;
+  margin-top: 25px;
 }
 
 #inner-image-caption {
   @extend .inner;
-  margin-left: 20px;
-  margin-right: 10%;
-  margin-top: -5px;
   font-size: $body-font-size;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -5px;
 }
+
+/* ----------------  Pull quote style -------------- */
 
 .pull-quote {
   font-family: 'Montserrat', sans-serif;
   background-color: $page-color;
+  font-size: 28pt;
+  font-weight: bolder;
   height: 150px;
   width: 80vw;
   margin-left: 225px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   color: white;
-  font-weight: bolder;
-  font-size: 2em;
   padding-top: 50px;
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 30px;
-
 }
 
 .pull-quote hr{
   background-color: white;
-  height: 8px;
-  margin-right: 725px;
   border-radius: 30px;
   border-style: none;
-
+  height: 8px;
+  margin-right: 725px;
 }
 
 /* -------------- Media Queries -------- */
