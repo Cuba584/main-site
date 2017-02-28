@@ -1,71 +1,28 @@
-$page-color: #0DC7C9;
-$dark-gray: #333;
-$montserrat: 'Montserrat', sans-serif;
-$roboto: 'Roboto', sans-serif;
+@import 'main';
 
-$arts-color: #C71731;
-$entre-color: #29D172;
-$youth-color: #A84CD4;
-$aging-color: #00C4C7;
-$harbor-color: #FFB11A;
+$arts: #C71731;
 
 @mixin config-page-colors($prefix, $colors...) {
     @each $i in $colors {
         .#{$prefix}#{nth($i, 1)} {
             background-color: nth($i, 2);
+            color: nth($i, 2);
         }
     }
 }
+
 @include config-page-colors('',
-    'arts'   #C71731,
+    'arts'  $arts,
     'entre' #29D172,
     'youth' #A84CD4,
     'aging' #00C4C7,
     'harbor' #FFB11A
 );
 
-// @each $page in 'arts' 'entre' 'youth' 'aging'
-// 'harbor' {
-//   .#{$page}{
-//     background-color:#{$page}-color;
-//   }
-// }
-
-/* font sizing from http://typecast.com/blog/a-more-modern-scale-for-web-typography because I have no idea what font sizes we need to have :) :/ */
-html {font-size:.7em;}
-
-body {
-  font-size: 1.375em;
-  background-color: white;
-  font-family: $roboto;
-  font-weight: 300;
-  line-height: 1.45;
-  color: #333;
-  margin:0;
+.subhead{
+  background-color:white;
+  font-weight:400;
 }
-
-p {margin-bottom: 1.3em;}
-
-h1, h2, h3, h4 {
-  // margin: 1.414em 0 0.5em;
-  font-family: $montserrat;
-  font-weight: inherit;
-  line-height: 1.2;
-}
-
-h1 {
-  margin-top: 0;
-  font-size: 3em;
-  font-weight:500;
-}
-
-h2 {font-size: 2.25em;}
-
-h3 {font-size: 1.75em;}
-
-h4 {font-size: 1.125em;}
-
-small, .font_small {font-size: 0.75em;}
 
 .inner {
 
@@ -119,7 +76,7 @@ small, .font_small {font-size: 0.75em;}
 
   .pull-quote-box{
       width:100vw;
-      background-color: $page-color;
+      // background-color: $page-color;
   }
 
   .pull-quote span::before{

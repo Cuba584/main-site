@@ -42,6 +42,8 @@
 
   </section>
 
+  <iframe src="https://player.vimeo.com/video/162564459" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-aspectratio="0.562" style="width: 896px; height: 503.552px;"></iframe>
+
   <section class="center-wrapper" id="body">
     <div class="max-width">
     <% for (i in body["text"]) {
@@ -50,7 +52,7 @@
 
     <%} else if (body["text"][i]["type"] == "subhead") {%>
 
-      <h4><%=body["text"][i]["value"]["text"] %></h4>
+      <h4 class="subhead <%= body["master-class"]["class"] %>"><%=body["text"][i]["value"]["text"] %></h4>
 
     <%} else if (body["text"][i]["type"] == "video") {%>
         <iframe src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -59,7 +61,7 @@
     <p> <%=body["text"][i]["value"]["text"] %>  </p>
 
     <% } else if (body["text"][i]["type"] == "pullquote") {%>
-    <div class="pull-quote-box">
+    <div class="pull-quote-box <%= body["master-class"]["class"] %>">
 
       <h3 class="pull-quote">
         <hr> <span><%=body["text"][i]["value"]["text"] %></span> </h3>

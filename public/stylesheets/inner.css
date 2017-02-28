@@ -1,18 +1,4 @@
-.arts {
-  background-color: #C71731; }
-
-.entre {
-  background-color: #29D172; }
-
-.youth {
-  background-color: #A84CD4; }
-
-.aging {
-  background-color: #00C4C7; }
-
-.harbor {
-  background-color: #FFB11A; }
-
+/* ------------------ Global Styles ------------ */
 /* font sizing from http://typecast.com/blog/a-more-modern-scale-for-web-typography because I have no idea what font sizes we need to have :) :/ */
 html {
   font-size: .7em; }
@@ -27,7 +13,8 @@ body {
   margin: 0; }
 
 p {
-  margin-bottom: 1.3em; }
+  margin-bottom: 1.3em;
+  line-height: 2em; }
 
 h1, h2, h3, h4 {
   font-family: "Montserrat", sans-serif;
@@ -48,8 +35,251 @@ h3 {
 h4 {
   font-size: 1.125em; }
 
-small, .font_small {
-  font-size: 0.75em; }
+/* ------------------  Header ------------------ */
+header {
+  text-align: left;
+  padding: 1rem; }
+
+/* ------------------ Navigation ------------------ */
+nav {
+  margin: 0;
+  background-color: #fff;
+  opacity: 0.8;
+  font-family: "Montserrat", sans-serif; }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 100%;
+    text-transform: uppercase; }
+    nav ul a {
+      color: #222;
+      position: relative;
+      text-decoration: none;
+      transition: all .8 ease; }
+  nav li {
+    display: inline-block; }
+  nav .logo {
+    background-color: #696969;
+    border-radius: 50px;
+    display: inline-block;
+    height: 45px;
+    margin: 1em 0;
+    width: 45px; }
+  nav .wrapper {
+    margin: 0 auto;
+    max-width: 75%;
+    padding: 0 2%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between; }
+  nav .label-toggle {
+    display: none; }
+  nav #menu-toggle {
+    display: none; }
+
+#header {
+  position: fixed;
+  height: 50px;
+  display: block;
+  width: 100%;
+  z-index: 9;
+  text-align: center;
+  top: 0px; }
+
+/* ------------------  Index ------------------ */
+.gallery .card {
+  background-color: white; }
+
+.card {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.spacer {
+  width: 100%; }
+
+.latched {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  z-index: 0; }
+  .latched + .spacer {
+    height: 100vh; }
+
+#my-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-color: black;
+  /* in case the video doesn't fit the whole page*/
+  background-position: center center;
+  background-size: contain;
+  object-fit: cover;
+  /*cover video background */
+  z-index: 3; }
+
+.layer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -20px;
+  margin-bottom: 30px;
+  color: white;
+  width: 40px;
+  height: 60px;
+  z-index: 4;
+  /*
+  * Preventing flicker on some browsers
+  * See http://stackoverflow.com/a/36671466/1081396  or issue #183
+  */
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.card2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .card2 #title1 {
+    font-size: 4em;
+    color: #83c4d6;
+    font-family: "Montserrat", sans-serif; }
+  .card2 #title2 {
+    font-size: 5em;
+    color: #83c4d6;
+    font-family: "Montserrat", sans-serif; }
+
+#subtitle {
+  color: #3f3f3f;
+  font-family: "Montserrat", sans-serif; }
+
+/* Hiding video controls
+* See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
+* --------------------------------------- */
+video::-webkit-media-controls {
+  display: none; }
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite; }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 250px; }
+
+.flex-item {
+  background-color: blue;
+  align-self: flex-start;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px 0 0 10px;
+  color: black;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  color: white; }
+  .flex-item .box-title {
+    text-transform: uppercase; }
+  .flex-item .box-content {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif; }
+
+.title-img {
+  width: 180px;
+  height: 100px; }
+
+/* ------------------  Story Page ------------------ */
+/* ------------------  Footer ------------------ */
+footer ul {
+  list-style-type: none; }
+
+footer {
+  text-align: left;
+  padding: 1rem;
+  background-color: #efefef; }
+
+.arts {
+  background-color: #C71731;
+  color: #C71731; }
+
+.entre {
+  background-color: #29D172;
+  color: #29D172; }
+
+.youth {
+  background-color: #A84CD4;
+  color: #A84CD4; }
+
+.aging {
+  background-color: #00C4C7;
+  color: #00C4C7; }
+
+.harbor {
+  background-color: #FFB11A;
+  color: #FFB11A; }
+
+.subhead {
+  background-color: white;
+  font-weight: 400; }
 
 .inner {
   /*------standard classes------*/
@@ -79,8 +309,7 @@ small, .font_small {
     margin-top: 25px;
     margin-bottom: 40px; }
   .inner .pull-quote-box {
-    width: 100vw;
-    background-color: #0DC7C9; }
+    width: 100vw; }
   .inner .pull-quote span::before {
     content: '\201C'; }
   .inner .pull-quote span::after {
