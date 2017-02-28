@@ -276,17 +276,30 @@ nav {
  }
 
  .title-svg {
-   z-index: 99;
+   z-index: 4;
    width: 100%;
    height: 100%;
    position: absolute;
    display: none;
  }
 
- .gallery {
-   height: 1000px;
- }
+#link-box {
+  display: none;
+  z-index: 8;
+  position: absolute;
+  bottom: 100px;
+  div {
+    z-index: 10;
+  }
+}
 
+#index-container {
+  overflow: hidden;
+}
+
+#filler {
+  background-color: #fff;
+}
 /* Hiding video controls
 * See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
 * --------------------------------------- */
