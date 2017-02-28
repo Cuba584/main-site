@@ -4,7 +4,6 @@ var sectionId = ["#section-0", "#section-0-img", "#section-1", "#section-1-img",
 
 var rowId = ["#row-0", "#row-1", "#row-2", "#row-3", "#row-4", "#row-5", "#row-6"];
 
-
 for (var i in sectionId){
   (function(i){
     var numCheck = rowId[i].substring(5);
@@ -12,7 +11,9 @@ for (var i in sectionId){
     $(sectionId[i]).css('opacity', 0);
 
     if((parseInt(numCheck)%2) != 0){
+
       $(rowId[i]).css('background-color', '#00C4C7');
+
       console.log(numCheck);
 
     }

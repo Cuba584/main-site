@@ -1,40 +1,40 @@
 {
+  "master-class": {
+    "class": "aging"
+  },
   "hero": {
-    "src": "https://img.holidayplace.co.uk/gallery/content/113015/responsive/01-700.jpg",
-    "alt": "Tourism Hero"
+    "src": "/assets/images/aging_test.png",
+    "alt": "Aging Society Hero"
   },
   "header": {
-    "text": "Aging Society",
-    "subtitle": "A journey across race, economics, and water"
-  },
-  "subhead": {
-    "text": "A broken down ferry"
+    "text": "A New Understanding",
+    "subtitle": "Cuba’s aging society gives way to youth who are shaping the future"
   },
   "lede": {
-    "text": "Leonardo’s daily journey between Regla and Old Havana provides some much-needed context to the myriad stories about Cuba’s international tourist boom."
+    "text": "One multi-generational family shows us what it means to live and innovate in a new Cuba."
   },
   "reporters": [
     {
-      "name": "JOHN DOE"
+      "name": "John Doe"
     },
     {
-      "name": "JANE DOE"
+      "name": "Jane Doe"
     }
   ],
   "videographers": [
     {
-      "name": "JILL DOE"
+      "name": "Jill Doe"
     },
     {
-      "name": "JORDAN DOE"
+      "name": "Jordan Doe"
     }
   ],
   "designers": [
     {
-      "name": "JOSEPH DOE"
+      "name": "Joseph Doe"
     },
     {
-      "name": "JENNA DOE"
+      "name": "Jenna Doe"
     }
   ],
   "text": [
@@ -51,6 +51,12 @@
     {
       "type": "text",
       "value": "Donec gravida vestibulum nisl ut ullamcorper. Donec efficitur efficitur feugiat. Pellentesque eu turpis sit amet lectus interdum scelerisque. Nam a mi non ante auctor molestie. Duis ut faucibus ligula, sed viverra magna. Duis id lacus posuere, hendrerit magna vitae, fringilla lectus. Sed pulvinar suscipit convallis."
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "A broken down ferry"
+      }
     },
     {
       "type": "text",
