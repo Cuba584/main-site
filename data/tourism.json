@@ -1,4 +1,7 @@
 {
+  "master-class": {
+    "class": "harbor"
+  },
   "hero": {
     "src": "/assets/images/across_test.png",
     "alt": "Across the Harbor Hero"

@@ -1,4 +1,7 @@
 {
+  "master-class": {
+    "class": "arts"
+  },
   "hero": {
     "src": "/assets/images/arts_test.png",
     "alt": "Arts Hero"

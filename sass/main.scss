@@ -4,7 +4,7 @@ $main-text-color: #000;
 $light-gray: #efefef;
 $dark-gray: #696969;
 $title: #83c4d6;
-$monserrat: 'Monserrat', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
 $roboto: 'Roboto', sans-serif;
 $red: #ed4c09;
 $yellow: #e4b83b;
@@ -12,9 +12,40 @@ $green: #79c7ab;
 $blue: #0b8fb9;
 $purple: #bc7a95;
 
+/* font sizing from http://typecast.com/blog/a-more-modern-scale-for-web-typography because I have no idea what font sizes we need to have :) :/ */
+html {font-size:.7em;}
+
 body {
-  font-family: 'Domine', sans-serif;
-  color: $main-text-color;
+  font-size: 1.375em;
+  background-color: white;
+  font-family: $roboto;
+  font-weight: 300;
+  line-height: 1.45;
+  color: #333;
+  margin:0;
+}
+
+p {margin-bottom: 1.3em;
+line-height: 2em;}
+
+h1, h2, h3, h4 {
+  // margin: 1.414em 0 0.5em;
+  font-family: $montserrat;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3em;
+  font-weight:500;
+}
+
+h2 {font-size: 2.25em;}
+
+h3 {font-size: 1.75em;}
+
+h4 {font-size: 1.125em;
 }
 
 /* ------------------  Header ------------------ */
@@ -37,7 +68,7 @@ nav {
   margin: 0;
   background-color: #fff;
   opacity: 0.8;
-  font-family: $monserrat;
+  font-family: $montserrat;
   ul {
   display: flex;
   justify-content: space-between;
@@ -223,18 +254,18 @@ nav {
   #title1{
     font-size: 5em;
     color: $title;
-    font-family: $monserrat;
+    font-family: $montserrat;
   }
   #title2 {
     font-size: 6em;
     color: $title;
-    font-family: $monserrat;
+    font-family: $montserrat;
   }
 }
 
 #subtitle {
   color: #3f3f3f;
-  font-family: $monserrat;
+  font-family: $montserrat;
 }
 
  .t-title {
@@ -326,7 +357,7 @@ video::-webkit-media-controls {
   padding: 10px 0 0 10px;
   color: black;
   display: flex;
-  font-family: $monserrat;
+  font-family: $montserrat;
   color: white;
   .box-title {
     text-transform: uppercase;
