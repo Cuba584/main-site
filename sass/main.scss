@@ -6,6 +6,11 @@ $dark-gray: #696969;
 $title: #83c4d6;
 $monserrat: 'Monserrat', sans-serif;
 $roboto: 'Roboto', sans-serif;
+$red: #c71731;
+$yellow: #ffb11a;
+$green: #29d172;
+$blue: #00c4c7;
+$purple: #a84cd4;
 
 body {
   font-family: 'Domine', sans-serif;
@@ -43,14 +48,17 @@ nav {
       color: #222;
       position: relative;
       text-decoration: none;
-      transition: all .8 ease;
+      &:hover {
+        font-weight: bold;
+      }
+
     }
   }
   li {
     display: inline-block;
   }
   .logo {
-    background-color: $dark-gray;
+    // background-color: $dark-gray;
     border-radius: 50px;
     display: inline-block;
     height: 45px;

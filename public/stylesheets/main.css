@@ -23,12 +23,12 @@ nav {
     nav ul a {
       color: #222;
       position: relative;
-      text-decoration: none;
-      transition: all .8 ease; }
+      text-decoration: none; }
+      nav ul a:hover {
+        font-weight: bold; }
   nav li {
     display: inline-block; }
   nav .logo {
-    background-color: #696969;
     border-radius: 50px;
     display: inline-block;
     height: 45px;
