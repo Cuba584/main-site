@@ -57,9 +57,11 @@
 //
 // });
 
+$(document).ready(function(){
+
   AOS.init({
-  duration: 1200,
-  })
+  duration: 1200
+});
 
 
 /* Store the original positions */
@@ -83,3 +85,6 @@
         }
       }
   });
+
+
+});
