@@ -82,5 +82,5 @@ $(document).ready(function(){
             $(cards[i]).removeClass('latched');
           }
         }
-      }
+      }) 
   });
