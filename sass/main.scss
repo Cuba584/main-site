@@ -6,11 +6,11 @@ $dark-gray: #696969;
 $title: #83c4d6;
 $monserrat: 'Monserrat', sans-serif;
 $roboto: 'Roboto', sans-serif;
-$red: #c71731;
-$yellow: #ffb11a;
-$green: #29d172;
-$blue: #00c4c7;
-$purple: #a84cd4;
+$red: #ed4c09;
+$yellow: #e4b83b;
+$green: #79c7ab;
+$blue: #0b8fb9;
+$purple: #bc7a95;
 
 body {
   font-family: 'Domine', sans-serif;
@@ -51,7 +51,6 @@ nav {
       &:hover {
         font-weight: bold;
       }
-
     }
   }
   li {
@@ -91,6 +90,54 @@ nav {
 		top:0px;
 	}
 
+  /*------------------ RESPONSIVE NAV STYLES ---------*/
+  @media screen and (max-width: 768px) {
+    nav .nav-icon {
+      visibility: visible;
+      display: inline-block;
+      cursor: pointer;
+    }
+    nav ul {
+      background-color: #d3d3d3;
+      display: block;
+      height: 0;
+      list-style-type: none;
+      opacity: 0;
+      text-align: center;
+      transition: all 1s ease;
+      width: 100%;
+      visibility: hidden;
+    }
+    nav li {
+      border-bottom: 2px solid #53354A;
+      color: #696969;
+      display: block;
+      font-size: 1.5em;
+      padding: 2em 0;
+    }
+    nav #menu-toggle:checked ~ ul {
+      opacity: 1;
+      height: 100vh;
+      visibility: visible;
+    }
+    nav .label-toggle {
+      background: linear-gradient(to bottom, #696969 0%, #696969 20%, transparent 20%, transparent 40%, #696969 40%, #696969 60%, transparent 60%, transparent 80%, #696969 80%, #696969 100%);
+      cursor: pointer;
+      display: block;
+      float: right;
+      height: 35px;
+      margin-top: 1em;
+      width: 35px;
+    }
+    nav .wrapper {
+      display: block;
+    }
+
+    .line {
+      display: none;
+    }
+  }
+
 
 /* ------------------  Index ------------------ */
 .gallery {
@@ -107,6 +154,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: white;
 }
 
 .spacer {
@@ -173,12 +221,12 @@ nav {
     // margin-top: 10%;
   }
   #title1{
-    font-size: 4em;
+    font-size: 5em;
     color: $title;
     font-family: $monserrat;
   }
   #title2 {
-    font-size: 5em;
+    font-size: 6em;
     color: $title;
     font-family: $monserrat;
   }
@@ -188,6 +236,15 @@ nav {
   color: #3f3f3f;
   font-family: $monserrat;
 }
+
+ .t-title {
+   background: url("/assets/images/arts_test.png");
+       -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+   // background: url("/public/assets/flowers.mp4");
+ }
+
+
 
 /* Hiding video controls
 * See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
@@ -260,8 +317,8 @@ video::-webkit-media-controls {
     // height: 400px;
 }
 .flex-item {
-  background-color: blue;
   align-self: flex-start;
+  background-color: blue;
   flex-wrap: wrap;
   width:200px;
   height: 250px;
@@ -273,11 +330,29 @@ video::-webkit-media-controls {
   color: white;
   .box-title {
     text-transform: uppercase;
+    margin: 0;
   }
   .box-content {
     font-size: 14px;
     font-family: $roboto;
+    text-align: left;
   }
+}
+
+#art {
+  background-color: $red;
+}
+#entre {
+  background-color: $green;
+}
+#tourism {
+  background-color: $blue;
+}
+#aging {
+  background-color: $yellow;
+}
+#skate {
+  background-color: $purple;
 }
 
 .title-img {
