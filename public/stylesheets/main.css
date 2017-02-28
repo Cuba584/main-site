@@ -55,12 +55,12 @@ nav {
     nav ul a {
       color: #222;
       position: relative;
-      text-decoration: none;
-      transition: all .8 ease; }
+      text-decoration: none; }
+      nav ul a:hover {
+        font-weight: bold; }
   nav li {
     display: inline-block; }
   nav .logo {
-    background-color: #696969;
     border-radius: 50px;
     display: inline-block;
     height: 45px;
@@ -87,6 +87,45 @@ nav {
   text-align: center;
   top: 0px; }
 
+/*------------------ RESPONSIVE NAV STYLES ---------*/
+@media screen and (max-width: 768px) {
+  nav .nav-icon {
+    visibility: visible;
+    display: inline-block;
+    cursor: pointer; }
+  nav ul {
+    background-color: #d3d3d3;
+    display: block;
+    height: 0;
+    list-style-type: none;
+    opacity: 0;
+    text-align: center;
+    transition: all 1s ease;
+    width: 100%;
+    visibility: hidden; }
+  nav li {
+    border-bottom: 2px solid #53354A;
+    color: #696969;
+    display: block;
+    font-size: 1.5em;
+    padding: 2em 0; }
+  nav #menu-toggle:checked ~ ul {
+    opacity: 1;
+    height: 100vh;
+    visibility: visible; }
+  nav .label-toggle {
+    background: linear-gradient(to bottom, #696969 0%, #696969 20%, transparent 20%, transparent 40%, #696969 40%, #696969 60%, transparent 60%, transparent 80%, #696969 80%, #696969 100%);
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 35px;
+    margin-top: 1em;
+    width: 35px; }
+  nav .wrapper {
+    display: block; }
+  .line {
+    display: none; } }
+
 /* ------------------  Index ------------------ */
 .gallery .card {
   background-color: white; }
@@ -99,7 +138,8 @@ nav {
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  background-color: white; }
 
 .spacer {
   width: 100%; }
@@ -155,17 +195,22 @@ nav {
   flex-direction: row;
   flex-wrap: wrap; }
   .card2 #title1 {
-    font-size: 4em;
+    font-size: 5em;
     color: #83c4d6;
     font-family: "Montserrat", sans-serif; }
   .card2 #title2 {
-    font-size: 5em;
+    font-size: 6em;
     color: #83c4d6;
     font-family: "Montserrat", sans-serif; }
 
 #subtitle {
   color: #3f3f3f;
   font-family: "Montserrat", sans-serif; }
+
+.t-title {
+  background: url("/assets/images/arts_test.png");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 /* Hiding video controls
 * See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
@@ -226,8 +271,8 @@ video::-webkit-media-controls {
   height: 250px; }
 
 .flex-item {
-  background-color: blue;
   align-self: flex-start;
+  background-color: blue;
   flex-wrap: wrap;
   width: 200px;
   height: 250px;
@@ -238,10 +283,27 @@ video::-webkit-media-controls {
   font-family: "Montserrat", sans-serif;
   color: white; }
   .flex-item .box-title {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin: 0; }
   .flex-item .box-content {
     font-size: 14px;
-    font-family: "Roboto", sans-serif; }
+    font-family: "Roboto", sans-serif;
+    text-align: left; }
+
+#art {
+  background-color: #ed4c09; }
+
+#entre {
+  background-color: #79c7ab; }
+
+#tourism {
+  background-color: #0b8fb9; }
+
+#aging {
+  background-color: #e4b83b; }
+
+#skate {
+  background-color: #bc7a95; }
 
 .title-img {
   width: 180px;
