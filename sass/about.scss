@@ -1,4 +1,5 @@
 $text-gray: #070707;
+$medium-gray: #3C3C3C;
 $light-gray: #efefef;
 $montserrat: 'Montserrat', sans-serif;
 $roboto: 'Roboto', sans-serif;
@@ -12,13 +13,14 @@ $roboto: 'Roboto', sans-serif;
     list-style: none;
     padding: 15px;
     font-family: $montserrat;
+    margin: 0 10%;
     li {
       color: $text-gray;
       font-weight: 300;
       cursor: pointer;
     }
   }
-  .active {
+  .mixitup-control-active {
     font-weight: 400;
   }
 }
@@ -30,11 +32,35 @@ $roboto: 'Roboto', sans-serif;
 }
 
 #team-photos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   div {
-    display: inline-block;
+    margin: 7px 2.5%;
   }
   p {
     margin: 0px;
+    font-family: $roboto;
+    text-align: left;
+    line-height: 1.4em;
+  }
+  .role {
+    font-family: $montserrat;
+    font-weight: 300;
+    font-size: .8em;
+  }
+  .team-name {
+    font-weight: 400;
+    font-size: 1em;
+  }
+  a {
+    font-weight: 300;
+    color: #000;
+    font-size: .9em;
+    text-decoration: none;
+    &:hover {
+      color: #ccc;
+    }
   }
 }
 
@@ -54,6 +80,17 @@ $roboto: 'Roboto', sans-serif;
   }
   h4 {
     font-family: $montserrat;
+    font-weight: 400;
+  }
+}
+
+#special-thanks {
+  background-color: $light-gray;
+  color: $medium-gray;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 40px;
+  h3 {
     font-weight: 400;
   }
 }

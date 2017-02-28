@@ -6,22 +6,43 @@
     flex-wrap: wrap;
     list-style: none;
     padding: 15px;
-    font-family: "Montserrat", sans-serif; }
+    font-family: "Montserrat", sans-serif;
+    margin: 0 10%; }
     .team-nav ul li {
       color: #070707;
       font-weight: 300;
       cursor: pointer; }
-  .team-nav .active {
+  .team-nav .mixitup-control-active {
     font-weight: 400; }
 
 .hero img {
   width: 100vw; }
 
-#team-photos div {
-  display: inline-block; }
-
-#team-photos p {
-  margin: 0px; }
+#team-photos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  #team-photos div {
+    margin: 7px 2.5%; }
+  #team-photos p {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    line-height: 1.4em; }
+  #team-photos .role {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: .8em; }
+  #team-photos .team-name {
+    font-weight: 400;
+    font-size: 1em; }
+  #team-photos a {
+    font-weight: 300;
+    color: #000;
+    font-size: .9em;
+    text-decoration: none; }
+    #team-photos a:hover {
+      color: #ccc; }
 
 .about-container {
   margin: 10px 5%;
@@ -37,3 +58,12 @@
 .divider h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400; }
+
+#special-thanks {
+  background-color: #efefef;
+  color: #3C3C3C;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 40px; }
+  #special-thanks h3 {
+    font-weight: 400; }
