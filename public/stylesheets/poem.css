@@ -310,83 +310,48 @@ video::-webkit-media-controls {
   height: 100px; }
 
 /* ------------------  Story Page ------------------ */
-.arts {
-  background-color: #C71731;
-  color: #C71731; }
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: right;
+  color: #535353; }
 
-.entre {
-  background-color: #29D172;
-  color: #29D172; }
-
-.youth {
-  background-color: #A84CD4;
-  color: #A84CD4; }
-
-.aging {
-  background-color: #00C4C7;
+h1 {
   color: #00C4C7; }
 
-.harbor {
-  background-color: #FFB11A;
-  color: #FFB11A; }
+img {
+  width: 50vw;
+  margin-right: 5vw; }
 
-.subhead {
-  background-color: white;
-  font-weight: 400; }
+/* -This div just fills up the page so I can see that the scroll is working.-*/
+.fill {
+  height: 200px;
+  width: 100vw;
+  margin-left: -8px;
+  margin-top: 5%;
+  padding-top: 50%;
+  text-align: center; }
 
-.inner {
-  /*------standard classes------*/
-  /*------page ids------*/ }
-  .inner .max-width {
-    max-width: 800px; }
-  .inner .center-wrapper {
-    display: flex;
-    justify-content: center; }
-  .inner #inner-intro {
-    /*inherits from h3*/
-    text-align: center;
-    max-width: 40%;
-    font-weight: 300; }
-  .inner .inner-hero img {
-    width: 100vw; }
-  .inner .byline-box {
-    display: flex; }
-    .inner .byline-box .byline-item {
-      text-align: center;
-      margin-left: 10px; }
-    .inner .byline-box:nth-child(1) {
-      margin-left: 0; }
-  .inner figure {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 25px;
-    margin-bottom: 40px; }
-  .inner .pull-quote-box {
-    width: 100vw; }
-  .inner .pull-quote span::before {
-    content: '\201C'; }
-  .inner .pull-quote span::after {
-    content: '\201D'; }
-  .inner .pull-quote {
-    font-family: "Montserrat", sans-serif;
-    width: 70vw;
-    color: white;
-    padding: .8em;
-    margin: 0;
-    display: inline-block; }
-  .inner .pull-quote hr {
-    background-color: white;
-    height: 8px;
-    margin-right: 725px;
-    border-radius: 30px;
-    border-style: none; }
+.poem-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px; }
 
-#inner-title-box {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  color: #fff;
-  width: 50%;
-  padding: 2em;
-  margin-top: -90px; }
-  #inner-title-box h1, #inner-title-box h3 {
-    margin: 0; }
+#section-0, #section-1, #section-2, #section-3, #section-4, #section-5, #section-6 {
+  margin-right: 5vw;
+  margin-left: 5vw;
+  opacity: 0; }
+
+#section-0-img, #section-1-img, #section-2-img, #section-3-img, #section-4-img, #section-5-img, #section-6-img {
+  opacity: 0; }
+
+.fadeInRight {
+  -webkit-animation: fadeInRight 2s;
+  /* Safari 4+ */
+  -moz-animation: fadeInRight 2s;
+  /* Fx 5+ */
+  -o-animation: fadeInRight 2s;
+  /* Opera 12+ */
+  animation: fadeInRight 2s;
+  /* IE 10+, Fx 29+ */
+  animation-fill-mode: forwards; }

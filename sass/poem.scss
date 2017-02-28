@@ -1,5 +1,6 @@
+@import 'main';
+
 body{
-  font-size: 15pt;
   font-family: 'Roboto', sans-serif;
   text-align: right;
   color: #535353;
@@ -24,17 +25,25 @@ img {
   text-align: center;
 }
 
-#section-0, #section-1, #section-2, #section-3, #section-4, #section-5, #section-6{
-  margin-right: 5vw;
-  margin-left: 5vw;
-}
-
 .poem-row{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 30px;
+
 }
+
+#section-0, #section-1, #section-2, #section-3, #section-4, #section-5, #section-6{
+  margin-right: 5vw;
+  margin-left: 5vw;
+  opacity: 0;
+}
+
+#section-0-img, #section-1-img, #section-2-img, #section-3-img, #section-4-img, #section-5-img, #section-6-img{
+  opacity: 0;
+}
+
+
 
 .fadeInRight {
   -webkit-animation: fadeInRight 2s; /* Safari 4+ */
