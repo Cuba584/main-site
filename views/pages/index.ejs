@@ -2,7 +2,8 @@
 <html>
 <head>
   <% include ../partials/header.ejs %>
-
+  <script src="/js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
 </head>
 
 <body>
@@ -10,6 +11,9 @@
 
     <div class="gallery">
       <div class="card latched">
+        <div class="title-svg">
+          <img src="/assets/images/cubatitle.svg" alt="Cuba's New Wave">
+        </div>
         <div>
 
         <video id="my-video" loop muted data-autoplay autoplay loop="loop">
@@ -23,8 +27,8 @@
           </div>
     		</div>
       </div>
-      </div>
-      <div class="spacer"></div>
+    </div>
+      <!-- <div class="spacer"></div>
 
 
       <div class="card card2" data-aos="fade-up" data-aos-duration="3000">
@@ -65,11 +69,10 @@
       </div>
     </div>
       </div>
-      <div class="spacer"></div>
+      <div class="spacer"></div> -->
   </div>
 
     <% include ../partials/footer.ejs %>
-
 
   <script>
   document.getElementsByTagName('video')[0].onended = function () {

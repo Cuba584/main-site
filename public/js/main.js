@@ -1,3 +1,9 @@
+$(document).ready(function(){
+  $(window).scroll(function(){
+    $('.title-svg').fadeIn("slow");
+  })
+});
+
 // $(document).ready(function(){
 //   $('.latched').fadeIn('slow');
 //   /* Store the original positions */
