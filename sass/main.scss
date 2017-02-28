@@ -393,14 +393,3 @@ video::-webkit-media-controls {
 
 
 /* ------------------  Story Page ------------------ */
-
-
-/* ------------------  Footer ------------------ */
-footer ul {
-  list-style-type: none;
-}
-
-footer {
-  @include header-footer;
-  background-color: #efefef;
-}

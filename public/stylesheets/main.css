@@ -310,11 +310,3 @@ video::-webkit-media-controls {
   height: 100px; }
 
 /* ------------------  Story Page ------------------ */
-/* ------------------  Footer ------------------ */
-footer ul {
-  list-style-type: none; }
-
-footer {
-  text-align: left;
-  padding: 1rem;
-  background-color: #efefef; }

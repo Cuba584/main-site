@@ -1,9 +1,9 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 footer {
   text-align: left;
-  background-color: #efefef;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  color: #535353; }
+  background: none;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem; }
   footer .wrapper {
     display: flex;
     flex-flow: row wrap;
@@ -12,29 +12,39 @@ footer {
   footer .item ul {
     list-style-type: none;
     margin-right: 3vw;
-    display: block;
-    padding: 1em; }
+    display: block; }
   footer .item ul li {
     display: inline; }
   footer .item span {
     margin-left: 5px;
     margin-right: 5px; }
   footer .item img {
-    height: 8vw;
+    height: 6vw;
     margin-left: 3vw; }
   footer ul li a {
     text-decoration: none;
     color: #535353; }
+  footer ul li a:hover {
+    font-weight: bold; }
+  footer .fa {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black; }
 
 /* ------- Media Queries --------- */
 @media screen and (max-width: 500px) {
-  footer .wrapper {
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; }
-  footer .item img {
-    margin-left: 0px;
-    height: 12vw; }
-  footer .item ul {
-    margin-right: 0px; } }
+  footer {
+    padding-top: 3rem; }
+    footer .wrapper {
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center; }
+    footer .item {
+      padding: 0; }
+    footer .item img {
+      margin-left: 0px;
+      height: 13vw; }
+    footer .item ul {
+      margin-right: 0px;
+      padding: 0; } }
