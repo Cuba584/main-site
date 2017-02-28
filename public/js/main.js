@@ -1,3 +1,21 @@
+$(document).ready(function(){
+  var windowHeight = $(window).height();
+  $('#index-container').css('height', windowHeight + 3);
+  $(window).scroll(function(){
+    var offset = $(this).scrollTop();
+    if (offset >= 2){
+    $('.title-svg').fadeIn(1000);
+    $('#link-box').fadeIn(1000);
+    $('#link-box').css('display', 'flex');
+    $('.arrow').css('display', 'none');
+  } else if (offset <= 2){
+    $('.title-svg').fadeOut(1000);
+    $('#link-box').fadeOut(1000);
+    $('.arrow').css('display', 'block');
+  }
+  })
+});
+
 // $(document).ready(function(){
 //   $('.latched').fadeIn('slow');
 //   /* Store the original positions */
@@ -56,31 +74,31 @@
 //
 //
 // });
-
-$(document).ready(function(){
-  AOS.init({
-  duration: 1200
-});
-
-  /* Store the original positions */
-    var positions = [];
-    var cards = $('.card');
-    cards.each(function(){
-      //it's important to use offset because position is relative to the container, not the document
-      positions.push( $(this).offset().top );
-    });
-
-    /* respond to the scroll event */
-    $(window).on('scroll', function(e){
-        /* get the current scroll position */
-        var pos = $(window).scrollTop();
-
-        for (var i = 0; i < cards.length; i++) {
-          if( pos >= positions[i] ) {
-            $(cards[i]).addClass('latched');
-          } else {
-            $(cards[i]).removeClass('latched');
-          }
-        }
-      });
-  });
+//
+// $(document).ready(function(){
+//   AOS.init({
+//   duration: 1200
+// });
+//
+//   /* Store the original positions */
+//     var positions = [];
+//     var cards = $('.card');
+//     cards.each(function(){
+//       //it's important to use offset because position is relative to the container, not the document
+//       positions.push( $(this).offset().top );
+//     });
+//
+//     /* respond to the scroll event */
+//     $(window).on('scroll', function(e){
+//         /* get the current scroll position */
+//         var pos = $(window).scrollTop();
+//
+//         for (var i = 0; i < cards.length; i++) {
+//           if( pos >= positions[i] ) {
+//             $(cards[i]).addClass('latched');
+//           } else {
+//             $(cards[i]).removeClass('latched');
+//           }
+//         }
+//       });
+//   });
