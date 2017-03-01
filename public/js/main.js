@@ -4,9 +4,12 @@ $(document).ready(function(){
     //document.body.scrollTop = 0;
     //$('html, body').scrollTop(0);
     var windowHeight = $(window).height();
-    var svg_height_image = $('.title-svg img').height();
+    var svg_height_image = $('.svg-image').height();
     var fillerHeight = windowHeight - svg_height_image;
-    $('.filler').css('height', fillerHeight);
+    $('.backing').css('height', fillerHeight);
+    $('.backing').css('top', svg_height_image);
+    console.log(svg_height_image)
+
 
     $(window).resize(function() {
       if(windowHeight != $(window).height()) {
@@ -28,8 +31,10 @@ $(document).ready(function(){
     var body_height = $('body').height() - $('.title-svg').height();
     var svg_height = $('.title-svg').height();
     $('.title-svg').show();
+    $('.backing').show();
 
     $('.title-svg').css('opacity', offset / (body_height-1000));
+    $('.backing').css('opacity', offset / (body_height-1000));
 
     //console.log($('.title-svg').css('opacity'));
 
