@@ -237,39 +237,6 @@ nav {
   transform: translate3d(0,0,0);
 }
 
-.card2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  .index-title {
-    // margin-top: 10%;
-  }
-  #title1{
-    font-size: 7.625em;
-    color: $title;
-    font-family: $montserrat;
-    font-weight:100;
-  }
-  #title2 {
-    font-size: 11.875em;
-    color: $title;
-    font-family: $montserrat;
-    font-weight:800;
-  }
-}
-
-#subtitle {
-  color: #3f3f3f;
-  font-family: $montserrat;
-}
-
- .t-title {
-   background: url("/assets/images/arts_test.png");
-       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-   // background: url("/public/assets/flowers.mp4");
- }
-
  .title-svg {
    z-index: 4;
    width: 100%;
@@ -279,6 +246,10 @@ nav {
    top: 0;
    left: 0;
  }
+
+.title-img {
+  width: 100%;
+}
 
 .filler {
   background-color: #fff;
@@ -298,6 +269,7 @@ nav {
   position: absolute;
   -webkit-transition: all 30s ease-in-out;
   top: 1000px;
+
   div {
     z-index: 10;
     flex-shrink: 1;
@@ -305,25 +277,34 @@ nav {
     padding: 12.5px;
     font-family: $montserrat;
     color: #fff;
+    max-height: 285px;
+
     .box-title {
       text-transform: uppercase;
       margin: 0;
       font-weight: 500;
       font-size:1.1em;
-      word-break: break-word;
+      word-wrap:break-word;
     }
+
     .box-content {
       font-size: 0.938em;
       font-family: $roboto;
       text-align: left;
       line-height: 1.313em;
     }
+
   }
 }
 
 @media (max-width: 1042px) {
   #upper-filler {
     height: 40px;
+  }
+  #link-box {
+    div {
+      width: 14%;
+    }
   }
 }
 
@@ -386,44 +367,6 @@ video::-webkit-media-controls {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 250px;
-    // height: 400px;
-}
-.flex-item {
-  align-self: flex-start;
-  flex-wrap: wrap;
-  width:208px;
-  height: 307px;
-  margin: 10px;
-  padding: 12.5px;
-  color: black;
-  display: flex;
-  font-family: $montserrat;
-  color: white;
-  .box-title {
-    text-transform: uppercase;
-    margin: 0;
-    font-weight: 500;
-    font-size:1.1em;
-  }
-  .box-content {
-    font-size: 0.938em;
-    font-family: $roboto;
-    text-align: left;
-    line-height: 1.313em;
-  }
-}
-
-.title-img {
-  width: 100%;
 }
 
 

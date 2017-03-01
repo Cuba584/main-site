@@ -190,30 +190,6 @@ nav {
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
-.card2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; }
-  .card2 #title1 {
-    font-size: 7.625em;
-    color: #83c4d6;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 100; }
-  .card2 #title2 {
-    font-size: 11.875em;
-    color: #83c4d6;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800; }
-
-#subtitle {
-  color: #3f3f3f;
-  font-family: "Montserrat", sans-serif; }
-
-.t-title {
-  background: url("/assets/images/arts_test.png");
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-
 .title-svg {
   z-index: 4;
   width: 100%;
@@ -222,6 +198,9 @@ nav {
   display: none;
   top: 0;
   left: 0; }
+
+.title-img {
+  width: 100%; }
 
 .filler {
   background-color: #fff;
@@ -245,13 +224,14 @@ nav {
     margin: 10px;
     padding: 12.5px;
     font-family: "Montserrat", sans-serif;
-    color: #fff; }
+    color: #fff;
+    max-height: 285px; }
     #link-box div .box-title {
       text-transform: uppercase;
       margin: 0;
       font-weight: 500;
       font-size: 1.1em;
-      word-break: break-word; }
+      word-wrap: break-word; }
     #link-box div .box-content {
       font-size: 0.938em;
       font-family: "Roboto", sans-serif;
@@ -260,7 +240,9 @@ nav {
 
 @media (max-width: 1042px) {
   #upper-filler {
-    height: 40px; } }
+    height: 40px; }
+  #link-box div {
+    width: 14%; } }
 
 /* Hiding video controls
 * See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
@@ -311,39 +293,6 @@ video::-webkit-media-controls {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite; }
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 250px; }
-
-.flex-item {
-  align-self: flex-start;
-  flex-wrap: wrap;
-  width: 208px;
-  height: 307px;
-  margin: 10px;
-  padding: 12.5px;
-  color: black;
-  display: flex;
-  font-family: "Montserrat", sans-serif;
-  color: white; }
-  .flex-item .box-title {
-    text-transform: uppercase;
-    margin: 0;
-    font-weight: 500;
-    font-size: 1.1em; }
-  .flex-item .box-content {
-    font-size: 0.938em;
-    font-family: "Roboto", sans-serif;
-    text-align: left;
-    line-height: 1.313em; }
-
-.title-img {
-  width: 100%; }
 
 /* ------------------  Story Page ------------------ */
 /* ------------------  Footer ------------------ */
