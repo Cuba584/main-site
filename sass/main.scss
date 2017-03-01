@@ -195,41 +195,7 @@ nav {
 
 
 /* ------------------  Index ------------------ */
-// .gallery {
-//   .card {
-//     background-color: white;
-//   }
-// }
-// .card {
-//   width: 100%;
-//   height: 100vh;
-//   position: relative;
-//   color: white;
-//   text-align: center;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   background-color: white;
-// }
-//
-// .spacer {
-//   width: 100%;
-// }
-//
-// .latched {
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   right: 0;
-//   bottom: 0;
-//   width: auto;
-//   z-index: 0;
 
-  //spacers only get screen height when their card has been latched
-  // + .spacer {
-  //     height: 100vh;
-  // }
-//}
 #video-box {
   position: relative;
 }
@@ -360,10 +326,6 @@ nav {
     height: 40px;
   }
 }
-//
-// #index-container {
-//   overflow: hidden;
-// }
 
 /* Hiding video controls
 * See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
