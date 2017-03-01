@@ -336,7 +336,7 @@ video::-webkit-media-controls {
     text-transform: uppercase;
     margin: 0;
     font-weight: 500;
-    font-size: 1.1em; }
+    font-size: 1em; }
   .flex-item .box-content {
     font-size: 0.938em;
     font-family: "Roboto", sans-serif;
