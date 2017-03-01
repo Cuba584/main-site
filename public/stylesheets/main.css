@@ -1,5 +1,29 @@
 /* ------------------ Global Styles ------------ */
-/* font sizing from http://typecast.com/blog/a-more-modern-scale-for-web-typography because I have no idea what font sizes we need to have :) :/ */
+/*change page colors here!*/
+/*this mixin applies bgr-color and color to anything with classes
+that are defined in the include below. You can override either of these colors
+further down on the page or in any of the other .SCSS files.
+*/
+.arts {
+  background-color: #ed4c09;
+  color: #ed4c09; }
+
+.entre {
+  background-color: #e4b83b;
+  color: #e4b83b; }
+
+.youth {
+  background-color: #79c7ab;
+  color: #79c7ab; }
+
+.aging {
+  background-color: #0b8fb9;
+  color: #0b8fb9; }
+
+.harbor {
+  background-color: #bc7a95;
+  color: #bc7a95; }
+
 html {
   font-size: .7em; }
 
@@ -45,7 +69,8 @@ nav {
   margin: 0;
   background-color: #fff;
   opacity: 0.8;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em; }
   nav ul {
     display: flex;
     justify-content: space-between;
@@ -195,13 +220,15 @@ nav {
   flex-direction: row;
   flex-wrap: wrap; }
   .card2 #title1 {
-    font-size: 5em;
+    font-size: 7.625em;
     color: #83c4d6;
-    font-family: "Montserrat", sans-serif; }
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100; }
   .card2 #title2 {
-    font-size: 6em;
+    font-size: 11.875em;
     color: #83c4d6;
-    font-family: "Montserrat", sans-serif; }
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800; }
 
 #subtitle {
   color: #3f3f3f;
@@ -223,7 +250,8 @@ nav {
   display: none;
   z-index: 8;
   position: absolute;
-  bottom: 100px; }
+  -webkit-transition: all 30s ease-in-out;
+  top: 1000px; }
   #link-box div {
     z-index: 10; }
 
@@ -293,42 +321,29 @@ video::-webkit-media-controls {
 
 .flex-item {
   align-self: flex-start;
-  background-color: blue;
   flex-wrap: wrap;
-  width: 200px;
-  height: 250px;
+  width: 208px;
+  height: 307px;
   margin: 10px;
-  padding: 10px 0 0 10px;
+  padding: 12.5px;
   color: black;
   display: flex;
   font-family: "Montserrat", sans-serif;
   color: white; }
   .flex-item .box-title {
     text-transform: uppercase;
-    margin: 0; }
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.1em; }
   .flex-item .box-content {
-    font-size: 14px;
+    font-size: 0.938em;
     font-family: "Roboto", sans-serif;
-    text-align: left; }
-
-#art {
-  background-color: #ed4c09; }
-
-#entre {
-  background-color: #79c7ab; }
-
-#tourism {
-  background-color: #0b8fb9; }
-
-#aging {
-  background-color: #e4b83b; }
-
-#skate {
-  background-color: #bc7a95; }
+    text-align: left;
+    line-height: 1.313em; }
 
 .title-img {
-  width: 180px;
-  height: 100px; }
+  width: 215px;
+  height: 165px; }
 
 /* ------------------  Story Page ------------------ */
 /* ------------------  Footer ------------------ */
@@ -337,5 +352,4 @@ footer ul {
 
 footer {
   text-align: left;
-  padding: 1rem;
-  background-color: #efefef; }
+  padding: 1rem; }

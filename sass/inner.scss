@@ -1,24 +1,5 @@
 @import 'main';
 
-$arts: #C71731;
-
-@mixin config-page-colors($prefix, $colors...) {
-    @each $i in $colors {
-        .#{$prefix}#{nth($i, 1)} {
-            background-color: nth($i, 2);
-            color: nth($i, 2);
-        }
-    }
-}
-
-@include config-page-colors('',
-    'arts'  $arts,
-    'entre' #29D172,
-    'youth' #A84CD4,
-    'aging' #00C4C7,
-    'harbor' #FFB11A
-);
-
 .subhead{
   background-color:white;
   font-weight:400;
