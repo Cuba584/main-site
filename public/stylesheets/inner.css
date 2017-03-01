@@ -152,36 +152,11 @@ nav {
     display: none; } }
 
 /* ------------------  Index ------------------ */
-.gallery .card {
-  background-color: white; }
-
-.card {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  color: white;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white; }
-
-.spacer {
-  width: 100%; }
-
-.latched {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: auto;
-  z-index: 0; }
-  .latched + .spacer {
-    height: 100vh; }
+#video-box {
+  position: relative; }
 
 #my-video {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   top: 0;
@@ -243,25 +218,49 @@ nav {
   z-index: 4;
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   display: none;
   top: 0;
   left: 0; }
 
+.filler {
+  background-color: #fff;
+  margin-top: -8px;
+  padding-bottom: 8px; }
+
+#upper-filler {
+  background-color: #fff; }
+
 #link-box {
   display: none;
   z-index: 8;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   position: absolute;
   -webkit-transition: all 30s ease-in-out;
   top: 1000px; }
   #link-box div {
-    z-index: 10; }
+    z-index: 10;
+    flex-shrink: 1;
+    margin: 10px;
+    padding: 12.5px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff; }
+    #link-box div .box-title {
+      text-transform: uppercase;
+      margin: 0;
+      font-weight: 500;
+      font-size: 1.1em;
+      word-break: break-word; }
+    #link-box div .box-content {
+      font-size: 0.938em;
+      font-family: "Roboto", sans-serif;
+      text-align: left;
+      line-height: 1.313em; }
 
-#index-container {
-  overflow: hidden; }
-
-#filler {
-  background-color: #fff; }
+@media (max-width: 1042px) {
+  #upper-filler {
+    height: 40px; } }
 
 /* Hiding video controls
 * See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
@@ -344,8 +343,7 @@ video::-webkit-media-controls {
     line-height: 1.313em; }
 
 .title-img {
-  width: 215px;
-  height: 165px; }
+  width: 100%; }
 
 /* ------------------  Story Page ------------------ */
 /* ------------------  Footer ------------------ */
