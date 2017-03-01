@@ -1,104 +1,63 @@
 $(document).ready(function(){
-  var windowHeight = $(window).height();
-  $('#index-container').css('height', windowHeight + 3);
-  $(window).scroll(function(){
-    var offset = $(this).scrollTop();
-    if (offset >= 2){
-    $('.title-svg').fadeIn(1000);
-    $('#link-box').fadeIn(1000);
-    $('#link-box').css('display', 'flex');
-    $('.arrow').css('display', 'none');
-  } else if (offset <= 2){
-    $('.title-svg').fadeOut(1000);
-    $('#link-box').fadeOut(1000);
-    $('.arrow').css('display', 'block');
-  }
-  })
-});
+  //save these for later in case it doesn't work in all browsers
+    //window.scrollTop = 0;
+    //document.body.scrollTop = 0;
+    //$('html, body').scrollTop(0);
 
-// $(document).ready(function(){
-//   $('.latched').fadeIn('slow');
-//   /* Store the original positions */
-//     var positions = [];
-//     var cards = $('.card');
-//     cards.each(function(){
-//
-//       var $this = $(this);
-//
-//
-//
-//       /* If the object is completely visible in the window, fade it it */
-//
-//
-//       //it's important to use offset because position is relative to the container, not the document
-//       positions.push( $(this).offset().top );
-//
-//
-//     });
-//
-//     /* respond to the scroll event */
-//     $(window).on('scroll', function(e){
-//
-//
-//         /* get the current scroll position */
-//         var pos = $(window).scrollTop();
-//
-//         for (var i = 0; i < cards.length; i++) {
-//           // console.log(this);
-//           var bottom_of_object = $(cards[i]).position().top + $(cards[i]).outerHeight();
-//           var bottom_of_window = $(window).scrollTop() + $(window).height();
-//
-//           if( bottom_of_window > bottom_of_object ){
-          //  console.log("bottom of window is larger than bottom of object");
-//             $(cards[i]).animate({'opacity':'1'},1500);
-//
-//           }
-//
-//
-//
-//           if( pos >= positions[i] ) {
-//             //if the scroll bar is above the position of the element
-//             $(cards[i]).addClass('latched');
-//
-//
-//
-//
-//
-//           } else {
-//             $(cards[i]).removeClass('latched');
-//           }
-//         }
-// });
-//
-//
-//
-//
-// });
-//
-// $(document).ready(function(){
-//   AOS.init({
-//   duration: 1200
-// });
-//
-//   /* Store the original positions */
-//     var positions = [];
-//     var cards = $('.card');
-//     cards.each(function(){
-//       //it's important to use offset because position is relative to the container, not the document
-//       positions.push( $(this).offset().top );
-//     });
-//
-//     /* respond to the scroll event */
-//     $(window).on('scroll', function(e){
-//         /* get the current scroll position */
-//         var pos = $(window).scrollTop();
-//
-//         for (var i = 0; i < cards.length; i++) {
-//           if( pos >= positions[i] ) {
-//             $(cards[i]).addClass('latched');
-//           } else {
-//             $(cards[i]).removeClass('latched');
-//           }
-//         }
-//       });
-//   });
+    window.setTimeout(function() {
+      window.scrollTo(0,0);
+    }, 50);
+
+
+    window.scrollTo(0, 0);
+
+  $(window).scroll(function(){
+    $('.arrow').css('display', 'none');
+    var windowHeight = $(window).height();
+
+    var offset = $(window).scrollTop() ;
+
+    var body_height = $('body').height() - $('.title-svg').height();
+    var svg_height = $('.title-svg').height();
+
+    $('.title-svg').show();
+
+    $('.title-svg').css('opacity', offset / (body_height-1000));
+
+    //console.log($('.title-svg').css('opacity'));
+
+    if ($('.title-svg').css('opacity') >= 1){
+      //console.log("done!")
+
+      $('#link-box').css('display', 'flex');
+      //console.log((offset/body_height)*1000);
+      if ((offset/body_height)*1000 >= 720){
+        $('body').height() == (offset/body_height)*1000;
+
+        var currTrans = $('.flex-item').css('-webkit-transform').split(/[()]/)[1];
+        var posx = currTrans.split(',')[5];
+        console.log(currTrans);
+        console.log(posx);
+        if (posx > -715){
+          console.log('it didnt make it');
+          $('.flex-item').css('-webkit-transform', 'translate(0px,-712.5px)' )
+        }
+        return;
+
+      } else {
+        $('.flex-item').css('-webkit-transform', 'translate(0px,-' + (offset / body_height)*1000 + 'px)' );
+      }
+
+
+
+    };
+
+
+
+
+
+  })
+
+
+
+});
