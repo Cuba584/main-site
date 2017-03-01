@@ -170,6 +170,9 @@ nav {
       font-size: 1.5em;
       padding: 2em 0;
     }
+    nav a{
+      text-decoration:none;
+    }
     nav #menu-toggle:checked ~ ul {
       opacity: 1;
       height: 100vh;
