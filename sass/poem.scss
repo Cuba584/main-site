@@ -1,54 +1,48 @@
-@import 'main';
+.poem-wrapper{
 
-body{
-  font-family: 'Roboto', sans-serif;
-  text-align: right;
-  color: #535353;
-}
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 
-h1 {
-  color: #00C4C7;
-}
+  p {
+    font-style: italic;
+  }
 
-img {
-  width: 50vw;
-  margin-right: 5vw;
-}
+  img {
+    width: 40vw;
+    margin-right: 10%;
+  }
 
-/* -This div just fills up the page so I can see that the scroll is working.-*/
-.fill{
-  height: 200px;
-  width: 100vw;
-  margin-left: -8px;
-  margin-top: 5%;
-  padding-top: 50%;
-  text-align: center;
-}
+  .title {
+    text-align: center;
+  }
 
-.poem-row{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 30px;
+  .poem-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
 
-}
+  #section-0, #section-1, #section-2, #section-3, #section-4, #section-5, #section-6{
+    margin-right: 0;
+    margin-left: 50px;
+    opacity: 0;
+    text-align: right;
+  }
 
-#section-0, #section-1, #section-2, #section-3, #section-4, #section-5, #section-6{
-  margin-right: 5vw;
-  margin-left: 5vw;
-  opacity: 0;
-}
-
-#section-0-img, #section-1-img, #section-2-img, #section-3-img, #section-4-img, #section-5-img, #section-6-img{
-  opacity: 0;
-}
+  #section-0-img, #section-1-img, #section-2-img, #section-3-img, #section-4-img, #section-5-img, #section-6-img{
+    opacity: 0;
+  }
 
 
+  .fadeIn{
+    -webkit-animation: fadeIn 4s; /* Safari 4+ */
+   -moz-animation:    fadeIn 4s; /* Fx 5+ */
+   -o-animation:      fadeIn 4s; /* Opera 12+ */
+   animation:         fadeIn 4s; /* IE 10+, Fx 29+ */
+   animation-fill-mode: forwards;
+  }
 
-.fadeInRight {
-  -webkit-animation: fadeInRight 2s; /* Safari 4+ */
- -moz-animation:    fadeInRight 2s; /* Fx 5+ */
- -o-animation:      fadeInRight 2s; /* Opera 12+ */
- animation:         fadeInRight 2s; /* IE 10+, Fx 29+ */
- animation-fill-mode: forwards;
+
 }

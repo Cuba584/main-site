@@ -295,27 +295,6 @@ video::-webkit-media-controls {
   animation: bounce 2s infinite; }
 
 /* ------------------  Story Page ------------------ */
-<<<<<<< HEAD
-.arts {
-  background-color: #C71731;
-  color: #C71731; }
-
-.entre {
-  background-color: #29D172;
-  color: #29D172; }
-
-.youth {
-  background-color: #A84CD4;
-  color: #A84CD4; }
-
-.aging {
-  background-color: #00C4C7;
-  color: #00C4C7; }
-
-.harbor {
-  background-color: #FFB11A;
-  color: #FFB11A; }
-
 .subhead {
   background-color: white;
   font-weight: 400; }
