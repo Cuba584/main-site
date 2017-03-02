@@ -10,7 +10,6 @@ header {
 
 /* ------------------ Navigation ------------------ */
 nav {
-  margin: 0;
   background-color: #fff;
   opacity: 0.8;
   font-family: "Monserrat", sans-serif; }
@@ -37,7 +36,6 @@ nav {
   nav .wrapper {
     margin: 0 auto;
     max-width: 75%;
-    padding: 0 2%;
     align-items: center;
     display: flex;
     justify-content: space-between; }
@@ -46,7 +44,7 @@ nav {
   nav #menu-toggle {
     display: none; }
 
-#header {
+#nav-header {
   position: fixed;
   height: 50px;
   display: block;
@@ -54,6 +52,23 @@ nav {
   z-index: 9;
   text-align: center;
   top: 0px; }
+
+header {
+  position: fixed;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear; }
+
+.default {
+  top: 0; }
+
+.fixed {
+  top: -85px; }
 
 /*------------------ RESPONSIVE NAV STYLES ---------*/
 @media screen and (max-width: 768px) {
