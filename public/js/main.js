@@ -1,86 +1,70 @@
-// $(document).ready(function(){
-//   $('.latched').fadeIn('slow');
-//   /* Store the original positions */
-//     var positions = [];
-//     var cards = $('.card');
-//     cards.each(function(){
-//
-//       var $this = $(this);
-//
-//
-//
-//       /* If the object is completely visible in the window, fade it it */
-//
-//
-//       //it's important to use offset because position is relative to the container, not the document
-//       positions.push( $(this).offset().top );
-//
-//
-//     });
-//
-//     /* respond to the scroll event */
-//     $(window).on('scroll', function(e){
-//
-//
-//         /* get the current scroll position */
-//         var pos = $(window).scrollTop();
-//
-//         for (var i = 0; i < cards.length; i++) {
-//           // console.log(this);
-//           var bottom_of_object = $(cards[i]).position().top + $(cards[i]).outerHeight();
-//           var bottom_of_window = $(window).scrollTop() + $(window).height();
-//
-//           if( bottom_of_window > bottom_of_object ){
-          //  console.log("bottom of window is larger than bottom of object");
-//             $(cards[i]).animate({'opacity':'1'},1500);
-//
-//           }
-//
-//
-//
-//           if( pos >= positions[i] ) {
-//             //if the scroll bar is above the position of the element
-//             $(cards[i]).addClass('latched');
-//
-//
-//
-//
-//
-//           } else {
-//             $(cards[i]).removeClass('latched');
-//           }
-//         }
-// });
-//
-//
-//
-//
-// });
-
 $(document).ready(function(){
-  AOS.init({
-  duration: 1200
-});
+  //save these for later in case it doesn't work in all browsers
+    //window.scrollTop = 0;
+    //document.body.scrollTop = 0;
+    //$('html, body').scrollTop(0);
+    var windowHeight = $(window).height();
+    var svg_height_image = $('.title-svg img').height();
+    var fillerHeight = windowHeight - svg_height_image;
+    $('.filler').css('height', fillerHeight);
 
-  /* Store the original positions */
-    var positions = [];
-    var cards = $('.card');
-    cards.each(function(){
-      //it's important to use offset because position is relative to the container, not the document
-      positions.push( $(this).offset().top );
-    });
+    $(window).resize(function() {
+      if(windowHeight != $(window).height()) {
+        location.reload();
+        return;
+      }
+    })
 
-    /* respond to the scroll event */
-    $(window).on('scroll', function(e){
-        /* get the current scroll position */
-        var pos = $(window).scrollTop();
+    window.setTimeout(function() {
+      window.scrollTo(0,0);
+    }, 50);
 
-        for (var i = 0; i < cards.length; i++) {
-          if( pos >= positions[i] ) {
-            $(cards[i]).addClass('latched');
-          } else {
-            $(cards[i]).removeClass('latched');
-          }
+
+    window.scrollTo(0, 0);
+
+  $(window).scroll(function(){
+    $('.arrow').css('display', 'none');
+    var offset = $(window).scrollTop() ;
+    var body_height = $('body').height() - $('.title-svg').height();
+    var svg_height = $('.title-svg').height();
+    $('.title-svg').show();
+
+    $('.title-svg').css('opacity', offset / (body_height-1000));
+
+    //console.log($('.title-svg').css('opacity'));
+
+    if ($('.title-svg').css('opacity') >= 1){
+      //console.log("done!")
+
+      $('#link-box').css('display', 'flex');
+      //console.log((offset/body_height)*1000);
+      if ((offset/body_height)*1000 >= 720){
+        $('body').height() == (offset/body_height)*1000;
+
+        var currTrans = $('#link-box div').css('-webkit-transform').split(/[()]/)[1];
+        var posx = currTrans.split(',')[5];
+    //    console.log(currTrans);
+    //    console.log(posx);
+        if (posx > -715){
+    //      console.log('it didnt make it');
+          $('#link-box div').css('-webkit-transform', 'translate(0px,-712.5px)' )
         }
-      });
-  });
+        return;
+
+      } else {
+        $('#link-box div').css('-webkit-transform', 'translate(0px,-' + (offset / body_height)*1000 + 'px)' );
+      }
+
+
+
+    };
+
+
+
+
+
+  })
+
+
+
+});

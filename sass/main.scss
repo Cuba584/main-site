@@ -6,13 +6,36 @@ $dark-gray: #696969;
 $title: #83c4d6;
 $montserrat: 'Montserrat', sans-serif;
 $roboto: 'Roboto', sans-serif;
+
+/*change page colors here!*/
 $red: #ed4c09;
 $yellow: #e4b83b;
 $green: #79c7ab;
 $blue: #0b8fb9;
 $purple: #bc7a95;
 
-/* font sizing from http://typecast.com/blog/a-more-modern-scale-for-web-typography because I have no idea what font sizes we need to have :) :/ */
+
+/*this mixin applies bgr-color and color to anything with classes
+that are defined in the include below. You can override either of these colors
+further down on the page or in any of the other .SCSS files.
+*/
+@mixin config-page-colors($prefix, $colors...) {
+    @each $i in $colors {
+        .#{$prefix}#{nth($i, 1)} {
+            background-color: nth($i, 2);
+            color: nth($i, 2);
+        }
+    }
+}
+
+@include config-page-colors('',
+    'arts'  $red,
+    'entre' $yellow,
+    'youth' $green,
+    'aging' $blue,
+    'harbor' $purple
+);
+
 html {font-size:.7em;}
 
 body {
@@ -69,6 +92,7 @@ nav {
   background-color: #fff;
   opacity: 0.8;
   font-family: $montserrat;
+  font-size:1em;
   ul {
   display: flex;
   justify-content: space-between;
@@ -171,44 +195,13 @@ nav {
 
 
 /* ------------------  Index ------------------ */
-.gallery {
-  .card {
-    background-color: white;
-  }
-}
-.card {
-  width: 100%;
-  height: 100vh;
+
+#video-box {
   position: relative;
-  color: white;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-}
-
-.spacer {
-  width: 100%;
-}
-
-.latched {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: auto;
-  z-index: 0;
-
-  //spacers only get screen height when their card has been latched
-  + .spacer {
-      height: 100vh;
-  }
 }
 
 #my-video{
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   top:0;
@@ -244,38 +237,76 @@ nav {
   transform: translate3d(0,0,0);
 }
 
-.card2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  .index-title {
-    // margin-top: 10%;
-  }
-  #title1{
-    font-size: 5em;
-    color: $title;
-    font-family: $montserrat;
-  }
-  #title2 {
-    font-size: 6em;
-    color: $title;
-    font-family: $montserrat;
-  }
-}
-
-#subtitle {
-  color: #3f3f3f;
-  font-family: $montserrat;
-}
-
- .t-title {
-   background: url("/assets/images/arts_test.png");
-       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-   // background: url("/public/assets/flowers.mp4");
+ .title-svg {
+   z-index: 4;
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   display: none;
+   top: 0;
+   left: 0;
  }
 
+.title-img {
+  width: 100%;
+}
 
+.filler {
+  background-color: #fff;
+  margin-top: -8px;
+  padding-bottom: 8px;
+}
+
+#upper-filler {
+  background-color: #fff;
+}
+
+#link-box {
+  display: none;
+  z-index: 8;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  position: absolute;
+  -webkit-transition: all 30s ease-in-out;
+  top: 1000px;
+
+  div {
+    z-index: 10;
+    flex-shrink: 1;
+    margin: 10px;
+    padding: 12.5px;
+    font-family: $montserrat;
+    color: #fff;
+    max-height: 285px;
+
+    .box-title {
+      text-transform: uppercase;
+      margin: 0;
+      font-weight: 500;
+      font-size:1.1em;
+      word-wrap:break-word;
+    }
+
+    .box-content {
+      font-size: 0.938em;
+      font-family: $roboto;
+      text-align: left;
+      line-height: 1.313em;
+    }
+
+  }
+}
+
+@media (max-width: 1042px) {
+  #upper-filler {
+    height: 40px;
+  }
+  #link-box {
+    div {
+      width: 14%;
+    }
+  }
+}
 
 /* Hiding video controls
 * See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
@@ -336,59 +367,6 @@ video::-webkit-media-controls {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 250px;
-    // height: 400px;
-}
-.flex-item {
-  align-self: flex-start;
-  background-color: blue;
-  flex-wrap: wrap;
-  width:200px;
-  height: 250px;
-  margin: 10px;
-  padding: 10px 0 0 10px;
-  color: black;
-  display: flex;
-  font-family: $montserrat;
-  color: white;
-  .box-title {
-    text-transform: uppercase;
-    margin: 0;
-  }
-  .box-content {
-    font-size: 14px;
-    font-family: $roboto;
-    text-align: left;
-  }
-}
-
-#art {
-  background-color: $red;
-}
-#entre {
-  background-color: $green;
-}
-#tourism {
-  background-color: $blue;
-}
-#aging {
-  background-color: $yellow;
-}
-#skate {
-  background-color: $purple;
-}
-
-.title-img {
-  width: 180px;
-  height: 100px;
 }
 
 
