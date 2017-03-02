@@ -1,4 +1,7 @@
 {
+  "master-class": {
+    "class": "youth"
+  },
   "hero": {
     "src": "/assets/images/sports_test.png",
     "alt": "Youth Culture/Sports Hero"

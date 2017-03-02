@@ -2,6 +2,7 @@
 <html>
 <head>
   <% include ../partials/header.ejs %>
+
 </head>
 
 <body>
@@ -10,7 +11,9 @@
     <div class="gallery">
       <div class="card latched">
         <div>
-        <video id="my-video" loop muted data-autoplay autoplay>
+
+        <video id="my-video" loop muted data-autoplay autoplay loop="loop">
+
     			<source src="/assets/flowers.mp4" type="video/mp4">
 
     		</video>
@@ -65,6 +68,15 @@
       <div class="spacer"></div>
   </div>
 
+    <% include ../partials/footer.ejs %>
+
+
+  <script>
+  document.getElementsByTagName('video')[0].onended = function () {
+  this.load();
+  this.play();
+};
+</script>
 
 </body>
 </html>

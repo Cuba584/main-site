@@ -1,4 +1,7 @@
 {
+  "master-class": {
+    "class": "aging"
+  },
   "hero": {
     "src": "/assets/images/aging_test.png",
     "alt": "Aging Society Hero"
