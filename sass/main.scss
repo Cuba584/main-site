@@ -238,9 +238,8 @@ nav {
 }
 
  .title-svg {
-   z-index: 4;
+   z-index: 5;
    width: 100%;
-   height: 100%;
    position: fixed;
    display: none;
    top: 0;
@@ -251,60 +250,67 @@ nav {
   width: 100%;
 }
 
-.filler {
-  background-color: #fff;
-  margin-top: -8px;
-  padding-bottom: 8px;
-}
-
 #upper-filler {
   background-color: #fff;
 }
 
 #link-box {
   display: none;
-  z-index: 8;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  z-index: 6;
+//  margin-left: 2.5%;
+  //margin-right: 2.5%;
+  width: 100%;
   position: absolute;
-  -webkit-transition: all 30s ease-in-out;
+//  -webkit-transition: all 30s ease-in-out;
   top: 1000px;
-
-  div {
-    z-index: 10;
-    flex-shrink: 1;
-    margin: 10px;
-    padding: 12.5px;
+  background-color: #fff;
+  .subtitle {
+    text-align: center;
+    margin: 0;
+    color: #3f3f3f;
     font-family: $montserrat;
-    color: #fff;
-    max-height: 285px;
+    font-weight: 400;
+    font-size: 1.4em;
+  }
 
-    .box-title {
-      text-transform: uppercase;
-      margin: 0;
-      font-weight: 500;
-      font-size:1.1em;
-      word-wrap:break-word;
-    }
+  #thumbnail-box {
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    margin-left:2.5%;
+    div {
+      z-index: 7;
+      margin: 10px;
+      padding: 12.5px;
+      font-family: $montserrat;
+      color: #fff;
+      //flex: 1;
+       width: 14.5%;
+    //   height: 225px;
+      .box-title {
+        text-transform: uppercase;
+        margin: 0;
+        font-weight: 500;
+        font-size:1.1em;
+        line-height: normal;
+        text-align: left;
+        word-wrap:break-word;
+      }
 
-    .box-content {
-      font-size: 0.938em;
-      font-family: $roboto;
-      text-align: left;
-      line-height: 1.313em;
+      .box-content {
+        font-size: 0.938em;
+        font-family: $roboto;
+        text-align: left;
+        line-height: 1.313em;
+      }
     }
 
   }
 }
 
-@media (max-width: 1042px) {
+@media (max-width: 2000px) {
   #upper-filler {
-    height: 40px;
-  }
-  #link-box {
-    div {
-      width: 14%;
-    }
+    height: 50px;
   }
 }
 
