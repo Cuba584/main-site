@@ -237,6 +237,10 @@ nav {
   transform: translate3d(0,0,0);
 }
 
+#index-container {
+  overflow:scroll;
+}
+
  .title-svg {
    z-index: 5;
    width: 100%;
@@ -263,34 +267,53 @@ nav {
 #link-box {
   display: none;
   z-index: 6;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+//  margin-left: 2.5%;
+  //margin-right: 2.5%;
+  width: 100%;
   position: absolute;
-  -webkit-transition: all 30s ease-in-out;
+//  -webkit-transition: all 30s ease-in-out;
   top: 1000px;
   background-color: #fff;
-  div {
-    z-index: 7;
-    flex-shrink: 1;
-    margin: 10px;
-    padding: 12.5px;
+  .subtitle {
+    text-align: center;
+    margin: 0;
+    color: #3f3f3f;
     font-family: $montserrat;
-    color: #fff;
-    max-height: 285px;
+    font-weight: 400;
+    font-size: 1.4em;
+  }
 
-    .box-title {
-      text-transform: uppercase;
-      margin: 0;
-      font-weight: 500;
-      font-size:1.1em;
-      word-wrap:break-word;
-    }
+  #thumbnail-box {
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    margin-left:2.5%;
+    div {
+      z-index: 7;
+      // flex-shrink: 1;
+      margin: 10px;
+      padding: 12.5px;
+      font-family: $montserrat;
+      color: #fff;
+      flex: 1;
+      // width: 175px;
+      // height: 225px;
+      .box-title {
+        text-transform: uppercase;
+        margin: 0;
+        font-weight: 500;
+        font-size:1.1em;
+        line-height: normal;
+        text-align: left;
+        word-wrap:break-word;
+      }
 
-    .box-content {
-      font-size: 0.938em;
-      font-family: $roboto;
-      text-align: left;
-      line-height: 1.313em;
+      .box-content {
+        font-size: 0.938em;
+        font-family: $roboto;
+        text-align: left;
+        line-height: 1.313em;
+      }
     }
 
   }
@@ -300,19 +323,20 @@ nav {
   background-color: #fff;
   position: fixed;
   width: 100%;
-  height: 1000px;
+  height: 3000px;
+  margin-top: -10%;
   z-index: 4;
   display: none;
 }
-@media (max-width: 1042px) {
+@media (max-width: 1179px) {
   #upper-filler {
     height: 40px;
   }
-  #link-box {
-    div {
-      width: 14%;
-    }
-  }
+  // #link-box {
+  //   div {
+  //     width: 13.5%;
+  //   }
+  // }
 }
 
 /* Hiding video controls
