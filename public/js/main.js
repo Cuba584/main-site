@@ -6,25 +6,28 @@ $(document).ready(function(){
     var windowHeight = $(window).height();
     var windowWidth = $(window).width();
 
-
+    console.log
   //  console.log(windowHeight);
     $('body').css('height', (windowHeight * 2));
     $('#link-box').css('top', windowHeight);
     $('#title-svg-full').attr('viewBox', '0 0 1366 ' + (windowHeight * 2));
      $('#svg-backing').attr('height', windowHeight * 2);
+     $('#svg-backing').attr('y', 300);
      $('#svg-backing').attr('width', windowWidth * 2);
 
+  //   console.log(path);
+    // console.log(svg_text_height)
   //   $('#link-box').css('top', windowHeight);
 
   //  $('#index-container').css('max-height', windowHeight);
     //$('#my-video').css('max-height', windowHeight);
   //  console.log(windowHeight);
-    $(window).resize(function() {
-      if(windowHeight != $(window).height()) {
-        location.reload();
-        return;
-      }
-    })
+    // $(window).resize(function() {
+    //   if(windowHeight != $(window).height()) {
+    //     location.reload();
+    //     return;
+    //   }
+    // })
 
     window.setTimeout(function() {
       window.scrollTo(0,0);
@@ -44,6 +47,7 @@ $(document).ready(function(){
 
     //console.log(offset)
     var svg_height = $('.title-svg').height();
+  //  console.log(svg_text_height)
     // var svg_height_image = $('#svg-image').height();
     var index_height = $('#index-container').height();
     // var fillerHeight = windowHeight - svg_height_image;
@@ -55,6 +59,7 @@ $(document).ready(function(){
     // $('.backing').show();
     //console.log(body_height);
     $('.title-svg').css('opacity', offset / (windowHeight / 5));
+
   //  console.log(offset / (windowHeight / 5));
     // $('.backing').css('opacity', offset / (body_height-1000));
     if (offset <= (windowHeight / 4)) {
@@ -88,10 +93,16 @@ $(document).ready(function(){
         //console.log((offset / body_height)*1000)
       //  console.log((offset / body_height)*1000);
         //console.log((offset / (windowHeight / 5))*266);
-        console.log((offset / (windowHeight / 5)))
+        //console.log((offset / (windowHeight / 5)))
+    //    console.log(((offset / (windowHeight / 5))*(windowHeight/9.5)))
       //  $('#link-box').css('-webkit-transform', 'translate(0px,-' + (((offset / (windowHeight / 5))*(windowHeight/7))) + 'px)' );
-        $('#link-box').css('-webkit-transform', 'translate(0px,-' + (((offset / (windowHeight / 5))*(windowHeight/9.5))) + 'px)' );
+      if (windowWidth/windowHeight <= 1) {
+        $('#link-box').css('-webkit-transform', 'translate(0px,-' + (((offset / (windowHeight / 5))*(windowHeight/6.5))-(windowWidth/15)+100) + 'px)' );
     //  }
+  } else {
+    $('#link-box').css('-webkit-transform', 'translate(0px,-' + (((offset / (windowHeight / 5))*(windowHeight/9.5))) + 'px)' );
+
+  }
 
 
 
