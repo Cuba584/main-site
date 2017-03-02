@@ -329,14 +329,6 @@ video::-webkit-media-controls {
   animation: bounce 2s infinite; }
 
 /* ------------------  Story Page ------------------ */
-/* ------------------  Footer ------------------ */
-footer ul {
-  list-style-type: none; }
-
-footer {
-  text-align: left;
-  padding: 1rem; }
-
 .subhead {
   background-color: white;
   font-weight: 400; }
