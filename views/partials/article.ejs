@@ -21,19 +21,19 @@
 
     <div class="byline-box center-wrapper">
       <div class="byline-item">
-      <p class="byline-head">written by:</p>
+      <p class="byline-head">written by</p>
         <% for (r in body["reporters"]) {%>
         <p><%= body["reporters"][r]["name"] %></p>
         <% } %>
       </div>
       <div class="byline-item">
-      <p class="byline-head">photos by:</p>
+      <p class="byline-head">photos by</p>
         <% for (v in body["videographers"]) {%>
         <p><%= body["videographers"][v]["name"] %></p>
         <% } %>
       </div>
       <div class="byline-item">
-      <p class="byline-head">design by:</p>
+      <p class="byline-head">design by</p>
         <% for (d in body["designers"]) {%>
         <p><%= body["designers"][d]["name"] %></p>
         <% } %>
