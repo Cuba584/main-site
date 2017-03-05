@@ -66,7 +66,6 @@ header {
 
 /* ------------------ Navigation ------------------ */
 nav {
-  margin: 0;
   background-color: #fff;
   opacity: 0.8;
   font-family: "Montserrat", sans-serif;
@@ -94,7 +93,6 @@ nav {
   nav .wrapper {
     margin: 0 auto;
     max-width: 75%;
-    padding: 0 2%;
     align-items: center;
     display: flex;
     justify-content: space-between; }
@@ -103,7 +101,7 @@ nav {
   nav #menu-toggle {
     display: none; }
 
-#header {
+#nav-header {
   position: fixed;
   height: 50px;
   display: block;
@@ -111,6 +109,23 @@ nav {
   z-index: 9;
   text-align: center;
   top: 0px; }
+
+header {
+  position: fixed;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear; }
+
+.default {
+  top: 0; }
+
+.fixed {
+  top: -85px; }
 
 /*------------------ RESPONSIVE NAV STYLES ---------*/
 @media screen and (max-width: 768px) {
@@ -141,49 +156,39 @@ nav {
     height: 100vh;
     visibility: visible; }
   nav .label-toggle {
-    background: linear-gradient(to bottom, #696969 0%, #696969 20%, transparent 20%, transparent 40%, #696969 40%, #696969 60%, transparent 60%, transparent 80%, #696969 80%, #696969 100%);
     cursor: pointer;
     display: block;
     float: right;
     height: 35px;
     margin-top: 1em;
     width: 35px; }
+    nav .label-toggle .nav-container {
+      display: inline-block; }
+      nav .label-toggle .nav-container .bar1, nav .label-toggle .nav-container .bar2, nav .label-toggle .nav-container .bar3 {
+        width: 35px;
+        height: 5px;
+        margin: 6px 0;
+        background: #696969;
+        transition: 0.4s; }
+    nav .label-toggle .change .bar1 {
+      -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+      transform: rotate(-45deg) translate(-9px, 6px); }
+    nav .label-toggle .change .bar2 {
+      opacity: 0; }
+    nav .label-toggle .change .bar3 {
+      -webkit-transform: rotate(45deg) translate(-8px, -8px);
+      transform: rotate(45deg) translate(-8px, -8px); }
   nav .wrapper {
     display: block; }
   .line {
     display: none; } }
 
 /* ------------------  Index ------------------ */
-.gallery .card {
-  background-color: white; }
-
-.card {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  color: white;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white; }
-
-.spacer {
-  width: 100%; }
-
-.latched {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: auto;
-  z-index: 0; }
-  .latched + .spacer {
-    height: 100vh; }
+#video-box {
+  position: relative; }
 
 #my-video {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   top: 0;
@@ -217,53 +222,72 @@ nav {
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
-.card2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; }
-  .card2 #title1 {
-    font-size: 7.625em;
-    color: #83c4d6;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 100; }
-  .card2 #title2 {
-    font-size: 11.875em;
-    color: #83c4d6;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800; }
-
-#subtitle {
-  color: #3f3f3f;
-  font-family: "Montserrat", sans-serif; }
-
-.t-title {
-  background: url("/assets/images/arts_test.png");
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-
 .title-svg {
-  z-index: 4;
+  z-index: 5;
   width: 100%;
-  height: 100%;
-  position: absolute;
+  position: fixed;
   display: none;
   top: 0;
   left: 0; }
 
-#link-box {
-  display: none;
-  z-index: 8;
-  position: absolute;
-  -webkit-transition: all 30s ease-in-out;
-  top: 1000px; }
-  #link-box div {
-    z-index: 10; }
+.title-img {
+  width: 100%; }
 
-#index-container {
-  overflow: hidden; }
-
-#filler {
+#upper-filler {
   background-color: #fff; }
+
+.subtitle {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 0;
+  margin-top: 0px;
+  color: #3f3f3f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.1em; }
+
+#upper-filler {
+  background-color: #fff; }
+
+#link-box {
+  margin-top: -5%;
+  z-index: 6;
+  background-color: #fff;
+  width: 100%; }
+  #link-box #thumbnail-box {
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    margin-left: 2.5%; }
+    #link-box #thumbnail-box div {
+      z-index: 7;
+      margin: 10px;
+      padding: 12.5px;
+      font-family: "Montserrat", sans-serif;
+      color: #fff;
+      width: 14.5%;
+      height: 19vw; }
+      #link-box #thumbnail-box div .box-title {
+        text-transform: uppercase;
+        margin: 0;
+        font-weight: 500;
+        font-size: 1.1em;
+        line-height: normal;
+        text-align: left;
+        word-wrap: break-word; }
+      #link-box #thumbnail-box div .box-content {
+        font-size: 0.938em;
+        font-family: "Roboto", sans-serif;
+        text-align: left;
+        line-height: 1.313em; }
+
+@media (max-width: 2000px) {
+  #upper-filler {
+    height: 20px; } }
+
+@media (max-width: 1200px) {
+  #upper-filler {
+    height: 40px; } }
 
 /* Hiding video controls
 * See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
@@ -315,49 +339,7 @@ video::-webkit-media-controls {
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite; }
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 250px; }
-
-.flex-item {
-  align-self: flex-start;
-  flex-wrap: wrap;
-  width: 208px;
-  height: 307px;
-  margin: 10px;
-  padding: 12.5px;
-  color: black;
-  display: flex;
-  font-family: "Montserrat", sans-serif;
-  color: white; }
-  .flex-item .box-title {
-    text-transform: uppercase;
-    margin: 0;
-    font-weight: 500;
-    font-size: 1em; }
-  .flex-item .box-content {
-    font-size: 0.938em;
-    font-family: "Roboto", sans-serif;
-    text-align: left;
-    line-height: 1.313em; }
-
-.title-img {
-  width: 215px;
-  height: 165px; }
-
 /* ------------------  Story Page ------------------ */
-/* ------------------  Footer ------------------ */
-footer ul {
-  list-style-type: none; }
-
-footer {
-  text-align: left;
-  padding: 1rem; }
-
 .subhead {
   background-color: white;
   font-weight: 400; }

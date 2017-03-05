@@ -88,7 +88,7 @@ header {
 
 
 nav {
-  margin: 0;
+  // margin: 0;
   background-color: #fff;
   opacity: 0.8;
   font-family: $montserrat;
@@ -122,7 +122,6 @@ nav {
   .wrapper {
     margin: 0 auto;
     max-width: 75%;
-    padding: 0 2%;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -135,15 +134,34 @@ nav {
   }
 }
 
-#header{
-		position:fixed;
-		height: 50px;
-		display:block;
-		width: 100%;
-		z-index:9;
+ #nav-header{
+ 		position:fixed;
+ 		height: 50px;
+ 		display:block;
+ 		width: 100%;
+ 		z-index:9;
 		text-align:center;
-		top:0px;
-	}
+ 		top:0px;
+ 	}
+
+
+  header {
+      position: fixed;
+      left: 0;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 80px;
+      transition: all 0.3s linear;
+      -moz-transition: all 0.3s linear;
+      -webkit-transition: all 0.3s linear;
+  }
+  .default {
+      top: 0;
+  }
+  .fixed {
+      top: -85px;
+  }
 
   /*------------------ RESPONSIVE NAV STYLES ---------*/
   @media screen and (max-width: 768px) {
@@ -179,13 +197,33 @@ nav {
       visibility: visible;
     }
     nav .label-toggle {
-      background: linear-gradient(to bottom, #696969 0%, #696969 20%, transparent 20%, transparent 40%, #696969 40%, #696969 60%, transparent 60%, transparent 80%, #696969 80%, #696969 100%);
       cursor: pointer;
       display: block;
       float: right;
       height: 35px;
       margin-top: 1em;
       width: 35px;
+      .nav-container {
+        display: inline-block;
+        .bar1, .bar2, .bar3 {
+          width: 35px;
+          height: 5px;
+          margin: 6px 0;
+          background: #696969;
+          transition: 0.4s;
+        }
+      }
+      .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+        transform: rotate(-45deg) translate(-9px, 6px) ;
+      }
+      .change .bar2 {
+        opacity: 0;
+      }
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+        transform: rotate(45deg) translate(-8px, -8px) ;
+      }
     }
     nav .wrapper {
       display: block;
@@ -198,44 +236,13 @@ nav {
 
 
 /* ------------------  Index ------------------ */
-.gallery {
-  .card {
-    background-color: white;
-  }
-}
-.card {
-  width: 100%;
-  height: 100vh;
+
+#video-box {
   position: relative;
-  color: white;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-}
-
-.spacer {
-  width: 100%;
-}
-
-.latched {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: auto;
-  z-index: 0;
-
-  //spacers only get screen height when their card has been latched
-  + .spacer {
-      height: 100vh;
-  }
 }
 
 #my-video{
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   top:0;
@@ -271,68 +278,98 @@ nav {
   transform: translate3d(0,0,0);
 }
 
-.card2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  .index-title {
-    // margin-top: 10%;
-  }
-  #title1{
-    font-size: 7.625em;
-    color: $title;
-    font-family: $montserrat;
-    font-weight:100;
-  }
-  #title2 {
-    font-size: 11.875em;
-    color: $title;
-    font-family: $montserrat;
-    font-weight:800;
-  }
-}
-
-#subtitle {
-  color: #3f3f3f;
-  font-family: $montserrat;
-}
-
- .t-title {
-   background: url("/assets/images/arts_test.png");
-       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-   // background: url("/public/assets/flowers.mp4");
- }
-
  .title-svg {
-   z-index: 4;
+   z-index: 5;
    width: 100%;
-   height: 100%;
-   position: absolute;
+   position: fixed;
    display: none;
    top: 0;
    left: 0;
  }
 
+.title-img {
+  width: 100%;
+}
+
+#upper-filler {
+  background-color: #fff;
+}
+
+.subtitle {
+  text-align: center;
+//  margin-top: 40px;
+  padding-top: 20px;
+  margin-bottom: 0;
+  margin-top: 0px;
+  color: #3f3f3f;
+  font-family: $montserrat;
+  font-weight: 400;
+  font-size: 1.1em;
+}
+
+#upper-filler {
+  background-color: #fff;
+}
 
 #link-box {
-  display: none;
-  z-index: 8;
-  position: absolute;
-  -webkit-transition: all 30s ease-in-out;
-  top: 1000px;
-  div {
-    z-index: 10;
+//  display: none;
+  margin-top: -5%;
+  z-index: 6;
+  background-color: #fff;
+//  top: 16%;
+//  margin-left: 2.5%;
+  //margin-right: 2.5%;
+  width: 100%;
+//  position: absolute;
+//  top: 25%;
+//  -webkit-transition: all 30s ease-in-out;
+
+  #thumbnail-box {
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    margin-left:2.5%;
+    div {
+      z-index: 7;
+      margin: 10px;
+      padding: 12.5px;
+      font-family: $montserrat;
+      color: #fff;
+       width: 14.5%;
+       height: 19vw;
+      .box-title {
+        text-transform: uppercase;
+        margin: 0;
+        font-weight: 500;
+        font-size:1.1em;
+        line-height: normal;
+        text-align: left;
+        word-wrap:break-word;
+      }
+
+      .box-content {
+        font-size: 0.938em;
+        font-family: $roboto;
+        text-align: left;
+        line-height: 1.313em;
+      }
+    }
+
   }
 }
 
-#index-container {
-  overflow: hidden;
+@media (max-width: 2000px) {
+  #upper-filler {
+    height: 20px;
+  }
 }
 
-#filler {
-  background-color: #fff;
+@media (max-width: 1200px) {
+  #upper-filler {
+    height: 40px;
+  }
 }
+
 /* Hiding video controls
 * See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
 * --------------------------------------- */
@@ -394,54 +431,4 @@ video::-webkit-media-controls {
   animation: bounce 2s infinite;
 }
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 250px;
-    // height: 400px;
-}
-.flex-item {
-  align-self: flex-start;
-  flex-wrap: wrap;
-  width:208px;
-  height: 307px;
-  margin: 10px;
-  padding: 12.5px;
-  color: black;
-  display: flex;
-  font-family: $montserrat;
-  color: white;
-  .box-title {
-    text-transform: uppercase;
-    margin: 0;
-    font-weight: 500;
-    font-size:1em;
-  }
-  .box-content {
-    font-size: 0.938em;
-    font-family: $roboto;
-    text-align: left;
-    line-height: 1.313em;
-  }
-}
-
-.title-img {
-  width: 215px;
-  height: 165px;
-}
-
-
 /* ------------------  Story Page ------------------ */
-
-
-/* ------------------  Footer ------------------ */
-footer ul {
-  list-style-type: none;
-}
-
-footer {
-  @include header-footer;
-}

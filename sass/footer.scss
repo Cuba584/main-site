@@ -1,9 +1,10 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
 footer{
   text-align: left;
-  background-color: #efefef;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  color: #535353;
+  background: none;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
 
   .wrapper{
     display: flex;
@@ -16,7 +17,6 @@ footer{
     list-style-type: none;
     margin-right: 3vw;
     display: block;
-    padding: 1em;
   }
 
   .item ul li{
@@ -30,7 +30,7 @@ footer{
   }
 
   .item img {
-    height: 8vw;
+    height: 6vw;
     margin-left: 3vw;
   }
 
@@ -38,6 +38,17 @@ footer{
     text-decoration: none;
     color: #535353;
   }
+
+  ul li a:hover {
+    font-weight: bold;
+  }
+
+  .fa {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+  }
+
 }
 
 
@@ -48,6 +59,8 @@ footer{
 @media screen and (max-width: 500px){
   footer{
 
+    padding-top: 3rem;
+
     .wrapper {
       flex-direction: column;
       flex-wrap: wrap;
@@ -55,13 +68,18 @@ footer{
       align-items: center;
     }
 
+    .item {
+      padding: 0;
+    }
+
     .item img{
       margin-left: 0px;
-      height: 12vw;
+      height: 13vw;
     }
 
     .item ul{
       margin-right: 0px;
+      padding: 0;
     }
 
   }

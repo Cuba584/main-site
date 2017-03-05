@@ -6,44 +6,64 @@
   <script type="text/javascript" src="/js/main.js"></script>
 </head>
 
-<body style="height:1800px;">
+<body>
     <% include ../partials/nav.ejs %>
   <div id="index-container">
-    <div class="gallery">
-      <div class="card latched">
         <div class="title-svg">
-          <img src="/assets/images/cubatitle.svg" alt="Cuba's New Wave">
-
-          <div id="link-box">
-            <div class="flex-item arts">
-              <img src="/assets/images/microphone.png" class="title-img"/>
-              <p class="box-title">Agency of Rap</p>
-              <p class="box-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="flex-item entre">
-              <img src="/assets/images/hair.png" class="title-img"/>
-              <p class="box-title">Digital Entrepreneurs</p>
-              <p class="box-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="flex-item harbor">
-              <img src="/assets/images/seaside.png" class="title-img"/>
-              <p class="box-title">Across the Harbor </p>
-              <p class="box-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="flex-item aging">
-              <img src="/assets/images/oldman.png" class="title-img"/>
-              <p class="box-title">A New Understanding</p>
-              <p class="box-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="flex-item youth">
-              <img src="/assets/images/skateboard.png" class="title-img"/>
-              <p class="box-title">Skater Girl</p>
-              <p class="box-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
+          <div id="upper-filler">
           </div>
-        </div>
-        <div>
+          <!-- <div> -->
 
+            <?xml version="1.0" encoding="utf-8"?>
+            <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+            <svg id="title-svg-full" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            	 viewBox="0 0 1366 328" xml:space="preserve">
+               <style type="text/css">
+               	.st0{fill:#FFFFFF;}
+               </style>
+               <g>
+                 <g>
+
+               <% include ../partials/title.ejs %>
+
+               <!-- <rect id="svg-backing" y="475" class="st0"/> -->
+
+             </g>
+           </g>
+          </svg>
+            <div id="link-box">
+              <p class="subtitle">A look at the future for Cuba through the eyes of five Havana youth. </p>
+              <div id="thumbnail-box">
+                <div class="arts">
+                  <img src="/assets/images/microphone.png" class="title-img"/>
+                  <p class="box-title">Agency of Rap</p>
+                  <p class="box-content">Hopefully a short</p>
+                </div>
+                <div class="entre">
+                  <img src="/assets/images/hair.png" class="title-img"/>
+                  <p class="box-title">Digital Entrepreneurs</p>
+                  <p class="box-content">Hopefully a short</p>
+                </div>
+                <div class="harbor">
+                  <img src="/assets/images/seaside.png" class="title-img"/>
+                  <p class="box-title">Across the Harbor </p>
+                  <p class="box-content">Hopefully a short</p>
+                </div>
+                <div class="aging">
+                  <img src="/assets/images/oldman.png" class="title-img"/>
+                  <p class="box-title">A New Understanding</p>
+                  <p class="box-content">Hopefully a short</p>
+                </div>
+                <div class="youth">
+                  <img src="/assets/images/skateboard.png" class="title-img"/>
+                  <p class="box-title">Skater Girl</p>
+                  <p class="box-content">Hopefully a short</p>
+                </div>
+              </div> <!-- closes thumbnail box -->
+            </div> <!-- closes link box -->
+          </div> <!-- closes title-svg -->
+        </div> <!-- closes index-container -->
+        <div>
         <video id="my-video" loop muted data-autoplay autoplay loop="loop">
 
     			<source src="/assets/flowers.mp4" type="video/mp4">
@@ -55,35 +75,8 @@
           </div>
     		</div>
       </div>
-    </div>
 
-    <div id="link-box" class="flex-container">
-      <div class="flex-item arts">
-        <img src="/assets/images/microphone.png" class="title-img"/>
-        <p class="box-title">Agency of Rap</p>
-        <p class="box-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      <div class="flex-item entre">
-        <img src="/assets/images/hair.png" class="title-img"/>
-        <p class="box-title">Digital Entrepreneurs</p>
-        <p class="box-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      <div class="flex-item harbor">
-        <img src="/assets/images/seaside.png" class="title-img"/>
-        <p class="box-title">Across the Harbor </p>
-        <p class="box-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      <div class="flex-item aging">
-        <img src="/assets/images/oldman.png" class="title-img"/>
-        <p class="box-title">A New Understanding</p>
-        <p class="box-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      <div class="flex-item youth">
-        <img src="/assets/images/skateboard.png" class="title-img"/>
-        <p class="box-title">Skater Girl</p>
-        <p class="box-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-    </div>
+
 </div>
     <% include ../partials/footer.ejs %>
 
