@@ -29,9 +29,17 @@ $(document).ready(function(){
       $('.arrow').css('display', 'block');
     }
 
+    if (offset <= 0) {
+      $('.title-svg').hide();
+    }
 
 
   });
+
+  $('.arrow').on('click', function(event){
+    event.preventDefault();
+    $('html,body').animate({scrollTop: windowHeight / 4}, 500);
+});
 
 
 

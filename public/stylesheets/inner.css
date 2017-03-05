@@ -212,6 +212,7 @@ header {
   width: 40px;
   height: 60px;
   z-index: 4;
+  cursor: pointer;
   /*
   * Preventing flicker on some browsers
   * See http://stackoverflow.com/a/36671466/1081396  or issue #183
