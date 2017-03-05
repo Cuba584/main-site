@@ -228,9 +228,6 @@ header {
   top: 0;
   left: 0; }
 
-.title-img {
-  width: 100%; }
-
 #upper-filler {
   background-color: #fff; }
 
@@ -244,9 +241,6 @@ header {
   font-weight: 400;
   font-size: 1.1em; }
 
-#upper-filler {
-  background-color: #fff; }
-
 #link-box {
   margin-top: -5%;
   z-index: 6;
@@ -257,15 +251,21 @@ header {
     width: 95%;
     justify-content: space-around;
     margin-left: 2.5%; }
-    #link-box #thumbnail-box div {
-      z-index: 7;
-      margin: 10px;
-      padding: 12.5px;
-      font-family: "Montserrat", sans-serif;
-      color: #fff;
-      width: 14.5%;
-      height: 19vw; }
-      #link-box #thumbnail-box div .box-title {
+    #link-box #thumbnail-box a {
+      text-decoration: none; }
+      #link-box #thumbnail-box a div {
+        z-index: 7;
+        margin: 10px;
+        padding: 12.5px;
+        font-family: "Montserrat", sans-serif;
+        color: #fff;
+        width: 15vw;
+        height: 35vh; }
+        #link-box #thumbnail-box a div img {
+          width: 15vw; }
+        #link-box #thumbnail-box a div:hover, #link-box #thumbnail-box a div:focus {
+          opacity: .6; }
+      #link-box #thumbnail-box a .box-title {
         text-transform: uppercase;
         margin: 0;
         font-weight: 500;
@@ -273,17 +273,38 @@ header {
         line-height: normal;
         text-align: left;
         word-wrap: break-word; }
-      #link-box #thumbnail-box div .box-content {
+      #link-box #thumbnail-box a .box-content {
         font-size: 0.938em;
         font-family: "Roboto", sans-serif;
         text-align: left;
         line-height: 1.313em; }
+      @media screen and (min-width: 1600px) {
+        #link-box #thumbnail-box a .box-title {
+          font-size: 1.7em;
+          margin-top: 5px; }
+        #link-box #thumbnail-box a .box-content {
+          font-size: 1.5em; } }
+      @media screen and (min-height: 600px) {
+        #link-box #thumbnail-box a div {
+          height: 39vh; } }
+      @media screen and (max-width: 1200px) {
+        #link-box #thumbnail-box a .box-title {
+          font-size: 1em; } }
+      @media screen and (max-width: 888px) {
+        #link-box #thumbnail-box a .box-title {
+          font-size: .9em; }
+        #link-box #thumbnail-box a .box-content {
+          font-size: .8em; } }
 
-@media (max-width: 2000px) {
+@media screen and (min-width: 1800px) {
+  .subtitle {
+    font-size: 1.9em; } }
+
+@media screen and (max-width: 2000px) {
   #upper-filler {
     height: 20px; } }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   #upper-filler {
     height: 40px; } }
 
