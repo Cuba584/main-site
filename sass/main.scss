@@ -283,6 +283,7 @@ nav {
    display: none;
    top: 0;
    left: 0;
+//   overflow: scroll;
  }
 
 #upper-filler {
@@ -299,6 +300,7 @@ nav {
   font-family: $montserrat;
   font-weight: 400;
   font-size: 1.1em;
+  padding-bottom: 4vh;
 }
 
 
@@ -306,13 +308,14 @@ nav {
   margin-top: -5%;
   z-index: 6;
   background-color: #fff;
-  width: 100%;
+  //width: 100%;
 
   #thumbnail-box {
     display: flex;
-    width: 95%;
+  //  width: 95%;
     justify-content: space-around;
-    margin-left:2.5%;
+    padding-left: 15%;
+    padding-right: 15%;
     a {
       text-decoration: none;
         div {
@@ -321,10 +324,11 @@ nav {
           padding: 12.5px;
           font-family: $montserrat;
           color: #fff;
-           width: 15vw;
-           height: 35vh;
+           width: 10vw;
+           height: 30vh;
+          //height: 800px;
            img {
-             width: 15vw;
+             width: 10vw;
            }
            &:hover, &:focus {
              opacity: .6;
@@ -359,7 +363,7 @@ nav {
 
             @media screen and (min-height: 600px) {
               div {
-                height: 39vh;
+                height: 33vh;
               }
             }
 

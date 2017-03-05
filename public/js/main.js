@@ -5,9 +5,11 @@ $(document).ready(function(){
     //$('html, body').scrollTop(0);
     var windowHeight = $(window).height();
     var windowWidth = $(window).width();
+    console.log(windowHeight)
+
 
     console.log
-    $('body').css('height', (windowHeight * 1.25));
+    $('body').css('height', (windowHeight * 1.55));
      $('#link-box').css('height', windowHeight);
 
     window.setTimeout(function() {
@@ -20,7 +22,8 @@ $(document).ready(function(){
   $(window).scroll(function(){
     $('.arrow').css('display', 'none');
     var offset = $(window).scrollTop() ;
-
+    console.log(offset)
+    console.log(offset / (windowHeight / 5))
     $('.title-svg').show();
 
     $('.title-svg').css('opacity', offset / (windowHeight / 5));
