@@ -234,20 +234,24 @@ header {
 #upper-filler {
   background-color: #fff; }
 
-#link-box {
-  display: none;
-  z-index: 6;
-  width: 100%;
-  position: absolute;
-  top: 1000px;
+.subtitle {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 0;
+  margin-top: 0px;
+  color: #3f3f3f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.1em; }
+
+#upper-filler {
   background-color: #fff; }
-  #link-box .subtitle {
-    text-align: center;
-    margin: 0;
-    color: #3f3f3f;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 1.4em; }
+
+#link-box {
+  margin-top: -5%;
+  z-index: 6;
+  background-color: #fff;
+  width: 100%; }
   #link-box #thumbnail-box {
     display: flex;
     width: 95%;
@@ -259,7 +263,8 @@ header {
       padding: 12.5px;
       font-family: "Montserrat", sans-serif;
       color: #fff;
-      width: 14.5%; }
+      width: 14.5%;
+      height: 19vw; }
       #link-box #thumbnail-box div .box-title {
         text-transform: uppercase;
         margin: 0;
@@ -276,7 +281,11 @@ header {
 
 @media (max-width: 2000px) {
   #upper-filler {
-    height: 50px; } }
+    height: 20px; } }
+
+@media (max-width: 1200px) {
+  #upper-filler {
+    height: 40px; } }
 
 /* Hiding video controls
 * See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
