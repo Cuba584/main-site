@@ -87,17 +87,20 @@ nav {
   li {
     display: inline-block;
   }
+  li+li {
+    border-left: 1px solid #000;
+    padding-left: 25px;
+  }
   .logo {
-    // background-color: $dark-gray;
-    border-radius: 50px;
     display: inline-block;
     height: 45px;
     margin: 1em 0;
     width: 45px;
+    margin-left: 2em;
   }
   .wrapper {
     margin: 0 auto;
-    max-width: 75%;
+    max-width: 100%;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -108,16 +111,20 @@ nav {
   #menu-toggle {
     display: none;
   }
+  .icons {
+    display: flex;
+    margin: 0 5px 0 5px;
+  }
 }
 
  #nav-header{
- 		position:fixed;
- 		height: 50px;
- 		display:block;
- 		width: 100%;
- 		z-index:9;
-		text-align:center;
- 		top:0px;
+   position: fixed;
+   left: 0;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   height: 80px;
+   z-index:9;
  	}
 
 
@@ -146,8 +153,11 @@ nav {
       display: inline-block;
       cursor: pointer;
     }
+    nav .wrapper {
+      max-width: 75%;
+    }
     nav ul {
-      background-color: #d3d3d3;
+      background-color: #eee;
       display: block;
       height: 0;
       list-style-type: none;
@@ -158,16 +168,30 @@ nav {
       visibility: hidden;
     }
     nav li {
-      border-bottom: 2px solid #53354A;
+      // border-bottom: 2px solid #53354A;
       color: #696969;
       display: block;
       font-size: 1.5em;
       padding: 2em 0;
     }
+    nav li+li {
+      border-left: none;
+    }
+    nav ul li:after {
+      content: "";
+      display: block;
+      height: 1px;
+      width: 10px;
+      margin-left: 50%;
+      background: black;
+      text-align: center;
+    }
     nav #menu-toggle:checked ~ ul {
       opacity: 1;
       height: 100vh;
       visibility: visible;
+      padding: 10px;
+      border: 5px solid #60B1DE;
     }
     nav .label-toggle {
       cursor: pointer;
@@ -182,7 +206,7 @@ nav {
           width: 35px;
           height: 5px;
           margin: 6px 0;
-          background: #696969;
+          background: black;
           transition: 0.4s;
         }
       }
@@ -203,6 +227,9 @@ nav {
     }
 
     .line {
+      display: none;
+    }
+    nav .icons {
       display: none;
     }
   }
