@@ -214,6 +214,7 @@ header {
   width: 40px;
   height: 60px;
   z-index: 4;
+  cursor: pointer;
   /*
   * Preventing flicker on some browsers
   * See http://stackoverflow.com/a/36671466/1081396  or issue #183
@@ -230,9 +231,6 @@ header {
   top: 0;
   left: 0; }
 
-.title-img {
-  width: 100%; }
-
 #upper-filler {
   background-color: #fff; }
 
@@ -244,30 +242,33 @@ header {
   color: #3f3f3f;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 1.1em; }
-
-#upper-filler {
-  background-color: #fff; }
+  font-size: 1.1em;
+  padding-bottom: 4vh; }
 
 #link-box {
   margin-top: -5%;
   z-index: 6;
-  background-color: #fff;
-  width: 100%; }
+  background-color: #fff; }
   #link-box #thumbnail-box {
     display: flex;
-    width: 95%;
     justify-content: space-around;
-    margin-left: 2.5%; }
-    #link-box #thumbnail-box div {
-      z-index: 7;
-      margin: 10px;
-      padding: 12.5px;
-      font-family: "Montserrat", sans-serif;
-      color: #fff;
-      width: 14.5%;
-      height: 19vw; }
-      #link-box #thumbnail-box div .box-title {
+    padding-left: 15%;
+    padding-right: 15%; }
+    #link-box #thumbnail-box a {
+      text-decoration: none; }
+      #link-box #thumbnail-box a div {
+        z-index: 7;
+        margin: 10px;
+        padding: 12.5px;
+        font-family: "Montserrat", sans-serif;
+        color: #fff;
+        width: 10vw;
+        height: 30vh; }
+        #link-box #thumbnail-box a div img {
+          width: 10vw; }
+        #link-box #thumbnail-box a div:hover, #link-box #thumbnail-box a div:focus {
+          opacity: .6; }
+      #link-box #thumbnail-box a .box-title {
         text-transform: uppercase;
         margin: 0;
         font-weight: 500;
@@ -275,17 +276,38 @@ header {
         line-height: normal;
         text-align: left;
         word-wrap: break-word; }
-      #link-box #thumbnail-box div .box-content {
+      #link-box #thumbnail-box a .box-content {
         font-size: 0.938em;
         font-family: "Roboto", sans-serif;
         text-align: left;
         line-height: 1.313em; }
+      @media screen and (min-width: 1600px) {
+        #link-box #thumbnail-box a .box-title {
+          font-size: 1.7em;
+          margin-top: 5px; }
+        #link-box #thumbnail-box a .box-content {
+          font-size: 1.5em; } }
+      @media screen and (min-height: 600px) {
+        #link-box #thumbnail-box a div {
+          height: 33vh; } }
+      @media screen and (max-width: 1200px) {
+        #link-box #thumbnail-box a .box-title {
+          font-size: 1em; } }
+      @media screen and (max-width: 888px) {
+        #link-box #thumbnail-box a .box-title {
+          font-size: .9em; }
+        #link-box #thumbnail-box a .box-content {
+          font-size: .8em; } }
 
-@media (max-width: 2000px) {
+@media screen and (min-width: 1800px) {
+  .subtitle {
+    font-size: 1.9em; } }
+
+@media screen and (max-width: 2000px) {
   #upper-filler {
     height: 20px; } }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   #upper-filler {
     height: 40px; } }
 
