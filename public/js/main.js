@@ -5,10 +5,7 @@ $(document).ready(function(){
     //$('html, body').scrollTop(0);
     var windowHeight = $(window).height();
     var windowWidth = $(window).width();
-    console.log(windowHeight)
 
-
-    console.log
     $('body').css('height', (windowHeight * 1.55));
      $('#link-box').css('height', windowHeight);
 
@@ -25,10 +22,7 @@ $(document).ready(function(){
   $(window).scroll(function(){
     $('.arrow').css('display', 'none');
     var offset = $(window).scrollTop() ;
-    console.log(offset)
-    console.log(offset / (windowHeight / 5))
     $('.title-svg').show();
-    //subtracting from bodyHeight to allow space for #link-box to enter before reaching bottom of page
 
     $('.title-svg').css('opacity', offset / (windowHeight / 5));
 
@@ -40,28 +34,14 @@ $(document).ready(function(){
       $('.title-svg').hide();
     }
 
-  /* Store the original positions */
-    var positions = [];
-    var cards = $('.card');
-    cards.each(function(){
-      //it's important to use offset because position is relative to the container, not the document
-      positions.push( $(this).offset().top );
-    });
-
-    /* respond to the scroll event */
-    $(window).on('scroll', function(e){
-        /* get the current scroll position */
-        var pos = $(window).scrollTop();
-
-        for (var i = 0; i < cards.length; i++) {
-          if( pos >= positions[i] ) {
-            $(cards[i]).addClass('latched');
-          } else {
-            $(cards[i]).removeClass('latched');
-          }
-        }
-      })
+      });
+  
+  $('.arrow').on('click', function(event){
+    event.preventDefault();
+    $('html,body').animate({scrollTop: windowHeight / 4}, 500);
   });
+  
+});
 
 // menu animation 
   function myFunction(x) {
