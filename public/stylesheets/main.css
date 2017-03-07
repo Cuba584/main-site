@@ -78,9 +78,24 @@ nav {
     display: none; }
   nav #menu-toggle {
     display: none; }
-  nav .icons {
+  nav .nav-icons, nav .icons {
     display: flex;
     margin: 0 5px 0 5px; }
+  nav .nav-icons {
+    flex-wrap: wrap;
+    margin-left: 30px; }
+  nav .sm-icons {
+    display: flex;
+    flex-direction: row; }
+  nav .trans {
+    border: 1px solid #000;
+    padding: 1px 10px 1px 10px;
+    margin: 5px; }
+  nav #eng {
+    border-right: 1px solid #000;
+    padding-right: 15px; }
+  nav #es {
+    padding-left: 15px; }
 
 #nav-header {
   position: fixed;
@@ -110,10 +125,6 @@ header {
 
 /*------------------ RESPONSIVE NAV STYLES ---------*/
 @media screen and (max-width: 768px) {
-  nav .nav-icon {
-    visibility: visible;
-    display: inline-block;
-    cursor: pointer; }
   nav .wrapper {
     max-width: 75%; }
   nav ul {
@@ -137,10 +148,14 @@ header {
     content: "";
     display: block;
     height: 1px;
-    width: 10px;
-    margin-left: 50%;
+    width: 20px;
+    margin-left: 45%;
     background: black;
-    text-align: center; }
+    text-align: center;
+    position: relative;
+    top: 1.5em; }
+  nav ul li #nav-art:after {
+    margin-left: 50%; }
   nav #menu-toggle:checked ~ ul {
     opacity: 1;
     height: 100vh;
@@ -175,6 +190,8 @@ header {
   .line {
     display: none; }
   nav .icons {
+    display: none; }
+  nav .trans {
     display: none; } }
 
 /* ------------------  Index ------------------ */
