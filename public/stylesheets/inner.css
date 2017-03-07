@@ -1,5 +1,29 @@
 /* ------------------ Global Styles ------------ */
-/* font sizing from http://typecast.com/blog/a-more-modern-scale-for-web-typography because I have no idea what font sizes we need to have :) :/ */
+/*change page colors here!*/
+/*this mixin applies bgr-color and color to anything with classes
+that are defined in the include below. You can override either of these colors
+further down on the page or in any of the other .SCSS files.
+*/
+.arts {
+  background-color: #ed4c09;
+  color: #ed4c09; }
+
+.entre {
+  background-color: #e4b83b;
+  color: #e4b83b; }
+
+.youth {
+  background-color: #79c7ab;
+  color: #79c7ab; }
+
+.aging {
+  background-color: #0b8fb9;
+  color: #0b8fb9; }
+
+.harbor {
+  background-color: #bc7a95;
+  color: #bc7a95; }
+
 html {
   font-size: .7em; }
 
@@ -42,10 +66,10 @@ header {
 
 /* ------------------ Navigation ------------------ */
 nav {
-  margin: 0;
   background-color: #fff;
   opacity: 0.8;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em; }
   nav ul {
     display: flex;
     justify-content: space-between;
@@ -55,12 +79,12 @@ nav {
     nav ul a {
       color: #222;
       position: relative;
-      text-decoration: none;
-      transition: all .8 ease; }
+      text-decoration: none; }
+      nav ul a:hover {
+        font-weight: bold; }
   nav li {
     display: inline-block; }
   nav .logo {
-    background-color: #696969;
     border-radius: 50px;
     display: inline-block;
     height: 45px;
@@ -69,7 +93,6 @@ nav {
   nav .wrapper {
     margin: 0 auto;
     max-width: 75%;
-    padding: 0 2%;
     align-items: center;
     display: flex;
     justify-content: space-between; }
@@ -78,7 +101,7 @@ nav {
   nav #menu-toggle {
     display: none; }
 
-#header {
+#nav-header {
   position: fixed;
   height: 50px;
   display: block;
@@ -87,36 +110,85 @@ nav {
   text-align: center;
   top: 0px; }
 
-/* ------------------  Index ------------------ */
-.gallery .card {
-  background-color: white; }
-
-.card {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  color: white;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.spacer {
-  width: 100%; }
-
-.latched {
+header {
   position: fixed;
-  top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  width: auto;
-  z-index: 0; }
-  .latched + .spacer {
-    height: 100vh; }
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear; }
+
+.default {
+  top: 0; }
+
+.fixed {
+  top: -85px; }
+
+/*------------------ RESPONSIVE NAV STYLES ---------*/
+@media screen and (max-width: 768px) {
+  nav .nav-icon {
+    visibility: visible;
+    display: inline-block;
+    cursor: pointer; }
+  nav ul {
+    background-color: #d3d3d3;
+    display: block;
+    height: 0;
+    list-style-type: none;
+    opacity: 0;
+    text-align: center;
+    transition: all 1s ease;
+    width: 100%;
+    visibility: hidden; }
+  nav li {
+    border-bottom: 2px solid #53354A;
+    color: #696969;
+    display: block;
+    font-size: 1.5em;
+    padding: 2em 0; }
+  nav a {
+    text-decoration: none; }
+  nav #menu-toggle:checked ~ ul {
+    opacity: 1;
+    height: 100vh;
+    visibility: visible; }
+  nav .label-toggle {
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 35px;
+    margin-top: 1em;
+    width: 35px; }
+    nav .label-toggle .nav-container {
+      display: inline-block; }
+      nav .label-toggle .nav-container .bar1, nav .label-toggle .nav-container .bar2, nav .label-toggle .nav-container .bar3 {
+        width: 35px;
+        height: 5px;
+        margin: 6px 0;
+        background: #696969;
+        transition: 0.4s; }
+    nav .label-toggle .change .bar1 {
+      -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+      transform: rotate(-45deg) translate(-9px, 6px); }
+    nav .label-toggle .change .bar2 {
+      opacity: 0; }
+    nav .label-toggle .change .bar3 {
+      -webkit-transform: rotate(45deg) translate(-8px, -8px);
+      transform: rotate(45deg) translate(-8px, -8px); }
+  nav .wrapper {
+    display: block; }
+  .line {
+    display: none; } }
+
+/* ------------------  Index ------------------ */
+#video-box {
+  position: relative; }
 
 #my-video {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   top: 0;
@@ -142,6 +214,7 @@ nav {
   width: 40px;
   height: 60px;
   z-index: 4;
+  cursor: pointer;
   /*
   * Preventing flicker on some browsers
   * See http://stackoverflow.com/a/36671466/1081396  or issue #183
@@ -150,22 +223,93 @@ nav {
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
-.card2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; }
-  .card2 #title1 {
-    font-size: 4em;
-    color: #83c4d6;
-    font-family: "Montserrat", sans-serif; }
-  .card2 #title2 {
-    font-size: 5em;
-    color: #83c4d6;
-    font-family: "Montserrat", sans-serif; }
+.title-svg {
+  z-index: 5;
+  width: 100%;
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0; }
 
-#subtitle {
+#upper-filler {
+  background-color: #fff; }
+
+.subtitle {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 0;
+  margin-top: 0px;
   color: #3f3f3f;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  padding-bottom: 4vh; }
+
+#link-box {
+  margin-top: -5%;
+  z-index: 6;
+  background-color: #fff; }
+  #link-box #thumbnail-box {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%; }
+    #link-box #thumbnail-box a {
+      text-decoration: none; }
+      #link-box #thumbnail-box a div {
+        z-index: 7;
+        margin: 10px;
+        padding: 12.5px;
+        font-family: "Montserrat", sans-serif;
+        color: #fff;
+        width: 10vw;
+        height: 30vh; }
+        #link-box #thumbnail-box a div img {
+          width: 10vw; }
+        #link-box #thumbnail-box a div:hover, #link-box #thumbnail-box a div:focus {
+          opacity: .6; }
+      #link-box #thumbnail-box a .box-title {
+        text-transform: uppercase;
+        margin: 0;
+        font-weight: 500;
+        font-size: 1.1em;
+        line-height: normal;
+        text-align: left;
+        word-wrap: break-word; }
+      #link-box #thumbnail-box a .box-content {
+        font-size: 0.938em;
+        font-family: "Roboto", sans-serif;
+        text-align: left;
+        line-height: 1.313em; }
+      @media screen and (min-width: 1600px) {
+        #link-box #thumbnail-box a .box-title {
+          font-size: 1.7em;
+          margin-top: 5px; }
+        #link-box #thumbnail-box a .box-content {
+          font-size: 1.5em; } }
+      @media screen and (min-height: 600px) {
+        #link-box #thumbnail-box a div {
+          height: 33vh; } }
+      @media screen and (max-width: 1200px) {
+        #link-box #thumbnail-box a .box-title {
+          font-size: 1em; } }
+      @media screen and (max-width: 888px) {
+        #link-box #thumbnail-box a .box-title {
+          font-size: .9em; }
+        #link-box #thumbnail-box a .box-content {
+          font-size: .8em; } }
+
+@media screen and (min-width: 1800px) {
+  .subtitle {
+    font-size: 1.9em; } }
+
+@media screen and (max-width: 2000px) {
+  #upper-filler {
+    height: 20px; } }
+
+@media screen and (max-width: 1200px) {
+  #upper-filler {
+    height: 40px; } }
 
 /* Hiding video controls
 * See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
@@ -217,66 +361,7 @@ video::-webkit-media-controls {
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite; }
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 250px; }
-
-.flex-item {
-  background-color: blue;
-  align-self: flex-start;
-  flex-wrap: wrap;
-  width: 200px;
-  height: 250px;
-  margin: 10px;
-  padding: 10px 0 0 10px;
-  color: black;
-  display: flex;
-  font-family: "Montserrat", sans-serif;
-  color: white; }
-  .flex-item .box-title {
-    text-transform: uppercase; }
-  .flex-item .box-content {
-    font-size: 14px;
-    font-family: "Roboto", sans-serif; }
-
-.title-img {
-  width: 180px;
-  height: 100px; }
-
 /* ------------------  Story Page ------------------ */
-/* ------------------  Footer ------------------ */
-footer ul {
-  list-style-type: none; }
-
-footer {
-  text-align: left;
-  padding: 1rem;
-  background-color: #efefef; }
-
-.arts {
-  background-color: #C71731;
-  color: #C71731; }
-
-.entre {
-  background-color: #29D172;
-  color: #29D172; }
-
-.youth {
-  background-color: #A84CD4;
-  color: #A84CD4; }
-
-.aging {
-  background-color: #00C4C7;
-  color: #00C4C7; }
-
-.harbor {
-  background-color: #FFB11A;
-  color: #FFB11A; }
-
 .subhead {
   background-color: white;
   font-weight: 400; }
