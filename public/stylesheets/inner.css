@@ -360,14 +360,16 @@ video::-webkit-media-controls {
   .inner .byline-box {
     display: flex; }
     .inner .byline-box .byline-item p {
-      line-height: 0.15em; }
+      line-height: 0.2em; }
     .inner .byline-box .byline-head {
       font-weight: 100;
-      font-size: 0.85em; }
+      font-size: 0.85em;
+      text-transform: lowercase; }
     .inner .byline-box .byline-item {
       text-align: center;
       margin-left: 50px;
-      font-weight: 500; }
+      font-weight: 500;
+      text-transform: uppercase; }
   .inner .byline-item:first-of-type {
     margin-left: 0; }
   .inner figure {
