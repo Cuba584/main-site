@@ -84,15 +84,18 @@ nav {
         font-weight: bold; }
   nav li {
     display: inline-block; }
+  nav li + li {
+    border-left: 1px solid #000;
+    padding-left: 25px; }
   nav .logo {
-    border-radius: 50px;
     display: inline-block;
     height: 45px;
     margin: 1em 0;
-    width: 45px; }
+    width: 45px;
+    margin-left: 2em; }
   nav .wrapper {
     margin: 0 auto;
-    max-width: 75%;
+    max-width: 100%;
     align-items: center;
     display: flex;
     justify-content: space-between; }
@@ -100,15 +103,50 @@ nav {
     display: none; }
   nav #menu-toggle {
     display: none; }
+  nav .nav-icons, nav .icons {
+    display: flex;
+    margin: 0 5px 0 5px; }
+  nav .nav-icons {
+    flex-wrap: wrap;
+    margin-left: 30px; }
+  nav .sm-icons {
+    display: flex;
+    flex-direction: row; }
+  nav .trans {
+    border: 1px solid #000;
+    padding: 1px 10px 1px 10px;
+    margin: 5px; }
+  nav #eng {
+    border-right: 1px solid #000;
+    padding-right: 15px; }
+  nav #es {
+    padding-left: 15px; }
 
 #nav-header {
   position: fixed;
-  height: 50px;
-  display: block;
+  left: 0;
+  margin: 0;
+  padding: 0;
   width: 100%;
-  z-index: 9;
-  text-align: center;
-  top: 0px; }
+  height: 80px;
+  z-index: 9; }
+
+header {
+  position: fixed;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear; }
+
+.default {
+  top: 0; }
+
+.fixed {
+  top: -85px; }
 
 header {
   position: fixed;
@@ -129,12 +167,10 @@ header {
 
 /*------------------ RESPONSIVE NAV STYLES ---------*/
 @media screen and (max-width: 768px) {
-  nav .nav-icon {
-    visibility: visible;
-    display: inline-block;
-    cursor: pointer; }
+  nav .wrapper {
+    max-width: 75%; }
   nav ul {
-    background-color: #d3d3d3;
+    background-color: #eee;
     display: block;
     height: 0;
     list-style-type: none;
@@ -144,17 +180,30 @@ header {
     width: 100%;
     visibility: hidden; }
   nav li {
-    border-bottom: 2px solid #53354A;
     color: #696969;
     display: block;
     font-size: 1.5em;
     padding: 2em 0; }
-  nav a {
-    text-decoration: none; }
+  nav li + li {
+    border-left: none; }
+  nav ul li:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 20px;
+    margin-left: 45%;
+    background: black;
+    text-align: center;
+    position: relative;
+    top: 1.5em; }
+  nav ul li #nav-art:after {
+    margin-left: 50%; }
   nav #menu-toggle:checked ~ ul {
     opacity: 1;
     height: 100vh;
-    visibility: visible; }
+    visibility: visible;
+    padding: 10px;
+    border: 5px solid #60B1DE; }
   nav .label-toggle {
     cursor: pointer;
     display: block;
@@ -168,7 +217,7 @@ header {
         width: 35px;
         height: 5px;
         margin: 6px 0;
-        background: #696969;
+        background: black;
         transition: 0.4s; }
     nav .label-toggle .change .bar1 {
       -webkit-transform: rotate(-45deg) translate(-9px, 6px);
@@ -181,6 +230,10 @@ header {
   nav .wrapper {
     display: block; }
   .line {
+    display: none; }
+  nav .icons {
+    display: none; }
+  nav .trans {
     display: none; } }
 
 /* ------------------  Index ------------------ */
@@ -214,6 +267,7 @@ header {
   width: 40px;
   height: 60px;
   z-index: 4;
+  cursor: pointer;
   /*
   * Preventing flicker on some browsers
   * See http://stackoverflow.com/a/36671466/1081396  or issue #183
@@ -230,9 +284,6 @@ header {
   top: 0;
   left: 0; }
 
-.title-img {
-  width: 100%; }
-
 #upper-filler {
   background-color: #fff; }
 
@@ -244,30 +295,33 @@ header {
   color: #3f3f3f;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 1.1em; }
-
-#upper-filler {
-  background-color: #fff; }
+  font-size: 1.1em;
+  padding-bottom: 4vh; }
 
 #link-box {
   margin-top: -5%;
   z-index: 6;
-  background-color: #fff;
-  width: 100%; }
+  background-color: #fff; }
   #link-box #thumbnail-box {
     display: flex;
-    width: 95%;
     justify-content: space-around;
-    margin-left: 2.5%; }
-    #link-box #thumbnail-box div {
-      z-index: 7;
-      margin: 10px;
-      padding: 12.5px;
-      font-family: "Montserrat", sans-serif;
-      color: #fff;
-      width: 14.5%;
-      height: 19vw; }
-      #link-box #thumbnail-box div .box-title {
+    padding-left: 15%;
+    padding-right: 15%; }
+    #link-box #thumbnail-box a {
+      text-decoration: none; }
+      #link-box #thumbnail-box a div {
+        z-index: 7;
+        margin: 10px;
+        padding: 12.5px;
+        font-family: "Montserrat", sans-serif;
+        color: #fff;
+        width: 10vw;
+        height: 30vh; }
+        #link-box #thumbnail-box a div img {
+          width: 10vw; }
+        #link-box #thumbnail-box a div:hover, #link-box #thumbnail-box a div:focus {
+          opacity: .6; }
+      #link-box #thumbnail-box a .box-title {
         text-transform: uppercase;
         margin: 0;
         font-weight: 500;
@@ -275,17 +329,38 @@ header {
         line-height: normal;
         text-align: left;
         word-wrap: break-word; }
-      #link-box #thumbnail-box div .box-content {
+      #link-box #thumbnail-box a .box-content {
         font-size: 0.938em;
         font-family: "Roboto", sans-serif;
         text-align: left;
         line-height: 1.313em; }
+      @media screen and (min-width: 1600px) {
+        #link-box #thumbnail-box a .box-title {
+          font-size: 1.7em;
+          margin-top: 5px; }
+        #link-box #thumbnail-box a .box-content {
+          font-size: 1.5em; } }
+      @media screen and (min-height: 600px) {
+        #link-box #thumbnail-box a div {
+          height: 33vh; } }
+      @media screen and (max-width: 1200px) {
+        #link-box #thumbnail-box a .box-title {
+          font-size: 1em; } }
+      @media screen and (max-width: 888px) {
+        #link-box #thumbnail-box a .box-title {
+          font-size: .9em; }
+        #link-box #thumbnail-box a .box-content {
+          font-size: .8em; } }
 
-@media (max-width: 2000px) {
+@media screen and (min-width: 1800px) {
+  .subtitle {
+    font-size: 1.9em; } }
+
+@media screen and (max-width: 2000px) {
   #upper-filler {
     height: 20px; } }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   #upper-filler {
     height: 40px; } }
 

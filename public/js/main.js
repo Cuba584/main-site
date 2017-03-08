@@ -6,8 +6,7 @@ $(document).ready(function(){
     var windowHeight = $(window).height();
     var windowWidth = $(window).width();
 
-    console.log
-    $('body').css('height', (windowHeight * 1.25));
+    $('body').css('height', (windowHeight * 1.55));
      $('#link-box').css('height', windowHeight);
 
     //Chrome set the scrollbar to top on load
@@ -23,9 +22,7 @@ $(document).ready(function(){
   $(window).scroll(function(){
     $('.arrow').css('display', 'none');
     var offset = $(window).scrollTop() ;
-
     $('.title-svg').show();
-    //subtracting from bodyHeight to allow space for #link-box to enter before reaching bottom of page
 
     $('.title-svg').css('opacity', offset / (windowHeight / 5));
 
@@ -33,11 +30,20 @@ $(document).ready(function(){
       $('.arrow').css('display', 'block');
     }
 
+    if (offset <= 0) {
+      $('.title-svg').hide();
+    }
 
-
+      });
+  
+  $('.arrow').on('click', function(event){
+    event.preventDefault();
+    $('html,body').animate({scrollTop: windowHeight / 4}, 500);
   });
-
-
-
-
+  
 });
+
+// menu animation 
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
