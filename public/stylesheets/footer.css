@@ -7,8 +7,10 @@ footer {
   footer .wrapper {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    width: 100vw; }
+    width: 100vw;
+    justify-content: space-between; }
+  footer .push-right {
+    flex-grow: 3; }
   footer .item ul {
     list-style-type: none;
     margin-right: 3vw;
@@ -30,6 +32,8 @@ footer {
     margin-left: 5px;
     margin-right: 5px;
     color: black; }
+  footer .social {
+    margin-left: -90px; }
 
 /* ------- Media Queries --------- */
 @media screen and (max-width: 500px) {
@@ -47,4 +51,10 @@ footer {
       height: 13vw; }
     footer .item ul {
       margin-right: 0px;
-      padding: 0; } }
+      padding: 0; }
+    footer .item span {
+      display: none; }
+    footer .push-right {
+      display: hide; }
+    footer .social {
+      margin-left: 0px; } }
