@@ -148,23 +148,6 @@ header {
 .fixed {
   top: -85px; }
 
-header {
-  position: fixed;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 80px;
-  transition: all 0.3s linear;
-  -moz-transition: all 0.3s linear;
-  -webkit-transition: all 0.3s linear; }
-
-.default {
-  top: 0; }
-
-.fixed {
-  top: -85px; }
-
 /*------------------ RESPONSIVE NAV STYLES ---------*/
 @media screen and (max-width: 768px) {
   nav .wrapper {
