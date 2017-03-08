@@ -7,7 +7,8 @@ $(document).ready(function(){
     var windowWidth = $(window).width();
 
     $('body').css('height', (windowHeight * 1.55));
-     $('#link-box').css('height', windowHeight);
+  
+    $('#link-box').css('height', windowHeight);
 
     //Chrome set the scrollbar to top on load
     //(only works about half the time)
@@ -22,6 +23,7 @@ $(document).ready(function(){
   $(window).scroll(function(){
     $('.arrow').css('display', 'none');
     var offset = $(window).scrollTop() ;
+
     $('.title-svg').show();
 
     $('.title-svg').css('opacity', offset / (windowHeight / 5));

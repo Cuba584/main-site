@@ -33,15 +33,26 @@
   .byline-box{
     display:flex;
 
+
+    .byline-item p{
+      line-height: 0.15em;
+    }
+
+    .byline-head{
+      font-weight: 100;
+      font-size: 0.85em;
+    }
+
     .byline-item{
       text-align:center;
-      margin-left:10px;
+      margin-left:50px;
+      font-weight: 500;
     }
 
-    &:nth-child(1){
-      margin-left:0;
-    }
+  }
 
+  .byline-item:first-of-type{
+    margin-left:0;
   }
 
   #inner-image-caption {
