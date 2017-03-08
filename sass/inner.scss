@@ -35,18 +35,20 @@
 
 
     .byline-item p{
-      line-height: 0.15em;
+      line-height: 0.2em;
     }
 
     .byline-head{
       font-weight: 100;
       font-size: 0.85em;
+      text-transform: lowercase;
     }
 
     .byline-item{
       text-align:center;
       margin-left:50px;
       font-weight: 500;
+      text-transform: uppercase;
     }
 
   }
