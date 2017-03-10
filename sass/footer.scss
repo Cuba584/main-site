@@ -9,8 +9,12 @@ footer{
   .wrapper{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
     width: 100vw;
+    justify-content: space-between;
+  }
+
+  .push-right{
+    flex-grow: 3;
   }
 
   .item ul{
@@ -21,7 +25,6 @@ footer{
 
   .item ul li{
     display: inline;
-
   }
 
   .item span {
@@ -49,9 +52,13 @@ footer{
     color: black;
   }
 
+  .social {
+    margin-left: -90px;
+  }
+
+
+
 }
-
-
 
 
 /* ------- Media Queries --------- */
@@ -80,6 +87,18 @@ footer{
     .item ul{
       margin-right: 0px;
       padding: 0;
+    }
+
+    .item span{
+      display: none;
+    }
+
+    .push-right{
+      display: hide;
+    }
+
+    .social{
+      margin-left: 0px;
     }
 
   }
