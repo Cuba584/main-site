@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Montserrat";
+  src: local("../assets/fonts/Monsterrat-Regular.ttf"); }
+
 /* ------------------ Global Styles ------------ */
 /*change page colors here!*/
 /*this mixin applies bgr-color and color to anything with classes
