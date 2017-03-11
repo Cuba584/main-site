@@ -14,7 +14,8 @@ var fileIds = {
     "tourism": "1hYVU1e8l0vP7U5vGmWJY1k2B7mnjHpQi1qd4gn9xkFE",
     "entre": "1GVusAF86-rrv6RwSMF_H47xO2eG2tVayfumcj7Q1akM",
     "aging": "1RY9sG1oazoFfE9ZGEK9U3zaAmyOJB6mYcc6VDKy7xBA",
-    "skate": "1M1o12fbc33KOhkNJl-Vagimqbm3Diof-cKVbNvZuFi0"
+    "skate": "1M1o12fbc33KOhkNJl-Vagimqbm3Diof-cKVbNvZuFi0",
+    "spanish": "1lE5cHOULVtE1Ziw-SQCzblN96eT29Jj9_Nor1rQBgIU"
 }
 
 module.exports.sendIds = function(){
