@@ -44,7 +44,7 @@
 
   <!-- <iframe src="https://player.vimeo.com/video/162564459" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-aspectratio="0.562" style="width: 896px; height: 503.552px;"></iframe> -->
 
-  <section class="center-wrapper" id="body">
+  <section class="center-wrapper">
     <div class="max-width">
     <% for (i in body["text"]) {
       if (body["text"][i]["type"] == "text") {%>
@@ -61,11 +61,15 @@
     <p> <%=body["text"][i]["value"]["text"] %>  </p>
 
     <% } else if (body["text"][i]["type"] == "pullquote") {%>
+    </div>
+  </section>
     <div class="pull-quote-box <%= body["master-class"]["class"] %>">
 
       <h3 class="pull-quote">
         <hr> <span><%=body["text"][i]["value"]["text"] %></span> </h3>
     </div>
+    <section class="center-wrapper">
+      <div class="max-width">
 
     <% } else if (body["text"][i]["type"] == "story-image") {%>
       <figure>
