@@ -1,23 +1,3 @@
-@font-face {
-  font-family: "Montserrat";
-  font-weight: 300;
-  src: local("../assets/fonts/Montserrat-Light.ttf"); }
-
-@font-face {
-  font-family: "Montserrat";
-  font-weight: 400;
-  src: local("../assets/fonts/Montserrat-Regular.ttf"); }
-
-@font-face {
-  font-family: "Montserrat";
-  font-weight: 700;
-  src: local("../assets/fonts/Montserrat-Semibold.ttf"); }
-
-@font-face {
-  font-family: "Montserrat";
-  font-weight: 800;
-  src: local("../assets/fonts/Montserrat-ExtraBold.ttf"); }
-
 /* ------------------ Global Styles ------------ */
 /*change page colors here!*/
 .inner {
@@ -38,17 +18,19 @@
   .inner .byline-box {
     display: flex;
     margin-top: 10pt; }
-    .inner .byline-box .byline-item p {
-      line-height: 0.2em; }
-    .inner .byline-box .byline-head {
-      font-weight: 100;
-      font-size: 0.85em;
-      text-transform: lowercase; }
     .inner .byline-box .byline-item {
+      color: #888888;
       text-align: center;
       margin-left: 50px;
-      font-weight: 500;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-size: .9em; }
+    .inner .byline-box .byline-item p {
+      line-height: 0.2em;
+      font-weight: 700; }
+    .inner .byline-box .byline-head {
+      font-weight: 300 !important;
+      font-size: 0.85em;
+      text-transform: lowercase; }
   .inner .byline-item:first-of-type {
     margin-left: 0; }
   .inner figure {
@@ -87,8 +69,11 @@
   padding: 2em;
   z-index: 5;
   margin-top: -55px; }
-  #inner-title-box h1, #inner-title-box h3 {
+  #inner-title-box h1 {
     margin: 0; }
+  #inner-title-box h3 {
+    font-size: 1.5em;
+    margin: .5em 0 0 0; }
 
 /*------responsive styles------*/
 @media screen and (max-width: 800px) {

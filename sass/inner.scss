@@ -29,22 +29,25 @@
     display:flex;
     margin-top:10pt;
 
-    .byline-item p{
+    .byline-item{
+      color:$light-gray;
+      text-align:center;
+      margin-left:50px;
+      text-transform: uppercase;
+      font-size:.9em;
+    }
+
+    .byline-item p {
       line-height: 0.2em;
+      font-weight:700;
     }
 
     .byline-head{
-      font-weight: 100;
+      font-weight: 300!important;
       font-size: 0.85em;
       text-transform: lowercase;
     }
 
-    .byline-item{
-      text-align:center;
-      margin-left:50px;
-      font-weight: 500;
-      text-transform: uppercase;
-    }
 
   }
 
@@ -104,8 +107,12 @@
   padding:2em;
   z-index:5;
   margin-top:-55px;
-  h1, h3{
+  h1{
     margin:0;
+  }
+  h3{
+    font-size:1.5em;
+    margin:.5em 0 0 0;
   }
 
 }
