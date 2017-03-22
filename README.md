@@ -1,6 +1,6 @@
-#"Cuba's New Wave" main site
+# "Cuba's New Wave" Main Site
 
-##Installation
+## Installation
 
 1. Install these dependencies if you don't already have them:
   - [Git](https://sourceforge.net/projects/git-osx-installer/)
@@ -37,25 +37,27 @@ You are now set up to run the project locally, and unless you delete this folder
 
   And follow the instructions.
 
-##Running the site locally
+## Running the site locally
 
 1. In the main-site directory, run:
 
   `gulp`
   
-  This command will automatically run the local server and compile your SASS as you save your .scss files. Note that you will have to refresh your browser after your save your files to see your changes.
+  This command will automatically run the local server and compile your Sass as you save your .scss files. Note that you will have to refresh your browser after your save your files to see your changes.
 
 2. Open the browser of your choice and navigate to:
 
   `localhost:5000`
 
-##Deploying Site Changes
+## Deploying Site Changes
 
-1. Pushing to the `master` branch will automatically deploy changes to the site. You can also check progress of the deployment and push other branches to deployment in the Heroku dashboard.
+1. Before deploying, merge `master` and `with_assets`, including the most updated video assets for the site.
 
-2. The site is located at [cubayouth.herokuapp.com](cubayouth.herokuapp.com).
+2. Pushing to the `master` branch will automatically deploy changes to the site. You can also check progress of the deployment and push other branches to deployment in the Heroku dashboard.
 
-##Updating Articles
+3. The site is located at [cubayouth.herokuapp.com](cubayouth.herokuapp.com).
+
+## Updating Articles
 
 1. In the main-site directory, run:
   `node parse.js`
@@ -68,7 +70,7 @@ You are now set up to run the project locally, and unless you delete this folder
 
   `git push origin master`
 
-##Adding new inner pages
+## Adding new inner pages
 
 1. Create a new Google Doc for the page content and make sure it's shared publicly. Then go to File -> Publish to the web... and click the "Publish" button
 
@@ -80,20 +82,42 @@ You are now set up to run the project locally, and unless you delete this folder
 
 5. Follow the "Updating Articles" instructions.
 
-##Editing CSS and running Sass
+## Editing CSS and running Sass
 
 Sass (.scss) files are stored in the sass/ directory. Compiled CSS is in the public/stylesheets/ directory.
 The .scss files will compile into CSS files with matching names, so to create a new CSS file, just create a new .scss in the sass/ directory and run one of the compiling scripts from below.
 
 To compile all the files from the sass/ directory, run:
   `gulp sass`
+  
+## Retrieving site assets
 
-##Notes for the developers
+Because we don't want to be pushing assets up to the repo everytime we change some code, the .gitignore for EVERY BRANCH will ignore assets, with the exception of the **with_assets branch**. This branch's .gitignore allows for everything in the assets folder to go through, and will be manually synced with master and deployed when assets need to be updated.
+
+You can get the most recent assets for the site by pulling down from the with_assets branch. If you are updating assets, check out the with_assets branch and update from there.
+
+### Site asset locations and naming conventions
+  - **Cinemagraphs** 
+    - Drive: FOR WEBSITE > Video. Naming conventions are detailed in that folder. File names (without full path) and attributions are referenced in the Google Doc for that page in the cinemagraph template item.
+    - Site: Public > Assets > Video. Rename the cinemagraph to be _slug.mp4_ (ex: _dorian.mp4_). Path is in article.ejs.
+ - **Feature Video**
+   - Drive: Story template will reference the id of the Vimeo video.
+   - Site: Vimeo embed code in article.ejs.
+ - **Images**
+   - Drive: FOR WEBSITE > Images. Naming conventions are detailed in that folder and are separated by inline or slideshow. Photogs write their photo page templates in the instructions doc to be put into the main story doc.
+   - Site: Public > Assets > Images. Paths will need to be put into article.ejs.
+ - **360 Video**
+   - TBD
+ - **Story text**
+   - Drive: FOR WEBSITE > Stories (text). Instructions for reporters in that folder. Spanish version instructions TBD.
+   - Site: All styling in main.scss and article.ejs.
+  
+## Notes for the developers
 - Remember that you can add specific files to the tree! Do not `git add -A` unless you're sure that you didn't change anything on your branch that will conflict with someone else's branch.
 - Make it a habit to run `git status` before you commit to see peruse the changes you've made and make sure you're not committing something you don't want to.
 - If you push to the `master` branch, **you will be deploying those changes to the site**, so do not push to this branch unless you know it's ready for deployment!
 
-##Dependencies
+## Dependencies
 
 - This site was build up from the [tutorial](https://devcenter.heroku.com/articles/getting-started-with-nodejs) for how to get started with NodeJS and Heroku. You can find the example code [here](https://github.com/heroku/node-js-getting-started).
 
