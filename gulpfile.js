@@ -6,14 +6,10 @@ var ejs = require('ejs');
 var bodyParser = require('body-parser');
 var archieml = require('archieml');
 var parsed = archieml.load('key: value');
-var sent = require('./parse.js');
 var fs = require('fs');
 
 
 gulp.task('connect', function(){
-  var pages = [
-    'aging', 'art', 'skate', 'tourism', 'youth', 'entre'
-  ]
 
   app.set('port', (process.env.PORT || 5000));
   app.use(express.static(__dirname + '/public'));
@@ -26,23 +22,30 @@ gulp.task('connect', function(){
   });
 
   app.get('/', function(request, response) {
-    response.render('pages/index');
+    response.render('pages/index', {page: 'index'});
+  });
+
+  app.get('/indexespanol', function(request, response) {
+    response.render('pages/indexespanol', {page: 'indexespanol'});
   });
 
   app.get('/about', function(request, response){
-    response.render('pages/about');
+    response.render('pages/about', {page: 'about'});
+  });
+
+  app.get('/aboutespanol', function(request, response){
+    response.render('pages/aboutespanol', {page: 'aboutespanol'});
   });
 
   app.get('/pages/:id', function(req, res){
-    console.log(req.params.id);
     var pageName = req.params.id;
     var bodyData = JSON.parse(fs.readFileSync('./data/' + pageName + '.json'));
-    res.render('pages/inner', {body: bodyData});
+    res.render('pages/inner', {body: bodyData, page: '/pages/' + pageName});
 
   });
 
   app.get('*', function(request, response){
-    response.render('pages/404');
+    response.render('pages/404', {page: '404'});
   });
 
 });

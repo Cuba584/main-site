@@ -2,33 +2,60 @@
 <html>
 <head>
   <% include ../partials/header.ejs %>
-  <script type="text/javascript" src="/js/main.js"></script>
-  <script type="text/javascript" src="/js/home.js"></script>
 </head>
 
 <body>
+  <script>
+  var currentPage = 'index';
+  </script>
   <div id="index-container">
-    <div id="loader-box">
-      <div id="logo-box">
-      </div>
-      <h2>Donec pulvinar arcu odio, sodales dignissim neque varius eget. Vivamus pretium risus sit amet ornare efficitur. </h2>
-      <div class="layer">
-        <div class="arrow bounce">
-          <i class="fa fa-angle-down fa-5x" aria-hidden="true"></i>
-        </div>
-      </div>
-    </div>
+    <% include ../partials/nav.ejs %>
     <div id="bottom-box">
-      <% include ../partials/nav.ejs %>
-        <video id="my-video" loop muted data-autoplay autoplay loop="loop">
 
-    			<source src="/assets/flowers.mp4" type="video/mp4">
+        <video id="cinemagraph" muted data-autoplay autoplay>
+
+    			<source src="/assets/video/intro_placeholder3.mp4" type="video/mp4">
 
     		</video>
+        <!-- <div id="logo-box">
+          <img alt="logo" src="/assets/584_logo_04.png">
+        </div> -->
+        <div class="replay-btn" id="replay-btn">
+          <i class="fa fa-repeat"></i>
+          <span>Replay</span>
+        <div>
     </div>
   </div>
 
-    <% include ../partials/footer.ejs %>
+  <div id="mobile-container">
+    <% include ../partials/nav.ejs %>
+    <div id="logo-box">
+      <img alt="logo" src="/assets/images/584_logo_white.png">
+      <div id="info">
+      <p>Cuba's youth are bringing in a wave of change. Join us as we journey through Havana through their eyes.</p>
+    </div>
+    </div>
+    <div id="links-box">
+      <div class="mobile-link" id="entre-link">
+        <a><p>Darien and Damien</p></a>
+      </div>
+      <div class="mobile-link" id="skate-link">
+        <a><p>Skate Libre</p></a>
+      </div>
+      <div class="mobile-link" id="arts-link">
+        <a><p>Agency of Rap</p></a>
+      </div>
+      <div class="mobile-link" id="harbor-link">
+        <a><p>Across the Harbor</p></a>
+      </div>
+      <div class="mobile-link" id="aging-link">
+        <a><p>Aging Society</p></a>
+      </div>
+    </div>
+
+  </div>
+
+
 
 </body>
 </html>

@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href="/stylesheets/bootstrap.min.css.map">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
   <% include ../partials/header.ejs %>
   <link rel="stylesheet" type="text/css" href="/stylesheets/about.css">
 </head>
 
 <body>
-
-  <% include ../partials/nav.ejs %>
+  <script>
+  var currentPage = 'about';
+  </script>
+<%  include ../partials/nav.ejs %>
 
   <div class="hero">
     <img alt="Team Photo" src="/assets/images/mockTeamPhoto.jpg">
@@ -18,7 +22,7 @@
   <p>Students in UNC-Chapel Hill’s School of Media and Journalism are honored to tell the stories of change in Havana, Cuba.</p>
 
   <div class="divider">
-    <img alt="Logo" src="/assets/logo.png">
+    <img alt="Logo" src="/assets/584_logo_plain.png">
     <h3>The Project</h3>
   </div>
 
@@ -31,7 +35,7 @@
   </p>
 
   <div class="divider">
-    <img alt="Logo" src="/assets/logo.png">
+    <img alt="Logo" src="/assets/584_logo_plain.png">
     <h3>The Team</h3>
   </div>
 
@@ -48,250 +52,297 @@
     </ul>
   </div>
 
-  <div class="about-container">
-
-  <div id="team-photos">
-    <div class="mix videographer">
+  <div class="container">
+  <div class="row" id="team-photos">
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 DEVELOPER">
       <div class="team-image-box">
-        <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Alma Washington" src="/assets/images/team/mockAlma.jpg">
+        <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur tempo ribus at usu Eu eam graece volup tatum Eu eam graece volup tatum Eu eam graece voluptatum. test test test test loooooooong word</p>
+        <img alt="Alma Washington" src="/assets/images/team/edited/alma.jpg">
       </div>
-      <p class="role">VIDEOGRAPHER</p>
-      <p class="team-name">Alma Washington</p>
-      <p class="portfolio"><a href="http://almawashington.com/"> www.almawashington.com</a></p>
-      <p class="twitter-handle"><a href="#">@alma</a></p>
+      <div class="team-info">
+        <p class="role">DEVELOPER</p>
+        <p class="team-name">Alma Washington</p>
+        <p class="portfolio"><a href="http://almawashington.com/"> www.almawashington.com</a></p>
+        <p class="twitter-handle"><a href="#">@alma</a></p>
+      </div>
     </div>
 
-    <div class="mix reporter">
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 developer">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Lindsay Carbonell" src="/assets/images/team/mockLindsay.jpg">
+        <img alt="Lindsay Carbonell" src="/assets/images/team/edited/lindsay.jpg">
       </div>
-      <p class="role">REPORTER</p>
+      <div class="team-info">
+      <p class="role">DEVELOPER</p>
       <p class="team-name">Lindsay Carbonell</p>
       <p class="portfolio"><a href="http://www.lindsaycarbonell.com/"> www.lindsaycarbonell.com</a></p>
       <p class="twitter-handle"><a href="#">@lindsay</a></p>
+    </div>
     </div>
 
-    <div class="mix designer">
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 developer">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Kate Boyd" src="/assets/images/team/mockKate.jpg">
+        <img alt="Kate Boyd" src="/assets/images/team/edited/kate.jpg">
       </div>
-      <p class="role">DESIGNER</p>
+      <div class="team-info">
+      <p class="role">DEVELOPER</p>
       <p class="team-name">Kate Boyd</p>
       <p class="portfolio"><a href="http://www.kwboyd.com/"> www.kwboyd.com</a></p>
       <p class="twitter-handle"><a href="#">@kate</a></p>
     </div>
-    <div class="mix developer">
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 developer">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Peyton Chance" src="/assets/images/team/mockPeyton.jpg">
+        <img alt="Peyton Chance" src="/assets/images/team/edited/peyton.jpg">
       </div>
+      <div class="team-info">
       <p class="role">DEVELOPER</p>
       <p class="team-name">Peyton Chance</p>
       <p class="portfolio"><a href="#"> www.peytonwebsite.com</a></p>
       <p class="twitter-handle"><a href="#">@peyton</a></p>
     </div>
-    <div class="mix coach">
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 designer">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Mary Claire Brogden" src="/assets/images/team/mockMC.jpg">
+        <img alt="Mary Claire Brogden" src="/assets/images/team/edited/mc.jpg">
       </div>
-      <p class="role">COACH</p>
+      <div class="team-info">
+      <p class="role">DESIGNER</p>
       <p class="team-name">Mary Claire Brogden</p>
       <p class="portfolio"><a href="#"> www.mcwebsite.com</a></p>
       <p class="twitter-handle"><a href="#">@mc</a></p>
     </div>
-    <div class="mix videographer">
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 designer">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Alma Washington" src="/assets/images/team/mockAlma.jpg">
+        <img alt="Ally Levine" src="/assets/images/team/edited/ally.jpg">
       </div>
+      <div class="team-info">
+      <p class="role">DESIGNER</p>
+      <p class="team-name">Ally Levine</p>
+      <p class="portfolio"><a href="#"> www.allywebsite.com</a></p>
+      <p class="twitter-handle"><a href="#">@ally</a></p>
+    </div>
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 designer">
+      <div class="team-image-box">
+        <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
+        <img alt="Echo Zhou" src="/assets/images/team/edited/echo.jpg">
+      </div>
+      <div class="team-info">
+      <p class="role">DESIGNER</p>
+      <p class="team-name">Echo Zhou</p>
+      <p class="portfolio"><a href="#"> www.echowebsite.com</a></p>
+      <p class="twitter-handle"><a href="#">@echo</a></p>
+    </div>
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 designer">
+      <div class="team-image-box">
+        <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
+        <img alt="Nicole Basile" src="/assets/images/team/edited/nicole.jpg">
+      </div>
+      <div class="team-info">
+      <p class="role">DESIGNER</p>
+      <p class="team-name">Nicole Basile</p>
+      <p class="portfolio"><a href="#"> www.nicolewebsite.com</a></p>
+      <p class="twitter-handle"><a href="#">@nicole</a></p>
+    </div>
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 videographer">
+      <div class="team-image-box">
+        <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
+        <img alt="Alma Washington" src="/assets/images/team/edited/alma.jpg">
+      </div>
+      <div class="team-info">
       <p class="role">VIDEOGRAPHER</p>
       <p class="team-name">Alma Washington</p>
       <p class="portfolio"><a href="http://almawashington.com/"> www.almawashington.com</a></p>
       <p class="twitter-handle"><a href="#">@alma</a></p>
     </div>
-    <div class="mix videographer">
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 videographer">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Alma Washington" src="/assets/images/team/mockAlma.jpg">
+        <img alt="Alma Washington" src="/assets/images/team/edited/alma.jpg">
       </div>
+      <div class="team-info">
       <p class="role">VIDEOGRAPHER</p>
       <p class="team-name">Alma Washington</p>
       <p class="portfolio"><a href="http://almawashington.com/"> www.almawashington.com</a></p>
       <p class="twitter-handle"><a href="#">@alma</a></p>
     </div>
-    <div class="mix videographer">
-      <div class="team-image-box">
-        <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Alma Washington" src="/assets/images/team/mockAlma.jpg">
-      </div>
-      <p class="role">VIDEOGRAPHER</p>
-      <p class="team-name">Alma Washington</p>
-      <p class="portfolio"><a href="http://almawashington.com/"> www.almawashington.com</a></p>
-      <p class="twitter-handle"><a href="#">@alma</a></p>
     </div>
-    <div class="mix videographer">
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 reporter">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Alma Washington" src="/assets/images/team/mockAlma.jpg">
+        <img alt="Lindsay Carbonell" src="/assets/images/team/edited/lindsay.jpg">
       </div>
-      <p class="role">VIDEOGRAPHER</p>
-      <p class="team-name">Alma Washington</p>
-      <p class="portfolio"><a href="http://almawashington.com/"> www.almawashington.com</a></p>
-      <p class="twitter-handle"><a href="#">@alma</a></p>
-    </div>
-    <div class="mix videographer">
-      <div class="team-image-box">
-        <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Alma Washington" src="/assets/images/team/mockAlma.jpg">
-      </div>
-      <p class="role">VIDEOGRAPHER</p>
-      <p class="team-name">Alma Washington</p>
-      <p class="portfolio"><a href="http://almawashington.com/"> www.almawashington.com</a></p>
-      <p class="twitter-handle"><a href="#">@alma</a></p>
-    </div>
-    <div class="mix reporter">
-      <div class="team-image-box">
-        <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Lindsay Carbonell" src="/assets/images/team/mockLindsay.jpg">
-      </div>
+      <div class="team-info">
       <p class="role">REPORTER</p>
       <p class="team-name">Lindsay Carbonell</p>
       <p class="portfolio"><a href="http://www.lindsaycarbonell.com/"> www.lindsaycarbonell.com</a></p>
       <p class="twitter-handle"><a href="#">@lindsay</a></p>
     </div>
-    <div class="mix reporter">
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 reporter">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Lindsay Carbonell" src="/assets/images/team/mockLindsay.jpg">
+        <img alt="Lindsay Carbonell" src="/assets/images/team/edited/lindsay.jpg">
       </div>
+      <div class="team-info">
       <p class="role">REPORTER</p>
       <p class="team-name">Lindsay Carbonell</p>
       <p class="portfolio"><a href="http://www.lindsaycarbonell.com/"> www.lindsaycarbonell.com</a></p>
       <p class="twitter-handle"><a href="#">@lindsay</a></p>
     </div>
-    <div class="mix reporter">
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 reporter">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Lindsay Carbonell" src="/assets/images/team/mockLindsay.jpg">
+        <img alt="Lindsay Carbonell" src="/assets/images/team/edited/lindsay.jpg">
       </div>
+      <div class="team-info">
       <p class="role">REPORTER</p>
       <p class="team-name">Lindsay Carbonell</p>
       <p class="portfolio"><a href="http://www.lindsaycarbonell.com/"> www.lindsaycarbonell.com</a></p>
       <p class="twitter-handle"><a href="#">@lindsay</a></p>
     </div>
-    <div class="mix reporter">
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 reporter">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Lindsay Carbonell" src="/assets/images/team/mockLindsay.jpg">
+        <img alt="Lindsay Carbonell" src="/assets/images/team/edited/lindsay.jpg">
       </div>
+      <div class="team-info">
       <p class="role">REPORTER</p>
       <p class="team-name">Lindsay Carbonell</p>
       <p class="portfolio"><a href="http://www.lindsaycarbonell.com/"> www.lindsaycarbonell.com</a></p>
       <p class="twitter-handle"><a href="#">@lindsay</a></p>
     </div>
-    <div class="mix designer">
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 designer">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Kate Boyd" src="/assets/images/team/mockKate.jpg">
+        <img alt="Kate Boyd" src="/assets/images/team/edited/kate.jpg">
       </div>
+      <div class="team-info">
       <p class="role">DESIGNER</p>
       <p class="team-name">Kate Boyd</p>
       <p class="portfolio"><a href="http://www.kwboyd.com/"> www.kwboyd.com</a></p>
       <p class="twitter-handle"><a href="#">@kate</a></p>
     </div>
-    <div class="mix designer">
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 designer">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Kate Boyd" src="/assets/images/team/mockKate.jpg">
+        <img alt="Kate Boyd" src="/assets/images/team/edited/kate.jpg">
       </div>
+      <div class="team-info">
       <p class="role">DESIGNER</p>
       <p class="team-name">Kate Boyd</p>
       <p class="portfolio"><a href="http://www.kwboyd.com/"> www.kwboyd.com</a></p>
       <p class="twitter-handle"><a href="#">@kate</a></p>
     </div>
-    <div class="mix designer">
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 designer">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Kate Boyd" src="/assets/images/team/mockKate.jpg">
+        <img alt="Kate Boyd" src="/assets/images/team/edited/kate.jpg">
       </div>
+      <div class="team-info">
       <p class="role">DESIGNER</p>
       <p class="team-name">Kate Boyd</p>
       <p class="portfolio"><a href="http://www.kwboyd.com/"> www.kwboyd.com</a></p>
       <p class="twitter-handle"><a href="#">@kate</a></p>
     </div>
-    <div class="mix designer">
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 designer">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Kate Boyd" src="/assets/images/team/mockKate.jpg">
+        <img alt="Kate Boyd" src="/assets/images/team/edited/kate.jpg">
       </div>
+      <div class="team-info">
       <p class="role">DESIGNER</p>
       <p class="team-name">Kate Boyd</p>
       <p class="portfolio"><a href="http://www.kwboyd.com/"> www.kwboyd.com</a></p>
       <p class="twitter-handle"><a href="#">@kate</a></p>
     </div>
-    <div class="mix developer">
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 developer">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Peyton Chance" src="/assets/images/team/mockPeyton.jpg">
+        <img alt="Peyton Chance" src="/assets/images/team/edited/peyton.jpg">
       </div>
+      <div class="team-info">
       <p class="role">DEVELOPER</p>
       <p class="team-name">Peyton Chance</p>
       <p class="portfolio"><a href="#"> www.peytonwebsite.com</a></p>
       <p class="twitter-handle"><a href="#">@peyton</a></p>
     </div>
-    <div class="mix developer">
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 developer">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Peyton Chance" src="/assets/images/team/mockPeyton.jpg">
+        <img alt="Peyton Chance" src="/assets/images/team/edited/peyton.jpg">
       </div>
+      <div class="team-info">
       <p class="role">DEVELOPER</p>
       <p class="team-name">Peyton Chance</p>
       <p class="portfolio"><a href="#"> www.peytonwebsite.com</a></p>
       <p class="twitter-handle"><a href="#">@peyton</a></p>
     </div>
-    <div class="mix developer">
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 developer">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Peyton Chance" src="/assets/images/team/mockPeyton.jpg">
+        <img alt="Peyton Chance" src="/assets/images/team/edited/peyton.jpg">
       </div>
+      <div class="team-info">
       <p class="role">DEVELOPER</p>
       <p class="team-name">Peyton Chance</p>
       <p class="portfolio"><a href="#"> www.peytonwebsite.com</a></p>
       <p class="twitter-handle"><a href="#">@peyton</a></p>
     </div>
-    <div class="mix coach">
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 coach">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Mary Claire Brogden" src="/assets/images/team/mockMC.jpg">
+        <img alt="Mary Claire Brogden" src="/assets/images/team/edited/mc.jpg">
       </div>
+      <div class="team-info">
       <p class="role">COACH</p>
       <p class="team-name">Mary Claire Brogden</p>
       <p class="portfolio"><a href="#"> www.mcwebsite.com</a></p>
       <p class="twitter-handle"><a href="#">@mc</a></p>
     </div>
-    <div class="mix coach">
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 coach">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Mary Claire Brogden" src="/assets/images/team/mockMC.jpg">
+        <img alt="Mary Claire Brogden" src="/assets/images/team/edited/mc.jpg">
       </div>
+      <div class="team-info">
       <p class="role">COACH</p>
       <p class="team-name">Mary Claire Brogden</p>
       <p class="portfolio"><a href="#"> www.mcwebsite.com</a></p>
       <p class="twitter-handle"><a href="#">@mc</a></p>
     </div>
-    <div class="mix coach">
+    </div>
+    <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xl-3 coach">
       <div class="team-image-box">
         <p class="bio">Eu eam graece voluptatum, quo virtute eruditi impedit at. Cum velit nulla graecis te. Evertitur temporibus at usu</p>
-        <img alt="Mary Claire Brogden" src="/assets/images/team/mockMC.jpg">
+        <img alt="Mary Claire Brogden" src="/assets/images/team/edited/mc.jpg">
       </div>
+      <div class="team-info">
       <p class="role">COACH</p>
       <p class="team-name">Mary Claire Brogden</p>
       <p class="portfolio"><a href="#"> www.mcwebsite.com</a></p>
       <p class="twitter-handle"><a href="#">@mc</a></p>
+    </div>
     </div>
   </div>
 
@@ -306,6 +357,9 @@
   </div>
 
   <% include ../partials/footer.ejs %>
+  <script src="/js/tether.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
   <script src="/js/mixitup.min.js"></script>
+  <script>var mixer = mixitup('#team-photos');</script>
 </body>
 </html>

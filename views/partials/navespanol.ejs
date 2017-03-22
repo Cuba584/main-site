@@ -1,0 +1,55 @@
+
+  <div id="nav-header">
+   <nav class="nav-bar">
+
+     <nav class="wrapper">
+      <a href="/"><img src="/assets/584_logo_plain.png" alt="Cuba's New Wave logo" class="logo"></a>
+       <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="label-toggle">
+          <div id="nav-container">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </label>
+      </input>
+
+
+      <ul>
+        <li id="nav-art"><a class="arts nav-title" href="/pages/artespanol">Rap Espanol</a></li>
+        <li><a class="entre nav-title" href="/pages/entreespanol">Entrepreneurs Espanol</a></li>
+        <li><a class="harbor nav-title" href="/pages/tourismespanol">Harbor Espanol</a></li>
+        <li><a class="aging nav-title" href="/pages/agingespanol">Aging Espanol</a></li>
+        <li><a class="youth nav-title" href="/pages/skateespanol">Skater Espanol</a></li>
+        <li><a href="/aboutespanol">About</a></li>
+      </ul>
+       <div class="nav-icons">
+         <div class="sm-icons">
+            <a href=""><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram icons" aria-hidden="true"></i></a>
+            <div class="trans-wrapper">
+              <a id="trans-link"><span id="trans-btn">EN</span></a>
+              <!-- <hr>
+              <span>ES</span> -->
+            </div>
+          </div>
+          <!-- <div class="trans">
+            <span id="eng">EN</span>
+            <span> | </span>
+            <span id="es"> ES </span>
+          </div> -->
+
+
+      </div>
+
+    </nav>
+  </nav>
+</div>
+<script>
+var currentPageLength = currentPage.length;
+var currentPageEspanol = currentPage.slice(0, currentPageLength - 7);
+console.log(currentPageEspanol);
+var transLink = document.getElementById('trans-link');
+transLink.setAttribute("href", currentPageEspanol );
+</script>

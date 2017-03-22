@@ -1,4 +1,3 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 footer{
   text-align: left;
@@ -23,6 +22,10 @@ footer{
     display: block;
   }
 
+  .centered {
+    align-self: center;
+  }
+
   .item ul li{
     display: inline;
   }
@@ -33,7 +36,7 @@ footer{
   }
 
   .item img {
-    height: 6vw;
+    height: 10vw;
     margin-left: 3vw;
   }
 
@@ -53,7 +56,7 @@ footer{
   }
 
   .social {
-    margin-left: -90px;
+    margin-left: -80px;
   }
 
 

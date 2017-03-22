@@ -4,12 +4,13 @@ var sectionId = ["#section-0", "#section-0-img", "#section-1", "#section-1-img",
 
 
 for (var i in sectionId){
+  console.log('for...');
   (function(i){
 
     if(sectionId[i].includes('img')){
 
       $(sectionId[i]).waypoint(function() {
-
+        console.log('wayp');
           $(sectionId[i]).addClass('fadeIn 20s');
 
       }, { offset: '60%' });

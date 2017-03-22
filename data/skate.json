@@ -1,17 +1,14 @@
 {
   "master-class": {
-    "class": "youth"
+    "class": "skate"
   },
-  "hero": {
-    "src": "/assets/images/sports_test.png",
-    "alt": "Youth Culture/Sports Hero"
+  "cinemagraph": {
+    "src": "harbor.mp4",
+    "alt": "Skater Cinemagraph"
   },
   "header": {
     "text": "They Called Her Skater Girl",
     "subtitle": "Cuba’s youth know how to turn a tune, and a tide"
-  },
-  "lede": {
-    "text": "Because skateboarding is a male-dominated activity in which women are starting to participate, skateboarding communities are becoming a unique place for young men and women to interact."
   },
   "reporters": [
     {
@@ -62,7 +59,8 @@
     {
       "type": "pullquote",
       "value": {
-        "text": "Donec in euismod lectus, eget sollicitudin ante. Cras porta sapien quis finibus pulvinar."
+        "text": "Donec in euismod lectus, eget sollicitudin ante. Cras porta sapien quis finibus pulvinar.",
+        "attribution": "Juan Doe"
       }
     },
     {

@@ -1,47 +1,56 @@
-@font-face {
-     font-family: "Montserrat";
-     src: local("../assets/fonts/Monsterrat-Regular.ttf");
-  }
-
-
-
-
-
-/* ------------------ Global Styles ------------ */
-$body-color: blue;
-$main-text-color: #000;
-$light-gray: #efefef;
-$dark-gray: #696969;
-$title: #83c4d6;
-$montserrat: 'Montserrat', sans-serif;
-$roboto: 'Roboto', sans-serif;
-
-/*change page colors here!*/
-$red: #ed4c09;
-$yellow: #e4b83b;
-$green: #79c7ab;
-$blue: #0b8fb9;
-$purple: #bc7a95;
-
+@import '_vars';
 
 /*this mixin applies bgr-color and color to anything with classes
 that are defined in the include below. You can override either of these colors
 further down on the page or in any of the other .SCSS files.
 */
-@mixin config-page-colors($prefix, $colors...) {
+@mixin config-page-colors($colors...) {
     @each $i in $colors {
-        .#{$prefix}#{nth($i, 1)} {
-            background-color: nth($i, 2);
-            color: nth($i, 2);
+        .#{nth($i, 1)} {
+            &.subhead{
+              color: nth($i, 2);
+            }
+            &.change-bg{
+              background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
+              background-size:cover;
+              color: nth($i, 2);
+            }
+            &.nav-title{
+              // border-bottom:3px solid transparent;
+              // white-space:nowrap;
+              // height:25px;
+              // transition: 0.5s ease;
+              // width: 0px;
+              &:after{
+                content: '';
+                display: block;
+                height: 3px;
+                width: 0;
+                background: transparent;
+                transition: width .8s ease, background-color .8s ease;
+              }
+
+              &:hover{
+
+                &:after{
+                  width:100%;
+                  background:nth($i, 2);
+                }
+              }
+
+            }
+
+
+
         }
     }
 }
 
-@include config-page-colors('',
-    'arts'  $red,
-    'entre' $yellow,
-    'youth' $green,
-    'aging' $blue,
+@include config-page-colors(
+    'hiphop'  $red,
+    'dorian' $yellow,
+    'skate' $teal,
+    'family' $blue,
     'harbor' $purple
 );
 
@@ -98,38 +107,40 @@ header {
 
 nav {
   // margin: 0;
+  max-height: 45px;
   background-color: #fff;
   opacity: 0.8;
-  font-family: $montserrat;
-  font-size:1em;
+  font-family: $roboto;
+  font-size:1.05em;
   ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style-type: none;
   width: 100%;
-  text-transform: uppercase;
+  padding: 0 10vw 0 10vw;
+
     a {
       color: #222;
       position: relative;
       text-decoration: none;
-      &:hover {
-        font-weight: bold;
-      }
+      color:$main-text-color;
+      background-color:transparent;
+      //for hover styles, look at mix-in
     }
+
+
   }
-  li {
-    display: inline-block;
-  }
-  li+li {
-    border-left: 1px solid #000;
-    padding-left: 25px;
-  }
+
+    #logo-text {
+      height: 45px;
+    }
+  // li {
+  //   display: inline-block;
+  // }
   .logo {
-    display: inline-block;
     height: 45px;
-    margin: 1em 0;
     width: 45px;
-    margin-left: 2em;
+    margin-left: .5em;
   }
   .wrapper {
     margin: 0 auto;
@@ -141,6 +152,7 @@ nav {
   .label-toggle {
     display: none;
   }
+
   #menu-toggle {
     display: none;
   }
@@ -150,24 +162,65 @@ nav {
   }
   .nav-icons {
     flex-wrap: wrap;
-    margin-left: 30px;
+    margin:0 .5em 0 0;
+
+  }
+  .logo-wrapper {
+    a {
+    display: flex;
+    vertical-align: middle;
+    }
   }
   .sm-icons {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    opacity:.8;
+    #nav-line {
+      padding: 0 .2em;
+      // height: 2.9em;
+      height:50px;
+      border-left: 2px solid $dark-gray;
+    }
+    #insta {
+      padding-right: .3em;
+    }
+    a{
+      color:$main-text-color;
+      text-decoration:none;
+      &:hover{
+        color:$purple;
+        opacity:1;
+      }
+    }
   }
-  .trans {
-    border: 1px solid #000;
-    padding: 1px 10px 1px 10px;
-    margin: 5px;
+  // .trans {
+  //   display:flex;
+  //   justify-content: space-around;
+  //   border: 1px solid #000;
+  //   padding: 1px 10px 1px 10px;
+  //   margin: 5px;
+  //   &:hover{
+  //     cursor:pointer;
+  //   }
+  // }
+
+  .trans-wrapper{
+
+    #trans-btn{
+
+      &:hover{
+        cursor:pointer;
+      }
+    }
+
+    hr{
+      width:13pt;
+      margin:0;
+    }
   }
-  #eng {
-    border-right: 1px solid #000;
-    padding-right: 15px;
-  }
-  #es {
-    padding-left: 15px;
-  }
+
 }
 
  #nav-header{
@@ -216,6 +269,7 @@ nav {
       text-align: center;
       transition: all 1s ease;
       width: 100%;
+      padding: 0 1vw 0 1vw;
       visibility: hidden;
     }
     nav li {
@@ -256,7 +310,7 @@ nav {
       height: 35px;
       margin-top: 1em;
       width: 35px;
-      .nav-container {
+      #nav-container {
         display: inline-block;
         .bar1, .bar2, .bar3 {
           width: 35px;

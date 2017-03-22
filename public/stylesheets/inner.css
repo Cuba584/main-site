@@ -1,238 +1,30 @@
 @font-face {
   font-family: "Montserrat";
-  src: local("../assets/fonts/Monsterrat-Regular.ttf"); }
+  font-weight: 300;
+  src: local("../assets/fonts/Montserrat-Light.ttf"); }
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  src: local("../assets/fonts/Montserrat-Regular.ttf"); }
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  src: local("../assets/fonts/Montserrat-Semibold.ttf"); }
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 800;
+  src: local("../assets/fonts/Montserrat-ExtraBold.ttf"); }
 
 /* ------------------ Global Styles ------------ */
 /*change page colors here!*/
-/*this mixin applies bgr-color and color to anything with classes
-that are defined in the include below. You can override either of these colors
-further down on the page or in any of the other .SCSS files.
-*/
-.arts {
-  background-color: #ed4c09;
-  color: #ed4c09; }
-
-.entre {
-  background-color: #e4b83b;
-  color: #e4b83b; }
-
-.youth {
-  background-color: #79c7ab;
-  color: #79c7ab; }
-
-.aging {
-  background-color: #0b8fb9;
-  color: #0b8fb9; }
-
-.harbor {
-  background-color: #bc7a95;
-  color: #bc7a95; }
-
-html {
-  font-size: .7em; }
-
-body {
-  font-size: 1.375em;
-  background-color: white;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  line-height: 1.45;
-  color: #696969;
-  margin: 0; }
-
-p {
-  margin-bottom: 1.3em;
-  line-height: 2em; }
-
-h1, h2, h3, h4 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: inherit;
-  line-height: 1.2; }
-
-h1 {
-  margin-top: 0;
-  font-size: 3em;
-  font-weight: 500; }
-
-h2 {
-  font-size: 2.25em; }
-
-h3 {
-  font-size: 1.75em; }
-
-h4 {
-  font-size: 1.125em; }
-
-/* ------------------  Header ------------------ */
-header {
-  text-align: left;
-  padding: 1rem; }
-
-/* ------------------ Navigation ------------------ */
-nav {
-  background-color: #fff;
-  opacity: 0.8;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1em; }
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    width: 100%;
-    text-transform: uppercase; }
-    nav ul a {
-      color: #222;
-      position: relative;
-      text-decoration: none; }
-      nav ul a:hover {
-        font-weight: bold; }
-  nav li {
-    display: inline-block; }
-  nav li + li {
-    border-left: 1px solid #000;
-    padding-left: 25px; }
-  nav .logo {
-    display: inline-block;
-    height: 45px;
-    margin: 1em 0;
-    width: 45px;
-    margin-left: 2em; }
-  nav .wrapper {
-    margin: 0 auto;
-    max-width: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: space-between; }
-  nav .label-toggle {
-    display: none; }
-  nav #menu-toggle {
-    display: none; }
-  nav .nav-icons, nav .icons {
-    display: flex;
-    margin: 0 5px 0 5px; }
-  nav .nav-icons {
-    flex-wrap: wrap;
-    margin-left: 30px; }
-  nav .sm-icons {
-    display: flex;
-    flex-direction: row; }
-  nav .trans {
-    border: 1px solid #000;
-    padding: 1px 10px 1px 10px;
-    margin: 5px; }
-  nav #eng {
-    border-right: 1px solid #000;
-    padding-right: 15px; }
-  nav #es {
-    padding-left: 15px; }
-
-#nav-header {
-  position: fixed;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 80px;
-  z-index: 9; }
-
-header {
-  position: fixed;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 80px;
-  transition: all 0.3s linear;
-  -moz-transition: all 0.3s linear;
-  -webkit-transition: all 0.3s linear; }
-
-.default {
-  top: 0; }
-
-.fixed {
-  top: -85px; }
-
-/*------------------ RESPONSIVE NAV STYLES ---------*/
-@media screen and (max-width: 768px) {
-  nav .wrapper {
-    max-width: 75%; }
-  nav ul {
-    background-color: #eee;
-    display: block;
-    height: 0;
-    list-style-type: none;
-    opacity: 0;
-    text-align: center;
-    transition: all 1s ease;
-    width: 100%;
-    visibility: hidden; }
-  nav li {
-    color: #696969;
-    display: block;
-    font-size: 1.5em;
-    padding: 2em 0; }
-  nav li + li {
-    border-left: none; }
-  nav ul li:after {
-    content: "";
-    display: block;
-    height: 1px;
-    width: 20px;
-    margin-left: 45%;
-    background: black;
-    text-align: center;
-    position: relative;
-    top: 1.5em; }
-  nav ul li #nav-art:after {
-    margin-left: 50%; }
-  nav #menu-toggle:checked ~ ul {
-    opacity: 1;
-    height: 100vh;
-    visibility: visible;
-    padding: 10px;
-    border: 5px solid #60B1DE; }
-  nav .label-toggle {
-    cursor: pointer;
-    display: block;
-    float: right;
-    height: 35px;
-    margin-top: 1em;
-    width: 35px; }
-    nav .label-toggle .nav-container {
-      display: inline-block; }
-      nav .label-toggle .nav-container .bar1, nav .label-toggle .nav-container .bar2, nav .label-toggle .nav-container .bar3 {
-        width: 35px;
-        height: 5px;
-        margin: 6px 0;
-        background: black;
-        transition: 0.4s; }
-    nav .label-toggle .change .bar1 {
-      -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-      transform: rotate(-45deg) translate(-9px, 6px); }
-    nav .label-toggle .change .bar2 {
-      opacity: 0; }
-    nav .label-toggle .change .bar3 {
-      -webkit-transform: rotate(45deg) translate(-8px, -8px);
-      transform: rotate(45deg) translate(-8px, -8px); }
-  nav .wrapper {
-    display: block; }
-  .line {
-    display: none; }
-  nav .icons {
-    display: none; }
-  nav .trans {
-    display: none; } }
-
-/* ------------------  Story Page ------------------ */
-.subhead {
-  background-color: white;
-  font-weight: 400; }
-
 .inner {
   /*------standard classes------*/
   /*------page ids------*/ }
   .inner .max-width {
-    max-width: 800px; }
+    max-width: 75%; }
   .inner .center-wrapper {
     display: flex;
     justify-content: center; }
@@ -244,7 +36,8 @@ header {
   .inner .inner-hero img {
     width: 100vw; }
   .inner .byline-box {
-    display: flex; }
+    display: flex;
+    margin-top: 10pt; }
     .inner .byline-box .byline-item p {
       line-height: 0.2em; }
     .inner .byline-box .byline-head {
@@ -264,7 +57,7 @@ header {
     margin-top: 25px;
     margin-bottom: 40px; }
   .inner .pull-quote-box {
-    width: 100vw; }
+    margin: 20pt 0 20pt 15%; }
   .inner .pull-quote span::before {
     content: '\201C'; }
   .inner .pull-quote span::after {
@@ -282,13 +75,62 @@ header {
     margin-right: 725px;
     border-radius: 30px;
     border-style: none; }
+  .inner .subhead {
+    background-color: white;
+    font-weight: 400; }
 
 #inner-title-box {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   color: #fff;
-  width: 50%;
+  width: 60%;
   padding: 2em;
-  margin-top: -90px; }
+  z-index: 5;
+  margin-top: -55px; }
   #inner-title-box h1, #inner-title-box h3 {
     margin: 0; }
+
+/*------responsive styles------*/
+@media screen and (max-width: 800px) {
+  .container {
+    margin-top: 68px; }
+  .inner .byline-box {
+    margin-top: 15pt; }
+    .inner .byline-box .byline-item p {
+      line-height: 1em; }
+  .inner .center-wrapper {
+    margin-top: -2%; }
+  .inner #inner-intro {
+    max-width: 80%;
+    line-height: 1.5em;
+    margin-top: 30px; }
+  .inner .max-width {
+    max-width: 75%; }
+  .inner iframe {
+    width: 100%; }
+  .inner .pull-quote-box {
+    width: 88vw; }
+  #inner-title-box {
+    width: 100%;
+    margin-top: 0; }
+  h1 {
+    font-size: 2.1em;
+    padding-bottom: .25em; }
+  h3 {
+    font-size: 1.25em; } }
+
+#cinemagraph {
+  right: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-color: black;
+  /* in case the video doesn't fit the whole page*/
+  background-position: center center;
+  background-size: contain;
+  object-fit: cover;
+  /*cover video background */
+  z-index: 3; }

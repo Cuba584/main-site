@@ -1,6 +1,22 @@
 @font-face {
   font-family: "Montserrat";
-  src: local("../assets/fonts/Monsterrat-Regular.ttf"); }
+  font-weight: 300;
+  src: local("../assets/fonts/Montserrat-Light.ttf"); }
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  src: local("../assets/fonts/Montserrat-Regular.ttf"); }
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  src: local("../assets/fonts/Montserrat-Semibold.ttf"); }
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 800;
+  src: local("../assets/fonts/Montserrat-ExtraBold.ttf"); }
 
 /* ------------------ Global Styles ------------ */
 /*change page colors here!*/
@@ -8,25 +24,105 @@
 that are defined in the include below. You can override either of these colors
 further down on the page or in any of the other .SCSS files.
 */
-.arts {
-  background-color: #ed4c09;
+.hiphop.subhead {
   color: #ed4c09; }
 
-.entre {
-  background-color: #e4b83b;
+.hiphop.change-bg {
+  background: url("textures/hiphop.JPG") no-repeat;
+  background-size: cover;
+  color: #ed4c09; }
+
+.hiphop.nav-title:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width .8s ease, background-color .8s ease; }
+
+.hiphop.nav-title:hover:after {
+  width: 100%;
+  background: #ed4c09; }
+
+.dorian.subhead {
   color: #e4b83b; }
 
-.youth {
-  background-color: #79c7ab;
+.dorian.change-bg {
+  background: url("textures/dorian.JPG") no-repeat;
+  background-size: cover;
+  color: #e4b83b; }
+
+.dorian.nav-title:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width .8s ease, background-color .8s ease; }
+
+.dorian.nav-title:hover:after {
+  width: 100%;
+  background: #e4b83b; }
+
+.skate.subhead {
   color: #79c7ab; }
 
-.aging {
-  background-color: #0b8fb9;
+.skate.change-bg {
+  background: url("textures/skate.JPG") no-repeat;
+  background-size: cover;
+  color: #79c7ab; }
+
+.skate.nav-title:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width .8s ease, background-color .8s ease; }
+
+.skate.nav-title:hover:after {
+  width: 100%;
+  background: #79c7ab; }
+
+.family.subhead {
   color: #0b8fb9; }
 
-.harbor {
-  background-color: #bc7a95;
+.family.change-bg {
+  background: url("textures/family.JPG") no-repeat;
+  background-size: cover;
+  color: #0b8fb9; }
+
+.family.nav-title:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width .8s ease, background-color .8s ease; }
+
+.family.nav-title:hover:after {
+  width: 100%;
+  background: #0b8fb9; }
+
+.harbor.subhead {
   color: #bc7a95; }
+
+.harbor.change-bg {
+  background: url("textures/harbor.JPG") no-repeat;
+  background-size: cover;
+  color: #bc7a95; }
+
+.harbor.nav-title:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width .8s ease, background-color .8s ease; }
+
+.harbor.nav-title:hover:after {
+  width: 100%;
+  background: #bc7a95; }
 
 html {
   font-size: .7em; }
@@ -70,33 +166,29 @@ header {
 
 /* ------------------ Navigation ------------------ */
 nav {
+  max-height: 45px;
   background-color: #fff;
   opacity: 0.8;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1em; }
+  font-family: "Roboto", sans-serif;
+  font-size: 1.05em; }
   nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
     width: 100%;
-    text-transform: uppercase; }
+    padding: 0 10vw 0 10vw; }
     nav ul a {
       color: #222;
       position: relative;
-      text-decoration: none; }
-      nav ul a:hover {
-        font-weight: bold; }
-  nav li {
-    display: inline-block; }
-  nav li + li {
-    border-left: 1px solid #000;
-    padding-left: 25px; }
+      text-decoration: none;
+      color: #000;
+      background-color: transparent; }
+  nav #logo-text {
+    height: 45px; }
   nav .logo {
-    display: inline-block;
     height: 45px;
-    margin: 1em 0;
     width: 45px;
-    margin-left: 2em; }
+    margin-left: .5em; }
   nav .wrapper {
     margin: 0 auto;
     max-width: 100%;
@@ -112,19 +204,33 @@ nav {
     margin: 0 5px 0 5px; }
   nav .nav-icons {
     flex-wrap: wrap;
-    margin-left: 30px; }
-  nav .sm-icons {
+    margin: 0 .5em 0 0; }
+  nav .logo-wrapper a {
     display: flex;
-    flex-direction: row; }
-  nav .trans {
-    border: 1px solid #000;
-    padding: 1px 10px 1px 10px;
-    margin: 5px; }
-  nav #eng {
-    border-right: 1px solid #000;
-    padding-right: 15px; }
-  nav #es {
-    padding-left: 15px; }
+    vertical-align: middle; }
+  nav .sm-icons {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    opacity: .8; }
+    nav .sm-icons #nav-line {
+      padding: 0 .2em;
+      height: 50px;
+      border-left: 2px solid #696969; }
+    nav .sm-icons #insta {
+      padding-right: .3em; }
+    nav .sm-icons a {
+      color: #000;
+      text-decoration: none; }
+      nav .sm-icons a:hover {
+        color: #bc7a95;
+        opacity: 1; }
+  nav .trans-wrapper #trans-btn:hover {
+    cursor: pointer; }
+  nav .trans-wrapper hr {
+    width: 13pt;
+    margin: 0; }
 
 #nav-header {
   position: fixed;
@@ -165,6 +271,7 @@ header {
     text-align: center;
     transition: all 1s ease;
     width: 100%;
+    padding: 0 1vw 0 1vw;
     visibility: hidden; }
   nav li {
     color: #696969;
@@ -198,9 +305,9 @@ header {
     height: 35px;
     margin-top: 1em;
     width: 35px; }
-    nav .label-toggle .nav-container {
+    nav .label-toggle #nav-container {
       display: inline-block; }
-      nav .label-toggle .nav-container .bar1, nav .label-toggle .nav-container .bar2, nav .label-toggle .nav-container .bar3 {
+      nav .label-toggle #nav-container .bar1, nav .label-toggle #nav-container .bar2, nav .label-toggle #nav-container .bar3 {
         width: 35px;
         height: 5px;
         margin: 6px 0;

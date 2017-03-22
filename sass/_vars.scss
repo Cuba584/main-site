@@ -1,0 +1,40 @@
+@font-face {
+ font-family: "Montserrat";
+ font-weight: 300;
+ src: local("../assets/fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+   font-family: "Montserrat";
+   font-weight: 400;
+   src: local("../assets/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+   font-family: "Montserrat";
+   font-weight: 700;
+   src: local("../assets/fonts/Montserrat-Semibold.ttf");
+}
+
+@font-face {
+   font-family: "Montserrat";
+   font-weight: 800;
+   src: local("../assets/fonts/Montserrat-ExtraBold.ttf");
+}
+
+
+/* ------------------ Global Styles ------------ */
+$body-color: blue;
+$main-text-color: #000;
+$light-gray: #efefef;
+$dark-gray: #696969;
+$title: #83c4d6;
+$montserrat: 'Montserrat', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
+/*change page colors here!*/
+$red: #ed4c09;
+$yellow: #e4b83b;
+$teal: #79c7ab;
+$blue: #0b8fb9;
+$purple: #bc7a95;

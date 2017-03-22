@@ -1,13 +1,19 @@
 
-  <div id="nav-header">
+  <header id="nav-header">
    <nav class="nav-bar">
 
+     <!-- <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 45"><defs><style>.cls-1{font-size:42.05px;fill:#79c7ab;font-family:Montserrat-ExtraBold, Montserrat;font-weight:700;letter-spacing:-0.05em;}.cls-2,.cls-3{fill:#e4b83b;}.cls-2{letter-spacing:-0.11em;}.cls-4{font-size:37.14px;fill:#0b8fb9;font-family:Montserrat-Regular, Montserrat;letter-spacing:-0.05em;}.cls-5{letter-spacing:-0.04em;}.cls-6{fill:#23a6c4;}</style></defs><title>Artboard 8</title><text class="cls-1" transform="translate(134.36 36.41) scale(0.86 1)">NEW <tspan class="cls-2" x="109.74" y="0">WA</tspan><tspan class="cls-3" x="181.35" y="0">VE</tspan></text><text class="cls-4" transform="translate(10.37 35.64)">C<tspan class="cls-5" x="25.59" y="0">uba s</tspan></text><path class="cls-6" d="M106.87,19.67c4.12-2.8-5.36-13.95-5.36-13.95s2.78,6.26.77,9.86S102.74,22.47,106.87,19.67Z"/></svg> -->
 
      <nav class="wrapper">
-      <a href="/"><img src="/assets/logo.png" alt="Cuba's New Wave logo" class="logo"></a>
+
+      <div class="logo-wrapper">
+        <!-- <a href="/"><img src="/assets/584_logo_plain.png" alt="Cuba's New Wave logo" class="logo"> -->
+        <!-- <img id="logo-text" src="/assets/584_logo.png" /></a> -->
+        <!-- <span id="logo-text">Cuba's New Wave</span> -->
+      </div>
        <input type="checkbox" id="menu-toggle">
         <label for="menu-toggle" class="label-toggle">
-          <div class="nav-container" onclick="myFunction(this)">
+          <div id="nav-container">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
@@ -15,28 +21,40 @@
         </label>
       </input>
 
+
       <ul>
-        <li id="nav-art"><a href="/pages/art">Agency of Rap</a></li> 
-        <li><a href="/pages/entre">Digital Entrepreneurs</a></li>
-        <li><a href="/pages/tourism">Across the Harbor</a></li>
-        <li><a href="/pages/aging">Aging Society</a></li>
-        <li><a href="/pages/skate">Skater Girl</a></li>
+        <li id="nav-art"><a class="hiphop nav-title" href="/pages/hiphop">Agency of Rap</a></li>
+        <li><a class="dorian nav-title" href="/pages/dorian">Digital Entrepreneurs</a></li>
+        <li><a class="harbor nav-title" href="/pages/harbor">Across the Harbor</a></li>
+        <li><a class="family nav-title" href="/pages/family">Aging Society</a></li>
+        <li><a class="skate nav-title" href="/pages/skate">Skater Girl</a></li>
         <li><a href="/about">About</a></li>
       </ul>
        <div class="nav-icons">
          <div class="sm-icons">
-            <i class="fa fa-facebook icons" aria-hidden="true"></i>
-            <i class="fa fa-twitter icons" aria-hidden="true"></i>
-            <i class="fa fa-instagram icons" aria-hidden="true"></i>
+            <a href=""><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
+            <a id="insta" href=""><i class="fa fa-instagram icons" aria-hidden="true"></i></a>
+            <div id="nav-line"></div>
+            <div class="trans-wrapper">
+              <a id="trans-link"><span id="trans-btn">ES</span></a>
+              <!-- <hr>
+              <span>ES</span> -->
+            </div>
           </div>
-          <div class="trans">
-            <span id="eng">EN</span>  <span id="es"> ES </span>
-          </div>
-      </div>
+          <!-- <div class="trans">
+            <span id="eng">EN</span>
+            <span> | </span>
+            <span id="es"> ES </span>
+          </div> -->
 
+
+      </div>
 
     </nav>
   </nav>
-</div>
-<!-- </div> -->
-
+</header>
+<script>
+var transLink = document.getElementById('trans-link');
+transLink.setAttribute("href", currentPage + 'espanol');
+</script>

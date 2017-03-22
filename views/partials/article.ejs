@@ -3,20 +3,23 @@
   <section id="top-fold">
 
     <div class="inner-hero">
-      <img src=' <%=body["hero"]["src"] %> ' alt='
-      <%=body["hero"]["alt"] %> '>
+      <video id="hero-video" muted data-autoplay autoplay>
+
+        <source src="/assets/video/<%=body["cinemagraph"]["src"] %>" type="video/mp4">
+        <!-- <source src="/assets/video/dorian.mp4 %>" type="video/mp4"> -->
+
+      </video>
+      <div class="replay-btn" id="replay-btn">
+        <i class="fa fa-repeat"></i>
+        <span>Replay</span>
+      </div>
+      <div>
     <div class="center-wrapper">
-      <div class="<%= body["master-class"]["class"] %>" id="inner-title-box">
+      <div class="<%= body["master-class"]["class"] %> change-bg" id="inner-title-box">
         <h1><%=body["header"]["text"] %></h1>
         <h3><%=body["header"]["subtitle"] %></h3>
       </div>
     </div>
-    </div>
-
-
-
-    <div class="center-wrapper">
-      <p id="inner-intro"> <%=body["lede"]["text"] %> </p>
     </div>
 
     <div class="byline-box center-wrapper">
@@ -55,15 +58,12 @@
       <h4 class="subhead <%= body["master-class"]["class"] %>"><%=body["text"][i]["value"]["text"] %></h4>
 
     <%} else if (body["text"][i]["type"] == "video") {%>
-        <iframe src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-    <% } else if (body["text"][i]["type"] == "interactive") {%>
-    <p> <%=body["text"][i]["value"]["text"] %>  </p>
+        <!-- <iframe src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
 
     <% } else if (body["text"][i]["type"] == "pullquote") {%>
     </div>
   </section>
-    <div class="pull-quote-box <%= body["master-class"]["class"] %>">
+    <div class="pull-quote-box change-bg <%= body["master-class"]["class"] %>">
 
       <h3 class="pull-quote">
         <hr> <span><%=body["text"][i]["value"]["text"] %></span> </h3>

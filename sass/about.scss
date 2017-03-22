@@ -4,6 +4,15 @@ $light-gray: #efefef;
 $montserrat: 'Montserrat', sans-serif;
 $roboto: 'Roboto', sans-serif;
 
+ul {
+  margin-top: 15px;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: $medium-gray;
+}
+
 .team-nav {
   background-color: $light-gray;
   ul {
@@ -13,7 +22,7 @@ $roboto: 'Roboto', sans-serif;
     list-style: none;
     padding: 15px;
     font-family: $montserrat;
-    margin: 0 10%;
+    margin: 10px 10%;
     li {
       color: $text-gray;
       font-weight: 300;
@@ -32,44 +41,49 @@ $roboto: 'Roboto', sans-serif;
 }
 
 #team-photos {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  p {
-    margin: 0px;
-    font-family: $roboto;
-    text-align: left;
-    line-height: 1.4em;
-  }
-  .role {
-    font-family: $montserrat;
-    font-weight: 300;
-    font-size: .8em;
-  }
-  .team-name {
-    font-weight: 400;
-    font-size: 1em;
-  }
-  a {
-    font-weight: 300;
-    color: #000;
-    font-size: .9em;
-    text-decoration: none;
-    &:hover {
-      color: #ccc;
+//  display: flex;
+//  justify-content: space-around;
+//  flex-wrap: wrap;
+  .team-info {
+    display: block;
+    margin: 0px auto;
+    max-width: 250px;
+    p {
+      margin: 0px;
+      font-family: $roboto;
+      text-align: left;
+      line-height: 1.4em;
+    }
+    .role {
+      font-family: $montserrat;
+      font-weight: 300;
+      font-size: .8em;
+    }
+    .team-name {
+      font-weight: 400;
+      font-size: 1em;
+    }
+    a {
+      font-weight: 300;
+      color: #000;
+      font-size: .9em;
+      text-decoration: none;
+      &:hover {
+        color: #ccc;
+      }
     }
   }
   .bio {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    line-height: 1.5em;
+    vertical-align: middle;
+    width: 255px;
+    height: 170px;
     background: rgba(255, 255, 255, 0.85);
     color: #000;
     visibility: hidden;
     opacity: 0;
-    padding: 15px 10px;
+    padding: 20px 25px;
     font-size: .85em;
     font-family: $roboto;
     -webkit-transition: visibility opacity 0.2s;
@@ -77,23 +91,31 @@ $roboto: 'Roboto', sans-serif;
     text-align: left;
   }
   .team-image-box {
-    position: relative;
-    width: 175px;
-    height: 175px;
-    margin-bottom: 4px;
+    display: block;
+    margin: 0px auto;
+    max-width: 250px;
   }
   .mix {
-    margin: 7px 2.5%;
+  //  margin: 7px 2.5%;
+    position: relative;
+    display: block;
+    margin-bottom: 12px;
+    margin-top: 1.3em;
     &:hover .bio {
       visibility: visible;
       opacity: 1;
+    }
+    img {
+      max-width: 250px;
+      max-height: 225px;
     }
   }
 }
 
 .about-container {
-  margin: 10px 5%;
   text-align: center;
+  max-width: 95%;
+  margin-left: 2.5%;
 }
 
 #about-title {
@@ -102,9 +124,10 @@ $roboto: 'Roboto', sans-serif;
 }
 
 .divider {
-  margin-top: 40px;
   img {
-  width: 110px;
+  width: 150px;
+  margin-bottom: -30px;
+  margin-top: -10px;
   }
   h3 {
     font-family: $montserrat;
@@ -117,9 +140,47 @@ $roboto: 'Roboto', sans-serif;
   background-color: $light-gray;
   color: $medium-gray;
   text-align: center;
-  padding: 10px 0px;
+  padding: 20px 0px;
   margin-top: 40px;
   h3 {
     font-weight: 400;
+  }
+  p {
+    margin-bottom: 0px;
+    text-align: left;
+    padding-left: 5px;
+  }
+}
+//
+// @media screen and (max-width: 992px) {
+//   .mix {
+//     margin-left: 15%;
+//   }
+// }
+//
+// @media screen and (max-width: 575px) {
+//   .mix {
+//     margin-left: 15%;
+//   }
+// }
+
+@media screen and (max-width: 720px) {
+  .team-nav {
+    ul{
+      flex-direction: column;
+      max-height: 80px;
+      padding-left: 7%;
+      margin: 15px 0px 1rem 0px;
+      li {
+        margin-right: 50px;
+      }
+      }
+    .mixitup-control-active {
+      text-decoration: underline;
+    }
+  }
+  .mix {
+    margin-left: auto;
+    margin-right: auto;
   }
 }

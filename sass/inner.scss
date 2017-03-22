@@ -1,15 +1,10 @@
-@import 'main';
-
-.subhead{
-  background-color:white;
-  font-weight:400;
-}
+@import '_vars';
 
 .inner {
 
 /*------standard classes------*/
   .max-width{
-    max-width:800px;
+    max-width:75%;
   }
 
   .center-wrapper{
@@ -32,7 +27,7 @@
 
   .byline-box{
     display:flex;
-
+    margin-top:10pt;
 
     .byline-item p{
       line-height: 0.2em;
@@ -57,10 +52,6 @@
     margin-left:0;
   }
 
-  #inner-image-caption {
-
-  }
-
   figure {
     display: flex;
     justify-content: space-around;
@@ -69,8 +60,8 @@
   }
 
   .pull-quote-box{
-      width:100vw;
-      // background-color: $page-color;
+      // width:100vw;
+      margin: 20pt 0 20pt 15%;
   }
 
   .pull-quote span::before{
@@ -96,6 +87,12 @@
     border-radius: 30px;
     border-style: none;
   }
+
+  .subhead{
+    background-color:white;
+    font-weight:400;
+  }
+
 }
 
 #inner-title-box {
@@ -103,11 +100,79 @@
   text-align: center;
   // background-color: $page-color;
   color: #fff;
-  width:50%;
+  width:60%;
   padding:2em;
-  margin-top:-90px;
+  z-index:5;
+  margin-top:-55px;
   h1, h3{
     margin:0;
   }
 
+}
+
+/*------responsive styles------*/
+  @media screen and (max-width: 800px) { //768px
+    .container {
+      margin-top: 68px;
+    }
+    .inner {
+      .byline-box {
+        margin-top: 15pt;
+        .byline-item p {
+          line-height: 1em;
+        }
+      }
+      .center-wrapper {
+        margin-top: -2%;
+      }
+
+      #inner-intro {
+        max-width: 80%;
+        line-height: 1.5em;
+        margin-top: 30px;
+      }
+
+      .max-width {
+        max-width: 75%;
+      }
+
+      iframe {
+        width: 100%;
+      }
+
+      .pull-quote-box {
+        width: 88vw;
+        //max-width: 100vw;
+      }
+    } // inner
+
+    #inner-title-box {
+      width: 100%;
+      margin-top: 0;
+    }
+
+    h1 {
+    font-size: 2.1em;
+    padding-bottom:.25em;
+    }
+    h3 {
+      font-size: 1.25em;
+    }
+
+} // media query
+
+#cinemagraph{
+  right: 0;
+  bottom: 0;
+  top:0;
+  right:0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-color: black; /* in case the video doesn't fit the whole page*/
+    // background-image: url ('../assets/flowers.mp4');
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover; /*cover video background */
+    z-index:3;
 }

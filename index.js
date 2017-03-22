@@ -1,15 +1,18 @@
+var gulp = require('gulp');
+var sass = require('gulp-sass');
 var express = require('express');
 var app = express();
 var ejs = require('ejs');
 var bodyParser = require('body-parser');
 var archieml = require('archieml');
 var parsed = archieml.load('key: value');
-var sent = require('./parse.js');
 var fs = require('fs');
 
-var pages = [
-    'aging', 'art', 'skate', 'tourism', 'youth', 'entre'
-  ]
+
+gulp.task('connect', function(){
+  var pages = [
+      'aging', 'art', 'skate', 'tourism', 'entre', 'artsespanol', 'agingespanol', 'youthespanol', 'harborespanol', 'entreespanol'
+    ]
 
   app.set('port', (process.env.PORT || 5000));
   app.use(express.static(__dirname + '/public'));
@@ -22,21 +25,47 @@ var pages = [
   });
 
   app.get('/', function(request, response) {
-    response.render('pages/index');
+    response.render('pages/index', {page: 'index'});
+  });
+
+  app.get('/indexespanol', function(request, response) {
+    response.render('pages/indexespanol', {page: 'indexespanol'});
   });
 
   app.get('/about', function(request, response){
-    response.render('pages/about');
+    response.render('pages/about', {page: 'about'});
+  });
+
+  app.get('/aboutespanol', function(request, response){
+    response.render('pages/aboutespanol', {page: 'aboutespanol'});
   });
 
   app.get('/pages/:id', function(req, res){
     console.log(req.params.id);
     var pageName = req.params.id;
     var bodyData = JSON.parse(fs.readFileSync('./data/' + pageName + '.json'));
-    res.render('pages/inner', {body: bodyData});
+    res.render('pages/inner', {body: bodyData, page: '/pages/' + pageName});
 
   });
 
   app.get('*', function(request, response){
-    response.render('pages/404');
+    response.render('pages/404', {page: '404'});
   });
+
+});
+
+gulp.task('sass', function() {
+  console.log("compiling sass...");
+    return gulp.src('./sass/*.scss')
+        .pipe(sass())
+        .pipe(gulp.dest('./public/stylesheets/'));
+
+});
+
+gulp.task('watch', function() {
+    gulp.watch('./sass/*.scss', ['sass']);
+
+});
+
+
+gulp.task('default', ['connect', 'sass', 'watch']);
