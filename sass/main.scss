@@ -58,11 +58,12 @@ html {font-size:.7em;}
 
 body {
   font-size: 1.375em;
+  letter-spacing:.01em;
   background-color: white;
   font-family: $roboto;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.45;
-  color: $dark-gray;
+  color: $main-text-color;
   margin:0;
 }
 

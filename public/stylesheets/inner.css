@@ -4,7 +4,7 @@
   /*------standard classes------*/
   /*------page ids------*/ }
   .inner .max-width {
-    max-width: 75%; }
+    max-width: 65%; }
   .inner .center-wrapper {
     display: flex;
     justify-content: center; }
@@ -17,7 +17,7 @@
     width: 100vw; }
   .inner .byline-box {
     display: flex;
-    margin-top: 10pt; }
+    margin-top: 23pt; }
     .inner .byline-box .byline-item {
       color: #888888;
       text-align: center;
@@ -40,26 +40,27 @@
     margin-bottom: 40px; }
   .inner .pull-quote-box {
     margin: 20pt 0 20pt 15%; }
-  .inner .pull-quote span::before {
-    content: '\201C'; }
-  .inner .pull-quote span::after {
-    content: '\201D'; }
   .inner .pull-quote {
     font-family: "Montserrat", sans-serif;
+    font-size: 1.6em;
+    line-height: 1.5em;
+    font-weight: 400;
     width: 70vw;
     color: white;
-    padding: .8em;
+    padding: 1.8em;
     margin: 0;
     display: inline-block; }
   .inner .pull-quote hr {
     background-color: white;
-    height: 8px;
+    height: 6px;
     margin-right: 725px;
-    border-radius: 30px;
+    margin-top: 0;
     border-style: none; }
   .inner .subhead {
     background-color: white;
-    font-weight: 400; }
+    font-weight: 500;
+    font-size: 1.675em;
+    margin: 1.5em 0 0 0; }
 
 #inner-title-box {
   font-family: "Montserrat", sans-serif;

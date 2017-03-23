@@ -4,7 +4,7 @@
 
 /*------standard classes------*/
   .max-width{
-    max-width:75%;
+    max-width:65%;
   }
 
   .center-wrapper{
@@ -27,7 +27,7 @@
 
   .byline-box{
     display:flex;
-    margin-top:10pt;
+    margin-top:23pt;
 
     .byline-item{
       color:$light-gray;
@@ -63,37 +63,42 @@
   }
 
   .pull-quote-box{
-      // width:100vw;
       margin: 20pt 0 20pt 15%;
   }
 
-  .pull-quote span::before{
-    content: '\201C';
-  }
+  // .pull-quote span::before{
+  //   content: '\201C';
+  // }
+  //
+  // .pull-quote span::after{
+  //   content: '\201D';
+  // }
 
-  .pull-quote span::after{
-    content: '\201D';
-  }
   .pull-quote {
     font-family: $montserrat;
+    font-size:1.6em;
+    line-height:1.5em;
+    font-weight:400;
     width: 70vw;
     color: white;
-    padding:.8em;
+    padding:1.8em;
     margin:0;
     display:inline-block;
   }
 
   .pull-quote hr{
     background-color: white;
-    height: 8px;
+    height: 6px;
     margin-right: 725px;
-    border-radius: 30px;
+    margin-top:0;
     border-style: none;
   }
 
   .subhead{
     background-color:white;
-    font-weight:400;
+    font-weight:500;
+    font-size:1.675em;
+    margin:1.5em 0 0 0;
   }
 
 }
