@@ -9,13 +9,11 @@ module.exports = exports;
 // Edit the file ID for the Google Doc. Be sure it's set to the "Share" preferences to "anyone on the internet"
 //var fileId = '1eXbE48sI_6qaGeU6gCE3gv3Pw1L5xFapiiKRCKxqX0c';
 var fileIds = {
-    "youth": "13wgFJ7EmdLghU9W8U3U_W55osFJfzWdtpITAO2UIfvM",
     "hiphop": "1ieI3nN9jke_bAr7sK9VQAI9NMhWTKivI6ttv3iGBhRQ",
     "harbor": "1hYVU1e8l0vP7U5vGmWJY1k2B7mnjHpQi1qd4gn9xkFE",
     "dorian": "1GVusAF86-rrv6RwSMF_H47xO2eG2tVayfumcj7Q1akM",
     "family": "1RY9sG1oazoFfE9ZGEK9U3zaAmyOJB6mYcc6VDKy7xBA",
-    "skate": "1M1o12fbc33KOhkNJl-Vagimqbm3Diof-cKVbNvZuFi0",
-    "spanish": "1lE5cHOULVtE1Ziw-SQCzblN96eT29Jj9_Nor1rQBgIU"
+    "skate": "1M1o12fbc33KOhkNJl-Vagimqbm3Diof-cKVbNvZuFi0"
 }
 
 module.exports.sendIds = function(){
