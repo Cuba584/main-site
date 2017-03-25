@@ -36,8 +36,17 @@
   .inner figure {
     display: flex;
     justify-content: space-around;
-    margin-top: 25px;
-    margin-bottom: 40px; }
+    margin-left: 0; }
+    .inner figure .inner-image {
+      height: 80vh;
+      width: auto; }
+  .inner figcaption {
+    margin-left: 2vw;
+    line-height: 1.8em; }
+    .inner figcaption .fig-descr {
+      margin-top: 0; }
+    .inner figcaption .fig-attr::before {
+      content: '-'; }
   .inner .pull-quote-box {
     margin: 20pt 0 20pt 15%; }
   .inner .pull-quote {

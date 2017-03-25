@@ -58,8 +58,27 @@
   figure {
     display: flex;
     justify-content: space-around;
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin-left:0;
+
+    .inner-image{
+      height:80vh;
+      width:auto;
+
+    }
+  }
+
+  figcaption{
+    margin-left:2vw;
+    line-height:1.8em;
+    .fig-descr{
+      margin-top:0;
+    }
+    .fig-attr{
+      &::before{
+        content:'-';
+      }
+    }
+
   }
 
   .pull-quote-box{

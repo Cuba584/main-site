@@ -5,12 +5,12 @@ that are defined in the include below. You can override either of these colors
 further down on the page or in any of the other .SCSS files.
 */
 .hiphop.subhead {
-  color: #ed4c09; }
+  color: #F1861B; }
 
 .hiphop.change-bg {
   background: url("textures/hiphop.JPG") no-repeat;
   background-size: cover;
-  color: #ed4c09; }
+  color: #F1861B; }
 
 .hiphop.nav-title:after {
   content: '';
@@ -22,15 +22,15 @@ further down on the page or in any of the other .SCSS files.
 
 .hiphop.nav-title:hover:after {
   width: 100%;
-  background: #ed4c09; }
+  background: #F1861B; }
 
 .dorian.subhead {
-  color: #e4b83b; }
+  color: #9BD5BB; }
 
 .dorian.change-bg {
   background: url("textures/dorian.JPG") no-repeat;
   background-size: cover;
-  color: #e4b83b; }
+  color: #9BD5BB; }
 
 .dorian.nav-title:after {
   content: '';
@@ -42,15 +42,15 @@ further down on the page or in any of the other .SCSS files.
 
 .dorian.nav-title:hover:after {
   width: 100%;
-  background: #e4b83b; }
+  background: #9BD5BB; }
 
 .skate.subhead {
-  color: #79c7ab; }
+  color: #A089CE; }
 
 .skate.change-bg {
   background: url("textures/skate.JPG") no-repeat;
   background-size: cover;
-  color: #79c7ab; }
+  color: #A089CE; }
 
 .skate.nav-title:after {
   content: '';
@@ -62,15 +62,15 @@ further down on the page or in any of the other .SCSS files.
 
 .skate.nav-title:hover:after {
   width: 100%;
-  background: #79c7ab; }
+  background: #A089CE; }
 
 .family.subhead {
-  color: #0b8fb9; }
+  color: #F0BD53; }
 
 .family.change-bg {
   background: url("textures/family.JPG") no-repeat;
   background-size: cover;
-  color: #0b8fb9; }
+  color: #F0BD53; }
 
 .family.nav-title:after {
   content: '';
@@ -82,15 +82,15 @@ further down on the page or in any of the other .SCSS files.
 
 .family.nav-title:hover:after {
   width: 100%;
-  background: #0b8fb9; }
+  background: #F0BD53; }
 
 .harbor.subhead {
-  color: #bc7a95; }
+  color: #6EA5C2; }
 
 .harbor.change-bg {
   background: url("textures/harbor.JPG") no-repeat;
   background-size: cover;
-  color: #bc7a95; }
+  color: #6EA5C2; }
 
 .harbor.nav-title:after {
   content: '';
@@ -102,7 +102,7 @@ further down on the page or in any of the other .SCSS files.
 
 .harbor.nav-title:hover:after {
   width: 100%;
-  background: #bc7a95; }
+  background: #6EA5C2; }
 
 html {
   font-size: .7em; }
@@ -204,7 +204,7 @@ nav {
       color: #000;
       text-decoration: none; }
       nav .sm-icons a:hover {
-        color: #bc7a95;
+        color: #A089CE;
         opacity: 1; }
   nav .trans-wrapper #trans-btn:hover {
     cursor: pointer; }

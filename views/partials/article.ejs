@@ -71,14 +71,21 @@
     <section class="center-wrapper">
       <div class="max-width">
 
-    <% } else if (body["text"][i]["type"] == "story-image") {%>
-      <figure>
-        <img class="inner-image" src=' <%=body["text"][i]["value"]["src"] %> ' alt='
-        <%=body["text"][i]["value"]["alt"] %> '>
-        <figcaption><%=body["text"][i]["value"]["caption"] %></figcaption>
-      </figure>
-    <%} } %>
+    <% } else if (body["text"][i]["type"] == "image") {%>
+    </div>
 
+  </section>
+    <figure>
+      <img class="inner-image" src='assets/images/<%=body["text"][i]["value"]["src"] %> ' alt='
+      <%=body["text"][i]["value"]["alt"] %>'>
+      <figcaption>
+      <p class="fig-descr"><%=body["text"][i]["value"]["caption"] %></p>
+      <p class="fig-attr"><%=body["text"][i]["value"]["attribution"] %></p>
+    </figcaption>
+    </figure>
+      <section class="center-wrapper">
+        <div class="max-width">
+    <%} } %>
   </div>
   </section>
 

@@ -47,11 +47,11 @@ further down on the page or in any of the other .SCSS files.
 }
 
 @include config-page-colors(
-    'hiphop'  $red,
-    'dorian' $yellow,
-    'skate' $teal,
-    'family' $blue,
-    'harbor' $purple
+    'hiphop'  $orange,
+    'dorian' $green,
+    'skate' $purple,
+    'family' $yellow,
+    'harbor' $blue
 );
 
 html {font-size:.7em;}
