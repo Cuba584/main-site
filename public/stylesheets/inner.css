@@ -3,6 +3,9 @@
 .inner {
   /*------standard classes------*/
   /*------page ids------*/ }
+  .inner #cinemagraph {
+    width: 100vw;
+    margin-top: 45px; }
   .inner .max-width {
     max-width: 65%; }
   .inner .center-wrapper {
@@ -114,19 +117,3 @@
     padding-bottom: .25em; }
   h3 {
     font-size: 1.25em; } }
-
-#cinemagraph {
-  right: 0;
-  bottom: 0;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-size: 100% 100%;
-  background-color: black;
-  /* in case the video doesn't fit the whole page*/
-  background-position: center center;
-  background-size: contain;
-  object-fit: cover;
-  /*cover video background */
-  z-index: 3; }

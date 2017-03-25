@@ -148,30 +148,23 @@ header {
 nav {
   max-height: 45px;
   background-color: #fff;
-  opacity: 0.8;
+  opacity: 1;
   font-family: "Roboto", sans-serif;
   font-size: 1.05em; }
   nav ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    width: 100%;
-    padding: 0 10vw 0 10vw; }
+    width: 100%; }
     nav ul a {
       color: #222;
       position: relative;
       text-decoration: none;
       color: #000;
       background-color: transparent; }
-  nav #logo-text {
-    height: 45px; }
-  nav .logo {
-    height: 45px;
-    width: 45px;
-    margin-left: .5em; }
   nav .wrapper {
     margin: 0 auto;
-    max-width: 100%;
+    width: 50vw;
     align-items: center;
     display: flex;
     justify-content: space-between; }
@@ -185,9 +178,15 @@ nav {
   nav .nav-icons {
     flex-wrap: wrap;
     margin: 0 .5em 0 0; }
-  nav .logo-wrapper a {
+  nav .logo-wrapper {
     display: flex;
-    vertical-align: middle; }
+    width: 15vw;
+    max-height: 45px;
+    overflow: hidden; }
+    nav .logo-wrapper #svg-splash {
+      width: 100px; }
+    nav .logo-wrapper #svg-text {
+      width: 200px; }
   nav .sm-icons {
     display: inline-flex;
     flex-direction: row;

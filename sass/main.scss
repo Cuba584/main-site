@@ -109,7 +109,7 @@ nav {
   // margin: 0;
   max-height: 45px;
   background-color: #fff;
-  opacity: 0.8;
+  opacity: 1;
   font-family: $roboto;
   font-size:1.05em;
   ul {
@@ -117,7 +117,7 @@ nav {
   justify-content: space-around;
   list-style-type: none;
   width: 100%;
-  padding: 0 10vw 0 10vw;
+  // padding: 0 20vw;
 
     a {
       color: #222;
@@ -131,20 +131,10 @@ nav {
 
   }
 
-    #logo-text {
-      height: 45px;
-    }
-  // li {
-  //   display: inline-block;
-  // }
-  .logo {
-    height: 45px;
-    width: 45px;
-    margin-left: .5em;
-  }
   .wrapper {
     margin: 0 auto;
-    max-width: 100%;
+    // max-width: 100%;
+    width:50vw;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -166,9 +156,15 @@ nav {
 
   }
   .logo-wrapper {
-    a {
-    display: flex;
-    vertical-align: middle;
+    display:flex;
+    width:15vw;
+    max-height:45px;
+    overflow:hidden;
+    #svg-splash{
+      width:100px;
+    }
+    #svg-text{
+      width:200px;
     }
   }
   .sm-icons {
@@ -195,16 +191,6 @@ nav {
       }
     }
   }
-  // .trans {
-  //   display:flex;
-  //   justify-content: space-around;
-  //   border: 1px solid #000;
-  //   padding: 1px 10px 1px 10px;
-  //   margin: 5px;
-  //   &:hover{
-  //     cursor:pointer;
-  //   }
-  // }
 
   .trans-wrapper{
 
@@ -252,11 +238,6 @@ nav {
 
   /*------------------ RESPONSIVE NAV STYLES ---------*/
   @media screen and (max-width: 768px) {
-    // nav .nav-icon {
-    //   visibility: visible;
-    //   display: inline-block;
-    //   cursor: pointer;
-    // }
     nav .wrapper {
       max-width: 75%;
     }
@@ -273,7 +254,6 @@ nav {
       visibility: hidden;
     }
     nav li {
-      // border-bottom: 2px solid #53354A;
       color: #696969;
       display: block;
       font-size: 1.5em;
