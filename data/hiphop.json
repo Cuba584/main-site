@@ -80,12 +80,6 @@
       "value": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec dapibus mi et rutrum hendrerit. Quisque orci nisl, ornare id eros at, posuere accumsan purus. Donec dignissim magna id tincidunt faucibus. Proin venenatis justo ut metus vehicula sagittis. Nulla facilisi. Nunc hendrerit ornare justo, in imperdiet ligula pharetra quis. Duis mauris velit, rutrum mollis vestibulum ac, maximus sed purus."
     },
     {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/hiphop.ejs"
-      }
-    },
-    {
       "type": "text",
       "value": "Donec pulvinar arcu odio, sodales dignissim neque varius eget. Vivamus pretium risus sit amet ornare efficitur. Nullam ullamcorper turpis quis nisi molestie faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras pharetra eros ut augue convallis cursus. Mauris pharetra dolor quis libero pellentesque finibus. Nunc mollis consectetur enim, eget pellentesque quam tristique non. Maecenas id faucibus enim. Nunc feugiat est vitae vulputate condimentum. Nulla feugiat lectus magna, id dignissim massa elementum at. Phasellus turpis diam, mollis varius commodo sed, efficitur ut orci."
     },

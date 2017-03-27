@@ -33,7 +33,7 @@
   transform: rotateY(180deg); }
 
 .hiphop-panel img {
-  width: 100%; }
+  height: 50vh; }
 
 .hiphop-text {
   transform: rotateY(180deg);
