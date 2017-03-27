@@ -5,7 +5,7 @@
   /*------page ids------*/ }
   .inner #cinemagraph {
     width: 100vw;
-    margin-top: 45px; }
+    margin-top: 95px; }
   .inner .max-width {
     max-width: 65%; }
   .inner .center-wrapper {
@@ -90,7 +90,7 @@
     margin: .5em 0 0 0; }
 
 /*------responsive styles------*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1012px) {
   .container {
     margin-top: 68px; }
   .inner .byline-box {
@@ -117,3 +117,7 @@
     padding-bottom: .25em; }
   h3 {
     font-size: 1.25em; } }
+
+@media screen and (max-width: 570px) {
+  .inner #cinemagraph {
+    margin-top: 0; } }

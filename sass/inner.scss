@@ -1,10 +1,11 @@
 @import '_vars';
+@import '_include-media';
 
 .inner {
 
   #cinemagraph{
     width:100vw;
-    margin-top:45px;
+    margin-top:95px; //needs to be the height of the nav incl padding
     }
 
 
@@ -131,7 +132,6 @@
 #inner-title-box {
   font-family: $montserrat;
   text-align: center;
-  // background-color: $page-color;
   color: #fff;
   width:60%;
   padding:2em;
@@ -149,7 +149,8 @@
 }
 
 /*------responsive styles------*/
-  @media screen and (max-width: 800px) { //768px
+
+@include media("screen", "<=md") {
     .container {
       margin-top: 68px;
     }
@@ -197,4 +198,12 @@
       font-size: 1.25em;
     }
 
-} // media query
+}
+
+@include media("screen", "<=sm"){
+  .inner{
+    #cinemagraph{
+      margin-top:0;
+    }
+  }
+}
