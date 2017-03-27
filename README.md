@@ -51,11 +51,9 @@ You are now set up to run the project locally, and unless you delete this folder
 
 ## Deploying Site Changes
 
-1. Before deploying, merge `master` and `with_assets`, including the most updated video assets for the site.
+1. Pushing to the `master` branch will automatically deploy changes to the site. You can also check progress of the deployment and push other branches to deployment in the Heroku dashboard.
 
-2. Pushing to the `master` branch will automatically deploy changes to the site. You can also check progress of the deployment and push other branches to deployment in the Heroku dashboard.
-
-3. The site is located at [cubayouth.herokuapp.com](cubayouth.herokuapp.com).
+2. The site is located at [cubayouth.herokuapp.com](cubayouth.herokuapp.com).
 
 ## Updating Articles
 
@@ -89,12 +87,29 @@ The .scss files will compile into CSS files with matching names, so to create a 
 
 To compile all the files from the sass/ directory, run:
   `gulp sass`
+
+## Media Queries
+
+We're setting breakpoints in `_include-media.scss` on line 34-40. Global breakpoints will make sure that breakpoints are consistent across the site. If there's a special case where you need to make a manual breakpoint, you can add it to the $breakpoints list. Make a media query like this: 
+
+`  @include media("screen", "<=sm"){
+
+    nav{
+      height:20px;
+      .wrapper{
+        width:90vw;
+
+      }
+    }
+
+  }
+`
+
+More documentation for `_include-media.scss` can be found on [their website](http://include-media.com/).
   
 ## Retrieving site assets
 
-Because we don't want to be pushing assets up to the repo everytime we change some code, the .gitignore for EVERY BRANCH will ignore assets, with the exception of the **with_assets branch**. This branch's .gitignore allows for everything in the assets folder to go through, and will be manually synced with master and deployed when assets need to be updated.
-
-You can get the most recent assets for the site by pulling down from the with_assets branch. If you are updating assets, check out the with_assets branch and update from there.
+Assets are on the master branch. If you need to change assets from the Drive, just push up to master when you're done.
 
 ### Site asset locations and naming conventions
   - **Cinemagraphs** 
