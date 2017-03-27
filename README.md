@@ -92,18 +92,7 @@ To compile all the files from the sass/ directory, run:
 
 We're setting breakpoints in `_include-media.scss` on line 34-40. Global breakpoints will make sure that breakpoints are consistent across the site. If there's a special case where you need to make a manual breakpoint, you can add it to the $breakpoints list. Make a media query like this: 
 
-`  @include media("screen", "<=sm"){
-
-    nav{
-      height:20px;
-      .wrapper{
-        width:90vw;
-
-      }
-    }
-
-  }
-`
+` @include media("screen", "<=sm"){} `
 
 More documentation for `_include-media.scss` can be found on [their website](http://include-media.com/).
   
