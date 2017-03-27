@@ -8,7 +8,7 @@
   },
   "header": {
     "text": "Dorian Cuts New Path",
-    "subtitle": "Donde Dorian gets creative with new hairstyles for a new generation"
+    "subtitle": "Creative new hairstyles for a new generation"
   },
   "reporters": [
     {
@@ -17,7 +17,7 @@
   ],
   "videographers": [
     {
-      "name": "Ben Aijan"
+      "name": "Ben Aijian"
     },
     {
       "name": "Darian Woehr"
@@ -73,6 +73,15 @@
     {
       "type": "text",
       "value": "Suspendisse potenti. Quisque luctus faucibus dolor quis egestas. Integer fermentum arcu nulla, id finibus diam molestie condimentum. Aenean ullamcorper ultrices tellus quis vulputate. Proin dictum sem nisi, id iaculis mauris vehicula vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero arcu, bibendum ac arcu non, tincidunt ullamcorper leo."
+    },
+    {
+      "type": "image",
+      "value": {
+        "src": "example1.jpg",
+        "alt": "A picture of Juan and Gabriella in the skate competition.",
+        "attribution": "Claire Collins",
+        "caption": "Juan and Gabriella take turns skating down a ramp on a sunny Havana day."
+      }
     },
     {
       "type": "text",

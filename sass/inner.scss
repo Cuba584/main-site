@@ -1,6 +1,13 @@
 @import '_vars';
+@import '_include-media';
 
 .inner {
+
+  #cinemagraph{
+    width:100vw;
+    margin-top:95px; //needs to be the height of the nav incl padding
+    }
+
 
 /*------standard classes------*/
   .max-width{
@@ -58,8 +65,27 @@
   figure {
     display: flex;
     justify-content: space-around;
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin-left:0;
+
+    .inner-image{
+      height:80vh;
+      width:auto;
+
+    }
+  }
+
+  figcaption{
+    margin-left:2vw;
+    line-height:1.8em;
+    .fig-descr{
+      margin-top:0;
+    }
+    .fig-attr{
+      &::before{
+        content:'-';
+      }
+    }
+
   }
 
   .pull-quote-box{
@@ -106,7 +132,6 @@
 #inner-title-box {
   font-family: $montserrat;
   text-align: center;
-  // background-color: $page-color;
   color: #fff;
   width:60%;
   padding:2em;
@@ -124,7 +149,8 @@
 }
 
 /*------responsive styles------*/
-  @media screen and (max-width: 800px) { //768px
+
+@include media("screen", "<=md") {
     .container {
       margin-top: 68px;
     }
@@ -172,20 +198,12 @@
       font-size: 1.25em;
     }
 
-} // media query
+}
 
-#cinemagraph{
-  right: 0;
-  bottom: 0;
-  top:0;
-  right:0;
-  width: 100%;
-  height: 100%;
-  background-size: 100% 100%;
-  background-color: black; /* in case the video doesn't fit the whole page*/
-    // background-image: url ('../assets/flowers.mp4');
-    background-position: center center;
-    background-size: contain;
-    object-fit: cover; /*cover video background */
-    z-index:3;
+@include media("screen", "<=sm"){
+  .inner{
+    #cinemagraph{
+      margin-top:0;
+    }
+  }
 }
