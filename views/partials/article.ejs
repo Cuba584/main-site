@@ -2,13 +2,11 @@
 
   <section id="top-fold">
 
-    <div class="inner-hero">
-      <video id="cinemagraph" data-autoplay autoplay muted playsinline>
 
-        <source src="/assets/video/<%=body["cinemagraph"]["src"] %>" type="video/mp4">
-        <!-- <source src="/assets/video/dorian.mp4 %>" type="video/mp4"> -->
+        <video id="cinemagraph" data-autoplay autoplay muted playsinline>
+          <source src="/assets/video/<%=body["cinemagraph"]["src"] %>" type="video/mp4">
+        </video>
 
-      </video>
       <div class="replay-btn" id="replay-btn">
         <i class="fa fa-repeat"></i>
         <span>Replay</span>
@@ -58,7 +56,9 @@
       <h4 class="subhead <%= body["master-class"]["class"] %>"><%=body["text"][i]["value"]["text"] %></h4>
 
     <%} else if (body["text"][i]["type"] == "video") {%>
-        <!-- <iframe src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+      <div class="vimeo-wrapper">
+        <iframe src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
 
     <% } else if (body["text"][i]["type"] == "pullquote") {%>
     </div>
@@ -88,5 +88,3 @@
     <%} } %>
   </div>
   </section>
-
-</div>

@@ -101,25 +101,45 @@ header {
   @include header-footer;
 }
 
-
-
 /* ------------------ Navigation ------------------ */
+
+header{
+  -webkit-box-shadow: 0 -11px 36px 10px rgba(0,0,0, .3);
+  box-shadow: 0 -11px 36px 10px rgba(0,0,0, .3);
+  position:fixed;
+  left:0;
+  margin:0;
+  padding:0;
+  width:100%;
+  z-index:9;
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition:all 0.3s linear;
+
+}
 
 
 nav {
-  height: 80px;
+  height: $nav-height;
   background-color: #fff;
   opacity: 1;
-  font-family: $roboto;
-  font-size:1.05em;
-  padding-bottom:15px;
+  font-family: $montserrat;
+  font-size:.95em;
+  letter-spacing: .03em;
+  padding-bottom:5px;
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+
+
   ul {
+  text-transform: uppercase;
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  width: 100%;
+  width: 900px;
   padding: 0;
-  margin:40px 0 0 0;
+  margin:45px 0 15px 0;
 
     a {
       color: #222;
@@ -135,7 +155,7 @@ nav {
 
   .wrapper {
     margin: 0 auto;
-    width:1200px;
+    width:100%;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -153,15 +173,14 @@ nav {
   }
   .nav-icons {
     flex-wrap: wrap;
-    margin:35px .5em 0 0;
+    margin:39px .5em 15px 0;
 
   }
   .logo-wrapper {
-    display:flex;
-    overflow:hidden;
+    margin-left:20px;
     #svg-logo{
       // height:inherit;
-      width:300px;
+      width:222px;
     }
     // #svg-splash{
     //   width:100px;
@@ -178,23 +197,39 @@ nav {
     opacity:.8;
     #insta {
       padding-right: .3em;
+      &:hover{
+        color:$instagram;
+      }
     }
+    #fb{
+      &:hover{
+        color:$facebook;
+      }
+    }
+    #twit{
+      &:hover{
+        color:$twitter;
+      }
+    }
+    #nav-line {
+     margin:0 0.6em 0 0.5em;
+     height:30px;
+     border-left: 1.5px solid $dark-gray;
+   }
     a{
       color:$main-text-color;
       text-decoration:none;
-      &:hover{
-        color:$purple;
-        opacity:1;
-      }
     }
   }
 
   .trans-wrapper{
+    margin-right:20px;
 
     #trans-btn{
 
       &:hover{
         cursor:pointer;
+        font-weight:600;
       }
     }
 
@@ -206,26 +241,6 @@ nav {
 
 }
 
- #nav-header{
-   position: fixed;
-   left: 0;
-   margin: 0;
-   padding: 0;
-   width: 100%;
-   height: 80px;
-   z-index:9;
- 	}
-  header {
-      position: fixed;
-      left: 0;
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 80px;
-      transition: all 0.3s linear;
-      -moz-transition: all 0.3s linear;
-      -webkit-transition: all 0.3s linear;
-  }
   .default {
       top: 0;
   }
@@ -235,20 +250,52 @@ nav {
 
   /*------------------ RESPONSIVE NAV STYLES ---------*/
 
+  @include media("screen", ">=xl"){
+    nav{
+      // padding-bottom:15px;
+      ul{
+        width:1230px;
+      }
+    }
+  }
+
     @include media("screen", "<=lg"){
       nav {
+
+        .logo-wrapper{
+          #svg-logo{
+            width:120px;
+          }
+        }
 
         ul{
           font-size:.9em;
           padding:0 20px;
         }
-        .wrapper{
-          width:1000px;
+        nav{
+          ul{
+            width:100%;
+          }
+
+          .nav-icons{
+            margin:39px 0 15px 0;
+          }
+        }
+      }
+    }
+
+    @include media('screen', "<=nav-mid"){
+      nav{
+        ul{
+          font-size:.8em;
         }
       }
     }
 
   @include media("screen", "<=md"){
+    header{
+    -webkit-box-shadow: none;
+    box-shadow: none;}
     .logo-wrapper{
       justify-content: center;
 
@@ -303,16 +350,40 @@ nav {
       }
     }
 
-  }
-
-  @include media("screen", "<=sm"){
-
     nav{
       height:20px;
       .wrapper{
         width:90vw;
 
       }
+      .logo-wrapper{
+        #svg-logo{
+          width:300px;
+        }
+      }
     }
+
+  }
+
+  @include media("screen", "<=sm"){
+
+
+    nav{
+      height:20px;
+
+      .wrapper{
+        width:90vw;
+
+      }
+
+      .logo-wrapper{
+        #svg-logo{
+          width:222px;
+        }
+      }
+
+    }
+
+
 
   }

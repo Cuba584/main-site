@@ -1,28 +1,3 @@
-// @font-face {
-//  font-family: "Montserrat";
-//  font-weight: 300;
-//  src: local("../assets/fonts/Montserrat-Light.ttf");
-// }
-//
-// @font-face {
-//    font-family: "Montserrat";
-//    font-weight: 400;
-//    src: local("../assets/fonts/Montserrat-Regular.ttf");
-// }
-//
-// @font-face {
-//    font-family: "Montserrat";
-//    font-weight: 700;
-//    src: local("../assets/fonts/Montserrat-Semibold.ttf");
-// }
-//
-// @font-face {
-//    font-family: "Montserrat";
-//    font-weight: 800;
-//    src: local("../assets/fonts/Montserrat-ExtraBold.ttf");
-// }
-
-
 /* ------------------ Global Styles ------------ */
 $body-color: blue;
 $main-text-color: #000;
@@ -39,3 +14,11 @@ $yellow: #F0BD53;
 $blue: #6EA5C2;
 $green: #9BD5BB;
 $purple: #A089CE;
+
+$twitter: #00aced;
+$facebook: #3b5998;
+$instagram: #bc2a8d;
+
+
+$nav-height: 70px; //excludes padding
+$nav-margs: 95px; //includes padding

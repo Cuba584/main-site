@@ -3,12 +3,6 @@
 
 .inner {
 
-  #cinemagraph{
-    width:100vw;
-    margin-top:95px; //needs to be the height of the nav incl padding
-    }
-
-
 /*------standard classes------*/
   .max-width{
     max-width:65%;
@@ -26,10 +20,6 @@
     text-align:center;
     max-width:40%;
     font-weight:300;
-  }
-
-  .inner-hero img {
-    width:100vw;
   }
 
   .byline-box{
@@ -92,14 +82,6 @@
       margin: 20pt 0 20pt 15%;
   }
 
-  // .pull-quote span::before{
-  //   content: '\201C';
-  // }
-  //
-  // .pull-quote span::after{
-  //   content: '\201D';
-  // }
-
   .pull-quote {
     font-family: $montserrat;
     font-size:1.6em;
@@ -146,6 +128,33 @@
     margin:.5em 0 0 0;
   }
 
+}
+
+.vimeo-wrapper{
+    background-color: #000;
+    width: 100%;
+    padding-bottom: 56.25%;
+    position: relative;
+    margin:20vh 0;
+iframe {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+}
+
+#cinemagraph{
+  width:100vw
+}
+
+.about-cinema-wrapper{
+  display:flex;
+  justify-content:center;
+  video{
+    margin-top:$nav-height;
+  }
 }
 
 /*------responsive styles------*/
