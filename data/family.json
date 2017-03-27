@@ -3,12 +3,12 @@
     "class": "family"
   },
   "cinemagraph": {
-    "src": "aging.mp4",
-    "alt": "Aging Society Cinemagraph"
+    "src": "family.mp4",
+    "attribution": "Natalie Roush"
   },
   "header": {
     "text": "A New Understanding",
-    "subtitle": "Cuba’s aging society gives way to youth who are shaping the future"
+    "subtitle": "The elderly give way to youth who are shaping the future"
   },
   "reporters": [
     {
@@ -31,7 +31,11 @@
   "text": [
     {
       "type": "text",
-      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum nibh imperdiet dolor maximus tempor. Morbi at dui et sem semper rhoncus eget vel ex. Nulla ante mi, maximus quis risus ut, egestas gravida lacus. Donec ornare finibus lectus gravida egestas. Cras lobortis ultricies massa, id luctus risus semper vitae. Suspendisse sodales mauris sed ex malesuada porta. Praesent a commodo mi, ut convallis lacus. Vivamus rhoncus velit vel arcu efficitur, id blandit libero dictum. Etiam vitae velit turpis. Nunc quis imperdiet erat. Nulla sodales eros at erat lacinia eleifend. Aliquam erat volutpat. Maecenas enim lectus, facilisis ac suscipit a, dictum nec dui. Sed in lectus aliquet, tristique sem id, convallis neque."
+      "value": "Click."
+    },
+    {
+      "type": "text",
+      "value": "Diego Delgado is a whisper away from his grandmother’s shoulder, his left eye buried into the viewfinder, but Coralia Ortiz doesn’t hear his camera. The 25-year-old photographer doesn’t have the best lighting to work with as he steps silently around Coralia, but he’s inspired. There’s something about that intense look on her face, the way the thin lines of her brown eyebrows subtly arch upward and her lower lip hangs open in contemplation, how the world seems to disappear when she picks up a needle and thread. She creates all kinds of crafts, but her favorite to make is the brujita, a little witch that will hang from a loop of thread. Where? That’s up to the recipient of Coralia’s gift. For now, she burrows her eyes into each stitch — every snip of scissors as meticulous as the last. The kind of finesse that only comes from years of practice. Coralia’s diabetes and other health issues force her to spend most of her time inside, but in moments like this, she falls into a trance. Her escape. Diego can’t help but capture it."
     },
     {
       "type": "video",
@@ -41,7 +45,23 @@
     },
     {
       "type": "text",
-      "value": "Donec gravida vestibulum nisl ut ullamcorper. Donec efficitur efficitur feugiat. Pellentesque eu turpis sit amet lectus interdum scelerisque. Nam a mi non ante auctor molestie. Duis ut faucibus ligula, sed viverra magna. Duis id lacus posuere, hendrerit magna vitae, fringilla lectus. Sed pulvinar suscipit convallis."
+      "value": "But pictures? Of her sewing? Coralia doesn’t believe it. Surely, she’d be able to hear her grandson pacing around her, brushing his legs against the lace bedspread she sewed with the watchful eyes of a hanging duck she made staring down at him. You can hear the faint bustle of the street outside, but Coralia’s room is about as quiet as you’ll find in Havana — too quiet for the shutter of a camera to go unnoticed."
+    },
+    {
+      "type": "text",
+      "value": "That’s what fascinates Diego.  Tall and lean with long eyelashes that frame his deep brown eyes, he exudes energy. Between taking pictures for El Arca, an animal magazine he works for, freelancing photography, playing soccer with his friends and caring for Ortiz, Diego can’t spend too much time on one task. And how could he? He loves action; he craves it. So he admires that Ortiz can be still for so long, consumed by her craft, that apartment walls and ailing health cannot confine her creative spirit — that her passion is so captivating, she doesn’t realize her rapture has become the focus of her grandson’s art."
+    },
+    {
+      "type": "text",
+      "value": "Diego has lived permanently with Coralia in the three-room apartment in Havana’s Plaza municipality since he was 20 years old, but he spent chunks of his childhood with her as well — six months to two years at a time — as work forced Diego’s mother, Adriana, to live further outside the city. Coralia practically raised him, he says. But now that Coralia’s diabetes requires her to have someone take care of her, Diego has absorbed greater responsibility."
+    },
+    {
+      "type": "text",
+      "value": "As the aging population in Cuba continues to rise, more and more young people will need to care for the older generation, as Diego looks after Coralia.  But look closer. Fidel Castro’s death on Nov. 25 might have marked a handoff in leadership from the older generation to the youth. Or maybe it didn’t. Maybe it signaled something else — a relationship that’s changing. Something less about who is leading and more about where they’re going."
+    },
+    {
+      "type": "text",
+      "value": "Something symbiotic."
     },
     {
       "type": "subhead",
@@ -51,7 +71,19 @@
     },
     {
       "type": "text",
-      "value": "Etiam condimentum porta quam ut luctus. Vestibulum condimentum, libero et efficitur faucibus, lacus erat luctus elit, a commodo turpis tellus nec odio. Cras at dui est. Pellentesque eget orci tortor. Aliquam sagittis augue vitae mi imperdiet, sit amet eleifend nisl egestas. Duis elementum porttitor enim ornare pretium. Suspendisse aliquam elit vel libero ultricies efficitur. Nam non vestibulum felis. Sed cursus nec justo sit amet eleifend. Etiam placerat, lectus ut semper sodales, risus diam mollis mi, accumsan sodales arcu lacus id nulla. Integer erat ante, dapibus a risus volutpat, vestibulum pulvinar orci. Vivamus condimentum cursus malesuada. Sed justo sem, aliquam sit amet tincidunt porttitor, posuere in justo. Nam consequat ipsum in lacinia aliquet. Nulla est neque, aliquet et laoreet consectetur, imperdiet a nisi."
+      "value": "This isn’t Diego’s position."
+    },
+    {
+      "type": "text",
+      "value": "He is the cornerstone of his soccer team’s back line. Of the five players that take to the futsal court — covered with skid marks from years of similar battles — he’s the one who’s supposed to hug the goalie’s side."
+    },
+    {
+      "type": "text",
+      "value": "But it’s too late to think about that now. He’s already streaking down the court toward the offensive end after stealing the ball. His eyes flash from side to side to search for the assist, but nobody’s open. He keeps it and presses forward. Then he fires the ball at the net; it pings off the turquoise wall for a goal, and the celebration ensues. Diego smacks high fives like he’s slapping the surface of a lake, and cries of delight bounce off the white stadium ceiling. The defender has become the playmaker."
+    },
+    {
+      "type": "text",
+      "value": "Diego ducks away from the spotlight as quickly as he entered it. He resumes his original role as the foundation to his team’s formation — interrupting opposing passes with a flick of his foot and containing his frustration at errors to dole out words of encouragement."
     },
     {
       "type": "pullquote",
@@ -62,43 +94,183 @@
     },
     {
       "type": "text",
-      "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
+      "value": "Scorer and defender, competitor and captain, energizer and caregiver — Diego is used to juggling. He doesn’t have a normal day. He gave up routine for the sake of chasing moments with his lens."
     },
     {
       "type": "text",
-      "value": "Suspendisse potenti. Quisque luctus faucibus dolor quis egestas. Integer fermentum arcu nulla, id finibus diam molestie condimentum. Aenean ullamcorper ultrices tellus quis vulputate. Proin dictum sem nisi, id iaculis mauris vehicula vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero arcu, bibendum ac arcu non, tincidunt ullamcorper leo."
+      "value": "Diego tried stability. After finishing secondary school when he was 15, the lifelong animal lover started studying to become a veterinarian, then took photography classes while working in a restaurant. But the lifestyle didn’t satiate his spirit."
     },
     {
-      "type": "image",
+      "type": "text",
+      "value": "“I was going to spend my whole life working in a kitchen,” Diego said, “and I didn’t want that for myself.”"
+    },
+    {
+      "type": "text",
+      "value": "Diego was 4 years old when he took his first picture, and the passion was a natural fit. While his friends took notice to his talent, they discouraged him from turning to photography for a career — too unpredictable."
+    },
+    {
+      "type": "text",
+      "value": "Not his family. Diego’s father and grandfather both took an interest to the art as a hobby, and the rest of his relatives supported his endeavor, so Diego started photographing professionally when he was 21. Since then, Diego has accumulated a plethora of frozen scenes; some animate the walls of his room. A black-and-white picture of a cinderblock with the tower in the Plaza Nacional blurred in the background occupies the left wall. A pair of a woman’s legs crisscrossed in the air sporting black pointed shoes is wedged into the bottom corner of his mirror. But perhaps the most telling piece of obscured wall is not something Diego captured, but the blue and yellow sign wedged by the door that seems to capture him: A philosophy that passes his gaze every time he leaves his room."
+    },
+    {
+      "type": "text",
+      "value": "Pénsate que lo habías visto todo en cuestión de reguerdo?"
+    },
+    {
+      "type": "text",
+      "value": "Adelante."
+    },
+    {
+      "type": "subhead",
       "value": {
-        "src": "https://img.holidayplace.co.uk/gallery/content/113015/responsive/01-700.jpg",
-        "alt": "Tourism",
-        "caption": "Morbi et accumsan ex. Mauris ac elit blandit mi sollicitudin interdum sit amet non mi. Pellentesque nunc lectus, laoreet at auctor at, scelerisque ut odio."
+        "text": "A broken down ferry"
       }
     },
     {
       "type": "text",
-      "value": "Quisque ultrices, arcu sed lobortis ullamcorper, purus ex egestas justo, at faucibus orci diam et quam. Nullam volutpat ullamcorper arcu eu imperdiet. Maecenas euismod libero eget pharetra pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra neque ut magna semper, id dictum eros consequat. Nullam mollis neque ac odio pellentesque sagittis. Proin ornare nunc sed velit lobortis, ut convallis sapien efficitur. Donec elementum felis ut ligula convallis, vel faucibus arcu tempor. Aenean mollis id ante sed ornare. Mauris non porta magna, eu lacinia mauris. Nulla facilisi."
+      "value": "Sometimes, Coralia wears her age. Or maybe age wears her. She’ll shuffle around the apartment — “my little cave,” she says — gripping the countertop or a nearby chair for support. There’s a box of medicines on the kitchen counter for her diabetes and a pitcher of juice in the fridge for when her blood sugar drops. Aside from morning walks and the occasional event with Diego, her aching joints leave her tethered to the apartment."
     },
     {
       "type": "text",
-      "value": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec dapibus mi et rutrum hendrerit. Quisque orci nisl, ornare id eros at, posuere accumsan purus. Donec dignissim magna id tincidunt faucibus. Proin venenatis justo ut metus vehicula sagittis. Nulla facilisi. Nunc hendrerit ornare justo, in imperdiet ligula pharetra quis. Duis mauris velit, rutrum mollis vestibulum ac, maximus sed purus."
+      "value": "But now? She is air."
     },
     {
       "type": "text",
-      "value": "Donec pulvinar arcu odio, sodales dignissim neque varius eget. Vivamus pretium risus sit amet ornare efficitur. Nullam ullamcorper turpis quis nisi molestie faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras pharetra eros ut augue convallis cursus. Mauris pharetra dolor quis libero pellentesque finibus. Nunc mollis consectetur enim, eget pellentesque quam tristique non. Maecenas id faucibus enim. Nunc feugiat est vitae vulputate condimentum. Nulla feugiat lectus magna, id dignissim massa elementum at. Phasellus turpis diam, mollis varius commodo sed, efficitur ut orci."
+      "value": "The dark fabric of her skirt swishes as Coralia sways to the beat of music that faintly pulses through the television. Her round, friendly face radiates a smile, her feet tapping back and forth as she slides her arms and loosely clenched fists to the rhythm."
     },
     {
       "type": "text",
-      "value": "Nam scelerisque massa ut dolor maximus consectetur. Quisque maximus in turpis eu condimentum. Donec eget laoreet augue, et ullamcorper enim. Mauris eu elit at justo mattis mattis eu at mauris. Praesent cursus fringilla quam eu hendrerit. Vestibulum vel enim vel tellus vehicula faucibus et eget leo. Nullam facilisis ante sed diam pulvinar, at hendrerit augue viverra. Curabitur in orci aliquam, imperdiet tortor et, fringilla lectus. Morbi dapibus in mauris non fringilla. Morbi urna urna, tempus eu lacinia at, tempus et nisl. Fusce in ex elementum, eleifend magna quis, ultrices neque. Suspendisse imperdiet at sapien sagittis gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam viverra consectetur tortor, vitae tempus mauris volutpat et. Nunc auctor magna a nisl vulputate, vitae consequat justo euismod. Donec hendrerit lorem id volutpat euismod."
+      "value": "Salsa is just one facet of Coralia’s interests. Dance, music, theater, architecture and of course, literature, especially novels. She devours all of it. Anything artistic, anything with a story."
     },
     {
       "type": "text",
-      "value": "Ut vehicula tortor id leo mattis, tincidunt pharetra lacus dapibus. Aliquam quis sem metus. Nulla volutpat dignissim ex nec tempor. Nulla facilisi. Integer congue aliquet mi in sollicitudin. Vestibulum ut sem tempus, luctus arcu at, faucibus mi. Nam in quam tortor. Ut euismod ornare maximus. Aenean finibus, neque sit amet ullamcorper tempor, ipsum magna dictum orci, sit amet rhoncus augue dolor eget ligula. Cras sem tellus, egestas sit amet risus dictum, sagittis feugiat massa. Aenean efficitur justo eu mauris facilisis, non mollis quam euismod. Vivamus vitae fermentum arcu. Praesent sagittis efficitur neque, ultrices facilisis nibh feugiat non. Vestibulum sed arcu ut velit ullamcorper pulvinar."
+      "value": "Unlike Diego, Coralia had to fight her family to pursue her passions. Her father wanted her to be an accountant, but Coralia’s soul didn’t fit that mold. She’s fascinated by philosophy, she consumes stories like they’re cake and relishes grammar. So she started University studying philosophy and literature, but had to take three years off from school after her first year, because the university closed during the Revolution. When University opened again, Coralia got a scholarship that sent her to the United States spend a year at UNC-Chapel Hill, where she drank her first screwdriver."
     },
     {
       "type": "text",
-      "value": "Vestibulum dapibus gravida interdum. Etiam convallis feugiat urna, vel fermentum libero vestibulum quis. Sed quam ipsum, dapibus at suscipit eget, placerat eu lorem. Nunc vulputate enim eros, ut consequat diam scelerisque non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ornare dolor vel ante sodales bibendum at sed dolor. Vestibulum at purus euismod, suscipit lorem eleifend, varius massa. Nullam vel vestibulum turpis, ut pulvinar lorem."
+      "value": "Coralia started teaching literature right after she graduated from University in 1963; she didn’t stop until retirement 35 years later. She met her husband at an architecture conference because they were both translators — him for English, her for Hungarian. They got married a year later and had two daughters; the older one is Adriana, Diego’s mother."
+    },
+    {
+      "type": "text",
+      "value": "She keeps the box of pictures from her past in Diego’s room. When she places her treasure on the table, she lifts the lid with fraying brown and white patches to reveal a bag of photographs over the main relic — a tan scrapbook with yellow pages and words in pencil to describe the pictures attached. All those faces in the book, she will give them gifts in the form of her sewing."
+    },
+    {
+      "type": "text",
+      "value": "But the pictures are hers."
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "A broken down ferry"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Diego’s quads are burning."
+    },
+    {
+      "type": "text",
+      "value": "The sun beats down on his brow while the hill he’s ascending pounds his legs. The longer Diego is outside, pedaling his bike down the streets of Havana, the more he can feel the heat burrowing into his skin. Playing soccer is tiring in these temperatures, but Diego doesn’t even have the leaf-shaped roof of the futsal stadium for relief — just his water bottle strapped to a bar under the seat."
+    },
+    {
+      "type": "text",
+      "value": "It’s the end of the month, which means he needs to refill Coralia’s medicine, a collection of different-sized pills she takes three times a day. It’s far, though — too far for Coralia to make the trip. So each month, Diego plans ahead, scheduling work around the hours-long errand."
+    },
+    {
+      "type": "text",
+      "value": "But when asked about the length of the trip, the hills, the sting of the Havana sun, Diego shrugs it off. Biking isn’t so bad, he says; waiting in line is the worst part. 20 minutes of standing still with nothing to do but stare at the ceiling, his toes and then at his black watch — the second hand revolving ceaselessly."
+    },
+    {
+      "type": "text",
+      "value": "Diego’s youthful restlessness is growing more unique in Cuba. With a median age of 41.1 years old, XX percent of the population is over 60 years old; that number is expected to jump to 36 percent by 2050. The Plaza municipality — where Diego and Coralia live — is the oldest region of Havana."
+    },
+    {
+      "type": "text",
+      "value": "Cuba raised its retirement age to 65 for men and 60 for women in 2009, but with an average life expectancy of 78.7 years, that leaves a sizable portion of the population outside of the workforce. A shortage of retirement homes means more responsibility falls on younger family members, so in Havana, it’s common that families live together."
+    },
+    {
+      "type": "text",
+      "value": "But part of that ties to housing. Homes are expensive compared to the city’s median income, and as young people struggle to find a job in the city that aligns with their education level, staying in the family home makes life easier. Still, while almost everyone Coralia knows lives with someone younger, her situation is atypical."
+    },
+    {
+      "type": "text",
+      "value": "“There are very few grandparents who live alone,” Coralia said. “There are even fewer who have a grandchild that lives alone with their grandparent.”"
+    },
+    {
+      "type": "text",
+      "value": "When Diego was 20, Coralia’s doctor told her she needed someone to live with her because of her diabetes, but Adriana just bought a house in another town, and Diego’s brother was only 12; someone had to raise him at home. Adriana presented Diego with a choice. Care for Coralia? Or his brother? For Diego, it was a no-brainer. Being in charge of a growing boy was too much responsibility for someone who was just entering adulthood. And there was something about Coralia — a connection they shared from all the time spent together when Diego was a kid. It’s a different relationship now. He’s still the grandson, but different from the boy who stopped on the sidewalk to listen to his grandmother’s lectures on architecture. Diego does the cleaning that is too straining for Coralia. He runs errands and monitors her medical visits."
+    },
+    {
+      "type": "text",
+      "value": "“He helps me a lot with things at home because I can’t,” Coralia said. “He’s my right hand.”"
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "A broken down ferry"
+      }
+    },
+    {
+      "type": "text",
+      "value": "“Look,” Coralia says, “I will show you how to make a witch.”"
+    },
+    {
+      "type": "text",
+      "value": "She sifts through a collection of wires and settles on a white one — hard enough to stay in place when bent, but soft enough that she can still cut it. One piece for the arms, one for the legs. She slides both inside black shoelaces and ties them together. Once she adds the head — a piece of a tan stocking stuffed with cotton, she gives the brujita a name."
+    },
+    {
+      "type": "text",
+      "value": "“Luna,” she says. “Moon.”"
+    },
+    {
+      "type": "text",
+      "value": "When Coralia is through, all Luna needs is a hat, a broom and a face, but the witch must wait. Diego will be back from the gym soon, and he’ll need dinner. “He’s always hungry,” she says. A collection of pots sits on the stove in preparation. She fills one with water and rice, then places another pan on the counter and carves slices of dessert for her guests — bread pudding."
+    },
+    {
+      "type": "text",
+      "value": "Coralia picks a few bites off of the knife as she puts the pot away, but that’s all she’ll eat. Diabetes bars her from enjoying her treats, but she still makes the delicacies for Diego. How could she not? It’s his favorite part of her cooking. You don’t need to eat her bread pudding to know its tender, vanilla-flavored sweetness is one of the best foods you’ll find in Havana. Just look at the way the corners of Diego’s eyes crinkle when he mentions Coralia’s dulces."
+    },
+    {
+      "type": "text",
+      "value": "That same smile stretches across Diego’s face now, as he sits in a wicker chair at the kitchen table and says how he seeks Coralia’s opinion on clothing before leaving the house. “She always tells me that it’s cold,” he says, “that I need a jacket.” He pauses and stares at the window, where one of Coralia’s red-headed brujitas dangles on a string. Then he snaps his head back and continues listing. If he’s sending an important email, he seeks a review from his grandmother, the grammar aficionado. When he wants perspective from someone unfamiliar with photography, he consults Coralia. Daily tasks don’t slip through the cracks with his on-the-move lifestyle, because Coralia will bring the clothes on the line inside if it rains, and she’ll take a message on the phone if Diego’s away."
+    },
+    {
+      "type": "text",
+      "value": "Cuban society is changing with Diego’s generation at the helm. When Diego takes a woman on a date, she doesn’t need a parent to chaperone and sit between the two in the movie theater like Coralia did when she was young. Female university students don’t have to worry like Coralia did about finding an escort to evening classes. The changes are so stark, Coralia considers then and now as separate worlds."
+    },
+    {
+      "type": "text",
+      "value": "Coralia has found her niche in this Havana, where she spends her morning walking the neighborhood streets and creates her crafts in the afternoons. Her home has changed, but so has her role. Diego doesn’t need to be raised anymore, but he still leans on her — not as his caregiver."
+    },
+    {
+      "type": "text",
+      "value": "As his confidant."
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "A broken down ferry"
+      }
+    },
+    {
+      "type": "text",
+      "value": "As the mass of bodies that gathered around the plastic awning of the bus stop started clamoring onto the vehicle, Diego quickly spotted an older man struggling to ascend with his walker. Without hesitation, Diego fell back from his friends to wrap his hand around the man’s forearm and bear some of the weight."
+    },
+    {
+      "type": "text",
+      "value": "He’s doing it again. Same grab, different forearm. This time, he’s assisting Coralia as she eases off of the curb outside their white apartment building, a yellow Superman logo emblazoned onto his backwards baseball hat."
+    },
+    {
+      "type": "text",
+      "value": "Together they slowly drift down the neighborhood streets to buy food at the nearby market. Occasionally, the pair will bump into an older neighbor and stop to exchange kisses and smiles. Coralia selects the food from produce stands and uses the money from her purse to pay, but when they leave, Diego carries the white plastic bag of sustenance in his right hand. Later, Coralia will transform that into a meal."
+    },
+    {
+      "type": "text",
+      "value": "But for now, they glide under the sun and take each other in. Diego, with his long, anxious limbs, looks like he could take off any minute, while Coralia, her bag hanging on the side of her walker, is deliberate with every step. But look closer. They aren’t so different. The bookworm who religiously spins her thumbs in circles and the soccer star who can’t sit still. A pair of souls that delight in companionship and share an intrinsic sense of being."
+    },
+    {
+      "type": "text",
+      "value": "Two artists, bound by blood and matching house keys, pressing onward under the open sky."
     }
   ]
 }

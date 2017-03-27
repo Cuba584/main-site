@@ -4,7 +4,7 @@
   },
   "cinemagraph": {
     "src": "harbor.mp4",
-    "alt": "Across the Harbor cinemagraph"
+    "attribution": "Rob Gourley"
   },
   "header": {
     "text": "Across the Harbor",
@@ -54,13 +54,6 @@
       "value": "Etiam condimentum porta quam ut luctus. Vestibulum condimentum, libero et efficitur faucibus, lacus erat luctus elit, a commodo turpis tellus nec odio. Cras at dui est. Pellentesque eget orci tortor. Aliquam sagittis augue vitae mi imperdiet, sit amet eleifend nisl egestas. Duis elementum porttitor enim ornare pretium. Suspendisse aliquam elit vel libero ultricies efficitur. Nam non vestibulum felis. Sed cursus nec justo sit amet eleifend. Etiam placerat, lectus ut semper sodales, risus diam mollis mi, accumsan sodales arcu lacus id nulla. Integer erat ante, dapibus a risus volutpat, vestibulum pulvinar orci. Vivamus condimentum cursus malesuada. Sed justo sem, aliquam sit amet tincidunt porttitor, posuere in justo. Nam consequat ipsum in lacinia aliquet. Nulla est neque, aliquet et laoreet consectetur, imperdiet a nisi."
     },
     {
-      "type": "pullquote",
-      "value": {
-        "text": "Donec in euismod lectus, eget sollicitudin ante. Cras porta sapien quis finibus pulvinar.",
-        "attribution": "Juan Doe"
-      }
-    },
-    {
       "type": "text",
       "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
     },
@@ -69,11 +62,10 @@
       "value": "Suspendisse potenti. Quisque luctus faucibus dolor quis egestas. Integer fermentum arcu nulla, id finibus diam molestie condimentum. Aenean ullamcorper ultrices tellus quis vulputate. Proin dictum sem nisi, id iaculis mauris vehicula vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero arcu, bibendum ac arcu non, tincidunt ullamcorper leo."
     },
     {
-      "type": "image",
+      "type": "pullquote",
       "value": {
-        "src": "https://img.holidayplace.co.uk/gallery/content/113015/responsive/01-700.jpg",
-        "alt": "Tourism",
-        "caption": "Morbi et accumsan ex. Mauris ac elit blandit mi sollicitudin interdum sit amet non mi. Pellentesque nunc lectus, laoreet at auctor at, scelerisque ut odio."
+        "text": "Donec in euismod lectus, eget sollicitudin ante. Cras porta sapien quis finibus pulvinar.",
+        "attribution": "Juan Doe"
       }
     },
     {

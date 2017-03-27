@@ -3,12 +3,12 @@
     "class": "skate"
   },
   "cinemagraph": {
-    "src": "harbor.mp4",
-    "alt": "Skater Cinemagraph"
+    "src": "skate.mp4",
+    "attribution": "Claire Collins"
   },
   "header": {
-    "text": "They Called Her Skater Girl",
-    "subtitle": "Cuba’s youth know how to turn a tune, and a tide"
+    "text": "Skate Libre",
+    "Subtitle": "Exploring freedom through a non-traditional sport"
   },
   "reporters": [
     {
@@ -72,26 +72,12 @@
       "value": "Suspendisse potenti. Quisque luctus faucibus dolor quis egestas. Integer fermentum arcu nulla, id finibus diam molestie condimentum. Aenean ullamcorper ultrices tellus quis vulputate. Proin dictum sem nisi, id iaculis mauris vehicula vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero arcu, bibendum ac arcu non, tincidunt ullamcorper leo."
     },
     {
-      "type": "image",
-      "value": {
-        "src": "https://img.holidayplace.co.uk/gallery/content/113015/responsive/01-700.jpg",
-        "alt": "Tourism",
-        "caption": "Morbi et accumsan ex. Mauris ac elit blandit mi sollicitudin interdum sit amet non mi. Pellentesque nunc lectus, laoreet at auctor at, scelerisque ut odio."
-      }
-    },
-    {
       "type": "text",
       "value": "Quisque ultrices, arcu sed lobortis ullamcorper, purus ex egestas justo, at faucibus orci diam et quam. Nullam volutpat ullamcorper arcu eu imperdiet. Maecenas euismod libero eget pharetra pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra neque ut magna semper, id dictum eros consequat. Nullam mollis neque ac odio pellentesque sagittis. Proin ornare nunc sed velit lobortis, ut convallis sapien efficitur. Donec elementum felis ut ligula convallis, vel faucibus arcu tempor. Aenean mollis id ante sed ornare. Mauris non porta magna, eu lacinia mauris. Nulla facilisi."
     },
     {
       "type": "text",
       "value": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec dapibus mi et rutrum hendrerit. Quisque orci nisl, ornare id eros at, posuere accumsan purus. Donec dignissim magna id tincidunt faucibus. Proin venenatis justo ut metus vehicula sagittis. Nulla facilisi. Nunc hendrerit ornare justo, in imperdiet ligula pharetra quis. Duis mauris velit, rutrum mollis vestibulum ac, maximus sed purus."
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "text": "this is an interactive description."
-      }
     },
     {
       "type": "text",

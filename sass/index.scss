@@ -1,4 +1,5 @@
 @import '_vars';
+@import '_include-media';
 
 /* ------------------  Index ------------------ */
 
@@ -12,7 +13,7 @@
   position: relative;
 }
 
-#cinemagraph{
+#home-video{
   position: fixed;
   right: 0;
   bottom: 0;

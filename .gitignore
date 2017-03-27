@@ -4,7 +4,4 @@ node_modules/
 client_secret.json
 env
 .com.apple.timemachine.supported
-public/assets/images/
-public/assets/video/
 public/assets/audio/
-public/stylesheets/images/

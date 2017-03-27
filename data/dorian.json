@@ -4,11 +4,11 @@
   },
   "cinemagraph": {
     "src": "dorian.mp4",
-    "alt": "Dorian Cinemagraph"
+    "attribution": "Emily Yue"
   },
   "header": {
     "text": "Dorian Cuts New Path",
-    "subtitle": "Donde Dorian gets creative with new hairstyles for a new generation"
+    "subtitle": "Creative new hairstyles for a new generation"
   },
   "reporters": [
     {
@@ -17,7 +17,7 @@
   ],
   "videographers": [
     {
-      "name": "Ben Aijan"
+      "name": "Ben Aijian"
     },
     {
       "name": "Darian Woehr"
@@ -77,9 +77,10 @@
     {
       "type": "image",
       "value": {
-        "src": "https://img.holidayplace.co.uk/gallery/content/113015/responsive/01-700.jpg",
-        "alt": "Tourism",
-        "caption": "Morbi et accumsan ex. Mauris ac elit blandit mi sollicitudin interdum sit amet non mi. Pellentesque nunc lectus, laoreet at auctor at, scelerisque ut odio."
+        "src": "example1.jpg",
+        "alt": "A picture of Juan and Gabriella in the skate competition.",
+        "attribution": "Claire Collins",
+        "caption": "Juan and Gabriella take turns skating down a ramp on a sunny Havana day."
       }
     },
     {

@@ -1,4 +1,5 @@
 @import '_vars';
+@import '_include-media';
 
 /*this mixin applies bgr-color and color to anything with classes
 that are defined in the include below. You can override either of these colors
@@ -47,22 +48,23 @@ further down on the page or in any of the other .SCSS files.
 }
 
 @include config-page-colors(
-    'hiphop'  $red,
-    'dorian' $yellow,
-    'skate' $teal,
-    'family' $blue,
-    'harbor' $purple
+    'hiphop'  $orange,
+    'dorian' $green,
+    'skate' $purple,
+    'family' $yellow,
+    'harbor' $blue
 );
 
 html {font-size:.7em;}
 
 body {
   font-size: 1.375em;
+  letter-spacing:.01em;
   background-color: white;
   font-family: $roboto;
   font-weight: 300;
   line-height: 1.45;
-  color: $dark-gray;
+  color: $main-text-color;
   margin:0;
 }
 
@@ -72,14 +74,13 @@ line-height: 2em;}
 h1, h2, h3, h4 {
   // margin: 1.414em 0 0.5em;
   font-family: $montserrat;
-  font-weight: inherit;
   line-height: 1.2;
 }
 
 h1 {
   margin-top: 0;
-  font-size: 3.5em;
-  font-weight:500;
+  font-size: 3.7em;
+  font-weight:600;
 }
 
 h2 {font-size: 2.25em;}
@@ -106,18 +107,19 @@ header {
 
 
 nav {
-  // margin: 0;
-  max-height: 45px;
+  height: 80px;
   background-color: #fff;
-  opacity: 0.8;
+  opacity: 1;
   font-family: $roboto;
   font-size:1.05em;
+  padding-bottom:15px;
   ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
   width: 100%;
-  padding: 0 10vw 0 10vw;
+  padding: 0;
+  margin:40px 0 0 0;
 
     a {
       color: #222;
@@ -131,20 +133,9 @@ nav {
 
   }
 
-    #logo-text {
-      height: 45px;
-    }
-  // li {
-  //   display: inline-block;
-  // }
-  .logo {
-    height: 45px;
-    width: 45px;
-    margin-left: .5em;
-  }
   .wrapper {
     margin: 0 auto;
-    max-width: 100%;
+    width:1200px;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -162,14 +153,22 @@ nav {
   }
   .nav-icons {
     flex-wrap: wrap;
-    margin:0 .5em 0 0;
+    margin:35px .5em 0 0;
 
   }
   .logo-wrapper {
-    a {
-    display: flex;
-    vertical-align: middle;
+    display:flex;
+    overflow:hidden;
+    #svg-logo{
+      // height:inherit;
+      width:300px;
     }
+    // #svg-splash{
+    //   width:100px;
+    // }
+    // #svg-text{
+    //   width:200px;
+    // }
   }
   .sm-icons {
     display: inline-flex;
@@ -177,12 +176,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     opacity:.8;
-    #nav-line {
-      padding: 0 .2em;
-      // height: 2.9em;
-      height:50px;
-      border-left: 2px solid $dark-gray;
-    }
     #insta {
       padding-right: .3em;
     }
@@ -195,16 +188,6 @@ nav {
       }
     }
   }
-  // .trans {
-  //   display:flex;
-  //   justify-content: space-around;
-  //   border: 1px solid #000;
-  //   padding: 1px 10px 1px 10px;
-  //   margin: 5px;
-  //   &:hover{
-  //     cursor:pointer;
-  //   }
-  // }
 
   .trans-wrapper{
 
@@ -251,58 +234,45 @@ nav {
   }
 
   /*------------------ RESPONSIVE NAV STYLES ---------*/
-  @media screen and (max-width: 768px) {
-    // nav .nav-icon {
+
+    @include media("screen", "<=lg"){
+      nav {
+
+        ul{
+          font-size:.9em;
+          padding:0 20px;
+        }
+        .wrapper{
+          width:1000px;
+        }
+      }
+    }
+
+  @include media("screen", "<=md"){
+    .logo-wrapper{
+      justify-content: center;
+
+      #svg-logo{
+        justify-content: center;
+      }
+
+    }
+    nav {
+      ul{
+        display:none;
+      }
+      .wrapper{
+        width:900px;
+      }
+    }
+
+    // nav #menu-toggle:checked ~ ul {
+    //   opacity: 1;
+    //   height: 100vh;
     //   visibility: visible;
-    //   display: inline-block;
-    //   cursor: pointer;
+    //   padding: 10px;
+    //   border: 5px solid #60B1DE;
     // }
-    nav .wrapper {
-      max-width: 75%;
-    }
-    nav ul {
-      background-color: #eee;
-      display: block;
-      height: 0;
-      list-style-type: none;
-      opacity: 0;
-      text-align: center;
-      transition: all 1s ease;
-      width: 100%;
-      padding: 0 1vw 0 1vw;
-      visibility: hidden;
-    }
-    nav li {
-      // border-bottom: 2px solid #53354A;
-      color: #696969;
-      display: block;
-      font-size: 1.5em;
-      padding: 2em 0;
-    }
-    nav li+li {
-      border-left: none;
-    }
-    nav ul li:after {
-      content: "";
-      display: block;
-      height: 1px;
-      width: 20px;
-      margin-left: 45%;
-      background: black;
-      text-align: center;
-      position: relative;
-      top: 1.5em;
-    }
-    nav ul li #nav-art:after {
-      margin-left: 50%;
-    }
-    nav #menu-toggle:checked ~ ul {
-      opacity: 1;
-      height: 100vh;
-      visibility: visible;
-      padding: 10px;
-      border: 5px solid #60B1DE;
-    }
     nav .label-toggle {
       cursor: pointer;
       display: block;
@@ -332,19 +302,19 @@ nav {
         transform: rotate(45deg) translate(-8px, -8px) ;
       }
     }
-    nav .wrapper {
-      display: block;
+
+  }
+
+  @include media("screen", "<=sm"){
+
+    nav{
+      height:20px;
+      .wrapper{
+        width:90vw;
+
+      }
     }
 
-    .line {
-      display: none;
-    }
-    nav .icons {
-      display: none;
-    }
-    nav .trans {
-      display: none;
-    }
   }
 
 

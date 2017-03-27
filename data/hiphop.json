@@ -3,8 +3,8 @@
     "class": "hiphop"
   },
   "cinemagraph": {
-    "src": "arts.mp4",
-    "alt": "Arts Cinemagraph"
+    "src": "hiphop.mp4",
+    "attribution": "Kira Dalman"
   },
   "header": {
     "text": "The Agency of Rap",
@@ -70,14 +70,6 @@
     {
       "type": "text",
       "value": "Suspendisse potenti. Quisque luctus faucibus dolor quis egestas. Integer fermentum arcu nulla, id finibus diam molestie condimentum. Aenean ullamcorper ultrices tellus quis vulputate. Proin dictum sem nisi, id iaculis mauris vehicula vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero arcu, bibendum ac arcu non, tincidunt ullamcorper leo."
-    },
-    {
-      "type": "image",
-      "value": {
-        "src": "https://img.holidayplace.co.uk/gallery/content/113015/responsive/01-700.jpg",
-        "alt": "Tourism",
-        "caption": "Morbi et accumsan ex. Mauris ac elit blandit mi sollicitudin interdum sit amet non mi. Pellentesque nunc lectus, laoreet at auctor at, scelerisque ut odio."
-      }
     },
     {
       "type": "text",
