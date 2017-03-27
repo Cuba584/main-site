@@ -59,8 +59,14 @@
 
     <%} else if (body["text"][i]["type"] == "video") {%>
         <!-- <iframe src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
-
-    <% } else if (body["text"][i]["type"] == "pullquote") {%>
+    <%} else if (body["text"][i]["type"] == "interactive") {%>
+    </div>
+  </section>
+       <% var filepath = body["text"][i]["value"]["filename"] %>
+         <%- include(filepath); %>
+         <section class="center-wrapper">
+           <div class="max-width">
+     <% } else if (body["text"][i]["type"] == "pullquote") {%>
     </div>
   </section>
     <div class="pull-quote-box change-bg <%= body["master-class"]["class"] %>">
