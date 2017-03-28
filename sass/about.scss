@@ -115,9 +115,13 @@ a:hover, a:focus {
 
 .about-container {
   text-align: center;
-  max-width: 95%;
-  margin-left: 2.5%;
+  max-width: 65%;
+  margin-left: 17.5%;
+  p {
+    text-align: left;
+  }
 }
+
 
 #about-title {
   font-weight: 400;
@@ -133,7 +137,7 @@ a:hover, a:focus {
   h3 {
     font-family: $montserrat;
     font-weight: 400;
-    margin-top: 20px;
+    margin: 20px;
   }
 }
 
@@ -165,7 +169,7 @@ a:hover, a:focus {
 //   }
 // }
 
-@media screen and (max-width: 720px) {
+@include media("screen", "<=md") {
   .team-nav {
     ul{
       flex-direction: column;
@@ -183,5 +187,14 @@ a:hover, a:focus {
   .mix {
     margin-left: auto;
     margin-right: auto;
+  }
+  .about-container {
+    text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    p {
+      text-align: left;
+    }
   }
 }
