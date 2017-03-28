@@ -148,20 +148,38 @@ header {
   padding: 1rem; }
 
 /* ------------------ Navigation ------------------ */
+header {
+  -webkit-box-shadow: 0 -11px 36px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 -11px 36px 10px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 9;
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear; }
+
 nav {
-  height: 80px;
+  height: 70px;
   background-color: #fff;
   opacity: 1;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.05em;
-  padding-bottom: 15px; }
+  font-family: "Montserrat", sans-serif;
+  font-size: .95em;
+  letter-spacing: .03em;
+  padding-bottom: 5px;
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear; }
   nav ul {
+    text-transform: uppercase;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    width: 100%;
+    width: 900px;
     padding: 0;
-    margin: 40px 0 0 0; }
+    margin: 45px 0 15px 0; }
     nav ul a {
       color: #222;
       position: relative;
@@ -170,7 +188,7 @@ nav {
       background-color: transparent; }
   nav .wrapper {
     margin: 0 auto;
-    width: 1200px;
+    width: 100%;
     align-items: center;
     display: flex;
     justify-content: space-between; }
@@ -183,12 +201,11 @@ nav {
     margin: 0 5px 0 5px; }
   nav .nav-icons {
     flex-wrap: wrap;
-    margin: 35px .5em 0 0; }
+    margin: 39px .5em 15px 0; }
   nav .logo-wrapper {
-    display: flex;
-    overflow: hidden; }
+    margin-left: 20px; }
     nav .logo-wrapper #svg-logo {
-      width: 300px; }
+      width: 222px; }
   nav .sm-icons {
     display: inline-flex;
     flex-direction: row;
@@ -197,37 +214,27 @@ nav {
     opacity: .8; }
     nav .sm-icons #insta {
       padding-right: .3em; }
+      nav .sm-icons #insta:hover {
+        color: #bc2a8d; }
+    nav .sm-icons #fb:hover {
+      color: #3b5998; }
+    nav .sm-icons #twit:hover {
+      color: #00aced; }
+    nav .sm-icons #nav-line {
+      margin: 0 0.6em 0 0.5em;
+      height: 30px;
+      border-left: 1.5px solid #696969; }
     nav .sm-icons a {
       color: #000;
       text-decoration: none; }
-      nav .sm-icons a:hover {
-        color: #A089CE;
-        opacity: 1; }
-  nav .trans-wrapper #trans-btn:hover {
-    cursor: pointer; }
-  nav .trans-wrapper hr {
-    width: 13pt;
-    margin: 0; }
-
-#nav-header {
-  position: fixed;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 80px;
-  z-index: 9; }
-
-header {
-  position: fixed;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 80px;
-  transition: all 0.3s linear;
-  -moz-transition: all 0.3s linear;
-  -webkit-transition: all 0.3s linear; }
+  nav .trans-wrapper {
+    margin-right: 20px; }
+    nav .trans-wrapper #trans-btn:hover {
+      cursor: pointer;
+      font-weight: 600; }
+    nav .trans-wrapper hr {
+      width: 13pt;
+      margin: 0; }
 
 .default {
   top: 0; }
@@ -236,14 +243,29 @@ header {
   top: -85px; }
 
 /*------------------ RESPONSIVE NAV STYLES ---------*/
-@media screen and (max-width: 1230px) {
+@media screen and (min-width: 2400px) {
+  nav ul {
+    width: 1230px; } }
+
+@media screen and (max-width: 1280px) {
+  nav .logo-wrapper #svg-logo {
+    width: 120px; }
   nav ul {
     font-size: .9em;
     padding: 0 20px; }
-  nav .wrapper {
-    width: 1000px; } }
+  nav nav ul {
+    width: 100%; }
+  nav nav .nav-icons {
+    margin: 39px 0 15px 0; } }
 
-@media screen and (max-width: 1012px) {
+@media screen and (max-width: 1110px) {
+  nav ul {
+    font-size: .8em; } }
+
+@media screen and (max-width: 1020px) {
+  header {
+    -webkit-box-shadow: none;
+    box-shadow: none; }
   .logo-wrapper {
     justify-content: center; }
     .logo-wrapper #svg-logo {
@@ -274,10 +296,18 @@ header {
       opacity: 0; }
     nav .label-toggle .change .bar3 {
       -webkit-transform: rotate(45deg) translate(-8px, -8px);
-      transform: rotate(45deg) translate(-8px, -8px); } }
+      transform: rotate(45deg) translate(-8px, -8px); }
+  nav {
+    height: 20px; }
+    nav .wrapper {
+      width: 90vw; }
+    nav .logo-wrapper #svg-logo {
+      width: 300px; } }
 
 @media screen and (max-width: 570px) {
   nav {
     height: 20px; }
     nav .wrapper {
-      width: 90vw; } }
+      width: 90vw; }
+    nav .logo-wrapper #svg-logo {
+      width: 222px; } }

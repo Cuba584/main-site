@@ -1,0 +1,157 @@
+[
+    {
+        "timestamp": "2017-03-22T23:35:51.042Z",
+        "fullname": "Veasey Conway",
+        "firstname": "Veasey",
+        "role": "Videographer",
+        "bio": "Veasey is a freelance photographer in Durham, North Carolina as well as a Roy H. Park fellow and master's student in visual communication. He previously was a photojournalist at a newspaper in South Carolina. ",
+        "portfolio": "http://www.veaseyconway.com",
+        "social": "https://www.instagram.com/veaseyconway/"
+    },
+    {
+        "timestamp": "2017-03-22T23:42:26.712Z",
+        "fullname": "Tamara Rice",
+        "firstname": "Tamara",
+        "role": "Coach",
+        "bio": "Tamara has been teaching visual communications at the MJ school since 2015.  She's thrilled to be the design/dev coach of Cuba's New Wave.  When she's not teaching she's running her own web development business and raising 3 crazy kiddos.",
+        "portfolio": "http://www.sliceinteractive.com",
+        "social": "@tamarasrice"
+    },
+    {
+        "timestamp": "2017-03-22T23:49:24.165Z",
+        "fullname": "Ben Aijian",
+        "firstname": "Ben",
+        "role": "Videographer",
+        "bio": "Ben loves storytelling. He loves listening to people who have fascinating stories, and he loves telling retelling them. Ben spent several years overseas doing international disaster relief work in multiple countries. During that time he developed a passion for still photography and video. In particular, Ben grew to love how photo and video could be used as storytelling tools. Ben has taken an extended hiatus from international field work in order to finish a degree in Documentary Photojournalism and Filmmaking. He graduates in December and will be returning to the nonprofit world armed with the skills necessary to effectively tell the stories of underrepresented people groups. He plans to lend those skills to members of marginalized societies, to help them tell their own stories.",
+        "portfolio": "http://www.benaijian.com"
+    },
+    {
+        "timestamp": "2017-03-23T00:16:15.548Z",
+        "fullname": "Viviane Feldman",
+        "firstname": "Viviane",
+        "role": "Videographer",
+        "bio": "Viviane is a senior hoping to graduate with a degree in Photojournalism and Middle Eastern/Islamic Studies. She is passionate about social advocacy through multimedia and meeting new people through storytelling.",
+        "portfolio": "http://www.vivianefeldman.com",
+        "social": "@vivianefeldman"
+    },
+    {
+        "timestamp": "2017-03-23T01:03:14.181Z",
+        "fullname": "Echo Zhou ",
+        "firstname": "Echo ",
+        "role": "Designer",
+        "bio": "I'm Echo from China. I’m developing my skills as an artist and as a visual designer, learning how to master design skills, how to work under different conditions, and how to always be creative.",
+        "portfolio": "www.echozhou.com",
+        "social": "instagram: echojo519"
+    },
+    {
+        "timestamp": "2017-03-23T01:44:46.054Z",
+        "fullname": "Paul Cuadros",
+        "firstname": "Paul",
+        "role": "Coach",
+        "bio": "Paul Cuadros is an associate professor in the School of Media and Journalism at UNC and is an award-winning investigative reporter and author. His book, A Home on the Field, which tells the story of town in the rural South coping with immigration through the lives of an all Latino high school soccer team has been summer reading at five universities and his television documentary series Los Jets has been seen in countless homes across the U.S. Cuadros is currently working on a new book on immigration in the South. "
+    },
+    {
+        "timestamp": "2017-03-23T03:06:52.823Z",
+        "fullname": "Lindsay",
+        "firstname": "Carbonell",
+        "role": "Developer",
+        "bio": "Lindsay (c/o 2017) thinks a lot about big datasets and small newsrooms. She was a data visualization fellow for the Texas Tribune, and will be a digital editor for the NYT Student Journalism Institute this summer.",
+        "portfolio": "http://lindsaycarbonell.com/",
+        "social": "https://twitter.com/saycarbonell/"
+    },
+    {
+        "timestamp": "2017-03-23T12:25:32.827Z",
+        "fullname": "Darian Woehr",
+        "firstname": "Darian",
+        "role": "Videographer",
+        "bio": "Darian is a sophomore photojournalism and global studies major focusing on community development in Latin America. Through photography and exploration, she hopes to capture the truest stories of humanity.",
+        "portfolio": "http://darianwoehr.wixsite.com/portfolio",
+        "social": "@darian.woehr"
+    },
+    {
+        "timestamp": "2017-03-23T13:28:17.708Z",
+        "fullname": "Nicole Basile",
+        "firstname": "Nicole",
+        "role": "Designer",
+        "bio": "Nicole is a 2017 graduate with a specialization in editing and graphic design and a knack for speaking Spanish. As a visual critic she hopes to bring unexpected perspectives to life through meaningful design.",
+        "portfolio": "http://www.nsbaesthetic.com"
+    },
+    {
+        "timestamp": "2017-03-23T14:35:54.987Z",
+        "fullname": "Claire Hannah Collins",
+        "firstname": "Claire",
+        "role": "Videographer",
+        "bio": "Claire is a senior photojournalism student with a minor in Arabic. She was born in Hong Kong and grew up in Amman, Jordan. Her favorite things are traveling, telling stories that challenge stereotypes, and climbing good trees. ",
+        "portfolio": "http://www.clairehannahcollins.com",
+        "social": "instagram: clairehcollins"
+    },
+    {
+        "timestamp": "2017-03-23T15:16:55.866Z",
+        "fullname": "Natalie",
+        "firstname": "Roush",
+        "role": "Videographer",
+        "bio": "Natalie Roush is a first year graduate student in the Visual Communications program at UNC's school of Media and Journalism. After traveling the world as a photojournalist for an NGO, she has seen just how important stories are to humanity. They break boundaries and change people's understandings. ",
+        "portfolio": "http://www.natalieroush.com",
+        "social": "@thenatalieroush"
+    },
+    {
+        "timestamp": "2017-03-23T16:27:50.844Z",
+        "fullname": "Tamara Rice",
+        "firstname": "Tamara",
+        "role": "Coach",
+        "bio": "Tamara has been teaching at the MJ school since 2015.  She is thrilled to be the design/dev coach for Cuba's New Wave.  When she's not teaching, she is busy running her own web dev shop and raising 3 crazy kids.",
+        "portfolio": "http://www.sliceinteractive.com",
+        "social": "@tamarasrice"
+    },
+    {
+        "timestamp": "2017-03-23T18:17:57.904Z",
+        "fullname": "Ally Levine",
+        "firstname": "Ally",
+        "role": "Designer",
+        "bio": "Ally is a designer and journalist interested in connecting people around the world through visual storytelling. She draws inspiration from her background in painting and dance.",
+        "portfolio": "http://www.allyjlevine.com",
+        "social": "@allyjlevine"
+    },
+    {
+        "timestamp": "2017-03-23T19:12:07.469Z",
+        "fullname": "Paul Cuadros",
+        "firstname": "Paul",
+        "role": "Coach",
+        "bio": "Paul Cuadros is an associate professor in the School of Media and Journalism at UNC-Chapel Hill. He is an award-winning investigative reporter and author. "
+    },
+    {
+        "timestamp": "2017-03-24T19:35:58.996Z",
+        "fullname": "Emily Yue",
+        "firstname": "Emily",
+        "role": "Videographer",
+        "bio": "Emily Yue is a photo/video journalist, political cartoonist, illustrator and animator who wants to make cool stuff for the rest of their life. ",
+        "portfolio": "http://www.emyue.me",
+        "social": "instagram.com/emyue "
+    },
+    {
+        "timestamp": "2017-03-25T03:24:29.197Z",
+        "fullname": "Natalie Roush",
+        "firstname": "Natalie",
+        "role": "Videographer",
+        "bio": "Natalie Roush is a visual storyteller currently based in Chapel Hill, NC where she is a first year graduate student in the Journalism school at the University of North Carolina.  ",
+        "portfolio": "http://www.natalieroush.com",
+        "social": "@thenatalieroush"
+    },
+    {
+        "timestamp": "2017-03-25T05:34:40.318Z",
+        "fullname": "Kiana Cole",
+        "firstname": "Kiana",
+        "role": "Reporter",
+        "bio": "I'm a junior studying Journalism with minors in History and Music, and you can often find me in another country. Thank you for being here — I'm so excited to share Cuba's New Wave with you! ",
+        "social": "Twitter: @kianamcole "
+    },
+    {
+        "timestamp": "2017-03-27T14:31:15.882Z",
+        "fullname": "Kate Boyd",
+        "firstname": "Kate",
+        "role": "Developer",
+        "bio": "Kate is a web developer who loves solving problems, exploring new places, and petting every cat she sees.",
+        "portfolio": "http://kwboyd.com",
+        "social": "https://github.com/kwboyd"
+    }
+]

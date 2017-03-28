@@ -30,11 +30,13 @@ gulp.task('connect', function(){
   });
 
   app.get('/about', function(request, response){
-    response.render('pages/about', {page: 'about'});
+    var teamData = JSON.parse(fs.readFileSync('./data/team.json'));
+    response.render('pages/about', {team: teamData, page: 'about'});
   });
 
   app.get('/aboutespanol', function(request, response){
-    response.render('pages/aboutespanol', {page: 'aboutespanol'});
+    var teamData = JSON.parse(fs.readFileSync('./data/team.json'));
+    response.render('pages/aboutespanol', {team: teamData, page: 'aboutespanol'});
   });
 
   app.get('/pages/:id', function(req, res){

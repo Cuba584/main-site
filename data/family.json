@@ -40,6 +40,7 @@
     {
       "type": "video",
       "value": {
+        "360": "false",
         "id": "200984993"
       }
     },
@@ -95,6 +96,13 @@
     {
       "type": "text",
       "value": "Scorer and defender, competitor and captain, energizer and caregiver — Diego is used to juggling. He doesn’t have a normal day. He gave up routine for the sake of chasing moments with his lens."
+    },
+    {
+      "type": "video",
+      "value": {
+        "360": "true",
+        "id": "210269956"
+      }
     },
     {
       "type": "text",
