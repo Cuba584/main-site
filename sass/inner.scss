@@ -21,6 +21,12 @@
 
 /*------page ids------*/
 
+  // .inner {
+  //   .pull-quote-box {
+  //     width: 85vw;
+  //     //max-width: 100vw;
+  //   }
+  // }
 
   #inner-intro { /*inherits from h3*/
     text-align:center;
@@ -150,6 +156,30 @@
 
 /*------responsive styles------*/
 
+ @include media("screen", ">=xl") {
+   .inner {
+     figure {
+       .inner-image {
+         height: 100%;
+         width: auto;
+       }
+     }
+   }
+ }
+
+@include media("screen", "<=lg"){
+  .inner {
+    figure {
+      .inner-image {
+        // height: 100%;
+        // width: 85vw;
+        height: 80vh;
+        width: auto;
+      }
+    }
+  }
+}
+
 @include media("screen", "<=md") {
     .container {
       margin-top: 68px;
@@ -183,6 +213,9 @@
         width: 88vw;
         //max-width: 100vw;
       }
+
+
+
     } // inner
 
     #inner-title-box {
@@ -204,6 +237,35 @@
   .inner{
     #cinemagraph{
       margin-top:0;
+    }
+
+    figure {
+      flex-wrap: wrap;
+      margin: 0;
+      .inner-image {
+        width: 100vw;
+        height: 100%;
+      }
+    }
+
+    figcaption {
+      max-width: 95%;
+      .fig-descr {
+        margin: 0;
+      }
+      .fig-attr {
+        margin: 0;
+        padding-top: 5px;
+      }
+    }
+
+    .pull-quote-box{
+      width: 100vw;
+      margin: 0;
+    }
+
+    .pull-quote {
+      font-size: 1em;
     }
   }
 }

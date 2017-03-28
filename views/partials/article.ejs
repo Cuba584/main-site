@@ -2,13 +2,11 @@
 
   <section id="top-fold">
 
-    <div class="inner-hero">
-      <video id="cinemagraph" muted data-autoplay autoplay>
 
-        <source src="/assets/video/<%=body["cinemagraph"]["src"] %>" type="video/mp4">
-        <!-- <source src="/assets/video/dorian.mp4 %>" type="video/mp4"> -->
+        <video id="cinemagraph" data-autoplay autoplay muted playsinline>
+          <source src="/assets/video/<%=body["cinemagraph"]["src"] %>" type="video/mp4">
+        </video>
 
-      </video>
       <div class="replay-btn" id="replay-btn">
         <i class="fa fa-repeat"></i>
         <span>Replay</span>
@@ -52,28 +50,30 @@
     <% for (i in body["text"]) {
       if (body["text"][i]["type"] == "text") {%>
     <p> <%=body["text"][i]["value"] %> </p>
-
     <%} else if (body["text"][i]["type"] == "subhead") {%>
-
       <h4 class="subhead <%= body["master-class"]["class"] %>"><%=body["text"][i]["value"]["text"] %></h4>
-
     <%} else if (body["text"][i]["type"] == "video") {%>
-        <!-- <iframe src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
-
+      <div class="vimeo-wrapper">
+        <iframe src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+      <%} else if (body["text"][i]["type"] == "interactive") {%>
+   </div>
+ </section>
+      <% var filepath = body["text"][i]["value"]["filename"] %>
+        <%- include(filepath); %>
+        <section class="center-wrapper">
+          <div class="max-width">
     <% } else if (body["text"][i]["type"] == "pullquote") {%>
     </div>
   </section>
     <div class="pull-quote-box change-bg <%= body["master-class"]["class"] %>">
-
       <h3 class="pull-quote">
         <hr> <span><%=body["text"][i]["value"]["text"] %></span> </h3>
     </div>
     <section class="center-wrapper">
       <div class="max-width">
-
     <% } else if (body["text"][i]["type"] == "image") {%>
     </div>
-
   </section>
     <figure>
       <img class="inner-image" src='assets/images/<%=body["text"][i]["value"]["src"] %> ' alt='
@@ -88,5 +88,3 @@
     <%} } %>
   </div>
   </section>
-
-</div>
