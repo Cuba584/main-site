@@ -127,6 +127,9 @@
     font-weight:300;
     margin:.5em 0 0 0;
   }
+  &:hover{
+    cursor:default;
+  }
 
 }
 
@@ -146,10 +149,12 @@ iframe {
 }
 
 #cinemagraph{
-  width:100vw
+  width:100vw;
+  margin-top:$nav-height;
 }
 
 .about-cinema-wrapper{
+  width:100%;
   display:flex;
   justify-content:center;
   video{
@@ -170,7 +175,7 @@ iframe {
           line-height: 1em;
         }
       }
-      .center-wrapper {
+      #title-box {
         margin-top: -2%;
       }
 
@@ -197,15 +202,18 @@ iframe {
     #inner-title-box {
       width: 100%;
       margin-top: 0;
+      h1 {
+      font-size: 2.8em;
+      padding-bottom:.1em;
+      }
+      h3 {
+        font-size: 1.1em;
+        margin:0;
+      }
     }
 
-    h1 {
-    font-size: 2.1em;
-    padding-bottom:.25em;
-    }
-    h3 {
-      font-size: 1.25em;
-    }
+
+
 
 }
 

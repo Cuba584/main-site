@@ -11,6 +11,9 @@ further down on the page or in any of the other .SCSS files.
             &.subhead{
               color: nth($i, 2);
             }
+            &.overlay-item span{
+              color: nth($i, 2);
+            }
             &.change-bg{
               background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
               background-size:cover;
@@ -52,7 +55,8 @@ further down on the page or in any of the other .SCSS files.
     'dorian' $green,
     'skate' $purple,
     'family' $yellow,
-    'harbor' $blue
+    'harbor' $blue,
+    'about' $neutral
 );
 
 html {font-size:.7em;}
@@ -248,6 +252,50 @@ nav {
       top: -85px;
   }
 
+
+  /* ------- MOBILE NAVIGATION --------*/
+
+.overlay{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color:rgb(0,0,0);
+  background-color:rgba(0,0,0,0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  .overlay-content{
+    position:relative;
+    top:25%;
+    width:100%;
+    text-align:center;
+    margin-top:30px;
+    a{
+      display:block;
+      text-decoration:none;
+      font-size:2em;
+    }
+    #closebtn{
+      position:absolute;
+      top:20px;
+      right:45px;
+      font-size:60px;
+    }
+    .overlay-item{
+      color:white;
+      span{
+        font-size:1.2em;
+      }
+    }
+
+  }
+}
+
+
   /*------------------ RESPONSIVE NAV STYLES ---------*/
 
   @include media("screen", ">=xl"){
@@ -293,9 +341,12 @@ nav {
     }
 
   @include media("screen", "<=md"){
+
     header{
     -webkit-box-shadow: none;
-    box-shadow: none;}
+    box-shadow: none;
+    top:0;
+    }
     .logo-wrapper{
       justify-content: center;
 
@@ -313,13 +364,6 @@ nav {
       }
     }
 
-    // nav #menu-toggle:checked ~ ul {
-    //   opacity: 1;
-    //   height: 100vh;
-    //   visibility: visible;
-    //   padding: 10px;
-    //   border: 5px solid #60B1DE;
-    // }
     nav .label-toggle {
       cursor: pointer;
       display: block;
@@ -351,19 +395,19 @@ nav {
     }
 
     nav{
-      height:20px;
+
       .wrapper{
         width:90vw;
 
       }
       .logo-wrapper{
         #svg-logo{
-          width:300px;
+          width:250px;
         }
       }
     }
 
-  }
+}
 
   @include media("screen", "<=sm"){
 
