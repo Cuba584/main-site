@@ -117,6 +117,9 @@ body {
   color: #000;
   margin: 0; }
 
+body a {
+  cursor: pointer; }
+
 p {
   margin-bottom: 1.3em;
   line-height: 2em; }
