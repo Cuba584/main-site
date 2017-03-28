@@ -92,6 +92,12 @@
       "value": "Ut vehicula tortor id leo mattis, tincidunt pharetra lacus dapibus. Aliquam quis sem metus. Nulla volutpat dignissim ex nec tempor. Nulla facilisi. Integer congue aliquet mi in sollicitudin. Vestibulum ut sem tempus, luctus arcu at, faucibus mi. Nam in quam tortor. Ut euismod ornare maximus. Aenean finibus, neque sit amet ullamcorper tempor, ipsum magna dictum orci, sit amet rhoncus augue dolor eget ligula. Cras sem tellus, egestas sit amet risus dictum, sagittis feugiat massa. Aenean efficitur justo eu mauris facilisis, non mollis quam euismod. Vivamus vitae fermentum arcu. Praesent sagittis efficitur neque, ultrices facilisis nibh feugiat non. Vestibulum sed arcu ut velit ullamcorper pulvinar."
     },
     {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/hiphop.ejs"
+      }
+    },
+    {
       "type": "text",
       "value": "Vestibulum dapibus gravida interdum. Etiam convallis feugiat urna, vel fermentum libero vestibulum quis. Sed quam ipsum, dapibus at suscipit eget, placerat eu lorem. Nunc vulputate enim eros, ut consequat diam scelerisque non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ornare dolor vel ante sodales bibendum at sed dolor. Vestibulum at purus euismod, suscipit lorem eleifend, varius massa. Nullam vel vestibulum turpis, ut pulvinar lorem."
     }

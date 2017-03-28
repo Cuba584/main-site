@@ -119,7 +119,7 @@ h3 {
   .bgimg {
     background-attachment: scroll; } }
 
-@media screen and (max-width: 1012px) {
+@media screen and (max-width: 1020px) {
   #luis {
     left: 75%;
     margin-bottom: 10px;

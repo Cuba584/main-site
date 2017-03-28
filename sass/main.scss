@@ -11,6 +11,9 @@ further down on the page or in any of the other .SCSS files.
             &.subhead{
               color: nth($i, 2);
             }
+            &.overlay-item span{
+              color: nth($i, 2);
+            }
             &.change-bg{
               background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
               background-size:cover;
@@ -52,7 +55,8 @@ further down on the page or in any of the other .SCSS files.
     'dorian' $green,
     'skate' $purple,
     'family' $yellow,
-    'harbor' $blue
+    'harbor' $blue,
+    'about' $neutral
 );
 
 html {font-size:.7em;}
@@ -101,25 +105,45 @@ header {
   @include header-footer;
 }
 
-
-
 /* ------------------ Navigation ------------------ */
+
+header{
+  -webkit-box-shadow: 0 -11px 36px 10px rgba(0,0,0, .3);
+  box-shadow: 0 -11px 36px 10px rgba(0,0,0, .3);
+  position:fixed;
+  left:0;
+  margin:0;
+  padding:0;
+  width:100%;
+  z-index:9;
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition:all 0.3s linear;
+
+}
 
 
 nav {
-  height: 80px;
+  height: $nav-height;
   background-color: #fff;
   opacity: 1;
-  font-family: $roboto;
-  font-size:1.05em;
-  padding-bottom:15px;
+  font-family: $montserrat;
+  font-size:.95em;
+  letter-spacing: .03em;
+  padding-bottom:5px;
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+
+
   ul {
+  text-transform: uppercase;
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  width: 100%;
+  width: 900px;
   padding: 0;
-  margin:40px 0 0 0;
+  margin:45px 0 15px 0;
 
     a {
       color: #222;
@@ -135,7 +159,7 @@ nav {
 
   .wrapper {
     margin: 0 auto;
-    width:1200px;
+    width:100%;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -153,15 +177,14 @@ nav {
   }
   .nav-icons {
     flex-wrap: wrap;
-    margin:35px .5em 0 0;
+    margin:39px .5em 15px 0;
 
   }
   .logo-wrapper {
-    display:flex;
-    overflow:hidden;
+    margin-left:20px;
     #svg-logo{
       // height:inherit;
-      width:300px;
+      width:222px;
     }
     // #svg-splash{
     //   width:100px;
@@ -178,23 +201,39 @@ nav {
     opacity:.8;
     #insta {
       padding-right: .3em;
+      &:hover{
+        color:$instagram;
+      }
     }
+    #fb{
+      &:hover{
+        color:$facebook;
+      }
+    }
+    #twit{
+      &:hover{
+        color:$twitter;
+      }
+    }
+    #nav-line {
+     margin:0 0.6em 0 0.5em;
+     height:30px;
+     border-left: 1.5px solid $dark-gray;
+   }
     a{
       color:$main-text-color;
       text-decoration:none;
-      &:hover{
-        color:$purple;
-        opacity:1;
-      }
     }
   }
 
   .trans-wrapper{
+    margin-right:20px;
 
     #trans-btn{
 
       &:hover{
         cursor:pointer;
+        font-weight:600;
       }
     }
 
@@ -206,26 +245,6 @@ nav {
 
 }
 
- #nav-header{
-   position: fixed;
-   left: 0;
-   margin: 0;
-   padding: 0;
-   width: 100%;
-   height: 80px;
-   z-index:9;
- 	}
-  header {
-      position: fixed;
-      left: 0;
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 80px;
-      transition: all 0.3s linear;
-      -moz-transition: all 0.3s linear;
-      -webkit-transition: all 0.3s linear;
-  }
   .default {
       top: 0;
   }
@@ -233,22 +252,101 @@ nav {
       top: -85px;
   }
 
+
+  /* ------- MOBILE NAVIGATION --------*/
+
+.overlay{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color:rgb(0,0,0);
+  background-color:rgba(0,0,0,0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  .overlay-content{
+    position:relative;
+    top:25%;
+    width:100%;
+    text-align:center;
+    margin-top:30px;
+    a{
+      display:block;
+      text-decoration:none;
+      font-size:2em;
+    }
+    #closebtn{
+      position:absolute;
+      top:20px;
+      right:45px;
+      font-size:60px;
+    }
+    .overlay-item{
+      color:white;
+      span{
+        font-size:1.2em;
+      }
+    }
+
+  }
+}
+
+
   /*------------------ RESPONSIVE NAV STYLES ---------*/
+
+  @include media("screen", ">=xl"){
+    nav{
+      // padding-bottom:15px;
+      ul{
+        width:1230px;
+      }
+    }
+  }
 
     @include media("screen", "<=lg"){
       nav {
+
+        .logo-wrapper{
+          #svg-logo{
+            width:120px;
+          }
+        }
 
         ul{
           font-size:.9em;
           padding:0 20px;
         }
-        .wrapper{
-          width:1000px;
+        nav{
+          ul{
+            width:100%;
+          }
+
+          .nav-icons{
+            margin:39px 0 15px 0;
+          }
+        }
+      }
+    }
+
+    @include media('screen', "<=nav-mid"){
+      nav{
+        ul{
+          font-size:.8em;
         }
       }
     }
 
   @include media("screen", "<=md"){
+
+    header{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    top:0;
+    }
     .logo-wrapper{
       justify-content: center;
 
@@ -266,13 +364,6 @@ nav {
       }
     }
 
-    // nav #menu-toggle:checked ~ ul {
-    //   opacity: 1;
-    //   height: 100vh;
-    //   visibility: visible;
-    //   padding: 10px;
-    //   border: 5px solid #60B1DE;
-    // }
     nav .label-toggle {
       cursor: pointer;
       display: block;
@@ -303,19 +394,40 @@ nav {
       }
     }
 
-  }
-
-  @include media("screen", "<=sm"){
-
     nav{
-      height:20px;
+
       .wrapper{
         width:90vw;
 
       }
+      .logo-wrapper{
+        #svg-logo{
+          width:250px;
+        }
+      }
     }
 
+}
+
+  @include media("screen", "<=sm"){
+
+
+    nav{
+      height:20px;
+
+      .wrapper{
+        width:90vw;
+
+      }
+
+      .logo-wrapper{
+        #svg-logo{
+          width:222px;
+        }
+      }
+
+    }
+
+
+
   }
-
-
-/* ------------------  Story Page ------------------ */

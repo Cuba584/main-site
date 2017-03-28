@@ -4,3 +4,4 @@ node_modules/
 client_secret.json
 .env
 .com.apple.timemachine.supported
+public/assets/audio/

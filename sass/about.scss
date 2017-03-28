@@ -5,6 +5,16 @@ $text-gray: #070707;
 $medium-gray: #3C3C3C;
 $light-gray: #efefef;
 
+.center-wrapper{
+  display:flex;
+  justify-content: center;
+  margin-top:0;
+}
+
+.about.change-bg{
+  width:20%!important;
+}
+
 ul {
   margin-top: 15px;
 }
@@ -152,18 +162,6 @@ a:hover, a:focus {
     padding-left: 5px;
   }
 }
-//
-// @media screen and (max-width: 992px) {
-//   .mix {
-//     margin-left: 15%;
-//   }
-// }
-//
-// @media screen and (max-width: 575px) {
-//   .mix {
-//     margin-left: 15%;
-//   }
-// }
 
 @media screen and (max-width: 720px) {
   .team-nav {

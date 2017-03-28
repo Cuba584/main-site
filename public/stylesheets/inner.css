@@ -3,9 +3,6 @@
 .inner {
   /*------standard classes------*/
   /*------page ids------*/ }
-  .inner #cinemagraph {
-    width: 100vw;
-    margin-top: 95px; }
   .inner .max-width {
     max-width: 65%; }
   .inner .center-wrapper {
@@ -16,8 +13,6 @@
     text-align: center;
     max-width: 40%;
     font-weight: 300; }
-  .inner .inner-hero img {
-    width: 100vw; }
   .inner .byline-box {
     display: flex;
     margin-top: 23pt; }
@@ -88,6 +83,32 @@
     font-size: 1.5em;
     font-weight: 300;
     margin: .5em 0 0 0; }
+  #inner-title-box:hover {
+    cursor: default; }
+
+.vimeo-wrapper {
+  background-color: #000;
+  width: 100%;
+  padding-bottom: 56.25%;
+  position: relative;
+  margin: 20vh 0; }
+  .vimeo-wrapper iframe {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%; }
+
+#cinemagraph {
+  width: 100vw;
+  margin-top: 70px; }
+
+.about-cinema-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .about-cinema-wrapper video {
+    margin-top: 70px; }
 
 /*------responsive styles------*/
 @media screen and (min-width: 2400px) {
@@ -95,19 +116,19 @@
     height: 100%;
     width: auto; } }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1280px) {
   .inner figure .inner-image {
     height: 80vh;
     width: auto; } }
 
-@media screen and (max-width: 1012px) {
+@media screen and (max-width: 1020px) {
   .container {
     margin-top: 68px; }
   .inner .byline-box {
     margin-top: 15pt; }
     .inner .byline-box .byline-item p {
       line-height: 1em; }
-  .inner .center-wrapper {
+  .inner #title-box {
     margin-top: -2%; }
   .inner #inner-intro {
     max-width: 80%;
@@ -122,11 +143,12 @@
   #inner-title-box {
     width: 100%;
     margin-top: 0; }
-  h1 {
-    font-size: 2.1em;
-    padding-bottom: .25em; }
-  h3 {
-    font-size: 1.25em; } }
+    #inner-title-box h1 {
+      font-size: 2.8em;
+      padding-bottom: .1em; }
+    #inner-title-box h3 {
+      font-size: 1.1em;
+      margin: 0; } }
 
 @media screen and (max-width: 570px) {
   .inner #cinemagraph {
