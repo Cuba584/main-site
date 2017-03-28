@@ -8,11 +8,11 @@
   },
   "header": {
     "text": "Skate Libre",
-    "Subtitle": "Exploring freedom through a non-traditional sport"
+    "subtitle": "Exploring freedom through a non-traditional sport"
   },
   "reporters": [
     {
-      "name": "Delanie McGuire"
+      "name": "DeLaney McGuire"
     }
   ],
   "videographers": [
@@ -34,7 +34,23 @@
   "text": [
     {
       "type": "text",
-      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum nibh imperdiet dolor maximus tempor. Morbi at dui et sem semper rhoncus eget vel ex. Nulla ante mi, maximus quis risus ut, egestas gravida lacus. Donec ornare finibus lectus gravida egestas. Cras lobortis ultricies massa, id luctus risus semper vitae. Suspendisse sodales mauris sed ex malesuada porta. Praesent a commodo mi, ut convallis lacus. Vivamus rhoncus velit vel arcu efficitur, id blandit libero dictum. Etiam vitae velit turpis. Nunc quis imperdiet erat. Nulla sodales eros at erat lacinia eleifend. Aliquam erat volutpat. Maecenas enim lectus, facilisis ac suscipit a, dictum nec dui. Sed in lectus aliquet, tristique sem id, convallis neque."
+      "value": "On Sunday afternoon El Prado, the smooth, stone promenade that divides Old and Central Havana, is full of life. Painters line the walkway, dipping brushes into the bright yellows and blues that make their art Cuban in the eyes of tourists. Other craftsmen have set up tables and chairs in the middle of the promenade, where they carve small wooden statues or thread colorful beads into bracelets. Ahead, a little closer to the seaside, small children play leapfrog and chase each other on bikes and scooters. Parents and strangers crowd around as a 10-year-old boy lifts and twirls his dance partner, a small girl wearing flat ballet shoes and her hair in a tight bun. She holds her form like someone who’s been dancing for longer than she’s been alive. The air carries the timba beat –trombones, conga drums and the clap, clap… clap of the clave – along with the smell of the Atlantic Ocean toward the heart of the city."
+    },
+    {
+      "type": "text",
+      "value": "A teenager on pink roller blades maneuvers through the dance performance, stopping at a bench crowded with tattooed teens sharing a cigarette. In Cuba, tattooing is illegal in all circumstances, and, without a legal age restriction, it’s not uncommon to see older teens with tattoos they got from an makeshift parlor set up in a dilapidated Havana apartment. At their feet, skateboards scatter the ground. The sound of silicone wheels slapping the marble surface overwhelms the place as skaters land ollies and kickflips and toss their boards onto the hard floor. An 8-year-old boy skates up to a group of guys in their early 20’s, and daps them up like old friends. Age doesn’t seem to be discriminating factor here, and neither does style. Skaters in black share the street with Hawaiian shirts and gym shorts. Here, punk and rock and rasta are all familia. They’ve come to El Prado for a competition, many with twisted ankles or broken boards, happy just to be there witnessing the action."
+    },
+    {
+      "type": "text",
+      "value": "The noise gradually fades and the street clears but for two lone skaters: a tall one with dyed blonde curls peaking out from under a black snapback, and a 12-year-old rolling behind him. All the commotion has stopped, and an ominous quiet sets in. Skaters sit along the walls conversing in hushed voices as two men wearing stiff, gray uniforms and old-fashioned barrettes stroll through El Prado. They walk with purpose, examining the throng of skaters with suspicion, pausing only to speak to the two rebels who continue skating. Finally, they walk away, the two young skaters trailing leisurely behind in a cooperative, but unenthusiastic manner. Just like that, everything goes back to normal. The skaters pile back onto the street, the loud bangs and chatter and laughter filling the air once more. None of the skaters mention the disappearance of their friends or seem concerned about their welfare. And, when two more are taken away 30 minutes later, the reaction is equally indifferent."
+    },
+    {
+      "type": "text",
+      "value": "“When you see police, you sit,” said Junnior Gilberto Terré, 20, who’s perched on a concrete bench rolling a skateboard back and forth with his leg, which is bandaged at the knee. Junnior has come to El Prado to visit friends, chain smoke cigarettes and maybe try out a few tricks now that his knee is healing. It’s been more than a year since he injured it landing a faulty jump and he’s eager to get back in the air."
+    },
+    {
+      "type": "text",
+      "value": "Junnior’s face becomes pensive, his reddish brows scrunch together and his pale cheeks go hollow as he takes a long drag from his cigarette and thinks about his future. He’s been skating since he was 16 years old. Four years of heelflips and boardslides and elbow scrapes and strained muscles. Four years of falling and getting back up and being arrested and paying fines. Like most skaters his age, he dreams of sponsors, the X Games and prize money. But for skaters in his country, it’s likely to remain just that: a dream. In Cuba, you can make a living as a professional boxer, baseball player or ballerina, but for a non-traditionally Cuban sport like skating, there’s no money to be made. Skaters here are going against the grain. The act of skating itself is an expression of freedom. It demonstrates this generation’s ability to break free of the strict traditions found in Cuba. However, despite everything they have overcome in order to skate, they have a long way to go before their dreams of going pro and having the support of Cuban society can become a reality."
     },
     {
       "type": "video",
@@ -49,17 +65,33 @@
     {
       "type": "subhead",
       "value": {
-        "text": "A broken down ferry"
+        "text": "Pushing the Limits"
       }
     },
     {
       "type": "text",
-      "value": "Etiam condimentum porta quam ut luctus. Vestibulum condimentum, libero et efficitur faucibus, lacus erat luctus elit, a commodo turpis tellus nec odio. Cras at dui est. Pellentesque eget orci tortor. Aliquam sagittis augue vitae mi imperdiet, sit amet eleifend nisl egestas. Duis elementum porttitor enim ornare pretium. Suspendisse aliquam elit vel libero ultricies efficitur. Nam non vestibulum felis. Sed cursus nec justo sit amet eleifend. Etiam placerat, lectus ut semper sodales, risus diam mollis mi, accumsan sodales arcu lacus id nulla. Integer erat ante, dapibus a risus volutpat, vestibulum pulvinar orci. Vivamus condimentum cursus malesuada. Sed justo sem, aliquam sit amet tincidunt porttitor, posuere in justo. Nam consequat ipsum in lacinia aliquet. Nulla est neque, aliquet et laoreet consectetur, imperdiet a nisi."
+      "value": "Seventeen-year-old Cristian Alonzo Stewart traded a pullover, a backpack and a pair of shoes for his first skateboard. And it wasn’t a good one. Cuban skaters can’t simply ride to the skate shop and buy a new pair of Vans when theirs begin to fall apart, or replace the deck they broke grinding on a rail. In Cuba, there are no skate shops. Equipment is usually donated by organizations from other countries and then bartered for and passed around among skaters."
+    },
+    {
+      "type": "text",
+      "value": "“It’s not like other countries where you can buy shoes or skateboards very easily,” Cristian said. “You need to work hard. Or if you’re lucky and your parents have money you can buy different shoes all the time, but many people here don’t have that possibility.”"
+    },
+    {
+      "type": "text",
+      "value": "But even if a skater can get hold of the equipment, learning to skate is another challenge. With just ONE [?] skate park in the entire country, there’s no place to cultivate skate talent. In the United States, if skaters want to learn to slide down a stair railing, they start at the skate park, where they learn to jump onto lower rails and gradually improve until they’re ready for the big one. But here, they go straight for the big one and hope they don’t break a bone or, more importantly, a board.  Additionally, there are no professional skaters in the country or other experts to teach skaters advanced moves. They mostly learn from each other, looking up to the best of their peers, like Fabian Lopez and Alvaro Lores who are sponsored by Toda Fuerza, an organization designed specifically to support Havana-based skateboarders."
+    },
+    {
+      "type": "text",
+      "value": "El Prado’s flat, polished surface makes it one of the best places to skate in all of Havana. It’s also one of the countless places in this city where skateboarding is prohibited. “The police will ban us one day, and then they will be fine with us the next day,” Cristian said. “They don’t get much respect from skateboarders.” Most of the skaters here have been reprimanded, fined and taken to jail numerous times. But, to them, the worst punishment is a broken board. When the police confiscate a skateboard and return it in two pieces, the skater will have to wait months before a foreigner comes to donate another deck or until he or she has enough saved up to barter for a new board."
+    },
+    {
+      "type": "text",
+      "value": "Talk about jail… police scolding, some days yes some days no... break boards when take to jail"
     },
     {
       "type": "pullquote",
       "value": {
-        "text": "Donec in euismod lectus, eget sollicitudin ante. Cras porta sapien quis finibus pulvinar.",
+        "text": "Most of the skaters here have been reprimanded, fined and taken to jail numerous times. But, to them, the worst punishment is a broken board.",
         "attribution": "Juan Doe"
       }
     },
@@ -68,32 +100,62 @@
       "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
     },
     {
-      "type": "text",
-      "value": "Suspendisse potenti. Quisque luctus faucibus dolor quis egestas. Integer fermentum arcu nulla, id finibus diam molestie condimentum. Aenean ullamcorper ultrices tellus quis vulputate. Proin dictum sem nisi, id iaculis mauris vehicula vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero arcu, bibendum ac arcu non, tincidunt ullamcorper leo."
+      "type": "subhead",
+      "value": {
+        "text": "Jumping the Barriers"
+      }
     },
     {
       "type": "text",
-      "value": "Quisque ultrices, arcu sed lobortis ullamcorper, purus ex egestas justo, at faucibus orci diam et quam. Nullam volutpat ullamcorper arcu eu imperdiet. Maecenas euismod libero eget pharetra pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra neque ut magna semper, id dictum eros consequat. Nullam mollis neque ac odio pellentesque sagittis. Proin ornare nunc sed velit lobortis, ut convallis sapien efficitur. Donec elementum felis ut ligula convallis, vel faucibus arcu tempor. Aenean mollis id ante sed ornare. Mauris non porta magna, eu lacinia mauris. Nulla facilisi."
+      "value": "So they wait for foreigners to visit and leave them with a new board and some good tips, and they use up their limited Internet access searching skate tutorials on YouTube. [MENTION PACKET HERE]"
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "The Original Revolutionaries & The New Rebels"
+      }
     },
     {
       "type": "text",
-      "value": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec dapibus mi et rutrum hendrerit. Quisque orci nisl, ornare id eros at, posuere accumsan purus. Donec dignissim magna id tincidunt faucibus. Proin venenatis justo ut metus vehicula sagittis. Nulla facilisi. Nunc hendrerit ornare justo, in imperdiet ligula pharetra quis. Duis mauris velit, rutrum mollis vestibulum ac, maximus sed purus."
+      "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
     },
     {
       "type": "text",
-      "value": "Donec pulvinar arcu odio, sodales dignissim neque varius eget. Vivamus pretium risus sit amet ornare efficitur. Nullam ullamcorper turpis quis nisi molestie faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras pharetra eros ut augue convallis cursus. Mauris pharetra dolor quis libero pellentesque finibus. Nunc mollis consectetur enim, eget pellentesque quam tristique non. Maecenas id faucibus enim. Nunc feugiat est vitae vulputate condimentum. Nulla feugiat lectus magna, id dignissim massa elementum at. Phasellus turpis diam, mollis varius commodo sed, efficitur ut orci."
+      "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "Finding a New Wave on Concrete"
+      }
     },
     {
       "type": "text",
-      "value": "Nam scelerisque massa ut dolor maximus consectetur. Quisque maximus in turpis eu condimentum. Donec eget laoreet augue, et ullamcorper enim. Mauris eu elit at justo mattis mattis eu at mauris. Praesent cursus fringilla quam eu hendrerit. Vestibulum vel enim vel tellus vehicula faucibus et eget leo. Nullam facilisis ante sed diam pulvinar, at hendrerit augue viverra. Curabitur in orci aliquam, imperdiet tortor et, fringilla lectus. Morbi dapibus in mauris non fringilla. Morbi urna urna, tempus eu lacinia at, tempus et nisl. Fusce in ex elementum, eleifend magna quis, ultrices neque. Suspendisse imperdiet at sapien sagittis gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam viverra consectetur tortor, vitae tempus mauris volutpat et. Nunc auctor magna a nisl vulputate, vitae consequat justo euismod. Donec hendrerit lorem id volutpat euismod."
+      "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
     },
     {
       "type": "text",
-      "value": "Ut vehicula tortor id leo mattis, tincidunt pharetra lacus dapibus. Aliquam quis sem metus. Nulla volutpat dignissim ex nec tempor. Nulla facilisi. Integer congue aliquet mi in sollicitudin. Vestibulum ut sem tempus, luctus arcu at, faucibus mi. Nam in quam tortor. Ut euismod ornare maximus. Aenean finibus, neque sit amet ullamcorper tempor, ipsum magna dictum orci, sit amet rhoncus augue dolor eget ligula. Cras sem tellus, egestas sit amet risus dictum, sagittis feugiat massa. Aenean efficitur justo eu mauris facilisis, non mollis quam euismod. Vivamus vitae fermentum arcu. Praesent sagittis efficitur neque, ultrices facilisis nibh feugiat non. Vestibulum sed arcu ut velit ullamcorper pulvinar."
+      "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "Closing Scene"
+      }
     },
     {
       "type": "text",
-      "value": "Vestibulum dapibus gravida interdum. Etiam convallis feugiat urna, vel fermentum libero vestibulum quis. Sed quam ipsum, dapibus at suscipit eget, placerat eu lorem. Nunc vulputate enim eros, ut consequat diam scelerisque non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ornare dolor vel ante sodales bibendum at sed dolor. Vestibulum at purus euismod, suscipit lorem eleifend, varius massa. Nullam vel vestibulum turpis, ut pulvinar lorem."
+      "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
+    },
+    {
+      "type": "text",
+      "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/paquete.ejs"
+      }
     }
   ]
 }
