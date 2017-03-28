@@ -1,5 +1,13 @@
 /* ------------------ Global Styles ------------ */
 /*change page colors here!*/
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 0; }
+
+.about.change-bg {
+  width: 20% !important; }
+
 ul {
   margin-top: 15px; }
 

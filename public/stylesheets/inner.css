@@ -83,6 +83,8 @@
     font-size: 1.5em;
     font-weight: 300;
     margin: .5em 0 0 0; }
+  #inner-title-box:hover {
+    cursor: default; }
 
 .vimeo-wrapper {
   background-color: #000;
@@ -98,9 +100,11 @@
     height: 100%; }
 
 #cinemagraph {
-  width: 100vw; }
+  width: 100vw;
+  margin-top: 70px; }
 
 .about-cinema-wrapper {
+  width: 100%;
   display: flex;
   justify-content: center; }
   .about-cinema-wrapper video {
@@ -114,7 +118,7 @@
     margin-top: 15pt; }
     .inner .byline-box .byline-item p {
       line-height: 1em; }
-  .inner .center-wrapper {
+  .inner #title-box {
     margin-top: -2%; }
   .inner #inner-intro {
     max-width: 80%;
@@ -129,11 +133,12 @@
   #inner-title-box {
     width: 100%;
     margin-top: 0; }
-  h1 {
-    font-size: 2.1em;
-    padding-bottom: .25em; }
-  h3 {
-    font-size: 1.25em; } }
+    #inner-title-box h1 {
+      font-size: 2.8em;
+      padding-bottom: .1em; }
+    #inner-title-box h3 {
+      font-size: 1.1em;
+      margin: 0; } }
 
 @media screen and (max-width: 570px) {
   .inner #cinemagraph {

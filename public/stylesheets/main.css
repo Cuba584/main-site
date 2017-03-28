@@ -7,6 +7,9 @@ further down on the page or in any of the other .SCSS files.
 .hiphop.subhead {
   color: #F1861B; }
 
+.hiphop.overlay-item span {
+  color: #F1861B; }
+
 .hiphop.change-bg {
   background: url("textures/hiphop.JPG") no-repeat;
   background-size: cover;
@@ -25,6 +28,9 @@ further down on the page or in any of the other .SCSS files.
   background: #F1861B; }
 
 .dorian.subhead {
+  color: #9BD5BB; }
+
+.dorian.overlay-item span {
   color: #9BD5BB; }
 
 .dorian.change-bg {
@@ -47,6 +53,9 @@ further down on the page or in any of the other .SCSS files.
 .skate.subhead {
   color: #A089CE; }
 
+.skate.overlay-item span {
+  color: #A089CE; }
+
 .skate.change-bg {
   background: url("textures/skate.JPG") no-repeat;
   background-size: cover;
@@ -65,6 +74,9 @@ further down on the page or in any of the other .SCSS files.
   background: #A089CE; }
 
 .family.subhead {
+  color: #F0BD53; }
+
+.family.overlay-item span {
   color: #F0BD53; }
 
 .family.change-bg {
@@ -87,6 +99,9 @@ further down on the page or in any of the other .SCSS files.
 .harbor.subhead {
   color: #6EA5C2; }
 
+.harbor.overlay-item span {
+  color: #6EA5C2; }
+
 .harbor.change-bg {
   background: url("textures/harbor.JPG") no-repeat;
   background-size: cover;
@@ -103,6 +118,29 @@ further down on the page or in any of the other .SCSS files.
 .harbor.nav-title:hover:after {
   width: 100%;
   background: #6EA5C2; }
+
+.about.subhead {
+  color: #997A65; }
+
+.about.overlay-item span {
+  color: #997A65; }
+
+.about.change-bg {
+  background: url("textures/about.JPG") no-repeat;
+  background-size: cover;
+  color: #997A65; }
+
+.about.nav-title:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width .8s ease, background-color .8s ease; }
+
+.about.nav-title:hover:after {
+  width: 100%;
+  background: #997A65; }
 
 html {
   font-size: .7em; }
@@ -242,6 +280,40 @@ nav {
 .fixed {
   top: -85px; }
 
+/* ------- MOBILE NAVIGATION --------*/
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s; }
+  .overlay .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px; }
+    .overlay .overlay-content a {
+      display: block;
+      text-decoration: none;
+      font-size: 2em; }
+    .overlay .overlay-content #closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px; }
+    .overlay .overlay-content .overlay-item {
+      color: white; }
+      .overlay .overlay-content .overlay-item span {
+        font-size: 1.2em; }
+
 /*------------------ RESPONSIVE NAV STYLES ---------*/
 @media screen and (min-width: 2400px) {
   nav ul {
@@ -265,7 +337,8 @@ nav {
 @media screen and (max-width: 1020px) {
   header {
     -webkit-box-shadow: none;
-    box-shadow: none; }
+    box-shadow: none;
+    top: 0; }
   .logo-wrapper {
     justify-content: center; }
     .logo-wrapper #svg-logo {
@@ -297,12 +370,10 @@ nav {
     nav .label-toggle .change .bar3 {
       -webkit-transform: rotate(45deg) translate(-8px, -8px);
       transform: rotate(45deg) translate(-8px, -8px); }
-  nav {
-    height: 20px; }
-    nav .wrapper {
-      width: 90vw; }
-    nav .logo-wrapper #svg-logo {
-      width: 300px; } }
+  nav .wrapper {
+    width: 90vw; }
+  nav .logo-wrapper #svg-logo {
+    width: 250px; } }
 
 @media screen and (max-width: 570px) {
   nav {
