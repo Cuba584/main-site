@@ -153,12 +153,6 @@
       "value": "History of Regla – old history, new history, demography make up, income, race, the *money used here is different – maybe introduce CUCs in the beginning and talk about monera here"
     },
     {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/poem.ejs"
-      }
-    },
-    {
       "type": "text",
       "value": "Donec pulvinar arcu odio, sodales dignissim neque varius eget. Vivamus pretium risus sit amet ornare efficitur. Nullam ullamcorper turpis quis nisi molestie faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras pharetra eros ut augue convallis cursus. Mauris pharetra dolor quis libero pellentesque finibus. Nunc mollis consectetur enim, eget pellentesque quam tristique non. Maecenas id faucibus enim. Nunc feugiat est vitae vulputate condimentum. Nulla feugiat lectus magna, id dignissim massa elementum at. Phasellus turpis diam, mollis varius commodo sed, efficitur ut orci."
     },

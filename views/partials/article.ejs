@@ -51,11 +51,8 @@
     <% for (i in body["text"]) {
       if (body["text"][i]["type"] == "text") {%>
     <p> <%=body["text"][i]["value"] %> </p>
-
     <%} else if (body["text"][i]["type"] == "subhead") {%>
-
       <h4 class="subhead <%= body["master-class"]["class"] %>"><%=body["text"][i]["value"]["text"] %></h4>
-
     <%} else if (body["text"][i]["type"] == "video") {%>
       <div id="video-top"></div>
     </div>
@@ -80,16 +77,13 @@
     </div>
   </section>
     <div class="pull-quote-box change-bg <%= body["master-class"]["class"] %>">
-
       <h3 class="pull-quote">
         <hr> <span><%=body["text"][i]["value"]["text"] %></span> </h3>
     </div>
     <section class="center-wrapper">
       <div class="max-width">
-
     <% } else if (body["text"][i]["type"] == "image") {%>
     </div>
-
   </section>
     <figure>
       <img class="inner-image" src='assets/images/<%=body["text"][i]["value"]["src"] %> ' alt='
