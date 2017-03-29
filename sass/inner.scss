@@ -5,7 +5,7 @@
 
 /*------standard classes------*/
   .max-width{
-    max-width:65%;
+    max-width:55%;
   }
 
   .center-wrapper{
@@ -15,6 +15,12 @@
 
 /*------page ids------*/
 
+  // .inner {
+  //   .pull-quote-box {
+  //     width: 85vw;
+  //     //max-width: 100vw;
+  //   }
+  // }
 
   #inner-intro { /*inherits from h3*/
     text-align:center;
@@ -103,7 +109,6 @@
   }
 
   .subhead{
-    background-color:white;
     font-weight:500;
     font-size:1.675em;
     margin:1.5em 0 0 0;
@@ -133,12 +138,22 @@
 
 }
 
+.vimeo-container {
+  padding: 5% 0;
+  transition: 2s background-color;
+}
+
+#video-bottom {
+  position: absolute;
+  margin-top: 60%;
+}
+
 .vimeo-wrapper{
     background-color: #000;
-    width: 100%;
+    width: 70%;
     padding-bottom: 56.25%;
     position: relative;
-    margin:20vh 0;
+    margin:0 auto;
 iframe {
     position: absolute;
     width: 100%;
@@ -163,6 +178,41 @@ iframe {
 }
 
 /*------responsive styles------*/
+
+ @include media("screen", ">=xl") {
+   .inner {
+     figure {
+       .inner-image {
+         height: 100%;
+         width: auto;
+       }
+     }
+   }
+ }
+
+ @include media("screen", "<=nav-mid"){
+   .inner {
+     figure {
+       .inner-image {
+         height: 100vh;
+         width: auto;
+       }
+     }
+   }
+ }
+
+@include media("screen", "<=lg"){
+  .inner {
+    figure {
+      .inner-image {
+        // height: 100%;
+        // width: 85vw;
+        height: 80vh;
+        width: auto;
+      }
+    }
+  }
+}
 
 @include media("screen", "<=md") {
     .container {
@@ -197,6 +247,9 @@ iframe {
         width: 88vw;
         //max-width: 100vw;
       }
+
+
+
     } // inner
 
     #inner-title-box {
@@ -221,6 +274,35 @@ iframe {
   .inner{
     #cinemagraph{
       margin-top:0;
+    }
+
+    figure {
+      flex-wrap: wrap;
+      margin: 0;
+      .inner-image {
+        width: 100vw;
+        height: 100%;
+      }
+    }
+
+    figcaption {
+      max-width: 95%;
+      .fig-descr {
+        margin: 0;
+      }
+      .fig-attr {
+        margin: 0;
+        padding-top: 5px;
+      }
+    }
+
+    .pull-quote-box{
+      width: 100vw;
+      margin: 0;
+    }
+
+    .pull-quote {
+      font-size: 1em;
     }
   }
 }

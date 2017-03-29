@@ -1,33 +1,56 @@
 .poem-wrapper {
-  margin-top: 10%;
-  margin-left: 10%;
-  margin-right: 10%; }
+  margin-top: 3%;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7%;
+ }
   .poem-wrapper p {
-    font-style: italic; }
+    line-height: 1.3;
+    font-family: 'Montserrat', sans-serif;}
   .poem-wrapper img {
-    width: 40vw;
+    width: 35vw;
     margin-right: 10%; }
   .poem-wrapper .title {
-    text-align: center; }
+    text-align: center;
+  color: #6EA5C2;
+font-size: 1.5; }
   .poem-wrapper .poem-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 30px; }
   .poem-wrapper #section-0, .poem-wrapper #section-1, .poem-wrapper #section-2, .poem-wrapper #section-3, .poem-wrapper #section-4, .poem-wrapper #section-5, .poem-wrapper #section-6 {
-    margin-right: 0;
-    margin-left: 50px;
+    width: 400px;
     opacity: 0;
-    text-align: right; }
+    text-align: left;
+    margin-left: 5%;
+    margin-top: -13px;}
   .poem-wrapper #section-0-img, .poem-wrapper #section-1-img, .poem-wrapper #section-2-img, .poem-wrapper #section-3-img, .poem-wrapper #section-4-img, .poem-wrapper #section-5-img, .poem-wrapper #section-6-img {
-    opacity: 0; }
-  .poem-wrapper .fadeIn {
-    -webkit-animation: fadeIn 4s;
+    opacity: 0;
+    }
+  .poem-wrapper .fadeInLeft {
+    -webkit-animation: fadeInLeft 2.5s;
     /* Safari 4+ */
-    -moz-animation: fadeIn 4s;
+    -moz-animation: fadeInLeft 2.5s;
     /* Fx 5+ */
-    -o-animation: fadeIn 4s;
+    -o-animation: fadeInLeft 2.5s;
     /* Opera 12+ */
-    animation: fadeIn 4s;
+    animation: fadeInLeft 2.5s;
     /* IE 10+, Fx 29+ */
     animation-fill-mode: forwards; }
+
+    .poem-wrapper .fadeInRight {
+      -webkit-animation: fadeInRight 2.5s;
+      /* Safari 4+ */
+      -moz-animation: fadeInRight 2.5s;
+      /* Fx 5+ */
+      -o-animation: fadeInRight 2.5s;
+      /* Opera 12+ */
+      animation: fadeInRight 2.5s;
+      /* IE 10+, Fx 29+ */
+      animation-fill-mode: forwards; }
+
+.poem-wrapper .adjust{
+  text-align: center;
+}

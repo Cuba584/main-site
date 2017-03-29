@@ -4,7 +4,7 @@
   /*------standard classes------*/
   /*------page ids------*/ }
   .inner .max-width {
-    max-width: 65%; }
+    max-width: 55%; }
   .inner .center-wrapper {
     display: flex;
     justify-content: center; }
@@ -64,7 +64,6 @@
     margin-top: 0;
     border-style: none; }
   .inner .subhead {
-    background-color: white;
     font-weight: 500;
     font-size: 1.675em;
     margin: 1.5em 0 0 0; }
@@ -86,12 +85,20 @@
   #inner-title-box:hover {
     cursor: default; }
 
+.vimeo-container {
+  padding: 5% 0;
+  transition: 2s background-color; }
+
+#video-bottom {
+  position: absolute;
+  margin-top: 60%; }
+
 .vimeo-wrapper {
   background-color: #000;
-  width: 100%;
+  width: 70%;
   padding-bottom: 56.25%;
   position: relative;
-  margin: 20vh 0; }
+  margin: 0 auto; }
   .vimeo-wrapper iframe {
     position: absolute;
     width: 100%;
@@ -111,6 +118,21 @@
     margin-top: 70px; }
 
 /*------responsive styles------*/
+@media screen and (min-width: 2400px) {
+  .inner figure .inner-image {
+    height: 100%;
+    width: auto; } }
+
+@media screen and (max-width: 1110px) {
+  .inner figure .inner-image {
+    height: 100vh;
+    width: auto; } }
+
+@media screen and (max-width: 1280px) {
+  .inner figure .inner-image {
+    height: 80vh;
+    width: auto; } }
+
 @media screen and (max-width: 1020px) {
   .container {
     margin-top: 68px; }
@@ -142,4 +164,22 @@
 
 @media screen and (max-width: 570px) {
   .inner #cinemagraph {
-    margin-top: 0; } }
+    margin-top: 0; }
+  .inner figure {
+    flex-wrap: wrap;
+    margin: 0; }
+    .inner figure .inner-image {
+      width: 100vw;
+      height: 100%; }
+  .inner figcaption {
+    max-width: 95%; }
+    .inner figcaption .fig-descr {
+      margin: 0; }
+    .inner figcaption .fig-attr {
+      margin: 0;
+      padding-top: 5px; }
+  .inner .pull-quote-box {
+    width: 100vw;
+    margin: 0; }
+  .inner .pull-quote {
+    font-size: 1em; } }

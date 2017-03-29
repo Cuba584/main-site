@@ -1,0 +1,215 @@
+@import '_include-media';
+
+.paquete {
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg {
+  position: relative;
+  // opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+}
+.bgimg-1 {
+  background-image: url("../assets/images/paquete/IMG_1050.jpg");
+  min-height: 100%;
+  height: 100vh;
+}
+
+.bgimg-2 {
+  background-image: url("../assets/images/paquete/luis1.jpg");
+  min-height: 100%;
+  height: 100vh;
+}
+
+.bgimg-3 {
+  background-image: url("/assets/images/paquete/madam.jpg");
+  min-height: 100%;
+}
+
+.bgimg-4 {
+  background-image: url("../assets/images/paquete/gabriella1.jpg");
+  min-height: 100%;
+}
+
+.bgimg-5 {
+  background-image: url("../assets/images/paquete/alex3.jpg");
+  min-height: 100%;
+}
+
+.bgimg-6 {
+  background-image: url("../assets/images/paquete/IMG_1050.jpg");
+  min-height: 100%;
+}
+
+.bgimg-7 {
+  background-image: url("../assets/images/paquete/DSC05765.jpg");
+  min-height: 100%;
+}
+
+.bgimg-8 {
+  background-image: url("../assets/images/paquete/DSC05767.jpg");
+  min-height: 100%;
+}
+
+
+.bgimg-9 {
+  background-image: url("../assets/images/paquete/DSC05762.jpg");
+  min-height: 100%;
+}
+
+.bg-1 {
+  color: #777;
+  background-color: white;
+  text-align:center;
+  // padding:50px 80px;
+  padding: 25px 40px;
+  text-align: justify;
+}
+
+.bg {
+  color:#ddd;
+  background: url(textures/skate.JPG) no-repeat;
+  background-color:#282E34;
+  text-align:center;
+  padding: 25px 40px;
+  text-align: justify;
+}
+
+// .bg-3 {
+//   color:#ddd;
+//   background-color:#282E34;
+//   text-align:center;
+//   padding:25px 40px;
+//   text-align: justify;
+// }
+//
+// .bg-4 {
+//   color:#ddd;
+//   background-color:#282E34;
+//   text-align:center;
+//   padding:50px 80px;
+//   text-align: justify;
+// }
+
+.scrolling {
+  position: relative;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.border {
+  background-color: #000;
+  background: url(textures/skate.JPG) no-repeat;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.other-caption {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  width: 200px;
+  // width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+// #right-caption {
+//   left: 75%;
+//   margin-bottom: 10px;
+//   padding: 20px;
+// }
+
+.other-border {
+  background-color: #000;
+  background: url(textures/skate.JPG) no-repeat;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px;
+  font-size: 12px;
+}
+
+
+
+
+
+#white-words {
+  background-color: transparent;
+  font-size: 25px;
+  color: #f7f7f7;
+}
+
+
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.scrolling {
+  display: none;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-width: 1024px) {
+    .bgimg {
+        background-attachment: scroll;
+    }
+}
+
+@include media("screen", "<=md") {
+  #luis {
+    left: 75%;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+
+  .scrolling {
+    display: block;
+  }
+
+  .other-caption {
+    display: none;
+  }
+}
+
+@include media("screen", "<=sm") {
+  #luis {
+    left: 75%;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+
+  .bgimg {
+      background-attachment: scroll;
+  }
+
+  .scrolling {
+    display: block;
+  }
+
+  .other-caption {
+    display: none;
+  }
+
+}
+}
