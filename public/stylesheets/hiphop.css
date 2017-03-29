@@ -2,7 +2,7 @@
 /*change page colors here!*/
 #hiphop-box {
   display: flex;
-  height: 24.5vw;
+  height: 310px;
   margin-bottom: 100px; }
 
 .hiphop-panel {
@@ -33,7 +33,7 @@
   transform: rotateY(180deg); }
 
 .hiphop-panel img {
-  height: 50vh; }
+  height: 300px; }
 
 .hiphop-text {
   transform: rotateY(180deg);

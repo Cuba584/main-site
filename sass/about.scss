@@ -168,7 +168,25 @@ a:hover, a:focus {
   }
 }
 
+
 @include media("screen", "<=md") {
+.portfolio{
+  display:inline;
+}
+
+.about-social-icon{
+  display:inline;
+}
+
+@include media("screen", ">=xl"){
+  .team-nav{
+    ul{
+      padding:15px 20vw 15px 20vw;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
   .team-nav {
     ul{
       flex-direction: column;

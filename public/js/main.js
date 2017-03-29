@@ -1,6 +1,26 @@
 $(document).ready(function(){
   // $('#hidden-nav').hide();
 
+  var videoTop = $('#video-top').offset().top;
+  var videoHeight = $('#vimeo-wrap').outerHeight();
+  console.log(videoTop)
+  console.log(videoTop + (videoHeight / 2))
+
+  if ($(window).width() > 1020) {
+  $(window).scroll(function(event){
+    var scrollTop = $(this).scrollTop();
+    console.log(scrollTop)
+
+      if (scrollTop >= videoTop  - 200 && scrollTop <= videoTop + (videoHeight / 8)) {
+        $('body').css('background-color', '#000')
+      } else if (scrollTop > videoTop + (videoHeight / 8)) {
+        $('body').css('background-color', '#fff')
+      } else if (scrollTop < videoTop - 200) {
+        $('body').css('background-color', '#fff')
+      }
+  });
+} else {}
+
   $('#menu-toggle').click(function(){
     // $('#hidden-nav').show();
     document.getElementById("hidden-nav").style.width = "100%";
