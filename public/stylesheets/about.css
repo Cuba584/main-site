@@ -95,8 +95,10 @@ a:hover, a:focus {
 
 .about-container {
   text-align: center;
-  max-width: 95%;
-  margin-left: 2.5%; }
+  max-width: 65%;
+  margin-left: 17.5%; }
+  .about-container p {
+    text-align: left; }
 
 #about-title {
   font-weight: 400;
@@ -110,7 +112,7 @@ a:hover, a:focus {
 .divider h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  margin-top: 20px; }
+  margin: 20px; }
 
 #special-thanks {
   background-color: #efefef;
@@ -135,7 +137,7 @@ a:hover, a:focus {
   .team-nav ul {
     padding: 15px 20vw 15px 20vw; } }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1020px) {
   .team-nav ul {
     flex-direction: column;
     max-height: 80px;
@@ -147,4 +149,11 @@ a:hover, a:focus {
     text-decoration: underline; }
   .mix {
     margin-left: auto;
-    margin-right: auto; } }
+    margin-right: auto; }
+  .about-container {
+    text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+    .about-container p {
+      text-align: left; } }

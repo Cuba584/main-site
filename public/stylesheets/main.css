@@ -156,6 +156,9 @@ body {
   margin: 0;
   transition: 2s background-color; }
 
+body a {
+  cursor: pointer; }
+
 p {
   margin-bottom: 1.3em;
   line-height: 2em; }
