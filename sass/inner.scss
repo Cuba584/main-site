@@ -181,6 +181,17 @@ iframe {
    }
  }
 
+ @include media("screen", "<=nav-mid"){
+   .inner {
+     figure {
+       .inner-image {
+         height: 100vh;
+         width: auto;
+       }
+     }
+   }
+ }
+
 @include media("screen", "<=lg"){
   .inner {
     figure {

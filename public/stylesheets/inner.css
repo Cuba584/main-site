@@ -116,6 +116,11 @@
     height: 100%;
     width: auto; } }
 
+@media screen and (max-width: 1110px) {
+  .inner figure .inner-image {
+    height: 100vh;
+    width: auto; } }
+
 @media screen and (max-width: 1280px) {
   .inner figure .inner-image {
     height: 80vh;

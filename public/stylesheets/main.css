@@ -27,6 +27,11 @@ further down on the page or in any of the other .SCSS files.
   width: 100%;
   background: #F1861B; }
 
+.hiphop.nav-title.active-nav:after {
+  width: 100%;
+  background: #F1861B;
+  transition-property: none; }
+
 .dorian.subhead {
   color: #9BD5BB; }
 
@@ -49,6 +54,11 @@ further down on the page or in any of the other .SCSS files.
 .dorian.nav-title:hover:after {
   width: 100%;
   background: #9BD5BB; }
+
+.dorian.nav-title.active-nav:after {
+  width: 100%;
+  background: #9BD5BB;
+  transition-property: none; }
 
 .skate.subhead {
   color: #A089CE; }
@@ -73,6 +83,11 @@ further down on the page or in any of the other .SCSS files.
   width: 100%;
   background: #A089CE; }
 
+.skate.nav-title.active-nav:after {
+  width: 100%;
+  background: #A089CE;
+  transition-property: none; }
+
 .family.subhead {
   color: #F0BD53; }
 
@@ -95,6 +110,11 @@ further down on the page or in any of the other .SCSS files.
 .family.nav-title:hover:after {
   width: 100%;
   background: #F0BD53; }
+
+.family.nav-title.active-nav:after {
+  width: 100%;
+  background: #F0BD53;
+  transition-property: none; }
 
 .harbor.subhead {
   color: #6EA5C2; }
@@ -119,6 +139,11 @@ further down on the page or in any of the other .SCSS files.
   width: 100%;
   background: #6EA5C2; }
 
+.harbor.nav-title.active-nav:after {
+  width: 100%;
+  background: #6EA5C2;
+  transition-property: none; }
+
 .about.subhead {
   color: #997A65; }
 
@@ -141,6 +166,11 @@ further down on the page or in any of the other .SCSS files.
 .about.nav-title:hover:after {
   width: 100%;
   background: #997A65; }
+
+.about.nav-title.active-nav:after {
+  width: 100%;
+  background: #997A65;
+  transition-property: none; }
 
 html {
   font-size: .7em; }

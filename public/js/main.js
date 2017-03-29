@@ -1,6 +1,10 @@
 $(document).ready(function(){
   // $('#hidden-nav').hide();
 
+
+
+  $(currentNav).addClass('active-nav');
+
   $('#menu-toggle').click(function(){
     // $('#hidden-nav').show();
     document.getElementById("hidden-nav").style.width = "100%";

@@ -153,12 +153,6 @@
       "value": "History of Regla – old history, new history, demography make up, income, race, the *money used here is different – maybe introduce CUCs in the beginning and talk about monera here"
     },
     {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/poem.ejs"
-      }
-    },
-    {
       "type": "text",
       "value": "Donec pulvinar arcu odio, sodales dignissim neque varius eget. Vivamus pretium risus sit amet ornare efficitur. Nullam ullamcorper turpis quis nisi molestie faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras pharetra eros ut augue convallis cursus. Mauris pharetra dolor quis libero pellentesque finibus. Nunc mollis consectetur enim, eget pellentesque quam tristique non. Maecenas id faucibus enim. Nunc feugiat est vitae vulputate condimentum. Nulla feugiat lectus magna, id dignissim massa elementum at. Phasellus turpis diam, mollis varius commodo sed, efficitur ut orci."
     },
@@ -173,6 +167,20 @@
     {
       "type": "text",
       "value": "Vestibulum dapibus gravida interdum. Etiam convallis feugiat urna, vel fermentum libero vestibulum quis. Sed quam ipsum, dapibus at suscipit eget, placerat eu lorem. Nunc vulputate enim eros, ut consequat diam scelerisque non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ornare dolor vel ante sodales bibendum at sed dolor. Vestibulum at purus euismod, suscipit lorem eleifend, varius massa. Nullam vel vestibulum turpis, ut pulvinar lorem."
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "Regla in the news"
+      }
+    },
+    {
+      "type": "text",
+      "value": "In 1954 The New Yorker released an article about the small across-the-harbor district of Regla, Cuba. The article featured the following poem by Philip Murray, which invokes vivid illustrations of the Regla of the past. While economic and racial diversity has increased in Regla in the last sixty years, echoes of Murray's Regla resonate with the modern day municipality."
+    },
+    {
+      "type": "text",
+      "value": "Click the audio to hear Havana resident Luis Miguel Luis Miguel Yllobre Peña read Regla, Cuba by Philip Murray and explore the sights of Regla that have stood the test of time."
     }
   ]
 }
