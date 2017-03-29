@@ -181,12 +181,6 @@
     {
       "type": "text",
       "value": "Click the audio to hear Havana resident Luis Miguel Luis Miguel Yllobre Peña read Regla, Cuba by Philip Murray and explore the sights of Regla that have stood the test of time."
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/poem.ejs"
-      }
     }
   ]
 }

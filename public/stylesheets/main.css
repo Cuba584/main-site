@@ -153,7 +153,8 @@ body {
   font-weight: 300;
   line-height: 1.45;
   color: #000;
-  margin: 0; }
+  margin: 0;
+  transition: 2s background-color; }
 
 p {
   margin-bottom: 1.3em;

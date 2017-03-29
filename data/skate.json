@@ -3,7 +3,7 @@
     "class": "skate"
   },
   "cinemagraph": {
-    "src": "skate.mp4",
+    "src": "skate1.mp4",
     "attribution": "Claire Collins"
   },
   "header": {
@@ -150,12 +150,6 @@
     {
       "type": "text",
       "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/paquete.ejs"
-      }
     }
   ]
 }

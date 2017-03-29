@@ -70,6 +70,7 @@ body {
   line-height: 1.45;
   color: $main-text-color;
   margin:0;
+  transition: 2s background-color;
 }
 
 p {margin-bottom: 1.3em;
