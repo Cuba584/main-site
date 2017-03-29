@@ -49,12 +49,44 @@
     {
       "type": "subhead",
       "value": {
-        "text": "A broken down ferry"
+        "text": "Burning Rice"
       }
     },
     {
       "type": "text",
-      "value": "Etiam condimentum porta quam ut luctus. Vestibulum condimentum, libero et efficitur faucibus, lacus erat luctus elit, a commodo turpis tellus nec odio. Cras at dui est. Pellentesque eget orci tortor. Aliquam sagittis augue vitae mi imperdiet, sit amet eleifend nisl egestas. Duis elementum porttitor enim ornare pretium. Suspendisse aliquam elit vel libero ultricies efficitur. Nam non vestibulum felis. Sed cursus nec justo sit amet eleifend. Etiam placerat, lectus ut semper sodales, risus diam mollis mi, accumsan sodales arcu lacus id nulla. Integer erat ante, dapibus a risus volutpat, vestibulum pulvinar orci. Vivamus condimentum cursus malesuada. Sed justo sem, aliquam sit amet tincidunt porttitor, posuere in justo. Nam consequat ipsum in lacinia aliquet. Nulla est neque, aliquet et laoreet consectetur, imperdiet a nisi."
+      "value": "I.               The lede should grab attention with the idea of burning rice — letting the kitchen go by the wayside, letting “maternal” responsibilities go to follow what you really want to do."
+    },
+    {
+      "type": "text",
+      "value": "II.             Expanding into hip hop and rap in Cuba"
+    },
+    {
+      "type": "text",
+      "value": "III.           Narrowing in on all female rap groups in Cuba"
+    },
+    {
+      "type": "text",
+      "value": "-       It’s a genre of protest"
+    },
+    {
+      "type": "text",
+      "value": "-       Down with chauvinism (?)"
+    },
+    {
+      "type": "text",
+      "value": "IV.           Their music is more than looking at a problem, it’s also about looking at a solution (12:54)"
+    },
+    {
+      "type": "text",
+      "value": "-       Bring in Moises’ info – it’s a genre of protest, but it’s positive protest."
+    },
+    {
+      "type": "text",
+      "value": "-       Their generation of rappers is much more optimistic – they don’t blame the “system,” they blame their own work ethics, they can work their way out of situations"
+    },
+    {
+      "type": "text",
+      "value": "V.             The future?"
     },
     {
       "type": "pullquote",
@@ -90,6 +122,12 @@
     {
       "type": "text",
       "value": "Ut vehicula tortor id leo mattis, tincidunt pharetra lacus dapibus. Aliquam quis sem metus. Nulla volutpat dignissim ex nec tempor. Nulla facilisi. Integer congue aliquet mi in sollicitudin. Vestibulum ut sem tempus, luctus arcu at, faucibus mi. Nam in quam tortor. Ut euismod ornare maximus. Aenean finibus, neque sit amet ullamcorper tempor, ipsum magna dictum orci, sit amet rhoncus augue dolor eget ligula. Cras sem tellus, egestas sit amet risus dictum, sagittis feugiat massa. Aenean efficitur justo eu mauris facilisis, non mollis quam euismod. Vivamus vitae fermentum arcu. Praesent sagittis efficitur neque, ultrices facilisis nibh feugiat non. Vestibulum sed arcu ut velit ullamcorper pulvinar."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/hiphop.ejs"
+      }
     },
     {
       "type": "text",

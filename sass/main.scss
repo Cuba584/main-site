@@ -42,6 +42,16 @@ further down on the page or in any of the other .SCSS files.
                 }
               }
 
+              &:active{
+                &:after{
+                  content: '';
+                  display: block;
+                  height: 3px;
+                  width: 100%;
+                    background:nth($i, 2);
+                }
+              }
+
             }
 
 
