@@ -7,7 +7,7 @@ further down on the page or in any of the other .SCSS files.
 .hiphop.subhead {
   color: #F1861B; }
 
-.hiphop.overlay-item span {
+.hiphop.overlay-item::first-letter {
   color: #F1861B; }
 
 .hiphop.change-bg {
@@ -35,7 +35,7 @@ further down on the page or in any of the other .SCSS files.
 .dorian.subhead {
   color: #9BD5BB; }
 
-.dorian.overlay-item span {
+.dorian.overlay-item::first-letter {
   color: #9BD5BB; }
 
 .dorian.change-bg {
@@ -63,7 +63,7 @@ further down on the page or in any of the other .SCSS files.
 .skate.subhead {
   color: #A089CE; }
 
-.skate.overlay-item span {
+.skate.overlay-item::first-letter {
   color: #A089CE; }
 
 .skate.change-bg {
@@ -91,7 +91,7 @@ further down on the page or in any of the other .SCSS files.
 .family.subhead {
   color: #F0BD53; }
 
-.family.overlay-item span {
+.family.overlay-item::first-letter {
   color: #F0BD53; }
 
 .family.change-bg {
@@ -119,7 +119,7 @@ further down on the page or in any of the other .SCSS files.
 .harbor.subhead {
   color: #6EA5C2; }
 
-.harbor.overlay-item span {
+.harbor.overlay-item::first-letter {
   color: #6EA5C2; }
 
 .harbor.change-bg {
@@ -147,7 +147,7 @@ further down on the page or in any of the other .SCSS files.
 .about.subhead {
   color: #997A65; }
 
-.about.overlay-item span {
+.about.overlay-item::first-letter {
   color: #997A65; }
 
 .about.change-bg {
@@ -222,6 +222,9 @@ h4 {
 
 .github:hover {
   color: #6e5494 !important; }
+
+.italic {
+  font-style: italic; }
 
 /* ------------------  Header ------------------ */
 header {
