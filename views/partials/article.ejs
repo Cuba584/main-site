@@ -3,9 +3,9 @@
   <section id="top-fold">
 
 
-        <video id="cinemagraph" data-autoplay autoplay muted playsinline loop>
+        <video id="cinemagraph" data-autoplay autoplay muted playsinline>
           <source src="/assets/video/<%=body["cinemagraph"]["src"] %>" type="video/mp4">
-          <!-- <source src="/assets/video/harbor_embark.mp4" type="video/mp4"> -->
+          <!-- <source src="/assets/video/dorian_new.mp4" type="video/mp4"> -->
         </video>
 
       <div class="replay-btn" id="replay-btn">
@@ -67,8 +67,9 @@
       <%} else if (body["text"][i]["type"] == "interactive") {%>
       </div>
     </section>
-         <% var filepath = body["text"][i]["value"]["filename"] %>
-           <%- include(filepath); %>
+
+    <% var filepath = body["text"][i]["value"]["filename"] %>
+      <%- include(filepath); %>
            <section class="center-wrapper">
              <div class="max-width">
 
@@ -82,7 +83,11 @@
     </div>
     <section class="center-wrapper">
       <div class="max-width">
-    <% } else if (body["text"][i]["type"] == "image") {%>
+    <% } else if (body["text"][i]["type"] == "image") { //imgCount++;
+      //var imageUrl = body["text"][i]["value"]["src"];
+      //var imageId = imageUrl.lastIndexOf('_');
+      //var
+    %>
     </div>
   </section>
     <figure>
