@@ -202,7 +202,7 @@ nav {
   #menu-toggle {
     display: none;
   }
-   .nav-icons, .icons {
+  .nav-icons, .icons {
     display: flex;
     margin: 0 5px 0 5px;
   }
@@ -238,6 +238,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     opacity:.8;
+    margin-right: 20px;
     .insta {
       padding-right: .3em;
       &:hover{
@@ -288,7 +289,6 @@ nav {
   }
 
   .about-wrapper {
-    margin-right: 20px;
 
     #about-btn{
 
@@ -389,7 +389,7 @@ nav {
           .nav-line {
            margin:0 0.5em 0 0.5em;
            height:23px;
-         }
+          }
           #trans-btn, #about-btn {
             font-size: .8em;
           }
@@ -428,6 +428,12 @@ nav {
       .wrapper{
         width:900px;
       }
+      .sm-icons {
+        margin-right: 0;
+      }
+      nav .nav-icons{
+        margin:15px 0 11px 0;
+      }
     }
 
     nav .label-toggle {
@@ -435,13 +441,11 @@ nav {
       display: block;
       float: right;
       height: 35px;
-      margin-top: 1em;
-      width: 35px;
       #nav-container {
         display: inline-block;
         .bar1, .bar2, .bar3 {
-          width: 35px;
-          height: 5px;
+          width: 29px;
+          height: 3px;
           margin: 6px 0;
           background: black;
           transition: 0.4s;
@@ -468,7 +472,7 @@ nav {
       }
       .logo-wrapper{
         #svg-logo{
-          width:250px;
+          width:200px;
         }
       }
     }
@@ -483,7 +487,6 @@ nav {
 
       .wrapper{
         width:90vw;
-
       }
 
       .logo-wrapper{
@@ -491,6 +494,7 @@ nav {
           width:222px;
         }
       }
+
 
     }
 

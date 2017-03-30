@@ -294,7 +294,8 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    opacity: .8; }
+    opacity: .8;
+    margin-right: 20px; }
     nav .sm-icons .insta {
       padding-right: .3em; }
       nav .sm-icons .insta:hover {
@@ -318,11 +319,9 @@ nav {
   nav .trans-wrapper hr {
     width: 13pt;
     margin: 0; }
-  nav .about-wrapper {
-    margin-right: 20px; }
-    nav .about-wrapper #about-btn:hover {
-      cursor: pointer;
-      font-weight: 600; }
+  nav .about-wrapper #about-btn:hover {
+    cursor: pointer;
+    font-weight: 600; }
 
 .default {
   top: 0; }
@@ -400,18 +399,20 @@ nav {
     display: none; }
   nav .wrapper {
     width: 900px; }
+  nav .sm-icons {
+    margin-right: 0; }
+  nav nav .nav-icons {
+    margin: 15px 0 11px 0; }
   nav .label-toggle {
     cursor: pointer;
     display: block;
     float: right;
-    height: 35px;
-    margin-top: 1em;
-    width: 35px; }
+    height: 35px; }
     nav .label-toggle #nav-container {
       display: inline-block; }
       nav .label-toggle #nav-container .bar1, nav .label-toggle #nav-container .bar2, nav .label-toggle #nav-container .bar3 {
-        width: 35px;
-        height: 5px;
+        width: 29px;
+        height: 3px;
         margin: 6px 0;
         background: black;
         transition: 0.4s; }
@@ -426,7 +427,7 @@ nav {
   nav .wrapper {
     width: 90vw; }
   nav .logo-wrapper #svg-logo {
-    width: 250px; } }
+    width: 200px; } }
 
 @media screen and (max-width: 570px) {
   nav {
