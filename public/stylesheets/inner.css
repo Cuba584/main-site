@@ -87,7 +87,7 @@
 
 .vimeo-container {
   padding: 5% 0;
-  transition: 2s background-color; }
+  transition: 0.1s background-color; }
 
 #video-bottom {
   position: absolute;
