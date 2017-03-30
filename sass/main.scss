@@ -169,19 +169,18 @@ nav {
 
 
   ul {
-  text-transform: uppercase;
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  width: 800px;
+  width: 750px;
   padding: 0;
+  font-weight: 400;
   margin:45px 0 15px 0;
 
     a {
-      color: #222;
+      color: #484848;
       position: relative;
       text-decoration: none;
-      color:$main-text-color;
       background-color:transparent;
       //for hover styles, look at mix-in
     }
@@ -379,7 +378,7 @@ nav {
         }
         nav{
           ul{
-            width:60%;
+            width:52%;
           }
 
           .nav-icons{

@@ -39,12 +39,20 @@
       height: 80vh;
       width: auto; }
   .inner figcaption {
-    margin-left: 2vw;
-    line-height: 1.8em; }
+    line-height: 1.8em;
+    margin-left: 1.2vw;
+    padding-right: 20vw;
+    font-size: .95em;
+    font-weight: 400;
+    letter-spacing: .02em; }
     .inner figcaption .fig-descr {
-      margin-top: 0; }
-    .inner figcaption .fig-attr::before {
-      content: '-'; }
+      margin-top: 0;
+      line-height: 1.8; }
+    .inner figcaption .fig-attr {
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: .8em;
+      margin-bottom: -13px; }
   .inner .pull-quote-box {
     margin: 20pt 0 20pt 15%; }
   .inner .pull-quote {
@@ -152,6 +160,8 @@
     width: 100%; }
   .inner .pull-quote-box {
     width: 88vw; }
+  .inner figcaption {
+    padding-right: 0vw; }
   #inner-title-box {
     width: 100%;
     margin-top: 0; }

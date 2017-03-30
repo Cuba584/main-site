@@ -254,18 +254,17 @@ nav {
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear; }
   nav ul {
-    text-transform: uppercase;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    width: 800px;
+    width: 750px;
     padding: 0;
+    font-weight: 400;
     margin: 45px 0 15px 0; }
     nav ul a {
-      color: #222;
+      color: #484848;
       position: relative;
       text-decoration: none;
-      color: #000;
       background-color: transparent; }
   nav .wrapper {
     margin: 0 auto;
@@ -375,7 +374,7 @@ nav {
     font-size: .9em;
     padding: 0 20px; }
   nav nav ul {
-    width: 60%; }
+    width: 52%; }
   nav nav .nav-icons {
     margin: 39px 0 15px 0; }
   nav .sm-icons .nav-line {
