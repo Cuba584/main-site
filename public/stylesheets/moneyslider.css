@@ -9,7 +9,9 @@
     border: none;
     background: transparent;
     font-size: 4em;
-    cursor: pointer; }
+    cursor: pointer;
+    position: absolute;
+    margin-top: 8%; }
   #custom-slider button:focus {
     outline: none; }
 
@@ -31,10 +33,10 @@
   font-size: 3rem; }
 
 #slider-right {
-  float: right; }
+  margin-left: 54%; }
 
 #slider-left {
-  float: left; }
+  margin-left: -7%; }
 
 .money-slider {
   height: 50vh;

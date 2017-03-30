@@ -11,6 +11,8 @@
     background: transparent;
     font-size: 4em;
     cursor: pointer;
+    position: absolute;
+    margin-top: 8%;
   }
   button:focus{
     outline: none;
@@ -37,11 +39,11 @@
 }
 
 #slider-right {
-  float: right;
+  margin-left: 54%;
 }
 
 #slider-left {
-  float: left;
+  margin-left: -7%;
 
 }
 
