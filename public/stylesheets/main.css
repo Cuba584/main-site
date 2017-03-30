@@ -250,32 +250,32 @@ nav {
   background-color: #fff;
   opacity: 1;
   font-family: "Montserrat", sans-serif;
-  font-size: .95em;
+  font-size: .93em;
   letter-spacing: .03em;
-  padding-bottom: 5px;
+  padding: 5px 0 3px 0;
   transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear; }
   nav ul {
-    text-transform: uppercase;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    width: 900px;
+    width: 750px;
     padding: 0;
+    font-weight: 400;
     margin: 45px 0 15px 0; }
     nav ul a {
-      color: #222;
+      color: #484848;
       position: relative;
       text-decoration: none;
-      color: #000;
       background-color: transparent; }
   nav .wrapper {
     margin: 0 auto;
     width: 100%;
     align-items: center;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    background: transparent; }
   nav .label-toggle {
     display: none; }
   nav #menu-toggle {
@@ -289,13 +289,17 @@ nav {
   nav .logo-wrapper {
     margin-left: 20px; }
     nav .logo-wrapper #svg-logo {
-      width: 222px; }
+      width: 170px; }
+  nav .nav-dot-sep {
+    font-size: 2em;
+    margin-top: -11px; }
   nav .sm-icons {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    opacity: .8; }
+    opacity: .8;
+    margin-right: 20px; }
     nav .sm-icons .insta {
       padding-right: .3em; }
       nav .sm-icons .insta:hover {
@@ -304,21 +308,24 @@ nav {
       color: #3b5998; }
     nav .sm-icons .twit:hover {
       color: #00aced; }
-    nav .sm-icons #nav-line {
+    nav .sm-icons .nav-line {
       margin: 0 0.6em 0 0.5em;
-      height: 30px;
+      height: 27px;
       border-left: 1.5px solid #696969; }
+    nav .sm-icons #trans-btn, nav .sm-icons #about-btn {
+      font-size: .9em; }
     nav .sm-icons a {
       color: #000;
       text-decoration: none; }
-  nav .trans-wrapper {
-    margin-right: 20px; }
-    nav .trans-wrapper #trans-btn:hover {
-      cursor: pointer;
-      font-weight: 600; }
-    nav .trans-wrapper hr {
-      width: 13pt;
-      margin: 0; }
+  nav .trans-wrapper #trans-btn:hover {
+    cursor: pointer;
+    font-weight: 600; }
+  nav .trans-wrapper hr {
+    width: 13pt;
+    margin: 0; }
+  nav .about-wrapper #about-btn:hover {
+    cursor: pointer;
+    font-weight: 600; }
 
 .default {
   top: 0; }
@@ -366,15 +373,18 @@ nav {
     width: 1230px; } }
 
 @media screen and (max-width: 1280px) {
-  nav .logo-wrapper #svg-logo {
-    width: 120px; }
   nav ul {
     font-size: .9em;
     padding: 0 20px; }
   nav nav ul {
-    width: 100%; }
+    width: 52%; }
   nav nav .nav-icons {
-    margin: 39px 0 15px 0; } }
+    margin: 39px 0 15px 0; }
+  nav .sm-icons .nav-line {
+    margin: 0 0.5em 0 0.5em;
+    height: 23px; }
+  nav .sm-icons #trans-btn, nav .sm-icons #about-btn {
+    font-size: .8em; } }
 
 @media screen and (max-width: 1110px) {
   nav ul {
@@ -393,18 +403,20 @@ nav {
     display: none; }
   nav .wrapper {
     width: 900px; }
+  nav .sm-icons {
+    margin-right: 0; }
+  nav nav .nav-icons {
+    margin: 15px 0 11px 0; }
   nav .label-toggle {
     cursor: pointer;
     display: block;
     float: right;
-    height: 35px;
-    margin-top: 1em;
-    width: 35px; }
+    height: 35px; }
     nav .label-toggle #nav-container {
       display: inline-block; }
       nav .label-toggle #nav-container .bar1, nav .label-toggle #nav-container .bar2, nav .label-toggle #nav-container .bar3 {
-        width: 35px;
-        height: 5px;
+        width: 29px;
+        height: 3px;
         margin: 6px 0;
         background: black;
         transition: 0.4s; }
@@ -419,12 +431,16 @@ nav {
   nav .wrapper {
     width: 90vw; }
   nav .logo-wrapper #svg-logo {
-    width: 250px; } }
+    width: 200px; } }
 
 @media screen and (max-width: 570px) {
   nav {
-    height: 20px; }
+    height: 50px; }
     nav .wrapper {
       width: 90vw; }
-    nav .logo-wrapper #svg-logo {
-      width: 222px; } }
+    nav .logo-wrapper {
+      margin: 0 auto; }
+      nav .logo-wrapper #svg-logo {
+        width: 130px; }
+    nav nav .nav-icons {
+      display: none; } }
