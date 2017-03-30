@@ -59,3 +59,16 @@
       text-align: center; }
   .money-slider .money-left, .money-slider .money-center, .money-slider .money-right {
     align-self: center; }
+
+@media screen and (max-width: 570px) {
+  #custom-slider {
+    width: 90%;
+    height: 50vh;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -5%; }
+  #custom-slider button {
+    display: none; }
+  .money-slider-section {
+    flex-direction: column; } }

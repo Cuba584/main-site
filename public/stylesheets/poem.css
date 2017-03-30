@@ -54,3 +54,26 @@
 .poem-wrapper .adjust{
   text-align: center;
 }
+
+@media screen and (max-width: 570px){
+
+  .poem-wrapper{
+    width: 100%;
+  }
+  .poem-wrapper .poem-row{
+    flex-direction: column;
+  }
+  .poem-wrapper .title{
+    font-size: 0.5em;
+  }
+  .poem-wrapper img{
+    width: 100%;
+  }
+
+  .poem-wrapper #section-0, .poem-wrapper #section-1, .poem-wrapper #section-2, .poem-wrapper #section-3, .poem-wrapper #section-4, .poem-wrapper #section-5, .poem-wrapper #section-6 {
+    margin-top: 3%;
+    width: 90%;
+    font-size: 0.8;
+    line-height: 0.5;
+  }
+}

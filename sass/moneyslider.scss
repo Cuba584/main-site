@@ -1,3 +1,5 @@
+@import '_include-media';
+
 #custom-slider {
   width: 50%;
   height: 50vh;
@@ -84,5 +86,23 @@
   }
 
 
+  }
 
+  @include media("screen", "<=sm"){
+    #custom-slider {
+      width: 90%;
+      height: 50vh;
+      overflow: hidden;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: -5%;
+    }
+
+    #custom-slider button{
+      display: none;
+    }
+
+    .money-slider-section{
+      flex-direction: column;
+    }
   }

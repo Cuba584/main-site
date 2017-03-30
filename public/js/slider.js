@@ -13,6 +13,7 @@ var rightButton = document.getElementById('slider-right');
 var sliderLeft = sliderUl.offsetLeft;
 var slideIndex = 0;
 
+
 leftButton.addEventListener("click", function() {
   sliderUl.style.transition = "0.5s left";
   slideIndex --;
