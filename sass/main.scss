@@ -194,6 +194,7 @@ nav {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    background: transparent;
   }
   .label-toggle {
     display: none;
@@ -483,16 +484,20 @@ nav {
 
 
     nav{
-      height:20px;
+      height:50px;
 
       .wrapper{
         width:90vw;
       }
 
       .logo-wrapper{
+        margin: 0 auto;
         #svg-logo{
-          width:222px;
+          width:130px;
         }
+      }
+      nav .nav-icons {
+        display: none;
       }
 
 
