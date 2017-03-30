@@ -247,9 +247,9 @@ nav {
   background-color: #fff;
   opacity: 1;
   font-family: "Montserrat", sans-serif;
-  font-size: .95em;
+  font-size: .93em;
   letter-spacing: .03em;
-  padding: 7px 0 3px 0;
+  padding: 5px 0 3px 0;
   transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear; }
@@ -258,7 +258,7 @@ nav {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    width: 900px;
+    width: 800px;
     padding: 0;
     margin: 45px 0 15px 0; }
     nav ul a {
@@ -284,10 +284,9 @@ nav {
     flex-wrap: wrap;
     margin: 39px .5em 15px 0; }
   nav .logo-wrapper {
-    margin-left: 20px;
-    margin-bottom: 6px; }
+    margin-left: 20px; }
     nav .logo-wrapper #svg-logo {
-      width: 222px; }
+      width: 170px; }
   nav .sm-icons {
     display: inline-flex;
     flex-direction: row;
@@ -367,15 +366,18 @@ nav {
     width: 1230px; } }
 
 @media screen and (max-width: 1280px) {
-  nav .logo-wrapper #svg-logo {
-    width: 120px; }
   nav ul {
     font-size: .9em;
     padding: 0 20px; }
   nav nav ul {
-    width: 100%; }
+    width: 60%; }
   nav nav .nav-icons {
-    margin: 39px 0 15px 0; } }
+    margin: 39px 0 15px 0; }
+  nav .sm-icons #nav-line {
+    margin: 0 0.5em 0 0.5em;
+    height: 23px; }
+  nav .sm-icons #trans-btn, nav .sm-icons #about-btn {
+    font-size: .8em; } }
 
 @media screen and (max-width: 1110px) {
   nav ul {
