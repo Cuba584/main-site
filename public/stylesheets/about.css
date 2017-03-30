@@ -5,9 +5,6 @@
   justify-content: center;
   margin-top: 0; }
 
-.about.change-bg {
-  width: 20% !important; }
-
 ul {
   margin-top: 15px; }
 
@@ -125,6 +122,21 @@ a:hover, a:focus {
     text-align: left;
     padding-left: 5px; }
 
+.about-cinema-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .about-cinema-wrapper video {
+    margin-top: 70px; }
+
+#about-cinemagraph {
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%; }
+
+/*-----------------responsive styles-------------*/
 @media screen and (max-width: 720px) {
   .team-nav ul {
     flex-direction: column;

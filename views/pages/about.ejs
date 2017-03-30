@@ -10,16 +10,21 @@
 <body>
   <script>
   var currentPage = 'about';
+  console.log(currentPage);
+
+  var currentNav = '.' + currentPage;
+  console.log(currentNav);
   </script>
 <%  include ../partials/nav.ejs %>
 
 <div class="about-cinema-wrapper">
-  <video id="cinemagraph" data-autoplay autoplay muted playsinline>
+  <video id="about-cinemagraph" data-autoplay autoplay muted playsinline>
   <source src="/assets/video/teamportrait.mp4 %>" type="video/mp4">
 </div>
 
 </video>
-  <div class="about-container">
+
+
 
     <div id="title-box" class="center-wrapper">
       <div class="about change-bg" id="inner-title-box">
@@ -27,6 +32,8 @@
 
       </div>
     </div>
+
+<div class="about-container">
   <p>Students in UNC-Chapel Hill’s School of Media and Journalism are honored to tell the stories of change in Havana, Cuba.</p>
 
   <div class="divider">
@@ -88,6 +95,7 @@
       </p>
     </div>
   </div>
+
 
   <% include ../partials/footer.ejs %>
   <script src="/js/tether.min.js"></script>

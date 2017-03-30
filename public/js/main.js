@@ -14,6 +14,7 @@ $(document).ready(function(){
   $('#nav-container').on('click', function(){
     this.classList.toggle("change");
     $('#hidden-nav').show();
+    $('#nav-container').hide(); 
 
   });
 

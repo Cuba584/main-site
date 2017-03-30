@@ -103,13 +103,6 @@
   width: 100vw;
   margin-top: 70px; }
 
-.about-cinema-wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: center; }
-  .about-cinema-wrapper video {
-    margin-top: 70px; }
-
 /*------responsive styles------*/
 @media screen and (min-width: 2400px) {
   .inner figure .inner-image {
