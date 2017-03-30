@@ -69,7 +69,7 @@ a:hover, a:focus {
   color: #000;
   visibility: hidden;
   opacity: 0;
-  padding: 20px 25px;
+  padding: 17px 20px;
   font-size: .85em;
   font-family: "Roboto", sans-serif;
   -webkit-transition: visibility opacity 0.2s;
