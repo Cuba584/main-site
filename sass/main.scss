@@ -261,7 +261,6 @@ nav {
   }
 
   .trans-wrapper{
-    margin-right:20px;
 
     #trans-btn{
 
@@ -274,6 +273,18 @@ nav {
     hr{
       width:13pt;
       margin:0;
+    }
+  }
+
+  .about-wrapper {
+    margin-right: 20px;
+
+    #about-btn{
+
+      &:hover{
+        cursor:pointer;
+        font-weight:600;
+      }
     }
   }
 

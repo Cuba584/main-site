@@ -309,14 +309,17 @@ nav {
     nav .sm-icons a {
       color: #000;
       text-decoration: none; }
-  nav .trans-wrapper {
+  nav .trans-wrapper #trans-btn:hover {
+    cursor: pointer;
+    font-weight: 600; }
+  nav .trans-wrapper hr {
+    width: 13pt;
+    margin: 0; }
+  nav .about-wrapper {
     margin-right: 20px; }
-    nav .trans-wrapper #trans-btn:hover {
+    nav .about-wrapper #about-btn:hover {
       cursor: pointer;
       font-weight: 600; }
-    nav .trans-wrapper hr {
-      width: 13pt;
-      margin: 0; }
 
 .default {
   top: 0; }
