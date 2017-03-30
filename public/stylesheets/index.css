@@ -36,9 +36,7 @@
   #mobile-container {
     display: block; }
   nav .logo {
-    visibility: hidden; }
-  #trans-btn {
-    display: none; } }
+    visibility: hidden; } }
 
 #replay-btn {
   position: absolute;
