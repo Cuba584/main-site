@@ -32,7 +32,12 @@ gulp.task('connect', function(){
 
   app.get('/pages/:id', function(req, res){
     var pageName = req.params.id;
-    var bodyData = JSON.parse(fs.readFileSync('./data/' + pageName + '.json'));
+    var bodyData;
+	if (isEspanol(req)){
+		bodyData = JSON.parse(fs.readFileSync('./data/' + pageName + 'espanol.json'));
+	} else {
+		bodyData = JSON.parse(fs.readFileSync('./data/' + pageName + '.json'));
+	}
     res.render('pages/inner', {body: bodyData, page: '/pages/' + pageName, espanol: isEspanol(req)});
   });
 
