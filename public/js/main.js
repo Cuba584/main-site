@@ -24,6 +24,7 @@ $(document).ready(function(){
 
 
   $(currentNav).addClass('active-nav');
+  $(mobileNav).addClass('mobile-active-nav'); 
 
   $('#menu-toggle').click(function(){
     // $('#hidden-nav').show();
@@ -34,7 +35,12 @@ $(document).ready(function(){
   $('#nav-container').on('click', function(){
     this.classList.toggle("change");
     $('#hidden-nav').show();
+    $('#nav-container').hide();
 
+  });
+
+  $('#hidden-nav').on('click', function (){
+    $('#nav-container').show();
   });
 
   $('#closebtn').click(function(){

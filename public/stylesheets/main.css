@@ -32,6 +32,15 @@ further down on the page or in any of the other .SCSS files.
   background: #F1861B;
   transition-property: none; }
 
+.hiphop.mobile-active-nav:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 40%;
+  margin-top: -3%;
+  background: #F1861B;
+  transition-property: none; }
+
 .dorian.subhead {
   color: #9BD5BB; }
 
@@ -57,6 +66,15 @@ further down on the page or in any of the other .SCSS files.
 
 .dorian.nav-title.active-nav:after {
   width: 100%;
+  background: #9BD5BB;
+  transition-property: none; }
+
+.dorian.mobile-active-nav:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 40%;
+  margin-top: -3%;
   background: #9BD5BB;
   transition-property: none; }
 
@@ -88,6 +106,15 @@ further down on the page or in any of the other .SCSS files.
   background: #A089CE;
   transition-property: none; }
 
+.skate.mobile-active-nav:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 40%;
+  margin-top: -3%;
+  background: #A089CE;
+  transition-property: none; }
+
 .family.subhead {
   color: #F0BD53; }
 
@@ -113,6 +140,15 @@ further down on the page or in any of the other .SCSS files.
 
 .family.nav-title.active-nav:after {
   width: 100%;
+  background: #F0BD53;
+  transition-property: none; }
+
+.family.mobile-active-nav:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 40%;
+  margin-top: -3%;
   background: #F0BD53;
   transition-property: none; }
 
@@ -144,6 +180,15 @@ further down on the page or in any of the other .SCSS files.
   background: #6EA5C2;
   transition-property: none; }
 
+.harbor.mobile-active-nav:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 40%;
+  margin-top: -3%;
+  background: #6EA5C2;
+  transition-property: none; }
+
 .about.subhead {
   color: #997A65; }
 
@@ -169,6 +214,15 @@ further down on the page or in any of the other .SCSS files.
 
 .about.nav-title.active-nav:after {
   width: 100%;
+  background: #997A65;
+  transition-property: none; }
+
+.about.mobile-active-nav:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 40%;
+  margin-top: -3%;
   background: #997A65;
   transition-property: none; }
 
@@ -342,28 +396,34 @@ nav {
   left: 0;
   top: 0;
   background-color: black;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: white;
+  opacity: .94;
   overflow-x: hidden;
   transition: 0.5s;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s; }
   .overlay .overlay-content {
     position: relative;
-    top: 25%;
+    top: 15%;
     width: 100%;
-    text-align: center;
+    margin-left: 8%;
     margin-top: 30px; }
     .overlay .overlay-content a {
       display: block;
       text-decoration: none;
-      font-size: 2em; }
+      font-size: 1.7em;
+      font-weight: 300;
+      line-height: 2.6em;
+      padding: 0.5%; }
     .overlay .overlay-content #closebtn {
       position: absolute;
-      top: 20px;
-      right: 45px;
-      font-size: 60px; }
+      top: -50%;
+      left: -5%;
+      font-size: 60px;
+      color: black;
+      font-weight: 700; }
     .overlay .overlay-content .overlay-item {
-      color: white; }
+      color: black; }
       .overlay .overlay-content .overlay-item span {
         font-size: 1.2em; }
 
@@ -411,7 +471,10 @@ nav {
     cursor: pointer;
     display: block;
     float: right;
-    height: 35px; }
+    height: 35px;
+    margin-top: 2em;
+    width: 35px; }
+
     nav .label-toggle #nav-container {
       display: inline-block; }
       nav .label-toggle #nav-container .bar1, nav .label-toggle #nav-container .bar2, nav .label-toggle #nav-container .bar3 {
