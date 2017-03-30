@@ -249,7 +249,7 @@ nav {
   font-family: "Montserrat", sans-serif;
   font-size: .95em;
   letter-spacing: .03em;
-  padding: 5px 0;
+  padding: 7px 0 3px 0;
   transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear; }
@@ -284,7 +284,8 @@ nav {
     flex-wrap: wrap;
     margin: 39px .5em 15px 0; }
   nav .logo-wrapper {
-    margin-left: 20px; }
+    margin-left: 20px;
+    margin-bottom: 6px; }
     nav .logo-wrapper #svg-logo {
       width: 222px; }
   nav .sm-icons {
