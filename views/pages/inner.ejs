@@ -7,12 +7,18 @@
   console.log(currentPage)
   var currentNav = '.' + currentPage.substring(7);
   console.log(currentNav);
+
+  var mobileNav = ".overlay-content ." + currentPage.substring(7);
+  console.log(mobileNav);
+
   </script>
 </head>
 
 <body>
+
 	<%  include ../partials/nav.ejs %>
 	<% include ../partials/article.ejs %>
 	<%  include ../partials/footer.ejs %>
+
 </body>
 </html>
