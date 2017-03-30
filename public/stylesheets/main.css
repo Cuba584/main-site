@@ -287,6 +287,9 @@ nav {
     margin-left: 20px; }
     nav .logo-wrapper #svg-logo {
       width: 170px; }
+  nav .nav-dot-sep {
+    font-size: 2em;
+    margin-top: -11px; }
   nav .sm-icons {
     display: inline-flex;
     flex-direction: row;
@@ -301,10 +304,12 @@ nav {
       color: #3b5998; }
     nav .sm-icons .twit:hover {
       color: #00aced; }
-    nav .sm-icons #nav-line {
+    nav .sm-icons .nav-line {
       margin: 0 0.6em 0 0.5em;
-      height: 30px;
+      height: 27px;
       border-left: 1.5px solid #696969; }
+    nav .sm-icons #trans-btn, nav .sm-icons #about-btn {
+      font-size: .9em; }
     nav .sm-icons a {
       color: #000;
       text-decoration: none; }
@@ -373,7 +378,7 @@ nav {
     width: 60%; }
   nav nav .nav-icons {
     margin: 39px 0 15px 0; }
-  nav .sm-icons #nav-line {
+  nav .sm-icons .nav-line {
     margin: 0 0.5em 0 0.5em;
     height: 23px; }
   nav .sm-icons #trans-btn, nav .sm-icons #about-btn {

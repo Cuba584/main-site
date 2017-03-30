@@ -227,6 +227,12 @@ nav {
     //   width:200px;
     // }
   }
+
+  .nav-dot-sep {
+    font-size: 2em;
+    margin-top: -11px;
+ }
+
   .sm-icons {
     display: inline-flex;
     flex-direction: row;
@@ -249,16 +255,22 @@ nav {
         color:$twitter;
       }
     }
-    #nav-line {
+    .nav-line {
      margin:0 0.6em 0 0.5em;
-     height:30px;
+     height:27px;
      border-left: 1.5px solid $dark-gray;
    }
+
+   #trans-btn, #about-btn {
+     font-size: .9em;
+   }
+
     a{
       color:$main-text-color;
       text-decoration:none;
     }
   }
+
 
   .trans-wrapper{
 
@@ -375,7 +387,7 @@ nav {
           }
         }
         .sm-icons {
-          #nav-line {
+          .nav-line {
            margin:0 0.5em 0 0.5em;
            height:23px;
          }
