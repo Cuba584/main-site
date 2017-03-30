@@ -186,7 +186,8 @@ a:hover, a:focus {
   }
 }
 
-@media screen and (max-width: 720px) {
+@include media("screen", "<=md") {
+
   .team-nav {
     ul{
       flex-direction: column;

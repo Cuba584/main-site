@@ -27,12 +27,11 @@ further down on the page or in any of the other .SCSS files.
   width: 100%;
   background: #F1861B; }
 
-.hiphop.nav-title:active:after {
-  content: '';
-  display: block;
-  height: 3px;
+
+.hiphop.nav-title.active-nav:after {
   width: 100%;
-  background: #F1861B; }
+  background: #F1861B;
+  transition-property: none; }
 
 .dorian.subhead {
   color: #9BD5BB; }
@@ -57,12 +56,11 @@ further down on the page or in any of the other .SCSS files.
   width: 100%;
   background: #9BD5BB; }
 
-.dorian.nav-title:active:after {
-  content: '';
-  display: block;
-  height: 3px;
+.dorian.nav-title.active-nav:after {
   width: 100%;
-  background: #9BD5BB; }
+  background: #9BD5BB;
+  transition-property: none; }
+
 
 .skate.subhead {
   color: #A089CE; }
@@ -87,12 +85,10 @@ further down on the page or in any of the other .SCSS files.
   width: 100%;
   background: #A089CE; }
 
-.skate.nav-title:active:after {
-  content: '';
-  display: block;
-  height: 3px;
+.skate.nav-title.active-nav:after {
   width: 100%;
-  background: #A089CE; }
+  background: #A089CE;
+  transition-property: none; }
 
 .family.subhead {
   color: #F0BD53; }
@@ -117,12 +113,11 @@ further down on the page or in any of the other .SCSS files.
   width: 100%;
   background: #F0BD53; }
 
-.family.nav-title:active:after {
-  content: '';
-  display: block;
-  height: 3px;
+.family.nav-title.active-nav:after {
   width: 100%;
-  background: #F0BD53; }
+  background: #F0BD53;
+  transition-property: none; }
+
 
 .harbor.subhead {
   color: #6EA5C2; }
@@ -147,12 +142,11 @@ further down on the page or in any of the other .SCSS files.
   width: 100%;
   background: #6EA5C2; }
 
-.harbor.nav-title:active:after {
-  content: '';
-  display: block;
-  height: 3px;
+.harbor.nav-title.active-nav:after {
   width: 100%;
-  background: #6EA5C2; }
+  background: #6EA5C2;
+  transition-property: none; }
+
 
 .about.subhead {
   color: #997A65; }
@@ -177,12 +171,11 @@ further down on the page or in any of the other .SCSS files.
   width: 100%;
   background: #997A65; }
 
-.about.nav-title:active:after {
-  content: '';
-  display: block;
-  height: 3px;
+.about.nav-title.active-nav:after {
   width: 100%;
-  background: #997A65; }
+  background: #997A65;
+  transition-property: none; }
+
 
 html {
   font-size: .7em; }

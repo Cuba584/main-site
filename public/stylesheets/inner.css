@@ -118,6 +118,21 @@
     margin-top: 70px; }
 
 /*------responsive styles------*/
+@media screen and (min-width: 2400px) {
+  .inner figure .inner-image {
+    height: 100%;
+    width: auto; } }
+
+@media screen and (max-width: 1110px) {
+  .inner figure .inner-image {
+    height: 100vh;
+    width: auto; } }
+
+@media screen and (max-width: 1280px) {
+  .inner figure .inner-image {
+    height: 80vh;
+    width: auto; } }
+
 @media screen and (max-width: 1020px) {
   .container {
     margin-top: 68px; }
@@ -149,4 +164,22 @@
 
 @media screen and (max-width: 570px) {
   .inner #cinemagraph {
-    margin-top: 0; } }
+    margin-top: 0; }
+  .inner figure {
+    flex-wrap: wrap;
+    margin: 0; }
+    .inner figure .inner-image {
+      width: 100vw;
+      height: 100%; }
+  .inner figcaption {
+    max-width: 95%; }
+    .inner figcaption .fig-descr {
+      margin: 0; }
+    .inner figcaption .fig-attr {
+      margin: 0;
+      padding-top: 5px; }
+  .inner .pull-quote-box {
+    width: 100vw;
+    margin: 0; }
+  .inner .pull-quote {
+    font-size: 1em; } }

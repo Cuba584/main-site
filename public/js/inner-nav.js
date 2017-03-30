@@ -3,10 +3,11 @@
 // Hide Header on on scroll down
  $(document).ready(function(){
 
+
     var didScroll;
     var lastScrollTop = 0;
     var delta = 5;
-    var navbarHeight = $('#top-fold').offset().top;
+    var navbarHeight = $('#cinemagraph').offset().top;
     console.log(navbarHeight);
     $(window).scroll(function(event){
         didScroll = true;

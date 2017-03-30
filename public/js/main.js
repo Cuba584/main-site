@@ -1,12 +1,15 @@
 $(document).ready(function(){
   // $('#hidden-nav').hide();
-
+  var windowWidth = $(window).width();
+  $( window ).resize(function() {
+    var windowWidth = $(window).width();
+  });
   var videoTop = $('#video-top').offset().top;
   var videoHeight = $('#vimeo-wrap').outerHeight();
   console.log(videoTop)
   console.log(videoTop + (videoHeight / 2))
 
-  if ($(window).width() > 1020) {
+  if (windowWidth > 1020) {
   $(window).scroll(function(event){
     var scrollTop = $(this).scrollTop();
     console.log(scrollTop)
@@ -20,6 +23,9 @@ $(document).ready(function(){
       }
   });
 } else {}
+
+
+  $(currentNav).addClass('active-nav');
 
   $('#menu-toggle').click(function(){
     // $('#hidden-nav').show();

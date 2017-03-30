@@ -42,23 +42,20 @@ further down on the page or in any of the other .SCSS files.
                 }
               }
 
-              &:active{
+
+              &.active-nav{
                 &:after{
-                  content: '';
-                  display: block;
-                  height: 3px;
                   width: 100%;
-                    background:nth($i, 2);
+                  background:nth($i, 2);
+                  transition-property: none;
                 }
               }
 
             }
-
-
-
         }
     }
 }
+
 
 @include config-page-colors(
     'hiphop'  $orange,
