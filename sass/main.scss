@@ -53,6 +53,16 @@ further down on the page or in any of the other .SCSS files.
               }
 
             }
+
+            &.mobile-active-nav:after{
+              content: '';
+              display: block;
+              height: 3px;
+              width: 40%;
+              margin-top: -3%;
+              background:nth($i, 2);
+              transition-property: none;
+            }
         }
     }
 }
@@ -284,19 +294,13 @@ nav {
     width:100%;
     margin-left: 8%;
     margin-top:30px;
-    .active-nav {
-      &:after{
-        width: 100%;
-        background: $orange;
-        transition-property: none;
-      }
-    }
     a{
       display:block;
       text-decoration:none;
       font-size:1.7em;
       font-weight: 300;
-      line-height: 2.5em;
+      line-height: 2.6em;
+      padding: 0.5%; 
     }
     #closebtn{
       position:absolute;

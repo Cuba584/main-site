@@ -32,6 +32,15 @@ further down on the page or in any of the other .SCSS files.
   background: #F1861B;
   transition-property: none; }
 
+.hiphop.mobile-active-nav:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 40%;
+  margin-top: -3%;
+  background: #F1861B;
+  transition-property: none; }
+
 .dorian.subhead {
   color: #9BD5BB; }
 
@@ -57,6 +66,15 @@ further down on the page or in any of the other .SCSS files.
 
 .dorian.nav-title.active-nav:after {
   width: 100%;
+  background: #9BD5BB;
+  transition-property: none; }
+
+.dorian.mobile-active-nav:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 40%;
+  margin-top: -3%;
   background: #9BD5BB;
   transition-property: none; }
 
@@ -88,6 +106,15 @@ further down on the page or in any of the other .SCSS files.
   background: #A089CE;
   transition-property: none; }
 
+.skate.mobile-active-nav:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 40%;
+  margin-top: -3%;
+  background: #A089CE;
+  transition-property: none; }
+
 .family.subhead {
   color: #F0BD53; }
 
@@ -113,6 +140,15 @@ further down on the page or in any of the other .SCSS files.
 
 .family.nav-title.active-nav:after {
   width: 100%;
+  background: #F0BD53;
+  transition-property: none; }
+
+.family.mobile-active-nav:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 40%;
+  margin-top: -3%;
   background: #F0BD53;
   transition-property: none; }
 
@@ -144,6 +180,15 @@ further down on the page or in any of the other .SCSS files.
   background: #6EA5C2;
   transition-property: none; }
 
+.harbor.mobile-active-nav:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 40%;
+  margin-top: -3%;
+  background: #6EA5C2;
+  transition-property: none; }
+
 .about.subhead {
   color: #997A65; }
 
@@ -169,6 +214,15 @@ further down on the page or in any of the other .SCSS files.
 
 .about.nav-title.active-nav:after {
   width: 100%;
+  background: #997A65;
+  transition-property: none; }
+
+.about.mobile-active-nav:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 40%;
+  margin-top: -3%;
   background: #997A65;
   transition-property: none; }
 
@@ -328,16 +382,13 @@ nav {
     width: 100%;
     margin-left: 8%;
     margin-top: 30px; }
-    .overlay .overlay-content .active-nav:after {
-      width: 100%;
-      background: #F1861B;
-      transition-property: none; }
     .overlay .overlay-content a {
       display: block;
       text-decoration: none;
       font-size: 1.7em;
       font-weight: 300;
-      line-height: 2.5em; }
+      line-height: 2.6em;
+      padding: 0.5%; }
     .overlay .overlay-content #closebtn {
       position: absolute;
       top: -50%;

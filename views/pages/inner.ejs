@@ -7,6 +7,8 @@
   console.log(currentPage)
   var currentNav = '.' + currentPage.substring(7);
   console.log(currentNav);
+  var mobileNav = ".overlay-content ." + currentPage.substring(7);
+  console.log(mobileNav);
 
   </script>
 </head>
@@ -21,7 +23,7 @@
   <% } %>
 
   <% include ../partials/article.ejs %>
-  <% include ../partials/slider.ejs %>
+
 
 
   <%  if (espanol == true) { %>
