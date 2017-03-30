@@ -88,6 +88,11 @@ body {
   line-height: 1.45;
   color: $main-text-color;
   margin:0;
+  transition: 2s background-color;
+}
+
+body a{
+  cursor: pointer;
 }
 
 p {margin-bottom: 1.3em;
@@ -110,6 +115,27 @@ h2 {font-size: 2.25em;}
 h3 {font-size: 1.75em;}
 
 h4 {font-size: 1.125em;
+}
+
+.instagram {
+  &:hover{
+    color:$instagram!important;
+  }
+}
+.facebook{
+  &:hover{
+    color:$facebook!important;
+  }
+}
+.twitter{
+  &:hover{
+    color:$twitter!important;
+  }
+}
+.github{
+  &:hover{
+    color:$github!important;
+  }
 }
 
 /* ------------------  Header ------------------ */
@@ -217,18 +243,18 @@ nav {
     justify-content: space-between;
     align-items: center;
     opacity:.8;
-    #insta {
+    .insta {
       padding-right: .3em;
       &:hover{
         color:$instagram;
       }
     }
-    #fb{
+    .fb{
       &:hover{
         color:$facebook;
       }
     }
-    #twit{
+    .twit{
       &:hover{
         color:$twitter;
       }

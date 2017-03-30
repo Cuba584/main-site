@@ -59,18 +59,21 @@
   <div class="team-nav">
     <ul>
       <li data-filter="all" class="active">Everyone</li>
-      <li data-filter=".Videographer">Videographer</li>
-      <li data-filter=".Reporter">Reporter</li>
-      <li data-filter=".Designer">Designer</li>
-      <li data-filter=".Developer">Developer</li>
-      <li data-filter=".Coach">Coach</li>
+      <li data-filter=".vid">Videographer</li>
+      <li data-filter=".rep">Reporter</li>
+      <li data-filter=".des">Designer</li>
+      <li data-filter=".dev">Developer</li>
+      <li data-filter=".coach">Coach</li>
     </ul>
   </div>
 
+  <!-- fa-github,  -->
+
   <div class="container">
   <div class="row" id="team-photos">
+
     <% for (i in team) {  %>
-        <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xs-3 <%=team[i]["role"] %>">
+        <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xs-3 <%=team[i]["roleid"] %>">
           <div class="team-image-box">
             <p class="bio"><%=team[i]["bio"] %> </p>
             <img alt="<%=team[i]["fullname"]%>" src="/assets/images/team/edited/<%=team[i]["firstname"]%>.jpg">
@@ -78,14 +81,19 @@
           <div class="team-info">
             <p class="role"><%=team[i]["role"] %></p>
             <p class="team-name"><%=team[i]["fullname"]%> </p>
+            <% if ( team[i]["portfolio"]){ %>
             <p class="portfolio"><a href="<%=team[i]["portfolio"]%>">Portfolio</a></p>
-            <!-- <p class="twitter-handle"><a href="<%#=person["social-media"]%>">Social Media</a></p> -->
+            <% } else { }%>
+            <% if (team[i]["socialid"]){ %>
+              <span> | </span>
+              <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["social"]%>"><i class="fa fa-<%= team[i]["socialid"] %>" aria-hidden="true"></i></a>
+            <% } else { }%>
+
+
           </div>
         </div>
         <% } %>
     </div>
-  </div>
-
 </div> <!--end container -->
 
   <div id="special-thanks">

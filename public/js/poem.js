@@ -11,13 +11,13 @@ for (var i in sectionId){
 
       $(sectionId[i]).waypoint(function() {
         console.log('wayp');
-          $(sectionId[i]).addClass('fadeIn 20s');
+          $(sectionId[i]).addClass('fadeInLeft 20s');
 
       }, { offset: '60%' });
     }else{
 
       $(sectionId[i]).waypoint(function() {
-          $(sectionId[i]).addClass('fadeIn 20s');
+          $(sectionId[i]).addClass('fadeInRight 20s');
       }, { offset: '60%' })
     }
   })(i)

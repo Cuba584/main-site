@@ -4,7 +4,7 @@
   /*------standard classes------*/
   /*------page ids------*/ }
   .inner .max-width {
-    max-width: 65%; }
+    max-width: 55%; }
   .inner .center-wrapper {
     display: flex;
     justify-content: center; }
@@ -64,7 +64,6 @@
     margin-top: 0;
     border-style: none; }
   .inner .subhead {
-    background-color: white;
     font-weight: 500;
     font-size: 1.675em;
     margin: 1.5em 0 0 0; }
@@ -86,12 +85,20 @@
   #inner-title-box:hover {
     cursor: default; }
 
+.vimeo-container {
+  padding: 5% 0;
+  transition: 2s background-color; }
+
+#video-bottom {
+  position: absolute;
+  margin-top: 60%; }
+
 .vimeo-wrapper {
   background-color: #000;
-  width: 100%;
+  width: 70%;
   padding-bottom: 56.25%;
   position: relative;
-  margin: 20vh 0; }
+  margin: 0 auto; }
   .vimeo-wrapper iframe {
     position: absolute;
     width: 100%;

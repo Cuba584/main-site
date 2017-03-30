@@ -237,7 +237,11 @@ body {
   font-weight: 300;
   line-height: 1.45;
   color: #000;
-  margin: 0; }
+  margin: 0;
+  transition: 2s background-color; }
+
+body a {
+  cursor: pointer; }
 
 p {
   margin-bottom: 1.3em;
@@ -260,6 +264,18 @@ h3 {
 
 h4 {
   font-size: 1.125em; }
+
+.instagram:hover {
+  color: #bc2a8d !important; }
+
+.facebook:hover {
+  color: #3b5998 !important; }
+
+.twitter:hover {
+  color: #00aced !important; }
+
+.github:hover {
+  color: #6e5494 !important; }
 
 /* ------------------  Header ------------------ */
 header {
@@ -331,13 +347,13 @@ nav {
     justify-content: space-between;
     align-items: center;
     opacity: .8; }
-    nav .sm-icons #insta {
+    nav .sm-icons .insta {
       padding-right: .3em; }
-      nav .sm-icons #insta:hover {
+      nav .sm-icons .insta:hover {
         color: #bc2a8d; }
-    nav .sm-icons #fb:hover {
+    nav .sm-icons .fb:hover {
       color: #3b5998; }
-    nav .sm-icons #twit:hover {
+    nav .sm-icons .twit:hover {
       color: #00aced; }
     nav .sm-icons #nav-line {
       margin: 0 0.6em 0 0.5em;
