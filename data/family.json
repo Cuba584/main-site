@@ -117,6 +117,12 @@
       "value": "Pénsate que lo habías visto todo en cuestión de recuerdo? Adelante."
     },
     {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/aging-barchart.ejs"
+      }
+    },
+    {
       "type": "subhead",
       "value": {
         "text": "A broken down ferry"
