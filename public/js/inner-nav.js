@@ -8,7 +8,6 @@
     var lastScrollTop = 0;
     var delta = 5;
     var navbarHeight = $('#cinemagraph').offset().top;
-    console.log(navbarHeight);
     $(window).scroll(function(event){
         didScroll = true;
     });
@@ -31,13 +30,11 @@
         // This is necessary so you never see what is "behind" the navbar.
         if (st > lastScrollTop && st > navbarHeight){
             // Scroll Down
-            console.log('down')
             $('header').removeClass('default').addClass('fixed');
         } else {
             // Scroll Up
             if(st < lastScrollTop) {
                 $('header').removeClass('fixed').addClass('default');
-                console.log('up')
             }
         }
 

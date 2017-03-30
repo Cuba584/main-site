@@ -4,7 +4,7 @@
   /*------standard classes------*/
   /*------page ids------*/ }
   .inner .max-width {
-    max-width: 55%; }
+    max-width: 50%; }
   .inner .center-wrapper {
     display: flex;
     justify-content: center; }
@@ -118,13 +118,6 @@
   width: 100vw;
   margin-top: 70px; }
 
-.about-cinema-wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: center; }
-  .about-cinema-wrapper video {
-    margin-top: 70px; }
-
 /*------responsive styles------*/
 @media screen and (min-width: 2400px) {
   .inner figure .inner-image {
@@ -155,7 +148,7 @@
     line-height: 1.5em;
     margin-top: 30px; }
   .inner .max-width {
-    max-width: 75%; }
+    max-width: 80%; }
   .inner iframe {
     width: 100%; }
   .inner .pull-quote-box {
