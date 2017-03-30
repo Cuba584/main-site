@@ -176,11 +176,37 @@
     },
     {
       "type": "text",
-      "value": "In 1954 The New Yorker released an article about the small across-the-harbor district of Regla, Cuba. The article featured the following poem by Philip Murray, which invokes vivid illustrations of the Regla of the past. While economic and racial diversity has increased in Regla in the last sixty years, echoes of Murray's Regla resonate with the modern day municipality."
+      "value": "In 1954 The New Yorker released an article featuring the following poem by Philip Murray, which invokes vivid illustrations of the Regla of the past. While economic and racial diversity has increased in Regla in the last sixty years, echoes of Murray's Regla resonate with the modern day municipality."
     },
     {
       "type": "text",
       "value": "Click the audio to hear Havana resident Luis Miguel Luis Miguel Yllobre Peña read Regla, Cuba by Philip Murray and explore the sights of Regla that have stood the test of time."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/poem.ejs"
+      }
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "One nation, two currencies"
+      }
+    },
+    {
+      "type": "text",
+      "value": "The Central Bank of Cuba issues two separate currencies, each with its own values, designs and uses. Convertible pesos, known by Cubans as CUCs (“kooks”) are pegged 1:1 with the American dollar. When tourists come to Cuba they exchange their foreign currency for CUCs. Cuban pesos, or moneda nacional (national currrency) are used most often by ordinary Cubans because they receive government salaries in this form. Roughly 24 pesos (moneda nacional) equals 1 CUC."
+    },
+    {
+      "type": "text",
+      "value": "Because CUCs are a higher value currency, tourists tend to pay a comparatively higher price for goods and services during their stays in Cuba. Use the slider below to compare the prices paid by tourists and locals for common goods and services."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/moneyslider.ejs"
+      }
     }
   ]
 }

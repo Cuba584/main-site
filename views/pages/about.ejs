@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="<%= espanol ? "es":"en" %>">
 <head>
   <link href="/stylesheets/bootstrap.min.css.map">
   <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
@@ -15,8 +15,7 @@
   var currentNav = '.' + currentPage;
   console.log(currentNav);
   </script>
-<%  include ../partials/nav.ejs %>
-
+    <% include ../partials/nav.ejs %>
 <div class="about-cinema-wrapper">
   <video id="about-cinemagraph" data-autoplay autoplay muted playsinline>
   <source src="/assets/video/teamportrait.mp4 %>" type="video/mp4">
@@ -28,49 +27,64 @@
 
     <div id="title-box" class="center-wrapper">
       <div class="about change-bg" id="inner-title-box">
-        <h1>About</h1>
-
+        <h1><%= espanol ? "About Espanol":"About"%></h1>
       </div>
     </div>
 
-<div class="about-container">
-  <p>Students in UNC-Chapel Hill’s School of Media and Journalism are honored to tell the stories of change in Havana, Cuba.</p>
+  <p>
+	<% if (espanol) { %>
+	TO TRANSLATE Students in UNC-Chapel Hill’s School of Media and Journalism are honored to tell the stories of change in Havana, Cuba.
+	<% } else { %>
+	Students in UNC-Chapel Hill’s School of Media and Journalism are honored to tell the stories of change in Havana, Cuba.
+	<% } %>
+  </p>
 
   <div class="divider">
     <img alt="Logo" src="/assets/584_logo_plain.png">
-    <h3>The Project</h3>
+    <h3><%= espanol ? "The Project Espanol":"The Project"%></h3>
   </div>
 
   <p class="about">
-    Ei vix wisi necessitatibus, at pri dicit appellantur. Quod suas deterruisset has an. Ut vidit essent nostro est, ex est exerci commune accusamus, ei alii graeco noluisse eam. Mei equidem adipiscing definitionem ne, cu vis melius vituperata.
-  </p>
+	<% if (espanol) { %>
+	Ei vix wisi necessitatibus, at pri dicit appellantur. Quod suas deterruisset has an. Ut vidit essent nostro est, ex est exerci commune accusamus, ei alii graeco noluisse eam. Mei equidem adipiscing definitionem ne, cu vis melius vituperata.	
+	<% } else { %>
+	Ei vix wisi necessitatibus, at pri dicit appellantur. Quod suas deterruisset has an. Ut vidit essent nostro est, ex est exerci commune accusamus, ei alii graeco noluisse eam. Mei equidem adipiscing definitionem ne, cu vis melius vituperata.
+  	<% } %> 
+	</p>
 
   <p class="about">
-    Mei eu dico doming inermis, qui cu minimum platonem. Quod alii iudicabit pro eu, probo propriae erroribus te nec, eos te essent detracto invidunt. Postea invidunt appellantur eum eu. Ei noster delectus necessitatibus cum. Vim habeo dicunt te, et dolorum postulant mel. Et sea errem quidam.
-  </p>
+ 	<% if (espanol) { %>
+	Mei eu dico doming inermis, qui cu minimum platonem. Quod alii iudicabit pro eu, probo propriae erroribus te nec, eos te essent detracto invidunt. Postea invidunt appellantur eum eu. Ei noster delectus necessitatibus cum. Vim habeo dicunt te, et dolorum postulant mel. Et sea errem quidam.
+	<% } else { %>
+	Mei eu dico doming inermis, qui cu minimum platonem. Quod alii iudicabit pro eu, probo propriae erroribus te nec, eos te essent detracto invidunt. Postea invidunt appellantur eum eu. Ei noster delectus necessitatibus cum. Vim habeo dicunt te, et dolorum postulant mel. Et sea errem quidam.
+  	<% } %>   
+	</p>
 
   <div class="divider">
     <img alt="Logo" src="/assets/584_logo_plain.png">
-    <h3>The Team</h3>
+    <h3><%= espanol ? "The Team Espanol":"The Team"%></h3>
   </div>
 
 </div> <!--end container -->
 
   <div class="team-nav">
     <ul>
-      <li data-filter="all" class="active">Everyone</li>
-      <li data-filter=".Videographer">Videographer</li>
-      <li data-filter=".Reporter">Reporter</li>
-      <li data-filter=".Designer">Designer</li>
-      <li data-filter=".Developer">Developer</li>
-      <li data-filter=".Coach">Coach</li>
+      <li data-filter="all" class="active"><%= espanol ? "Everyone Espanol":"Everyone"%></li>
+      <li data-filter=".vid"><%= espanol ? "Videographer Espanol":"Videographer"%></li>
+      <li data-filter=".rep"><%= espanol ? "Reporter Espanol":"Reporter"%></li>
+      <li data-filter=".des"><%= espanol ? "Designer Espanol":"Designer"%></li>
+      <li data-filter=".dev"><%= espanol ? "Developer Espanol":"Developer"%></li>
+      <li data-filter=".coach"><%= espanol ? "Coach Espanol":"Coach"%></li>
     </ul>
   </div>
 
+  <!-- fa-github,  -->
+
   <div class="container">
   <div class="row" id="team-photos">
+
     <% for (i in team) {  %>
-        <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xs-3 <%=team[i]["role"] %>">
+        <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xs-3 <%=team[i]["roleid"] %>">
           <div class="team-image-box">
             <p class="bio"><%=team[i]["bio"] %> </p>
             <img alt="<%=team[i]["fullname"]%>" src="/assets/images/team/edited/<%=team[i]["firstname"]%>.jpg">
@@ -78,27 +92,36 @@
           <div class="team-info">
             <p class="role"><%=team[i]["role"] %></p>
             <p class="team-name"><%=team[i]["fullname"]%> </p>
-            <p class="portfolio"><a href="<%=team[i]["portfolio"]%>">Portfolio</a></p>
-            <!-- <p class="twitter-handle"><a href="<%#=person["social-media"]%>">Social Media</a></p> -->
+            <% if ( team[i]["portfolio"]){ %>
+            <p class="portfolio"><a href="<%=team[i]["portfolio"]%>"><%= espanol ? "Portfolio Espanol":"Portfolio"%></a></p>
+            <% } else { }%>
+            <% if (team[i]["socialid"]){ %>
+              <span> | </span>
+              <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["social"]%>"><i class="fa fa-<%= team[i]["socialid"] %>" aria-hidden="true"></i></a>
+            <% } else { }%>
+
           </div>
         </div>
         <% } %>
     </div>
-  </div>
-
 </div> <!--end container -->
 
   <div id="special-thanks">
     <div class="about-container">
-      <h3>Special Thanks</h3>
-      <p>Pro eu omnes tollit, fugit fastidii contentiones his no. Vidit phaedrum inimicus pri no. Illud porro cotidieque pri no. Sint inermis accusam eum in, nostro bonorum no cum, mea ei labore maluisset. An decore erroribus per. Nec id nominavi molestie, dolorem percipit intellegam cu vis.
-      </p>
+ 	<% if (espanol) { %>
+	<h3>Special Thanks Espanol</h3>
+    <p>Pro eu omnes tollit, fugit fastidii contentiones his no. Vidit phaedrum inimicus pri no. Illud porro cotidieque pri no. Sint inermis accusam eum in, nostro bonorum no cum, mea ei labore maluisset. An decore erroribus per. Nec id nominavi molestie, dolorem percipit intellegam cu vis.
+    </p>	
+	<% } else { %>
+	<h3>Special Thanks</h3>
+    <p>Pro eu omnes tollit, fugit fastidii contentiones his no. Vidit phaedrum inimicus pri no. Illud porro cotidieque pri no. Sint inermis accusam eum in, nostro bonorum no cum, mea ei labore maluisset. An decore erroribus per. Nec id nominavi molestie, dolorem percipit intellegam cu vis.
+    </p>
+  	<% } %>   
     </div>
   </div>
 
-
-  <% include ../partials/footer.ejs %>
-  <script src="/js/tether.min.js"></script>
+    <% include ../partials/footer.ejs %>
+	<script src="/js/tether.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
   <script src="/js/mixitup.min.js"></script>
   <script>var mixer = mixitup('#team-photos');</script>
