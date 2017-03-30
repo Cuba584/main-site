@@ -22,32 +22,27 @@ gulp.task('connect', function(){
   });
 
   app.get('/', function(request, response) {
-    response.render('pages/index', {page: 'index'});
-  });
-
-  app.get('/indexespanol', function(request, response) {
-    response.render('pages/indexespanol', {page: 'indexespanol'});
+    response.render('pages/index', {page: 'index', espanol: isEspanol(request)});
   });
 
   app.get('/about', function(request, response){
     var teamData = JSON.parse(fs.readFileSync('./data/team.json'));
-    response.render('pages/about', {team: teamData, page: 'about'});
-  });
-
-  app.get('/aboutespanol', function(request, response){
-    var teamData = JSON.parse(fs.readFileSync('./data/team.json'));
-    response.render('pages/aboutespanol', {team: teamData, page: 'aboutespanol'});
+    response.render('pages/about', {team: teamData, page: 'about', espanol: isEspanol(request)});
   });
 
   app.get('/pages/:id', function(req, res){
     var pageName = req.params.id;
-    var bodyData = JSON.parse(fs.readFileSync('./data/' + pageName + '.json'));
-    res.render('pages/inner', {body: bodyData, page: '/pages/' + pageName});
-
+    var bodyData;
+	if (isEspanol(req)){
+		bodyData = JSON.parse(fs.readFileSync('./data/' + pageName + 'espanol.json'));
+	} else {
+		bodyData = JSON.parse(fs.readFileSync('./data/' + pageName + '.json'));
+	}
+    res.render('pages/inner', {body: bodyData, page: '/pages/' + pageName, espanol: isEspanol(req)});
   });
 
   app.get('*', function(request, response){
-    response.render('pages/404', {page: '404'});
+    response.render('pages/404', {page: '404', espanol: isEspanol(request)});
   });
 
 });
@@ -67,3 +62,7 @@ gulp.task('watch', function() {
 
 
 gulp.task('default', ['connect', 'sass', 'watch']);
+
+var isEspanol = function(req){
+	return req.query.lang && req.query.lang == "es";
+};

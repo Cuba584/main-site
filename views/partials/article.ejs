@@ -1,8 +1,15 @@
+<script>
+$(document).ready(function(){
+	$('iframe').each(function(i, el){
+		$(el).attr('src', $(el).data("src"));
+	});
+});
+</script>
+
 <div class="container inner">
 
   <section id="top-fold">
-
-
+  
         <video id="cinemagraph" data-autoplay autoplay muted playsinline loop>
           <source src="/assets/video/<%=body["cinemagraph"]["src"] %>" type="video/mp4">
           <!-- <source src="/assets/video/harbor_embark.mp4" type="video/mp4"> -->
@@ -50,7 +57,7 @@
     <div class="max-width">
     <% for (i in body["text"]) {
       if (body["text"][i]["type"] == "text") {%>
-    <p> <%=body["text"][i]["value"] %> </p>
+    <p> <%-body["text"][i]["value"] %> </p>
     <%} else if (body["text"][i]["type"] == "subhead") {%>
       <h4 class="subhead <%= body["master-class"]["class"] %>"><%=body["text"][i]["value"]["text"] %></h4>
     <%} else if (body["text"][i]["type"] == "video") {%>
@@ -59,7 +66,7 @@
   </section>
   <div class="vimeo-container">
       <div class="vimeo-wrapper" id="vimeo-wrap">
-        <iframe src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe data-src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
     </div>
       <section class="center-wrapper">
