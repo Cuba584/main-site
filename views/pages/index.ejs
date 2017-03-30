@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="<%= espanol ? "es":"en" %>">
 <head>
   <% include ../partials/header.ejs %>
 </head>
 
 <body>
   <script>
-  var currentPage = 'index';
+  var currentPage = '';
   </script>
   <div id="index-container">
+
     <% include ../partials/nav.ejs %>
+
     <div id="bottom-box">
 
         <video id="home-video" muted data-autoplay autoplay>
 
-    			<source src="/assets/video/intro_cinemagraph4.mp4" type="video/mp4">
+    			<source src="<%= espanol ? "spanish_video_link":"/assets/video/intro_cinemagraph4.mp4" %>" type="video/mp4">
 
     		</video>
         <!-- <div id="logo-box">
@@ -28,7 +30,9 @@
   </div>
 
   <div id="mobile-container">
+  
     <% include ../partials/nav.ejs %>
+	
     <div id="logo-box">
       <img alt="logo" src="/assets/images/584_logo_white.png">
       <div id="info">

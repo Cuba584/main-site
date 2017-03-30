@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="<%= espanol ? "es":"en" %>">
 <head>
   <link href="/stylesheets/bootstrap.min.css.map">
   <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
@@ -11,8 +11,7 @@
   <script>
   var currentPage = 'about';
   </script>
-<%  include ../partials/nav.ejs %>
-
+    <% include ../partials/nav.ejs %>
 <div class="about-cinema-wrapper">
   <video id="cinemagraph" data-autoplay autoplay muted playsinline>
   <source src="/assets/video/teamportrait.mp4 %>" type="video/mp4">
@@ -82,7 +81,6 @@
               <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["social"]%>"><i class="fa fa-<%= team[i]["socialid"] %>" aria-hidden="true"></i></a>
             <% } else { }%>
 
-
           </div>
         </div>
         <% } %>
@@ -97,8 +95,8 @@
     </div>
   </div>
 
-  <% include ../partials/footer.ejs %>
-  <script src="/js/tether.min.js"></script>
+    <% include ../partials/footer.ejs %>
+	<script src="/js/tether.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
   <script src="/js/mixitup.min.js"></script>
   <script>var mixer = mixitup('#team-photos');</script>
