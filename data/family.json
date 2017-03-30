@@ -265,6 +265,12 @@
       "value": "Together they drift down the neighborhood streets to buy food at the nearby market. Occasionally, the pair bumps into an older neighbor and stops to exchange kisses. Coralia selects the food from produce stands and uses the money from her purse to pay, but when they leave, Diego carries the white plastic bag. Later, Coralia will transform that into a meal."
     },
     {
+      "type": "interactive",
+      "value": {
+        "filename": "aging-barchart.ejs"
+      }
+    },
+    {
       "type": "text",
       "value": "Cuba’s youthful and aging generations forge into the future surrounded by uncertainty. How the country will cope with the demands of a growing retired population, how it will foster opportunity for the youth amidst housing and employment deficits, how it’ll adapt to the changing global landscape. For Cubans, old and young, the destination is a mystery, but one thing is clear in this journey of generations: They move as equals."
     },

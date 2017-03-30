@@ -186,6 +186,7 @@ a:hover, a:focus {
 }
 
 
+@include media("screen", "<=md") {
 .portfolio{
   display:inline;
 }
@@ -202,8 +203,8 @@ a:hover, a:focus {
   }
 }
 
-
 @include media("screen", "<=md") {
+
   .team-nav {
     ul{
       flex-direction: column;
@@ -231,4 +232,4 @@ a:hover, a:focus {
       text-align: left;
     }
   }
-}
+}}
