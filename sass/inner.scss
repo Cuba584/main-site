@@ -103,9 +103,10 @@
   .pull-quote hr{
     background-color: white;
     height: 6px;
-    margin-right: 725px;
+    margin-right: 55vw;
     margin-top:0;
     border-style: none;
+
   }
 
   .subhead{
@@ -302,7 +303,11 @@ iframe {
     }
 
     .pull-quote {
-      font-size: 1em;
+      font-size: 1.3em;
+    }
+
+    .pull-quote hr{
+      height: 5px;
     }
   }
 }
