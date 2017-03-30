@@ -57,7 +57,7 @@ $(document).ready(function(){
     <div class="max-width">
     <% for (i in body["text"]) {
       if (body["text"][i]["type"] == "text") {%>
-    <p> <%=body["text"][i]["value"] %> </p>
+    <p> <%-body["text"][i]["value"] %> </p>
     <%} else if (body["text"][i]["type"] == "subhead") {%>
       <h4 class="subhead <%= body["master-class"]["class"] %>"><%=body["text"][i]["value"]["text"] %></h4>
     <%} else if (body["text"][i]["type"] == "video") {%>

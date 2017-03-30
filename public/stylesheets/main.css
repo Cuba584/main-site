@@ -223,6 +223,9 @@ h4 {
 .github:hover {
   color: #6e5494 !important; }
 
+.italic {
+  font-style: italic; }
+
 /* ------------------  Header ------------------ */
 header {
   text-align: left;
