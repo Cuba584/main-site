@@ -13,8 +13,7 @@ var rightButton = document.getElementById('slider-right');
 var sliderLeft = sliderUl.offsetLeft;
 var slideIndex = 0;
 
-
-leftButton.addEventListener("click", function() {
+leftButton.addEventListener("click", function toPrevious() {
   sliderUl.style.transition = "0.5s left";
   slideIndex --;
   if (slideIndex == 0) {
@@ -31,7 +30,7 @@ leftButton.addEventListener("click", function() {
     sliderUl.style.left = (slideIndex * -100) - 100 + '%';
   }
 })
-rightButton.addEventListener("click", function() {
+rightButton.addEventListener("click", function toNext() {
   sliderUl.style.transition = "0.5s left";
   console.log(slideIndex);
   slideIndex ++;
