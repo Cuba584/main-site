@@ -94,7 +94,6 @@
     cursor: default; }
 
 .vimeo-container {
-  padding: 5% 0;
   transition: 0.1s background-color; }
 
 #video-bottom {
