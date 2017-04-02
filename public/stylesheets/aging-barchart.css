@@ -99,8 +99,8 @@
       opacity: 0;
       width: 100%; }
     #aging-barchart .wrap .chart-animate {
-      -webkit-animation: 1.5s animation-lightspeed-in ease forwards;
-      animation: 1.5s animation-lightspeed-in ease forwards; }
+      -webkit-animation: 1s animation-lightspeed-in ease forwards;
+      animation: 1s animation-lightspeed-in ease forwards; }
     #aging-barchart .wrap .chart-bar {
       margin-left: 0.5rem; }
     #aging-barchart .wrap .chart-vertical .chart-bar:nth-of-type(10) {

@@ -4,7 +4,7 @@
   /*------standard classes------*/
   /*------page ids------*/ }
   .inner .max-width {
-    max-width: 55%; }
+    max-width: 50%; }
   .inner .center-wrapper {
     display: flex;
     justify-content: center; }
@@ -39,12 +39,20 @@
       height: 80vh;
       width: auto; }
   .inner figcaption {
-    margin-left: 2vw;
-    line-height: 1.8em; }
+    line-height: 1.8em;
+    margin-left: 1.2vw;
+    padding-right: 20vw;
+    font-size: .95em;
+    font-weight: 400;
+    letter-spacing: .02em; }
     .inner figcaption .fig-descr {
-      margin-top: 0; }
-    .inner figcaption .fig-attr::before {
-      content: '-'; }
+      margin-top: 0;
+      line-height: 1.8; }
+    .inner figcaption .fig-attr {
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: .8em;
+      margin-bottom: -13px; }
   .inner .pull-quote-box {
     margin: 20pt 0 20pt 15%; }
   .inner .pull-quote {
@@ -60,7 +68,7 @@
   .inner .pull-quote hr {
     background-color: white;
     height: 6px;
-    margin-right: 725px;
+    margin-right: 55vw;
     margin-top: 0;
     border-style: none; }
   .inner .subhead {
@@ -110,13 +118,6 @@
   width: 100vw;
   margin-top: 70px; }
 
-.about-cinema-wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: center; }
-  .about-cinema-wrapper video {
-    margin-top: 70px; }
-
 /*------responsive styles------*/
 @media screen and (min-width: 2400px) {
   .inner figure .inner-image {
@@ -135,7 +136,7 @@
 
 @media screen and (max-width: 1020px) {
   .container {
-    margin-top: 68px; }
+    margin-top: 13px; }
   .inner .byline-box {
     margin-top: 15pt; }
     .inner .byline-box .byline-item p {
@@ -147,11 +148,13 @@
     line-height: 1.5em;
     margin-top: 30px; }
   .inner .max-width {
-    max-width: 75%; }
+    max-width: 80%; }
   .inner iframe {
     width: 100%; }
   .inner .pull-quote-box {
     width: 88vw; }
+  .inner figcaption {
+    padding-right: 0vw; }
   #inner-title-box {
     width: 100%;
     margin-top: 0; }
@@ -182,4 +185,6 @@
     width: 100vw;
     margin: 0; }
   .inner .pull-quote {
-    font-size: 1em; } }
+    font-size: 1.3em; }
+  .inner .pull-quote hr {
+    height: 5px; } }

@@ -5,9 +5,6 @@
   justify-content: center;
   margin-top: 0; }
 
-.about.change-bg {
-  width: 20% !important; }
-
 ul {
   margin-top: 15px; }
 
@@ -128,17 +125,31 @@ a:hover, a:focus {
     text-align: left;
     padding-left: 5px; }
 
-.portfolio {
-  display: inline; }
+.about-cinema-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .about-cinema-wrapper video {
+    margin-top: 70px; }
 
-.about-social-icon {
-  display: inline; }
+#about-cinemagraph {
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%; }
 
-@media screen and (min-width: 2400px) {
+@media screen and (max-width: 1020px) {
+  .portfolio {
+    display: inline; }
+  .about-social-icon {
+    display: inline; } }
+
+@media screen and (max-width: 1020px) and (min-width: 2400px) {
   .team-nav ul {
     padding: 15px 20vw 15px 20vw; } }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1020px) and (max-width: 1020px) {
   .team-nav ul {
     flex-direction: column;
     max-height: 80px;

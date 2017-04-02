@@ -59,7 +59,7 @@
       height: 300px;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
-              justify-content: space-between;
+      justify-content: space-between;
       overflow: hidden;
     }
 
@@ -137,8 +137,8 @@
     }
 
     .chart-animate {
-      -webkit-animation: 1.5s animation-lightspeed-in ease forwards;
-              animation: 1.5s animation-lightspeed-in ease forwards;
+      -webkit-animation: 1s animation-lightspeed-in ease forwards;
+              animation: 1s animation-lightspeed-in ease forwards;
     }
 
     .chart-bar{
@@ -226,6 +226,7 @@
       opacity: 1;
       -webkit-transform: translateY(0px);
               transform: translateY(0px);
+
     }
   }
 

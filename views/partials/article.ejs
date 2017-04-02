@@ -9,10 +9,11 @@ $(document).ready(function(){
 <div class="container inner">
 
   <section id="top-fold">
-  
-        <video id="cinemagraph" data-autoplay autoplay muted playsinline loop>
+
+        <video id="cinemagraph" data-autoplay autoplay muted playsinline>
+
           <source src="/assets/video/<%=body["cinemagraph"]["src"] %>" type="video/mp4">
-          <!-- <source src="/assets/video/harbor_embark.mp4" type="video/mp4"> -->
+          <!-- <source src="/assets/video/dorian_new.mp4" type="video/mp4"> -->
         </video>
 
       <div class="replay-btn" id="replay-btn">
@@ -68,14 +69,16 @@ $(document).ready(function(){
       <div class="vimeo-wrapper" id="vimeo-wrap">
         <iframe data-src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
+
     </div>
       <section class="center-wrapper">
         <div class="max-width">
       <%} else if (body["text"][i]["type"] == "interactive") {%>
       </div>
     </section>
-         <% var filepath = body["text"][i]["value"]["filename"] %>
-           <%- include(filepath); %>
+
+    <% var filepath = body["text"][i]["value"]["filename"] %>
+      <%- include(filepath); %>
            <section class="center-wrapper">
              <div class="max-width">
 
@@ -89,7 +92,11 @@ $(document).ready(function(){
     </div>
     <section class="center-wrapper">
       <div class="max-width">
-    <% } else if (body["text"][i]["type"] == "image") {%>
+    <% } else if (body["text"][i]["type"] == "image") { //imgCount++;
+      //var imageUrl = body["text"][i]["value"]["src"];
+      //var imageId = imageUrl.lastIndexOf('_');
+      //var
+    %>
     </div>
   </section>
     <figure>
@@ -97,6 +104,7 @@ $(document).ready(function(){
       <%=body["text"][i]["value"]["alt"] %>'>
       <figcaption>
       <p class="fig-descr"><%=body["text"][i]["value"]["caption"] %></p>
+      <p class="fig-attr">Photo by</p>
       <p class="fig-attr"><%=body["text"][i]["value"]["attribution"] %></p>
     </figcaption>
     </figure>

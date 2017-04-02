@@ -1,0 +1,74 @@
+#custom-slider {
+  width: 50%;
+  height: 50vh;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -5%; }
+  #custom-slider button {
+    border: none;
+    background: transparent;
+    font-size: 4em;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 8%; }
+  #custom-slider button:focus {
+    outline: none; }
+
+#custom-slider > ul {
+  width: 100%;
+  height: 50vh;
+  left: -100%;
+  transition: 0.5s left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: flex; }
+
+#custom-slider > ul > li {
+  width: 100%;
+  height: vh;
+  color: black;
+  font-size: 3rem; }
+
+#slider-right {
+  margin-left: 54%; }
+
+#slider-left {
+  margin-left: -7%; }
+
+.money-slider {
+  height: 50vh;
+  text-align: center; }
+  .money-slider li {
+    width: 100%; }
+  .money-slider h2 {
+    font-size: 0.8em; }
+  .money-slider h3 {
+    font-size: 0.6em; }
+  .money-slider p {
+    font-size: 0.6em; }
+  .money-slider img {
+    height: 20vh; }
+  .money-slider .money-slider-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .money-slider .money-slider-section img {
+      text-align: center; }
+  .money-slider .money-left, .money-slider .money-center, .money-slider .money-right {
+    align-self: center; }
+
+@media screen and (max-width: 570px) {
+  #custom-slider {
+    width: 90%;
+    height: 50vh;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -5%; }
+  #custom-slider button {
+    display: none; }
+  .money-slider-section {
+    flex-direction: column; } }

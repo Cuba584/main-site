@@ -12,7 +12,7 @@ $light-gray: #efefef;
 }
 
 .about.change-bg{
-  width:20%!important;
+  // width:20%!important;
 }
 
 ul {
@@ -168,7 +168,25 @@ a:hover, a:focus {
   }
 }
 
+.about-cinema-wrapper{
+  position: relative;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  video{
+    margin-top:$nav-height;
+  }
+}
 
+#about-cinemagraph {
+   width: 100%;
+   top: 0;
+   left: 0;
+   height: 100%;
+}
+
+
+@include media("screen", "<=md") {
 .portfolio{
   display:inline;
 }
@@ -185,8 +203,8 @@ a:hover, a:focus {
   }
 }
 
-
 @include media("screen", "<=md") {
+
   .team-nav {
     ul{
       flex-direction: column;
@@ -214,4 +232,4 @@ a:hover, a:focus {
       text-align: left;
     }
   }
-}
+}}
