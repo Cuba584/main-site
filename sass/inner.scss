@@ -5,7 +5,7 @@
 
 /*------standard classes------*/
   .max-width{
-    max-width:55%;
+    max-width:50%;
   }
 
   .center-wrapper{
@@ -71,15 +71,26 @@
   }
 
   figcaption{
-    margin-left:2vw;
     line-height:1.8em;
+    margin-left: 1.2vw;
+    padding-right: 20vw;
+    font-size: .95em;
+    font-weight: 400;
+    letter-spacing: .02em;
+
     .fig-descr{
       margin-top:0;
+      line-height: 1.8;
     }
     .fig-attr{
-      &::before{
-        content:'-';
-      }
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: .8em;
+      margin-bottom: -13px;
+      // &::before{
+      //   content:'-';
+      // }
+
     }
 
   }
@@ -103,9 +114,10 @@
   .pull-quote hr{
     background-color: white;
     height: 6px;
-    margin-right: 725px;
+    margin-right: 55vw;
     margin-top:0;
     border-style: none;
+
   }
 
   .subhead{
@@ -140,7 +152,7 @@
 
 .vimeo-container {
   padding: 5% 0;
-  transition: 2s background-color;
+  transition: 0.1s background-color;
 }
 
 #video-bottom {
@@ -209,7 +221,7 @@ iframe {
 
 @include media("screen", "<=md") {
     .container {
-      margin-top: 68px;
+      margin-top: 13px;
     }
     .inner {
       .byline-box {
@@ -229,7 +241,7 @@ iframe {
       }
 
       .max-width {
-        max-width: 75%;
+        max-width: 80%;
       }
 
       iframe {
@@ -239,6 +251,11 @@ iframe {
       .pull-quote-box {
         width: 88vw;
         //max-width: 100vw;
+      }
+
+      figcaption {
+        padding-right: 0vw;
+
       }
 
 
@@ -295,7 +312,11 @@ iframe {
     }
 
     .pull-quote {
-      font-size: 1em;
+      font-size: 1.3em;
+    }
+
+    .pull-quote hr{
+      height: 5px;
     }
   }
 }

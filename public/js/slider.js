@@ -13,6 +13,7 @@ var rightButton = document.getElementById('slider-right');
 var sliderLeft = sliderUl.offsetLeft;
 var slideIndex = 0;
 
+
 leftButton.addEventListener("click", function() {
   sliderUl.style.transition = "0.5s left";
   slideIndex --;
@@ -32,6 +33,7 @@ leftButton.addEventListener("click", function() {
 })
 rightButton.addEventListener("click", function() {
   sliderUl.style.transition = "0.5s left";
+  console.log(slideIndex);
   slideIndex ++;
   if (slideIndex == 0) {
     sliderUl.style.left = "-100%";

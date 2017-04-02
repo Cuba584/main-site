@@ -6,13 +6,11 @@ $(document).ready(function(){
   });
   var videoTop = $('#video-top').offset().top;
   var videoHeight = $('#vimeo-wrap').outerHeight();
-  console.log(videoTop)
-  console.log(videoTop + (videoHeight / 2))
 
   if (windowWidth > 1020) {
   $(window).scroll(function(event){
     var scrollTop = $(this).scrollTop();
-    console.log(scrollTop)
+
 
       if (scrollTop >= videoTop  - 200 && scrollTop <= videoTop + (videoHeight / 8)) {
         $('body').css('background-color', '#000')
@@ -61,7 +59,6 @@ $(document).ready(function(){
 
   if (videoEnded){
     $('#replay-btn').show();
-    console.log('shown');
   };
 
 

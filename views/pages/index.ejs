@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="<%= espanol ? "es":"en" %>">
 <head>
   <% include ../partials/header.ejs %>
 </head>
 
 <body>
   <script>
-  var currentPage = 'index';
+  var currentPage = '';
   </script>
   <div id="index-container">
+
     <% include ../partials/nav.ejs %>
+
     <div id="bottom-box">
 
         <video id="home-video" muted data-autoplay autoplay>
 
-    			<source src="/assets/video/intro_cinemagraph4.mp4" type="video/mp4">
+    			<source src="<%= espanol ? "spanish_video_link":"/assets/video/intro_cinemagraph4.mp4" %>" type="video/mp4">
 
     		</video>
         <!-- <div id="logo-box">
@@ -22,34 +24,42 @@
         </div> -->
         <div class="replay-btn" id="replay-btn">
           <i class="fa fa-repeat"></i>
-          <span>Replay</span>
+          <span><%= espanol ? "Replay Espanol":"Replay" %></span>
         <div>
     </div>
   </div>
 
   <div id="mobile-container">
+  
     <% include ../partials/nav.ejs %>
+	
     <div id="logo-box">
       <img alt="logo" src="/assets/images/584_logo_white.png">
       <div id="info">
-      <p>Cuba's youth are bringing in a wave of change. Join us as we journey through Havana through their eyes.</p>
+      <p>
+	  	<% if (espanol) { %>
+		TO TRANSLATE Cuba's youth are bringing in a wave of change. Join us as we journey through Havana through their eyes.
+		<% } else { %>
+		Cuba's youth are bringing in a wave of change. Join us as we journey through Havana through their eyes.
+		<% } %>
+	  </p>
     </div>
     </div>
     <div id="links-box">
       <div class="mobile-link" id="entre-link">
-        <a><p>Darien and Damien</p></a>
+        <a><p><%= espanol ? "Darien Espanol":"Darien and Damien" %></p></a>
       </div>
       <div class="mobile-link" id="skate-link">
-        <a><p>Skate Libre</p></a>
+        <a><p><%= espanol ? "Skate Espanol":"Skate Libre" %></p></a>
       </div>
       <div class="mobile-link" id="arts-link">
-        <a><p>Agency of Rap</p></a>
+        <a><p><%= espanol ? "Rap Espanol":"Agency of Rap" %></p></a>
       </div>
       <div class="mobile-link" id="harbor-link">
-        <a><p>Across the Harbor</p></a>
+        <a><p><%= espanol ? "Harbor Espanol":"Across the Harbor" %></p></a>
       </div>
       <div class="mobile-link" id="aging-link">
-        <a><p>Aging Society</p></a>
+        <a><p><%= espanol ? "Society Espanol":"Aging Society" %></p></a>
       </div>
     </div>
 
