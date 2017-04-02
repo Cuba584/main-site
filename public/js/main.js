@@ -26,7 +26,7 @@ $(document).ready(function(){
 
 
   $(currentNav).addClass('active-nav');
-  $(mobileNav).addClass('mobile-active-nav'); 
+  $(mobileNav).addClass('mobile-active-nav');
 
   $('#menu-toggle').click(function(){
     // $('#hidden-nav').show();

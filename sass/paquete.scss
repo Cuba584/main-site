@@ -1,12 +1,29 @@
 @import '_include-media';
+@import '_vars';
+
+// .paquete {
+// body, html {
+//   height: 100%;
+//   margin: 0;
+// }
+
+.paquete-wrapper {
+  margin-top: 3%;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7%;
+
+  .title {
+    text-align: center;
+    color: #A089CE;
+  }
 
 .paquete {
-body, html {
-  height: 100%;
-  margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
-}
+  overflow-y: scroll;
+	overflow-x: hidden;
+	// width: 100%;
+  height: 500px;
 
 .bgimg {
   position: relative;
@@ -51,7 +68,7 @@ body, html {
 }
 
 .bgimg-7 {
-  background-image: url("../assets/images/paquete/DSC05765.jpg");
+  background-image: url("../assets/images/paquete/marco3.png");
   min-height: 100%;
 }
 
@@ -84,21 +101,6 @@ body, html {
   text-align: justify;
 }
 
-// .bg-3 {
-//   color:#ddd;
-//   background-color:#282E34;
-//   text-align:center;
-//   padding:25px 40px;
-//   text-align: justify;
-// }
-//
-// .bg-4 {
-//   color:#ddd;
-//   background-color:#282E34;
-//   text-align:center;
-//   padding:50px 80px;
-//   text-align: justify;
-// }
 
 .scrolling {
   position: relative;
@@ -123,19 +125,19 @@ body, html {
 
 .other-caption {
   position: absolute;
-  left: 5%;
-  top: 30%;
+  left: 2%;
+  top: 25%;
   width: 200px;
   // width: 100%;
   text-align: center;
   color: #000;
 }
 
-// #right-caption {
-//   left: 75%;
-//   margin-bottom: 10px;
-//   padding: 20px;
-// }
+#right-caption {
+   left: 60%;
+   margin-bottom: 10px;
+   padding: 20px;
+ }
 
 .other-border {
   background-color: #000;
@@ -143,7 +145,7 @@ body, html {
   color: #fff;
   font-weight: bold;
   padding: 15px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 
@@ -177,7 +179,7 @@ h3 {
 }
 
 @include media("screen", "<=md") {
-  #luis {
+  .luis {
     left: 75%;
     margin-bottom: 10px;
     padding: 20px;
@@ -193,7 +195,7 @@ h3 {
 }
 
 @include media("screen", "<=sm") {
-  #luis {
+  .luis {
     left: 75%;
     margin-bottom: 10px;
     padding: 20px;
@@ -213,3 +215,4 @@ h3 {
 
 }
 }
+} //paquete-wrappers

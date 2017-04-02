@@ -125,7 +125,6 @@ a:hover, a:focus {
     text-align: left;
     padding-left: 5px; }
 
-<<<<<<< HEAD
 .about-cinema-wrapper {
   position: relative;
   width: 100%;
@@ -142,19 +141,16 @@ a:hover, a:focus {
 
 /*-----------------responsive styles-------------*/
 @media screen and (max-width: 720px) {
-=======
-.portfolio {
-  display: inline; }
+  .portfolio {
+    display: inline; }
+  .about-social-icon {
+    display: inline; } }
 
-.about-social-icon {
-  display: inline; }
-
-@media screen and (min-width: 2400px) {
+@media screen and (max-width: 720px) and (min-width: 2400px) {
   .team-nav ul {
     padding: 15px 20vw 15px 20vw; } }
 
-@media screen and (max-width: 1020px) {
->>>>>>> master
+@media screen and (max-width: 720px) and (max-width: 1020px) {
   .team-nav ul {
     flex-direction: column;
     max-height: 80px;

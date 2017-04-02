@@ -1,122 +1,135 @@
-.paquete {
-  /* Turn off parallax scrolling for tablets and phones */ }
-  .paquete body, .paquete html {
-    height: 100%;
-    margin: 0;
-    font: 400 15px/1.8 "Lato", sans-serif;
-    color: #777; }
-  .paquete .bgimg {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh; }
-  .paquete .bgimg-1 {
-    background-image: url("../assets/images/paquete/IMG_1050.jpg");
-    min-height: 100%;
-    height: 100vh; }
-  .paquete .bgimg-2 {
-    background-image: url("../assets/images/paquete/luis1.jpg");
-    min-height: 100%;
-    height: 100vh; }
-  .paquete .bgimg-3 {
-    background-image: url("/assets/images/paquete/madam.jpg");
-    min-height: 100%; }
-  .paquete .bgimg-4 {
-    background-image: url("../assets/images/paquete/gabriella1.jpg");
-    min-height: 100%; }
-  .paquete .bgimg-5 {
-    background-image: url("../assets/images/paquete/alex3.jpg");
-    min-height: 100%; }
-  .paquete .bgimg-6 {
-    background-image: url("../assets/images/paquete/IMG_1050.jpg");
-    min-height: 100%; }
-  .paquete .bgimg-7 {
-    background-image: url("../assets/images/paquete/DSC05765.jpg");
-    min-height: 100%; }
-  .paquete .bgimg-8 {
-    background-image: url("../assets/images/paquete/DSC05767.jpg");
-    min-height: 100%; }
-  .paquete .bgimg-9 {
-    background-image: url("../assets/images/paquete/DSC05762.jpg");
-    min-height: 100%; }
-  .paquete .bg-1 {
-    color: #777;
-    background-color: white;
+/* ------------------ Global Styles ------------ */
+/*change page colors here!*/
+.paquete-wrapper {
+  margin-top: 3%;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7%; }
+  .paquete-wrapper .title {
     text-align: center;
-    padding: 25px 40px;
-    text-align: justify; }
-  .paquete .bg {
-    color: #ddd;
-    background: url(textures/skate.JPG) no-repeat;
-    background-color: #282E34;
-    text-align: center;
-    padding: 25px 40px;
-    text-align: justify; }
-  .paquete .scrolling {
-    position: relative; }
-  .paquete .caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000; }
-  .paquete .border {
-    background-color: #000;
-    background: url(textures/skate.JPG) no-repeat;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px; }
-  .paquete .other-caption {
-    position: absolute;
-    left: 5%;
-    top: 30%;
-    width: 200px;
-    text-align: center;
-    color: #000; }
-  .paquete .other-border {
-    background-color: #000;
-    background: url(textures/skate.JPG) no-repeat;
-    color: #fff;
-    font-weight: bold;
-    padding: 15px;
-    font-size: 12px; }
-  .paquete #white-words {
-    background-color: transparent;
-    font-size: 25px;
-    color: #f7f7f7; }
-  .paquete h3 {
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
-    color: #111; }
-  .paquete .scrolling {
-    display: none; }
-  @media only screen and (max-width: 1024px) {
-    .paquete .bgimg {
-      background-attachment: scroll; } }
+    color: #A089CE; }
+  .paquete-wrapper .paquete {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 500px;
+    /* Turn off parallax scrolling for tablets and phones */ }
+    .paquete-wrapper .paquete .bgimg {
+      position: relative;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh; }
+    .paquete-wrapper .paquete .bgimg-1 {
+      background-image: url("../assets/images/paquete/IMG_1050.jpg");
+      min-height: 100%;
+      height: 100vh; }
+    .paquete-wrapper .paquete .bgimg-2 {
+      background-image: url("../assets/images/paquete/luis1.jpg");
+      min-height: 100%;
+      height: 100vh; }
+    .paquete-wrapper .paquete .bgimg-3 {
+      background-image: url("/assets/images/paquete/madam.jpg");
+      min-height: 100%; }
+    .paquete-wrapper .paquete .bgimg-4 {
+      background-image: url("../assets/images/paquete/gabriella1.jpg");
+      min-height: 100%; }
+    .paquete-wrapper .paquete .bgimg-5 {
+      background-image: url("../assets/images/paquete/alex3.jpg");
+      min-height: 100%; }
+    .paquete-wrapper .paquete .bgimg-6 {
+      background-image: url("../assets/images/paquete/IMG_1050.jpg");
+      min-height: 100%; }
+    .paquete-wrapper .paquete .bgimg-7 {
+      background-image: url("../assets/images/paquete/marco3.png");
+      min-height: 100%; }
+    .paquete-wrapper .paquete .bgimg-8 {
+      background-image: url("../assets/images/paquete/DSC05767.jpg");
+      min-height: 100%; }
+    .paquete-wrapper .paquete .bgimg-9 {
+      background-image: url("../assets/images/paquete/DSC05762.jpg");
+      min-height: 100%; }
+    .paquete-wrapper .paquete .bg-1 {
+      color: #777;
+      background-color: white;
+      text-align: center;
+      padding: 25px 40px;
+      text-align: justify; }
+    .paquete-wrapper .paquete .bg {
+      color: #ddd;
+      background: url(textures/skate.JPG) no-repeat;
+      background-color: #282E34;
+      text-align: center;
+      padding: 25px 40px;
+      text-align: justify; }
+    .paquete-wrapper .paquete .scrolling {
+      position: relative; }
+    .paquete-wrapper .paquete .caption {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      color: #000; }
+    .paquete-wrapper .paquete .border {
+      background-color: #000;
+      background: url(textures/skate.JPG) no-repeat;
+      color: #fff;
+      padding: 18px;
+      font-size: 25px;
+      letter-spacing: 10px; }
+    .paquete-wrapper .paquete .other-caption {
+      position: absolute;
+      left: 2%;
+      top: 25%;
+      width: 200px;
+      text-align: center;
+      color: #000; }
+    .paquete-wrapper .paquete #right-caption {
+      left: 60%;
+      margin-bottom: 10px;
+      padding: 20px; }
+    .paquete-wrapper .paquete .other-border {
+      background-color: #000;
+      background: url(textures/skate.JPG) no-repeat;
+      color: #fff;
+      font-weight: bold;
+      padding: 15px;
+      font-size: 15px; }
+    .paquete-wrapper .paquete #white-words {
+      background-color: transparent;
+      font-size: 25px;
+      color: #f7f7f7; }
+    .paquete-wrapper .paquete h3 {
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      font: 20px "Lato", sans-serif;
+      color: #111; }
+    .paquete-wrapper .paquete .scrolling {
+      display: none; }
+    @media only screen and (max-width: 1024px) {
+      .paquete-wrapper .paquete .bgimg {
+        background-attachment: scroll; } }
 
 @media screen and (max-width: 1020px) {
-  .paquete #luis {
+  .paquete-wrapper .paquete .luis {
     left: 75%;
     margin-bottom: 10px;
     padding: 20px; }
-  .paquete .scrolling {
+  .paquete-wrapper .paquete .scrolling {
     display: block; }
-  .paquete .other-caption {
+  .paquete-wrapper .paquete .other-caption {
     display: none; } }
 
 @media screen and (max-width: 570px) {
-  .paquete #luis {
+  .paquete-wrapper .paquete .luis {
     left: 75%;
     margin-bottom: 10px;
     padding: 20px; }
-  .paquete .bgimg {
+  .paquete-wrapper .paquete .bgimg {
     background-attachment: scroll; }
-  .paquete .scrolling {
+  .paquete-wrapper .paquete .scrolling {
     display: block; }
-  .paquete .other-caption {
+  .paquete-wrapper .paquete .other-caption {
     display: none; } }

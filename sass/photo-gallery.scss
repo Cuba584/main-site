@@ -1,0 +1,177 @@
+@import '_vars';
+@import '_include-media';
+
+
+#photo-gallery {
+  #custom-slider {
+    width: 90%;
+    height: 70vh;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  #custom-slider > ul {
+    width: 100%;
+    height: 70vh;
+    left: -100%;
+    transition: 0.5s left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: inline-flex;
+  }
+
+  #custom-slider > ul > li {
+    width: 100%;
+    height: 70vh;
+    color: white;
+    font-size: 3rem;
+  }
+
+  .pic-style {
+    max-height: 100%;
+  }
+
+  .pic {
+    height: 70vh;
+    max-width: 100%;
+  }
+
+  button {
+    background: transparent;
+    border: none;
+    font-size: 4em;
+    color: white;
+    //position: absolute;
+  }
+
+  .caption {
+    background-color: blue;
+    color: white;
+    // width: 15%;
+    // height: 50vh;
+     width: 30%;
+    height: 30vh;
+    position: relative;
+     bottom: 103%;
+     left: 66%;
+  }
+
+  #caption-text {
+    font-family: $roboto;
+    margin: 5%;
+    float: left;
+  }
+
+  .fa-angle-right{
+    position: relative;
+    left: -1500%;
+  }
+
+  // #custom-slider > ul > li:nth-child(odd) {
+  //    background-color: orange;
+  //  }
+  //
+  //  #custom-slider > ul > li:nth-child(even) {
+  //    background-color: red;
+  //  }
+
+//   #pic {
+//       position: relative;
+//       // opacity: 0.65;
+//       background-attachment: fixed;
+//       background-position: center;
+//       background-repeat: no-repeat;
+//       background-size: cover;
+//       height: 100vh;
+// }
+//
+//    #pic1 {
+//     background-image: url("../assets/images/dorian/slideshow/dorian_sl_01.jpg");
+//     // min-height: 100%;
+//     // height: 100vh;
+//   }
+//
+//   #pic2 {
+//    background-image: url("../assets/images/dorian/slideshow/dorian_sl_02.jpg");
+//    // min-height: 100%;
+//    // height: 100vh;
+//  }
+//
+//  #pic3 {
+//   background-image: url("../assets/images/dorian/slideshow/dorian_sl_03.jpg");
+//   // min-height: 100%;
+//   // height: 100vh;
+// }
+//
+// #pic4 {
+//  background-image: url("../assets/images/dorian/slideshow/dorian_sl_04.jpg");
+//  // min-height: 100%;
+//  // height: 100vh;
+// }
+//
+// #pic5 {
+//  background-image: url("../assets/images/dorian/slideshow/dorian_sl_05.jpg");
+//  // min-height: 100%;
+//  // height: 100vh;
+// }
+//
+// #pic6 {
+//  background-image: url("../assets/images/dorian/slideshow/dorian_sl_06.jpg");
+//  // min-height: 100%;
+//  // height: 100vh;
+// }
+//
+// #pic7 {
+//  background-image: url("../assets/images/dorian/slideshow/dorian_sl_07.jpg");
+//  // min-height: 100%;
+//  // height: 100vh;
+// }
+//
+// #pic8 {
+//  background-image: url("../assets/images/dorian/slideshow/dorian_sl_08.jpg");
+//  // min-height: 100%;
+//  // height: 100vh;
+// }
+//
+// #pic9 {
+//  background-image: url("../assets/images/dorian/slideshow/dorian_sl_09.jpg");
+//  // min-height: 100%;
+//  // height: 100vh;
+// }
+//
+// #pic10 {
+//  background-image: url("../assets/images/dorian/slideshow/dorian_sl_10.jpg");
+//  // min-height: 100%;
+//  // height: 100vh;
+// }
+//
+// #pic11 {
+//  background-image: url("../assets/images/dorian/slideshow/dorian_sl_11.jpg");
+//  // min-height: 100%;
+//  // height: 100vh;
+// }
+//
+// #pic12 {
+//  background-image: url("../assets/images/dorian/slideshow/dorian_sl_12.jpg");
+//  // min-height: 100%;
+//  // height: 100vh;
+// }
+//
+// #pic1 {
+//  background-image: url("../assets/images/dorian/slideshow/dorian_sl_01.jpg");
+//  // min-height: 100%;
+//  // height: 100vh;
+// }
+
+
+  #slider-right {
+    float: right;
+  }
+
+  #slider-left {
+    float: left;
+  }
+}
