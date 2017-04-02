@@ -502,7 +502,9 @@ nav {
   nav {
     height: 50px; }
     nav .wrapper {
-      width: 90vw; }
+      width: 90vw;
+      align-items: flex-end;
+      height: 45px; }
     nav .logo-wrapper {
       margin: 0 auto; }
       nav .logo-wrapper #svg-logo {
