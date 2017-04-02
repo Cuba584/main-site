@@ -1,16 +1,25 @@
 var pageVideo;
+var videoTop;
+var videoHeight;
+var replayVideoHeight;
+var windowWidth;
 
 $(document).ready(function(){
   // $('#hidden-nav').hide();
-  var windowWidth = $(window).width();
+  windowWidth = $(window).width();
+  videoTop = $('#video-top').offset().top;
+  videoHeight = $('#vimeo-wrap').outerHeight();
   pageVideo = document.getElementById('home-video') || document.getElementById('cinemagraph');
-  console.log(pageVideo);
+  replayVideoHeight = $(pageVideo).height();
+  // var replayBtnTop=
+  $('#replay-btn').css('top', replayVideoHeight - (replayVideoHeight*0.35));
   $( window ).resize(function() {
-    var windowWidth = $(window).width();
+    windowWidth = $(window).width();
+    videoTop = $('#video-top').offset().top;
+    videoHeight = $('#vimeo-wrap').outerHeight();
+    replayVideoHeight = $(pageVideo).height();
+    $('#replay-btn').css('top', replayVideoHeight - (replayVideoHeight*0.35));
   });
-  var videoTop = $('#video-top').offset().top;
-  var videoHeight = $('#vimeo-wrap').outerHeight();
-
   if (windowWidth > 1020) {
   $(window).scroll(function(event){
     var scrollTop = $(this).scrollTop();

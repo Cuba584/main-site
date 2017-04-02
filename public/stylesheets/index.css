@@ -41,16 +41,13 @@
 #replay-btn {
   position: absolute;
   font-family: "Montserrat", sans-serif;
-  bottom: 0;
-  right: -2.8em;
   z-index: 10;
   width: 5%;
-  margin: 5% 5% 0;
+  right: 25px;
   padding: 2em;
   color: white;
   text-align: center;
-  vertical-align: middle;
-  transition-duration: 3s; }
+  vertical-align: middle; }
   #replay-btn:hover {
     cursor: pointer; }
   #replay-btn i {
