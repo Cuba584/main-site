@@ -387,6 +387,9 @@ nav {
 .fixed {
   top: -85px; }
 
+#replay-btn {
+  display: none; }
+
 /* ------- MOBILE NAVIGATION --------*/
 .overlay {
   height: 100%;
