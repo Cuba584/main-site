@@ -139,30 +139,27 @@ a:hover, a:focus {
   left: 0;
   height: 100%; }
 
-<<<<<<< HEAD
-/*-----------------responsive styles-------------*/
-@media screen and (max-width: 720px) {
-=======
 @media screen and (max-width: 1020px) {
->>>>>>> master
   .portfolio {
     display: inline; }
   .about-social-icon {
     display: inline; } }
 
-<<<<<<< HEAD
-@media screen and (max-width: 720px) and (min-width: 2400px) {
-  .team-nav ul {
-    padding: 15px 20vw 15px 20vw; } }
-
-@media screen and (max-width: 720px) and (max-width: 1020px) {
-=======
 @media screen and (max-width: 1020px) and (min-width: 2400px) {
   .team-nav ul {
     padding: 15px 20vw 15px 20vw; } }
 
-@media screen and (max-width: 1020px) and (max-width: 1020px) {
->>>>>>> master
+@media screen and (max-width: 1020px) and (max-width: 720px) {
+  .portfolio {
+    display: inline; }
+  .about-social-icon {
+    display: inline; } }
+
+@media screen and (max-width: 1020px) and (max-width: 720px) and (min-width: 2400px) {
+  .team-nav ul {
+    padding: 15px 20vw 15px 20vw; } }
+
+@media screen and (max-width: 1020px) and (max-width: 720px) and (max-width: 1020px) {
   .team-nav ul {
     flex-direction: column;
     max-height: 80px;
