@@ -9,24 +9,24 @@ $(document).ready(function(){
 <div class="container inner">
 
   <section id="top-fold">
-
-        <video id="cinemagraph" data-autoplay autoplay muted playsinline>
+				<div id="cinema-box">
+        <video id="cinemagraph" data-autoplay autoplay muted playsinline onended="showReplay()">
 
           <source src="/assets/video/<%=body["cinemagraph"]["src"] %>" type="video/mp4">
           <!-- <source src="/assets/video/dorian_new.mp4" type="video/mp4"> -->
         </video>
-
-      <div class="replay-btn" id="replay-btn">
+      <div class="replay-btn" id="replay-btn" onclick="replayVideo()">
         <i class="fa fa-repeat"></i>
         <span>Replay</span>
       </div>
+		</div>
       <div>
-    <div id="title-box" class="center-wrapper">
-      <div class="<%= body["master-class"]["class"] %> change-bg" id="inner-title-box">
-        <h1><%=body["header"]["text"] %></h1>
-        <h3><%=body["header"]["subtitle"] %></h3>
-      </div>
-    </div>
+		    <div id="title-box" class="center-wrapper">
+		      <div class="<%= body["master-class"]["class"] %> change-bg" id="inner-title-box">
+		        <h1><%=body["header"]["text"] %></h1>
+		        <h3><%=body["header"]["subtitle"] %></h3>
+		      </div>
+		    </div>
     </div>
 
     <div class="byline-box center-wrapper">

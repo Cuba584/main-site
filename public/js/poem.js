@@ -6,34 +6,41 @@ $( window ).resize(function() {
   var poemWindowWidth = $(window).width();
 });
 
-for (var i in sectionId){
-  console.log('for...');
-  (function(i){
+$(".poem").hide();
 
-    if(sectionId[i].includes('img')){
-
-      $(sectionId[i]).waypoint(function() {
-        console.log('wayp');
-        if (poemWindowWidth > 520) {
-          $(sectionId[i]).addClass('fadeInLeft 20s');
-          console.log("SUp baby")
-        }else{
-          $(sectionId[i]).addClass('fadeIn 20s');
-        }
-      }, { offset: '60%' });
-    }else{
-
-      $(sectionId[i]).waypoint(function() {
-        if (poemWindowWidth > 520) {
-          $(sectionId[i]).addClass('fadeInRight 20s');
-        }else{
-          $(sectionId[i]).addClass('fadeIn 20s');
-        }
-      }, { offset: '60%' })
-    }
-  })(i)
+$(".expand-collapse").click(function(){
+  $(".poem").toggle();
+  $(this).html("<i class='fa fa-chevron-up'></i> Hide the poem");
 
 
-}
+  for (var i in sectionId){
+    console.log('for...');
+    (function(i){
+
+      if(sectionId[i].includes('img')){
+
+        $(sectionId[i]).waypoint(function() {
+          if (poemWindowWidth > 520) {
+            $(sectionId[i]).addClass('fadeInLeft 20s');
+          }else{
+            $(sectionId[i]).addClass('fadeIn 20s');
+          }
+        }, { offset: '60%' });
+      }else{
+
+        $(sectionId[i]).waypoint(function() {
+          if (poemWindowWidth > 520) {
+            $(sectionId[i]).addClass('fadeInRight 20s');
+          }else{
+            $(sectionId[i]).addClass('fadeIn 20s');
+          }
+        }, { offset: '60%' })
+      }
+    })(i)
+
+
+  }
+});
+
 
 });

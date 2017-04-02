@@ -1,16 +1,20 @@
 <link rel="stylesheet" type="text/css" href="/stylesheets/animate.css"/>
 
-  <div class="poem-wrapper">
-
-      <div class="title">
+  <div class="interactive-wrapper">
         <h1>Regla, Cuba</h1>
         <h2>a poem by philip murray</h2>
+
+        <p>In 1954 The New Yorker released an article featuring the following poem by Philip Murray, which invokes vivid illustrations of the Regla of the past. While economic and racial diversity has increased in Regla in the last sixty years, echoes of Murray's Regla resonate with the modern day municipality.</p>
+      <p>Click the audio to hear Havana resident Luis Miguel Yllobre Peña read the poem aloud and read along.
+      </p>
 
         <audio controls class="adjust">
         <source src="/assets/audio/poem_full_2.mp3" type="audio/mpeg">
         </audio>
-      </div>
 
+       <div class="expand-collapse"><i class='fa fa-chevron-down'></i> Read the poem</div>
+
+      <div class="poem">
       <div class="poem-row row-0">
           <div id="section-0-img" class="animated" >
             <img src="/assets/images/interactive/mockPokemonApp.jpg">
@@ -94,6 +98,12 @@
        </div>
    </div>
   </div>
+</div>
 
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $("poem-hide").hide();
+  })
+  </script>
   <script type="text/javascript" src="/js/jquery.waypoints.js"></script>
   <script type="text/javascript" src="/js/poem.js"></script>
