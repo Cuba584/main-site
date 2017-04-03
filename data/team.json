@@ -216,6 +216,21 @@
         "socialid": "twitter"
     },
     {
+        "fullname": "Cristina M. Fletes",
+        "lastname": "Fletes",
+        "firstname": "Cristina",
+        "rolespanish": "Instructor",
+        "role": "Coach",
+        "roleid": "coach",
+        "bio": "Cristina is a Staff Photographer / Videographer at the St. Louis Post-Dispatch in St. Louis, Missouri. She was a part of the 2015 Pulitzer Prize for Breaking News Photography awarded to the P-D photo staff. ",
+        "biospanish": "TRADUCCION AQUI",
+        "charactercount": 207,
+        "portfolio": "http://www.cristinafletes.com",
+        "social": "http://www.instagram.com/cristinafletes",
+        "handle": "cristinafletes",
+        "socialid": "instagram"
+    },
+    {
         "fullname": "Robert Gourley",
         "lastname": "Gourley",
         "firstname": "Robert",
