@@ -1,31 +1,20 @@
 var pageVideo;
+var videoTop;
+var videoHeight;
+var replayVideoHeight;
+var windowWidth;
 
 $(document).ready(function(){
   // $('#hidden-nav').hide();
-  var windowWidth = $(window).width();
+  windowWidth = $(window).width();
   pageVideo = document.getElementById('home-video') || document.getElementById('cinemagraph');
-  console.log(pageVideo);
+  replayVideoHeight = $(pageVideo).height();
+  $('#replay-btn').css('top', replayVideoHeight - (replayVideoHeight*0.35));
   $( window ).resize(function() {
-    var windowWidth = $(window).width();
+    windowWidth = $(window).width();
+    replayVideoHeight = $(pageVideo).height();
+    $('#replay-btn').css('top', replayVideoHeight - (replayVideoHeight*0.35));
   });
-  var videoTop = $('#video-top').offset().top;
-  var videoHeight = $('#vimeo-wrap').outerHeight();
-
-  if (windowWidth > 1020) {
-  $(window).scroll(function(event){
-    var scrollTop = $(this).scrollTop();
-
-
-      if (scrollTop >= videoTop  - 200 && scrollTop <= videoTop + (videoHeight / 8)) {
-        $('body').css('background-color', '#000')
-      } else if (scrollTop > videoTop + (videoHeight / 8)) {
-        $('body').css('background-color', '#fff')
-      } else if (scrollTop < videoTop - 200) {
-        $('body').css('background-color', '#fff')
-      }
-  });
-} else {};
-
 
   $(currentNav).addClass('active-nav');
   $(mobileNav).addClass('mobile-active-nav');
@@ -34,7 +23,6 @@ $(document).ready(function(){
     // $('#hidden-nav').show();
     document.getElementById("hidden-nav").style.width = "100%";
   });
-
   // menu animation
   $('#nav-container').on('click', function(){
     this.classList.toggle("change");
