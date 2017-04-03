@@ -32,11 +32,15 @@
 
 #mobile-container {
   display: none;
-  background-color: black;
-  height: 100vh;
 }
 
-@media screen and (max-width: 769px) {
+#intro-text {
+  color: white;
+  font-family: $montserrat;
+  padding: 20px;
+}
+
+@include media("screen", "<=sm"){
   #index-container {
     display: none;
   }
@@ -48,22 +52,97 @@
       visibility: hidden;
     }
   }
+}
 
+#intro-box {
+  margin-top: $mobile-nav-height;
+  img {
+    width: 100%;
+  }
+}
+
+#intro-text {
+  color: #484848;
+  font-family: $montserrat;
+  font-weight: 500;
+  padding: 5px 6%;
+}
+
+#intro-line {
+  width: 88%;
+  background-color: #606060;
+  height: 5px;
+  margin: 40px auto 0px;
+}
+
+.photo-box {
+  height: 220px;
+  width: 100%;
+  margin-top:0px;
+  margin-bottom: 0px;
+  a {
+    text-decoration: none;
+  }
+  h3 {
+    color: white;
+    font-family: $montserrat;
+    padding-top: 23%;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  p {
+    color: white;
+    font-family: $montserrat;
+    margin-top: 5px;
+    padding: 0px 10%;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.1;
+  }
+  .overlay-black {
+    background-color: rgba(0, 0, 0, .3);
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#family-box {
+  background: url('../assets/images/familyintro.png');
+  background-position-x: 25%;
+}
+
+#harbor-box {
+  background: url('../assets/images/harborintro.png');
+  background-position-x: 25%;
+}
+
+#dorian-box {
+  background: url('../assets/images/dorianintro.png');
+  background-position-x: 25%;
+}
+
+#hiphop-box {
+  background: url('../assets/images/hiphopintro.png');
+  background-position-x: 25%;
+}
+
+#skate-box {
+  background: url('../assets/images/skateintro.png');
+  background-size: cover;
 }
 
 #replay-btn{
   position:absolute;
   font-family:$montserrat;
-  bottom:0;
-  right:-2.8em;
   z-index:10;
   width:5%;
-  margin:5% 5% 0;
+  right: 25px;
   padding:2em;
   color:white;
   text-align:center;
   vertical-align:middle;
-  transition-duration: 3s;
     &:hover{
     cursor:pointer;
     }
@@ -73,100 +152,4 @@
     }
 
 
-}
-
-#info {
-  background-color: rgba(0, 0, 0, .6)
-}
-#logo-box {
-  z-index: 50;
-  background-image: url("images/home6.JPG");
-  background-size: cover;
-  img {
-    max-width: 70%;
-    opacity: .95;
-    margin-top: 3%;
-  }
-  p {
-    color: white;
-    font-family: $montserrat;
-    font-weight: 300;
-    padding-left: 16%;
-    padding-right: 10%;
-    margin-top: -8%;
-    margin-bottom: 0px;
-    line-height: 1.3em;
-    font-size: 1em;
-    padding-top: 3%;
-    padding-bottom: 3%;
-
-  }
-}
-
-#links-box {
-  display: flex;
-  flex-direction: column;
-}
-
-.mobile-link {
-   background-size: cover;
-   height: 10vh;
-   display: flex;
-   border-bottom: 2px solid white;
-   p {
-     font-weight: 400;
-     margin-bottom: 23.1px;
-     line-height: 0;
-   }
-   a {
-     font-family: $montserrat;
-     align-self: center;
-     padding-left: 16%;
-     font-size: 1.3em;
-   }
-}
-div.mobile-link:first-of-type {
-border-top: 2px solid white;
-}
-
-#arts-link {
-  background-image: url("textures/arts.JPG");
-  // background-image: url("images/bg15.jpg");
-  p {
-    color: white;
-  }
-}
-
-#entre-link {
-  background-image: url("textures/entre.JPG");
-  // background-image: url("images/bg10.jpg");
-  p {
-    color: white;
-  }
-}
-
-#harbor-link {
-  background-image: url("textures/harbor.JPG");
-  // background-image: url("images/bg16.jpg");
-  p {
-    color: white;
-    // font-weight: 500;
-  }
-}
-
-#aging-link {
-  background-image: url("textures/aging.JPG");
-  // background-image: url("images/bg7.jpg");
-  p {
-    color: white;
-  }
-}
-
-#skate-link {
-  background-image: url("textures/youth.JPG");
-  // background-image: url("images/bg11.jpg");
-  p {
-    color: white;
-    // font-weight: 500;
-  }
 }

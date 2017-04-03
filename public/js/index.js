@@ -1,9 +1,19 @@
-$(document).ready(function(){
-  $(window).resize(function(){
-    var viewportWidth = $(window).width;
+var viewportWidth;
 
-    if (viewportWidth <= 600){
-      $('#mobile-container').show();
-    }
-  });
+$(document).ready(function(){
+  viewportWidth = $(window).width();
+  toggleWrapper();
 });
+
+$(window).resize(function(){
+  viewportWidth = $(window).width();
+  toggleWrapper();
+});
+
+function toggleWrapper() {
+  if (viewportWidth <= 570){
+    $('.logo-wrapper').hide();
+  } else {
+    $('.logo-wrapper').show();
+  }
+}
