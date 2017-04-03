@@ -286,6 +286,17 @@ iframe {
       margin-top: $mobile-nav-height;
     }
 
+    #inner-title-box {
+      padding: 1.4em;
+      h1 {
+        font-size: 2.3em;
+      }
+      h3 {
+        font-size: 1em;
+        line-height: 1.3em;
+      }
+    }
+
     figure {
       flex-wrap: wrap;
       margin: 0;

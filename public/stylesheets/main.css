@@ -531,7 +531,7 @@ nav {
   nav {
     height: 50px; }
     nav .label-toggle {
-      height: 33px;
+      height: 31px;
       width: 0px; }
       nav .label-toggle #nav-container .bar1, nav .label-toggle #nav-container .bar2, nav .label-toggle #nav-container .bar3 {
         height: 2px;
