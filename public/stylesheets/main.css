@@ -505,7 +505,6 @@ nav {
     display: block;
     float: right;
     height: 35px;
-    margin-top: 2em;
     width: 35px; }
     nav .label-toggle #nav-container {
       display: inline-block; }
@@ -513,7 +512,7 @@ nav {
         width: 29px;
         height: 3px;
         margin: 6px 0;
-        background: black;
+        background: #484848;
         transition: 0.4s; }
     nav .label-toggle .change .bar1 {
       -webkit-transform: rotate(-45deg) translate(-9px, 6px);
@@ -531,6 +530,13 @@ nav {
 @media screen and (max-width: 570px) {
   nav {
     height: 50px; }
+    nav .label-toggle {
+      height: 33px;
+      width: 0px; }
+      nav .label-toggle #nav-container .bar1, nav .label-toggle #nav-container .bar2, nav .label-toggle #nav-container .bar3 {
+        height: 2px;
+        width: 24px;
+        margin: 0 0 5px 0; }
     nav .wrapper {
       width: 90vw;
       align-items: flex-end;
