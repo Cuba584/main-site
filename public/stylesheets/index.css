@@ -26,17 +26,85 @@
   z-index: 3; }
 
 #mobile-container {
-  display: none;
-  background-color: black;
-  height: 100vh; }
+  display: none; }
 
-@media screen and (max-width: 769px) {
+#intro-text {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px; }
+
+@media screen and (max-width: 570px) {
   #index-container {
     display: none; }
   #mobile-container {
     display: block; }
   nav .logo {
     visibility: hidden; } }
+
+#intro-box {
+  margin-top: 50px; }
+  #intro-box img {
+    width: 100%; }
+
+#intro-text {
+  color: #484848;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 5px 6%; }
+
+#intro-line {
+  width: 88%;
+  background-color: #606060;
+  height: 5px;
+  margin: 40px auto 0px; }
+
+.photo-box {
+  height: 220px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+  .photo-box a {
+    text-decoration: none; }
+  .photo-box h3 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 23%;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px; }
+  .photo-box p {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 5px;
+    padding: 0px 10%;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.1; }
+  .photo-box .overlay-black {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%; }
+
+#family-box {
+  background: url("../assets/images/familyintro.png");
+  background-position-x: 25%; }
+
+#harbor-box {
+  background: url("../assets/images/harborintro.png");
+  background-position-x: 25%; }
+
+#damian-box {
+  background: url("../assets/images/damianintro.png");
+  background-position-x: 25%; }
+
+#hiphop-box {
+  background: url("../assets/images/hiphopintro.png");
+  background-position-x: 25%; }
+
+#skate-box {
+  background: url("../assets/images/skateintro.png");
+  background-size: cover; }
 
 #replay-btn {
   position: absolute;
@@ -53,74 +121,3 @@
   #replay-btn i {
     font-size: 1em;
     display: inline; }
-
-#info {
-  background-color: rgba(0, 0, 0, 0.6); }
-
-#logo-box {
-  z-index: 50;
-  background-image: url("images/home6.JPG");
-  background-size: cover; }
-  #logo-box img {
-    max-width: 70%;
-    opacity: .95;
-    margin-top: 3%; }
-  #logo-box p {
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    padding-left: 16%;
-    padding-right: 10%;
-    margin-top: -8%;
-    margin-bottom: 0px;
-    line-height: 1.3em;
-    font-size: 1em;
-    padding-top: 3%;
-    padding-bottom: 3%; }
-
-#links-box {
-  display: flex;
-  flex-direction: column; }
-
-.mobile-link {
-  background-size: cover;
-  height: 10vh;
-  display: flex;
-  border-bottom: 2px solid white; }
-  .mobile-link p {
-    font-weight: 400;
-    margin-bottom: 23.1px;
-    line-height: 0; }
-  .mobile-link a {
-    font-family: "Montserrat", sans-serif;
-    align-self: center;
-    padding-left: 16%;
-    font-size: 1.3em; }
-
-div.mobile-link:first-of-type {
-  border-top: 2px solid white; }
-
-#arts-link {
-  background-image: url("textures/arts.JPG"); }
-  #arts-link p {
-    color: white; }
-
-#entre-link {
-  background-image: url("textures/entre.JPG"); }
-  #entre-link p {
-    color: white; }
-
-#harbor-link {
-  background-image: url("textures/harbor.JPG"); }
-  #harbor-link p {
-    color: white; }
-
-#aging-link {
-  background-image: url("textures/aging.JPG"); }
-  #aging-link p {
-    color: white; }
-
-#skate-link {
-  background-image: url("textures/youth.JPG"); }
-  #skate-link p {
-    color: white; }

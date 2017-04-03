@@ -2,6 +2,7 @@
 <html lang="<%= espanol ? "es":"en" %>">
 <head>
   <% include ../partials/header.ejs %>
+  <% var URL_LANG = espanol ? "?lang=es":"";  %>
 </head>
 
 <body>
@@ -30,24 +31,60 @@
   </div>
 
   <div id="mobile-container">
-    <div id="logo-box">
-      <img alt="logo" src="/assets/images/584_logo_white.png">
-          <div id="info">
-            <div id="cinemagraph"></div>
-              <p>
-        	  	<% if (espanol) { %>
-        		TO TRANSLATE Cuba's youth are bringing in a wave of change. Join us as we journey through Havana through their eyes.
-        		<% } else { %>
-        		Cuba's youth are bringing in a wave of change. Join us as we journey through Havana through their eyes.
-        		<% } %>
-        	  </p>
-        </div>
+    <div id="intro-box">
+      <img alt="Cuba's New Wave" src="/assets/images/intro.png">
     </div>
-  </div>
+    <div id="intro-text-box">
+      <div id="intro-line"></div>
+    <p id="intro-text">
+      <% if (espanol) { %>
+      TO TRANSLATE Cuba's youth are bringing in a wave of change. Join us as we journey through Havana through their eyes.
+      <% } else { %>
+      Waves of social, economic and political change are rippling across Cuba. Now, all that is certain about the nation’s future is who will determine it: <br>the youth.        		<% } %>
+      </p>
+</div>
+
+    <div class="photo-box" id="family-box">
+      <a href="/pages/family<%=URL_LANG%>">
+      <div class="overlay-black">
+        <h3>A New Understanding</h3>
+        <p>The elderly give way to youth who are shaping the future</p>
+      </div></a>
+    </div>
+    <div class="photo-box" id="harbor-box">
+      <a href="/pages/harbor<%=URL_LANG%>">
+      <div class="overlay-black">
+        <h3>Damian y Dorian</h3>
+        <p>Exploring freedom through a non-traditional sport</p>
+      </div></a>
+    </div>
+    <div class="photo-box" id="damian-box">
+      <a href="/pages/damian<%=URL_LANG%>">
+      <div class="overlay-black">
+        <h3>Across the Harbor</h3>
+        <p>Trendsetting brothers cut a new path</p>
+      </div></a>
+    </div>
+    <div class="photo-box" id="hiphop-box">
+      <a href="/pages/hiphop<%=URL_LANG%>">
+      <div class="overlay-black">
+        <h3>The Agency of Rap</h3>
+        <p>Social issues are front and center</p>
+      </div></a>
+    </div>
+    <div class="photo-box" id="skate-box">
+      <a href="/pages/skate<%=URL_LANG%>">
+      <div class="overlay-black">
+        <h3>Skate Libre</h3>
+        <p>Exploring freedom through a non-traditional sport</p>
+      </div></a>
+    </div>
+
 
   </div>
 
 
 
+  <script type="text/javascript" src="/js/index.js"></script>
 </body>
 </html>
