@@ -30,51 +30,22 @@
         <h1><%= espanol ? "About Espanol":"About"%></h1>
       </div>
     </div>
-<<<<<<< HEAD
-
-  <p>
-	<% if (espanol) { %>
-	TO TRANSLATE Students in UNC-Chapel Hill’s School of Media and Journalism are honored to tell the stories of change in Havana, Cuba.
-	<% } else { %>
-	Students in UNC-Chapel Hill’s School of Media and Journalism are honored to tell the stories of change in Havana, Cuba.
-	<% } %>
-  </p>
-=======
-    <p>
-      We are a group of student videographers, web designers and developers, reporters and faculty brought together by a common goal: to share the voices of Cuba’s youth.
-    </p>
-
->>>>>>> ef131a3c491c0172f9ae17060968de42b6d12c2c
 
   <div class="divider">
     <img alt="Logo" src="/assets/584_logo_plain.png">
     <h3><%= espanol ? "The Project Espanol":"The Project"%></h3>
   </div>
 
-  <p class="about">
-<<<<<<< HEAD
+  <div class="about">
 	<% if (espanol) { %>
-	Ei vix wisi necessitatibus, at pri dicit appellantur. Quod suas deterruisset has an. Ut vidit essent nostro est, ex est exerci commune accusamus, ei alii graeco noluisse eam. Mei equidem adipiscing definitionem ne, cu vis melius vituperata.	
+	<p>Ei vix wisi necessitatibus, at pri dicit appellantur. Quod suas deterruisset has an. Ut vidit essent nostro est, ex est exerci commune accusamus, ei alii graeco noluisse eam. Mei equidem adipiscing definitionem ne, cu vis melius vituperata.</p>
 	<% } else { %>
-	Ei vix wisi necessitatibus, at pri dicit appellantur. Quod suas deterruisset has an. Ut vidit essent nostro est, ex est exerci commune accusamus, ei alii graeco noluisse eam. Mei equidem adipiscing definitionem ne, cu vis melius vituperata.
-  	<% } %> 
-	</p>
-
-  <p class="about">
- 	<% if (espanol) { %>
-	Mei eu dico doming inermis, qui cu minimum platonem. Quod alii iudicabit pro eu, probo propriae erroribus te nec, eos te essent detracto invidunt. Postea invidunt appellantur eum eu. Ei noster delectus necessitatibus cum. Vim habeo dicunt te, et dolorum postulant mel. Et sea errem quidam.
-	<% } else { %>
-	Mei eu dico doming inermis, qui cu minimum platonem. Quod alii iudicabit pro eu, probo propriae erroribus te nec, eos te essent detracto invidunt. Postea invidunt appellantur eum eu. Ei noster delectus necessitatibus cum. Vim habeo dicunt te, et dolorum postulant mel. Et sea errem quidam.
-  	<% } %>   
-	</p>
-=======
-    We are a part of an annual project by UNC-Chapel Hill’s School of Media and Journalism. In past projects, students have reported across five continents and produced award-winning multimedia work. As students, we’re learning the rewards and challenges of reporting on different cultures; as journalists, we are working as a team to tell the stories that are shaping the globe.
-  </p>
-
-  <p class="about">
-    Fidel Castro’s death and normalizing relations with the United States have fostered an openness that Cuba hasn’t seen in decades. This wave of change is overtaking the country, and while the population is aging, it is the young Cubans who will determine the nation’s future as it finds its place on the global stage. We bring you their stories.
-  </p>
->>>>>>> ef131a3c491c0172f9ae17060968de42b6d12c2c
+    <p>
+      We are a group of student videographers, web designers and developers, reporters and faculty brought together by a common goal: to share the voices of Cuba’s youth.
+    </p>
+    <p>Fidel Castro’s death and normalizing relations with the United States have fostered an openness that Cuba hasn’t seen in decades. This wave of change is overtaking the country, and while the population is aging, it is the young Cubans who will determine the nation’s future as it finds its place on the global stage. We bring you their stories.</p>
+  	<% } %>
+	</div>
 
   <div class="divider">
     <img alt="Logo" src="/assets/584_logo_plain.png">
@@ -114,7 +85,7 @@
             <% if (team[i]["socialid"]){ %>
               <span> | </span>
               <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["social"]%>"><i class="fa fa-<%= team[i]["socialid"] %>" aria-hidden="true"></i></a>
-        
+
             <% } else { }%>
 
           </div>
@@ -128,12 +99,12 @@
  	<% if (espanol) { %>
 	<h3>Special Thanks Espanol</h3>
     <p>Pro eu omnes tollit, fugit fastidii contentiones his no. Vidit phaedrum inimicus pri no. Illud porro cotidieque pri no. Sint inermis accusam eum in, nostro bonorum no cum, mea ei labore maluisset. An decore erroribus per. Nec id nominavi molestie, dolorem percipit intellegam cu vis.
-    </p>	
+    </p>
 	<% } else { %>
 	<h3>Special Thanks</h3>
     <p>Pro eu omnes tollit, fugit fastidii contentiones his no. Vidit phaedrum inimicus pri no. Illud porro cotidieque pri no. Sint inermis accusam eum in, nostro bonorum no cum, mea ei labore maluisset. An decore erroribus per. Nec id nominavi molestie, dolorem percipit intellegam cu vis.
     </p>
-  	<% } %>   
+  	<% } %>
     </div>
   </div>
 
