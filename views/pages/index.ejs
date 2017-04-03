@@ -14,7 +14,7 @@
 
     <div id="bottom-box">
 
-        <video id="home-video" muted data-autoplay autoplay>
+        <video id="home-video" muted data-autoplay autoplay onended="showReplay()">
 
     			<source src="<%= espanol ? "spanish_video_link":"/assets/video/intro_cinemagraph4.mp4" %>" type="video/mp4">
 
@@ -22,17 +22,17 @@
         <!-- <div id="logo-box">
           <img alt="logo" src="/assets/584_logo_04.png">
         </div> -->
-        <div class="replay-btn" id="replay-btn">
+        <div class="replay-btn" id="replay-btn" onclick="replayVideo()">
           <i class="fa fa-repeat"></i>
           <span><%= espanol ? "Replay Espanol":"Replay" %></span>
-        <div>
+        </div>
     </div>
   </div>
 
   <div id="mobile-container">
-  
+
     <% include ../partials/nav.ejs %>
-	
+
     <div id="logo-box">
       <img alt="logo" src="/assets/images/584_logo_white.png">
       <div id="info">

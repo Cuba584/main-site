@@ -323,6 +323,10 @@ nav {
       top: -85px;
   }
 
+  #replay-btn {
+    display: none;
+  }
+
 
   /* ------- MOBILE NAVIGATION --------*/
 
@@ -372,6 +376,44 @@ nav {
 
   }
 }
+
+
+/*------------------INTERACTIVE STYLES ---------*/
+.interactive-wrapper {
+  width:70%;
+  border-top:1px $dark-gray solid;
+  border-bottom:1px $dark-gray solid;
+  text-align: center;
+  margin:1.4em auto;
+  padding: 1.4em 0;
+  overflow:hidden;
+  h1 {
+    margin:0;
+    color:$blue;
+    }
+  h2 {
+    font-weight:200;
+    font-size:1.5em;
+    margin-top:10px;
+    color:$blue;
+    }
+    p {
+      font-family:'Roboto', sans-serif;
+      font-size: 1em;
+      font-weight: 400;
+      text-align:left;
+    }
+    .expand-collapse {
+      text-align:left;
+      cursor: pointer;
+       a {
+         font-family: "Montserrat", sans-serif;
+         text-decoration: none;
+         color: $blue;
+       }
+    }
+}
+
 
 
   /*------------------ RESPONSIVE NAV STYLES ---------*/
@@ -512,6 +554,8 @@ nav {
 
       .wrapper{
         width:90vw;
+        align-items: flex-end;
+        height: 45px;
       }
 
       .logo-wrapper{
