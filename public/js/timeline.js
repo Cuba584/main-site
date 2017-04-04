@@ -1,3 +1,12 @@
+$(document).ready(function(){
+  $(".timeline").hide();
+  $(".expand-collapse").click(function(){
+    $(".timeline").toggle();
+    $(this).html(function(i, v) {
+      return v === '<i class="fa fa-chevron-up"></i> Hide the timeline' ? '<i class="fa fa-chevron-down"></i> View the timeline' : '<i class="fa fa-chevron-up"></i> Hide the timeline'
+    });
+  });
+});
 (function($) {
   $.fn.timeline = function() {
     var selectors = {
