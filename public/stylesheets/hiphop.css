@@ -1,26 +1,55 @@
 /* ------------------ Global Styles ------------ */
 /*change page colors here!*/
 #hiphop-wrap {
-  display: flex;
-  height: 310px;
-  margin-bottom: 100px; }
+  display: flex; }
+
+#hiphop-title-queen {
+  font-size: 3em;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px auto; }
+
+#hiphop-intro-queen {
+  font-weight: 300; }
+
+.hiphop-bio {
+  line-height: 1 !important;
+  margin: 8px 12px;
+  font-family: "Roboto", sans-serif !important;
+  font-size: 0.8em !important;
+  word-break: break-all;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto; }
+
+.hiphop-year, .hiphop-name {
+  text-align: center !important;
+  font-family: "Montserrat", sans-serif !important;
+  margin: 4px; }
+
+.hiphop-name {
+  font-weight: 500 !important;
+  margin-top: 15px; }
+
+.hiphop-year {
+  font-weight: 300 !important;
+  font-size: .8em; }
 
 .hiphop-panel {
-  padding: 2%;
-  width: 200px;
+  padding: 1vw;
+  height: 22vw;
+  width: 13vw;
   background-size: cover;
   display: block;
   position: relative;
-  perspective: 800px;
-  height: 100%; }
+  perspective: 800px; }
   .hiphop-panel:hover .hiphop-text {
     visibility: visible; }
 
 .hiphop-card {
-  width: 100%;
   height: 100%;
   transform-style: preserve-3d;
-  transition: transform 1s; }
+  transition: transform .5s; }
   .hiphop-card div {
     margin: 0;
     display: block;
@@ -33,14 +62,15 @@
   transform: rotateY(180deg); }
 
 .hiphop-panel img {
-  height: 300px; }
+  height: auto;
+  width: 12vw; }
 
 .hiphop-text {
   transform: rotateY(180deg);
-  background-color: #eee; }
-  .hiphop-text p {
-    line-height: 1;
-    margin: 15px; }
+  background-color: #fff; }
+  .hiphop-text a {
+    font-size: 2em;
+    text-align: center; }
 
 #hiphop-container {
   display: block;
@@ -48,6 +78,10 @@
   max-height: 400px;
   margin-left: 5%;
   margin-right: 5%; }
+
+.fa-youtube {
+  color: black;
+  font-size: 2em; }
 
 #hiphop1 {
   background-image: url("textures/harbor.JPG"); }
@@ -63,3 +97,33 @@
 
 #hiphop5 {
   background-image: url("textures/dorian.JPG"); }
+
+@media screen and (max-width: 1280px) {
+  .hiphop-bio {
+    font-size: .7em;
+    margin-top: 2px; }
+  .hiphop-year {
+    font-size: .75em;
+    margin: 2px; }
+  .hiphop-name {
+    font-size: .8em;
+    margin-bottom: 2px;
+    margin-top: 4px; }
+  .hiphop-text p {
+    word-wrap: break-word;
+    word-break: normal; } }
+
+@media screen and (max-width: 1020px) {
+  .hiphop-bio {
+    font-size: .6em;
+    margin-top: 2px; }
+  .hiphop-year {
+    font-size: .65em;
+    margin: 2px; }
+  .hiphop-name {
+    font-size: .7em;
+    margin-bottom: 2px;
+    margin-top: 6px; }
+  .hiphop-text p {
+    word-wrap: break-word;
+    word-break: normal; } }
