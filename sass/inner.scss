@@ -283,7 +283,7 @@ iframe {
 @include media("screen", "<=sm"){
   .inner{
     #cinemagraph{
-      margin-top:0;
+      margin-top: $mobile-nav-height;
     }
 
     figure {

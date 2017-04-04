@@ -7,9 +7,6 @@ further down on the page or in any of the other .SCSS files.
 .hiphop.subhead {
   color: #F1861B; }
 
-.hiphop.overlay-item::first-letter {
-  color: #F1861B; }
-
 .hiphop.change-bg {
   background: url("textures/hiphop.JPG") no-repeat;
   background-size: cover;
@@ -42,9 +39,6 @@ further down on the page or in any of the other .SCSS files.
   transition-property: none; }
 
 .dorian.subhead {
-  color: #9BD5BB; }
-
-.dorian.overlay-item::first-letter {
   color: #9BD5BB; }
 
 .dorian.change-bg {
@@ -81,9 +75,6 @@ further down on the page or in any of the other .SCSS files.
 .skate.subhead {
   color: #A089CE; }
 
-.skate.overlay-item::first-letter {
-  color: #A089CE; }
-
 .skate.change-bg {
   background: url("textures/skate.JPG") no-repeat;
   background-size: cover;
@@ -116,9 +107,6 @@ further down on the page or in any of the other .SCSS files.
   transition-property: none; }
 
 .family.subhead {
-  color: #F0BD53; }
-
-.family.overlay-item::first-letter {
   color: #F0BD53; }
 
 .family.change-bg {
@@ -155,9 +143,6 @@ further down on the page or in any of the other .SCSS files.
 .harbor.subhead {
   color: #6EA5C2; }
 
-.harbor.overlay-item::first-letter {
-  color: #6EA5C2; }
-
 .harbor.change-bg {
   background: url("textures/harbor.JPG") no-repeat;
   background-size: cover;
@@ -190,9 +175,6 @@ further down on the page or in any of the other .SCSS files.
   transition-property: none; }
 
 .about.subhead {
-  color: #997A65; }
-
-.about.overlay-item::first-letter {
   color: #997A65; }
 
 .about.change-bg {
@@ -387,6 +369,9 @@ nav {
 .fixed {
   top: -85px; }
 
+#replay-btn {
+  display: none; }
+
 /* ------- MOBILE NAVIGATION --------*/
 .overlay {
   height: 100%;
@@ -426,6 +411,36 @@ nav {
       color: black; }
       .overlay .overlay-content .overlay-item span {
         font-size: 1.2em; }
+
+/*------------------INTERACTIVE STYLES ---------*/
+.interactive-wrapper {
+  width: 70%;
+  border-top: 1px #696969 solid;
+  border-bottom: 1px #696969 solid;
+  text-align: center;
+  margin: 1.4em auto;
+  padding: 1.4em 0;
+  overflow: hidden; }
+  .interactive-wrapper h1 {
+    margin: 0;
+    color: #6EA5C2; }
+  .interactive-wrapper h2 {
+    font-weight: 200;
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #6EA5C2; }
+  .interactive-wrapper p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: left; }
+  .interactive-wrapper .expand-collapse {
+    text-align: left;
+    cursor: pointer; }
+    .interactive-wrapper .expand-collapse a {
+      font-family: "Montserrat", sans-serif;
+      text-decoration: none;
+      color: #6EA5C2; }
 
 /*------------------ RESPONSIVE NAV STYLES ---------*/
 @media screen and (min-width: 2400px) {
@@ -499,7 +514,9 @@ nav {
   nav {
     height: 50px; }
     nav .wrapper {
-      width: 90vw; }
+      width: 90vw;
+      align-items: flex-end;
+      height: 45px; }
     nav .logo-wrapper {
       margin: 0 auto; }
       nav .logo-wrapper #svg-logo {

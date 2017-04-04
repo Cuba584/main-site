@@ -1,6 +1,10 @@
+var pageVideo;
+
 $(document).ready(function(){
   // $('#hidden-nav').hide();
   var windowWidth = $(window).width();
+  pageVideo = document.getElementById('home-video') || document.getElementById('cinemagraph');
+  console.log(pageVideo);
   $( window ).resize(function() {
     var windowWidth = $(window).width();
   });
@@ -20,7 +24,7 @@ $(document).ready(function(){
         $('body').css('background-color', '#fff')
       }
   });
-} else {}
+} else {};
 
 
   $(currentNav).addClass('active-nav');
@@ -51,18 +55,6 @@ $(document).ready(function(){
   });
 
 
-  var replays = document.getElementsByClassName('replay-btn');
-
-  $('#replay-btn').hide();
-
-  var videoEnded = document.getElementById('cinemagraph').onended;
-
-  if (videoEnded){
-    $('#replay-btn').show();
-  };
-
-
-
   $('#trans-btn').on('click', function(){
 
     this.classList.toggle("spanish");
@@ -76,5 +68,16 @@ $(document).ready(function(){
 
   });
 
+  
+
 
 });
+
+function showReplay() {
+  $('#replay-btn').show();
+}
+
+function replayVideo() {
+  pageVideo.play();
+  $('#replay-btn').hide();
+}
