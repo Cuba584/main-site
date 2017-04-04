@@ -4,9 +4,6 @@
 
 
 .paquete-wrapper {
-  h1 {
-    color: $purple;
-  }
 
   .title {
     text-align: center;
@@ -146,7 +143,7 @@ hr {
 @include media("screen", "<=sm") {
   .bgimg {
       background-attachment: scroll;
-      height: 50vh; 
+      height: 50vh;
   }
 
   .scrolling {

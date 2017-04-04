@@ -5,10 +5,11 @@
 #photo-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end; 
+  justify-content: space-around;
+  align-items: flex-start;
 
   #custom-slider {
-    width: 90%;
+    width: 60%;
     height: 70vh;
     overflow: hidden;
     margin-left: 0;
@@ -46,25 +47,22 @@
   button {
     background: transparent;
     border: none;
+    outline: none;
     font-size: 4em;
     color: #000;
-    //position: absolute;
   }
 
   .caption {
     color: #000;
-    // width: 15%;
-    // height: 50vh;
-     width: 30%;
+     width: 40%;
     height: 30vh;
     position: relative;
-    //  bottom: 103%;
-    //  left: 66%;
   }
 
   #caption-text {
     font-family: $roboto;
-    margin: 5%;
+    margin-left: 0%;
+    margin-right: 50%; 
     float: left;
   }
 
