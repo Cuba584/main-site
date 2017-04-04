@@ -59,16 +59,16 @@
 
 @media screen and (max-width: 720px){
 
-  .interactive-wrapper{
+  #poem-wrapper{
     width: 100%;
   }
-  .interactive-wrapper .poem-row{
+  #poem-wrapper .poem-row{
     flex-direction: column;
   }
-  .interactive-wrapper .title{
+  #poem-wrapper .title{
     font-size: 0.5em;
   }
-  .interactive-wrapper img{
+  #poem-wrapper img{
     width: 100%;
   }
 

@@ -169,20 +169,6 @@
       "value": "Vestibulum dapibus gravida interdum. Etiam convallis feugiat urna, vel fermentum libero vestibulum quis. Sed quam ipsum, dapibus at suscipit eget, placerat eu lorem. Nunc vulputate enim eros, ut consequat diam scelerisque non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ornare dolor vel ante sodales bibendum at sed dolor. Vestibulum at purus euismod, suscipit lorem eleifend, varius massa. Nullam vel vestibulum turpis, ut pulvinar lorem."
     },
     {
-      "type": "subhead",
-      "value": {
-        "text": "Regla in the news"
-      }
-    },
-    {
-      "type": "text",
-      "value": "In 1954 The New Yorker released an article featuring the following poem by Philip Murray, which invokes vivid illustrations of the Regla of the past. While economic and racial diversity has increased in Regla in the last sixty years, echoes of Murray's Regla resonate with the modern day municipality."
-    },
-    {
-      "type": "text",
-      "value": "Click the audio to hear Havana resident Luis Miguel Luis Miguel Yllobre Peña read Regla, Cuba by Philip Murray and explore the sights of Regla that have stood the test of time."
-    },
-    {
       "type": "interactive",
       "value": {
         "filename": "interactives/poem.ejs"
