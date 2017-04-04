@@ -7,13 +7,13 @@
   .interactive-wrapper .poem-hide{
     cursor: pointer;
   }
-  .interactive-wrapper p {
+  #poem-wrapper p {
     line-height: 1.3;
-    font-family: 'Montserrat', sans-serif;}
-  .interactive-wrapper img {
+  }
+  #poem-wrapper img {
     width: 25vw;
     margin-right: 10%; }
-  .interactive-wrapper .title {
+  #poem-wrapper .title {
     text-align: center;
   color: #6EA5C2;
   font-size: 1.2; }
