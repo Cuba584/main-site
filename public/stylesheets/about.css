@@ -5,6 +5,10 @@
   justify-content: center;
   margin-top: 0; }
 
+.about .active-nav {
+  margin-top: 3em;
+  margin-bottom: 5em; }
+
 .max-width {
   max-width: 50%; }
 
@@ -112,7 +116,7 @@ a:hover, a:focus {
   width: inherit; }
 
 #inner-title-box {
-  width: 50%; }
+  width: 63%; }
 
 .divider img {
   width: 150px;

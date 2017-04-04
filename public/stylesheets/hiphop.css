@@ -3,14 +3,8 @@
 #hiphop-wrap {
   display: flex; }
 
-#hiphop-title-queen {
-  font-size: 3em;
-  font-weight: 700;
-  font-family: "Montserrat", sans-serif;
-  margin: 10px auto; }
-
-#hiphop-intro-queen {
-  font-weight: 300; }
+#hiphop-wrap-mobile {
+  display: none; }
 
 .hiphop-bio {
   line-height: 1 !important;
@@ -37,8 +31,8 @@
 
 .hiphop-panel {
   padding: 1vw;
-  height: 22vw;
-  width: 13vw;
+  height: 23.75vw;
+  width: 14vw;
   background-size: cover;
   display: block;
   position: relative;
@@ -63,7 +57,7 @@
 
 .hiphop-panel img {
   height: auto;
-  width: 12vw; }
+  width: 13vw; }
 
 .hiphop-text {
   transform: rotateY(180deg);
@@ -114,16 +108,7 @@
     word-break: normal; } }
 
 @media screen and (max-width: 1020px) {
-  .hiphop-bio {
-    font-size: .6em;
-    margin-top: 2px; }
-  .hiphop-year {
-    font-size: .65em;
-    margin: 2px; }
-  .hiphop-name {
-    font-size: .7em;
-    margin-bottom: 2px;
-    margin-top: 6px; }
-  .hiphop-text p {
-    word-wrap: break-word;
-    word-break: normal; } }
+  #hiphop-wrap-mobile {
+    display: block; }
+  #hiphop-wrap {
+    display: none; } }
