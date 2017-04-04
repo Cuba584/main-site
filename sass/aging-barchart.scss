@@ -7,41 +7,6 @@
 }*/
 
 #aging-barchart {
-  background: #FFFFFF;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-
-
-
-
-  .wrap {
-    max-width: 85.375rem;
-    margin: 0 auto;
-    .pen-title {
-      color: #F0BD53;
-      margin-bottom: 0;
-      text-align: center;
-      margin-top: 2em;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 500;
-    }
-
-    .pen-description {
-      color: #696969;
-      margin-bottom: 2rem;
-      text-align: center;
-    }
-    .pen-description a {
-      color: #696969;
-      text-decoration: underline;
-    }
-
-    a {
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
 
     .chart-wrapper {
       margin: 0 auto;
@@ -200,7 +165,7 @@
     .chart-vertical .chart-bar[data-skill="14.64"] {
       height: 32.57%;
     }
-  }
+
 
 
   @-webkit-keyframes animation-lightspeed-in {
