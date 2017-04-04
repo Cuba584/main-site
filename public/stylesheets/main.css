@@ -10,6 +10,9 @@ further down on the page or in any of the other .SCSS files.
 .hiphop.overlay-item::first-letter {
   color: #F1861B; }
 
+.hiphop.interactive {
+  color: #F1861B; }
+
 .hiphop.change-bg {
   background: url("textures/hiphop.JPG") no-repeat;
   background-size: cover;
@@ -45,6 +48,9 @@ further down on the page or in any of the other .SCSS files.
   color: #9BD5BB; }
 
 .dorian.overlay-item::first-letter {
+  color: #9BD5BB; }
+
+.dorian.interactive {
   color: #9BD5BB; }
 
 .dorian.change-bg {
@@ -84,6 +90,9 @@ further down on the page or in any of the other .SCSS files.
 .skate.overlay-item::first-letter {
   color: #A089CE; }
 
+.skate.interactive {
+  color: #A089CE; }
+
 .skate.change-bg {
   background: url("textures/skate.JPG") no-repeat;
   background-size: cover;
@@ -119,6 +128,9 @@ further down on the page or in any of the other .SCSS files.
   color: #F0BD53; }
 
 .family.overlay-item::first-letter {
+  color: #F0BD53; }
+
+.family.interactive {
   color: #F0BD53; }
 
 .family.change-bg {
@@ -158,6 +170,9 @@ further down on the page or in any of the other .SCSS files.
 .harbor.overlay-item::first-letter {
   color: #6EA5C2; }
 
+.harbor.interactive {
+  color: #6EA5C2; }
+
 .harbor.change-bg {
   background: url("textures/harbor.JPG") no-repeat;
   background-size: cover;
@@ -193,6 +208,9 @@ further down on the page or in any of the other .SCSS files.
   color: #997A65; }
 
 .about.overlay-item::first-letter {
+  color: #997A65; }
+
+.about.interactive {
   color: #997A65; }
 
 .about.change-bg {
@@ -435,30 +453,29 @@ nav {
   width: 70%;
   border-top: 1px #696969 solid;
   border-bottom: 1px #696969 solid;
-  text-align: center;
   margin: 1.4em auto;
   padding: 1.4em 0;
   overflow: hidden; }
-  .interactive-wrapper h1 {
+
+.interactive-wrapper-intro {
+  text-align: center; }
+  .interactive-wrapper-intro h1 {
     margin: 0;
-    color: #6EA5C2; }
-  .interactive-wrapper h2 {
+    font-size: 3.7em; }
+  .interactive-wrapper-intro h2 {
     font-weight: 200;
     font-size: 1.5em;
-    margin-top: 10px;
-    color: #6EA5C2; }
-  .interactive-wrapper p {
+    margin-top: 10px; }
+  .interactive-wrapper-intro p {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     font-weight: 400;
     text-align: left; }
-  .interactive-wrapper .expand-collapse {
+  .interactive-wrapper-intro .expand-collapse {
     text-align: left;
-    cursor: pointer; }
-    .interactive-wrapper .expand-collapse a {
-      font-family: "Montserrat", sans-serif;
-      text-decoration: none;
-      color: #6EA5C2; }
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none; }
 
 /*------------------ RESPONSIVE NAV STYLES ---------*/
 @media screen and (min-width: 2400px) {
