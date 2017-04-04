@@ -11,8 +11,8 @@ $light-gray: #efefef;
   margin-top:0;
 }
 
-.about.change-bg{
-  // width:20%!important;
+.max-width{
+  max-width:50%;
 }
 
 ul {
@@ -64,6 +64,13 @@ a:hover, a:focus {
       font-family: $roboto;
       text-align: left;
       line-height: 1.4em;
+      display:inline-block;
+    }
+    .portfolio{
+      display:inline;
+    }
+    .team-name{
+      display:block;
     }
     .role {
       font-family: $montserrat;
@@ -105,6 +112,9 @@ a:hover, a:focus {
     display: block;
     margin: 0px auto;
     max-width: 250px;
+    &:hover{
+      cursor:default;
+    }
   }
   .mix {
   //  margin: 7px 2.5%;
@@ -134,10 +144,15 @@ a:hover, a:focus {
 }
 
 
-#about-title {
-  font-weight: 400;
-  margin: 30px 0px;
-}
+
+  .about-title {
+    width:inherit;
+  }
+  #inner-title-box{
+    width:50%;
+  }
+
+
 
 .divider {
   img {
@@ -166,6 +181,9 @@ a:hover, a:focus {
     text-align: left;
     padding-left: 5px;
   }
+  ul{
+    list-style-type: none;
+  }
 }
 
 .about-cinema-wrapper{
@@ -193,6 +211,17 @@ a:hover, a:focus {
 
 .about-social-icon{
   display:inline;
+}
+
+.max-width {
+  max-width: 80%;
+}
+
+#inner-title-box{
+  width:80%;
+  margin-top:3%;
+}
+
 }
 
 @include media("screen", ">=xl"){
@@ -232,4 +261,4 @@ a:hover, a:focus {
       text-align: left;
     }
   }
-}}
+}

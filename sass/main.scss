@@ -507,7 +507,6 @@ nav {
       display: block;
       float: right;
       height: 35px;
-      margin-top: 2em;
       width: 35px;
 
       #nav-container {
@@ -516,7 +515,7 @@ nav {
           width: 29px;
           height: 3px;
           margin: 6px 0;
-          background: black;
+          background: #484848;
           transition: 0.4s;
         }
       }
@@ -553,6 +552,18 @@ nav {
 
     nav{
       height:50px;
+
+      .label-toggle {
+        height: 33px;
+        width: 0px;
+        #nav-container {
+          .bar1, .bar2, .bar3 {
+            height: 2px;
+            width: 24px;
+            margin: 0 0 5px 0;
+          }
+        }
+      }
 
       .wrapper{
         width:90vw;
