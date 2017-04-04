@@ -1,18 +1,20 @@
+var pageVideo;
+
 $(document).ready(function(){
   // $('#hidden-nav').hide();
   var windowWidth = $(window).width();
+  pageVideo = document.getElementById('home-video') || document.getElementById('cinemagraph');
+  console.log(pageVideo);
   $( window ).resize(function() {
     var windowWidth = $(window).width();
   });
   var videoTop = $('#video-top').offset().top;
   var videoHeight = $('#vimeo-wrap').outerHeight();
-  console.log(videoTop)
-  console.log(videoTop + (videoHeight / 2))
 
   if (windowWidth > 1020) {
   $(window).scroll(function(event){
     var scrollTop = $(this).scrollTop();
-    console.log(scrollTop)
+
 
       if (scrollTop >= videoTop  - 200 && scrollTop <= videoTop + (videoHeight / 8)) {
         $('body').css('background-color', '#000')
@@ -22,10 +24,11 @@ $(document).ready(function(){
         $('body').css('background-color', '#fff')
       }
   });
-} else {}
+} else {};
 
 
   $(currentNav).addClass('active-nav');
+  $(mobileNav).addClass('mobile-active-nav');
 
   $('#menu-toggle').click(function(){
     // $('#hidden-nav').show();
@@ -36,7 +39,12 @@ $(document).ready(function(){
   $('#nav-container').on('click', function(){
     this.classList.toggle("change");
     $('#hidden-nav').show();
+    $('#nav-container').hide();
 
+  });
+
+  $('#hidden-nav').on('click', function (){
+    $('#nav-container').show();
   });
 
   $('#closebtn').click(function(){
@@ -45,19 +53,6 @@ $(document).ready(function(){
     $('#nav-container')[0].classList.remove("change");
     // $('#hidden-nav').hide();
   });
-
-
-  var replays = document.getElementsByClassName('replay-btn');
-
-  $('#replay-btn').hide();
-
-  var videoEnded = document.getElementById('cinemagraph').onended;
-
-  if (videoEnded){
-    $('#replay-btn').show();
-    console.log('shown');
-  };
-
 
 
   $('#trans-btn').on('click', function(){
@@ -75,3 +70,12 @@ $(document).ready(function(){
 
 
 });
+
+function showReplay() {
+  $('#replay-btn').show();
+}
+
+function replayVideo() {
+  pageVideo.play();
+  $('#replay-btn').hide();
+}

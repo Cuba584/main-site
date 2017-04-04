@@ -118,6 +118,7 @@ function storeToken(token) {
  * @param {String} The URL to request the content from
  */
 function getFileContents(exportLink, currentTopic){
+
   oauth2Client.request({
       method: 'GET',
       uri: exportLink
@@ -126,8 +127,12 @@ function getFileContents(exportLink, currentTopic){
           console.log('Getting file contents failed.', err);
           return;
       }
-      data = archieml.load(body);
-      sendIt(data, currentTopic);
+     data = archieml.load(body);
+	 data.text.forEach(function(el, index, arr){
+		 if (el.type !== "text" ) return;
+		 data.text[index].value = data.text[index].value.replace(/\*\*(.+)\*\*/gm, "<span class='italic'>$1</span>")
+	 });
+     sendIt(data, currentTopic);
   });
 }
 

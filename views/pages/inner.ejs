@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<%= espanol ? "es":"en" %>">
 <head>
   <% include ../partials/header.ejs %>
   <script>
@@ -8,25 +8,17 @@
   var currentNav = '.' + currentPage.substring(7);
   console.log(currentNav);
 
+  var mobileNav = ".overlay-content ." + currentPage.substring(7);
+  console.log(mobileNav);
+
   </script>
 </head>
 
 <body>
-  <% if (page.includes('espanol')) { %>
-  <% var espanol = true } %>
-  <%  if (espanol == true) { %>
-  <%  include ../partials/navespanol.ejs %>
-  <% } else { %>
-  <%  include ../partials/nav.ejs %>
-  <% } %>
 
-  <% include ../partials/article.ejs %>
+	<%  include ../partials/nav.ejs %>
+	<% include ../partials/article.ejs %>
+	<%  include ../partials/footer.ejs %>
 
-
-  <%  if (espanol == true) { %>
-  <%  include ../partials/footerespanol.ejs %>
-  <% } else { %>
-  <%  include ../partials/footer.ejs %>
-  <% } %>
 </body>
 </html>

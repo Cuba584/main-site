@@ -5,9 +5,6 @@
   justify-content: center;
   margin-top: 0; }
 
-.about.change-bg {
-  width: 20% !important; }
-
 ul {
   margin-top: 15px; }
 
@@ -69,7 +66,7 @@ a:hover, a:focus {
   color: #000;
   visibility: hidden;
   opacity: 0;
-  padding: 20px 25px;
+  padding: 17px 20px;
   font-size: .85em;
   font-family: "Roboto", sans-serif;
   -webkit-transition: visibility opacity 0.2s;
@@ -127,6 +124,20 @@ a:hover, a:focus {
     margin-bottom: 0px;
     text-align: left;
     padding-left: 5px; }
+
+.about-cinema-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .about-cinema-wrapper video {
+    margin-top: 70px; }
+
+#about-cinemagraph {
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%; }
 
 @media screen and (max-width: 1020px) {
   .portfolio {

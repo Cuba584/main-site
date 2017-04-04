@@ -11,7 +11,7 @@ further down on the page or in any of the other .SCSS files.
             &.subhead{
               color: nth($i, 2);
             }
-            &.overlay-item span{
+            &.overlay-item::first-letter{
               color: nth($i, 2);
             }
             &.interactive{
@@ -45,7 +45,6 @@ further down on the page or in any of the other .SCSS files.
                 }
               }
 
-
               &.active-nav{
                 &:after{
                   width: 100%;
@@ -54,6 +53,16 @@ further down on the page or in any of the other .SCSS files.
                 }
               }
 
+            }
+
+            &.mobile-active-nav:after{
+              content: '';
+              display: block;
+              height: 3px;
+              width: 40%;
+              margin-top: -3%;
+              background:nth($i, 2);
+              transition-property: none;
             }
         }
     }
@@ -130,6 +139,10 @@ h4 {font-size: 1.125em;
   }
 }
 
+.italic {
+  font-style: italic;
+}
+
 /* ------------------  Header ------------------ */
 
 @mixin header-footer {
@@ -164,28 +177,27 @@ nav {
   background-color: #fff;
   opacity: 1;
   font-family: $montserrat;
-  font-size:.95em;
+  font-size:.93em;
   letter-spacing: .03em;
-  padding-bottom:5px;
+  padding: 5px 0 3px 0;
   transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
 
 
   ul {
-  text-transform: uppercase;
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  width: 900px;
+  width: 750px;
   padding: 0;
+  font-weight: 400;
   margin:45px 0 15px 0;
 
     a {
-      color: #222;
+      color: #484848;
       position: relative;
       text-decoration: none;
-      color:$main-text-color;
       background-color:transparent;
       //for hover styles, look at mix-in
     }
@@ -199,6 +211,7 @@ nav {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    background: transparent;
   }
   .label-toggle {
     display: none;
@@ -207,7 +220,7 @@ nav {
   #menu-toggle {
     display: none;
   }
-   .nav-icons, .icons {
+  .nav-icons, .icons {
     display: flex;
     margin: 0 5px 0 5px;
   }
@@ -218,9 +231,11 @@ nav {
   }
   .logo-wrapper {
     margin-left:20px;
+
+
     #svg-logo{
       // height:inherit;
-      width:222px;
+      width:170px;
     }
     // #svg-splash{
     //   width:100px;
@@ -229,12 +244,19 @@ nav {
     //   width:200px;
     // }
   }
+
+  .nav-dot-sep {
+    font-size: 2em;
+    margin-top: -11px;
+ }
+
   .sm-icons {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     opacity:.8;
+    margin-right: 20px;
     .insta {
       padding-right: .3em;
       &:hover{
@@ -251,19 +273,24 @@ nav {
         color:$twitter;
       }
     }
-    #nav-line {
+    .nav-line {
      margin:0 0.6em 0 0.5em;
-     height:30px;
+     height:27px;
      border-left: 1.5px solid $dark-gray;
    }
+
+   #trans-btn, #about-btn {
+     font-size: .9em;
+   }
+
     a{
       color:$main-text-color;
       text-decoration:none;
     }
   }
 
+
   .trans-wrapper{
-    margin-right:20px;
 
     #trans-btn{
 
@@ -279,6 +306,17 @@ nav {
     }
   }
 
+  .about-wrapper {
+
+    #about-btn{
+
+      &:hover{
+        cursor:pointer;
+        font-weight:600;
+      }
+    }
+  }
+
 }
 
   .default {
@@ -288,8 +326,13 @@ nav {
       top: -85px;
   }
 
+  #replay-btn {
+    display: none;
+  }
+
 
   /* ------- MOBILE NAVIGATION --------*/
+
 
 .overlay{
   height: 100%;
@@ -299,30 +342,36 @@ nav {
   left: 0;
   top: 0;
   background-color:rgb(0,0,0);
-  background-color:rgba(0,0,0,0.9);
+  background-color:white;
+  opacity: .94;
   overflow-x: hidden;
   transition: 0.5s;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   .overlay-content{
     position:relative;
-    top:25%;
+    top:15%;
     width:100%;
-    text-align:center;
+    margin-left: 8%;
     margin-top:30px;
     a{
       display:block;
       text-decoration:none;
-      font-size:2em;
+      font-size:1.7em;
+      font-weight: 300;
+      line-height: 2.6em;
+      padding: 0.5%;
     }
     #closebtn{
       position:absolute;
-      top:20px;
-      right:45px;
+      top:-50%;
+      left: -5%;
       font-size:60px;
+      color: black;
+      font-weight: 700;
     }
     .overlay-item{
-      color:white;
+      color:black;
       span{
         font-size:1.2em;
       }
@@ -385,7 +434,7 @@ nav {
 
         .logo-wrapper{
           #svg-logo{
-            width:120px;
+            // width:120px;
           }
         }
 
@@ -395,13 +444,23 @@ nav {
         }
         nav{
           ul{
-            width:100%;
+            width:52%;
           }
 
           .nav-icons{
             margin:39px 0 15px 0;
           }
         }
+        .sm-icons {
+          .nav-line {
+           margin:0 0.5em 0 0.5em;
+           height:23px;
+          }
+          #trans-btn, #about-btn {
+            font-size: .8em;
+          }
+        }
+
       }
     }
 
@@ -435,6 +494,12 @@ nav {
       .wrapper{
         width:900px;
       }
+      .sm-icons {
+        margin-right: 0;
+      }
+      nav .nav-icons{
+        margin:15px 0 11px 0;
+      }
     }
 
     nav .label-toggle {
@@ -442,13 +507,14 @@ nav {
       display: block;
       float: right;
       height: 35px;
-      margin-top: 1em;
+      margin-top: 2em;
       width: 35px;
+
       #nav-container {
         display: inline-block;
         .bar1, .bar2, .bar3 {
-          width: 35px;
-          height: 5px;
+          width: 29px;
+          height: 3px;
           margin: 6px 0;
           background: black;
           transition: 0.4s;
@@ -475,7 +541,7 @@ nav {
       }
       .logo-wrapper{
         #svg-logo{
-          width:250px;
+          width:200px;
         }
       }
     }
@@ -486,18 +552,24 @@ nav {
 
 
     nav{
-      height:20px;
+      height:50px;
 
       .wrapper{
         width:90vw;
-
+        align-items: flex-end;
+        height: 45px;
       }
 
       .logo-wrapper{
+        margin: 0 auto;
         #svg-logo{
-          width:222px;
+          width:130px;
         }
       }
+      nav .nav-icons {
+        display: none;
+      }
+
 
     }
 

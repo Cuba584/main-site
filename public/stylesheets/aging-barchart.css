@@ -1,0 +1,165 @@
+/*html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}*/
+#aging-barchart {
+  background: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; }
+  #aging-barchart .wrap {
+    max-width: 85.375rem;
+    margin: 0 auto; }
+    #aging-barchart .wrap .pen-title {
+      color: #F0BD53;
+      margin-bottom: 0;
+      text-align: center;
+      margin-top: 2em;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500; }
+    #aging-barchart .wrap .pen-description {
+      color: #696969;
+      margin-bottom: 2rem;
+      text-align: center; }
+    #aging-barchart .wrap .pen-description a {
+      color: #696969;
+      text-decoration: underline; }
+    #aging-barchart .wrap a {
+      text-decoration: none; }
+    #aging-barchart .wrap a:hover {
+      text-decoration: underline; }
+    #aging-barchart .wrap .chart-wrapper {
+      margin: 0 auto;
+      max-width: 37.5rem; }
+    #aging-barchart .wrap .chart-vertical {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      align-items: flex-end;
+      height: 300px;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      overflow: hidden; }
+    #aging-barchart .wrap .chart-vertical-dataset {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 20px;
+      margin-bottom: 8pt;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      overflow: hidden;
+      margin-left: 5%;
+      margin-right: 3%; }
+    #aging-barchart .wrap #wrapper-data {
+      width: 100%;
+      display: inline-flex;
+      justify-content: space-around; }
+    #aging-barchart .wrap #wrapper-data p {
+      font-size: 10pt; }
+    #aging-barchart .wrap .data-numbers1 p {
+      margin-left: 15px;
+      line-height: 5pt;
+      text-align: center; }
+    #aging-barchart .wrap .data-numbers2 p {
+      margin-left: 19px;
+      line-height: 5pt;
+      text-align: center; }
+    #aging-barchart .wrap .data-numbers3 p {
+      margin-left: 25px;
+      line-height: 5pt;
+      text-align: center; }
+    #aging-barchart .wrap .data-numbers4 p {
+      margin-left: 26px;
+      margin-right: -28px;
+      line-height: 5pt;
+      text-align: center; }
+    #aging-barchart .wrap .data-numbers5 p {
+      margin-left: 28px;
+      line-height: 5pt;
+      text-align: center; }
+    #aging-barchart .wrap .chart-vertical::after {
+      clear: both;
+      content: "";
+      display: block; }
+    #aging-barchart .wrap .chart-vertical .chart-bar {
+      background: #F0BD53;
+      list-style: none;
+      margin-right: 0.5rem;
+      opacity: 0;
+      width: 100%; }
+    #aging-barchart .wrap .chart-animate {
+      -webkit-animation: 1s animation-lightspeed-in ease forwards;
+      animation: 1s animation-lightspeed-in ease forwards; }
+    #aging-barchart .wrap .chart-bar {
+      margin-left: 0.5rem; }
+    #aging-barchart .wrap .chart-vertical .chart-bar:nth-of-type(10) {
+      -webkit-animation-delay: 3s;
+      animation-delay: 3s; }
+    #aging-barchart .wrap .chart-vertical .chart-bar:nth-of-type(9) {
+      -webkit-animation-delay: 2.7s;
+      animation-delay: 2.7s; }
+    #aging-barchart .wrap .chart-vertical .chart-bar:nth-of-type(8) {
+      -webkit-animation-delay: 2.4s;
+      animation-delay: 2.4s; }
+    #aging-barchart .wrap .chart-vertical .chart-bar:nth-of-type(7) {
+      -webkit-animation-delay: 2.1s;
+      animation-delay: 2.1s; }
+    #aging-barchart .wrap .chart-vertical .chart-bar:nth-of-type(6) {
+      -webkit-animation-delay: 1.8s;
+      animation-delay: 1.8s; }
+    #aging-barchart .wrap .chart-vertical .chart-bar:nth-of-type(5) {
+      -webkit-animation-delay: 1.5s;
+      animation-delay: 1.5s; }
+    #aging-barchart .wrap .chart-vertical .chart-bar:nth-of-type(4) {
+      -webkit-animation-delay: 1.2s;
+      animation-delay: 1.2s; }
+    #aging-barchart .wrap .chart-vertical .chart-bar:nth-of-type(3) {
+      -webkit-animation-delay: 0.9s;
+      animation-delay: 0.9s; }
+    #aging-barchart .wrap .chart-vertical .chart-bar:nth-of-type(2) {
+      -webkit-animation-delay: 0.6s;
+      animation-delay: 0.6s; }
+    #aging-barchart .wrap .chart-vertical .chart-bar:nth-of-type(1) {
+      -webkit-animation-delay: 0.3s;
+      animation-delay: 0.3s; }
+    #aging-barchart .wrap .chart-vertical .chart-bar[data-skill="16.7"] {
+      height: 37.15%; }
+    #aging-barchart .wrap .chart-vertical .chart-bar[data-skill="12.44"] {
+      height: 27.68%; }
+    #aging-barchart .wrap .chart-vertical .chart-bar[data-skill="44.95"] {
+      height: 100%; }
+    #aging-barchart .wrap .chart-vertical .chart-bar[data-skill="11.27"] {
+      height: 25%; }
+    #aging-barchart .wrap .chart-vertical .chart-bar[data-skill="14.64"] {
+      height: 32.57%; }
+
+@-webkit-keyframes animation-lightspeed-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px); } }
+
+@keyframes animation-lightspeed-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px); } }
