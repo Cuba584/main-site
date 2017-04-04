@@ -14,6 +14,9 @@ further down on the page or in any of the other .SCSS files.
             &.overlay-item span{
               color: nth($i, 2);
             }
+            &.interactive{
+              color: nth($i, 2);
+            }
             &.change-bg{
               background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
               background-size:cover;
@@ -334,19 +337,21 @@ nav {
   width:70%;
   border-top:1px $dark-gray solid;
   border-bottom:1px $dark-gray solid;
-  text-align: center;
   margin:1.4em auto;
   padding: 1.4em 0;
   overflow:hidden;
+}
+
+.interactive-wrapper-intro{
+  text-align: center;
   h1 {
     margin:0;
-    color:$blue;
+    font-size: 3.7em;
     }
   h2 {
     font-weight:200;
     font-size:1.5em;
     margin-top:10px;
-    color:$blue;
     }
     p {
       font-family:'Roboto', sans-serif;
@@ -357,11 +362,8 @@ nav {
     .expand-collapse {
       text-align:left;
       cursor: pointer;
-       a {
-         font-family: "Montserrat", sans-serif;
-         text-decoration: none;
-         color: $blue;
-       }
+      font-family: "Montserrat", sans-serif;
+      text-decoration: none;
     }
 }
 
