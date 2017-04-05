@@ -2,6 +2,7 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5%;
 }
 
   .interactive-wrapper .poem-hide{
@@ -11,7 +12,7 @@
     line-height: 1.3;
   }
   #poem-wrapper img {
-    width: 25vw;
+    width: 30vw;
     margin-right: 10%; }
   #poem-wrapper .title {
     text-align: center;
