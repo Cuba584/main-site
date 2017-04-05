@@ -72,7 +72,7 @@
     width: 100%;
   }
 
-  .interactive-wrapper #section-0, .interactive-wrapper #section-1, .interactive-wrapper #section-2, .interactive-wrapper #section-3, .interactive-wrapper #section-4, .interactive-wrapper #section-5, .interactive-wrapper #section-6 {
+  #poem-wrapper #section-0, #poem-wrapper #section-1, #poem-wrapper #section-2, #poem-wrapper #section-3, #poem-wrapper #section-4, #poem-wrapper #section-5, #poem-wrapper #section-6 {
     margin-top: 3%;
     width: 90%;
     font-size: 0.8;

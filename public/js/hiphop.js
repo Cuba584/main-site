@@ -6,13 +6,8 @@ console.log(cards)
 
 for (var p = 0; p < 5; p++) {
   console.log(cards[p]);
-  // panels[p].addEventListener('mouseenter', function(){
           cards[p].onmouseenter = flip;
           cards[p].onmouseleave = unflip;
-  // });
-  // panels[p].addEventListener('mouseleave', function(){
-  //         cards[p].classList.remove('flipped');
-  // });
 };
 
 console.log('hello');
