@@ -13,23 +13,26 @@ footer{
     width: 100vw;
     justify-content: space-between;
   }
-
-  .push-right{
-    flex-grow: 3;
+  .logo-wrapper #svg-logo {
+      width: 170px;
   }
-
+  .item {
+    width:100%;
+  }
   .item ul{
     list-style-type: none;
-    margin-right: 3vw;
-    display: block;
+    padding:.1em 0;
   }
 
   .centered {
-    align-self: center;
+    text-align: center;
   }
 
   .item ul li{
-    display: inline;
+    display: inline-block;
+    vertical-align: middle;
+    height: 35px;
+    padding:10px 20px 0 20px;
   }
 
   .item span {
@@ -37,37 +40,49 @@ footer{
     margin-right: 5px;
   }
 
-  .item img {
-    height: 10vw;
-    margin-left: 3vw;
-  }
-
   ul li a {
     text-decoration: none;
-    color: #535353;
+    color: #ffffff;
+    font-weight: 400;
   }
-
   ul li a:hover {
-    font-weight: bold;
+    font-weight: 400;
   }
 
-  .fa {
+  a {
     margin-left: 5px;
     margin-right: 5px;
-    color: black;
+    color: #484848;
+    font-family: "Montserrat", sans-serif;
+    font-size: .8em;
+    font-weight:300;
+    text-decoration: none;
   }
-
-  .social {
-    margin-left: -80px;
+  a:hover {
+    font-weight: 400;
   }
-
-
+  .fa {
+    font-size: 1.3em;
+  }
+  .sm-icons {
+    margin-top:1em;
+  }
 
 }
 
 
 /* ------- Media Queries --------- */
 
+@media screen and (min-device-width: 501px) and (max-width: 768px){
+  footer{
+    .item ul li{
+      padding:10px 5px 0 5px;
+    }
+    .item ul li a {
+      font-size: .6em;
+    }
+  }
+}
 @media screen and (max-width: 500px){
   footer{
 
@@ -84,29 +99,23 @@ footer{
       padding: 0;
     }
 
-    .item img{
-      margin-left: 0px;
-      height: 13vw;
-    }
-
     .item ul{
       margin-right: 0px;
+      padding: 20px 0 0 0;
+    }
+    .item ul li {
+      display: block;
       padding: 0;
+      height:auto;
     }
-
-    .item span{
-      display: none;
+    .nav-title.active-nav:after, .nav-title:hover:after {
+      background:none!important;
     }
-
-    .push-right{
-      display: hide;
+    .item ul li a:hover {
+      font-weight: 700;
     }
-
-    .social{
-      margin-left: 0px;
+    .item ul li a {
+      font-size: .8em;
     }
-
   }
-
-
 }
