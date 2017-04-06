@@ -24,7 +24,8 @@ var fs = require('fs');
 
   app.get('/about', function(request, response){
     var teamData = JSON.parse(fs.readFileSync('./data/team.json'));
-    response.render('pages/about', {team: teamData, page: 'about', espanol: isEspanol(request)});
+    bodyData = JSON.parse(fs.readFileSync('./data/about.json'));
+    response.render('pages/about', {body: bodyData, team: teamData, page: 'about', espanol: isEspanol(request)});
   });
 
   app.get('/pages/:id', function(req, res){
