@@ -38,7 +38,8 @@ a:hover, a:focus {
     list-style: none;
     padding: 15px;
     font-family: $montserrat;
-    margin: 10px 10%;
+    margin: 10px auto;
+    width: 52%;
     li {
       color: $text-gray;
       font-weight: 300;
@@ -150,14 +151,17 @@ a:hover, a:focus {
 
 
 
-  .about-title {
+.about-title {
+  margin-top: -2%;
     width:inherit;
-  }
   #inner-title-box{
-    width:63%;
+    margin-bottom: 3.8em;
   }
+}
 
-
+#about-intro-text {
+  margin-bottom: 5em;
+}
 
 .divider {
   img {
@@ -192,10 +196,6 @@ a:hover, a:focus {
 }
 
 .about-cinema-wrapper{
-  position: relative;
-  width:100%;
-  display:flex;
-  justify-content:center;
   video{
     margin-top:$nav-height;
   }
@@ -221,10 +221,10 @@ a:hover, a:focus {
 .max-width {
   max-width: 80%;
 }
-
-#inner-title-box{
-  width:80%;
-  margin-top:3%;
+.about-cinema-wrapper{
+  #cinemagraph{
+    margin-top:$mobile-nav-height;
+  }
 }
 
 }
@@ -243,11 +243,9 @@ a:hover, a:focus {
     ul{
       flex-direction: column;
       max-height: 80px;
-      padding-left: 7%;
-      margin: 15px 0px 1rem 0px;
-      li {
-        margin-right: 50px;
-      }
+      margin: 15px auto 1rem;
+      width: 82%;
+      text-align: center;
       }
     .mixitup-control-active {
       text-decoration: underline;

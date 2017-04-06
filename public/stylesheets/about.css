@@ -28,7 +28,8 @@ a:hover, a:focus {
     list-style: none;
     padding: 15px;
     font-family: "Montserrat", sans-serif;
-    margin: 10px 10%; }
+    margin: 10px auto;
+    width: 52%; }
     .team-nav ul li {
       color: #070707;
       font-weight: 300;
@@ -113,10 +114,13 @@ a:hover, a:focus {
     text-align: left; }
 
 .about-title {
+  margin-top: -2%;
   width: inherit; }
+  .about-title #inner-title-box {
+    margin-bottom: 3.8em; }
 
-#inner-title-box {
-  width: 63%; }
+#about-intro-text {
+  margin-bottom: 5em; }
 
 .divider img {
   width: 150px;
@@ -143,13 +147,8 @@ a:hover, a:focus {
   #special-thanks ul {
     list-style-type: none; }
 
-.about-cinema-wrapper {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center; }
-  .about-cinema-wrapper video {
-    margin-top: 70px; }
+.about-cinema-wrapper video {
+  margin-top: 70px; }
 
 #about-cinemagraph {
   width: 100%;
@@ -164,9 +163,8 @@ a:hover, a:focus {
     display: inline; }
   .max-width {
     max-width: 80%; }
-  #inner-title-box {
-    width: 80%;
-    margin-top: 3%; } }
+  .about-cinema-wrapper #cinemagraph {
+    margin-top: 58px; } }
 
 @media screen and (min-width: 2400px) {
   .team-nav ul {
@@ -176,10 +174,9 @@ a:hover, a:focus {
   .team-nav ul {
     flex-direction: column;
     max-height: 80px;
-    padding-left: 7%;
-    margin: 15px 0px 1rem 0px; }
-    .team-nav ul li {
-      margin-right: 50px; }
+    margin: 15px auto 1rem;
+    width: 82%;
+    text-align: center; }
   .team-nav .mixitup-control-active {
     text-decoration: underline; }
   .mix {

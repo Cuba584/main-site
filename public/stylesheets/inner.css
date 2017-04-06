@@ -134,8 +134,6 @@
     width: auto; } }
 
 @media screen and (max-width: 1020px) {
-  .container {
-    margin-top: 13px; }
   .inner .byline-box {
     margin-top: 15pt; }
     .inner .byline-box .byline-item p {
@@ -166,7 +164,7 @@
 
 @media screen and (max-width: 570px) {
   .inner #cinemagraph {
-    margin-top: 50px; }
+    margin-top: 58px; }
   .inner figure {
     flex-wrap: wrap;
     margin: 0; }
