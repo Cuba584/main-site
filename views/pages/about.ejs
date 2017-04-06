@@ -4,20 +4,17 @@
   <link href="/stylesheets/bootstrap.min.css.map">
   <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
   <% include ../partials/header.ejs %>
-  <link rel="stylesheet" type="text/css" href="/stylesheets/about.css">
+  <script>
+  var currentPage = 'about';
+  var currentNav = '.' + currentPage;
+  var mobileNav = ".overlay-content .about";
+  </script>
 </head>
 
 <body>
-  <script>
-  var currentPage = 'about';
-  console.log(currentPage);
-
-  var currentNav = '.' + currentPage;
-  console.log(currentNav);
-  </script>
     <% include ../partials/nav.ejs %>
 <div class="about-cinema-wrapper">
-  <video id="about-cinemagraph" data-autoplay autoplay muted playsinline>
+  <video id="cinemagraph" data-autoplay autoplay muted playsinline>
   <source src="/assets/video/teamportrait.mp4 %>" type="video/mp4">
 </div>
 
@@ -43,11 +40,8 @@
 
   	<% } else { %>
       <p>We are a group of student videographers, web designers and developers, reporters and faculty brought together by a common goal: to share the voices of Cuba’s youth.</p>
-
       <p>We are a part of an annual project by UNC-Chapel Hill’s School of Media and Journalism. In past projects, students have reported across five continents and produced award-winning multimedia work. As students, we’re learning the rewards and challenges of reporting on different cultures; as journalists, we are working as a team to tell the stories that are shaping the globe.</p>
-
       <p>Fidel Castro’s death and normalizing relations with the United States have fostered an openness that Cuba hasn’t seen in decades. This wave of change is overtaking the country, and while the population is aging, it is the young Cubans who will determine the nation’s future as it finds its place on the global stage. We bring you their stories.</p>
-
     <% } %>
 	</div>
 
@@ -86,26 +80,19 @@
             <p class="portfolio">
               <a href="<%=team[i]["portfolio"]%>" target="_blank"><%= espanol ? "Portfolio":"Portfolio" %></a>
             </p>
-
             <% if (team[i]["portfolio"] && team[i]["socialid"]){ %>
             <span> | </span>
             <% } %>
             <% } else { }%>
             <% if (team[i]["socialid"]){ %>
-
-
               <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["social"]%>" target="_blank">
                 <!-- <i class="fa fa-<%= team[i]["socialid"] %>" aria-hidden="true"></i> -->
                 <p>@<%= team[i]["handle"]%></p>
               </a>
-
               <!-- <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["social"]%>" target="_blank">
                 <i class="fa fa-<%= team[i]["socialid"] %>" aria-hidden="true"></i>
               </a> -->
-
-
             <% } else { }%>
-
           </div>
         </div>
         <% } %>
@@ -116,11 +103,8 @@
     <div class="about-container">
  	<% if (espanol) { %>
 	<h3>Gracias Especiales</h3>
-
 	<% } else { %>
 	<h3>Special Thanks</h3>
-
-
   	<% } %>
     <ul>
       <div class="row">

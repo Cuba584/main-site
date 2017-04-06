@@ -7,9 +7,6 @@ further down on the page or in any of the other .SCSS files.
 .hiphop.subhead {
   color: #F1861B; }
 
-.hiphop.overlay-item::first-letter {
-  color: #F1861B; }
-
 .hiphop.interactive {
   color: #F1861B; }
 
@@ -45,9 +42,6 @@ further down on the page or in any of the other .SCSS files.
   transition-property: none; }
 
 .dorian.subhead {
-  color: #9BD5BB; }
-
-.dorian.overlay-item::first-letter {
   color: #9BD5BB; }
 
 .dorian.interactive {
@@ -87,9 +81,6 @@ further down on the page or in any of the other .SCSS files.
 .skate.subhead {
   color: #A089CE; }
 
-.skate.overlay-item::first-letter {
-  color: #A089CE; }
-
 .skate.interactive {
   color: #A089CE; }
 
@@ -125,9 +116,6 @@ further down on the page or in any of the other .SCSS files.
   transition-property: none; }
 
 .family.subhead {
-  color: #F0BD53; }
-
-.family.overlay-item::first-letter {
   color: #F0BD53; }
 
 .family.interactive {
@@ -167,9 +155,6 @@ further down on the page or in any of the other .SCSS files.
 .harbor.subhead {
   color: #6EA5C2; }
 
-.harbor.overlay-item::first-letter {
-  color: #6EA5C2; }
-
 .harbor.interactive {
   color: #6EA5C2; }
 
@@ -205,9 +190,6 @@ further down on the page or in any of the other .SCSS files.
   transition-property: none; }
 
 .about.subhead {
-  color: #997A65; }
-
-.about.overlay-item::first-letter {
   color: #997A65; }
 
 .about.interactive {
@@ -324,7 +306,6 @@ nav {
   font-family: "Montserrat", sans-serif;
   font-size: .93em;
   letter-spacing: .03em;
-  padding: 5px 0 3px 0;
   transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear; }
@@ -346,6 +327,7 @@ nav {
     width: 100%;
     align-items: center;
     display: flex;
+    padding: 5px 0 3px 0;
     justify-content: space-between;
     background: transparent; }
   nav .label-toggle {

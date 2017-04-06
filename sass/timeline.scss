@@ -1,4 +1,6 @@
-
+.timeline__img{
+  width:50vw;
+}
 
 .timeline {
   display: flex;
@@ -43,13 +45,11 @@
 }
 .timeline-item {
   padding: 40px 0;
-  opacity: .3;
-  filter: blur(2px);
   transition: .5s;
   box-sizing: border-box;
   width: calc(50% - 40px);
   display: flex;
-  position: relative;
+  // position: relative;
   transform: translateY(-80px);
 }
 .timeline-item:before {
@@ -118,9 +118,9 @@
 .timeline-container {
   width: 100%;
   position: relative;
-  padding: 80px 0;
-  background-attachment: fixed;
-  background-size: cover;
+  padding-top: 4vh;
+  // background-attachment: fixed;
+  // background-size: cover;
 }
 .timeline-container:before {
   position: absolute;

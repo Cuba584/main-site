@@ -220,9 +220,6 @@ iframe {
 }
 
 @include media("screen", "<=md") {
-    .container {
-      margin-top: 13px;
-    }
     .inner {
       .byline-box {
         margin-top: 15pt;

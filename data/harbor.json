@@ -8,7 +8,7 @@
   },
   "header": {
     "text": "Across the Harbor",
-    "subtitle": "A journey across race, economics, and water"
+    "subtitle": "Orlando’s journey between two worlds"
   },
   "reporters": [
     {
@@ -55,17 +55,13 @@
     },
     {
       "type": "text",
-      "value": "Since December 2014, the doors that have kept Americans from traveling to Cuba for over 50 years have begun to crack open, ushering in an era of tourism for the country that this generation of Cubans has never known. These jobs in tourism are changing families, introducing new household dynamics as children make more money than their parents ever thought plausible. It’s forcing this generation of young workers to reconcile the hardships of their youth — like the “Special Period” of economic collapse in Cuba during the 1990s — with a now-tangible notion of hope that lives in Havana. Beyond lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
+      "value": "Since December 2014, the doors that have kept Americans from traveling to Cuba for over 50 years have begun to crack open, ushering in an era of tourism for the country that this generation of Cubans has never known. These jobs in tourism are changing families, introducing new household dynamics as children make more money than their parents ever thought plausible. It’s forcing this generation of young workers to reconcile the hardships of their youth — like the “Special Period” of economic collapse in Cuba during the 1990s[a] — with a now-tangible notion of hope that lives in Havana. Beyond lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
     },
     {
       "type": "video",
       "value": {
         "id": "200984993"
       }
-    },
-    {
-      "type": "text",
-      "value": "Donec gravida vestibulum nisl ut ullamcorper. Donec efficitur efficitur feugiat. Pellentesque eu turpis sit amet lectus interdum scelerisque. Nam a mi non ante auctor molestie. Duis ut faucibus ligula, sed viverra magna. Duis id lacus posuere, hendrerit magna vitae, fringilla lectus. Sed pulvinar suscipit convallis."
     },
     {
       "type": "subhead",
@@ -180,5 +176,6 @@
         "filename": "interactives/moneyslider.ejs"
       }
     }
-  ]
+  ],
+  "a": []
 }

@@ -5,6 +5,22 @@
 
 #hiphop-wrap-mobile {
   display: none; }
+  #hiphop-wrap-mobile button {
+    border: none;
+    background: transparent;
+    font-size: 4em;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 25vh;
+    z-index: 10; }
+  #hiphop-wrap-mobile button:focus {
+    outline: none; }
+
+#hiphop-left {
+  left: 3%; }
+
+#hiphop-right {
+  right: 3%; }
 
 .hiphop-bio {
   line-height: 1 !important;
@@ -36,6 +52,7 @@
   background-size: cover;
   display: block;
   position: relative;
+  background-color: black;
   perspective: 800px; }
   .hiphop-panel:hover .hiphop-text {
     visibility: visible; }
@@ -92,6 +109,36 @@
 #hiphop5 {
   background-image: url("textures/dorian.JPG"); }
 
+#hiphop-wrap-mobile {
+  width: 90%;
+  height: 70vh;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto; }
+
+#hiphop-wrap-mobile > ul {
+  width: 100%;
+  height: 70vh;
+  left: -100%;
+  transition: 0.5s left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: inline-flex; }
+
+#hiphop-wrap-mobile > ul > li {
+  width: 100%;
+  height: 70vh;
+  color: black;
+  font-size: 3rem; }
+
+#hiphop-instructions-click {
+  display: none; }
+
+.hiphop-card-mobile {
+  cursor: pointer; }
+
 @media screen and (max-width: 1280px) {
   .hiphop-bio {
     font-size: .7em;
@@ -111,4 +158,16 @@
   #hiphop-wrap-mobile {
     display: block; }
   #hiphop-wrap {
+    display: none; }
+  .hiphop-panel {
+    height: 65vh;
+    width: 72vw;
+    padding: 0; }
+  .hiphop-card div {
+    width: 66vw;
+    height: 60vh;
+    margin: 2.5vh 3vw; }
+  #mobile-instructions:before {
+    content: "Click on"; }
+  #desktop-instructions {
     display: none; } }
