@@ -38,19 +38,19 @@
       "value": "Diego Delgado is a whisper away from his grandmother’s shoulder, his left eye buried into the viewfinder, but Coralia Ortiz doesn’t hear his camera. The 25-year-old photographer doesn’t have the best lighting to work with as he steps silently around Coralia, but he’s inspired. There’s something about that intense look on her face, the way the thin lines of her brown eyebrows subtly arch upward and her lower lip hangs open in contemplation. She creates all kinds of crafts, but her favorite is the brujita, a little witch that hangs from a string. She burrows her eyes into each stitch — the kind of finesse that only comes from years of practice. Coralia’s diabetes and other health issues force her to spend her time inside, but in these moments, she falls into a trance. Diego can’t help but capture it."
     },
     {
-      "type": "video",
-      "value": {
-        "360": "false",
-        "id": "200984993"
-      }
-    },
-    {
       "type": "text",
       "value": "But pictures? Of her sewing? Coralia doesn’t believe it. Surely, she’d be able to hear her grandson pacing around her, brushing his legs against the lace bedspread she sewed. You can hear the street bustling outside, but Coralia’s room is about as quiet as you’ll find in Havana — too quiet for the shutter of a camera to go unnoticed."
     },
     {
       "type": "text",
       "value": "That’s what fascinates Diego. Tall and lean with long eyelashes that frame his deep brown eyes, he exudes energy. Between taking pictures for the animal magazine El Arca, freelancing photography, playing soccer and caring for Coralia, Diego can’t spend too much time on one task. Besides, he loves action; he craves it. So he admires that Coralia can be still for hours, consumed by her craft, that apartment walls and ailing health cannot confine her creative spirit — that her passion is so captivating, she doesn’t realize her rapture has become the focus of her grandson’s art."
+    },
+    {
+      "type": "video",
+      "value": {
+        "360": "false",
+        "id": "200984993"
+      }
     },
     {
       "type": "text",
@@ -91,10 +91,6 @@
     },
     {
       "type": "text",
-      "value": "Scorer and defender, competitor and captain, energizer and caregiver — Diego is used to juggling. He doesn’t have a normal day. He gave up routine for the sake of chasing moments with his lens."
-    },
-    {
-      "type": "text",
       "value": "Diego tried stability. After finishing secondary school at 15, the lifelong animal lover started studying to become a veterinarian, taking photography classes while working in a restaurant. But the lifestyle didn’t satiate his spirit."
     },
     {
@@ -128,7 +124,7 @@
     },
     {
       "type": "text",
-      "value": "Sometimes, Coralia wears her age. Or maybe age wears her. She’ll shuffle around the apartment — “my little cave,” she says — gripping the countertop or a nearby chair for support. There’s a box of medicines on the counter for her diabetes and a pitcher of juice in the fridge. Her aching joints leave her tethered to the apartment."
+      "value": "Sometimes, Coralia wears her age. Or maybe age wears her. She’ll shuffle around the apartment — “my little cave,” she says — gripping the countertop or a nearby chair for support. There’s a box of medicines on the counter for her diabetes and a pitcher of juice in the fridge for when her blood sugar drops. Her aching joints leave her tethered to the apartment."
     },
     {
       "type": "text",
@@ -183,6 +179,12 @@
     {
       "type": "text",
       "value": "Diego’s youthful restlessness is growing more unique in Cuba. With a median age of 41.1 years old, 25.9 percent of the population is over 55, and an estimated 36 percent will be over 60 by 2050. The Plaza municipality — where Diego and Coralia live — is the oldest region of Havana."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/aging-barchart.ejs"
+      }
     },
     {
       "type": "text",
@@ -263,12 +265,6 @@
     {
       "type": "text",
       "value": "Together they drift down the neighborhood streets to buy food at the nearby market. Occasionally, the pair bumps into an older neighbor and stops to exchange kisses. Coralia selects the food from produce stands and uses the money from her purse to pay, but when they leave, Diego carries the white plastic bag. Later, Coralia will transform that into a meal."
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/aging-barchart.ejs"
-      }
     },
     {
       "type": "text",
