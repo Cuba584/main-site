@@ -1,0 +1,281 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.interactive-intro {
+  margin: 30px;
+}
+
+.interactive-intro h1, h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #927cbd;
+}
+
+.interactive-intro h1 {
+  font-size: 2.4em;
+  margin: 0;
+}
+
+.interactive-intro h2 {
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.paquete-container h3 {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  color: #484848;
+}
+
+.paquete-container p {
+  margin-top: 3px;
+}
+
+.paquete-container {
+  width: 80%;
+  display: flex;
+  margin: 1rem auto;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.finder-window {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  border-radius: 2px;
+  background-color: #dedede;
+  -webkit-box-shadow: 6px 9px 77px -4px rgba(0,0,0,0.25);
+  -moz-box-shadow: 6px 9px 77px -4px rgba(0,0,0,0.25);
+  box-shadow: 6px 9px 77px -4px rgba(0,0,0,0.25);
+  max-height: 225px;
+  margin-bottom: 15px;
+}
+
+.finder-header {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 100%;
+          flex: 1 100%;
+  position: relative;
+  height: 30px;
+  background-color: #dedede;
+}
+
+.window-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+      flex-flow: row;
+  position: absolute;
+  top: .3rem;
+  left: .3rem;
+}
+
+.window-controls__close,
+.window-controls__minimize,
+.window-controls__maximize {
+  height: .5rem;
+  width: .5rem;
+  border-radius: 99px;
+  margin-right: .28rem;
+  cursor: pointer;
+}
+
+.window-controls__close {
+  background-color: #f85955;
+}
+
+.window-controls__minimize {
+  background-color: #fbbe3f;
+}
+
+.window-controls__maximize {
+  background-color: #45cc4b;
+}
+
+.content-container {
+  height: 195px;
+}
+
+.sidebar {
+  background-color: #f0f0f0;
+  padding: 0 .6rem .4rem .4rem;
+  float: left;
+  height: 100%;
+}
+
+.sidebar__list {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar__list-name--section {
+  font-weight: bold;
+  color: #7b807c;
+  font-size: 0.4em;
+}
+
+.sidebar__sub-list {
+  margin: 0;
+  padding: 0 0 0 7px;
+  font-size: .5rem;
+  line-height: .45rem;
+}
+
+.icon {
+  font-size: .6rem;
+  margin-right: .1rem;
+}
+
+.sidebar__list-item {
+  margin: 3px 0;
+  list-style: none;
+}
+
+.sidebar__list-item--section {
+  margin: 0;
+}
+
+.finder-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+      flex-flow: row;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  background-color: #ffffff;
+  height: 100%
+}
+
+.category-container {
+  min-width: 35px;
+  border-right: 1px solid #e8e8e8;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 100%;
+          flex: 1 100%;
+  position: relative;
+  height: 100%
+}
+
+.sub-container {
+  min-width: 90px;
+  border-right: 1px solid #e8e8e8;
+}
+
+.files-container {
+  min-width: 105px;
+}
+
+.file-list {
+  margin: 0;
+  padding-left: 0;
+}
+
+.file-item {
+  display: block;
+  text-decoration: none;
+  padding: 0 0.5em;
+  cursor: pointer;
+  font-size: .48rem;
+  line-height: 1rem;
+  color: #868686;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.parent:hover {
+    background: #e8e8e8;
+}
+
+.parent {
+    color: #333;
+}
+
+.file-item:active {
+    background: #F0BD53;
+}
+
+.active {
+  background-color: #F0BD53;
+}
+
+.fa-file {
+  margin-right: .3em;
+  color: #9BD5BB;
+  font-size: .9em;
+  margin-top: -1px;
+}
+
+.parent .fa {
+    margin-right: .3em;
+    color: #6EA5C2;
+    font-size: 1.1em;
+}
+
+.info-window {
+  font-family: "Roboto", sans-serif;
+  font-size: .6rem;
+  margin-left: 1.6vw;
+  width: 20vw;
+  line-height: 1.6em;
+
+}
+
+#info-intro-bar {
+  height: 2px;
+  background: #484848;
+  border: none;
+  width: 40px;
+  margin: 0;
+}
+
+@media screen and (max-width: 780px){
+  .sidebar {
+    float: none;
+    height: 20px;
+  }
+  .sidebar__list {
+    padding: 5px 0;
+  }
+
+  .sidebar__list-name--section {
+    float: left;
+    margin-right: 5px;
+  }
+
+  .finder-main {
+    height: 90%;
+  }
+
+  .content-container {
+    height: 215px;
+  }
+
+  .info-window {
+    width: 273px;
+    margin: 10px;
+  }
+
+}
+
+@media screen and (max-width: 570px){
+
+
+
+}
