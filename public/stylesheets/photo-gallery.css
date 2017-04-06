@@ -6,8 +6,8 @@
   justify-content: space-around;
   align-items: flex-start; }
   #photo-gallery #custom-slider {
-    width: 60%;
-    height: 70vh;
+    width: 75%;
+    height: 100vh;
     overflow: hidden;
     margin-left: 0;
     margin-right: auto; }
@@ -29,7 +29,7 @@
   #photo-gallery .pic-style {
     max-height: 100%; }
   #photo-gallery .pic {
-    height: 70vh;
+    height: 90vh;
     max-width: 100%; }
   #photo-gallery button {
     background: transparent;
@@ -39,18 +39,27 @@
     color: #000; }
   #photo-gallery .caption {
     color: #000;
-    width: 40%;
-    height: 30vh;
-    position: relative; }
+    width: 25%; }
   #photo-gallery #caption-text {
     font-family: "Roboto", sans-serif;
-    margin-left: 0%;
-    margin-right: 50%;
     float: left; }
-  #photo-gallery .fa-angle-right {
-    position: relative;
-    left: -1500%; }
   #photo-gallery #slider-right {
-    float: right; }
+    position: relative; }
   #photo-gallery #slider-left {
-    float: left; }
+    float: left;
+    position: relative;
+    left: 10%; }
+  #photo-gallery .pg-figcaption {
+    padding-right: 10vw; }
+
+@media screen and (max-width: 570px) {
+  #photo-gallery #custom-slider {
+    width: auto;
+    height: 50vh; }
+  #photo-gallery #custom-slider > ul {
+    height: 50vh; }
+  #photo-gallery .pic {
+    height: 50vh; }
+  #photo-gallery .caption {
+    width: initial;
+    margin-top: 5%; } }

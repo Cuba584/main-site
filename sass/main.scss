@@ -11,9 +11,6 @@ further down on the page or in any of the other .SCSS files.
             &.subhead{
               color: nth($i, 2);
             }
-            &.overlay-item::first-letter{
-              color: nth($i, 2);
-            }
             &.interactive{
               color: nth($i, 2);
             }

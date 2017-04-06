@@ -9,8 +9,8 @@
   align-items: flex-start;
 
   #custom-slider {
-    width: 60%;
-    height: 70vh;
+    width: 75%;
+    height: 100vh;
     overflow: hidden;
     margin-left: 0;
     margin-right: auto;
@@ -54,29 +54,48 @@
 
   .caption {
     color: #000;
-     width: 40%;
-    height: 30vh;
-    position: relative;
+     width: 25%;
   }
 
   #caption-text {
     font-family: $roboto;
-    margin-left: 0%;
-    margin-right: 50%;
     float: left;
   }
 
-  .fa-angle-right{
-    position: relative;
-    left: -1500%;
-  }
+  // .fa-angle-right{
+  //   position: relative;
+  //   left: -1500%;
+  // }
 
 
   #slider-right {
-    float: right;
+    position: relative;
   }
 
   #slider-left {
     float: left;
+    position: relative;
+    left: 10%;
   }
+
+  .pg-figcaption {
+    padding-right: 10vw;
+  }
+  @include media("screen", "<=sm") {
+      #custom-slider {
+        width: auto;
+        height: 50vh;
+      }
+      #custom-slider > ul {
+        height: 50vh;
+      }
+      .pic {
+        height: 50vh;
+      }
+      .caption {
+        width: initial;
+        margin-top: 5%;
+      }
+  }
+
 }

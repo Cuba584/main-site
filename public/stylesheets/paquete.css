@@ -61,8 +61,8 @@
   .paquete-wrapper .paquete .other-caption {
     position: absolute;
     left: 2%;
-    top: 25%;
-    width: 260px;
+    top: 15%;
+    width: 250px;
     text-align: left;
     color: #000; }
   .paquete-wrapper .paquete #right-caption {
@@ -74,7 +74,7 @@
     opacity: 0.6;
     font-weight: bold;
     padding: 20px;
-    font-size: 1.2em; }
+    font-size: 1.275em; }
   .paquete-wrapper .paquete .scrolling {
     display: none; }
   .paquete-wrapper .paquete hr {
