@@ -15,9 +15,10 @@ further down on the page or in any of the other .SCSS files.
               color: nth($i, 2);
             }
             &.change-bg{
-              background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
+              // background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
               background-size:cover;
               color: nth($i, 2);
+              background-color: nth($i, 2);
             }
             &.nav-title{
               // border-bottom:3px solid transparent;
@@ -64,6 +65,18 @@ further down on the page or in any of the other .SCSS files.
         }
     }
 }
+
+@mixin config-page-background($colors...) {
+    @each $i in $colors {
+        .#{nth($i, 1)} {
+            &.change-mobile-bg{
+              background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
+              background-size:cover;
+              color: nth($i, 2);
+            }
+          }
+        }
+      }
 
 
 @include config-page-colors(
@@ -469,6 +482,8 @@ nav {
       }
     }
 
+
+
   @include media("screen", "<=md"){
 
     header{
@@ -545,6 +560,14 @@ nav {
 }
 
   @include media("screen", "<=sm"){
+    @include config-page-background(
+    'hiphop'  $orange,
+    'dorian' $green,
+    'skate' $purple,
+    'family' $yellow,
+    'harbor' $blue,
+    'about' $neutral
+    );
 
 
     nav{
@@ -566,6 +589,7 @@ nav {
         width:90vw;
         align-items: flex-end;
         height: 45px;
+
       }
 
       .logo-wrapper{

@@ -5,40 +5,61 @@ footer {
   background: none;
   padding-top: 2rem;
   padding-bottom: 1.5rem; }
+  footer #about-footer {
+    margin-top: 1.2em; }
   footer .wrapper {
     display: flex;
     flex-flow: row wrap;
     width: 100vw;
     justify-content: space-between; }
-  footer .push-right {
-    flex-grow: 3; }
+  footer .logo-wrapper #svg-logo {
+    width: 210px; }
+  footer .item {
+    width: 100%; }
   footer .item ul {
     list-style-type: none;
-    margin-right: 3vw;
-    display: block; }
+    padding: .1em 0; }
   footer .centered {
-    align-self: center; }
+    text-align: center; }
   footer .item ul li {
-    display: inline; }
+    display: inline-block;
+    vertical-align: middle;
+    height: 35px;
+    padding: 10px 20px 0 20px; }
   footer .item span {
     margin-left: 5px;
     margin-right: 5px; }
-  footer .item img {
-    height: 10vw;
-    margin-left: 3vw; }
   footer ul li a {
     text-decoration: none;
-    color: #535353; }
+    color: #ffffff;
+    font-weight: 400; }
   footer ul li a:hover {
-    font-weight: bold; }
-  footer .fa {
+    font-weight: 400; }
+  footer a {
     margin-left: 5px;
     margin-right: 5px;
-    color: black; }
-  footer .social {
-    margin-left: -80px; }
+    color: #484848;
+    font-family: "Montserrat", sans-serif;
+    font-size: .8em;
+    font-weight: 300;
+    text-decoration: none; }
+  footer a:hover {
+    font-weight: 400; }
+  footer .fa {
+    font-size: 1.3em; }
+  footer .sm-icons {
+    margin-top: 0.2em; }
+  footer .links {
+    margin-top: 1.3em;
+    margin-bottom: 2em; }
 
 /* ------- Media Queries --------- */
+@media screen and (min-device-width: 501px) and (max-width: 768px) {
+  footer .item ul li {
+    padding: 10px 5px 0 5px; }
+  footer .item ul li a {
+    font-size: .6em; } }
+
 @media screen and (max-width: 500px) {
   footer {
     padding-top: 3rem; }
@@ -49,15 +70,16 @@ footer {
       align-items: center; }
     footer .item {
       padding: 0; }
-    footer .item img {
-      margin-left: 0px;
-      height: 13vw; }
     footer .item ul {
       margin-right: 0px;
-      padding: 0; }
-    footer .item span {
-      display: none; }
-    footer .push-right {
-      display: hide; }
-    footer .social {
-      margin-left: 0px; } }
+      padding: 20px 0 0 0; }
+    footer .item ul li {
+      display: block;
+      padding: 0;
+      height: auto; }
+    footer .nav-title.active-nav:after, footer .nav-title:hover:after {
+      background: none !important; }
+    footer .item ul li a:hover {
+      font-weight: 700; }
+    footer .item ul li a {
+      font-size: .8em; } }
