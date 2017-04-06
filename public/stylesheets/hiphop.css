@@ -23,27 +23,27 @@
   right: 3%; }
 
 .hiphop-bio {
-  line-height: 1 !important;
+  line-height: 1;
   margin: 8px 12px;
-  font-family: "Roboto", sans-serif !important;
-  font-size: 0.8em !important;
+  font-family: "Roboto", sans-serif;
+  font-size: .8em;
   word-break: break-all;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto; }
 
 .hiphop-year, .hiphop-name {
-  text-align: center !important;
-  font-family: "Montserrat", sans-serif !important;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
   margin: 4px; }
 
 .hiphop-name {
-  font-weight: 500 !important;
+  font-weight: 500;
   margin-top: 15px;
   font-size: 1.2em; }
 
 .hiphop-year {
-  font-weight: 300 !important;
+  font-weight: 300;
   font-size: .8em;
   line-height: 1; }
 

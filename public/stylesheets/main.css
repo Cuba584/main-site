@@ -459,8 +459,6 @@ nav {
     font-family: "Montserrat", sans-serif;
     text-decoration: none; }
 
-/* ----------- 
-
 /*------------------ RESPONSIVE NAV STYLES ---------*/
 @media screen and (min-width: 2400px) {
   nav ul {
