@@ -5,6 +5,13 @@
   justify-content: center;
   margin-top: 0; }
 
+.about .active-nav {
+  margin-top: 3em;
+  margin-bottom: 5em; }
+
+.max-width {
+  max-width: 50%; }
+
 ul {
   margin-top: 15px; }
 
@@ -40,7 +47,12 @@ a:hover, a:focus {
     margin: 0px;
     font-family: "Roboto", sans-serif;
     text-align: left;
-    line-height: 1.4em; }
+    line-height: 1.4em;
+    display: inline-block; }
+  #team-photos .team-info .portfolio {
+    display: inline; }
+  #team-photos .team-info .team-name {
+    display: block; }
   #team-photos .team-info .role {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
@@ -77,6 +89,8 @@ a:hover, a:focus {
   display: block;
   margin: 0px auto;
   max-width: 250px; }
+  #team-photos .team-image-box:hover {
+    cursor: default; }
 
 #team-photos .mix {
   position: relative;
@@ -98,9 +112,11 @@ a:hover, a:focus {
   .about-container p {
     text-align: left; }
 
-#about-title {
-  font-weight: 400;
-  margin: 30px 0px; }
+.about-title {
+  width: inherit; }
+
+#inner-title-box {
+  width: 63%; }
 
 .divider img {
   width: 150px;
@@ -124,6 +140,8 @@ a:hover, a:focus {
     margin-bottom: 0px;
     text-align: left;
     padding-left: 5px; }
+  #special-thanks ul {
+    list-style-type: none; }
 
 .about-cinema-wrapper {
   position: relative;
@@ -143,12 +161,18 @@ a:hover, a:focus {
   .portfolio {
     display: inline; }
   .about-social-icon {
-    display: inline; } }
+    display: inline; }
+  .max-width {
+    max-width: 80%; }
+  #inner-title-box {
+    width: 80%;
+    margin-top: 3%; } }
 
-@media screen and (max-width: 1020px) and (min-width: 2400px) {
+@media screen and (min-width: 2400px) {
   .team-nav ul {
     padding: 15px 20vw 15px 20vw; } }
 
+<<<<<<< HEAD
 @media screen and (max-width: 1020px) and (max-width: 720px) {
   .portfolio {
     display: inline; }
@@ -160,6 +184,9 @@ a:hover, a:focus {
     padding: 15px 20vw 15px 20vw; } }
 
 @media screen and (max-width: 1020px) and (max-width: 720px) and (max-width: 1020px) {
+=======
+@media screen and (max-width: 1020px) {
+>>>>>>> master
   .team-nav ul {
     flex-direction: column;
     max-height: 80px;

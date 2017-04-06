@@ -11,12 +11,8 @@
   <script>
   var currentPage = 'about';
   console.log(currentPage);
-
   var currentNav = '.' + currentPage;
   console.log(currentNav);
-
-
-
   </script>
     <% include ../partials/nav.ejs %>
 <div class="about-cinema-wrapper">
@@ -26,74 +22,41 @@
 
 </video>
 
-
-
-    <div id="title-box" class="center-wrapper">
+    <div id="title-box" class="center-wrapper about-title">
       <div class="about change-bg" id="inner-title-box">
-        <h1><%= espanol ? "About Espanol":"About"%></h1>
+        <h1><%= espanol ? "Sobre Nosotros":"About the Project"%></h1>
       </div>
     </div>
-<<<<<<< HEAD
 
-  <p>
+<section id="about-intro-text" class="container max-width">
+  <div class="row justify-content-center">
+
+  <div class="about">
+
 	<% if (espanol) { %>
-	TO TRANSLATE Students in UNC-Chapel Hill’s School of Media and Journalism are honored to tell the stories of change in Havana, Cuba.
-	<% } else { %>
-	Students in UNC-Chapel Hill’s School of Media and Journalism are honored to tell the stories of change in Havana, Cuba.
-	<% } %>
-  </p>
-=======
-    <p>
-      We are a group of student videographers, web designers and developers, reporters and faculty brought together by a common goal: to share the voices of Cuba’s youth.
-    </p>
+    <p>Somos un grupo de alumnos de camarógrafos, diseñadores y desarrolladores web, periodistas y facultad que tiene el mismo objetivo: compartir las voces de la juventud de Cuba.</p>
+    <p>Somos parte de un proyecto anual de La Escuela de los Medios de Comunicación y Periodismo de UNC-Chapel Hill. En los proyectos pasados, alumnos han reportado en los cinco continentes y han producido trabajo premiado. Como estudiantes, estamos aprendiendo los beneficios y desafíos de informar sobre culturas distintas; como periodistas, estamos trabajando juntos a contar las historias que forman el mundo.</p>
+    <p>El muerto de Fidel Castro y la normalización de las relaciones con los Estados Unidos han fomentado una apertura que Cuba no ha visto durante muchas décadas. Esta ola de cambio está adelantando el país, y mientras la población crece, es la juventud de Cuba que determinará el futuro de la nación como encuentra su lugar en el escenario global. Le traemos sus historias.</p>
+  	<% } else { %>
+      <p>We are a group of student videographers, web designers and developers, reporters and faculty brought together by a common goal: to share the voices of Cuba’s youth.</p>
+      <p>We are a part of an annual project by UNC-Chapel Hill’s School of Media and Journalism. In past projects, students have reported across five continents and produced award-winning multimedia work. As students, we’re learning the rewards and challenges of reporting on different cultures; as journalists, we are working as a team to tell the stories that are shaping the globe.</p>
+      <p>Fidel Castro’s death and normalizing relations with the United States have fostered an openness that Cuba hasn’t seen in decades. This wave of change is overtaking the country, and while the population is aging, it is the young Cubans who will determine the nation’s future as it finds its place on the global stage. We bring you their stories.</p>
+    <% } %>
+	</div>
 
->>>>>>> ef131a3c491c0172f9ae17060968de42b6d12c2c
 
-  <div class="divider">
-    <img alt="Logo" src="/assets/584_logo_plain.png">
-    <h3><%= espanol ? "The Project Espanol":"The Project"%></h3>
-  </div>
+</div><!-- end row-->
 
-  <p class="about">
-<<<<<<< HEAD
-	<% if (espanol) { %>
-	Ei vix wisi necessitatibus, at pri dicit appellantur. Quod suas deterruisset has an. Ut vidit essent nostro est, ex est exerci commune accusamus, ei alii graeco noluisse eam. Mei equidem adipiscing definitionem ne, cu vis melius vituperata.	
-	<% } else { %>
-	Ei vix wisi necessitatibus, at pri dicit appellantur. Quod suas deterruisset has an. Ut vidit essent nostro est, ex est exerci commune accusamus, ei alii graeco noluisse eam. Mei equidem adipiscing definitionem ne, cu vis melius vituperata.
-  	<% } %> 
-	</p>
-
-  <p class="about">
- 	<% if (espanol) { %>
-	Mei eu dico doming inermis, qui cu minimum platonem. Quod alii iudicabit pro eu, probo propriae erroribus te nec, eos te essent detracto invidunt. Postea invidunt appellantur eum eu. Ei noster delectus necessitatibus cum. Vim habeo dicunt te, et dolorum postulant mel. Et sea errem quidam.
-	<% } else { %>
-	Mei eu dico doming inermis, qui cu minimum platonem. Quod alii iudicabit pro eu, probo propriae erroribus te nec, eos te essent detracto invidunt. Postea invidunt appellantur eum eu. Ei noster delectus necessitatibus cum. Vim habeo dicunt te, et dolorum postulant mel. Et sea errem quidam.
-  	<% } %>   
-	</p>
-=======
-    We are a part of an annual project by UNC-Chapel Hill’s School of Media and Journalism. In past projects, students have reported across five continents and produced award-winning multimedia work. As students, we’re learning the rewards and challenges of reporting on different cultures; as journalists, we are working as a team to tell the stories that are shaping the globe.
-  </p>
-
-  <p class="about">
-    Fidel Castro’s death and normalizing relations with the United States have fostered an openness that Cuba hasn’t seen in decades. This wave of change is overtaking the country, and while the population is aging, it is the young Cubans who will determine the nation’s future as it finds its place on the global stage. We bring you their stories.
-  </p>
->>>>>>> ef131a3c491c0172f9ae17060968de42b6d12c2c
-
-  <div class="divider">
-    <img alt="Logo" src="/assets/584_logo_plain.png">
-    <h3><%= espanol ? "The Team Espanol":"The Team"%></h3>
-  </div>
-
-</div> <!--end container -->
+</section> <!--end container -->
 
   <div class="team-nav">
     <ul>
-      <li data-filter="all" class="active"><%= espanol ? "Everyone Espanol":"Everyone"%></li>
-      <li data-filter=".vid"><%= espanol ? "Videographer Espanol":"Videographer"%></li>
-      <li data-filter=".rep"><%= espanol ? "Reporter Espanol":"Reporter"%></li>
-      <li data-filter=".des"><%= espanol ? "Designer Espanol":"Designer"%></li>
-      <li data-filter=".dev"><%= espanol ? "Developer Espanol":"Developer"%></li>
-      <li data-filter=".coach"><%= espanol ? "Coach Espanol":"Coach"%></li>
+      <li data-filter="all" class="active"><%= espanol ? "Todos":"Everyone"%></li>
+      <li data-filter=".vid"><%= espanol ? "Videógrafa/o":"Videographer"%></li>
+      <li data-filter=".rep"><%= espanol ? "Periodista":"Reporter"%></li>
+      <li data-filter=".des"><%= espanol ? "Diseñadora":"Designer"%></li>
+      <li data-filter=".dev"><%= espanol ? "Desarrollador/a":"Developer"%></li>
+      <li data-filter=".coach"><%= espanol ? "Instructor":"Coach"%></li>
     </ul>
   </div>
 
@@ -105,21 +68,30 @@
     <% for (i in team) {  %>
         <div class="mix col-xs-12 col-sm-6 col-lg-4 col-xs-3 <%=team[i]["roleid"] %>">
           <div class="team-image-box">
-            <p class="bio"><%=team[i]["bio"] %> </p>
+            <p class="bio">
+              <%= espanol ? team[i]["biospanish"]:team[i]["bio"] %> </p>
             <img alt="<%=team[i]["fullname"]%>" src="/assets/images/team/edited/<%=team[i]["firstname"]%>.jpg">
           </div>
           <div class="team-info">
-            <p class="role"><%=team[i]["role"] %></p>
+            <p class="role"><%=espanol ? team[i]["rolespanish"]:team[i]["role"] %></p>
             <p class="team-name"><%=team[i]["fullname"]%> </p>
             <% if ( team[i]["portfolio"]){ %>
-            <p class="portfolio"><a href="<%=team[i]["portfolio"]%>"><%= espanol ? "Portfolio Espanol":"Portfolio"%></a></p>
+            <p class="portfolio">
+              <a href="<%=team[i]["portfolio"]%>" target="_blank"><%= espanol ? "Portfolio":"Portfolio" %></a>
+            </p>
+            <% if (team[i]["portfolio"] && team[i]["socialid"]){ %>
+            <span> | </span>
+            <% } %>
             <% } else { }%>
             <% if (team[i]["socialid"]){ %>
-              <span> | </span>
-              <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["social"]%>"><i class="fa fa-<%= team[i]["socialid"] %>" aria-hidden="true"></i></a>
-        
+              <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["social"]%>" target="_blank">
+                <!-- <i class="fa fa-<%= team[i]["socialid"] %>" aria-hidden="true"></i> -->
+                <p>@<%= team[i]["handle"]%></p>
+              </a>
+              <!-- <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["social"]%>" target="_blank">
+                <i class="fa fa-<%= team[i]["socialid"] %>" aria-hidden="true"></i>
+              </a> -->
             <% } else { }%>
-
           </div>
         </div>
         <% } %>
@@ -129,16 +101,28 @@
   <div id="special-thanks">
     <div class="about-container">
  	<% if (espanol) { %>
-	<h3>Special Thanks Espanol</h3>
-    <p>Pro eu omnes tollit, fugit fastidii contentiones his no. Vidit phaedrum inimicus pri no. Illud porro cotidieque pri no. Sint inermis accusam eum in, nostro bonorum no cum, mea ei labore maluisset. An decore erroribus per. Nec id nominavi molestie, dolorem percipit intellegam cu vis.
-    </p>	
+	<h3>Gracias Especiales</h3>
 	<% } else { %>
 	<h3>Special Thanks</h3>
-    <p>Pro eu omnes tollit, fugit fastidii contentiones his no. Vidit phaedrum inimicus pri no. Illud porro cotidieque pri no. Sint inermis accusam eum in, nostro bonorum no cum, mea ei labore maluisset. An decore erroribus per. Nec id nominavi molestie, dolorem percipit intellegam cu vis.
-    </p>
-  	<% } %>   
+  	<% } %>
+    <ul>
+      <div class="row">
+      <div class="col-xs-12 col-sm-6 col-lg-6 col-xs-3">
+        <li>Kammy Liu, Developer</li>
+        <li>Kammy Liu, Developer</li>
+        <li>Kammy Liu, Developer</li>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-6 col-xs-3">
+        <li>Kammy Liu, Developer</li>
+        <li>Kammy Liu, Developer</li>
+      </div>
+    </ul>
+
     </div>
   </div>
+  </div>
+
+</div>
 
     <% include ../partials/footer.ejs %>
 	<script src="/js/tether.min.js"></script>

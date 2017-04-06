@@ -4,20 +4,18 @@
   <% include ../partials/header.ejs %>
   <script>
   var currentPage = "<%= page %>";
-  console.log(currentPage)
   var currentNav = '.' + currentPage.substring(7);
-  console.log(currentNav);
-
   var mobileNav = ".overlay-content ." + currentPage.substring(7);
-  console.log(mobileNav);
 
   </script>
 </head>
 
 <body>
-    <%  include ../partials/nav.ejs %>
-  	<% include ../partials/article.ejs %>
-    <% include ../partials/photo-gallery.ejs %>
-  	<%  include ../partials/footer.ejs %>
+
+	<%  include ../partials/nav.ejs %>
+	<% include ../partials/article.ejs %>
+	<%  include ../partials/footer.ejs %>
+  <script type="text/javascript" src="/js/inner.js"></script>
+>>>>>>> master
 </body>
 </html>

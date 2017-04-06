@@ -10,8 +10,10 @@ $(".poem").hide();
 
 $(".expand-collapse").click(function(){
   $(".poem").toggle();
-  $(this).html("<i class='fa fa-chevron-up'></i> Hide the poem");
 
+$(this).html(function(i, v) {
+  return v === '<i class="fa fa-chevron-up"></i> Hide the poem' ? '<i class="fa fa-chevron-down"></i> Read the poem' : '<i class="fa fa-chevron-up"></i> Hide the poem'
+})
 
   for (var i in sectionId){
     console.log('for...');

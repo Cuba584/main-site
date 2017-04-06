@@ -11,9 +11,12 @@ further down on the page or in any of the other .SCSS files.
             &.subhead{
               color: nth($i, 2);
             }
-            // &.overlay-item::first-letter{
-            //   color: nth($i, 2);
-            // }
+            &.overlay-item::first-letter{
+              color: nth($i, 2);
+            }
+            &.interactive{
+              color: nth($i, 2);
+            }
             &.change-bg{
               background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
               background-size:cover;
@@ -380,21 +383,24 @@ nav {
 
 /*------------------INTERACTIVE STYLES ---------*/
 .interactive-wrapper {
-  width:70%;
+  width:80%;
   border-top:1px $dark-gray solid;
   border-bottom:1px $dark-gray solid;
-  text-align: center;
   margin:1.4em auto;
   padding: 1.4em 0;
   overflow:hidden;
+}
+
+.interactive-wrapper-intro{
+  text-align: center;
   h1 {
     margin:0;
+    font-size: 3.7em;
     }
   h2 {
     font-weight:200;
     font-size:1.5em;
     margin-top:10px;
-    color:$blue;
     }
     p {
       font-family:'Roboto', sans-serif;
@@ -405,11 +411,8 @@ nav {
     .expand-collapse {
       text-align:left;
       cursor: pointer;
-       a {
-         font-family: "Montserrat", sans-serif;
-         text-decoration: none;
-         color: $blue;
-       }
+      font-family: "Montserrat", sans-serif;
+      text-decoration: none;
     }
 }
 
@@ -504,7 +507,6 @@ nav {
       display: block;
       float: right;
       height: 35px;
-      margin-top: 2em;
       width: 35px;
 
       #nav-container {
@@ -513,7 +515,7 @@ nav {
           width: 29px;
           height: 3px;
           margin: 6px 0;
-          background: black;
+          background: #484848;
           transition: 0.4s;
         }
       }
@@ -550,6 +552,18 @@ nav {
 
     nav{
       height:50px;
+
+      .label-toggle {
+        height: 33px;
+        width: 0px;
+        #nav-container {
+          .bar1, .bar2, .bar3 {
+            height: 2px;
+            width: 24px;
+            margin: 0 0 5px 0;
+          }
+        }
+      }
 
       .wrapper{
         width:90vw;

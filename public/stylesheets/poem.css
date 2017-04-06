@@ -7,13 +7,13 @@
   .interactive-wrapper .poem-hide{
     cursor: pointer;
   }
-  .interactive-wrapper p {
+  #poem-wrapper p {
     line-height: 1.3;
-    font-family: 'Montserrat', sans-serif;}
-  .interactive-wrapper img {
+  }
+  #poem-wrapper img {
     width: 25vw;
     margin-right: 10%; }
-  .interactive-wrapper .title {
+  #poem-wrapper .title {
     text-align: center;
   color: #6EA5C2;
   font-size: 1.2; }
@@ -59,20 +59,20 @@
 
 @media screen and (max-width: 720px){
 
-  .interactive-wrapper{
+  #poem-wrapper{
     width: 100%;
   }
-  .interactive-wrapper .poem-row{
+  #poem-wrapper .poem-row{
     flex-direction: column;
   }
-  .interactive-wrapper .title{
+  #poem-wrapper .title{
     font-size: 0.5em;
   }
-  .interactive-wrapper img{
+  #poem-wrapper img{
     width: 100%;
   }
 
-  .interactive-wrapper #section-0, .interactive-wrapper #section-1, .interactive-wrapper #section-2, .interactive-wrapper #section-3, .interactive-wrapper #section-4, .interactive-wrapper #section-5, .interactive-wrapper #section-6 {
+  #poem-wrapper #section-0, #poem-wrapper #section-1, #poem-wrapper #section-2, #poem-wrapper #section-3, #poem-wrapper #section-4, #poem-wrapper #section-5, #poem-wrapper #section-6 {
     margin-top: 3%;
     width: 90%;
     font-size: 0.8;

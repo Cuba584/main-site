@@ -2,16 +2,17 @@
 <html lang="<%= espanol ? "es":"en" %>">
 <head>
   <% include ../partials/header.ejs %>
+  <% var URL_LANG = espanol ? "?lang=es":"";  %>
 </head>
 
 <body>
   <script>
   var currentPage = '';
+  var currentNav = '';
+  var mobileNav = ".overlay-content";
   </script>
+  <% include ../partials/nav.ejs %>
   <div id="index-container">
-
-    <% include ../partials/nav.ejs %>
-
     <div id="bottom-box">
 
         <video id="home-video" muted data-autoplay autoplay onended="showReplay()">
@@ -31,41 +32,61 @@
 
   <div id="mobile-container">
 
-    <% include ../partials/nav.ejs %>
+    <div id="intro-box">
+      <img alt="Cuba's New Wave" src="/assets/images/intro.png">
+    </div>
+    <div id="intro-text-box">
+      <div id="intro-line"></div>
+    <p id="intro-text">
+      <% if (espanol) { %>
+      TO TRANSLATE Cuba's youth are bringing in a wave of change. Join us as we journey through Havana through their eyes.
+      <% } else { %>
+      Waves of social, economic and political change are rippling across Cuba. Now, all that is certain about the nation’s future is who will determine it: <br>the youth.        		<% } %>
+      </p>
+</div>
 
-    <div id="logo-box">
-      <img alt="logo" src="/assets/images/584_logo_white.png">
-      <div id="info">
-      <p>
-	  	<% if (espanol) { %>
-		TO TRANSLATE Cuba's youth are bringing in a wave of change. Join us as we journey through Havana through their eyes.
-		<% } else { %>
-		Cuba's youth are bringing in a wave of change. Join us as we journey through Havana through their eyes.
-		<% } %>
-	  </p>
+    <div class="photo-box" id="family-box">
+      <a href="/pages/family<%=URL_LANG%>">
+      <div class="overlay-black">
+        <h3>A New Understanding</h3>
+        <p>The elderly give way to youth who are shaping the future</p>
+      </div></a>
+
     </div>
+    <div class="photo-box" id="harbor-box">
+      <a href="/pages/harbor<%=URL_LANG%>">
+      <div class="overlay-black">
+        <h3>Damian y Dorian</h3>
+        <p>Exploring freedom through a non-traditional sport</p>
+      </div></a>
     </div>
-    <div id="links-box">
-      <div class="mobile-link" id="entre-link">
-        <a><p><%= espanol ? "Darien Espanol":"Darien and Damien" %></p></a>
-      </div>
-      <div class="mobile-link" id="skate-link">
-        <a><p><%= espanol ? "Skate Espanol":"Skate Libre" %></p></a>
-      </div>
-      <div class="mobile-link" id="arts-link">
-        <a><p><%= espanol ? "Rap Espanol":"Agency of Rap" %></p></a>
-      </div>
-      <div class="mobile-link" id="harbor-link">
-        <a><p><%= espanol ? "Harbor Espanol":"Across the Harbor" %></p></a>
-      </div>
-      <div class="mobile-link" id="aging-link">
-        <a><p><%= espanol ? "Society Espanol":"Aging Society" %></p></a>
-      </div>
+    <div class="photo-box" id="dorian-box">
+      <a href="/pages/dorian<%=URL_LANG%>">
+      <div class="overlay-black">
+        <h3>Across the Harbor</h3>
+        <p>Trendsetting brothers cut a new path</p>
+      </div></a>
     </div>
+    <div class="photo-box" id="hiphop-box">
+      <a href="/pages/hiphop<%=URL_LANG%>">
+      <div class="overlay-black">
+        <h3>The Agency of Rap</h3>
+        <p>Social issues are front and center</p>
+      </div></a>
+    </div>
+    <div class="photo-box" id="skate-box">
+      <a href="/pages/skate<%=URL_LANG%>">
+      <div class="overlay-black">
+        <h3>Skate Libre</h3>
+        <p>Exploring freedom through a non-traditional sport</p>
+      </div></a>
+    </div>
+
 
   </div>
 
 
 
+  <script type="text/javascript" src="/js/index.js"></script>
 </body>
 </html>

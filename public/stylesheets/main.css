@@ -7,6 +7,15 @@ further down on the page or in any of the other .SCSS files.
 .hiphop.subhead {
   color: #F1861B; }
 
+<<<<<<< HEAD
+=======
+.hiphop.overlay-item::first-letter {
+  color: #F1861B; }
+
+.hiphop.interactive {
+  color: #F1861B; }
+
+>>>>>>> master
 .hiphop.change-bg {
   background: url("textures/hiphop.JPG") no-repeat;
   background-size: cover;
@@ -41,6 +50,15 @@ further down on the page or in any of the other .SCSS files.
 .dorian.subhead {
   color: #9BD5BB; }
 
+<<<<<<< HEAD
+=======
+.dorian.overlay-item::first-letter {
+  color: #9BD5BB; }
+
+.dorian.interactive {
+  color: #9BD5BB; }
+
+>>>>>>> master
 .dorian.change-bg {
   background: url("textures/dorian.JPG") no-repeat;
   background-size: cover;
@@ -75,6 +93,15 @@ further down on the page or in any of the other .SCSS files.
 .skate.subhead {
   color: #A089CE; }
 
+<<<<<<< HEAD
+=======
+.skate.overlay-item::first-letter {
+  color: #A089CE; }
+
+.skate.interactive {
+  color: #A089CE; }
+
+>>>>>>> master
 .skate.change-bg {
   background: url("textures/skate.JPG") no-repeat;
   background-size: cover;
@@ -109,6 +136,15 @@ further down on the page or in any of the other .SCSS files.
 .family.subhead {
   color: #F0BD53; }
 
+<<<<<<< HEAD
+=======
+.family.overlay-item::first-letter {
+  color: #F0BD53; }
+
+.family.interactive {
+  color: #F0BD53; }
+
+>>>>>>> master
 .family.change-bg {
   background: url("textures/family.JPG") no-repeat;
   background-size: cover;
@@ -143,6 +179,15 @@ further down on the page or in any of the other .SCSS files.
 .harbor.subhead {
   color: #6EA5C2; }
 
+<<<<<<< HEAD
+=======
+.harbor.overlay-item::first-letter {
+  color: #6EA5C2; }
+
+.harbor.interactive {
+  color: #6EA5C2; }
+
+>>>>>>> master
 .harbor.change-bg {
   background: url("textures/harbor.JPG") no-repeat;
   background-size: cover;
@@ -177,6 +222,15 @@ further down on the page or in any of the other .SCSS files.
 .about.subhead {
   color: #997A65; }
 
+<<<<<<< HEAD
+=======
+.about.overlay-item::first-letter {
+  color: #997A65; }
+
+.about.interactive {
+  color: #997A65; }
+
+>>>>>>> master
 .about.change-bg {
   background: url("textures/about.JPG") no-repeat;
   background-size: cover;
@@ -414,6 +468,7 @@ nav {
 
 /*------------------INTERACTIVE STYLES ---------*/
 .interactive-wrapper {
+<<<<<<< HEAD
   width: 70%;
   border-top: 1px #696969 solid;
   border-bottom: 1px #696969 solid;
@@ -429,10 +484,30 @@ nav {
     margin-top: 10px;
     color: #6EA5C2; }
   .interactive-wrapper p {
+=======
+  width: 80%;
+  border-top: 1px #696969 solid;
+  border-bottom: 1px #696969 solid;
+  margin: 1.4em auto;
+  padding: 1.4em 0;
+  overflow: hidden; }
+
+.interactive-wrapper-intro {
+  text-align: center; }
+  .interactive-wrapper-intro h1 {
+    margin: 0;
+    font-size: 3.7em; }
+  .interactive-wrapper-intro h2 {
+    font-weight: 200;
+    font-size: 1.5em;
+    margin-top: 10px; }
+  .interactive-wrapper-intro p {
+>>>>>>> master
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     font-weight: 400;
     text-align: left; }
+<<<<<<< HEAD
   .interactive-wrapper .expand-collapse {
     text-align: left;
     cursor: pointer; }
@@ -440,6 +515,13 @@ nav {
       font-family: "Montserrat", sans-serif;
       text-decoration: none;
       color: #6EA5C2; }
+=======
+  .interactive-wrapper-intro .expand-collapse {
+    text-align: left;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none; }
+>>>>>>> master
 
 /*------------------ RESPONSIVE NAV STYLES ---------*/
 @media screen and (min-width: 2400px) {
@@ -486,7 +568,6 @@ nav {
     display: block;
     float: right;
     height: 35px;
-    margin-top: 2em;
     width: 35px; }
     nav .label-toggle #nav-container {
       display: inline-block; }
@@ -494,7 +575,7 @@ nav {
         width: 29px;
         height: 3px;
         margin: 6px 0;
-        background: black;
+        background: #484848;
         transition: 0.4s; }
     nav .label-toggle .change .bar1 {
       -webkit-transform: rotate(-45deg) translate(-9px, 6px);
@@ -512,6 +593,13 @@ nav {
 @media screen and (max-width: 570px) {
   nav {
     height: 50px; }
+    nav .label-toggle {
+      height: 33px;
+      width: 0px; }
+      nav .label-toggle #nav-container .bar1, nav .label-toggle #nav-container .bar2, nav .label-toggle #nav-container .bar3 {
+        height: 2px;
+        width: 24px;
+        margin: 0 0 5px 0; }
     nav .wrapper {
       width: 90vw;
       align-items: flex-end;

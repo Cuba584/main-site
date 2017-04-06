@@ -281,6 +281,12 @@
     {
       "type": "text",
       "value": "Two artists, bound by blood and matching house keys, pressing onward under the open sky."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/timeline.ejs"
+      }
     }
   ]
 }
