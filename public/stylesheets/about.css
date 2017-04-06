@@ -170,7 +170,17 @@ a:hover, a:focus {
   .team-nav ul {
     padding: 15px 20vw 15px 20vw; } }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 720px) {
+  .portfolio {
+    display: inline; }
+  .about-social-icon {
+    display: inline; } }
+
+@media screen and (max-width: 720px) and (min-width: 2400px) {
+  .team-nav ul {
+    padding: 15px 20vw 15px 20vw; } }
+
+@media screen and (max-width: 720px) and (max-width: 1020px) {
   .team-nav ul {
     flex-direction: column;
     max-height: 80px;

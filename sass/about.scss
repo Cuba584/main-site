@@ -237,8 +237,28 @@ a:hover, a:focus {
   }
 }
 
-@include media("screen", "<=md") {
 
+@media screen and (max-width: 720px) {
+
+
+.portfolio{
+  display:inline;
+}
+
+.about-social-icon{
+  display:inline;
+}
+
+@include media("screen", ">=xl"){
+  .team-nav{
+    ul{
+      padding:15px 20vw 15px 20vw;
+    }
+  }
+}
+
+
+@include media("screen", "<=md") {
   .team-nav {
     ul{
       flex-direction: column;
@@ -264,4 +284,5 @@ a:hover, a:focus {
       text-align: left;
     }
   }
+}
 }
