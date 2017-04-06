@@ -132,6 +132,10 @@
       "value": "“We were born in a humble house, in a humble neighborhood. But before the revolution, the 50s, our family was proprietary of a type of business called “De Barrio.” It was a cafeteria named El Buen Gusto,” said Damian."
     },
     {
+      "type": "slider",
+      "value": {}
+    },
+    {
       "type": "text",
       "value": "The family lost their business after the revolution triumphed and privately owned businesses were nationalized. But Damian said his family has always had an entrepreneurial spirit, something he’s determined to keep alive with the expansion of Donde Dorian."
     },
@@ -146,6 +150,20 @@
     {
       "type": "text",
       "value": "Dorian reminisces about how days attending barber school and said his line is also meant to start new conversations within the Cuban culture about masculinity as well. When he first became a hairdresser, Dorian was ashamed of it because it wasn’t something men did. He said haircutting and fashions always caught his attention as he attended university and he wants to reimagine style for men in Cuba today so that they can take pride in how they look."
+    }
+  ],
+  "slider-images": [
+    {
+      "src": "HopHop_sl_01.jpg",
+      "alt": "Reyna in the studio",
+      "attribution": "Anna Clare Spelman",
+      "caption": "Renya Mercedes Hernadez Sandoval (La Reyna) rehearses in the studio located in her Moisés Whittaker Alvarez’ house."
+    },
+    {
+      "src": "HopHop_sl_10.jpg",
+      "alt": "Dark room under construction",
+      "attribution": "Kira Dalman",
+      "caption": "La Rayna and La Real are represented by The Agency of Rap. The main office space is under construction to create a space for artists to perform. The Agency represents 34 artists, 6 of which are women."
     }
   ]
 }
