@@ -189,7 +189,6 @@ nav {
   font-family: $montserrat;
   font-size:.93em;
   letter-spacing: .03em;
-  padding: 5px 0 3px 0;
   transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
@@ -220,6 +219,7 @@ nav {
     width:100%;
     align-items: center;
     display: flex;
+    padding: 5px 0 3px 0;
     justify-content: space-between;
     background: transparent;
   }

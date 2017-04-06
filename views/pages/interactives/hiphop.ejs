@@ -1,14 +1,14 @@
 <div class="interactive-wrapper">
   <div class="interactive-wrapper-intro">
   <h1>The Queens of Cuban Music</h5>
-  <p>While non-traditional genres of music are emerging in Cuba, it is important to never forget the roots. The five women below have
-  helped pave the way for current female artists in Cuba. Hover over each woman to learn more about the mark they left on music history.  </p>
+  <p id="hiphop-instructions">While non-traditional genres of music are emerging in Cuba, it is important to never forget the roots. The five women below have
+  helped pave the way for current female artists in Cuba. <span id="mobile-instructions"><span id="desktop-instructions">Hover over</span></span> each woman's picture to learn more about the mark they left on music history.  </p>
 </div>
 <div id="hiphop-wrap">
-  <div class="hiphop-panel" id="hiphop1">
+  <div class="hiphop-panel">
     <div class="hiphop-card">
-      <div class="hiphop-info">
-        <img src="/assets/images/hiphop-aida.jpg">
+      <div class="hiphop-info" id="hiphop1">
+        <img src="/assets/images/hiphop-gloria.png">
       </div>
       <div class="hiphop-text">
         <p class="hiphop-name">Aida Diestro</p>
@@ -20,10 +20,10 @@
       </div>
     </div>
   </div>
-  <div class="hiphop-panel" id="hiphop2">
+  <div class="hiphop-panel">
     <div class="hiphop-card">
-      <div class="hiphop-info">
-        <img src="/assets/images/hiphop-rosita.jpg">
+      <div class="hiphop-info" id="hiphop2">
+        <img src="/assets/images/hiphop-rosita.png">
       </div>
       <div class="hiphop-text">
         <p class="hiphop-name">Rosita Fornes</p>
@@ -33,10 +33,10 @@
       </div>
     </div>
   </div>
-  <div class="hiphop-panel" id="hiphop3">
+  <div class="hiphop-panel">
     <div class="hiphop-card">
-      <div class="hiphop-info">
-        <img src="/assets/images/hiphop-lupe.jpg">
+      <div class="hiphop-info" id="hiphop3">
+        <img src="/assets/images/hiphop-lupe.png">
       </div>
       <div class="hiphop-text">
         <p class="hiphop-name">Lupe Raymond</p>
@@ -46,10 +46,10 @@
       </div>
     </div>
   </div>
-  <div class="hiphop-panel" id="hiphop4">
+  <div class="hiphop-panel">
     <div class="hiphop-card">
-      <div class="hiphop-info">
-        <img src="/assets/images/interactive/IMG_5705.jpg">
+      <div class="hiphop-info"  id="hiphop4">
+        <img src="/assets/images/hiphop-celia.png">
       </div>
     <div class="hiphop-text">
       <p class="hiphop-name">Celia Cruz</p>
@@ -59,10 +59,10 @@
     </div>
   </div>
 </div>
-  <div class="hiphop-panel" id="hiphop5">
+  <div class="hiphop-panel">
     <div class="hiphop-card">
-      <div class="hiphop-info">
-        <img src="/assets/images/hiphop-liuba.jpg">
+      <div class="hiphop-info"  id="hiphop5">
+        <img src="/assets/images/hiphop-omara.png">
       </div>
       <div class="hiphop-text">
         <p class="hiphop-name">Lioba Maria Hevia</p>
@@ -79,9 +79,13 @@
 
 
 <div id="hiphop-wrap-mobile">
-  <div class="hiphop-panel" id="hiphop1">
-    <div class="hiphop-card">
-      <div class="hiphop-info">
+  <button id="hiphop-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+  <button id="hiphop-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+  <ul id="hiphop-ul">
+  <li class="hiphop-mobile-li">
+  <div class="hiphop-panel">
+    <div class="hiphop-card hiphop-card-mobile">
+      <div class="hiphop-info"  id="hiphop1">
         <img src="/assets/images/hiphop-aida.jpg">
       </div>
       <div class="hiphop-text">
@@ -94,9 +98,11 @@
       </div>
     </div>
   </div>
-  <div class="hiphop-panel" id="hiphop2">
-    <div class="hiphop-card">
-      <div class="hiphop-info">
+</li>
+  <li class="hiphop-mobile-li">
+  <div class="hiphop-panel">
+    <div class="hiphop-card hiphop-card-mobile">
+      <div class="hiphop-info" id="hiphop2">
         <img src="/assets/images/hiphop-rosita.jpg">
       </div>
       <div class="hiphop-text">
@@ -107,9 +113,11 @@
       </div>
     </div>
   </div>
-  <div class="hiphop-panel" id="hiphop3">
-    <div class="hiphop-card">
-      <div class="hiphop-info">
+</li>
+  <li class="hiphop-mobile-li">
+  <div class="hiphop-panel">
+    <div class="hiphop-card hiphop-card-mobile">
+      <div class="hiphop-info" id="hiphop3">
         <img src="/assets/images/hiphop-lupe.jpg">
       </div>
       <div class="hiphop-text">
@@ -120,9 +128,11 @@
       </div>
     </div>
   </div>
-  <div class="hiphop-panel" id="hiphop4">
-    <div class="hiphop-card">
-      <div class="hiphop-info">
+</li>
+  <li class="hiphop-mobile-li">
+  <div class="hiphop-panel">
+    <div class="hiphop-card hiphop-card-mobile">
+      <div class="hiphop-info" id="hiphop4">
         <img src="/assets/images/interactive/IMG_5705.jpg">
       </div>
     <div class="hiphop-text">
@@ -133,9 +143,11 @@
     </div>
   </div>
 </div>
-  <div class="hiphop-panel" id="hiphop5">
-    <div class="hiphop-card">
-      <div class="hiphop-info">
+</li>
+<li class="hiphop-mobile-li">
+  <div class="hiphop-panel">
+    <div class="hiphop-card hiphop-card-mobile">
+      <div class="hiphop-info"  id="hiphop5">
         <img src="/assets/images/hiphop-liuba.jpg">
       </div>
       <div class="hiphop-text">
@@ -147,6 +159,8 @@
       </div>
     </div>
   </div>
+</li>
+</ul>
 </div>
 
 
