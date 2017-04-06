@@ -11,7 +11,6 @@
   <script>
   var currentPage = 'about';
   console.log(currentPage);
-
   var currentNav = '.' + currentPage;
   console.log(currentNav);
   </script>
@@ -36,18 +35,12 @@
 
 	<% if (espanol) { %>
     <p>Somos un grupo de alumnos de camarógrafos, diseñadores y desarrolladores web, periodistas y facultad que tiene el mismo objetivo: compartir las voces de la juventud de Cuba.</p>
-
     <p>Somos parte de un proyecto anual de La Escuela de los Medios de Comunicación y Periodismo de UNC-Chapel Hill. En los proyectos pasados, alumnos han reportado en los cinco continentes y han producido trabajo premiado. Como estudiantes, estamos aprendiendo los beneficios y desafíos de informar sobre culturas distintas; como periodistas, estamos trabajando juntos a contar las historias que forman el mundo.</p>
-
     <p>El muerto de Fidel Castro y la normalización de las relaciones con los Estados Unidos han fomentado una apertura que Cuba no ha visto durante muchas décadas. Esta ola de cambio está adelantando el país, y mientras la población crece, es la juventud de Cuba que determinará el futuro de la nación como encuentra su lugar en el escenario global. Le traemos sus historias.</p>
-
   	<% } else { %>
       <p>We are a group of student videographers, web designers and developers, reporters and faculty brought together by a common goal: to share the voices of Cuba’s youth.</p>
-
       <p>We are a part of an annual project by UNC-Chapel Hill’s School of Media and Journalism. In past projects, students have reported across five continents and produced award-winning multimedia work. As students, we’re learning the rewards and challenges of reporting on different cultures; as journalists, we are working as a team to tell the stories that are shaping the globe.</p>
-
       <p>Fidel Castro’s death and normalizing relations with the United States have fostered an openness that Cuba hasn’t seen in decades. This wave of change is overtaking the country, and while the population is aging, it is the young Cubans who will determine the nation’s future as it finds its place on the global stage. We bring you their stories.</p>
-
     <% } %>
 	</div>
 
@@ -86,26 +79,19 @@
             <p class="portfolio">
               <a href="<%=team[i]["portfolio"]%>" target="_blank"><%= espanol ? "Portfolio":"Portfolio" %></a>
             </p>
-
             <% if (team[i]["portfolio"] && team[i]["socialid"]){ %>
             <span> | </span>
             <% } %>
             <% } else { }%>
             <% if (team[i]["socialid"]){ %>
-
-
               <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["social"]%>" target="_blank">
                 <!-- <i class="fa fa-<%= team[i]["socialid"] %>" aria-hidden="true"></i> -->
                 <p>@<%= team[i]["handle"]%></p>
               </a>
-
               <!-- <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["social"]%>" target="_blank">
                 <i class="fa fa-<%= team[i]["socialid"] %>" aria-hidden="true"></i>
               </a> -->
-
-
             <% } else { }%>
-
           </div>
         </div>
         <% } %>
@@ -116,11 +102,8 @@
     <div class="about-container">
  	<% if (espanol) { %>
 	<h3>Gracias Especiales</h3>
-
 	<% } else { %>
 	<h3>Special Thanks</h3>
-
-
   	<% } %>
     <ul>
       <div class="row">
