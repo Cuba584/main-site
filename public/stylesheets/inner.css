@@ -103,9 +103,9 @@
 .vimeo-wrapper {
   background-color: #000;
   width: 70%;
-  padding-bottom: 56.25%;
+  padding-bottom: 39.9%;
   position: relative;
-  margin: 0 auto; }
+  margin: 3em auto; }
   .vimeo-wrapper iframe {
     position: absolute;
     width: 100%;
@@ -146,6 +146,8 @@
     margin-top: 30px; }
   .inner .max-width {
     max-width: 80%; }
+  .inner .video-wrapper {
+    width: 100vw !important; }
   .inner iframe {
     width: 100%; }
   .inner .pull-quote-box {
