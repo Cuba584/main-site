@@ -14,9 +14,9 @@ further down on the page or in any of the other .SCSS files.
   color: #F1861B; }
 
 .hiphop.change-bg {
-  background: url("textures/hiphop.JPG") no-repeat;
   background-size: cover;
-  color: #F1861B; }
+  color: #F1861B;
+  background-color: #F1861B; }
 
 .hiphop.nav-title:after {
   content: '';
@@ -54,9 +54,9 @@ further down on the page or in any of the other .SCSS files.
   color: #9BD5BB; }
 
 .dorian.change-bg {
-  background: url("textures/dorian.JPG") no-repeat;
   background-size: cover;
-  color: #9BD5BB; }
+  color: #9BD5BB;
+  background-color: #9BD5BB; }
 
 .dorian.nav-title:after {
   content: '';
@@ -94,9 +94,9 @@ further down on the page or in any of the other .SCSS files.
   color: #A089CE; }
 
 .skate.change-bg {
-  background: url("textures/skate.JPG") no-repeat;
   background-size: cover;
-  color: #A089CE; }
+  color: #A089CE;
+  background-color: #A089CE; }
 
 .skate.nav-title:after {
   content: '';
@@ -134,9 +134,9 @@ further down on the page or in any of the other .SCSS files.
   color: #F0BD53; }
 
 .family.change-bg {
-  background: url("textures/family.JPG") no-repeat;
   background-size: cover;
-  color: #F0BD53; }
+  color: #F0BD53;
+  background-color: #F0BD53; }
 
 .family.nav-title:after {
   content: '';
@@ -174,9 +174,9 @@ further down on the page or in any of the other .SCSS files.
   color: #6EA5C2; }
 
 .harbor.change-bg {
-  background: url("textures/harbor.JPG") no-repeat;
   background-size: cover;
-  color: #6EA5C2; }
+  color: #6EA5C2;
+  background-color: #6EA5C2; }
 
 .harbor.nav-title:after {
   content: '';
@@ -214,9 +214,9 @@ further down on the page or in any of the other .SCSS files.
   color: #997A65; }
 
 .about.change-bg {
-  background: url("textures/about.JPG") no-repeat;
   background-size: cover;
-  color: #997A65; }
+  color: #997A65;
+  background-color: #997A65; }
 
 .about.nav-title:after {
   content: '';
@@ -477,6 +477,8 @@ nav {
     font-family: "Montserrat", sans-serif;
     text-decoration: none; }
 
+/* ----------- 
+
 /*------------------ RESPONSIVE NAV STYLES ---------*/
 @media screen and (min-width: 2400px) {
   nav ul {
@@ -545,6 +547,30 @@ nav {
     width: 200px; } }
 
 @media screen and (max-width: 570px) {
+  .hiphop.change-mobile-bg {
+    background: url("textures/hiphop.JPG") no-repeat;
+    background-size: cover;
+    color: #F1861B; }
+  .dorian.change-mobile-bg {
+    background: url("textures/dorian.JPG") no-repeat;
+    background-size: cover;
+    color: #9BD5BB; }
+  .skate.change-mobile-bg {
+    background: url("textures/skate.JPG") no-repeat;
+    background-size: cover;
+    color: #A089CE; }
+  .family.change-mobile-bg {
+    background: url("textures/family.JPG") no-repeat;
+    background-size: cover;
+    color: #F0BD53; }
+  .harbor.change-mobile-bg {
+    background: url("textures/harbor.JPG") no-repeat;
+    background-size: cover;
+    color: #6EA5C2; }
+  .about.change-mobile-bg {
+    background: url("textures/about.JPG") no-repeat;
+    background-size: cover;
+    color: #997A65; }
   nav {
     height: 50px; }
     nav .label-toggle {
