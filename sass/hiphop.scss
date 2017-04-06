@@ -49,11 +49,13 @@
 .hiphop-name{
   font-weight: 500!important;
   margin-top: 15px;
+  font-size: 1.2em;
 }
 
 .hiphop-year {
   font-weight: 300!important;
   font-size: .8em;
+  line-height: 1;
 }
 
 .hiphop-panel {
@@ -73,7 +75,7 @@
 .hiphop-card {
   height: 100%;
   transform-style: preserve-3d;
-  transition: transform .5s;
+  transition: transform .2s;
     div {
       margin: 0;
       display: block;
@@ -84,7 +86,11 @@
     }
 }
 
-.hiphop-card.flipped {
+.hiphop-card:hover{
+  transform: rotateY( 180deg );
+}
+
+.hiphop-card:flipped {
   transform: rotateY( 180deg );
 }
 
@@ -180,11 +186,6 @@
   .hiphop-year {
     font-size: .75em;
     margin: 2px;
-  }
-  .hiphop-name {
-    font-size: .8em;
-    margin-bottom: 2px;
-    margin-top: 4px;
   }
   .hiphop-text p {
     word-wrap: break-word;
