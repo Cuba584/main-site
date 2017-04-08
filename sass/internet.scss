@@ -40,3 +40,30 @@
     width:400px;
   }
 }
+
+@include media('screen', '<=md'){
+  .internet-graphic{
+    .dropdown-cont{
+      justify-content:flex-end;
+      padding-right:12vw;
+    }
+    .people-cont{
+      // width:400px;
+      justify-content:center;
+      padding:0 30vw 0 30vw;
+    }
+    .people-cont, .title-cont{
+      flex-direction:column;
+    }
+    .country-cont{
+      width:inherit;
+    }
+    h3{
+      width:inherit;
+    }
+
+  }
+
+
+
+}

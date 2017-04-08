@@ -23,3 +23,17 @@
     color: gray; }
   .internet-graphic .country-cont {
     width: 400px; }
+
+@media screen and (max-width: 1020px) {
+  .internet-graphic .dropdown-cont {
+    justify-content: flex-end;
+    padding-right: 12vw; }
+  .internet-graphic .people-cont {
+    justify-content: center;
+    padding: 0 30vw 0 30vw; }
+  .internet-graphic .people-cont, .internet-graphic .title-cont {
+    flex-direction: column; }
+  .internet-graphic .country-cont {
+    width: inherit; }
+  .internet-graphic h3 {
+    width: inherit; } }
