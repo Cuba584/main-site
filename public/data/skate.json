@@ -155,6 +155,12 @@
     {
       "type": "text",
       "value": "A bearded man wearing dark sunglasses sits by El Prado, pulling wheels and metal skateboard parts from a backpack. Local skaters swarm around the foreigner, like a flock of gulls plunging toward a piece of bread left on the sand. They take what they can get and ration the gear among themselves before rolling back down the promenade to attach the new parts or practice a trick. They migrate toward Cristian and the other skaters whose boards are still intact, and the group zigzags toward the center of the city."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/finder.ejs"
+      }
     }
   ]
 }
