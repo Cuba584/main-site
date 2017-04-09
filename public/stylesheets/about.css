@@ -156,31 +156,11 @@ a:hover, a:focus {
   left: 0;
   height: 100%; }
 
-@media screen and (max-width: 1020px) {
-  .portfolio {
-    display: inline; }
-  .about-social-icon {
-    display: inline; }
-  .max-width {
-    max-width: 80%; }
-  .about-cinema-wrapper #cinemagraph {
-    margin-top: 58px; } }
-
 @media screen and (min-width: 2400px) {
   .team-nav ul {
     padding: 15px 20vw 15px 20vw; } }
 
-@media screen and (max-width: 720px) {
-  .portfolio {
-    display: inline; }
-  .about-social-icon {
-    display: inline; } }
-
-@media screen and (max-width: 720px) and (min-width: 2400px) {
-  .team-nav ul {
-    padding: 15px 20vw 15px 20vw; } }
-
-@media screen and (max-width: 720px) and (max-width: 1020px) {
+@media screen and (max-width: 1020px) {
   .team-nav ul {
     flex-direction: column;
     max-height: 80px;
@@ -198,4 +178,16 @@ a:hover, a:focus {
     margin-left: auto;
     margin-right: auto; }
     .about-container p {
-      text-align: left; } }
+      text-align: left; }
+  .portfolio {
+    display: inline; }
+  .about-social-icon {
+    display: inline; }
+  .max-width {
+    max-width: 80%; }
+  .about-cinema-wrapper #cinemagraph {
+    margin-top: 50px; } }
+
+@media screen and (max-width: 570px) {
+  #about-body #nav-container {
+    margin-top: 11px; } }

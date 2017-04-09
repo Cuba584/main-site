@@ -166,7 +166,7 @@
 
 @media screen and (max-width: 570px) {
   .inner #cinemagraph {
-    margin-top: 58px; }
+    margin-top: 50px; }
   .inner figure {
     flex-wrap: wrap;
     margin: 0; }
