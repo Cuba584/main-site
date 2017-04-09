@@ -161,6 +161,66 @@
       "value": {
         "filename": "interactives/finder.ejs"
       }
+    },
+    {
+      "type": "slider",
+      "value": {}
+    }
+  ],
+  "slider-images": [
+    {
+      "src": "skate_sl_01.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "skate_sl_02.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "skate_sl_03.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "skate_sl_04.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "skate_sl_05.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "skate_sl_06.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "skate_sl_07.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "skate_sl_08.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "skate_sl_09.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
     }
   ]
 }
