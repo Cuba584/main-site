@@ -34,7 +34,8 @@ footer {
     color: #ffffff;
     font-weight: 400; }
   footer ul li a:hover {
-    font-weight: 400; }
+    font-weight: 400;
+    color: #fff; }
   footer a {
     margin-left: 5px;
     margin-right: 5px;

@@ -57,9 +57,6 @@
 
 @media screen and (max-width: 720px){
 
-  #poem-wrapper{
-    width: 100%;
-  }
   #poem-wrapper .poem-row{
     flex-direction: column;
   }
@@ -72,8 +69,13 @@
 
   #poem-wrapper #section-0, #poem-wrapper #section-1, #poem-wrapper #section-2, #poem-wrapper #section-3, #poem-wrapper #section-4, #poem-wrapper #section-5, #poem-wrapper #section-6 {
     margin-top: 3%;
-    width: 90%;
+    width: 100%;
     font-size: 0.8;
-    line-height: 0.5;
+    line-height: 1px;
+  }
+
+  .poem p{
+    line-height: 1em;
+    font-size: 13px;
   }
 }

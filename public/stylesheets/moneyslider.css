@@ -68,7 +68,34 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -5%; }
-  #custom-slider button {
-    display: none; }
   .money-slider-section {
     flex-direction: column; } }
+
+@media screen and (max-width: 570px) {
+  .money-slider .money-slider-section {
+    flex-direction: column; }
+  .money-center {
+    order: 1; }
+  .money-right {
+    order: 3; }
+  .money-left {
+    order: 2; }
+  .money-slider-section p, .money-slider-section h3 {
+    display: inline; }
+  hr {
+    display: inline-block;
+    margin: 0 15px;
+    height: 10px; }
+  #custom-slider {
+    height: 50vh;
+    overflow: visible; }
+  #custom-slider button {
+    margin-top: 25%; }
+  #slider-left {
+    left: 20px;
+    margin: 0;
+    z-index: 1000; }
+  #slider-right {
+    right: 20px;
+    margin: 0;
+    z-index: 1000; } }

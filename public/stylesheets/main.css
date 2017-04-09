@@ -7,16 +7,21 @@ further down on the page or in any of the other .SCSS files.
 .hiphop.subhead {
   color: #F1861B; }
 
-.hiphop.overlay-item::first-letter {
-  color: #F1861B; }
-
 .hiphop.interactive {
   color: #F1861B; }
 
 .hiphop.change-bg {
+  background: url("textures/hiphop.JPG") no-repeat;
   background-size: cover;
   color: #F1861B;
   background-color: #F1861B; }
+
+@media screen and (min-width: 1020px) {
+  .hiphop.change-mobile-bg {
+    background: none;
+    background-size: cover;
+    color: #F1861B;
+    background-color: #F1861B; } }
 
 .hiphop.nav-title:after {
   content: '';
@@ -47,16 +52,21 @@ further down on the page or in any of the other .SCSS files.
 .dorian.subhead {
   color: #9BD5BB; }
 
-.dorian.overlay-item::first-letter {
-  color: #9BD5BB; }
-
 .dorian.interactive {
   color: #9BD5BB; }
 
 .dorian.change-bg {
+  background: url("textures/dorian.JPG") no-repeat;
   background-size: cover;
   color: #9BD5BB;
   background-color: #9BD5BB; }
+
+@media screen and (min-width: 1020px) {
+  .dorian.change-mobile-bg {
+    background: none;
+    background-size: cover;
+    color: #9BD5BB;
+    background-color: #9BD5BB; } }
 
 .dorian.nav-title:after {
   content: '';
@@ -87,16 +97,21 @@ further down on the page or in any of the other .SCSS files.
 .skate.subhead {
   color: #A089CE; }
 
-.skate.overlay-item::first-letter {
-  color: #A089CE; }
-
 .skate.interactive {
   color: #A089CE; }
 
 .skate.change-bg {
+  background: url("textures/skate.JPG") no-repeat;
   background-size: cover;
   color: #A089CE;
   background-color: #A089CE; }
+
+@media screen and (min-width: 1020px) {
+  .skate.change-mobile-bg {
+    background: none;
+    background-size: cover;
+    color: #A089CE;
+    background-color: #A089CE; } }
 
 .skate.nav-title:after {
   content: '';
@@ -127,16 +142,21 @@ further down on the page or in any of the other .SCSS files.
 .family.subhead {
   color: #F0BD53; }
 
-.family.overlay-item::first-letter {
-  color: #F0BD53; }
-
 .family.interactive {
   color: #F0BD53; }
 
 .family.change-bg {
+  background: url("textures/family.JPG") no-repeat;
   background-size: cover;
   color: #F0BD53;
   background-color: #F0BD53; }
+
+@media screen and (min-width: 1020px) {
+  .family.change-mobile-bg {
+    background: none;
+    background-size: cover;
+    color: #F0BD53;
+    background-color: #F0BD53; } }
 
 .family.nav-title:after {
   content: '';
@@ -167,16 +187,21 @@ further down on the page or in any of the other .SCSS files.
 .harbor.subhead {
   color: #6EA5C2; }
 
-.harbor.overlay-item::first-letter {
-  color: #6EA5C2; }
-
 .harbor.interactive {
   color: #6EA5C2; }
 
 .harbor.change-bg {
+  background: url("textures/harbor.JPG") no-repeat;
   background-size: cover;
   color: #6EA5C2;
   background-color: #6EA5C2; }
+
+@media screen and (min-width: 1020px) {
+  .harbor.change-mobile-bg {
+    background: none;
+    background-size: cover;
+    color: #6EA5C2;
+    background-color: #6EA5C2; } }
 
 .harbor.nav-title:after {
   content: '';
@@ -207,16 +232,21 @@ further down on the page or in any of the other .SCSS files.
 .about.subhead {
   color: #997A65; }
 
-.about.overlay-item::first-letter {
-  color: #997A65; }
-
 .about.interactive {
   color: #997A65; }
 
 .about.change-bg {
+  background: url("textures/about.JPG") no-repeat;
   background-size: cover;
   color: #997A65;
   background-color: #997A65; }
+
+@media screen and (min-width: 1020px) {
+  .about.change-mobile-bg {
+    background: none;
+    background-size: cover;
+    color: #997A65;
+    background-color: #997A65; } }
 
 .about.nav-title:after {
   content: '';
@@ -324,7 +354,6 @@ nav {
   font-family: "Montserrat", sans-serif;
   font-size: .93em;
   letter-spacing: .03em;
-  padding: 5px 0 3px 0;
   transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear; }
@@ -346,6 +375,7 @@ nav {
     width: 100%;
     align-items: center;
     display: flex;
+    padding: 5px 0 3px 0;
     justify-content: space-between;
     background: transparent; }
   nav .label-toggle {
@@ -477,7 +507,11 @@ nav {
     font-family: "Montserrat", sans-serif;
     text-decoration: none; }
 
-/* ----------- 
+.datasource {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: .8em;
+  text-align: right; }
 
 /*------------------ RESPONSIVE NAV STYLES ---------*/
 @media screen and (min-width: 2400px) {
@@ -546,31 +580,43 @@ nav {
   nav .logo-wrapper #svg-logo {
     width: 200px; } }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 570px) and (min-width: 1020px) {
   .hiphop.change-mobile-bg {
-    background: url("textures/hiphop.JPG") no-repeat;
+    background: none;
     background-size: cover;
-    color: #F1861B; }
+    color: #F1861B; } }
+
+@media screen and (max-width: 570px) and (min-width: 1020px) {
   .dorian.change-mobile-bg {
-    background: url("textures/dorian.JPG") no-repeat;
+    background: none;
     background-size: cover;
-    color: #9BD5BB; }
+    color: #9BD5BB; } }
+
+@media screen and (max-width: 570px) and (min-width: 1020px) {
   .skate.change-mobile-bg {
-    background: url("textures/skate.JPG") no-repeat;
+    background: none;
     background-size: cover;
-    color: #A089CE; }
+    color: #A089CE; } }
+
+@media screen and (max-width: 570px) and (min-width: 1020px) {
   .family.change-mobile-bg {
-    background: url("textures/family.JPG") no-repeat;
+    background: none;
     background-size: cover;
-    color: #F0BD53; }
+    color: #F0BD53; } }
+
+@media screen and (max-width: 570px) and (min-width: 1020px) {
   .harbor.change-mobile-bg {
-    background: url("textures/harbor.JPG") no-repeat;
+    background: none;
     background-size: cover;
-    color: #6EA5C2; }
+    color: #6EA5C2; } }
+
+@media screen and (max-width: 570px) and (min-width: 1020px) {
   .about.change-mobile-bg {
-    background: url("textures/about.JPG") no-repeat;
+    background: none;
     background-size: cover;
-    color: #997A65; }
+    color: #997A65; } }
+
+@media screen and (max-width: 570px) {
   nav {
     height: 50px; }
     nav .label-toggle {
@@ -589,4 +635,19 @@ nav {
       nav .logo-wrapper #svg-logo {
         width: 130px; }
     nav nav .nav-icons {
-      display: none; } }
+      display: none; }
+  .interactive-wrapper {
+    width: 80%;
+    border-top: 1px #696969 solid;
+    border-bottom: 1px #696969 solid;
+    margin: 1.4em auto;
+    padding: 1.4em 0;
+    overflow: hidden; }
+  .interactive-wrapper-intro h1 {
+    font-size: 2.5em; }
+  .interactive-wrapper-intro h2 {
+    font-size: 1.2em;
+    margin-top: 10px; }
+  .interactive-wrapper-intro .expand-collapse {
+    margin-top: 5%;
+    text-align: center; } }

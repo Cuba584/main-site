@@ -11,17 +11,22 @@ further down on the page or in any of the other .SCSS files.
             &.subhead{
               color: nth($i, 2);
             }
-            &.overlay-item::first-letter{
-              color: nth($i, 2);
-            }
             &.interactive{
               color: nth($i, 2);
             }
             &.change-bg{
-              // background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
+              background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
               background-size:cover;
               color: nth($i, 2);
               background-color: nth($i, 2);
+            }
+            @include media("screen", ">=md"){
+              &.change-mobile-bg{
+                    background: none;
+                    background-size:cover;
+                    color: nth($i, 2);
+                    background-color: nth($i, 2);
+                  }
             }
             &.nav-title{
               // border-bottom:3px solid transparent;
@@ -72,11 +77,13 @@ further down on the page or in any of the other .SCSS files.
 @mixin config-page-background($colors...) {
     @each $i in $colors {
         .#{nth($i, 1)} {
+          @include media("screen", ">=md"){
             &.change-mobile-bg{
-              background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
+              background: none;
               background-size:cover;
               color: nth($i, 2);
             }
+          }
           }
         }
       }
@@ -192,7 +199,6 @@ nav {
   font-family: $montserrat;
   font-size:.93em;
   letter-spacing: .03em;
-  padding: 5px 0 3px 0;
   transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
@@ -223,6 +229,7 @@ nav {
     width:100%;
     align-items: center;
     display: flex;
+    padding: 5px 0 3px 0;
     justify-content: space-between;
     background: transparent;
   }
@@ -428,7 +435,12 @@ nav {
       text-decoration: none;
     }
 }
-
+.datasource {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: .8em;
+  text-align:right;
+}
 
 
   /*------------------ RESPONSIVE NAV STYLES ---------*/
@@ -606,6 +618,29 @@ nav {
       }
 
 
+    }
+
+    .interactive-wrapper {
+      width:80%;
+      border-top:1px $dark-gray solid;
+      border-bottom:1px $dark-gray solid;
+      margin:1.4em auto;
+      padding: 1.4em 0;
+      overflow:hidden;
+    }
+
+    .interactive-wrapper-intro{
+      h1 {
+        font-size: 2.5em;
+        }
+      h2 {
+        font-size:1.2em;
+        margin-top:10px;
+        }
+        .expand-collapse {
+          margin-top: 5%;
+          text-align: center;
+        }
     }
 
 
