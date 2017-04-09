@@ -9,7 +9,8 @@
   align-items: flex-start;
 
   #custom-slider {
-    width: 75%;
+    // width: 75%;
+    width: 100%;
     height: 100vh;
     overflow: hidden;
     margin-left: 0;
@@ -31,8 +32,7 @@
   #custom-slider > ul > li {
     width: 100%;
     height: 70vh;
-    color: white;
-    font-size: 3rem;
+    display: flex;
   }
 
   .pic-style {
@@ -41,7 +41,8 @@
 
   .pic {
     height: 90vh;
-    max-width: 100%;
+     max-width: 100%;
+    // max-width: 70%;
   }
 
   button {
@@ -54,7 +55,9 @@
 
   .caption {
     color: #000;
-     width: 25%;
+    width: 30%;
+    position: relative;
+    top: 10%;
   }
 
   #caption-text {
@@ -70,32 +73,116 @@
 
   #slider-right {
     position: relative;
+    left: 13%;
+    top: 7vh;
+    z-index: 1;
   }
 
   #slider-left {
     float: left;
     position: relative;
-    left: 10%;
+    left: 49%;
+    top: 7vh;
+    z-index: 1;
   }
 
+  #responsive-slider-left {
+    display: none;
+  }
+
+  #responsive-slider-right {
+    display: none;
+  }
   .pg-figcaption {
     padding-right: 10vw;
   }
+
+  @include media ("screen", "<=nav-sm"){
+    #custom-slider {
+      height: 130vh;
+    }
+  }
+
   @include media("screen", "<=sm") {
-      #custom-slider {
-        width: auto;
-        height: 50vh;
-      }
-      #custom-slider > ul {
-        height: 50vh;
-      }
-      .pic {
-        height: 50vh;
-      }
+    #custom-slider {
+      height: 75vh;
+    }
+    #custom-slider > ul > li {
+      display: initial;
+      height: 40vh;
+    }
+
+    .pic {
+      height: auto;
+    }
+
       .caption {
-        width: initial;
-        margin-top: 5%;
+        width: 100%;
+        top: 40%;
       }
+
+      #slider-left {
+        top: 58vh;
+        left: -22%;
+      }
+
+      #slider-right {
+        top: 58vh;
+        left: -55%;
+      }
+
+      // #responsive-slider-left {
+      //   display: block;
+      // }
+      //
+      // #responsive-slider-right {
+      //   display: block;
+      // }
+
+      // #custom-slider {
+      //   width: auto;
+      //   height: 50vh;
+      // }
+      // #custom-slider > ul {
+      //   height: 50vh;
+      // }
+      // .pic {
+      //   height: 50vh;
+      // }
+      // .caption {
+      //   width: initial;
+      //   margin-top: 5%;
+      // }
+  }
+
+  @include media ("screen", "<=xs") {
+
+    #custom-slider {
+      height: auto;
+    }
+
+    #custom-slider > ul {
+      height: 60vh;
+    }
+
+    #custom-slider > ul > li {
+      height: 25vh;
+    }
+
+    .pic {
+      height: auto;
+    }
+
+    #slider-left {
+      left: -19%;
+      top: 35vh;
+    }
+
+    #slider-right {
+      top: 35vh;
+      left: -50%;
+    }
+
   }
 
 }
