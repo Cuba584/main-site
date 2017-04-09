@@ -42,6 +42,12 @@
       "value": "He’s rattling off directions to his driver in Spanish — the Cuban kind, which sounds more like a song than a sentence. The taxi roars with every accelerating lunge, a symptom of the vehicle’s age, as it winds around the edges of the ocean’s waves that confront the city’s border."
     },
     {
+      "type": "map",
+      "value": {
+        "src": "harborMap.png"
+      }
+    },
+    {
       "type": "text",
       "value": "This rush is for Regla, a neighborhood where Orlando lives with his parents. While still technically a part of the greater Havana area, Regla feels far more removed than a five-minute ferry ride. The star that pinpoints Havana as the country’s capital on any given map of Cuba stamps right over the harbor that divides these two areas. But these regions cannot be so simply merged — the star extinguishes Regla’s individuality, its smokestacks that hint at its industrial past, its streets blemished with missing chunks of cement and its homes that are stained in soot. There’s less urgency on this side of the harbor; in Regla, time is a suggestion of sorts. Orlando knows that while the final ferry home is always scheduled to leave Havana’s port at 12:15 a.m., any set-in-stone schedule is subjective, as the ferry driver often decides to leave at whatever time will get him home fastest, even if it’s the wrong one."
     },

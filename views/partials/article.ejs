@@ -82,6 +82,14 @@ $(document).ready(function(){
            <section class="center-wrapper">
              <div class="max-width">
 
+
+		<%} else if (body["text"][i]["type"] == "map") {%>
+			<div class="map-wrapper">
+			<img class="map" src='assets/images/<%=body["text"][i]["value"]["src"] %> ' alt='
+      <%=body["text"][i]["value"]["alt"] %>'>
+		</div>
+
+
     <% } else if (body["text"][i]["type"] == "pullquote") {%>
 
     </div>
