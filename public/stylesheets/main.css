@@ -575,4 +575,19 @@ nav {
       nav .logo-wrapper #svg-logo {
         width: 130px; }
     nav nav .nav-icons {
-      display: none; } }
+      display: none; }
+  .interactive-wrapper {
+    width: 80%;
+    border-top: 1px #696969 solid;
+    border-bottom: 1px #696969 solid;
+    margin: 1.4em auto;
+    padding: 1.4em 0;
+    overflow: hidden; }
+  .interactive-wrapper-intro h1 {
+    font-size: 2.5em; }
+  .interactive-wrapper-intro h2 {
+    font-size: 1.2em;
+    margin-top: 10px; }
+  .interactive-wrapper-intro .expand-collapse {
+    margin-top: 5%;
+    text-align: center; } }
