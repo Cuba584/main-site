@@ -139,7 +139,7 @@ function getFileContents(exportLink, currentTopic){
 
 function sendIt(data, currentTopic){
 
-  var fileLocation = './data/' + currentTopic + '.json';
+  var fileLocation = './public/data/' + currentTopic + '.json';
 
   fs.writeFileSync(fileLocation, JSON.stringify(data,null,2));
 

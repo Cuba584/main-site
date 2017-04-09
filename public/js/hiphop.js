@@ -3,22 +3,22 @@ var cards = document.querySelectorAll('.hiphop-card');
 var mobileCards = document.querySelectorAll('.hiphop-card-mobile');
 var audios = document.querySelectorAll('audio');
 
-for (var p = 0; p < 5; p++) {
-          cards[p].onmouseenter = flip;
-          cards[p].onmouseleave = unflip;
-};
+// for (var p = 0; p < 5; p++) {
+//           cards[p].onmouseenter = flip;
+//           cards[p].onmouseleave = unflip;
+// };
 
 for (var m = 0; m < 5; m++) {
   mobileCards[m].onclick = toggleFlip;
 }
 
-function flip() {
-  this.classList.add("flipped");
-}
+// function flip() {
+//   this.classList.add("flipped");
+// }
 
-function unflip() {
-  this.classList.remove("flipped");
-}
+// function unflip() {
+//   this.classList.remove("flipped");
+// }
 
 function toggleFlip() {
   if (this.classList.contains('flipped')) {
