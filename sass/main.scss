@@ -15,10 +15,18 @@ further down on the page or in any of the other .SCSS files.
               color: nth($i, 2);
             }
             &.change-bg{
-              // background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
+              background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
               background-size:cover;
               color: nth($i, 2);
               background-color: nth($i, 2);
+            }
+            @include media("screen", ">=md"){
+              &.change-mobile-bg{
+                    background: none;
+                    background-size:cover;
+                    color: nth($i, 2);
+                    background-color: nth($i, 2);
+                  }
             }
             &.nav-title{
               // border-bottom:3px solid transparent;
@@ -69,11 +77,13 @@ further down on the page or in any of the other .SCSS files.
 @mixin config-page-background($colors...) {
     @each $i in $colors {
         .#{nth($i, 1)} {
+          @include media("screen", ">=md"){
             &.change-mobile-bg{
-              background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
+              background: none;
               background-size:cover;
               color: nth($i, 2);
             }
+          }
           }
         }
       }
