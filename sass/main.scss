@@ -15,9 +15,10 @@ further down on the page or in any of the other .SCSS files.
               color: nth($i, 2);
             }
             &.change-bg{
-              background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
+              // background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
               background-size:cover;
               color: nth($i, 2);
+              background-color: nth($i, 2);
             }
             &.nav-title{
               // border-bottom:3px solid transparent;
@@ -64,6 +65,18 @@ further down on the page or in any of the other .SCSS files.
         }
     }
 }
+
+@mixin config-page-background($colors...) {
+    @each $i in $colors {
+        .#{nth($i, 1)} {
+            &.change-mobile-bg{
+              background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
+              background-size:cover;
+              color: nth($i, 2);
+            }
+          }
+        }
+      }
 
 
 @include config-page-colors(
@@ -176,7 +189,6 @@ nav {
   font-family: $montserrat;
   font-size:.93em;
   letter-spacing: .03em;
-  padding: 5px 0 3px 0;
   transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
@@ -207,6 +219,7 @@ nav {
     width:100%;
     align-items: center;
     display: flex;
+    padding: 5px 0 3px 0;
     justify-content: space-between;
     background: transparent;
   }
@@ -412,7 +425,12 @@ nav {
       text-decoration: none;
     }
 }
-
+.datasource {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: .8em;
+  text-align:right;
+}
 
 
   /*------------------ RESPONSIVE NAV STYLES ---------*/
@@ -468,6 +486,8 @@ nav {
         }
       }
     }
+
+
 
   @include media("screen", "<=md"){
 
@@ -545,6 +565,14 @@ nav {
 }
 
   @include media("screen", "<=sm"){
+    @include config-page-background(
+    'hiphop'  $orange,
+    'dorian' $green,
+    'skate' $purple,
+    'family' $yellow,
+    'harbor' $blue,
+    'about' $neutral
+    );
 
 
     nav{
@@ -566,6 +594,7 @@ nav {
         width:90vw;
         align-items: flex-end;
         height: 45px;
+
       }
 
       .logo-wrapper{

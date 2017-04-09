@@ -10,7 +10,7 @@ $(document).ready(function(){
   pageVideo = document.getElementById('home-video') || document.getElementById('cinemagraph');
   replayVideoHeight = $(pageVideo).height();
   $('#replay-btn').css('top', replayVideoHeight - (replayVideoHeight*0.35));
->>>>>>> master
+
   $( window ).resize(function() {
     windowWidth = $(window).width();
     replayVideoHeight = $(pageVideo).height();

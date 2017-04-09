@@ -1,0 +1,102 @@
+[
+ {
+   "country": "Argentina",
+   "internet_in_2015": 69.40092102,
+   "internet_rounded": 69
+ },
+ {
+   "country": "Bolivia",
+   "internet_in_2015": 45.1,
+   "internet_rounded": 45
+ },
+ {
+   "country": "Brazil",
+   "internet_in_2015": 59.07947791,
+   "internet_rounded": 59
+ },
+ {
+   "country": "Chile",
+   "internet_in_2015": 64.289,
+   "internet_rounded": 64
+ },
+ {
+   "country": "Colombia",
+   "internet_in_2015": 55.90497251,
+   "internet_rounded": 56
+ },
+ {
+   "country": "Costa Rica",
+   "internet_in_2015": 59.76295014,
+   "internet_rounded": 60
+ },
+ {
+   "country": "Cuba",
+   "internet_in_2015": 31.10797021,
+   "internet_rounded": 31
+ },
+ {
+   "country": "Dominican Republic",
+   "internet_in_2015": 51.93023274,
+   "internet_rounded": 52
+ },
+ {
+   "country": "Ecuador",
+   "internet_in_2015": 48.94043379,
+   "internet_rounded": 49
+ },
+ {
+   "country": "Guatemala",
+   "internet_in_2015": 27.1,
+   "internet_rounded": 27
+ },
+ {
+   "country": "Honduras",
+   "internet_in_2015": 20.35686743,
+   "internet_rounded": 20
+ },
+ {
+   "country": "Haiti",
+   "internet_in_2015": 12.19776638,
+   "internet_rounded": 12
+ },
+ {
+   "country": "Jordan",
+   "internet_in_2015": 53.4,
+   "internet_rounded": 53
+ },
+ {
+   "country": "Mexico",
+   "internet_in_2015": 57.43104299,
+   "internet_rounded": 57
+ },
+ {
+   "country": "Nicaragua",
+   "internet_in_2015": 19.7042915,
+   "internet_rounded": 20
+ },
+ {
+   "country": "Peru",
+   "internet_in_2015": 40.9,
+   "internet_rounded": 41
+ },
+ {
+   "country": "El Salvador",
+   "internet_in_2015": 26.91507533,
+   "internet_rounded": 27
+ },
+ {
+   "country": "Uruguay",
+   "internet_in_2015": 64.6,
+   "internet_rounded": 65
+ },
+ {
+   "country": "United States",
+   "internet_in_2015": 74.55,
+   "internet_rounded": 75
+ },
+ {
+   "country": "Venezuela, RB",
+   "internet_in_2015": 61.86924809,
+   "internet_rounded": 62
+ }
+]

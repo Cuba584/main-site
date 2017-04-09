@@ -11,7 +11,7 @@
     font-size: 4em;
     cursor: pointer;
     position: absolute;
-    margin-top: 8%; }
+    margin-top: 7%; }
   #custom-slider button:focus {
     outline: none; }
 
@@ -33,7 +33,7 @@
   font-size: 3rem; }
 
 #slider-right {
-  margin-left: 54%; }
+  margin-left: 44%; }
 
 #slider-left {
   margin-left: -7%; }
@@ -44,7 +44,7 @@
   .money-slider li {
     width: 100%; }
   .money-slider h2 {
-    font-size: 0.8em; }
+    font-size: 0.7em; }
   .money-slider h3 {
     font-size: 0.5em; }
   .money-slider p {

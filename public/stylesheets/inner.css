@@ -103,9 +103,9 @@
 .vimeo-wrapper {
   background-color: #000;
   width: 70%;
-  padding-bottom: 56.25%;
+  padding-bottom: 39.9%;
   position: relative;
-  margin: 0 auto; }
+  margin: 3em auto; }
   .vimeo-wrapper iframe {
     position: absolute;
     width: 100%;
@@ -134,8 +134,6 @@
     width: auto; } }
 
 @media screen and (max-width: 1020px) {
-  .container {
-    margin-top: 13px; }
   .inner .byline-box {
     margin-top: 15pt; }
     .inner .byline-box .byline-item p {
@@ -148,6 +146,8 @@
     margin-top: 30px; }
   .inner .max-width {
     max-width: 80%; }
+  .inner .video-wrapper {
+    width: 100vw !important; }
   .inner iframe {
     width: 100%; }
   .inner .pull-quote-box {
@@ -166,7 +166,7 @@
 
 @media screen and (max-width: 570px) {
   .inner #cinemagraph {
-    margin-top: 50px; }
+    margin-top: 58px; }
   .inner figure {
     flex-wrap: wrap;
     margin: 0; }

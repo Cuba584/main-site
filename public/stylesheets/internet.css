@@ -1,0 +1,39 @@
+/* ------------------ Global Styles ------------ */
+/*change page colors here!*/
+.internet-graphic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .internet-graphic h3 {
+    font-size: 1.75em;
+    margin-bottom: 5pt;
+    width: 400px;
+    text-align: center; }
+  .internet-graphic .center-wrapper {
+    display: flex;
+    justify-content: center; }
+  .internet-graphic #country-dropdown {
+    width: 200px;
+    justify-content: center; }
+  .internet-graphic .people-cont {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20vw 0 20vw; }
+  .internet-graphic .selected {
+    color: gray; }
+  .internet-graphic .country-cont {
+    width: 400px; }
+
+@media screen and (max-width: 1020px) {
+  .internet-graphic .dropdown-cont {
+    justify-content: flex-end;
+    padding-right: 12vw; }
+  .internet-graphic .people-cont {
+    justify-content: center;
+    padding: 0 30vw 0 30vw; }
+  .internet-graphic .people-cont, .internet-graphic .title-cont {
+    flex-direction: column; }
+  .internet-graphic .country-cont {
+    width: inherit; }
+  .internet-graphic h3 {
+    width: inherit; } }

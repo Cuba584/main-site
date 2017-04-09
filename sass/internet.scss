@@ -1,0 +1,69 @@
+@import '_vars';
+@import '_include-media';
+
+.internet-graphic {
+
+  // max-width:500px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+
+  h3{
+    font-size:1.75em;
+    margin-bottom:5pt;
+    width:400px;
+    text-align:center;
+  }
+
+
+
+  .center-wrapper {
+    display:flex;
+    justify-content:center;
+  }
+
+  #country-dropdown{
+    width:200px;
+    justify-content:center;
+  }
+
+  .people-cont{
+    display:flex;
+    justify-content:space-between;
+    padding:0 20vw 0 20vw;
+  }
+
+  .selected{
+    color:gray;
+  }
+  .country-cont{
+    width:400px;
+  }
+}
+
+@include media('screen', '<=md'){
+  .internet-graphic{
+    .dropdown-cont{
+      justify-content:flex-end;
+      padding-right:12vw;
+    }
+    .people-cont{
+      // width:400px;
+      justify-content:center;
+      padding:0 30vw 0 30vw;
+    }
+    .people-cont, .title-cont{
+      flex-direction:column;
+    }
+    .country-cont{
+      width:inherit;
+    }
+    h3{
+      width:inherit;
+    }
+
+  }
+
+
+
+}
