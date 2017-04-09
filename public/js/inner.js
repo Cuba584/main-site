@@ -5,7 +5,6 @@ $(document).ready( function(){
   windowWidth = $(window).width();
   videoTop = $('#video-top').offset().top;
   videoHeight = $('#vimeo-wrap').outerHeight();
-  $('#replay-btn').css('top', replayVideoHeight - (replayVideoHeight*0.35));
   if (windowWidth > 1020) {
     goDark();
   }
@@ -15,7 +14,6 @@ $( window ).resize(function() {
   windowWidth = $(window).width();
   videoTop = $('#video-top').offset().top;
   videoHeight = $('#vimeo-wrap').outerHeight();
-  $('#replay-btn').css('top', replayVideoHeight - (replayVideoHeight*0.35));
   if (windowWidth > 1020) {
     goDark();
   } else {

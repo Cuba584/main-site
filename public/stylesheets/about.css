@@ -40,70 +40,70 @@ a:hover, a:focus {
 .hero img {
   width: 100vw; }
 
-#team-photos .team-info {
-  display: block;
-  margin: 0px auto;
-  max-width: 250px; }
-  #team-photos .team-info p {
-    margin: 0px;
-    font-family: "Roboto", sans-serif;
-    text-align: left;
-    line-height: 1.4em;
-    display: inline-block; }
-  #team-photos .team-info .portfolio {
-    display: inline; }
-  #team-photos .team-info .team-name {
-    display: block; }
-  #team-photos .team-info .role {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    font-size: .8em; }
-  #team-photos .team-info .team-name {
-    font-weight: 400;
-    font-size: 1em; }
-  #team-photos .team-info a {
-    font-weight: 300;
+#team-photos {
+  width: 90%;
+  margin: 10px auto; }
+  #team-photos .team-info {
+    display: block;
+    margin: 0px auto;
+    max-width: 250px; }
+    #team-photos .team-info p {
+      margin: 0px;
+      font-family: "Roboto", sans-serif;
+      text-align: left;
+      line-height: 1.4em;
+      display: inline-block; }
+    #team-photos .team-info .portfolio {
+      display: inline; }
+    #team-photos .team-info .team-name {
+      display: block; }
+    #team-photos .team-info .role {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 300;
+      font-size: .8em; }
+    #team-photos .team-info .team-name {
+      font-weight: 400;
+      font-size: 1em; }
+    #team-photos .team-info a {
+      font-weight: 300;
+      color: #000;
+      font-size: .9em;
+      text-decoration: none; }
+      #team-photos .team-info a:hover {
+        color: #ccc; }
+  #team-photos .bio {
+    position: absolute;
+    line-height: 1.5em;
+    vertical-align: middle;
+    width: 255px;
+    height: 170px;
+    background: rgba(255, 255, 255, 0.85);
     color: #000;
-    font-size: .9em;
-    text-decoration: none; }
-    #team-photos .team-info a:hover {
-      color: #ccc; }
-
-#team-photos .bio {
-  position: absolute;
-  line-height: 1.5em;
-  vertical-align: middle;
-  width: 255px;
-  height: 170px;
-  background: rgba(255, 255, 255, 0.85);
-  color: #000;
-  visibility: hidden;
-  opacity: 0;
-  padding: 17px 20px;
-  font-size: .85em;
-  font-family: "Roboto", sans-serif;
-  -webkit-transition: visibility opacity 0.2s;
-  transition: visibility opacity 0.2s;
-  text-align: left; }
-
-#team-photos .team-image-box {
-  display: block;
-  margin: 0px auto;
-  max-width: 250px; }
-  #team-photos .team-image-box:hover {
-    cursor: default; }
-
-#team-photos .mix {
-  position: relative;
-  display: block;
-  margin-bottom: 12px;
-  margin-top: 1.3em; }
-  #team-photos .mix:hover .bio {
-    visibility: visible;
-    opacity: 1; }
-  #team-photos .mix img {
-    max-width: 250px;
-    max-height: 225px; }
+    visibility: hidden;
+    opacity: 0;
+    padding: 17px 20px;
+    font-size: .85em;
+    font-family: "Roboto", sans-serif;
+    -webkit-transition: visibility opacity 0.2s;
+    transition: visibility opacity 0.2s;
+    text-align: left; }
+  #team-photos .team-image-box {
+    display: block;
+    margin: 0px auto;
+    max-width: 250px; }
+    #team-photos .team-image-box:hover {
+      cursor: default; }
+  #team-photos .mix {
+    position: relative;
+    display: block;
+    margin-bottom: 12px;
+    margin-top: 1.3em; }
+    #team-photos .mix:hover .bio {
+      visibility: visible;
+      opacity: 1; }
+    #team-photos .mix img {
+      max-width: 250px;
+      max-height: 225px; }
 
 .about-container {
   text-align: center;
