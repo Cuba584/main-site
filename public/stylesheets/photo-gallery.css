@@ -1,8 +1,5 @@
 /* ------------------ Global Styles ------------ */
 /*change page colors here!*/
-* {
-  clear: both; }
-
 #photo-gallery {
   display: flex;
   flex-wrap: wrap;
