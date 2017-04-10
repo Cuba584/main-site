@@ -1,5 +1,4 @@
 @import '_include-media';
-#money-slider {
 #money-slider-wrapper {
   width: 50%;
   height: 50vh;
@@ -100,8 +99,7 @@
       display: none;
     }
 
-    .money-slider-section{
+  .money-slider  .money-slider-section{
       flex-direction: column;
     }
   }
-}
