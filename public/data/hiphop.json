@@ -112,10 +112,6 @@
       "value": "Reyna and Yadira, both 31, didn’t always dream they’d be rappers. Yadira worked as a social worker for a few years, and Reyna was on her way to becoming a chemical engineer when a baby interrupted those plans — a son, Michel, who is now nine and wants to be a rapper, too. A few years after becoming a mom, she decided to pursue music."
     },
     {
-      "type": "slider",
-      "value": {}
-    },
-    {
       "type": "text",
       "value": "It was Moises Whittaker Alvarez who helped unite them in 2012, who is now the only manager they’ve ever worked with. He knew them as individual performers, but something about their styles — the way they can so fiercely perform their “protest music,” but also fill whatever room they’re in with instantaneous laughter and light — told him that, even though they didn’t know each other, they needed each other."
     },
@@ -144,6 +140,10 @@
     {
       "type": "text",
       "value": "Vestibulum dapibus gravida interdum. Etiam convallis feugiat urna, vel fermentum libero vestibulum quis. Sed quam ipsum, dapibus at suscipit eget, placerat eu lorem. Nunc vulputate enim eros, ut consequat diam scelerisque non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ornare dolor vel ante sodales bibendum at sed dolor. Vestibulum at purus euismod, suscipit lorem eleifend, varius massa. Nullam vel vestibulum turpis, ut pulvinar lorem."
+    },
+    {
+      "type": "slider",
+      "value": {}
     }
   ],
   "slider-images": [

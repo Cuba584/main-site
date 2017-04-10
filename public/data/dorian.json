@@ -152,6 +152,84 @@
     {
       "type": "text",
       "value": "Dorian reminisces about how days attending barber school and said his line is also meant to start new conversations within the Cuban culture about masculinity as well. When he first became a hairdresser, Dorian was ashamed of it because it wasn’t something men did. He said haircutting and fashions always caught his attention as he attended university and he wants to reimagine style for men in Cuba today so that they can take pride in how they look."
+    },
+    {
+      "type": "slider",
+      "value": {}
+    }
+  ],
+  "slider-images": [
+    {
+      "src": "dorian_sl_01.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_02.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_03.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_04.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_05.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_06.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_07.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_08.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_09.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_10.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_11.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_12.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
     }
   ]
 }
