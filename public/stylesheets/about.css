@@ -1,5 +1,9 @@
 /* ------------------ Global Styles ------------ */
 /*change page colors here!*/
+nav .wrapper {
+  -webkit-box-sizing: initial;
+  box-sizing: initial; }
+
 .center-wrapper {
   display: flex;
   justify-content: center;

@@ -183,7 +183,7 @@ header{
 
 
 nav {
-  // height: $nav-height;
+  height: $nav-height;
   background-color: #fff;
   opacity: 1;
   font-family: $montserrat;
@@ -220,7 +220,7 @@ nav {
     align-items: center;
     display: flex;
     height: $nav-height;
-    // padding: 5px 0 3px 0;
+    padding: 5px 0 3px 0;
     justify-content: space-between;
     background: transparent;
   }

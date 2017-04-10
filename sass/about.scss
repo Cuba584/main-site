@@ -5,6 +5,11 @@ $text-gray: #070707;
 $medium-gray: #3C3C3C;
 $light-gray: #efefef;
 
+nav .wrapper {
+-webkit-box-sizing: initial;
+box-sizing: initial;
+}
+
 .center-wrapper{
   display:flex;
   justify-content: center;

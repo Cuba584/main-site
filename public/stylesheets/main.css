@@ -300,6 +300,7 @@ header {
   -webkit-transition: all 0.3s linear; }
 
 nav {
+  height: 70px;
   background-color: #fff;
   opacity: 1;
   font-family: "Montserrat", sans-serif;
@@ -327,6 +328,7 @@ nav {
     align-items: center;
     display: flex;
     height: 70px;
+    padding: 5px 0 3px 0;
     justify-content: space-between;
     background: transparent; }
   nav .label-toggle {
