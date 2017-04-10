@@ -148,10 +148,19 @@
 
 @media screen and (max-width: 1280px) {
   .hiphop-year {
-    margin: 2px; }
+    margin: 2px;
+    font-size: .7em; }
+  .hiphop-name {
+    font-size: 1em;
+    margin-top: 5px; }
   .hiphop-text p {
     word-wrap: break-word;
-    word-break: normal; } }
+    word-break: normal; }
+  .hiphop-text a {
+    font-size: 2.25em; }
+  .hiphop-bio {
+    font-size: .75em;
+    margin-bottom: 2px; } }
 
 @media screen and (max-width: 1020px) {
   #hiphop-wrap-mobile > ul > li {

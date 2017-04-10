@@ -186,10 +186,24 @@
 @include media("screen", "<=lg") {
   .hiphop-year {
     margin: 2px;
+    font-size: .7em;
   }
-  .hiphop-text p {
+  .hiphop-name {
+    font-size: 1em;
+    margin-top: 5px;
+  }
+  .hiphop-text {
+    p {
     word-wrap: break-word;
     word-break: normal;
+    }
+    a {
+      font-size: 2.25em;
+    }
+  }
+  .hiphop-bio {
+    font-size: .75em;
+    margin-bottom: 2px;
   }
 }
 
