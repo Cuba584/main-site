@@ -6,6 +6,7 @@ $medium-gray: #3C3C3C;
 $light-gray: #efefef;
 
 
+
 @mixin about-page-colors ($colors...){
   @each $i in $colors {
     .#{nth($i, 1)}{
@@ -21,11 +22,7 @@ $light-gray: #efefef;
   }
 }
 
-// li {
-//   &:hover{
-//     color: black;
-//   }
-// }
+
 
 @include about-page-colors (
   'everyone' $everyone,
@@ -34,6 +31,12 @@ $light-gray: #efefef;
   'designdev' $designdev,
   'coach' $coach
 );
+
+
+nav .wrapper {
+-webkit-box-sizing: initial;
+box-sizing: initial;
+}
 
 
 .center-wrapper{
@@ -89,6 +92,8 @@ a:hover, a:focus {
 //  display: flex;
 //  justify-content: space-around;
 //  flex-wrap: wrap;
+  width: 90%;
+  margin: 10px auto;
   .team-info {
     display: block;
     margin: 0px auto;
@@ -237,25 +242,6 @@ a:hover, a:focus {
 }
 
 
-@include media("screen", "<=md") {
-.portfolio{
-  display:inline;
-}
-
-.about-social-icon{
-  display:inline;
-}
-
-.max-width {
-  max-width: 80%;
-}
-.about-cinema-wrapper{
-  #cinemagraph{
-    margin-top:$mobile-nav-height;
-  }
-}
-
-}
 
 @include media("screen", ">=xl"){
   .team-nav{
@@ -264,27 +250,6 @@ a:hover, a:focus {
     }
   }
 }
-
-
-@media screen and (max-width: 720px) {
-
-
-.portfolio{
-  display:inline;
-}
-
-.about-social-icon{
-  display:inline;
-}
-
-@include media("screen", ">=xl"){
-  .team-nav{
-    ul{
-      padding:15px 20vw 15px 20vw;
-    }
-  }
-}
-
 
 @include media("screen", "<=md") {
   .team-nav {
@@ -312,5 +277,30 @@ a:hover, a:focus {
       text-align: left;
     }
   }
+  .portfolio{
+    display:inline;
+  }
+
+  .about-social-icon{
+    display:inline;
+  }
+
+  .max-width {
+    max-width: 80%;
+  }
+  .about-cinema-wrapper{
+    #cinemagraph{
+      margin-top:$mobile-nav-height;
+    }
+  }
+
 }
+
+
+@include media("screen", "<=sm") {
+  #about-body {
+    #nav-container {
+      margin-top: 11px;
+    }
+  }
 }

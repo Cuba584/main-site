@@ -1,17 +1,52 @@
 @import '_vars';
 @import '_include-media';
 
+*{
+  &:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+}
+
+@mixin config-page-colors($colors...) {
+    @each $i in $colors {
+        .#{nth($i, 1)} {
+            &.pg-figcaption{
+                  border-top:2px solid nth($i, 2);
+            }
+    }
+}
+}
+
+@include config-page-colors(
+    'hiphop'  $orange,
+    'dorian' $green,
+    'skate' $purple,
+    'family' $yellow,
+    'harbor' $blue,
+    'about' $neutral
+);
 
 #photo-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
+  position:relative;
+
+  .arrow-wrapper{
+    z-index:1;
+    display:flex;
+    justify-content:space-between;
+  }
+
+  .slider-left{
+    margin-right:auto!important;
+  }
 
   #custom-slider {
-    // width: 75%;
     width: 100%;
-    height: 100vh;
     overflow: hidden;
     margin-left: 0;
     margin-right: auto;
@@ -19,7 +54,6 @@
 
   #custom-slider > ul {
     width: 100%;
-    height: 70vh;
     left: -100%;
     transition: 0.5s left;
     list-style: none;
@@ -31,18 +65,13 @@
 
   #custom-slider > ul > li {
     width: 100%;
-    height: 70vh;
     display: flex;
-  }
-
-  .pic-style {
-    max-height: 100%;
+    justify-content:space-around; /**/
   }
 
   .pic {
-    height: 90vh;
-     max-width: 100%;
-    // max-width: 70%;
+      // width:100%;
+      max-width:70vw;
   }
 
   button {
@@ -56,131 +85,97 @@
   .caption {
     color: #000;
     width: 30%;
+    margin-left:1vw;
     position: relative;
-    top: 10%;
+    display:flex;
+    flex-direction:column;
   }
 
-  #caption-text {
-    font-family: $roboto;
-    float: left;
-  }
-
-  // .fa-angle-right{
-  //   position: relative;
-  //   left: -1500%;
-  // }
-
-
-  #slider-right {
-    position: relative;
-    left: 13%;
-    top: 7vh;
-    z-index: 1;
-  }
-
-  #slider-left {
-    float: left;
-    position: relative;
-    left: 49%;
-    top: 7vh;
-    z-index: 1;
-  }
-
-  #responsive-slider-left {
-    display: none;
-  }
-
-  #responsive-slider-right {
-    display: none;
-  }
   .pg-figcaption {
-    padding-right: 10vw;
+    padding-top:1em;
+    width:calc(100% - 50px);
   }
+
+  .fig-attr{
+    margin:0;
+  }
+
+
+  @include media ("screen", ">=lg"){
+    .pic{
+      width:100%;
+    }
+    #custom-slider > ul > li{
+      justify-content:center;
+    }
+  }
+
 
   @include media ("screen", "<=nav-sm"){
     #custom-slider {
-      height: 130vh;
+      // height: 130vh;
     }
   }
 
-  @include media("screen", "<=sm") {
-    #custom-slider {
-      height: 75vh;
-    }
+
+//STACK
+  @include media("screen", "<=md") {
     #custom-slider > ul > li {
-      display: initial;
-      height: 40vh;
-    }
+      // display: initial;
+      flex-direction:column;
+      justify-content:center;
 
+    }
+    .pg-figcaption{
+      border-top:none;
+      margin-top:-12vh;
+      width:70%;
+      margin-left:15%;
+    }
+    .fig-attr{
+      display:inline-block;
+    }
+    .fig-descr{
+      margin-bottom:0;
+    }
     .pic {
-      height: auto;
+      // height: auto;
+      // max-width:100vw;
+      max-height:80vh;
+      width:100%;
+      max-width:none;
+    }
+    .pic-style{
+      // display:flex;
+      // justify-content: center;
     }
 
-      .caption {
-        width: 100%;
-        top: 40%;
-      }
+    .caption {
+      width: 100%;
+      margin-top:0;
+      justify-content:space-around;
+      flex-direction:column-reverse;
+      margin-left:0;
+    }
 
-      #slider-left {
-        top: 58vh;
-        left: -22%;
-      }
 
-      #slider-right {
-        top: 58vh;
-        left: -55%;
-      }
-
-      // #responsive-slider-left {
-      //   display: block;
-      // }
-      //
-      // #responsive-slider-right {
-      //   display: block;
-      // }
-
-      // #custom-slider {
-      //   width: auto;
-      //   height: 50vh;
-      // }
-      // #custom-slider > ul {
-      //   height: 50vh;
-      // }
-      // .pic {
-      //   height: 50vh;
-      // }
-      // .caption {
-      //   width: initial;
-      //   margin-top: 5%;
-      // }
+    .arrow-wrapper{
+      z-index:1;
+      display:flex;
+      justify-content:space-around;
+    }
   }
 
   @include media ("screen", "<=xs") {
 
+
+
     #custom-slider {
       height: auto;
     }
 
-    #custom-slider > ul {
-      height: 60vh;
-    }
-
-    #custom-slider > ul > li {
-      height: 25vh;
-    }
-
     .pic {
       height: auto;
-    }
-
-    #slider-left {
-      left: -19%;
-      top: 35vh;
-    }
-
-    #slider-right {
-      top: 35vh;
-      left: -50%;
     }
 
   }
