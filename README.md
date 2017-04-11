@@ -110,6 +110,9 @@ Assets are on the master branch. If you need to change assets from the Drive, ju
  - **Images**
    - Drive: FOR WEBSITE > Images. Naming conventions are detailed in that folder and are separated by inline or slideshow. Photogs write their photo page templates in the instructions doc to be put into the main story doc.
    - Site: Public > Assets > Images. Paths will need to be put into article.ejs.
+ - **Slider Images**
+    - Drive: FOR WEBSITE > Stories (text). The placement of the slider within the page is determined by placing an empty slider object into the document (ex: {.slider}{}  ). The slider images and their metadata is written at the bottom of each document in a section called [slider-images]. Each photo's data must be written with the src as the first piece of information. 
+   - Site: Public > Assets > Images > Photo-Gallery > {story slug}. Path is in article.ejs
  - **360 Video**
    - TBD
  - **Story text**

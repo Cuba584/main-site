@@ -3,8 +3,9 @@
 <div class="center-wrapper dropdown-cont">
     <select id="country-dropdown">
       <% for (i in internet) { %>
+        <% if (internet[i].country !== "Cuba") { %>
       <option><%= internet[i].country %></option>
-      <% } %>
+      <%  } } %>
     </select>
 </div>
 

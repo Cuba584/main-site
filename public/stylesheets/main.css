@@ -327,6 +327,7 @@ nav {
     width: 100%;
     align-items: center;
     display: flex;
+    height: 70px;
     padding: 5px 0 3px 0;
     justify-content: space-between;
     background: transparent; }
@@ -568,8 +569,10 @@ nav {
         margin: 0 0 5px 0; }
     nav .wrapper {
       width: 90vw;
-      align-items: flex-end;
-      height: 45px; }
+      align-items: center;
+      height: 50px; }
+    nav #nav-container {
+      margin-top: 8px; }
     nav .logo-wrapper {
       margin: 0 auto; }
       nav .logo-wrapper #svg-logo {

@@ -2,11 +2,14 @@ var viewportWidth;
 
 $(document).ready(function(){
   viewportWidth = $(window).width();
+  pageVideo = document.getElementById('home-video');
+  replayVideoHeight = $(pageVideo).height();
   toggleWrapper();
 });
 
 $(window).resize(function(){
   viewportWidth = $(window).width();
+  replayVideoHeight = $(pageVideo).height();
   toggleWrapper();
 });
 
