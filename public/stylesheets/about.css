@@ -1,6 +1,5 @@
 /* ------------------ Global Styles ------------ */
 /*change page colors here!*/
-
 .everyone.mixitup-control-active {
   color: #000000;
   font-weight: 400; }
@@ -40,6 +39,7 @@
 .coach:hover {
   font-weight: 400;
   color: #91C9AC; }
+
 nav .wrapper {
   -webkit-box-sizing: initial;
   box-sizing: initial; }
