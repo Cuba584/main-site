@@ -60,12 +60,15 @@ further down on the page or in any of the other .SCSS files.
               }
 
             }
-
-            &.mobile-active-nav:after{
+            &.mobile-active-nav span{
+              position: relative;
+            }
+            &.mobile-active-nav span:after{
+              position: absolute;
               content: '';
               display: block;
               height: 3px;
-              width: 40%;
+              width: 100%;
               margin-top: -3%;
               background:nth($i, 2);
               transition-property: none;
@@ -375,6 +378,9 @@ nav {
     width:100%;
     margin-left: 8%;
     margin-top:30px;
+    transition-duration:0s;
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration:0s;
     a{
       display:block;
       text-decoration:none;
@@ -385,11 +391,11 @@ nav {
     }
     #closebtn{
       position:absolute;
-      top:-50%;
+      top:-44.5%;
       left: -5%;
-      font-size:60px;
+      font-size:75px;
       color: black;
-      font-weight: 700;
+      font-weight: 100;
     }
     .overlay-item{
       color:black;
@@ -622,6 +628,9 @@ nav {
         display: none;
       }
 
+      .nav-icons-mobile{
+        margin-top: 15%;
+      }
 
     }
 
