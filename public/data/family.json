@@ -37,6 +37,13 @@
       }
     },
     {
+      "type": "video",
+      "value": {
+        "360": "true",
+        "id": "210269956"
+      }
+    },
+    {
       "type": "text",
       "value": "<span class='italic'>Click[a].</span>"
     },
@@ -101,6 +108,15 @@
       "value": "Diego was 4 when he took his first picture, and the passion was a natural fit. While his friends noticed his talent, they discouraged him from turning to photography for a career — too unpredictable, they said."
     },
     {
+      "type": "image",
+      "value": {
+        "src": "family_012.jpg",
+        "alt": "A picture of Juan and Gabriella in the skate competition.",
+        "attribution": "Claire Collins",
+        "caption": "Juan and Gabriella take turns skating down a ramp on a sunny Havana day."
+      }
+    },
+    {
       "type": "text",
       "value": "Not his family. Diego’s father and grandfather both enjoyed the art as a hobby, so Diego started photographing professionally when he was 21. He’s since accumulated an abundance of frozen scenes; some animate the walls of his room. But perhaps the most telling decor is not something Diego captured, but the blue and yellow sign wedged by the door that seems to capture him: A philosophy that passes his gaze every time he leaves his room."
     },
@@ -133,13 +149,6 @@
     {
       "type": "text",
       "value": "Unlike Diego, Coralia fought her family to pursue her passions. Her father wanted her to be an accountant, but Coralia’s soul didn’t fit that mold. She started university studying philosophy and literature but took three years off from school after her first year because the university closed during the revolution. When the university reopened, Coralia got a scholarship to spend a year in the United States studying at UNC-Chapel Hill."
-    },
-    {
-      "type": "video",
-      "value": {
-        "360": "true",
-        "id": "210269956"
-      }
     },
     {
       "type": "text",
