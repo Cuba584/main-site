@@ -7,8 +7,8 @@
     "attribution": "Natalie Roush"
   },
   "header": {
-    "text": "A New Understanding",
-    "subtitle": "The elderly give way to youth who are shaping the future"
+    "text": "Caregivers and confidants",
+    "subtitle": "The young, the old and the aging of Cuba"
   },
   "reporters": [
     {
@@ -30,12 +30,26 @@
   ],
   "text": [
     {
-      "type": "text",
-      "value": "Click."
+      "type": "video",
+      "value": {
+        "360": "false",
+        "id": "200984993"
+      }
+    },
+    {
+      "type": "video",
+      "value": {
+        "360": "true",
+        "id": "210269956"
+      }
     },
     {
       "type": "text",
-      "value": "Diego Delgado is a whisper away from his grandmother’s shoulder, his left eye buried into the viewfinder, but Coralia Ortiz doesn’t hear his camera. The 25-year-old photographer doesn’t have the best lighting to work with as he steps silently around Coralia, but he’s inspired. There’s something about that intense look on her face, the way the thin lines of her brown eyebrows subtly arch upward and her lower lip hangs open in contemplation. She creates all kinds of crafts, but her favorite is the brujita, a little witch that hangs from a string. She burrows her eyes into each stitch — the kind of finesse that only comes from years of practice. Coralia’s diabetes and other health issues force her to spend her time inside, but in these moments, she falls into a trance. Diego can’t help but capture it."
+      "value": "<span class='italic'>Click[a].</span>"
+    },
+    {
+      "type": "text",
+      "value": "Diego Delgado is a whisper away from his grandmother’s shoulder, his left eye buried into the viewfinder, but Coralia Ortiz doesn’t hear his camera. The 25-year-old photographer doesn’t have the best lighting to work with as he steps silently around Coralia, but he’s inspired. There’s something about that intense look on her face, the way the thin lines of her brown eyebrows subtly arch upward and her lower lip hangs open in contemplation. She creates all kinds of crafts, but her favorite is the <span class='italic'>brujita</span>, a little witch that hangs from a string. She burrows her eyes into each stitch — the kind of finesse that only comes from years of practice. Coralia’s diabetes and other health issues force her to spend her time inside, but in these moments, she falls into a trance. Diego can’t help but capture it."
     },
     {
       "type": "text",
@@ -46,13 +60,6 @@
       "value": "That’s what fascinates Diego. Tall and lean with long eyelashes that frame his deep brown eyes, he exudes energy. Between taking pictures for the animal magazine El Arca, freelancing photography, playing soccer and caring for Coralia, Diego can’t spend too much time on one task. Besides, he loves action; he craves it. So he admires that Coralia can be still for hours, consumed by her craft, that apartment walls and ailing health cannot confine her creative spirit — that her passion is so captivating, she doesn’t realize her rapture has become the focus of her grandson’s art."
     },
     {
-      "type": "video",
-      "value": {
-        "360": "false",
-        "id": "200984993"
-      }
-    },
-    {
       "type": "text",
       "value": "Diego has lived permanently with Coralia in the three-room apartment in Havana’s Plaza municipality for five years, but he spent chunks of his childhood with her as well — six months to two years at a time — as work forced Diego’s mother, Adriana, to live further outside the city. Coralia practically raised him, he says. But now, because of Coralia’s diabetes, Diego must take care of her."
     },
@@ -61,9 +68,15 @@
       "value": "As the aging population in Cuba continues to increase, more and more young people will need to care for the older generation. But look closer. Fidel Castro’s death on Nov. 25 might have marked a handoff in leadership from the older generation to the younger generation. Or maybe it didn’t. Maybe it signaled something else — a relationship that’s changing. Something less about who is leading and more about where they’re going, side by side, fingers and fates intertwined."
     },
     {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/aging-barchart.ejs"
+      }
+    },
+    {
       "type": "subhead",
       "value": {
-        "text": "Playmaker and caregiver"
+        "text": "The playmaker and the caregiver"
       }
     },
     {
@@ -83,13 +96,6 @@
       "value": "Scorer and defender, competitor and captain, energizer and caregiver — Diego is used to juggling. He doesn’t have a normal day. He gave up routine for the sake of chasing moments with his lens."
     },
     {
-      "type": "pullquote",
-      "value": {
-        "text": "Donec in euismod lectus, eget sollicitudin ante. Cras porta sapien quis finibus pulvinar.",
-        "attribution": "Juan Doe"
-      }
-    },
-    {
       "type": "text",
       "value": "Diego tried stability. After finishing secondary school at 15, the lifelong animal lover started studying to become a veterinarian while taking photography classes and working in a restaurant. But the lifestyle didn’t satiate his spirit."
     },
@@ -98,15 +104,17 @@
       "value": "“I was going to spend my whole life working in a kitchen,” Diego said, “and I didn’t want that for myself.”"
     },
     {
-      "type": "video",
-      "value": {
-        "360": "true",
-        "id": "210269956"
-      }
-    },
-    {
       "type": "text",
       "value": "Diego was 4 when he took his first picture, and the passion was a natural fit. While his friends noticed his talent, they discouraged him from turning to photography for a career — too unpredictable, they said."
+    },
+    {
+      "type": "image",
+      "value": {
+        "src": "family_012.jpg",
+        "alt": "A picture of Juan and Gabriella in the skate competition.",
+        "attribution": "Claire Collins",
+        "caption": "Juan and Gabriella take turns skating down a ramp on a sunny Havana day."
+      }
     },
     {
       "type": "text",
@@ -114,12 +122,12 @@
     },
     {
       "type": "text",
-      "value": "Pénsate que lo habías visto todo en cuestión de recuerdo? Adelante."
+      "value": "<span class='italic'>Pénsate que lo habías visto todo en cuestión de recuerdo? Adelante.</span>"
     },
     {
       "type": "subhead",
       "value": {
-        "text": "A broken down ferry"
+        "text": "The little cave"
       }
     },
     {
@@ -148,16 +156,22 @@
     },
     {
       "type": "text",
-      "value": "She keeps the box of pictures in Diego’s room. After placing her treasure on the table, she lifts the lid with fraying brown and white patches to reveal the main relic — a tan scrapbook with yellow pages and words written in pencil to describe the memories. Sets of fabric eyes study her as she reminisces: two dangling brujitas, smiling red-headed oven mitts, a purple hanging owl and a green swordfish, built to hold bread and fashioned after the behemoth in Ernest Hemingway’s “The Old Man and the Sea.”"
+      "value": "She keeps the box of pictures in Diego’s room. After placing her treasure on the table, she lifts the lid with fraying brown and white patches to reveal the main relic — a tan scrapbook with yellow pages and words written in pencil to describe the memories. Sets of fabric eyes study her as she reminisces: two dangling <span class='italic'>brujitas</span>, smiling red-headed oven mitts, a purple hanging owl and a green swordfish, built to hold bread and fashioned after the behemoth in Ernest Hemingway’s “The Old Man and the Sea.”"
     },
     {
       "type": "text",
       "value": "The story lover dwells with characters born by her imagination."
     },
     {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/timeline.ejs"
+      }
+    },
+    {
       "type": "subhead",
       "value": {
-        "text": "A broken down ferry"
+        "text": "Cuba’s aging population"
       }
     },
     {
@@ -179,12 +193,6 @@
     {
       "type": "text",
       "value": "Diego’s youthful restlessness is growing more unique in Cuba. With a median age of 41.1 years old, 25.9 percent of the population is over 55, and an estimated 36 percent will be over 60 by 2050. The Plaza municipality — where Diego and Coralia live — is the oldest region of Havana."
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/aging-barchart.ejs"
-      }
     },
     {
       "type": "text",
@@ -209,7 +217,7 @@
     {
       "type": "subhead",
       "value": {
-        "text": "A broken down ferry"
+        "text": "Dulces and brujitas"
       }
     },
     {
@@ -218,11 +226,15 @@
     },
     {
       "type": "text",
-      "value": "She sifts through a collection of wires and settles on a white one — hard enough to stay in place when bent but soft enough to cut. One piece for the arms, one for the legs. She slides both inside black shoelaces and ties them together. Once she adds the head — a piece of a tan stocking stuffed with cotton, the brujita gets a name."
+      "value": "She sifts through a collection of wires and settles on a white one — hard enough to stay in place when bent but soft enough to cut. One piece for the arms, one for the legs. She slides both inside black shoelaces and ties them together. Once she adds the head — a piece of a tan stocking stuffed with cotton, the <span class='italic'>brujita</span> gets a name."
     },
     {
       "type": "text",
       "value": "“Luna,” she says. “Moon.”"
+    },
+    {
+      "type": "slider",
+      "value": {}
     },
     {
       "type": "text",
@@ -230,15 +242,15 @@
     },
     {
       "type": "text",
-      "value": "Coralia picks a few bites off the knife, but that’s all she’ll eat. Diabetes bars her from enjoying her treats, but she still makes them for Diego. How could she not? You don’t need to eat her dessert to know it’s one of Havana’s finest. Just watch the corners of Diego’s eyes crinkle when he mentions Coralia’s dulces."
+      "value": "Coralia picks a few bites off the knife, but that’s all she’ll eat. Diabetes bars her from enjoying her treats, but she still makes them for Diego. How could she not? You don’t need to eat her dessert to know it’s one of Havana’s finest. Just watch the corners of Diego’s eyes crinkle when he mentions Coralia’s <span class='italic'>dulces</span>."
     },
     {
       "type": "text",
-      "value": "That smile stretches across Diego’s face now as he sits at the kitchen table and seeks Coralia’s opinion on clothing before leaving the house. “She always tells me that it’s cold,” he says, “that I need a jacket.” He stares at one of Coralia’s dangling brujitas before turning back and continuing. If he’s sending an important email, he seeks input from his grandmother, the grammar aficionado. When he wants perspective outside the photography sphere, he consults Coralia. Daily tasks don’t slip through the cracks with his on-the-move lifestyle because Coralia will bring the clothes on the line inside if it rains, and she’ll take a message on the phone if he’s away."
+      "value": "That smile stretches across Diego’s face now as he sits at the kitchen table and seeks Coralia’s opinion on clothing before leaving the house. “She always tells me that it’s cold,” he says, “that I need a jacket.” He stares at one of Coralia’s dangling <span class='italic'>brujitas</span> before turning back and continuing. If he’s sending an important email, he seeks input from his grandmother, the grammar aficionado. When he wants perspective outside the photography sphere, he consults Coralia. Daily tasks don’t slip through the cracks with his on-the-move lifestyle because Coralia will bring the clothes on the line inside if it rains, and she’ll take a message on the phone."
     },
     {
       "type": "text",
-      "value": "Cuban society is changing with Diego’s generation at the helm. When Diego goes on a date, the woman doesn’t need a parent to chaperone and sit between the pair in the movie theater. Female university students don’t worry like Coralia did about finding an escort to evening classes. The changes are so stark that Coralia considers then and now as separate worlds."
+      "value": "Cuban society is changing with Diego’s generation at the helm. When Diego goes on a date, the woman doesn’t need a parent to chaperone and sit between the pair in the movie theater. Female university students don’t worry like Coralia did about finding an escort to evening classes. The changes are so stark that Coralia considers <span class='italic'>then** and **now</span> as separate worlds."
     },
     {
       "type": "text",
@@ -251,7 +263,7 @@
     {
       "type": "subhead",
       "value": {
-        "text": "A broken down ferry"
+        "text": "Two artists"
       }
     },
     {
@@ -264,7 +276,7 @@
     },
     {
       "type": "text",
-      "value": "Together they drift down the neighborhood streets to buy food at the nearby market. Occasionally the pair bumps into an older neighbor and stops to exchange kisses. Coralia selects the food from produce stands and uses the money from her purse to pay. When they leave, Diego carries the white plastic bag in his right hand."
+      "value": "Together they drift down the neighborhood streets to buy food at the nearby market. Occasionally the pair bumps into an older neighbor and stops to exchange kisses. Coralia selects the food from produce stands and uses the money from her purse to pay. When they leave, Diego carries the white plastic bag."
     },
     {
       "type": "text",
@@ -277,16 +289,6 @@
     {
       "type": "text",
       "value": "Two artists, bound by blood and matching house keys, pressing onward under the open sky."
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/timeline.ejs"
-      }
-    },
-    {
-      "type": "slider",
-      "value": {}
     }
   ],
   "slider-images": [
@@ -350,5 +352,6 @@
       "attribution": "Natalie Roush",
       "caption": "Every Tuesday, Diego makes time to help his Grandma, Coralia, walk to the market. They use this time to catch up on what's going on in each other's lives."
     }
-  ]
+  ],
+  "a": []
 }
