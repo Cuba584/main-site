@@ -41,7 +41,7 @@
   }
 }
 
-@include media('screen', '<=md'){
+@include media('screen', '<=lg'){
   .internet-graphic{
     .dropdown-cont{
       justify-content:flex-end;

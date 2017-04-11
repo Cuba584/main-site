@@ -73,7 +73,8 @@
   .inner .subhead {
     font-weight: 500;
     font-size: 1.675em;
-    margin: 1.5em 0 0 0; }
+    margin: 1.5em 0 0 0;
+    transition: 1s opacity; }
 
 #inner-title-box {
   font-family: "Montserrat", sans-serif;
@@ -165,7 +166,7 @@
 
 @media screen and (max-width: 570px) {
   .inner #cinemagraph {
-    margin-top: 58px; }
+    margin-top: 50px; }
   .inner figure {
     flex-wrap: wrap;
     margin: 0; }
