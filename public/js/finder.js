@@ -6,7 +6,12 @@ $(document).ready(function(){
     $("#sub-sport, #files-sport, #sports-info").hide();
     $("#sub-tube, #files-tube, #tube-info").hide();
 
-
+    // MOBILE hide on subcategories and files on load
+    $("#sub-apps-mobile, #files-apps-mobile, #apps-info-mobile").hide();
+    $("#sub-music-mobile, #files-music-mobile, #files-musicvids-mobile, #music-info-mobile").hide();
+    $("#sub-series-mobile, #files-series-mobile, #series-info-mobile").hide();
+    $("#sub-sport-mobile, #files-sport-mobile, #sports-info-mobile").hide();
+    $("#sub-tube-mobile, #files-tube-mobile, #tube-info-mobile").hide();
 
 
 
@@ -110,3 +115,87 @@ $(document).ready(function(){
 
 
 });
+
+
+// Mobile JS
+
+
+  //Music Mobile
+  $("#music-mobile").click(function(){
+    $(this).toggleClass("active");
+    $("#sub-music-mobile").toggle();
+  });
+
+    $("#international-mobile").click(function(){
+      $(this).toggleClass("active");
+      $("#files-music-mobile").toggle();
+    });
+
+    $("#music-vids-mobile").click(function(){
+      $(this).toggleClass("active");
+      $("#files-musicvids-mobile").toggle();
+    });
+
+  //Applications Mobile
+  $("#apps-mobile").click(function(){
+    $(this).toggleClass("active");
+    $("#sub-apps-mobile").toggle();
+  });
+
+  $("#android-mobile").click(function(){
+    $(this).toggleClass("active");
+    $("#files-apps-mobile").toggle();
+  });
+
+  //Series Mobile
+  $("#series-mobile").click(function(){
+    $(this).toggleClass("active");
+    $("#sub-series-mobile").toggle();
+  });
+
+  // Sports Mobile
+  $("#sports-mobile").click(function(){
+    $(this).toggleClass("active");
+    $("#sub-sport-mobile").toggle();
+  });
+  $("#soccer-mobile").click(function(){
+    $("#files-sport-mobile").toggle();
+    $(this).toggleClass("active");
+  });
+
+  //Youtube mobile
+  $("#tube-mobile").click(function(){
+    $(this).toggleClass("active");
+    $("#sub-tube-mobile").toggle();
+  });
+  $("#fashion-mobile").click(function(){
+    $(this).toggleClass("active");
+    $("#files-tube-mobile").toggle();
+  });
+
+
+  //show and hide info MOBILE
+  $("#apps-mobile").click(function(){
+    $("#apps-info").show();
+    $("#music-info, #series-info, #sports-info, #tube-info, #intro-info").hide();
+  });
+
+  $("#music-mobile").click(function(){
+    $("#music-info").show();
+    $("#apps-info, #series-info, #sports-info, #tube-info, #intro-info").hide();
+  });
+
+  $("#series-mobile").click(function(){
+    $("#series-info").show();
+    $("#apps-info, #music-info, #sports-info, #tube-info, #intro-info").hide();
+  });
+
+  $("#sports-mobile").click(function(){
+    $("#sports-info").show();
+    $("#apps-info, #series-info, #music-info, #tube-info, #intro-info").hide();
+  });
+
+  $("#tube-mobile").click(function(){
+    $("#tube-info").show();
+    $("#apps-info, #series-info, #sports-info, #music-info, #intro-info").hide();
+  });

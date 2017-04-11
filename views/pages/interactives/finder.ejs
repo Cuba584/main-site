@@ -1,16 +1,15 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
-  <div class="interactive-wrapper">
-  <div class="interactive-intro">
-    <h1>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <div class="interactive-wrapper finder-wrapper" id="finder">
+  <div class="interactive-wrapper-intro">
+    <h1 class="interactive skate">
       El Paquete Semenal
     </h1>
-    <h2 class="intro-text">
+    <h2 class="intro-text interactive skate">
       Explore what's available in the weekly package
     </h2>
   </div>
   <div class="paquete-container">
-  <div class="finder-window">
+  <div class="finder-window" id="finder-window-desktop">
     <div class="finder-header">
       <div class="window-controls">
         <div class="window-controls__close"></div>
@@ -158,6 +157,154 @@
       </div>
     </div>
   </div>
+  <div class="mobile finder-window" id="finder-window-mobile">
+    <div class="finder-header">
+      <div class="window-controls">
+        <div class="window-controls__close"></div>
+        <div class="window-controls__minimize"></div>
+        <div class="window-controls__maximize"></div>
+      </div>
+    </div>
+    <div class="mobile content-container">
+      <div class="sidebar">
+        <ul class="sidebar__list">
+          <li class="sidebar__list-item sidebar__list-item--section">
+            <span class="sidebar__list-name sidebar__list-name--section">Devices
+              <span id="pkt-device"><i class="fa-hdd-o fa icon" aria-hidden="true"></i>
+                PKT (D:)
+              </span>
+            </span>
+
+          </li>
+        </ul>
+      </div>
+      <div class="finder-main mobile">
+        <!-- Applications -->
+        <div class="mobile-toggle file-item parent" id="apps-mobile">
+          <i class="fa fa-folder" aria-hidden="true"></i><span>Applications</span>
+        </div>
+        <!-- Sub Apps -->
+        <div class="file-list" id="sub-apps-mobile">
+          <li class="file-item parent" id="android-mobile"><i class="fa fa-folder" aria-hidden="true"></i>Android Applications</li>
+          <!-- Files Apps -->
+          <ul class="file-list" id="files-apps-mobile">
+            <li class="file-item">Four in a Row</li>
+            <li class="file-item">English-Spanish Dictionary</li>
+            <li class="file-item">Screen Off and Lock</li>
+            <li class="file-item">Assassins Creed</li>
+            <li class="file-item">Minesweeper</li>
+            <li class="file-item">Panorama</li>
+          </ul>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>iOS Applications</li>
+        </div>
+
+
+        <!-- Music -->
+        <div class="mobile-toggle file-item parent" id="music-mobile">
+          <i class="fa fa-folder" aria-hidden="true"></i>Music
+        </div>
+        <!-- Sub Music -->
+        <div class="file-list" id="sub-music-mobile">
+          <ul class="file-list" id="sub-music">
+            <li class="file-item parent" id="international-mobile"><i class="fa fa-folder" aria-hidden="true"></i>International Music</li>
+            <!-- International Music -->
+            <ul class="file-list" id="files-music-mobile">
+              <li class="file-item">Carnival</li>
+              <li class="file-item">Dance Vol.2</li>
+              <li class="file-item">Dance Vol.3</li>
+              <li class="file-item">Drake and Future</li>
+              <li class="file-item">Drake and Future</li>
+            </ul>
+
+            <li class="file-item parent" id="music-vids-mobile"><i class="fa fa-folder" aria-hidden="true"></i>Music Videos</li>
+            <!-- Music Videos -->
+            <ul class="file-list" id="files-musicvids-mobile">
+              <li class="file-item">Concierto</li>
+              <li class="file-item">Extended Para DJs</li>
+              <li class="file-item">Hip Hop (Especial Lyon King)</li>
+              <li class="file-item">Top Billboard</li>
+              <li class="file-item">Chago</li>
+            </ul>
+            <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>CDs</li>
+            <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>National Music</li>
+            <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Unreleased Music</li>
+          </ul>
+        </div>
+
+        <!-- Series -->
+        <div class="mobile-toggle file-item parent" id="series-mobile">
+          <i class="fa fa-folder" aria-hidden="true"></i>Series
+        </div>
+        <!-- Series subcategories -->
+        <div class="file-list" id="sub-series-mobile">
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Bones</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Blackish</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Girls</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Greys Anatomy</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Feud</li>
+        </div>
+
+
+
+        <!-- Weekly Sports -->
+        <div class="mobile-toggle file-item parent" id="sports-mobile">
+          <i class="fa fa-folder" aria-hidden="true"></i>Weekly Sports
+        </div>
+        <!-- subcategories Sports -->
+        <ul class="file-list" id="sub-sport-mobile">
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Boxing</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Cubans in MLB</li>
+          <li class="file-item parent" id="soccer-mobile"><i class="fa fa-folder" aria-hidden="true"></i>Soccer</li>
+          <!-- Files Sports -->
+          <ul class="file-list" id="files-sport-mobile">
+            <li class="file-item">League (German)</li>
+            <li class="file-item">League (Spanish)</li>
+            <li class="file-item">League (French)</li>
+            <li class="file-item">League (English)</li>
+            <li class="file-item">League (Italian)</li>
+            <li class="file-item">UEFA (Champions League)</li>
+            <li class="file-item">UEFA (Europe League)</li>
+            <li class="file-item">Barcelona vs Deportivo La Coruña Fecha</li>
+            <li class="file-item">League 1 - OGC Nice vs. SM</li>
+          </ul>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>MLB</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>NBA</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>UFC</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>WWE</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Moto GP</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Documentales</li>
+        </ul>
+
+        <!-- Youtube -->
+        <div class="mobile-toggle file-item parent" id="tube-mobile">
+          <i class="fa fa-folder" aria-hidden="true"></i>YouTube
+        </div>
+        <!-- subcategories youtube -->
+        <ul class="file-list" id="sub-tube-mobile">
+          <li class="file-item parent" id="fashion-mobile"><i class="fa fa-folder" aria-hidden="true"></i>Fashion and Beauty</li>
+          <!-- files youtube -->
+          <ul class="file-list" id="files-tube-mobile">
+            <li class="file-item">Academia Anatassia</li>
+            <li class="file-item">Forever 21</li>
+            <li class="file-item">For your Wedding</li>
+            <li class="file-item">For Him</li>
+            <li class="file-item">For Her</li>
+          </ul>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>The Voice</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Soccer Videos</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Skating Videos</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Gossip and Showbiz</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Animals</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Cooking</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Exercise</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Magic</li>
+          <li class="file-item"><i class="fa fa-file" aria-hidden="true"></i>Technology</li>
+        </ul>
+
+      </div>
+    </div>
+  </div> <!--end paquete-container-->
+
   <div class="info-window">
     <!-- Info Intro -->
     <div id="intro-info">
