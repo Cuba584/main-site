@@ -21,11 +21,7 @@ $light-gray: #efefef;
   }
 }
 
-// li {
-//   &:hover{
-//     color: black;
-//   }
-// }
+
 
 @include about-page-colors (
   'everyone' $everyone,
@@ -34,7 +30,6 @@ $light-gray: #efefef;
   'designdev' $designdev,
   'coach' $coach
 );
-
 
 
 nav .wrapper {

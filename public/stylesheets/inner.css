@@ -172,6 +172,13 @@ img.map {
 @media screen and (max-width: 570px) {
   .inner #cinemagraph {
     margin-top: 50px; }
+  .inner #inner-title-box {
+    padding: 1.4em; }
+    .inner #inner-title-box h1 {
+      font-size: 2.3em; }
+    .inner #inner-title-box h3 {
+      font-size: 1em;
+      line-height: 1.3em; }
   .inner figure {
     flex-wrap: wrap;
     margin: 0; }
