@@ -33,10 +33,6 @@
   ],
   "text": [
     {
-      "type": "text",
-      "value": "On a Sunday afternoon El Prado, the smooth, stone promenade that divides Old and Central Havana, is full of life. Painters line the walkway, dipping brushes into the bright yellows and blues that make their art Cuban in the eyes of tourists. Other craftsmen have set up tables and chairs in the middle of the promenade, where they carve small wooden statues. Parents and strangers crowd around as a 10-year-old boy lifts and twirls his dance partner – a small girl wearing flat ballet shoes, her hair in a tight bun. The air carries the timba beat – trombones, conga drums and the <span class='italic'>clap, clap, clap[a]</span> of the clave – along with the smell of the ocean toward the heart of the city."
-    },
-    {
       "type": "video",
       "value": {
         "id": "210700371",
@@ -45,11 +41,15 @@
     },
     {
       "type": "text",
-      "value": "A teenager on roller blades maneuvers through the dance performance, stopping at a bench crowded with tattooed teens sharing a cigarette. In Cuba, tattooing is illegal, but it’s not uncommon to see older teens with tattoos they got from a makeshift parlor hidden in a dilapidated Havana apartment. At their feet, skateboards scatter the ground. The sound of wheels skidding on the marble surface overwhelms the space as skaters land ollies and kickflips and toss their boards onto the hard floor. An 8-year-old boy skates up to a group of guys in their early 20’s and daps them up like old friends. Age doesn’t seem to be a discriminating factor here, and neither does style. Skaters in black share the street with those in Hawaiian shirts and gym shorts. Here, punk and rock and Rasta are all <span class='italic'>familia</span>. They’ve come to El Prado for a competition, many with twisted ankles or broken boards, happy just to be there witnessing the action."
+      "value": "On a Sunday afternoon El Prado, the smooth, stone promenade that divides Old and Central Havana, is full of life. Painters line the walkway, dipping brushes into the bright yellows and blues that make their art Cuban in the eyes of tourists. Other craftsmen have set up tables and chairs in the middle of the promenade, where they carve small wooden statues. Parents and strangers crowd around as a 10-year-old boy lifts and twirls his dance partner – a small girl wearing flat ballet shoes, her hair in a tight bun. The air carries the timba beat – trombones, conga drums and the <span class='italic'>clap, clap, clap[a]</span> of the clave – along with the smell of the ocean toward the heart of the city."
     },
     {
       "type": "text",
-      "value": "The noise gradually fades and the street clears but for two lone skaters: a tall one with dyed blonde curls peeking out from under a black snapback, and a small 12-year-old rolling behind him. All the commotion has stopped, and a still quiet sets in. Skaters sit along the walls conversing in hushed voices as two men wearing stiff, gray uniforms and old-fashioned berets stroll through El Prado. They walk with purpose, examining the throng of skaters with suspicion, pausing only to speak to the two rebels who continued skating. Finally, they walk away, the two young skaters trailing leisurely behind in a cooperative, but unenthusiastic manner. They’re gone. And, just like that, everything goes back to normal. The skaters pile back onto the street. The loud bangs and chatter and laughter fill the air once more. None of the skaters mention the disappearance of their friends or seem concerned about their welfare. And, when two more are taken away 30 minutes later, the reaction is equally indifferent."
+      "value": "A teenager on roller blades maneuvers through the dance performance, stopping at a bench crowded with tattooed teens sharing a cigarette. In Cuba, tattooing is illegal, but it’s not uncommon to see older teens with tattoos they got from a makeshift parlor hidden in a dilapidated Havana apartment. At their feet, skateboards scatter the ground. The sound of silicone wheels slapping the marble surface overwhelms the place as skaters land ollies and kickflips and toss their boards onto the hard floor. An 8-year-old boy skates up to a group of guys in their early 20’s and daps them up like old friends. Age doesn’t seem to be a discriminating factor here, and neither does style. Skaters in black share the street with those in Hawaiian shirts and gym shorts. Here, punk and rock and Rasta are all <span class='italic'>familia</span>. They’ve come to El Prado for a competition, many with twisted ankles or broken boards, happy just to be there witnessing the action."
+    },
+    {
+      "type": "text",
+      "value": "The noise gradually fades and the street clears but for two lone skaters: a tall one with dyed blonde curls peeking out from under a black snapback, and a small 12-year-old rolling behind him. All the commotion has stopped, and a still quiet sets in. Skaters sit along the walls conversing in hushed voices as two men wearing stiff, gray uniforms and old-fashioned berets stroll through El Prado. They walk with purpose, examining the throng of skaters with suspicion, pausing only to speak to the two rebels who continued skating. Finally, they walk away, the two young skaters trailing leisurely behind in a cooperative, but unenthusiastic manner. They’re gone. And, just like that, everything goes back to normal. The skaters pile back onto the street. The loud bangs and chatter and laughter fill the air once more. None of the skaters mention the disappearance of their friends or seem concerned about their welfare. When two more are taken away 30 minutes later, the reaction is equally indifferent."
     },
     {
       "type": "video",
@@ -61,10 +61,6 @@
     {
       "type": "text",
       "value": "“When you see police, you sit,” said Junnior Gilberto Terré, 20, who’s perched on a concrete bench rolling a skateboard back and forth with his bandaged leg. Junnior has come to El Prado to visit friends, chain smoke cigarettes and maybe try out a few tricks now that his knee is healing. It’s been more than a year since he injured it landing a faulty jump and he’s eager to get back in the air."
-    },
-    {
-      "type": "slider",
-      "value": {}
     },
     {
       "type": "text",
@@ -186,12 +182,6 @@
     {
       "type": "text",
       "value": "A bearded man wearing dark sunglasses sits by El Prado, pulling wheels and metal skateboard parts from a backpack. Local skaters swarm around the foreigner, like a flock of gulls plunging toward a piece of bread left on the sand. They take what they can get and ration the gear among themselves before rolling back down the promenade to attach the new parts or practice a trick. They migrate toward Cristian and the other skaters whose boards are still intact, and the group zigzags toward the center of the city."
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/finder.ejs"
-      }
     }
   ],
   "slider-images": [
