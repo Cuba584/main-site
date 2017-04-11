@@ -1,5 +1,45 @@
 /* ------------------ Global Styles ------------ */
 /*change page colors here!*/
+.everyone.mixitup-control-active {
+  color: #000000;
+  font-weight: 400; }
+
+.everyone:hover {
+  font-weight: 400;
+  color: #000000; }
+
+.videographer.mixitup-control-active {
+  color: #34788D;
+  font-weight: 400; }
+
+.videographer:hover {
+  font-weight: 400;
+  color: #34788D; }
+
+.reporter.mixitup-control-active {
+  color: #9A9A64;
+  font-weight: 400; }
+
+.reporter:hover {
+  font-weight: 400;
+  color: #9A9A64; }
+
+.designdev.mixitup-control-active {
+  color: #AE5B53;
+  font-weight: 400; }
+
+.designdev:hover {
+  font-weight: 400;
+  color: #AE5B53; }
+
+.coach.mixitup-control-active {
+  color: #91C9AC;
+  font-weight: 400; }
+
+.coach:hover {
+  font-weight: 400;
+  color: #91C9AC; }
+
 nav .wrapper {
   -webkit-box-sizing: initial;
   box-sizing: initial; }
@@ -38,8 +78,6 @@ a:hover, a:focus {
       color: #070707;
       font-weight: 300;
       cursor: pointer; }
-  .team-nav .mixitup-control-active {
-    font-weight: 400; }
 
 .hero img {
   width: 100vw; }
