@@ -183,14 +183,14 @@
 }
 
 
-@include media("screen", "<=lg") {
+@include media("screen", "<=photog-mid") {
   .hiphop-year {
     margin: 2px;
     font-size: .7em;
   }
   .hiphop-name {
     font-size: 1em;
-    margin-top: 5px;
+    margin-top: 8px;
   }
   .hiphop-text {
     p {
@@ -207,6 +207,13 @@
   }
 }
 
+@include media("screen", "<=hiphop-mid") {
+  .hiphop-name {
+    font-size: .9em;
+    margin-top: 1px;
+  }
+}
+
 @include media("screen", "<=md") {
   #hiphop-wrap-mobile > ul > li {
     width: 72vw;
@@ -219,7 +226,8 @@
     display: none;
   }
   .hiphop-name {
-    font-size: .85em;
+    font-size: .7em;
+    margin-top: 10px;
   }
   .hiphop-year {
     font-size: .6em;
@@ -227,20 +235,21 @@
   }
   .hiphop-panel {
     height: 65vh;
-    width: 72vw;
+    width: 38vw;
     // padding: 0;
-    padding: 8px;
+    padding: 12px;
+    margin: 0 auto;
   }
   .hiphop-card div {
     // width: 66vw;
     // height: 60vh;
     // margin: 2.5vh 3vw;
     height: 65vh;
-    width: 70vw;
+    width: 38vw;
     // padding: 1vw;
   }
   .hiphop-card-mobile {
-    width: 70vw;
+    width: 38vw;
   }
   .hiphop-bio {
     font-size: .5em;
@@ -266,11 +275,17 @@
     // width: 66vw;
     // height: 60vh;
     // margin: 2.5vh 3vw;
-    height: 65vh;
-    width: 68vw;
+    height: 60vh;
+    width: 65vw;
+    margin-top: 2.5vh;
     // padding: 1vw;
   }
   .hiphop-card-mobile {
-    width: 68vw;
+    width: 65vw;
+    margin: 0 auto;
+  }
+  .hiphop-panel {
+    width: 72vw;
+    padding: 0;
   }
 }

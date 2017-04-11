@@ -146,13 +146,13 @@
   .hiphop-panel {
     padding: 8px; } }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1260px) {
   .hiphop-year {
     margin: 2px;
     font-size: .7em; }
   .hiphop-name {
     font-size: 1em;
-    margin-top: 5px; }
+    margin-top: 8px; }
   .hiphop-text p {
     word-wrap: break-word;
     word-break: normal; }
@@ -161,6 +161,11 @@
   .hiphop-bio {
     font-size: .75em;
     margin-bottom: 2px; } }
+
+@media screen and (max-width: 1045px) {
+  .hiphop-name {
+    font-size: .9em;
+    margin-top: 1px; } }
 
 @media screen and (max-width: 1020px) {
   #hiphop-wrap-mobile > ul > li {
@@ -171,19 +176,21 @@
   #hiphop-wrap {
     display: none; }
   .hiphop-name {
-    font-size: .85em; }
+    font-size: .7em;
+    margin-top: 10px; }
   .hiphop-year {
     font-size: .6em;
     margin-bottom: 12px; }
   .hiphop-panel {
     height: 65vh;
-    width: 72vw;
-    padding: 8px; }
+    width: 38vw;
+    padding: 12px;
+    margin: 0 auto; }
   .hiphop-card div {
     height: 65vh;
-    width: 70vw; }
+    width: 38vw; }
   .hiphop-card-mobile {
-    width: 70vw; }
+    width: 38vw; }
   .hiphop-bio {
     font-size: .5em; }
   .hiphop-text a {
@@ -197,7 +204,12 @@
 
 @media screen and (max-width: 570px) {
   .hiphop-card div {
-    height: 65vh;
-    width: 68vw; }
+    height: 60vh;
+    width: 65vw;
+    margin-top: 2.5vh; }
   .hiphop-card-mobile {
-    width: 68vw; } }
+    width: 65vw;
+    margin: 0 auto; }
+  .hiphop-panel {
+    width: 72vw;
+    padding: 0; } }
