@@ -5,6 +5,37 @@ $text-gray: #070707;
 $medium-gray: #3C3C3C;
 $light-gray: #efefef;
 
+
+@mixin about-page-colors ($colors...){
+  @each $i in $colors {
+    .#{nth($i, 1)}{
+      &.mixitup-control-active {
+        color: nth($i,2);
+        font-weight: 400;
+      }
+      &:hover {
+        font-weight: 400;
+        color: nth($i, 2);
+        }
+      }
+  }
+}
+
+// li {
+//   &:hover{
+//     color: black;
+//   }
+// }
+
+@include about-page-colors (
+  'everyone' $everyone,
+  'videographer' $videographer,
+  'reporter' $reporter,
+  'designdev' $designdev,
+  'coach' $coach
+);
+
+
 .center-wrapper{
   display:flex;
   justify-content: center;
@@ -45,9 +76,6 @@ a:hover, a:focus {
       font-weight: 300;
       cursor: pointer;
     }
-  }
-  .mixitup-control-active {
-    font-weight: 400;
   }
 }
 
