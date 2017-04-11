@@ -1,6 +1,3 @@
-.timeline__img {
-  width: 50vw; }
-
 .timeline {
   display: flex;
   margin: 0 auto;
@@ -43,10 +40,12 @@
 
 .timeline-item {
   padding: 40px 0;
+  opacity: 1;
   transition: .5s;
   box-sizing: border-box;
   width: calc(50% - 40px);
   display: flex;
+  position: relative;
   transform: translateY(-80px); }
 
 .timeline-item:before {
@@ -79,8 +78,7 @@
 
 .timeline-item--active {
   opacity: 1;
-  transform: translateY(0);
-  filter: blur(0px); }
+  transform: translateY(0); }
 
 .timeline-item--active:before {
   top: 50%;
@@ -111,7 +109,9 @@
 .timeline-container {
   width: 100%;
   position: relative;
-  padding-top: 4vh; }
+  padding: 80px 0;
+  background-attachment: fixed;
+  background-size: cover; }
 
 .timeline-container:before {
   position: absolute;
