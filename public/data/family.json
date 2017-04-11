@@ -7,8 +7,8 @@
     "attribution": "Natalie Roush"
   },
   "header": {
-    "text": "Caregivers and confidants",
-    "subtitle": "The young, the old and the aging of Cuba"
+    "text": "Viva Familia",
+    "subtitle": "Unspoken empathy transcends generations"
   },
   "reporters": [
     {
@@ -34,13 +34,6 @@
       "value": {
         "360": "false",
         "id": "200984993"
-      }
-    },
-    {
-      "type": "video",
-      "value": {
-        "360": "true",
-        "id": "210269956"
       }
     },
     {
@@ -76,7 +69,7 @@
     {
       "type": "subhead",
       "value": {
-        "text": "The playmaker and the caregiver"
+        "text": "Caregiver and playmaker"
       }
     },
     {
@@ -89,7 +82,7 @@
     },
     {
       "type": "text",
-      "value": "But it’s too late to think about that now. He’s already sprinting down the court toward the offensive end after stealing the ball. His eyes scan the court, searching for the assist, but nobody’s open. He keeps in and fires the ball at the net; it pings off the turquoise wall for a goal, and the celebration ensues. Diego smacks high fives like he’s slapping the surface of a lake, and cries of delight bounce off the white stadium ceiling. The defender has become the playmaker."
+      "value": "But it’s too late to think about that now. He’s already sprinting down the court toward the offensive end after stealing the ball. His eyes scan the court, searching for the assist, but nobody’s open. He keeps it, then fires the ball at the net; it pings off the turquoise wall for a goal, and the celebration ensues. Diego smacks high fives like he’s slapping the surface of a lake, and cries of delight bounce off the white stadium ceiling. The defender has become the playmaker."
     },
     {
       "type": "text",
@@ -105,16 +98,7 @@
     },
     {
       "type": "text",
-      "value": "Diego was 4 when he took his first picture, and the passion was a natural fit. While his friends noticed his talent, they discouraged him from turning to photography for a career — too unpredictable, they said."
-    },
-    {
-      "type": "image",
-      "value": {
-        "src": "family_012.jpg",
-        "alt": "A picture of Juan and Gabriella in the skate competition.",
-        "attribution": "Claire Collins",
-        "caption": "Juan and Gabriella take turns skating down a ramp on a sunny Havana day."
-      }
+      "value": "Diego was 4 when he took his first picture, and the passion was a natural fit. While his friends took notice of his talent, they discouraged him from turning to photography for a career — too unpredictable, they said."
     },
     {
       "type": "text",
@@ -127,7 +111,7 @@
     {
       "type": "subhead",
       "value": {
-        "text": "The little cave"
+        "text": "Cave creations"
       }
     },
     {
@@ -148,7 +132,14 @@
     },
     {
       "type": "text",
-      "value": "Unlike Diego, Coralia fought her family to pursue her passions. Her father wanted her to be an accountant, but Coralia’s soul didn’t fit that mold. She started university studying philosophy and literature but took three years off from school after her first year because the university closed during the revolution. When the university reopened, Coralia got a scholarship to spend a year in the United States studying at UNC-Chapel Hill."
+      "value": "Unlike Diego, Coralia fought her family to pursue her passions. Her father wanted her to be an accountant, but Coralia’s soul didn’t fit that mold. She started university studying philosophy and literature but took three years off after her first year, because the university closed during the revolution. When the university reopened, Coralia got a scholarship to spend a year in the United States studying at UNC-Chapel Hill."
+    },
+    {
+      "type": "video",
+      "value": {
+        "360": "true",
+        "id": "210269956"
+      }
     },
     {
       "type": "text",
@@ -171,7 +162,7 @@
     {
       "type": "subhead",
       "value": {
-        "text": "Cuba’s aging population"
+        "text": "The roles reverse"
       }
     },
     {
@@ -180,7 +171,7 @@
     },
     {
       "type": "text",
-      "value": "The sun beats down on his brow while he ascends the hill. The longer Diego is outside pedaling his bike down the streets of Havana, the more he can feel the heat burrowing into his skin."
+      "value": "The sun beats down on his brow while the hill he’s ascending pounds his legs. The longer Diego is outside pedaling his bike down the streets of Havana, the more he can feel the heat burrowing into his skin."
     },
     {
       "type": "text",
@@ -188,7 +179,7 @@
     },
     {
       "type": "text",
-      "value": "But Diego shrugs off the trek. Biking isn’t so bad, he says; waiting in line is the worst part. Twenty minutes of staring at the ceiling, his toes and his black watch, the second hand revolving ceaselessly."
+      "value": "But Diego shrugs off the trek. Biking isn’t so bad, he says; waiting in line is the worst part. Twenty minutes with nothing to do but stare at the ceiling, his toes and his black watch, the second hand revolving ceaselessly."
     },
     {
       "type": "text",
@@ -200,7 +191,7 @@
     },
     {
       "type": "text",
-      "value": "But part of that ties to housing. Homes are expensive, and as young people struggle to find a job in the city that aligns with their education level, staying in the family home is easier. Coralia’s situation is atypical."
+      "value": "But part of that ties to housing. Homes are expensive, and as young people struggle to find a job that aligns with their education level, staying in the family home is easier in Havana. Still, Coralia’s situation is atypical."
     },
     {
       "type": "text",
@@ -208,7 +199,7 @@
     },
     {
       "type": "text",
-      "value": "When Diego was 20, Coralia’s doctor said she needed someone to live with her. But Adriana had just bought a house in another town, and Diego’s brother was only 12; someone had to raise him. Adriana presented Diego with a choice. Care for Coralia or his brother? It was a no-brainer. A growing boy was too much responsibility, and there was something about Coralia — a connection they shared from all the time spent together when Diego was a kid. It’s a different relationship now. He’s still the grandson but not quite the boy who stopped on the sidewalk to listen to his grandmother’s lectures on architecture. Diego does the intensive house cleaning. He runs errands, monitors Coralia’s medical visits and watches over her."
+      "value": "When Diego was 20, Coralia’s doctor said she needed someone to live with her. But Adriana had just bought a house in another town, and Diego’s brother was only 12; someone had to raise him. Adriana presented Diego with a choice. Care for Coralia, or his brother? It was a no-brainer. A growing boy was too much responsibility, and there was something about Coralia — a connection they shared from all the time spent together when Diego was a kid. It’s a different relationship now. He’s still the grandson, but not quite the boy who stopped on the sidewalk to listen to his grandmother’s lectures on architecture. Diego does the intensive house cleaning. He runs errands, monitors Coralia’s medical visits and watches over her."
     },
     {
       "type": "text",
@@ -217,7 +208,7 @@
     {
       "type": "subhead",
       "value": {
-        "text": "Dulces and brujitas"
+        "text": "A redefined reliance"
       }
     },
     {
@@ -226,7 +217,7 @@
     },
     {
       "type": "text",
-      "value": "She sifts through a collection of wires and settles on a white one — hard enough to stay in place when bent but soft enough to cut. One piece for the arms, one for the legs. She slides both inside black shoelaces and ties them together. Once she adds the head — a piece of a tan stocking stuffed with cotton, the <span class='italic'>brujita</span> gets a name."
+      "value": "She sifts through a collection of wires and settles on a white one — hard enough to stay in place when bent but soft enough to cut. One piece for the arms, one for the legs. She slides both inside black shoelaces and ties them together. Once she adds the head — a piece of a tan stocking stuffed with cotton, she gives the <span class='italic'>brujita</span> a name."
     },
     {
       "type": "text",
@@ -246,7 +237,7 @@
     },
     {
       "type": "text",
-      "value": "That smile stretches across Diego’s face now as he sits at the kitchen table and seeks Coralia’s opinion on clothing before leaving the house. “She always tells me that it’s cold,” he says, “that I need a jacket.” He stares at one of Coralia’s dangling <span class='italic'>brujitas</span> before turning back and continuing. If he’s sending an important email, he seeks input from his grandmother, the grammar aficionado. When he wants perspective outside the photography sphere, he consults Coralia. Daily tasks don’t slip through the cracks with his on-the-move lifestyle because Coralia will bring the clothes on the line inside if it rains, and she’ll take a message on the phone."
+      "value": "That smile stretches across Diego’s face now as he sits at the kitchen table and tells how he seeks Coralia’s opinion on clothing before leaving the house. “She always tells me that it’s cold,” he says, “that I need a jacket.” He stares at one of Coralia’s dangling <span class='italic'>brujitas</span> before turning back and continuing. If he’s sending an important email, he seeks input from his grandmother, the grammar aficionado. When he wants perspective outside the photography sphere, he consults Coralia. Daily tasks don’t slip through the cracks with his on-the-move lifestyle, because Coralia will bring the clothes on the line inside if it rains, and she’ll take a message on the phone."
     },
     {
       "type": "text",
@@ -254,7 +245,7 @@
     },
     {
       "type": "text",
-      "value": "Her home has evolved and so has her role. Diego doesn’t need to be raised anymore, but he still leans on her — not as his caregiver."
+      "value": "Her home has evolved, and so has her role. Diego doesn’t need to be raised anymore, but he still leans on her — not as his caregiver."
     },
     {
       "type": "text",
@@ -263,7 +254,7 @@
     {
       "type": "subhead",
       "value": {
-        "text": "Two artists"
+        "text": "Moving forward together"
       }
     },
     {
@@ -276,15 +267,15 @@
     },
     {
       "type": "text",
-      "value": "Together they drift down the neighborhood streets to buy food at the nearby market. Occasionally the pair bumps into an older neighbor and stops to exchange kisses. Coralia selects the food from produce stands and uses the money from her purse to pay. When they leave, Diego carries the white plastic bag."
+      "value": "Together they drift down the neighborhood streets to buy food at the nearby market. Occasionally, the pair bumps into an older neighbor and stops to exchange kisses. Coralia selects the food from produce stands and uses the money from her purse to pay. But when they leave, Diego carries the white plastic bag in his right hand. Later, Coralia will transform that into a meal."
     },
     {
       "type": "text",
-      "value": "Cuba’s youthful and aging generations forge into the future surrounded by uncertainty. How the country will cope with the demands of a growing retired population, how it will foster opportunity for the youth amidst housing and employment deficits, how it’ll adapt to the changing global landscape. For Cubans, old and young, the destination is a mystery, but one thing is clear in this journey of generations: They move as equals."
+      "value": "Cuba’s youthful and aging generations forge into the future surrounded by uncertainty. How the country will cope with the demands of a growing retired population, how it will foster opportunity for the youth amidst housing and employment deficits, how it will adapt to the changing global landscape. For Cubans, old and young, the destination is a mystery, but one thing is clear in this journey of generations: They move as equals."
     },
     {
       "type": "text",
-      "value": "That’s true for Diego and Coralia as they glide under the sun. Diego with his long, anxious limbs looks like he could take off any minute, while Coralia, her bag draped on her walker, is deliberate with every step. But look closer. They aren’t so different. The bookworm who religiously spins her thumbs in circles and the soccer star who can’t sit still."
+      "value": "That’s true for Diego and Coralia, as they glide under the sun and take each other in. Diego with his long, anxious limbs looks like he could take off any minute, while Coralia, her bag draped on her walker, is deliberate with every step. But look closer. They aren’t so different. The bookworm who religiously spins her thumbs in circles and the soccer star who can’t sit still."
     },
     {
       "type": "text",
