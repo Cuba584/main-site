@@ -171,6 +171,84 @@
       "value": {
         "filename": "interactives/moneyslider.ejs"
       }
+    },
+    {
+      "type": "slider",
+      "value": {}
+    }
+  ],
+  "slider-images": [
+    {
+      "src": "harbor_sl_01.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "harbor_sl_02.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "harbor_sl_03.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "harbor_sl_04.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "harbor_sl_05.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "harbor_sl_06.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "harbor_sl_07.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "harbor_sl_08.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "harbor_sl_09.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "harbor_sl_10.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "harbor_sl_11.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "harbor_sl_12.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
     }
   ]
 }

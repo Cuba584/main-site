@@ -41,7 +41,6 @@
   .inner figcaption {
     line-height: 1.8em;
     margin-left: 1.2vw;
-    padding-right: 20vw;
     font-size: .95em;
     font-weight: 400;
     letter-spacing: .02em; }
@@ -74,7 +73,8 @@
   .inner .subhead {
     font-weight: 500;
     font-size: 1.675em;
-    margin: 1.5em 0 0 0; }
+    margin: 1.5em 0 0 0;
+    transition: 1s opacity; }
 
 #inner-title-box {
   font-family: "Montserrat", sans-serif;
@@ -166,7 +166,7 @@
 
 @media screen and (max-width: 570px) {
   .inner #cinemagraph {
-    margin-top: 58px; }
+    margin-top: 50px; }
   .inner figure {
     flex-wrap: wrap;
     margin: 0; }
