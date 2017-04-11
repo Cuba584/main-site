@@ -1,6 +1,14 @@
 @import '_vars';
 @import '_include-media';
 
+*{
+  &:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+}
+
 @mixin config-page-colors($colors...) {
     @each $i in $colors {
         .#{nth($i, 1)} {
@@ -32,6 +40,11 @@
     display:flex;
     justify-content:space-between;
   }
+
+  .slider-left{
+    margin-right:auto!important;
+  }
+
   #custom-slider {
     width: 100%;
     overflow: hidden;
@@ -57,7 +70,8 @@
   }
 
   .pic {
-      width:100%;
+      // width:100%;
+      max-width:70vw;
   }
 
   button {
@@ -71,20 +85,19 @@
   .caption {
     color: #000;
     width: 30%;
+    margin-left:1vw;
     position: relative;
     display:flex;
     flex-direction:column;
   }
 
-  #caption-text {
-    font-family: $roboto;
-    float: left;
-    min-height:15vh;
-  }
-
   .pg-figcaption {
     padding-top:1em;
     width:calc(100% - 50px);
+  }
+
+  .fig-attr{
+    margin:0;
   }
 
 
@@ -104,27 +117,52 @@
     }
   }
 
+
+//STACK
   @include media("screen", "<=md") {
     #custom-slider > ul > li {
-      display: initial;
-    }
-    .pic {
-      height: auto;
+      // display: initial;
+      flex-direction:column;
+      justify-content:center;
+
     }
     .pg-figcaption{
-      margin-top:2vh;
+      border-top:none;
+      margin-top:-12vh;
+      width:70%;
+      margin-left:15%;
     }
+    .pic {
+      // height: auto;
+      // max-width:100vw;
+      max-height:80vh;
+      width:100%;
+      max-width:none;
+    }
+    .pic-style{
+      // display:flex;
+      // justify-content: center;
+    }
+
     .caption {
       width: 100%;
       margin-top:0;
+      justify-content:space-around;
+      flex-direction:column-reverse;
+      margin-left:0;
+    }
+
+
+    .arrow-wrapper{
+      z-index:1;
+      display:flex;
+      justify-content:space-around;
     }
   }
 
   @include media ("screen", "<=xs") {
 
-    .pg-figcaption{
-      border-top:none;
-    }
+
 
     #custom-slider {
       height: auto;
