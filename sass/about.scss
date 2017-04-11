@@ -6,7 +6,6 @@ $medium-gray: #3C3C3C;
 $light-gray: #efefef;
 
 
-
 @mixin about-page-colors ($colors...){
   @each $i in $colors {
     .#{nth($i, 1)}{
@@ -37,7 +36,6 @@ nav .wrapper {
 -webkit-box-sizing: initial;
 box-sizing: initial;
 }
-
 
 .center-wrapper{
   display:flex;
