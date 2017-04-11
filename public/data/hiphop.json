@@ -125,7 +125,15 @@
     },
     {
       "type": "text",
+<<<<<<< HEAD
       "value": "Cuba’s sound is continuing to develop — maybe transculturation never stops. But Reyna and Yadira don’t want to forget the traditions of Cuba’s past; instead, they’re learning how to bring the best parts of Cuban history into the future, equipping other women with empowerment to let their voices be heard. Yes, they’re still cooking rice for dinner — maybe in arroz con pollo or arroz a la cubana, the traditional Cuban dishes they grew up eating. But these days, it’s okay to let it burn. It tastes better that way."
+=======
+      "value": "Vestibulum dapibus gravida interdum. Etiam convallis feugiat urna, vel fermentum libero vestibulum quis. Sed quam ipsum, dapibus at suscipit eget, placerat eu lorem. Nunc vulputate enim eros, ut consequat diam scelerisque non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ornare dolor vel ante sodales bibendum at sed dolor. Vestibulum at purus euismod, suscipit lorem eleifend, varius massa. Nullam vel vestibulum turpis, ut pulvinar lorem."
+    },
+    {
+      "type": "slider",
+      "value": {}
+>>>>>>> 902ba81acd3654d5438fe9a0ebe9bc57b91dfb3c
     }
   ],
   "slider-images": [

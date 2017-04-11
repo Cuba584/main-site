@@ -210,6 +210,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "type": "text",
       "value": "Much like their son, the Mendez’s front door stands out. It’s still wrapped up in protective cellophane, shielding a new coat of dark cherry paint that lusters amidst the weathered wooden doors surrounding it. Because of Orlando’s income, his family can afford renovations like this. Orlando’s dad, Orlando Sr., darts around the apartment like a kid on Christmas when he shows off the new tiled floors he helped put down in his bedroom. They might as well be made of gold — they’re valued at over 1,000 dollars."
     },
@@ -232,6 +233,12 @@
   ],
   "Text": "“Because we’re creative”",
   "filename": "interactives/moneyslider.ejs",
+=======
+      "type": "slider",
+      "value": {}
+    }
+  ],
+>>>>>>> 902ba81acd3654d5438fe9a0ebe9bc57b91dfb3c
   "slider-images": [
     {
       "src": "harbor_sl_01.jpg",

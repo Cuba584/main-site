@@ -134,6 +134,17 @@
       }
     },
     {
+<<<<<<< HEAD
+=======
+      "type": "text",
+      "value": "Like many in the United States, the skaters of Havana are constantly recording. They’ll tell you they’re photographers or videographers, but the subject of their work is the same: skateboarders. Using phone cameras, they film each other jumping over walls or doing 180 ollies and backside heelflips, then edit the footage together on their phones. “To get the boards most of the time we film videos, take photos and upload them to the Internet,” Stephanie said. “Many people come from other countries to help us. They’re interested in why so many Cubans skate if they don’t have a place to get the equipment. So they bring them to us. They give them as gifts.”"
+    },
+    {
+      "type": "slider",
+      "value": {}
+    },
+    {
+>>>>>>> 902ba81acd3654d5438fe9a0ebe9bc57b91dfb3c
       "type": "subhead",
       "value": {
         "text": "The Original Revolutionaries & The New Rebels"
@@ -179,12 +190,62 @@
     {
       "type": "text",
       "value": "A bearded man wearing dark sunglasses sits by El Prado, pulling wheels and metal skateboard parts from a backpack. Local skaters swarm around the foreigner, like a flock of gulls plunging toward a piece of bread left on the sand. They take what they can get and ration the gear among themselves before rolling back down the promenade to attach the new parts or practice a trick. They migrate toward Cristian and the other skaters whose boards are still intact, and the group zigzags toward the center of the city."
+    }
+  ],
+  "slider-images": [
+    {
+      "src": "skate_sl_01.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
     },
     {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/finder.ejs"
-      }
+      "src": "skate_sl_02.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "skate_sl_03.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "skate_sl_04.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "skate_sl_05.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "skate_sl_06.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "skate_sl_07.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "skate_sl_08.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
+    },
+    {
+      "src": "skate_sl_09.jpg",
+      "alt": "title placeholder",
+      "attribution": "photocredit name",
+      "caption": "placeholder caption"
     }
   ],
   "slider-images": [
