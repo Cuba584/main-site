@@ -7,8 +7,8 @@
     "attribution": "Kira Dalman"
   },
   "header": {
-    "text": "The Agency of Rap",
-    "subtitle": "Social issues are front and center"
+    "text": "Let the Rice Burn",
+    "subtitle": "Rap as a form of protest in Cuba"
   },
   "reporters": [
     {
@@ -33,23 +33,9 @@
   ],
   "text": [
     {
-      "type": "text",
-      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum nibh imperdiet dolor maximus tempor. Morbi at dui et sem semper rhoncus eget vel ex. Nulla ante mi, maximus quis risus ut, egestas gravida lacus. Donec ornare finibus lectus gravida egestas. Cras lobortis ultricies massa, id luctus risus semper vitae. Suspendisse sodales mauris sed ex malesuada porta. Praesent a commodo mi, ut convallis lacus. Vivamus rhoncus velit vel arcu efficitur, id blandit libero dictum. Etiam vitae velit turpis. Nunc quis imperdiet erat. Nulla sodales eros at erat lacinia eleifend. Aliquam erat volutpat. Maecenas enim lectus, facilisis ac suscipit a, dictum nec dui. Sed in lectus aliquet, tristique sem id, convallis neque."
-    },
-    {
       "type": "video",
       "value": {
         "id": "200984993"
-      }
-    },
-    {
-      "type": "text",
-      "value": "Donec gravida vestibulum nisl ut ullamcorper. Donec efficitur efficitur feugiat. Pellentesque eu turpis sit amet lectus interdum scelerisque. Nam a mi non ante auctor molestie. Duis ut faucibus ligula, sed viverra magna. Duis id lacus posuere, hendrerit magna vitae, fringilla lectus. Sed pulvinar suscipit convallis."
-    },
-    {
-      "type": "subhead",
-      "value": {
-        "text": "Burning Rice"
       }
     },
     {
@@ -73,6 +59,10 @@
     {
       "type": "text",
       "value": "Though rap is an emerging musical genre in Cuba, Alberto Faya, a professor of Cuban culture at the University of Havana, says music has always been integral to the country’s cultural development, specifically the process of transculturation: When different cultures meld over long periods of time to help form a national identity. It is transculturation that produced Son, the fusion of percussion created by African slaves with the stringed instruments introduced by the Spanish. Cuban music, Faya says, is reliant on the incorporation and adaptation of other sounds to continue evolving."
+    },
+    {
+      "type": "slider",
+      "value": {}
     },
     {
       "type": "text",
@@ -112,10 +102,6 @@
       "value": "Reyna and Yadira, both 31, didn’t always dream they’d be rappers. Yadira worked as a social worker for a few years, and Reyna was on her way to becoming a chemical engineer when a baby interrupted those plans — a son, Michel, who is now nine and wants to be a rapper, too. A few years after becoming a mom, she decided to pursue music."
     },
     {
-      "type": "slider",
-      "value": {}
-    },
-    {
       "type": "text",
       "value": "It was Moises Whittaker Alvarez who helped unite them in 2012, who is now the only manager they’ve ever worked with. He knew them as individual performers, but something about their styles — the way they can so fiercely perform their “protest music,” but also fill whatever room they’re in with instantaneous laughter and light — told him that, even though they didn’t know each other, they needed each other."
     },
@@ -132,10 +118,6 @@
       "value": "Reyna and Yadira rap about real life — their struggles, their triumphs, their relationships, everything — but they do so while staying optimistic and empowering other women, too. They acknowledge their chosen profession is mostly male — of the 34 artists currently working at the rap agency, six are female."
     },
     {
-      "type": "text",
-      "value": "Cuba’s sound is continuing to develop — maybe transculturation never stops. But Reyna and Yadira don’t want to forget the traditions of Cuba’s past; instead, they’re learning how to bring the best parts of Cuban history into the future, equipping other women with empowerment to let their voices be heard. Yes, they’re still cooking rice for dinner — maybe in arroz con pollo or arroz a la cubana, the traditional Cuban dishes they grew up eating. But these days, it’s okay to let it burn. It tastes better that way."
-    },
-    {
       "type": "interactive",
       "value": {
         "filename": "interactives/hiphop.ejs"
@@ -143,7 +125,7 @@
     },
     {
       "type": "text",
-      "value": "Vestibulum dapibus gravida interdum. Etiam convallis feugiat urna, vel fermentum libero vestibulum quis. Sed quam ipsum, dapibus at suscipit eget, placerat eu lorem. Nunc vulputate enim eros, ut consequat diam scelerisque non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ornare dolor vel ante sodales bibendum at sed dolor. Vestibulum at purus euismod, suscipit lorem eleifend, varius massa. Nullam vel vestibulum turpis, ut pulvinar lorem."
+      "value": "Cuba’s sound is continuing to develop — maybe transculturation never stops. But Reyna and Yadira don’t want to forget the traditions of Cuba’s past; instead, they’re learning how to bring the best parts of Cuban history into the future, equipping other women with empowerment to let their voices be heard. Yes, they’re still cooking rice for dinner — maybe in arroz con pollo or arroz a la cubana, the traditional Cuban dishes they grew up eating. But these days, it’s okay to let it burn. It tastes better that way."
     }
   ],
   "slider-images": [

@@ -70,25 +70,12 @@
       "value": "Dorian and Damian founded a private business out of their parents’ home in 2011. The same year, the Cuban government enacted a new policy called Los Lineamientos para la Política Económica y Social that listed 300 guidelines for allowing small and medium sized businesses in Cuba to be privately operated. As a result, some state-owned barber shops were allowed to be privately run by staff, giving them more agency to make managerial decisions. Dorian and Damian were granted a license to operate Salon Donde Dorian out of their private residence, but, now that their business is trying to expand it faces new challenges in a country that still very much limits entrepreneurship and access to the Internet. The American dream is the ideal that citizens have an equal opportunity to achieve economic success through hard work, determination and initiative. As the Cuban government loosens its hold allowing Cuba citizens to go into business for themselves, pursuing a similar Cuba dream still proves difficult within a nation that limits opportunity and prides itself on the equal distribution of wealth."
     },
     {
-      "type": "subhead",
-      "value": {
-        "text": "A broken down ferry"
-      }
-    },
-    {
       "type": "text",
       "value": "High above the bustling city streets crowded with classic American built cars from the 1950’s and ‘60’s, Dorian and a group of young models gather in a cluster on the rooftop of an apartment complex. Instead of breathing in the exhaust that circulates on the seaside motorway called El Malecón below them, these young men and women cough through a similar cloud of smoke coming from cans of hairspray. Dorian is feverishly adding finishing touches to the designs he so deliberately molded at the salon as photographers set up their equipment to begin the big photoshoot."
     },
     {
       "type": "text",
       "value": "A young man with fluorescent with pink strands cut into a punk rock chop smolders in front of reflective disks that cast the light just right across his jawline to capture a shot meant to cause young men and women to come clamoring to Donde Dorian’s door. In Cuba, the government bans public advertising. Because restrictions prevent private businesses from running ads in the newspaper or renting billboard space, Donde Dorian has chosen to create new collections that be posted to social media as a part of their strategy to bring in new customers."
-    },
-    {
-      "type": "pullquote",
-      "value": {
-        "text": "Donec in euismod lectus, eget sollicitudin ante. Cras porta sapien quis finibus pulvinar.",
-        "attribution": "Juan Doe"
-      }
     },
     {
       "type": "text",
@@ -152,6 +139,84 @@
     {
       "type": "text",
       "value": "Dorian reminisces about how days attending barber school and said his line is also meant to start new conversations within the Cuban culture about masculinity as well. When he first became a hairdresser, Dorian was ashamed of it because it wasn’t something men did. He said haircutting and fashions always caught his attention as he attended university and he wants to reimagine style for men in Cuba today so that they can take pride in how they look."
+    },
+    {
+      "type": "slider",
+      "value": {}
+    }
+  ],
+  "slider-images": [
+    {
+      "src": "dorian_sl_01.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_02.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_03.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_04.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_05.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_06.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_07.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_08.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_09.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_10.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_11.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+    },
+    {
+      "src": "dorian_sl_12.jpg",
+      "alt": "lorem ipsum",
+      "attribution": "lorem ipsum",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
     }
   ]
 }
