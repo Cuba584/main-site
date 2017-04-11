@@ -108,6 +108,15 @@
       "value": "Diego was 4 when he took his first picture, and the passion was a natural fit. While his friends noticed his talent, they discouraged him from turning to photography for a career — too unpredictable, they said."
     },
     {
+      "type": "image",
+      "value": {
+        "src": "example1.jpg",
+        "alt": "A picture of Juan and Gabriella in the skate competition.",
+        "attribution": "Claire Collins",
+        "caption": "Juan and Gabriella take turns skating down a ramp on a sunny Havana day."
+      }
+    },
+    {
       "type": "text",
       "value": "Not his family. Diego’s father and grandfather both enjoyed the art as a hobby, so Diego started photographing professionally when he was 21. He’s since accumulated an abundance of frozen scenes; some animate the walls of his room. But perhaps the most telling decor is not something Diego captured, but the blue and yellow sign wedged by the door that seems to capture him: A philosophy that passes his gaze every time he leaves his room."
     },
@@ -290,116 +299,58 @@
       "caption": "Coralia Ortiz watches from inside her apartment as Diego walks to the bus to go to his futsal match"
     },
     {
-<<<<<<< HEAD
       "src": "family_sl_02.jpg",
-=======
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/timeline.ejs"
-      }
-    },
-    {
-      "type": "slider",
-      "value": {}
-    }
-  ],
-  "slider-images": [
-    {
-      "src": "Family_01.jpg",
-      "alt": "Coralia’s Place",
-      "attribution": "Natalie Roush",
-      "caption": "Coralia Ortiz watches from inside her apartment as Diego walks to the bus to go to his futsal match"
-    },
-    {
-      "src": "Family_02.jpg",
->>>>>>> 902ba81acd3654d5438fe9a0ebe9bc57b91dfb3c
       "alt": "Diego’s Active Lifestyle",
       "attribution": "Natalie Roush",
       "caption": "Diego's life is just as active as Coralia's is sedentary. He is constantly on the go as he runs from photo shoots to futsal games."
     },
     {
-<<<<<<< HEAD
       "src": "family_sl_03.jpg",
-=======
-      "src": "Family_03.jpg",
->>>>>>> 902ba81acd3654d5438fe9a0ebe9bc57b91dfb3c
       "alt": "Crafts and Memories",
       "attribution": "Natalie Roush",
       "caption": "Surrounded by the crafts she has made to decorate her home, Coralia is lost in thought as she peruses through old family photos."
     },
     {
-<<<<<<< HEAD
       "src": "family_sl_04.jpg",
-=======
-      "src": "Family_04.jpg",
->>>>>>> 902ba81acd3654d5438fe9a0ebe9bc57b91dfb3c
       "alt": "Coralia’s Lifestyle",
       "attribution": "Emma Carl",
       "caption": "At 82 years old, Coralia is limited by her diabetes and slight arthritis. \"But I am crazy and I love to be active!\" says Coralia as she reaches for her walker as she shuffles out the door on her way to the market."
     },
     {
-<<<<<<< HEAD
       "src": "family_sl_05.jpg",
-=======
-      "src": "Family_05.jpg",
->>>>>>> 902ba81acd3654d5438fe9a0ebe9bc57b91dfb3c
       "alt": "Suiting up",
       "attribution": "Natalie Roush",
       "caption": "Diego Delgado tightens his indoor shoes and encourages his team to focus as they get ready to take the court."
     },
     {
-<<<<<<< HEAD
       "src": "family_sl_06.jpg",
-=======
-      "src": "Family_06.jpg",
->>>>>>> 902ba81acd3654d5438fe9a0ebe9bc57b91dfb3c
       "alt": "Diego’s futsal team",
       "attribution": "Natalie Roush",
       "caption": "As the captain of his Futsal team, Diego Delgado pushes his team to play hard against their rivals."
     },
     {
-<<<<<<< HEAD
       "src": "family_sl_07.jpg",
-=======
-      "src": "Family_07.jpg",
->>>>>>> 902ba81acd3654d5438fe9a0ebe9bc57b91dfb3c
       "alt": "Coralia’s Creative Space",
       "attribution": "Natalie Roush",
       "caption": "Light pours in on Coralia's craft space which is a small desk and shelf in her bedroom. Coralia and Diego live together in the three room apartment in Havana, Cuba."
     },
     {
-<<<<<<< HEAD
       "src": "family_sl_08.jpg",
       "alt": "Coralia Ortiz says: “Family is everything.”",
-=======
-      "src": "Family_08.jpg",
-      "alt": "“Family is everthing.”  - Coralia Ortiz",
->>>>>>> 902ba81acd3654d5438fe9a0ebe9bc57b91dfb3c
       "attribution": "Natalie Roush",
       "caption": "\"Mi familia es muy importante!\" exclaims Coralia as she looks through her old family pictures."
     },
     {
-<<<<<<< HEAD
       "src": "family_sl_09.jpg",
-=======
-      "src": "Family_09.jpg",
->>>>>>> 902ba81acd3654d5438fe9a0ebe9bc57b91dfb3c
       "alt": "Diego’s Creative Space",
       "attribution": "Natalie Roush",
       "caption": "Diego stops to check the composition of a shot while he is on assignment for a magazine in Old Havana."
     },
     {
-<<<<<<< HEAD
       "src": "family_sl_10.jpg",
       "alt": "Family Time",
       "attribution": "Natalie Roush",
       "caption": "Every Tuesday, Diego makes time to help his Grandma, Coralia, walk to the market. They use this time to catch up on what's going on in each other's lives."
-=======
-      "src": "Family_10.jpg",
-      "alt": "Family Time",
-      "attribution": "Natalie Roush",
-      "caption": "Every tuesday, Diego makes time to help his Grandma, Coralia, walk to the market. They use this time to catch up on what's going on in each other's lives."
->>>>>>> 902ba81acd3654d5438fe9a0ebe9bc57b91dfb3c
     }
   ],
   "a": []

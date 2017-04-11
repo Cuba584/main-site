@@ -76,6 +76,10 @@
       "value": "But after Orlando reaches Regla, there’s something about him that feels out of place on this side of the harbor, a part of him that his job in Havana has altered. Maybe it’s the collared shirts — he buys all his clothes in America, he says — or his enigmatic energy that feels out of place in Regla’s sleepy streets, or the fact that, unlike some of his Reglan neighbors, Orlando could afford to take a taxi around the harbor back home if he were to miss the boat. “I have a feeling that people know who I am in my neighborhood, and that’s kind of weird,” he says. “But I don’t always know their name.”"
     },
     {
+      "type": "slider",
+      "value": {}
+    },
+    {
       "type": "text",
       "value": "Since December 2014, the doors that have kept Americans from traveling to Cuba for over 50 years have begun to crack open, ushering in an era of tourism that this generation of Cubans has never known. These jobs are changing families, introducing new household dynamics as children are making more money than their parents ever thought plausible. It’s forcing this generation of young workers to reconcile the hardships of their youth — the Special Period of economic collapse in Cuba during the 1990s, when Gross Domestic Product dropped by 34 percent — with a now-tangible notion of hope that lives in Havana. Beyond lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
     },
@@ -210,7 +214,6 @@
       }
     },
     {
-<<<<<<< HEAD
       "type": "text",
       "value": "Much like their son, the Mendez’s front door stands out. It’s still wrapped up in protective cellophane, shielding a new coat of dark cherry paint that lusters amidst the weathered wooden doors surrounding it. Because of Orlando’s income, his family can afford renovations like this. Orlando’s dad, Orlando Sr., darts around the apartment like a kid on Christmas when he shows off the new tiled floors he helped put down in his bedroom. They might as well be made of gold — they’re valued at over 1,000 dollars."
     },
@@ -233,12 +236,6 @@
   ],
   "Text": "“Because we’re creative”",
   "filename": "interactives/moneyslider.ejs",
-=======
-      "type": "slider",
-      "value": {}
-    }
-  ],
->>>>>>> 902ba81acd3654d5438fe9a0ebe9bc57b91dfb3c
   "slider-images": [
     {
       "src": "harbor_sl_01.jpg",
