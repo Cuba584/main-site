@@ -24,7 +24,7 @@
   .internet-graphic .country-cont {
     width: 400px; }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1280px) {
   .internet-graphic .dropdown-cont {
     justify-content: flex-end;
     padding-right: 12vw; }
