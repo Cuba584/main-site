@@ -90,6 +90,10 @@
     margin-top: -12vh;
     width: 70%;
     margin-left: 15%; }
+  #photo-gallery .fig-attr {
+    display: inline-block; }
+  #photo-gallery .fig-descr {
+    margin-bottom: 0; }
   #photo-gallery .pic {
     max-height: 80vh;
     width: 100%;
