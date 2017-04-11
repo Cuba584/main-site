@@ -77,33 +77,37 @@ $(document).ready(function(){
 				</div>
 				</section>
 						<div id="photo-gallery">
-							<div class="arrow-wrapper">
-								<button id="slider-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-								<button id="slider-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-							</div>
+
 						  <div id="custom-slider">
 
 						    <ul id="slider-ul">
 									<% for (s in body["slider-images"]){%>
+									<!-- <div class="slider-wrapper"> -->
+							      <li class="slider-section">
+							        <div class="pic-style">
+							          <img src="../assets/images/photo-gallery/<%=body["master-class"]["class"]%>/<%=body["slider-images"][s]["src"]%>" class="pic"/>
+							        </div>
 
-						      <li class="slider-section">
-						        <div class="pic-style">
-						          <img src="../assets/images/photo-gallery/<%=body["master-class"]["class"]%>/<%=body["slider-images"][s]["src"]%>" class="pic"/>
-						        </div>
+											<div class="caption">
 
-										<div class="caption">
-									    <div id="caption-text">
-									      <figcaption class="pg-figcaption">
-									      <p class="fig-descr"><%=body["slider-images"][s]["caption"]%></p>
-									      <p class="fig-attr">Photo by</p>
-									      <p class="fig-attr"><%=body["slider-images"][s]["attribution"]%></p>
-									    </figcaption>
-									    </div>
-									  </div>
-
-						      </li>
+												<div id="caption-text">
+													<figcaption class="pg-figcaption <%=body["master-class"]["class"]%>">
+														<p class="fig-descr"><%=body["slider-images"][s]["caption"]%></p>
+														<p class="fig-attr">Photo by</p>
+														<p class="fig-attr"><%=body["slider-images"][s]["attribution"]%></p>
+													</figcaption>
+												</div>
+												<div class="arrow-wrapper">
+													<button class="slider-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+													<button class="slider-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+												</div>
+											</div>
+							      </li>
 
 								<% } %>
+
+
+							<!-- </div>-->
 
 						  </div>
 

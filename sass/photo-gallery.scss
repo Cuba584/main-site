@@ -1,10 +1,24 @@
 @import '_vars';
 @import '_include-media';
 
-// *{
-//   clear:both;
-// }
+@mixin config-page-colors($colors...) {
+    @each $i in $colors {
+        .#{nth($i, 1)} {
+            &.pg-figcaption{
+                  border-top:2px solid nth($i, 2);
+            }
+    }
+}
+}
 
+@include config-page-colors(
+    'hiphop'  $orange,
+    'dorian' $green,
+    'skate' $purple,
+    'family' $yellow,
+    'harbor' $blue,
+    'about' $neutral
+);
 
 #photo-gallery {
   display: flex;
@@ -14,16 +28,12 @@
   position:relative;
 
   .arrow-wrapper{
-    position:absolute;
-    top:0;
-    width:100%;
-    text-align:right;
     z-index:1;
-    padding-right:25%;
+    display:flex;
+    justify-content:space-between;
   }
   #custom-slider {
     width: 100%;
-    // height: 100vh;
     overflow: hidden;
     margin-left: 0;
     margin-right: auto;
@@ -31,7 +41,6 @@
 
   #custom-slider > ul {
     width: 100%;
-    // height: 70vh;
     left: -100%;
     transition: 0.5s left;
     list-style: none;
@@ -43,7 +52,6 @@
 
   #custom-slider > ul > li {
     width: 100%;
-    // height: 70vh;
     display: flex;
     justify-content:space-around; /**/
   }
@@ -64,7 +72,8 @@
     color: #000;
     width: 30%;
     position: relative;
-    margin-top:75px;
+    display:flex;
+    flex-direction:column;
   }
 
   #caption-text {
@@ -73,15 +82,9 @@
     min-height:15vh;
   }
 
-  #responsive-slider-left {
-    display: none;
-  }
-
-  #responsive-slider-right {
-    display: none;
-  }
   .pg-figcaption {
-    margin-left:3vw;
+    padding-top:1em;
+    width:calc(100% - 50px);
   }
 
 
@@ -89,20 +92,9 @@
     .pic{
       width:100%;
     }
-    .pg-figcaption{
-      margin-left:1.2vw;
+    #custom-slider > ul > li{
+      justify-content:center;
     }
-  }
-
-  @include media ("screen", ">=xl"){
-      .pg-figcaption {
-        margin-left:8vw;
-      }
-
-      .pic{
-        width:100%;
-      }
-
   }
 
 
@@ -112,42 +104,27 @@
     }
   }
 
-  @include media("screen", ">=photog-mid"){
-
-    .pic{
-      width:100%;
-    }
-  }
-
-
   @include media("screen", "<=md") {
     #custom-slider > ul > li {
       display: initial;
-      // height: 40vh;
     }
     .pic {
       height: auto;
     }
     .pg-figcaption{
-      // margin-top:12vh;
       margin-top:2vh;
     }
     .caption {
       width: 100%;
       margin-top:0;
     }
-    .arrow-wrapper{
-      text-align:right;
-      top:auto;
-      bottom:1%;
-    }
-  }
-
-  @include media ("screen", "<=photog-sm"){
-
   }
 
   @include media ("screen", "<=xs") {
+
+    .pg-figcaption{
+      border-top:none;
+    }
 
     #custom-slider {
       height: auto;
