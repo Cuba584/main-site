@@ -370,18 +370,18 @@ nav {
   background-color:white;
   opacity: .94;
   overflow-x: hidden;
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
+   transition: 0.5s opacity;
+   -webkit-transition:  5s opacity ;
+   -moz-transition: 0.5s opacity;
   .overlay-content{
     position:relative;
     top:15%;
     width:100%;
     margin-left: 8%;
     margin-top:30px;
-    transition-duration:0s;
-    -webkit-transition-duration: 0s;
-    -moz-transition-duration:0s;
+    // transition-duration:0s;
+    -webkit-transition: 5s opacity;
+    // -moz-transition-duration:0s;
     a{
       display:block;
       text-decoration:none;
@@ -390,13 +390,21 @@ nav {
       line-height: 2.6em;
       padding: 0.5%;
     }
+    .mobile-home-link {
+      color: black;
+      position: absolute;
+      top: -28.5%;
+      right: 11%;
+      font-size: 1.5em;
+    }
     #closebtn{
       position:absolute;
-      top:-44.5%;
+      top:-46.5%;
       left: -5%;
       font-size:75px;
       color: black;
       font-weight: 100;
+      transition: none;
     }
     .overlay-item{
       color:black;
@@ -488,6 +496,11 @@ nav {
           .nav-line {
            margin:0 0.5em 0 0.5em;
            height:23px;
+          }
+          .mobile-icons {
+            display: inline-flex;
+            left: 80%;
+            position: relative;
           }
           #trans-btn, #about-btn {
             font-size: .8em;
@@ -616,7 +629,9 @@ nav {
       }
 
       #nav-container {
-        margin-top: 8px;
+        // margin-top: 8px;
+        position: relative;
+        top: 10%;
       }
 
       .logo-wrapper{
@@ -627,10 +642,6 @@ nav {
       }
       nav .nav-icons {
         display: none;
-      }
-
-      .nav-icons-mobile{
-        margin-top: 15%;
       }
 
     }

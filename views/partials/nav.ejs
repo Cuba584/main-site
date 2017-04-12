@@ -72,7 +72,9 @@
     <div class="overlay-content">
        <a href="javascript:void(0)" id="closebtn">&times;</a>
 
-    <a class="hiphop overlay-item" href="/pages/hiphop<%=URL_LANG%>"><span>
+       <a href="/<%=URL_LANG%>" class="mobile-home-link"> <i class="fa fa-home fa-2x"></i></a>
+
+      <a class="hiphop overlay-item" href="/pages/hiphop<%=URL_LANG%>"><span>
 			<%= espanol ? "Que se queme el arroz" : "Let the Rice Burn" %></span>
 		</a>
         <a class="dorian overlay-item" href="/pages/dorian<%=URL_LANG%>">
@@ -87,15 +89,18 @@
         <a class="skate overlay-item" href="/pages/skate<%=URL_LANG%>">
 			<span><%= espanol ? "Una revolución sobre ruedas" : "A Revolution on Wheels" %></span>
 		</a>
-        <a class="about overlay-item" href="/about<%=URL_LANG%>">
-			<span><%= espanol ? "Sobre nosotros" : "About" %></span>
-		</a>
 
       <div class="nav-icons-mobile">
          <div class="sm-icons">
-            <a id="fb" href="https://www.facebook.com/CubasNewWave/" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
-            <a id="twit" href="https://www.twitter.com/CubasNewWave/" target="_blank"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
-            <a id="insta" href="https://www.instagram.com/CubasNewWave/" target="_blank"><i class="fa fa-instagram icons" aria-hidden="true"></i></a>
+           <a class="about overlay-item" href="/about<%=URL_LANG%>">
+             <span><%= espanol ? "Sobre nosotros" : "About" %></span>
+           </a>
+           <div class="mobile-icons">
+             <a id="fb" href="https://www.facebook.com/CubasNewWave/" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
+             <a id="twit" href="https://www.twitter.com/CubasNewWave/" target="_blank"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
+             <a id="insta" href="https://www.instagram.com/CubasNewWave/" target="_blank"><i class="fa fa-instagram icons" aria-hidden="true"></i></a>
+           </div>
+
           </div>
     </div>
   </div>

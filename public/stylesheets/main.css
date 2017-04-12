@@ -475,18 +475,16 @@ nav {
   background-color: white;
   opacity: .94;
   overflow-x: hidden;
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s; }
+  transition: 0.5s opacity;
+  -webkit-transition: 5s opacity;
+  -moz-transition: 0.5s opacity; }
   .overlay .overlay-content {
     position: relative;
     top: 15%;
     width: 100%;
     margin-left: 8%;
     margin-top: 30px;
-    transition-duration: 0s;
-    -webkit-transition-duration: 0s;
-    -moz-transition-duration: 0s; }
+    -webkit-transition: 5s opacity; }
     .overlay .overlay-content a {
       display: block;
       text-decoration: none;
@@ -494,13 +492,20 @@ nav {
       font-weight: 300;
       line-height: 2.6em;
       padding: 0.5%; }
+    .overlay .overlay-content .mobile-home-link {
+      color: black;
+      position: absolute;
+      top: -28.5%;
+      right: 11%;
+      font-size: 1.5em; }
     .overlay .overlay-content #closebtn {
       position: absolute;
-      top: -44.5%;
+      top: -46.5%;
       left: -5%;
       font-size: 75px;
       color: black;
-      font-weight: 100; }
+      font-weight: 100;
+      transition: none; }
     .overlay .overlay-content .overlay-item {
       color: black; }
       .overlay .overlay-content .overlay-item span {
@@ -557,6 +562,10 @@ nav {
   nav .sm-icons .nav-line {
     margin: 0 0.5em 0 0.5em;
     height: 23px; }
+  nav .sm-icons .mobile-icons {
+    display: inline-flex;
+    left: 80%;
+    position: relative; }
   nav .sm-icons #trans-btn, nav .sm-icons #about-btn {
     font-size: .8em; } }
 
@@ -659,15 +668,14 @@ nav {
       align-items: center;
       height: 50px; }
     nav #nav-container {
-      margin-top: 8px; }
+      position: relative;
+      top: 10%; }
     nav .logo-wrapper {
       margin: 0 auto; }
       nav .logo-wrapper #svg-logo {
         width: 130px; }
     nav nav .nav-icons {
       display: none; }
-    nav .nav-icons-mobile {
-      margin-top: 15%; }
   .interactive-wrapper {
     width: 80%;
     border-top: 1px #696969 solid;
