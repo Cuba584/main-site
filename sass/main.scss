@@ -70,7 +70,7 @@ further down on the page or in any of the other .SCSS files.
               height: 3px;
               width: 100%;
               margin-top: -3%;
-              background:nth( $i, 2);
+              background:nth($i, 2);
               transition-property: none;
             }
 
@@ -212,7 +212,7 @@ nav {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  width: 750px;
+  width: 850px;
   padding: 0;
   font-weight: 400;
   margin:45px 0 15px 0;
