@@ -82,7 +82,10 @@
     display: block;
     text-align: center;
     width: 50px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    cursor: pointer; }
+    .hiphop-text a:hover .fa-youtube {
+      color: black; }
 
 #hiphop-container {
   display: block;
@@ -92,7 +95,7 @@
   margin-right: 5%; }
 
 .fa-youtube {
-  color: black;
+  color: #bb0000;
   font-size: 2em; }
 
 #hiphop1 {

@@ -101,6 +101,10 @@
       text-align: center;
       width: 50px;
       margin: 0 auto;
+      cursor: pointer;
+      &:hover .fa-youtube{
+        color: black;
+      }
     }
 }
 
@@ -114,7 +118,7 @@
 }
 
 .fa-youtube {
-  color: black;
+  color: #bb0000;
   font-size: 2em;
 }
 
