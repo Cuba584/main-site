@@ -96,7 +96,9 @@ a:hover, a:focus {
       line-height: 1.4em;
       display: inline-block; }
     #team-photos .team-info .portfolio {
-      display: inline; }
+      display: inline-block; }
+    #team-photos .team-info span {
+      display: inline-block; }
     #team-photos .team-info .team-name {
       display: block; }
     #team-photos .team-info .role {

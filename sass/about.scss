@@ -104,7 +104,10 @@ a:hover, a:focus {
       display:inline-block;
     }
     .portfolio{
-      display:inline;
+      display:inline-block;
+    }
+    span {
+      display: inline-block; 
     }
     .team-name{
       display:block;

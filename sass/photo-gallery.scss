@@ -1,13 +1,7 @@
 @import '_vars';
 @import '_include-media';
 
-*{
-  &:after {
-   content: "";
-   display: table;
-   clear: both;
- }
-}
+
 
 @mixin config-page-colors($colors...) {
     @each $i in $colors {

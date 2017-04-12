@@ -76,22 +76,19 @@
           <div class="team-info">
             <p class="role"><%=espanol ? team[i]["rolespanish"]:team[i]["role"] %></p>
             <p class="team-name"><%=team[i]["fullname"]%> </p>
-            <% if ( team[i]["portfolio"]){ %>
+            <% if ( team[i]["social"]){ %>
             <p class="portfolio">
-              <a href="<%=team[i]["portfolio"]%>" target="_blank"><%= espanol ? "Portfolio":"Portfolio" %></a>
+              <a href="<%=team[i]["social"]%>" target="_blank"><%= espanol ? "Portfolio":"Portfolio" %></a>
             </p>
-            <% if (team[i]["portfolio"] && team[i]["socialid"]){ %>
+            <% if (team[i]["social"] && team[i]["socialid"]){ %>
             <span> | </span>
             <% } %>
             <% } else { }%>
             <% if (team[i]["socialid"]){ %>
-              <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["social"]%>" target="_blank">
-                <!-- <i class="fa fa-<%= team[i]["socialid"] %>" aria-hidden="true"></i> -->
-                <p>@<%= team[i]["handle"]%></p>
+              <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["handle"]%>" target="_blank">
+                 <i class="fa fa-<%= team[i]["undefined"] %>" aria-hidden="true"></i>
               </a>
-              <!-- <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["social"]%>" target="_blank">
-                <i class="fa fa-<%= team[i]["socialid"] %>" aria-hidden="true"></i>
-              </a> -->
+
             <% } else { }%>
           </div>
         </div>

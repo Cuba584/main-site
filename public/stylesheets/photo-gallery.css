@@ -1,10 +1,5 @@
 /* ------------------ Global Styles ------------ */
 /*change page colors here!*/
-*:after {
-  content: "";
-  display: table;
-  clear: both; }
-
 .hiphop.pg-figcaption {
   border-top: 2px solid #F1861B; }
 
