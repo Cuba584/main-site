@@ -11,9 +11,17 @@ further down on the page or in any of the other .SCSS files.
   color: #F1861B; }
 
 .hiphop.change-bg {
+  background: url("textures/hiphop.JPG") no-repeat;
   background-size: cover;
   color: #F1861B;
   background-color: #F1861B; }
+
+@media screen and (min-width: 1020px) {
+  .hiphop.change-mobile-bg {
+    background: none;
+    background-size: cover;
+    color: #F1861B;
+    background-color: #F1861B; } }
 
 .hiphop.nav-title:after {
   content: '';
@@ -32,11 +40,15 @@ further down on the page or in any of the other .SCSS files.
   background: #F1861B;
   transition-property: none; }
 
-.hiphop.mobile-active-nav:after {
+.hiphop.mobile-active-nav span {
+  position: relative; }
+
+.hiphop.mobile-active-nav span:after {
+  position: absolute;
   content: '';
   display: block;
   height: 3px;
-  width: 40%;
+  width: 100%;
   margin-top: -3%;
   background: #F1861B;
   transition-property: none; }
@@ -48,9 +60,17 @@ further down on the page or in any of the other .SCSS files.
   color: #9BD5BB; }
 
 .dorian.change-bg {
+  background: url("textures/dorian.JPG") no-repeat;
   background-size: cover;
   color: #9BD5BB;
   background-color: #9BD5BB; }
+
+@media screen and (min-width: 1020px) {
+  .dorian.change-mobile-bg {
+    background: none;
+    background-size: cover;
+    color: #9BD5BB;
+    background-color: #9BD5BB; } }
 
 .dorian.nav-title:after {
   content: '';
@@ -69,11 +89,15 @@ further down on the page or in any of the other .SCSS files.
   background: #9BD5BB;
   transition-property: none; }
 
-.dorian.mobile-active-nav:after {
+.dorian.mobile-active-nav span {
+  position: relative; }
+
+.dorian.mobile-active-nav span:after {
+  position: absolute;
   content: '';
   display: block;
   height: 3px;
-  width: 40%;
+  width: 100%;
   margin-top: -3%;
   background: #9BD5BB;
   transition-property: none; }
@@ -85,9 +109,17 @@ further down on the page or in any of the other .SCSS files.
   color: #A089CE; }
 
 .skate.change-bg {
+  background: url("textures/skate.JPG") no-repeat;
   background-size: cover;
   color: #A089CE;
   background-color: #A089CE; }
+
+@media screen and (min-width: 1020px) {
+  .skate.change-mobile-bg {
+    background: none;
+    background-size: cover;
+    color: #A089CE;
+    background-color: #A089CE; } }
 
 .skate.nav-title:after {
   content: '';
@@ -106,11 +138,15 @@ further down on the page or in any of the other .SCSS files.
   background: #A089CE;
   transition-property: none; }
 
-.skate.mobile-active-nav:after {
+.skate.mobile-active-nav span {
+  position: relative; }
+
+.skate.mobile-active-nav span:after {
+  position: absolute;
   content: '';
   display: block;
   height: 3px;
-  width: 40%;
+  width: 100%;
   margin-top: -3%;
   background: #A089CE;
   transition-property: none; }
@@ -122,9 +158,17 @@ further down on the page or in any of the other .SCSS files.
   color: #F0BD53; }
 
 .family.change-bg {
+  background: url("textures/family.JPG") no-repeat;
   background-size: cover;
   color: #F0BD53;
   background-color: #F0BD53; }
+
+@media screen and (min-width: 1020px) {
+  .family.change-mobile-bg {
+    background: none;
+    background-size: cover;
+    color: #F0BD53;
+    background-color: #F0BD53; } }
 
 .family.nav-title:after {
   content: '';
@@ -143,11 +187,15 @@ further down on the page or in any of the other .SCSS files.
   background: #F0BD53;
   transition-property: none; }
 
-.family.mobile-active-nav:after {
+.family.mobile-active-nav span {
+  position: relative; }
+
+.family.mobile-active-nav span:after {
+  position: absolute;
   content: '';
   display: block;
   height: 3px;
-  width: 40%;
+  width: 100%;
   margin-top: -3%;
   background: #F0BD53;
   transition-property: none; }
@@ -159,9 +207,17 @@ further down on the page or in any of the other .SCSS files.
   color: #6EA5C2; }
 
 .harbor.change-bg {
+  background: url("textures/harbor.JPG") no-repeat;
   background-size: cover;
   color: #6EA5C2;
   background-color: #6EA5C2; }
+
+@media screen and (min-width: 1020px) {
+  .harbor.change-mobile-bg {
+    background: none;
+    background-size: cover;
+    color: #6EA5C2;
+    background-color: #6EA5C2; } }
 
 .harbor.nav-title:after {
   content: '';
@@ -180,11 +236,15 @@ further down on the page or in any of the other .SCSS files.
   background: #6EA5C2;
   transition-property: none; }
 
-.harbor.mobile-active-nav:after {
+.harbor.mobile-active-nav span {
+  position: relative; }
+
+.harbor.mobile-active-nav span:after {
+  position: absolute;
   content: '';
   display: block;
   height: 3px;
-  width: 40%;
+  width: 100%;
   margin-top: -3%;
   background: #6EA5C2;
   transition-property: none; }
@@ -196,9 +256,17 @@ further down on the page or in any of the other .SCSS files.
   color: #997A65; }
 
 .about.change-bg {
+  background: url("textures/about.JPG") no-repeat;
   background-size: cover;
   color: #997A65;
   background-color: #997A65; }
+
+@media screen and (min-width: 1020px) {
+  .about.change-mobile-bg {
+    background: none;
+    background-size: cover;
+    color: #997A65;
+    background-color: #997A65; } }
 
 .about.nav-title:after {
   content: '';
@@ -217,11 +285,15 @@ further down on the page or in any of the other .SCSS files.
   background: #997A65;
   transition-property: none; }
 
-.about.mobile-active-nav:after {
+.about.mobile-active-nav span {
+  position: relative; }
+
+.about.mobile-active-nav span:after {
+  position: absolute;
   content: '';
   display: block;
   height: 3px;
-  width: 40%;
+  width: 100%;
   margin-top: -3%;
   background: #997A65;
   transition-property: none; }
@@ -313,7 +385,7 @@ nav {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    width: 750px;
+    width: 850px;
     padding: 0;
     font-weight: 400;
     margin: 45px 0 15px 0; }
@@ -411,7 +483,10 @@ nav {
     top: 15%;
     width: 100%;
     margin-left: 8%;
-    margin-top: 30px; }
+    margin-top: 30px;
+    transition-duration: 0s;
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s; }
     .overlay .overlay-content a {
       display: block;
       text-decoration: none;
@@ -421,11 +496,11 @@ nav {
       padding: 0.5%; }
     .overlay .overlay-content #closebtn {
       position: absolute;
-      top: -50%;
+      top: -44.5%;
       left: -5%;
-      font-size: 60px;
+      font-size: 75px;
       color: black;
-      font-weight: 700; }
+      font-weight: 100; }
     .overlay .overlay-content .overlay-item {
       color: black; }
       .overlay .overlay-content .overlay-item span {
@@ -533,31 +608,43 @@ nav {
   nav .logo-wrapper #svg-logo {
     width: 200px; } }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 570px) and (min-width: 1020px) {
   .hiphop.change-mobile-bg {
-    background: url("textures/hiphop.JPG") no-repeat;
+    background: none;
     background-size: cover;
-    color: #F1861B; }
+    color: #F1861B; } }
+
+@media screen and (max-width: 570px) and (min-width: 1020px) {
   .dorian.change-mobile-bg {
-    background: url("textures/dorian.JPG") no-repeat;
+    background: none;
     background-size: cover;
-    color: #9BD5BB; }
+    color: #9BD5BB; } }
+
+@media screen and (max-width: 570px) and (min-width: 1020px) {
   .skate.change-mobile-bg {
-    background: url("textures/skate.JPG") no-repeat;
+    background: none;
     background-size: cover;
-    color: #A089CE; }
+    color: #A089CE; } }
+
+@media screen and (max-width: 570px) and (min-width: 1020px) {
   .family.change-mobile-bg {
-    background: url("textures/family.JPG") no-repeat;
+    background: none;
     background-size: cover;
-    color: #F0BD53; }
+    color: #F0BD53; } }
+
+@media screen and (max-width: 570px) and (min-width: 1020px) {
   .harbor.change-mobile-bg {
-    background: url("textures/harbor.JPG") no-repeat;
+    background: none;
     background-size: cover;
-    color: #6EA5C2; }
+    color: #6EA5C2; } }
+
+@media screen and (max-width: 570px) and (min-width: 1020px) {
   .about.change-mobile-bg {
-    background: url("textures/about.JPG") no-repeat;
+    background: none;
     background-size: cover;
-    color: #997A65; }
+    color: #997A65; } }
+
+@media screen and (max-width: 570px) {
   nav {
     height: 50px; }
     nav .label-toggle {
@@ -578,4 +665,21 @@ nav {
       nav .logo-wrapper #svg-logo {
         width: 130px; }
     nav nav .nav-icons {
-      display: none; } }
+      display: none; }
+    nav .nav-icons-mobile {
+      margin-top: 15%; }
+  .interactive-wrapper {
+    width: 80%;
+    border-top: 1px #696969 solid;
+    border-bottom: 1px #696969 solid;
+    margin: 1.4em auto;
+    padding: 1.4em 0;
+    overflow: hidden; }
+  .interactive-wrapper-intro h1 {
+    font-size: 2.5em; }
+  .interactive-wrapper-intro h2 {
+    font-size: 1.2em;
+    margin-top: 10px; }
+  .interactive-wrapper-intro .expand-collapse {
+    margin-top: 5%;
+    text-align: center; } }

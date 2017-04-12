@@ -117,6 +117,9 @@
   width: 100vw;
   margin-top: 70px; }
 
+img.map {
+  margin: 6% 0 6% 0; }
+
 /*------responsive styles------*/
 @media screen and (min-width: 2400px) {
   .inner figure .inner-image {

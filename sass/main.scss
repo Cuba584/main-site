@@ -15,10 +15,18 @@ further down on the page or in any of the other .SCSS files.
               color: nth($i, 2);
             }
             &.change-bg{
-              // background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
+              background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
               background-size:cover;
               color: nth($i, 2);
               background-color: nth($i, 2);
+            }
+            @include media("screen", ">=md"){
+              &.change-mobile-bg{
+                    background: none;
+                    background-size:cover;
+                    color: nth($i, 2);
+                    background-color: nth($i, 2);
+                  }
             }
             &.nav-title{
               // border-bottom:3px solid transparent;
@@ -52,12 +60,15 @@ further down on the page or in any of the other .SCSS files.
               }
 
             }
-
-            &.mobile-active-nav:after{
+            &.mobile-active-nav span{
+              position: relative;
+            }
+            &.mobile-active-nav span:after{
+              position: absolute;
               content: '';
               display: block;
               height: 3px;
-              width: 40%;
+              width: 100%;
               margin-top: -3%;
               background:nth($i, 2);
               transition-property: none;
@@ -70,11 +81,13 @@ further down on the page or in any of the other .SCSS files.
 @mixin config-page-background($colors...) {
     @each $i in $colors {
         .#{nth($i, 1)} {
+          @include media("screen", ">=md"){
             &.change-mobile-bg{
-              background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
+              background: none;
               background-size:cover;
               color: nth($i, 2);
             }
+          }
           }
         }
       }
@@ -199,7 +212,7 @@ nav {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  width: 750px;
+  width: 850px;
   padding: 0;
   font-weight: 400;
   margin:45px 0 15px 0;
@@ -366,6 +379,9 @@ nav {
     width:100%;
     margin-left: 8%;
     margin-top:30px;
+    transition-duration:0s;
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration:0s;
     a{
       display:block;
       text-decoration:none;
@@ -376,11 +392,11 @@ nav {
     }
     #closebtn{
       position:absolute;
-      top:-50%;
+      top:-44.5%;
       left: -5%;
-      font-size:60px;
+      font-size:75px;
       color: black;
-      font-weight: 700;
+      font-weight: 100;
     }
     .overlay-item{
       color:black;
@@ -613,7 +629,33 @@ nav {
         display: none;
       }
 
+      .nav-icons-mobile{
+        margin-top: 15%;
+      }
 
+    }
+
+    .interactive-wrapper {
+      width:80%;
+      border-top:1px $dark-gray solid;
+      border-bottom:1px $dark-gray solid;
+      margin:1.4em auto;
+      padding: 1.4em 0;
+      overflow:hidden;
+    }
+
+    .interactive-wrapper-intro{
+      h1 {
+        font-size: 2.5em;
+        }
+      h2 {
+        font-size:1.2em;
+        margin-top:10px;
+        }
+        .expand-collapse {
+          margin-top: 5%;
+          text-align: center;
+        }
     }
 
 

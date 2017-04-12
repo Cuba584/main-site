@@ -82,38 +82,31 @@ $(document).ready(function(){
 
 						    <ul id="slider-ul">
 									<% for (s in body["slider-images"]){%>
-									<!-- <div class="slider-wrapper"> -->
 							      <li class="slider-section">
 							        <div class="pic-style">
 							          <img src="../assets/images/photo-gallery/<%=body["master-class"]["class"]%>/<%=body["slider-images"][s]["src"]%>" class="pic"/>
 							        </div>
 
 											<div class="caption">
+												<div class="arrow-wrapper">
+													<button class="slider-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+													<button class="slider-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+												</div>
 
-												
 													<figcaption class="pg-figcaption <%=body["master-class"]["class"]%>">
 														<p class="fig-descr"><%=body["slider-images"][s]["caption"]%></p>
 														<p class="fig-attr">Photo by</p>
 														<p class="fig-attr"><%=body["slider-images"][s]["attribution"]%></p>
 													</figcaption>
 
-												<div class="arrow-wrapper">
-													<button class="slider-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-													<button class="slider-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-												</div>
+
 											</div>
 							      </li>
 
 								<% } %>
 
 
-							<!-- </div>-->
-
 						  </div>
-
-							<!-- <div> -->
-						<!-- </div> -->
-
 
 						</div>
 
@@ -139,11 +132,7 @@ $(document).ready(function(){
     </div>
     <section class="center-wrapper">
       <div class="max-width">
-    <% } else if (body["text"][i]["type"] == "image") { //imgCount++;
-      //var imageUrl = body["text"][i]["value"]["src"];
-      //var imageId = imageUrl.lastIndexOf('_');
-      //var
-    %>
+    <% } else if (body["text"][i]["type"] == "image") { %>
     </div>
   </section>
     <figure>
@@ -157,6 +146,13 @@ $(document).ready(function(){
     </figure>
       <section class="center-wrapper">
         <div class="max-width">
-    <%} } %>
+
+		<% } else if (body["text"][i]["type"] == "map") { %>
+			<div class="center-wrapper">
+				<img class="map" src='assets/images/<%=body["text"][i]["value"]["src"] %> ' alt='
+				<%=body["text"][i]["value"]["alt"] %>'>
+			</div>
+		<%} } %>
+
   </div>
   </section>
