@@ -10,31 +10,35 @@ $(document).ready(function(){
 });
 (function($) {
   $.fn.timeline = function() {
-    var selectors = {
+    var timelineSelectors = {
       id: $(this),
       item: $(this).find(".timeline-item"),
       activeClass: "timeline-item--active",
       img: ".timeline__img"
     };
-    selectors.item.eq(0).addClass(selectors.activeClass);
+    timelineSelectors.item.eq(0).addClass(timelineSelectors.activeClass);
     /*selectors.id.css("background-image", "url(" + selectors.item.first().find(selectors.img).attr("src") + ")");*/
 
-    var itemLength = selectors.item.length;
+    var itemLength = timelineSelectors.item.length;
     $(window).scroll(function() {
-      var max, min;
-      var pos = $(this).scrollTop();
-      selectors.item.each(function(i) {
-        min = $(this).offset().top;
-        max = ($(this).height() + $(this).offset().top);
+      var timelineMax, timelineMin;
+      var timelinePos = $(this).scrollTop();
+      timelineSelectors.item.each(function(i) {
+        timelineMin = $(this).offset().top;
+        timelineMax = ($(this).height() + $(this).offset().top);
+        console.log(timelineMax)
         var that = $(this)
-        if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
-          selectors.item.removeClass(selectors.activeClass);
+        if (i == itemLength - 2 && timelinePos > timelineMin + $(this).height() / 2) {
+          console.log('butt')
+          timelineSelectors.item.removeClass(timelineSelectors.activeClass);
           /*selectors.id.css("background-image", "url(" + selectors.item.last().find(selectors.img).attr('src') + ")"); */
-          selectors.item.last().addClass(selectors.activeClass)
-        } else if (pos <= max - 40 && pos >= min) {
+          timelineSelectors.item.last().addClass(timelineSelectors.activeClass)
+        } else if (timelinePos <= timelineMax - 40 && timelinePos >= timelineMin) {
+          console.log('cat')
+
           /*selectors.id.css("background-image", "url(" + $(this).find(selectors.img).attr('src') + ")"); */
-          selectors.item.removeClass(selectors.activeClass);
-          $(this).addClass(selectors.activeClass);
+          timelineSelectors.item.removeClass(timelineSelectors.activeClass);
+          $(this).addClass(timelineSelectors.activeClass);
         }
 
       });

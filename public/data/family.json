@@ -195,6 +195,12 @@
       "value": "Diego’s youthful restlessness is growing more unique in Cuba. With a median age of 41.1 years old, 25.9 percent of the population is over 55, and an estimated 36 percent will be over 60 by 2050. The Plaza municipality — where Diego and Coralia live — is the oldest region of Havana."
     },
     {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/aging-line.ejs"
+      }
+    },
+    {
       "type": "text",
       "value": "Cuba raised its retirement age to 65 for men and 60 for women in 2009, but with an average life expectancy of 78.7 years, a sizable portion of the population lies outside the workforce. A shortage of retirement homes means more responsibility falls on younger family members."
     },
