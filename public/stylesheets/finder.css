@@ -3,8 +3,7 @@
 
 .finder-wrapper {
   height: 600px;
-  width: 80%;
-  margin: auto;}
+  width: 80%; }
 
 .interactive-intro {
   margin: 30px; }
@@ -27,20 +26,21 @@
   margin: 0;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  font-size: 3em;
+  font-size: 1.2em;
   color: #484848; }
 
 .paquete-container p {
   margin-top: 3px; }
 
 .paquete-container {
+  width: 80%;
   display: flex;
   margin: 2.5em auto;
   align-items: flex-start;
   flex-wrap: wrap;
   justify-content: center;
   height: 550px;
-  }
+  transform-origin: top center; }
 
 .finder-window {
   display: -webkit-box;
@@ -92,11 +92,11 @@
   background-color: #45cc4b; }
 
 .content-container {
-  min-height: 300px; }
+  min-height: 230px; }
 
 .sidebar {
   background-color: #f0f0f0;
-  padding: .3em 1.5em .4em 1em;
+  padding: .3em .6em .4em .8em;
   float: left;
   height: 100%;
   box-sizing: border-box; }
@@ -108,7 +108,7 @@
 .sidebar__list-name--section {
   font-weight: bold;
   color: #7b807c;
-  font-size: 0.9em; }
+  font-size: 0.7em; }
 
 .sidebar__sub-list {
   margin: 0;
@@ -121,10 +121,9 @@
   margin-right: .1rem; }
 
 .sidebar__list-item {
-  margin: 7px 0;
+  margin: 3px 0;
   list-style: none;
-  text-align: left;
-  font-weight: 400;}
+  text-align: left; }
 
 .sidebar__list-item--section {
   margin: 0; }
@@ -142,8 +141,8 @@
   height: 100%; }
 
 .category-container {
-  max-width: 10em;
-  padding-top: .1em;
+  max-width: 8em;
+  padding-top: .4em;
   border-right: 1px solid #e8e8e8;
   -webkit-box-flex: 1;
   -ms-flex: 1 100%;
@@ -152,13 +151,13 @@
   height: 100%; }
 
 .sub-container {
-  min-width: 12em;
-  padding-top: .1em;
+  min-width: 90px;
+  padding-top: .4em;
   border-right: 1px solid #e8e8e8; }
 
 .files-container {
   min-width: 105px;
-  padding-top: .1em; }
+  padding-top: .4em; }
 
 .file-list {
   margin: 0;
@@ -167,10 +166,10 @@
 .finder-wrapper .file-item {
   display: block;
   text-decoration: none;
-  padding: 0 0.6em;
+  padding: 0 0.5em;
   cursor: pointer;
   font-size: 1em;
-  line-height: 1.9em;
+  line-height: 1.5em;
   font-family: "Helvetica", sans-serif;
   font-weight: 500;
   text-align: left;
@@ -191,7 +190,7 @@
 .active {
   background-color: #F0BD53; }
 
-.green .fa-folder  {
+.fa-file {
   margin-right: .3em;
   color: #9BD5BB;
   font-size: .9em;
@@ -206,22 +205,21 @@
   font-family: "Roboto", sans-serif;
   font-size: .6rem;
   margin-left: 1.6vw;
-  width: 15vw;
+  width: 10vw;
   line-height: 1.6em;
   text-align: left; }
 
 .info-window p {
   font-family: "Roboto", sans-serif;
-  font-size: 2.6em;
-  line-height: 1.6em;
-  width: 20vw;}
+  font-size: 2.2em;
+  line-height: 1.6em; }
 
 #info-intro-bar {
-  height: 4px;
+  height: 3px;
   background: #484848;
   border: none;
   width: 70px;
-  margin: 0 0 8px 0; }
+  margin: 0 0 10px 0; }
 
 /*Mobile Styles*/
 .mobile .finder-window {
