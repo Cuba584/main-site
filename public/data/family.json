@@ -68,12 +68,6 @@
       "value": "As the aging population in Cuba continues to increase, more and more young people will need to care for the older generation. But look closer. Fidel Castro’s death on Nov. 25 might have marked a handoff in leadership from the older generation to the younger generation. Or maybe it didn’t. Maybe it signaled something else — a relationship that’s changing. Something less about who is leading and more about where they’re going, side by side, fingers and fates intertwined."
     },
     {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/aging-barchart.ejs"
-      }
-    },
-    {
       "type": "subhead",
       "value": {
         "text": "The playmaker and the caregiver"
