@@ -27,14 +27,19 @@
   #photo-gallery .arrow-wrapper {
     z-index: 1;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    width: 160px;
+    margin-left: 1.2vw; }
+    #photo-gallery .arrow-wrapper .slider-left {
+      padding: 0; }
+    #photo-gallery .arrow-wrapper .slider-right {
+      padding: 0; }
   #photo-gallery .slider-left {
     margin-right: auto !important; }
   #photo-gallery #custom-slider {
     width: 100%;
     overflow: hidden;
-    margin-left: 0;
-    margin-right: auto; }
+    margin: 1em auto 1em 0; }
   #photo-gallery #custom-slider > ul {
     width: 100%;
     left: -100%;
@@ -65,10 +70,13 @@
     display: flex;
     flex-direction: column; }
   #photo-gallery .pg-figcaption {
-    padding-top: 1em;
-    width: calc(100% - 50px); }
+    padding-top: .6em;
+    margin-top: 1.1em;
+    width: calc(100% - 200px); }
+  #photo-gallery .fig-descr {
+    line-height: 1.6em; }
   #photo-gallery .fig-attr {
-    margin: 0; }
+    margin-bottom: -1.3em; }
 
 @media screen and (min-width: 1280px) {
   #photo-gallery .pic {
@@ -76,13 +84,17 @@
   #photo-gallery #custom-slider > ul > li {
     justify-content: center; } }
 
+@media screen and (max-width: 1110px) {
+  #photo-gallery .pg-figcaption {
+    width: calc(100% - 150px); } }
+
 @media screen and (max-width: 1020px) {
   #photo-gallery #custom-slider > ul > li {
     flex-direction: column;
     justify-content: center; }
   #photo-gallery .pg-figcaption {
     border-top: none;
-    margin-top: -12vh;
+    margin-top: -62px;
     width: 70%;
     margin-left: 15%; }
   #photo-gallery .fig-attr {
@@ -97,12 +109,18 @@
     width: 100%;
     margin-top: 0;
     justify-content: space-around;
-    flex-direction: column-reverse;
+    flex-direction: column;
     margin-left: 0; }
   #photo-gallery .arrow-wrapper {
     z-index: 1;
     display: flex;
-    justify-content: space-around; } }
+    justify-content: space-around;
+    width: initial;
+    margin: 0 3em 0 3em; } }
+
+@media screen and (max-width: 570px) {
+  #photo-gallery .arrow-wrapper {
+    margin: 0 1em 0 1em; } }
 
 @media screen and (max-width: 300px) {
   #photo-gallery #custom-slider {
