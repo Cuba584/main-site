@@ -56,15 +56,23 @@
     },
     {
       "type": "text",
-      "value": "This rush is for Regla, a neighborhood where Orlando lives with his parents. While still technically a part of the greater Havana area, Regla feels far more removed than a five-minute ferry ride. The star that pinpoints Havana as the country’s capital on any given map of Cuba stamps right over the harbor that divides these two areas. But these regions cannot be so simply merged — the star extinguishes Regla’s individuality, its smokestacks that hint at its industrial past, its streets blemished with missing chunks of cement and its homes that are stained in soot. There’s less urgency on this side of the harbor; in Regla, time is a suggestion of sorts. Orlando knows that while the final ferry home is always scheduled to leave Havana’s port at 12:15 a.m., any set-in-stone schedule is subjective, as the ferry driver often decides to leave at whatever time will get him home fastest, even if it’s the wrong one."
+      "value": "This rush is for Regla, a neighborhood where Orlando lives with his parents. While still technically a part of the greater Havana area, Regla feels far more removed than a five-minute ferry ride. The star that pinpoints Havana as the country’s capital on any given map of Cuba stamps right over the harbor that divides these two areas. But these regions cannot be so simply merged — the star extinguishes Regla’s individuality, its smokestacks that hint at its industrial past, its streets blemished with missing chunks of cement and its homes that are stained with soot. There’s less urgency on this side of the harbor; in Regla, time is a suggestion of sorts. Orlando knows that while the final ferry home is always scheduled to leave Havana’s port at 12:15 a.m., any set-in-stone schedule is subjective, as the ferry driver often decides to leave at whatever time will get him home fastest, even if it’s the wrong one."
     },
     {
       "type": "text",
-      "value": "He’s used to this hustle. Orlando has spent the last 15 hours on his feet, working in the heart of Havana as a tour coordinator, carting visitors — recently, more Americans — around his island country. Enduring endless Hola’s with a little too much H, hailing convertible cabs so visitors can fully feel that Cuban breeze, reserving restaurants, reserving new restaurants when visitors decide they actually wanted something different — this is an hour of Orlando’s day at work. But on the other side of the harbor, it’s different. And when Orlando says goodnight to Havana every evening as he retreats into Regla, he says goodnight to a part of himself he won’t see again until morning."
+      "value": "He’s used to this hustle. Orlando has spent the last 15 hours on his feet, working in the heart of Havana as a tour coordinator, carting visitors — recently, more Americans — around his island country. Enduring endless “Hola’s” with a little too much “H,” hailing convertible cabs so visitors can fully feel that Cuban breeze, reserving restaurants, reserving new restaurants when visitors decide they actually wanted something different — this is an hour of Orlando’s day at work."
     },
     {
       "type": "text",
-      "value": "But after Orlando reaches Regla, there’s something about him that feels out of place on this side of the harbor, a part of him that his job in Havana has altered. Maybe it’s the collared shirts — he buys all his clothes in America, he says — or his enigmatic energy that feels out of place in Regla’s sleepy streets, or the fact that, unlike some of his Reglan neighbors, Orlando could afford to take a taxi around the harbor back home if he were to miss the boat. “I have a feeling that people know who I am in my neighborhood, and that’s kind of weird,” he says. “But I don’t always know their name.”"
+      "value": "But on the other side of the harbor, it’s different. And when Orlando says goodnight to Havana every evening as he retreats into Regla, he says goodnight to a part of himself he won’t see again until morning."
+    },
+    {
+      "type": "text",
+      "value": "When Orlando reaches Regla, there’s something about him that feels out of place, a part of him that his job in Havana has altered. Maybe it’s the collared shirts — he buys all his clothes in America, he says — or his enigmatic energy that feels foreign in Regla’s sleepy streets, or the fact that, unlike some of his Reglan neighbors, Orlando could afford to take a taxi around the harbor back home if he were to miss the boat."
+    },
+    {
+      "type": "text",
+      "value": "“I have a feeling that people know who I am in my neighborhood, and that’s kind of weird,” he says. “But I don’t always know their name.”"
     },
     {
       "type": "slider",
@@ -72,12 +80,16 @@
     },
     {
       "type": "text",
-      "value": "Since December 2014, the doors that have kept Americans from traveling to Cuba for over 50 years have begun to crack open, ushering in an era of tourism that this generation of Cubans has never known. These jobs are changing families, introducing new household dynamics as children are making more money than their parents ever thought plausible. It’s forcing this generation of young workers to reconcile the hardships of their youth — the Special Period of economic collapse in Cuba during the 1990s, when Gross Domestic Product dropped by 34 percent — with a now-tangible notion of hope that lives in Havana. Beyond lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
+      "value": "Since December 2014, the doors that have kept Americans from traveling to Cuba for over 50 years have begun to crack open, ushering in an era of tourism that this generation of Cubans has never known. These jobs are changing families, introducing new household dynamics as children are making more money than their parents ever thought plausible. It’s forcing this generation of young workers to reconcile the hardships of their youth — the Special Period of economic collapse in Cuba during the 1990s — with a now-tangible notion of hope that lives in Havana."
+    },
+    {
+      "type": "text",
+      "value": "Beyond lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
     },
     {
       "type": "subhead",
       "value": {
-        "Text": "A notion of normalcy"
+        "text": "A notion of normalcy"
       }
     },
     {
@@ -90,7 +102,7 @@
     },
     {
       "type": "text",
-      "value": "Though President Obama didn’t detail the logistics of how this relationship would change in his address, both nations knew that, for the first time many of them could remember, there would be a notion of normalcy between the two nations. Now, Orlando’s job is entirely dependent on the success of an industry in Havana that seems to be broadening with each passing day as a result of these fifteen words: Tourism."
+      "value": "Though former President Obama didn’t detail the logistics of how this relationship would change in his address, both nations knew that, for the first time many of them could remember, there would be a notion of normalcy between the two nations. Now, Orlando’s job is entirely dependent on the success of an industry in Havana that seems to be broadening with each passing day as a result of those fifteen words: Tourism."
     },
     {
       "type": "text",
@@ -102,7 +114,11 @@
     },
     {
       "type": "text",
+<<<<<<< HEAD
       "value": "But this doesn’t keep Americans from frequenting typical Cuban tourist attractions once their approved reasons have gotten them in the country, like visiting museums, dining at restaurants and taxi rides along the Malecón. It’s for this reason, the fact that tourism isn’t something that can be so explicitly controlled, that Orlando’s industry is continuing to excel, though its effects are mainly noticed in a specific concentration of the country: Old Havana."
+=======
+      "value": "But this doesn’t keep Americans from frequenting typical Cuban tourist attractions once their approved reasons have gotten them in the country, like visiting museums, dining at restaurants and taxi rides along the Malecón. It’s for this reason — the fact that tourism isn’t something that can be so explicitly controlled — that Orlando’s industry is continuing to excel, though its effects are mainly noticed in a specific concentration of the country: Old Havana."
+>>>>>>> master
     },
     {
       "type": "text",
@@ -110,7 +126,7 @@
     },
     {
       "type": "text",
-      "value": "And maybe that’s why Regla has become Old Havana’s bedroom, the quiet borough Cubans retire to at the end of the day after working in Cuba’s capital. Places like Regla have little show, he says, or at least that’s what people think. It’s why Cubans cock their heads and furrow their brows when they see Americans ferrying themselves away from Old Havana and across the harbor — why would they go there?"
+      "value": "And maybe that’s why Regla has become Old Havana’s bedroom, the quiet borough Cubans retire to at the end of the day after working in Cuba’s capital. Places like Regla have little show, he says, or at least that’s what people think. It’s why Cubans cock their heads and furrow their brows when they see Americans ferrying themselves away from Old Havana and across the harbor — why would they want to go there?"
     },
     {
       "type": "text",
@@ -148,7 +164,7 @@
     },
     {
       "type": "text",
-      "value": "He glances away from the mirror, his chest sinking with a heavy sigh. His audience isn’t impressed — he tries again, rewinding Eminem’s “Lose Yourself,” back to the very beginning. He’s been into American rap for a while, though lately his friends have been making fun of his taste in music. “You’re listening to this white American rapper — you don’t even know what he’s talking about,” they tease. And they’re right. It’s seems strange to meticulously rehearse lyrics you don’t understand."
+      "value": "He glances away from the mirror, his chest sinking with a heavy sigh. His audience isn’t impressed — he tries again, rewinding Eminem’s “Lose Yourself,” back to the beginning. He’s been into American rap for a while, though lately his friends have been making fun of his taste in music. “You’re listening to this white American rapper — you don’t even know what he’s talking about,” they tease. And they’re right. It’s seems strange to meticulously rehearse lyrics you don’t understand."
     },
     {
       "type": "text",
@@ -160,15 +176,15 @@
     },
     {
       "type": "text",
-      "value": "That was eight years ago. Orlando has been fluent in English for a while now, even taking his love of hip hop to the next level by performing around Havana, though he’s too busy working to do that these days. English is an asset that, while necessary for his job, is one of the factors that muddles his Cuban identity. That annoying thing that happens when you’re clearly a tourist walking the streets of Havana, when people pester you to buy their cigars or ride in their taxis — they do it to Orlando, too. He says people don’t even recognize him, “They think I’m from somewhere else,” he says. He likes to turn it into a game, talking with waiters in the most American accent possible to see if they believe him. They always do."
+      "value": "That was eight years ago. Orlando has been fluent in English for a while now, even taking his love of hip-hop to the next level by performing around Havana, though he’s too busy working to do that these days. English is an asset that, while necessary for his job, is one of the factors that muddles his Cuban identity. That annoying thing that happens when you’re clearly a tourist walking the streets of Havana, when people pester you to buy their cigars or ride in their taxis — they do it to Orlando, too. He says people don’t even recognize him, “They think I’m from somewhere else,” he says. He likes to turn it into a game, talking with waiters in the most American accent possible to see if they believe him. They always do."
     },
     {
       "type": "text",
-      "value": "But sometimes it can be sad. Sure, it’s fun when he gets to go through customs quickly because his English is so good, he says, but it’s hard explaining himself all the time. It’s hard not fitting in very well."
+      "value": "But sometimes, it can be sad. Sure, it’s fun when he gets to go through customs quickly because his English is so good, he says, but it’s hard explaining himself all the time. It’s hard not fitting in very well."
     },
     {
       "type": "text",
-      "value": "He doesn’t spend too much time worrying about how people perceive him, though — he’s too busy. He’s always yawning, even in the middle of the day, with red eyes that blink in slow motion. Even before he accepted the offer as a full-time tour coordinator, Orlando knew it would be more work than he’d ever done before. He starts most mornings before the sun, and he ends most nights squirming his way through his apartment so he won’t wake his parents, feeling his way around in the dark after another double-digit-hour workday."
+      "value": "Orlando doesn’t spend too much time worrying about how people perceive him, though — he’s too busy. He’s always yawning, even in the middle of the day, with red eyes that blink in slow motion. Even before he accepted the offer as a full-time tour coordinator, Orlando knew it would be more work than he’d ever done before. He starts most mornings before the sun, and he ends most nights squirming his way through his apartment so he won’t wake his parents, feeling his way around in the dark after another double-digit-hour workday."
     },
     {
       "type": "pullquote",
@@ -196,10 +212,58 @@
     {
       "type": "text",
       "value": "Orlando doesn’t like talking about the money he’s making, he doesn’t like showing off. His mom thinks it’s great — Orlando says she jokes that she wants a flat screen television — but sometimes his dad seems sad about the situation. Orlando reminds them it’s not his money, it’s the family’s money. That’s why he puts it toward little luxuries like new floors and a gleaming new door — they’re practical renovations, yes, but they put a glisten back into his dad’s eyes that comes with having a purpose, something Orlando fears his dad is missing since retiring. For Orlando, that 1,000-dollar glisten doesn’t seem overpriced."
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "“Because we’re creative”"
+      }
+    },
+    {
+      "type": "text",
+      "value": "It’s only eight hours later, but Orlando is back on the ferry. His arm bends in a perfect “L” as he grips the railing above him, mouthing the words to a Kendrick Lamar song streaming through his earbuds."
+    },
+    {
+      "type": "text",
+      "value": "His morning ferry proves it has also been the pumpkin for countless other Cinderellas, with white and blue paint chipping from the walls and worn green floors. It’s the size of a living room — fitting, since it seems like this is where Orlando does a lot of his living — with characters of every age hunched over the rail, their eyes locked on the nearing Havana harbor as the boat courses through the water."
+    },
+    {
+      "type": "text",
+      "value": "Orlando is on his way to pick up a group of Americans visiting for the week. He says a lot of the visitors he meets have predetermined conceptions of what Cuba is like before they arrive — the old cars, the limited access to the outside world — and decide the country must be stuck in the past."
+    },
+    {
+      "type": "text",
+      "value": "They’re wrong."
+    },
+    {
+      "type": "text",
+      "value": "“How do you think [the cars] are still running?” he asks. “Because we’re creative.”"
+    },
+    {
+      "type": "text",
+      "value": "This creativity is embedded into young people now — it’s as much a genetic Cuban trait as the physical ones. It’s what inspired a kid without much money to learn English just for fun, to get a job that could provide his family with security in a country that hasn’t always felt so secure. In the same way that Orlando’s neighbors in Regla seem to know who he is without even asking, the rest of the world has its eyes on Cuba — how it will grow, how America’s access will influence the island, how it will change."
+    },
+    {
+      "type": "text",
+      "value": "How Cuba’s tumultuous past will influence its future."
+    },
+    {
+      "type": "text",
+      "value": "Orlando doesn’t have the answers, and he doesn’t know how his two worlds will merge in the upcoming years. But for now, that’s okay. There’s a ferry that can bridge them for him."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/poem.ejs"
+      }
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/moneyslider.ejs"
+      }
     }
   ],
-  "Text": "“Because we’re creative”",
-  "filename": "interactives/moneyslider.ejs",
   "slider-images": [
     {
       "src": "harbor_sl_01.jpg",
