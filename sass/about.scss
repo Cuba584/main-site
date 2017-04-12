@@ -5,7 +5,6 @@ $text-gray: #070707;
 $medium-gray: #3C3C3C;
 $light-gray: #efefef;
 
-
 @mixin about-page-colors ($colors...){
   @each $i in $colors {
     .#{nth($i, 1)}{
@@ -20,7 +19,6 @@ $light-gray: #efefef;
       }
   }
 }
-
 
 
 @include about-page-colors (
@@ -87,9 +85,6 @@ a:hover, a:focus {
 }
 
 #team-photos {
-//  display: flex;
-//  justify-content: space-around;
-//  flex-wrap: wrap;
   width: 90%;
   margin: 10px auto;
   .team-info {
@@ -107,7 +102,7 @@ a:hover, a:focus {
       display:inline-block;
     }
     span {
-      display: inline-block; 
+      display: inline-block;
     }
     .team-name{
       display:block;
