@@ -46,7 +46,7 @@
     {
       "type": "video",
       "value": {
-        "id": "200984993"
+        "id": "211785345"
       }
     },
     {
@@ -90,15 +90,6 @@
       "value": "Damian explained that these photoshoots are meant to showcase Salon Donde Dorian and its new collection of looks that will set the tone for masculine style in the city. Since the implementation of new economic policy in 2011, many entrepreneurs have been entering the private sector and competing against each other in true capitalistic fashion. Despite this resurgence of competition, the streets of Havana contain no trace of advertisements. Instead billboards sport images of Che Guevara in his austere manner saying “Hasta La Victoria Siempre” or other messages of support for the government such as “Fidel Es El Pueblo.” Though restrictions on private business are slowly dissolving, the government controls publications and limits ads as a way to preserve the cultural values of communism within Cuba. Private businesses, therefore, produce videos that are then distributed online to advertise and promote their own company values."
     },
     {
-      "type": "image",
-      "value": {
-        "src": "example1.jpg",
-        "alt": "A picture of Juan and Gabriella in the skate competition.",
-        "attribution": "Claire Collins",
-        "caption": "Juan and Gabriella take turns skating down a ramp on a sunny Havana day."
-      }
-    },
-    {
       "type": "text",
       "value": "Dorian said limited access to the Internet in Cuba has limited him creatively in the past but he’s working with his brother to overcome the challenges it presents in advertising and developing their business."
     },
@@ -125,6 +116,10 @@
       "value": "“We were born in a humble house, in a humble neighborhood. But before the revolution, the 50s, our family was proprietary of a type of business called “De Barrio.” It was a cafeteria named El Buen Gusto,” said Damian."
     },
     {
+      "type": "slider",
+      "value": {}
+    },
+    {
       "type": "text",
       "value": "The family lost their business after the revolution triumphed and privately owned businesses were nationalized. But Damian said his family has always had an entrepreneurial spirit, something he’s determined to keep alive with the expansion of Donde Dorian."
     },
@@ -139,10 +134,6 @@
     {
       "type": "text",
       "value": "Dorian reminisces about how days attending barber school and said his line is also meant to start new conversations within the Cuban culture about masculinity as well. When he first became a hairdresser, Dorian was ashamed of it because it wasn’t something men did. He said haircutting and fashions always caught his attention as he attended university and he wants to reimagine style for men in Cuba today so that they can take pride in how they look."
-    },
-    {
-      "type": "slider",
-      "value": {}
     }
   ],
   "slider-images": [

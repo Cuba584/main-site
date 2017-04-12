@@ -20,6 +20,7 @@ $light-gray: #efefef;
   }
 }
 
+
 @include about-page-colors (
   'everyone' $everyone,
   'videographer' $videographer,
@@ -84,9 +85,6 @@ a:hover, a:focus {
 }
 
 #team-photos {
-//  display: flex;
-//  justify-content: space-around;
-//  flex-wrap: wrap;
   width: 90%;
   margin: 10px auto;
   .team-info {
@@ -101,7 +99,10 @@ a:hover, a:focus {
       display:inline-block;
     }
     .portfolio{
-      display:inline;
+      display:inline-block;
+    }
+    span {
+      display: inline-block;
     }
     .team-name{
       display:block;
