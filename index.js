@@ -8,7 +8,17 @@ var archieml = require('archieml');
 var parsed = archieml.load('key: value');
 var fs = require('fs');
 
+var usingHeroku = false;
+
+if (usingHeroku){
   app.set('port', (process.env.PORT || 5000));
+
+} else {
+  var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
+  var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
+  app.set('port', (server_port || 8080));
+}
+
   app.use(express.static(__dirname + '/public'));
 
   app.set('views', __dirname + '/views');
@@ -23,26 +33,30 @@ var fs = require('fs');
   });
 
   app.get('/about', function(request, response){
-    var teamData = JSON.parse(fs.readFileSync('data/team.json'));
-    bodyData = JSON.parse(fs.readFileSync('data/about.json'));
-    response.render('pages/about', {body: bodyData, team: teamData, page: 'about', espanol: isEspanol(request)});
+    var teamData = JSON.parse(fs.readFileSync('./public/data/team.json'));
+    response.render('pages/about', {team: teamData, page: 'about', espanol: isEspanol(request)});
   });
 
   app.get('/pages/:id', function(req, res){
     var pageName = req.params.id;
     var bodyData;
+    var internetData;
+
+    //Lindsay's interactive data
+    internetData = JSON.parse(fs.readFileSync('./public/data/internet.json'));
+
 	if (isEspanol(req)){
-		bodyData = JSON.parse(fs.readFileSync('data/' + pageName + 'espanol.json'));
+		bodyData = JSON.parse(fs.readFileSync('./public/data/' + pageName + 'espanol.json'));
 	} else {
-		bodyData = JSON.parse(fs.readFileSync('data/' + pageName + '.json'));
+		bodyData = JSON.parse(fs.readFileSync('./public/data/' + pageName + '.json'));
 	}
-    res.render('pages/inner', {body: bodyData, page: '/pages/' + pageName, espanol: isEspanol(req)});
+    res.render('pages/inner', {internet: internetData, body: bodyData, page: '/pages/' + pageName, espanol: isEspanol(req)});
   });
 
   app.get('*', function(request, response){
     response.render('pages/404', {page: '404', espanol: isEspanol(request)});
   });
 
-var isEspanol = function(req){
-	return req.query.lang && req.query.lang == "es";
-};
+  var isEspanol = function(req){
+  	return req.query.lang && req.query.lang == "es";
+  };

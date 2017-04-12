@@ -12,11 +12,3 @@ $(window).resize(function(){
   replayVideoHeight = $(pageVideo).height();
   toggleWrapper();
 });
-
-function toggleWrapper() {
-  if (viewportWidth <= 570){
-    $('.logo-wrapper').hide();
-  } else {
-    $('.logo-wrapper').show();
-  }
-}
