@@ -1,3 +1,6 @@
+@import '_vars';
+@import '_include-media';
+
 #c {
   display: block;
   margin: 0 auto;
@@ -23,4 +26,13 @@
   margin-top: 0;
   margin-bottom: -3pt;
   color: #696969;
+}
+
+@include media("screen", "<=linegraph-sm") {
+  #c {
+    width: 100%;
+  }
+  .xy{
+    margin-top: 3px;
+  }
 }

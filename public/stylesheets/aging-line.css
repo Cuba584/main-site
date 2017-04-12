@@ -1,3 +1,5 @@
+/* ------------------ Global Styles ------------ */
+/*change page colors here!*/
 #c {
   display: block;
   margin: 0 auto; }
@@ -19,3 +21,9 @@
   margin-top: 0;
   margin-bottom: -3pt;
   color: #696969; }
+
+@media screen and (max-width: 810px) {
+  #c {
+    width: 100%; }
+  .xy {
+    margin-top: 3px; } }
