@@ -72,6 +72,9 @@ $(document).ready(function(){
 					<%} else if (body["text"][i]["type"] == "slider"){%>
 				</div>
 				</section>
+				<script>
+				var captionArray = [];
+				</script>
 						<div id="photo-gallery">
 
 						  <div id="custom-slider">
@@ -82,31 +85,101 @@ $(document).ready(function(){
 							        <div class="pic-style">
 							          <img src="../assets/images/photo-gallery/<%=body["master-class"]["class"]%>/<%=body["slider-images"][s]["src"]%>" class="pic"/>
 							        </div>
-
-											<div class="caption">
-												<div class="arrow-wrapper">
-													<button class="slider-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-													<button class="slider-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-												</div>
-
-													<figcaption class="pg-figcaption <%=body["master-class"]["class"]%>">
-														<p class="fig-descr"><%=body["slider-images"][s]["caption"]%></p>
-														<p class="fig-attr">Photo by</p>
-														<p class="fig-attr"><%=body["slider-images"][s]["attribution"]%></p>
-													</figcaption>
-
-
-											</div>
 							      </li>
-
+										<script>
+										captionArray.push("<figcaption class='pg-figcaption'>" +
+											"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
+											"<p class='fig-attr'>Photo by</p>" +
+											"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
+										"</figcaption>");
+										</script>
 								<% } %>
-
-
+							</ul>
 						  </div>
+							<!-- <script src="/js/slider.js"></script> -->
 
+							<div class="caption">
+								 <div class="arrow-wrapper">
+									<button class="slider-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+									<button class="slider-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+								</div>
+								<div id="inner-caption">
+								</div>
 						</div>
+							</div>
+						<script>
+						var sliderSections = document.getElementsByClassName('slider-section');
+						var slider = document.getElementById('custom-slider');
+						var sliderUl = document.getElementById('slider-ul');
+						var lastSlide= sliderUl.lastElementChild;
+						var lastSlideClone = lastSlide.cloneNode(true);
+						var firstSlide = sliderUl.firstElementChild;
+						var firstSlideClone = firstSlide.cloneNode(true);
+						sliderUl.style.width = 100 * (sliderSections.length + 2) + "%";
+						sliderUl.insertBefore(lastSlideClone, firstSlide);
+						sliderUl.appendChild(firstSlideClone);
+						var leftButtons = document.getElementsByClassName('slider-left');
+						var rightButton = document.getElementsByClassName('slider-right');
+						var sliderLeft = sliderUl.offsetLeft;
+						var slideIndex = 0;
+						var captionIndex = 0;
+						$('#inner-caption').html(captionArray[1]);
 
-						<script src="/js/slider.js"></script>
+
+
+							$('.slider-left').on("click", function toPrevious() {
+								sliderUl.style.transition = "0.5s left";
+								slideIndex --;
+								console.log(slideIndex)
+								var captionIndex = slideIndex;
+								if (slideIndex == 0) {
+									sliderUl.style.left = "-110%";
+								} else if (slideIndex == -1) {
+									sliderUl.style.left = "-10%";
+									setTimeout(function() {
+										sliderUl.style.transition = "0s left";
+										sliderUl.style.left = (sliderSections.length - 1) * -110 + '%';
+										 slideIndex = sliderSections.length - 2;
+										 console.log(slideIndex)
+									}, 500);
+								}
+								else {
+									sliderUl.style.left = (slideIndex * -110) - 110 + '%';
+								}
+								var currentCaption = captionArray[captionIndex +1];
+								$('#inner-caption').html(currentCaption);
+							})
+
+
+
+							$('.slider-right').on("click", function toNext() {
+								sliderUl.style.transition = "0.5s left";
+								slideIndex ++;
+								console.log(slideIndex)
+								captionIndex = slideIndex;
+								if (slideIndex == 0) {
+									sliderUl.style.left = "-110%";
+								}
+								else if (slideIndex > sliderSections.length - 2) {
+									sliderUl.style.left = (slideIndex * -110) - 110 + '%';
+									setTimeout(function() {
+										sliderUl.style.transition = "0s left";
+										sliderUl.style.left = "-110%";
+										 slideIndex = 0;
+										 console.log(slideIndex);
+									}, 500);
+									captionIndex = 0;
+								}
+								else {
+									sliderUl.style.left = (slideIndex * -110) - 110 + '%';
+								}
+								console.log(captionIndex + 1)
+								var currentCaption = captionArray[captionIndex +1];
+								console.log(currentCaption)
+								$('#inner-caption').html(currentCaption);
+							})
+
+						</script>
 				<section class="center-wrapper">
 					<div class="max-width">
       <%} else if (body["text"][i]["type"] == "interactive") {%>
