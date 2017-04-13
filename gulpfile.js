@@ -50,7 +50,7 @@ gulp.task('connect', function(){
   });
 
   app.get('*', function(request, response){
-    response.render('pages/404', {page: '404', espanol: isEspanol(request)});
+    response.render('pages/404', {navEng: navEnglish, navSpan: navSpanish, page: '404', espanol: isEspanol(request)});
   });
 
 });
