@@ -61,8 +61,7 @@
     color: #000; }
   #photo-gallery .caption {
     color: #000;
-    width: 30%;
-    left: 5%;
+    width: 25%;
     position: relative;
     display: flex;
     flex-direction: column; }
