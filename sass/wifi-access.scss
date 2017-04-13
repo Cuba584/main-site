@@ -1,0 +1,14 @@
+@import '_include-media';
+
+img.wifi{
+  display: block;
+  margin: 0 auto;
+}
+
+@include media("screen", "<=md"){
+  img.wifi{
+    width: 100%;
+    display: inline-block;
+  }
+
+}

@@ -37,6 +37,7 @@
   #index-container {
     display: none; }
   #mobile-container {
+    background: url("textures/family.JPG") no-repeat;
     display: block; }
   nav .logo {
     visibility: hidden; } }
@@ -47,16 +48,16 @@
     width: 100%; }
 
 #intro-text {
-  color: #484848;
+  color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   padding: 5px 6%; }
 
 #intro-line {
-  width: 88%;
-  background-color: #606060;
+  width: 65%;
+  background-color: white;
   height: 5px;
-  margin: 40px auto 0px; }
+  margin: 40px auto 0px 7%; }
 
 .photo-box {
   height: 220px;

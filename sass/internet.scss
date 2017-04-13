@@ -8,13 +8,23 @@
   flex-direction:column;
   justify-content:center;
 
-  h3{
+  h3, .country-ratio{
     font-size:1.75em;
     margin-bottom:5pt;
     width:400px;
     text-align:center;
   }
 
+  #cuba-title, #other-country-title{
+    text-align:center;
+    font-size:.8em;
+  }
+
+  .fa.fa-male{
+    padding:.05em;
+    color:$light-gray;
+    opacity:0.5;
+  }
 
 
   .center-wrapper {
@@ -30,19 +40,19 @@
   .people-cont{
     display:flex;
     justify-content:space-between;
-    padding:0 20vw 0 20vw;
+    // padding:0 20vw 0 20vw;
   }
 
-  .selected{
-    color:gray;
+  .fa.fa-male.selected{
+    color:darken($green,5%);
+    opacity:1;
   }
   .country-cont{
     width:400px;
   }
-}
 
-@include media('screen', '<=lg'){
-  .internet-graphic{
+
+@include media('screen', '<=nav-mid'){
     .dropdown-cont{
       justify-content:flex-end;
       padding-right:12vw;
@@ -50,7 +60,7 @@
     .people-cont{
       // width:400px;
       justify-content:center;
-      padding:0 30vw 0 30vw;
+      padding:0 10vw 0 10vw;
     }
     .people-cont, .title-cont{
       flex-direction:column;
@@ -64,6 +74,11 @@
 
   }
 
+  @include media('screen', '<=sm'){
+    .fa.fa-male{
+      font-size:1.2em;
+    }
 
+  }
 
-}
+} //internet-graphic

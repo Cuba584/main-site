@@ -7,8 +7,8 @@
     "attribution": "Kira Dalman"
   },
   "header": {
-    "text": "Let the Rice Burn",
-    "subtitle": "How two female rappers are using their voices"
+    "text": "The Real Queens",
+    "subtitle": "Two rappers challenge stereotypes through their beats"
   },
   "reporters": [
     {
@@ -38,16 +38,16 @@
     },
     {
       "type": "text",
-      "value": "Reyna Hernandez Sandoval is in the other room trying to fit her long braided hair into a knot on the top of her head. The rice charcoaling on the stove is the least of her concerns; she’s busy getting ready to go out. She’s a rapper, a part of a duo with her best friend Yadira Pintado Lazcano, though they’re known around Havana by their rapper names: La Reyna y La Real."
+      "value": "Reyna Hernandez Sandoval is in the other room trying to fit her long braided hair into a knot on the top of her head. The rice charcoaling on the stove is the least of her concerns — she’s busy getting ready to go out. She’s a rapper, a part of a duo with her best friend Yadira Pintado Lazcano, though they’re known around Havana by their stage names: La Reyna y La Real."
     },
     {
       "type": "text",
-      "value": "The rice on the stove that she’s been neglecting isn’t totally neglected, though — lately, it’s been her and Yadira’s inspiration. Who cares if dinner is scorched? Why should they be the ones who have to watch it cook? Someone else can do it. It’s what they named one of their recent songs: “Que se queme el arroz,” — Let the rice burn. It’s a statement. It’s a protest."
+      "value": "The rice on the stove that she has been neglecting isn’t totally neglected, though — lately, it’s been her and Yadira’s inspiration. Who cares if dinner is scorched? Why should they be the ones who have to watch it cook? Someone else can do it. It’s what they named one of their recent songs: “Que se queme el arroz,” — Let the rice burn. It’s a statement. It’s a protest."
     },
     {
       "type": "video",
       "value": {
-        "id": "200984993"
+        "id": "211344958"
       }
     },
     {
@@ -58,7 +58,7 @@
     },
     {
       "type": "text",
-      "value": "Though rap is an emerging musical genre in Cuba, Alberto Faya, a professor of Cuban culture at the University of Havana, says music has always been integral to the country’s cultural development, specifically the process of transculturation: When different cultures meld over long periods of time to help form a national identity. It is transculturation that produced Son, the fusion of percussion created by African slaves with the stringed instruments introduced by the Spanish. Cuban music, Faya says, is reliant on the incorporation and adaptation of other sounds to continue evolving."
+      "value": "Though rap is an emerging musical genre in Cuba, Alberto Faya, a professor of Cuban culture at the University of Havana, says music has always been integral to the country’s cultural development, specifically the process of transculturation: When different cultures meld over long periods of time to help form a national identity. It is transculturation that produced Son, the fusion of percussion from African slaves mixed with the stringed instruments introduced by the Spanish. Cuban music, Faya says, is reliant on the incorporation and adaptation of other sounds to continue evolving."
     },
     {
       "type": "slider",
@@ -103,11 +103,11 @@
     },
     {
       "type": "text",
-      "value": "Reyna and Yadira didn’t always dream they’d be rappers. Yadira worked as a social worker for a few years, and Reyna was on her way to becoming a chemical engineer when a baby interrupted those plans — a son, Michel, who is now nine and wants to be a rapper, too. A few years after becoming a mom, she decided to pursue music."
+      "value": "Reyna and Yadira didn’t always dream they’d be rappers. Yadira worked as a social worker for a few years, and Reyna was on her way to becoming a chemical engineer when a baby interrupted her plans — a son, Michel, who is now nine and wants to be a rapper, too. A few years after becoming a mom, she decided to pursue music."
     },
     {
       "type": "text",
-      "value": "It was Moises Whittaker Alvarez who helped unite them in 2012, who is now the only manager they’ve ever worked with. He knew them as individual performers, but something about their styles — the way they can so fiercely perform their “protest music,” but also fill whatever room they’re in with instantaneous laughter and light — told him that, even though they didn’t know each other, they needed each other."
+      "value": "It was Moises Whittaker Alvarez who helped unite them in 2012, now the only manager they’ve ever worked with. He knew them as individual performers, but something about their styles — the way they can so fiercely perform their “protest music,” but also fill whatever room they’re in with instantaneous laughter and light — told him that, even though they didn’t know each other, they needed each other."
     },
     {
       "type": "text",
@@ -126,7 +126,7 @@
     },
     {
       "type": "text",
-      "value": "Reyna and Yadira rap about real life: their struggles, their triumphs, their relationships, everything. But they do so while staying optimistic and empowering other women, too. They acknowledge their chosen profession is mostly male — of the 34 artists currently working at the rap agency, six are female."
+      "value": "Reyna and Yadira rap about real life: Their struggles, their triumphs, their relationships, everything. But they do so while staying optimistic and empowering other women, too. They acknowledge a disparity about women in rap that they hope to change — of the 34 artists currently working at the rap agency, six are female."
     },
     {
       "type": "interactive",
@@ -140,7 +140,7 @@
     },
     {
       "type": "text",
-      "value": "Yes, they’re still cooking rice for dinner — maybe in arroz con pollo or arroz a la cubana, the traditional Cuban dishes they grew up eating. But these days, it’s okay to let it burn. It tastes better that way."
+      "value": "Yes, they’re still cooking rice for dinner, maybe in arroz con pollo or arroz a la cubana, the traditional Cuban dishes they grew up eating. But these days, it’s okay to let it burn. It tastes better that way."
     }
   ],
   "slider-images": [

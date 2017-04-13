@@ -8,6 +8,7 @@
   margin-top: 2%;
   overflow-y: scroll;
   overflow-x: hidden;
+  margin-bottom: 2%;
   /* Turn off parallax scrolling for tablets and phones */ }
   .paquete-wrapper .paquete .bgimg {
     position: relative;
@@ -91,7 +92,10 @@
   .paquete-wrapper .paquete .scrolling {
     display: block; }
   .paquete-wrapper .paquete .other-caption {
-    display: none; } }
+    display: none; }
+  .paquete-wrapper .paquete .paquete-wrapper .paquete hr {
+    display: block;
+    margin-bottom: 5%; } }
 
 @media screen and (max-width: 570px) {
   .paquete-wrapper .paquete .bgimg {
@@ -100,4 +104,7 @@
   .paquete-wrapper .paquete .scrolling {
     display: block; }
   .paquete-wrapper .paquete .other-caption {
-    display: none; } }
+    display: none; }
+  .paquete-wrapper .paquete .paquete-wrapper .paquete hr {
+    display: block;
+    margin-bottom: 5%; } }
