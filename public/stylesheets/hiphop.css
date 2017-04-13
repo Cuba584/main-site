@@ -82,7 +82,10 @@
     display: block;
     text-align: center;
     width: 50px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    cursor: pointer; }
+    .hiphop-text a:hover .fa-youtube {
+      color: black; }
 
 #hiphop-container {
   display: block;
@@ -92,7 +95,7 @@
   margin-right: 5%; }
 
 .fa-youtube {
-  color: black;
+  color: #bb0000;
   font-size: 2em; }
 
 #hiphop1 {
@@ -157,15 +160,19 @@
     word-wrap: break-word;
     word-break: normal; }
   .hiphop-text a {
-    font-size: 2.25em; }
+    font-size: 2.4em; }
   .hiphop-bio {
-    font-size: .75em;
+    font-size: .8em;
     margin-bottom: 2px; } }
 
-@media screen and (max-width: 1045px) {
+@media screen and (max-width: 1110px) {
   .hiphop-name {
     font-size: .9em;
-    margin-top: 1px; } }
+    margin-top: 3px; }
+  .hiphop-bio {
+    font-size: .77em; }
+  .fa-youtube {
+    font-size: 2em; } }
 
 @media screen and (max-width: 1020px) {
   #hiphop-wrap-mobile > ul > li {
@@ -212,4 +219,6 @@
     margin: 0 auto; }
   .hiphop-panel {
     width: 72vw;
-    padding: 0; } }
+    padding: 0; }
+  .fa-youtube {
+    font-size: 3em; } }
