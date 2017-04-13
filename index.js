@@ -9,7 +9,7 @@ var parsed = archieml.load('key: value');
 var fs = require('fs');
 
 var navEnglish = ["The Real Queens", "Damian y Dorian", "Across the Harbor", "Viva la Familia", "Revolution on Wheels", "About"];
-var navSpanish = ["Las reinas reales", "Damian y Dorian", "Cruzando el puerto", "Viva la familia", "Revolución sobre ruedas", "Sobre nosotros"];
+var navSpanish = ["Las reinas verdaderas", "Damian y Dorian", "Cruzando el puerto", "Viva la familia", "Revolución sobre ruedas", "Sobre nosotros"];
 
 
 var usingHeroku = true;

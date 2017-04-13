@@ -1,6 +1,5 @@
 @import '_include-media';
 
-#moneyslider {
 #money-slider-wrapper {
   width: 50%;
   height: 50vh;
@@ -85,7 +84,7 @@
   .money-left, .money-center, .money-right{
     align-self: center;
   }
-}
+
 }
   @include media("screen", "<=sm"){
 
@@ -108,7 +107,7 @@
   }
 
   @include media("screen", "<=sm") {
-    #moneyslider {
+
       .money-slider .money-slider-section{
         flex-direction: column;
       }
@@ -118,7 +117,7 @@
       .money-slider-section p, .money-slider-section h3 {
         display: inline;
       }
-      hr {
+      .money-slider hr {
         display: inline-block;
         margin:0 15px;
         height:10px;
@@ -142,5 +141,3 @@
         z-index:1000;
       }
     }
-
-}
