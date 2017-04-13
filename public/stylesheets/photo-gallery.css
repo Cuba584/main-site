@@ -88,11 +88,10 @@
     width: calc(100% - 150px); } }
 
 @media screen and (max-width: 1020px) {
-  #photo-gallery #photo-gallery {
-    flex-direction: column;
-    justify-content: center; }
   #photo-gallery #custom-slider {
     width: 90vw; }
+  #photo-gallery #custom-slider > ul {
+    height: 50vh; }
   #photo-gallery .pg-figcaption {
     border-top: none;
     margin-top: -62px;

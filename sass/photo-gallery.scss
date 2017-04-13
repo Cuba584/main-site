@@ -169,12 +169,13 @@
     //   justify-content:center;
     //
     // }
-    #photo-gallery {
-        flex-direction: column;
-        justify-content: center;
-    }
+        // flex-direction: column;
+        // justify-content: center;
     #custom-slider {
       width: 90vw;
+    }
+    #custom-slider > ul {
+      height: 50vh;
     }
     .pg-figcaption{
       border-top:none;
