@@ -3,6 +3,86 @@
 <head>
   <% include ../partials/header.ejs %>
   <% var URL_LANG = espanol ? "?lang=es":"";  %>
+
+  <style>
+  #video_overlay {
+    position:absolute;
+    z-index:1000;
+    top:70px;
+    text-align: right;
+    color:#fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2em;
+    letter-spacing: .03em;
+    margin:5% 10%;
+    padding-left:30%;
+  }
+  #video_overlay .texttop {
+    opacity: 0;
+  }
+  #video_overlay .textbottom {
+    margin-top:5%;
+    opacity:0;
+  }
+  .fadeIn1 {
+    -webkit-animation-name: fadeIn; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 16s; /* Safari 4.0 - 8.0 */
+    animation-name: fadeIn1;
+    animation-duration: 2s;
+    animation-delay: 16s;
+    animation-fill-mode: forwards;
+  }
+  .fadeIn2 {
+    -webkit-animation-name: fadeIn; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 19s; /* Safari 4.0 - 8.0 */
+    animation-name: fadeIn2;
+    animation-duration: 2s;
+    animation-delay: 19s;
+    animation-fill-mode: forwards;
+  }
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes fadeIn1 {
+      0%   {opacity:0;}
+      100% {opacity:1;}
+  }
+  @-webkit-keyframes fadeIn2 {
+      0%   {opacity:0;}
+      100% {opacity:1;}
+  }
+
+  /* Standard syntax */
+  @keyframes fadeIn1 {
+    0%   {opacity:0;}
+    100% {opacity:1;}
+  }
+  @keyframes fadeIn2  {
+    0%   {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  #home-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0px;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: black;
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover;
+    z-index: 3;
+  }
+#replay-btn {
+  padding: 2em 0;
+  right:10%;
+}
+  </style>
+
 </head>
 
 <body>
@@ -13,22 +93,33 @@
   </script>
   <% include ../partials/nav.ejs %>
   <div id="index-container">
-    <div id="bottom-box">
+    <div id="video_overlay">
+        <div class="texttop fadeIn1">
+          <% if (espanol) { %>
+            Olas de cambio social, económico y político están rizando en Cuba.
+          <% } else { %>
+            Waves of social, economic and political change are rippling across Cuba.
+          <% } %>
+        </div>
+        <div class="textbottom fadeIn2">
+          <% if (espanol) { %>
+            Ahora, todo lo que es cierto sobre el futuro de la nación es quien determinará: la juventud.
+          <% } else { %>
+            Now, all that is certain about the nation's future is who will determine it: the youth.
+          <% } %>
+        </div>
+    </div>
 
-        <video id="home-video" muted data-autoplay autoplay onended="showReplay()">
+    <video id="home-video" muted data-autoplay autoplay onended="showReplay()">
+      <source src="/assets/video/home.mp4" type="video/mp4">
+    </video>
 
-    			<source src="<%= espanol ? "spanish_video_link":"/assets/video/home.mp4" %>" type="video/mp4">
-
-    		</video>
-        <!-- <div id="logo-box">
-          <img alt="logo" src="/assets/584_logo_04.png">
-        </div> -->
         <div class="replay-btn" id="replay-btn" onclick="replayVideo()">
           <i class="fa fa-repeat"></i>
           <span><%= espanol ? "Replay Espanol":"Replay" %></span>
         </div>
-    </div>
   </div>
+
 
   <div id="mobile-container">
 
@@ -48,8 +139,8 @@
     <div class="photo-box" id="family-box">
       <a href="/pages/family<%=URL_LANG%>">
       <div class="overlay-black">
-        <h3>A New Understanding</h3>
-        <p>The elderly give way to youth who are shaping the future</p>
+        <h3>Viva la Familia</h3>
+        <p>Diego and his grandmother find common ground in a changing Cuba</p>
       </div></a>
 
     </div>
@@ -57,36 +148,31 @@
       <a href="/pages/harbor<%=URL_LANG%>">
       <div class="overlay-black">
         <h3>Damian y Dorian</h3>
-        <p>Exploring freedom through a non-traditional sport</p>
+        <p>Trendsetting brothers cut a new path</p>
       </div></a>
     </div>
     <div class="photo-box" id="dorian-box">
       <a href="/pages/dorian<%=URL_LANG%>">
       <div class="overlay-black">
         <h3>Across the Harbor</h3>
-        <p>Trendsetting brothers cut a new path</p>
+        <p>One commute bridges two worlds</p>
       </div></a>
     </div>
     <div class="photo-box" id="hiphop-box">
       <a href="/pages/hiphop<%=URL_LANG%>">
       <div class="overlay-black">
-        <h3>The Agency of Rap</h3>
-        <p>Social issues are front and center</p>
+        <h3>The Real Queens</h3>
+        <p>Two rappers challenge stereotypes through their beats</p>
       </div></a>
     </div>
     <div class="photo-box" id="skate-box">
       <a href="/pages/skate<%=URL_LANG%>">
       <div class="overlay-black">
-        <h3>Skate Libre</h3>
-        <p>Exploring freedom through a non-traditional sport</p>
+        <h3>Revolution on Wheels</h3>
+        <p>Cuba’s youth refuse to be curbed by tradition</p>
       </div></a>
     </div>
-
-
   </div>
-
-
-
   <script type="text/javascript" src="/js/index.js"></script>
 </body>
 </html>
