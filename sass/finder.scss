@@ -2,8 +2,6 @@
   /*box-sizing: border-box;*/ }
 
 .finder-wrapper {
-  height: 600px;
-  // width: 80%;
   margin: auto;}
 
 .interactive-intro {
@@ -39,7 +37,6 @@
   align-items: flex-start;
   flex-wrap: wrap;
   justify-content: center;
-  height: 550px;
   }
 
 .finder-window {
@@ -53,7 +50,7 @@
   -webkit-box-shadow: 6px 9px 77px -4px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 6px 9px 77px -4px rgba(0, 0, 0, 0.25);
   box-shadow: 6px 9px 77px -4px rgba(0, 0, 0, 0.25);
-  margin-bottom: 15px; }
+  margin-bottom: 30px; }
 
 .finder-header {
   -webkit-box-flex: 1;
