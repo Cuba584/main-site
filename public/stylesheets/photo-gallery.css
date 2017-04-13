@@ -21,25 +21,13 @@
 #photo-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
-  position: relative; }
-  #photo-gallery .arrow-wrapper {
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    width: 160px;
-    margin-left: 1.2vw; }
-    #photo-gallery .arrow-wrapper .slider-left {
-      padding: 0; }
-    #photo-gallery .arrow-wrapper .slider-right {
-      padding: 0; }
-  #photo-gallery .slider-left {
-    margin-right: auto !important; }
+  align-items: flex-start; }
   #photo-gallery #custom-slider {
-    width: 100%;
+    width: 70vw;
+    height: auto;
     overflow: hidden;
-    margin: 1em auto 1em 0; }
+    margin-left: auto;
+    margin-right: auto; }
   #photo-gallery #custom-slider > ul {
     width: 100%;
     left: -100%;
@@ -51,11 +39,20 @@
     display: inline-flex; }
   #photo-gallery #custom-slider > ul > li {
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    /**/ }
+    color: black;
+    font-size: 3rem; }
   #photo-gallery .pic {
-    max-width: 70vw; }
+    width: 100%; }
+  #photo-gallery .arrow-wrapper {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    margin-left: 1.2vw; }
+    #photo-gallery .arrow-wrapper .slider-left {
+      padding: 0; }
+    #photo-gallery .arrow-wrapper .slider-right {
+      padding: 0; }
   #photo-gallery button {
     background: transparent;
     border: none;
@@ -64,15 +61,14 @@
     color: #000; }
   #photo-gallery .caption {
     color: #000;
-    width: 30%;
-    margin-left: 1vw;
+    width: 25%;
     position: relative;
     display: flex;
     flex-direction: column; }
   #photo-gallery .pg-figcaption {
     padding-top: .6em;
     margin-top: 1.1em;
-    width: calc(100% - 200px); }
+    width: 80%; }
   #photo-gallery .fig-descr {
     line-height: 1.6em; }
   #photo-gallery .fig-attr {
@@ -89,9 +85,8 @@
     width: calc(100% - 150px); } }
 
 @media screen and (max-width: 1020px) {
-  #photo-gallery #custom-slider > ul > li {
-    flex-direction: column;
-    justify-content: center; }
+  #photo-gallery #custom-slider {
+    width: 90vw; }
   #photo-gallery .pg-figcaption {
     border-top: none;
     margin-top: -62px;
@@ -102,7 +97,6 @@
   #photo-gallery .fig-descr {
     margin-bottom: 0; }
   #photo-gallery .pic {
-    max-height: 80vh;
     width: 100%;
     max-width: none; }
   #photo-gallery .caption {
@@ -110,11 +104,10 @@
     margin-top: 0;
     justify-content: space-around;
     flex-direction: column;
-    margin-left: 0; }
+    margin-left: 0;
+    left: 0; }
   #photo-gallery .arrow-wrapper {
     z-index: 1;
-    display: flex;
-    justify-content: space-around;
     width: initial;
     margin: 0 3em 0 3em; } }
 

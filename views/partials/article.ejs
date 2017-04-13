@@ -10,15 +10,11 @@ $(document).ready(function(){
 
   <section id="top-fold">
 				<div id="cinema-box">
-        <video id="cinemagraph" data-autoplay autoplay muted playsinline onended="showReplay()">
+        <video id="cinemagraph" data-autoplay autoplay muted playsinline>
 
           <source src="/assets/video/<%=body["cinemagraph"]["src"] %>" type="video/mp4">
           <!-- <source src="/assets/video/dorian_new.mp4" type="video/mp4"> -->
         </video>
-      <div class="replay-btn" id="replay-btn" onclick="replayVideo()">
-        <i class="fa fa-repeat"></i>
-        <span>Replay</span>
-      </div>
 		</div>
       <div>
 		    <div id="title-box" class="center-wrapper">
@@ -76,6 +72,9 @@ $(document).ready(function(){
 					<%} else if (body["text"][i]["type"] == "slider"){%>
 				</div>
 				</section>
+				<script>
+				var captionArray = [];
+				</script>
 						<div id="photo-gallery">
 
 						  <div id="custom-slider">
@@ -86,31 +85,28 @@ $(document).ready(function(){
 							        <div class="pic-style">
 							          <img src="../assets/images/photo-gallery/<%=body["master-class"]["class"]%>/<%=body["slider-images"][s]["src"]%>" class="pic"/>
 							        </div>
-
-											<div class="caption">
-												<div class="arrow-wrapper">
-													<button class="slider-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-													<button class="slider-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-												</div>
-
-													<figcaption class="pg-figcaption <%=body["master-class"]["class"]%>">
-														<p class="fig-descr"><%=body["slider-images"][s]["caption"]%></p>
-														<p class="fig-attr">Photo by</p>
-														<p class="fig-attr"><%=body["slider-images"][s]["attribution"]%></p>
-													</figcaption>
-
-
-											</div>
+											<script>
+											captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
+												"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
+												"<p class='fig-attr'>Photo by </p>" +
+												"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
+											"</figcaption>");
+											</script>
 							      </li>
-
 								<% } %>
-
-
+							</ul>
 						  </div>
 
+							<div class="caption">
+								 <div class="arrow-wrapper">
+									<button class="slider-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+									<button class="slider-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+								</div>
+								<div id="inner-caption">
+								</div>
 						</div>
-
-						<script src="/js/slider.js"></script>
+							</div>
+							<script src="/js/photo-slider.js"></script>
 				<section class="center-wrapper">
 					<div class="max-width">
       <%} else if (body["text"][i]["type"] == "interactive") {%>
@@ -128,7 +124,11 @@ $(document).ready(function(){
   </section>
     <div class="pull-quote-box change-bg <%= body["master-class"]["class"] %>">
       <h3 class="pull-quote">
-        <hr> <span><%=body["text"][i]["value"]["text"] %></span> </h3>
+        <hr> <span><%=body["text"][i]["value"]["text"] %></span>
+				<div class="attribution">
+					<%=body["text"][i]["value"]["attribution"]%>
+				</div>
+			 </h3>
     </div>
     <section class="center-wrapper">
       <div class="max-width">

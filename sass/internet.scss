@@ -8,11 +8,16 @@
   flex-direction:column;
   justify-content:center;
 
-  h3{
+  h3, .country-ratio{
     font-size:1.75em;
     margin-bottom:5pt;
     width:400px;
     text-align:center;
+  }
+
+  #cuba-title, #other-country-title{
+    text-align:center;
+    font-size:.8em;
   }
 
   .fa.fa-male{

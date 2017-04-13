@@ -6,19 +6,19 @@
     <div class="item centered">
       <ul class="change-bg change-mobile-bg <%= body["master-class"]["class"] %>">
         <li id="nav-art"><a class="hiphop nav-title" href="/pages/hiphop<%=URL_LANG%>">
-			<%= espanol ? "Rap Espanol" : "Agency of Rap" %>
+          <%= espanol ? navSpan[0] : navEng[0] %>
 			</a></li>
         <li><a class="dorian nav-title" href="/pages/dorian<%=URL_LANG%>">
-			<%= espanol ? "Damian y Dorian" : "Damian y Dorian" %>
+          <%= espanol ? navSpan[1] : navEng[1] %>
 			</a></li>
         <li><a class="harbor nav-title" href="/pages/harbor<%=URL_LANG%>">
-			<%= espanol ? "Harbor Espanol" : "Across the Harbor" %>
+          <%= espanol ? navSpan[2] : navEng[2] %>
 			</a></li>
         <li><a class="family nav-title" href="/pages/family<%=URL_LANG%>">
-			<%= espanol ? "Aging Espanol" : "Aging Society" %>
+          <%= espanol ? navSpan[3] : navEng[3] %>
 			</a></li>
         <li><a class="skate nav-title" href="/pages/skate<%=URL_LANG%>">
-			<%= espanol ? "Skater Espanol" : "Skater Girl" %>
+          <%= espanol ? navSpan[4] : navEng[4] %>
 			</a></li>
       </ul>
 
@@ -32,7 +32,9 @@
 
       </div>
       <div id="about-footer">
-      <a href="/about<%=URL_LANG%>"><%= espanol ? "Sobre":"About the Project"%></a></li><br>
+      <a href="/about<%=URL_LANG%>">
+        <%= espanol ? navSpan[5] : navEng[5] %>
+      </a></li><br>
       </div>
         <div class="sm-icons">
            <a class="facebook" href="https://www.facebook.com/CubasNewWave/" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
