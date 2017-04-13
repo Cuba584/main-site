@@ -33,12 +33,6 @@
   ],
   "text": [
     {
-      "type": "video",
-      "value": {
-        "id": "200984993"
-      }
-    },
-    {
       "type": "text",
       "value": "A sharp stench is snaking its way out of a small pot on an old Cuban stove."
     },
@@ -49,6 +43,12 @@
     {
       "type": "text",
       "value": "The rice on the stove that she’s been neglecting isn’t totally neglected, though — lately, it’s been her and Yadira’s inspiration. Who cares if dinner is scorched? Why should they be the ones who have to watch it cook? Someone else can do it. It’s what they named one of their recent songs: “Que se queme el arroz,” — Let the rice burn. It’s a statement. It’s a protest."
+    },
+    {
+      "type": "video",
+      "value": {
+        "id": "200984993"
+      }
     },
     {
       "type": "subhead",
@@ -145,61 +145,61 @@
   ],
   "slider-images": [
     {
-      "src": "HopHop_sl_01.jpg",
+      "src": "hiphop_sl_01.jpg",
       "alt": "Reyna in the studio",
       "attribution": "Anna Clare Spelman",
       "caption": "Renya Mercedes Hernadez Sandoval (La Reyna) rehearses in the studio located in her Moisés Whittaker Alvarez’ house."
     },
     {
-      "src": "HopHop_sl_10.jpg",
+      "src": "hiphop_sl_10.jpg",
       "alt": "Dark room under construction",
       "attribution": "Kira Dalman",
       "caption": "La Rayna and La Real are represented by The Agency of Rap. The main office space is under construction to create a space for artists to perform. The Agency represents 34 artists, 6 of which are women."
     },
     {
-      "src": "HopHop_sl_09.jpg",
+      "src": "hiphop_sl_09.jpg",
       "alt": "Yadira stands on her roof",
       "attribution": "kira dalman",
       "caption": "Yadira stands on her roof overlooking her neighborhood after fixing her water tank in order to mop her house."
     },
     {
-      "src": "HopHop_sl_08.jpg",
+      "src": "hiphop_sl_08.jpg",
       "alt": "yadira sits in her home.",
       "attribution": "kira dalman",
       "caption": "Yadira sits in her home watching her favorite show on her laptop. She frequently buys a “paquete,” a common way for Cubans consume popular media."
     },
     {
-      "src": "HopHop_sl_07.jpg",
+      "src": "hiphop_sl_07.jpg",
       "alt": "Renya shows off her tattoo in front of her house which bears the same emblem, a chess queen.",
       "attribution": "bridgette cyr",
       "caption": "Renya shows off her tattoo in front of her house which bears the same emblem, a chess queen. Not only a musician but a visual artist, she painted the piece on the front her home as a symbol of strength."
     },
     {
-      "src": "HopHop_sl_06.jpg",
+      "src": "hiphop_sl_06.jpg",
       "alt": "Michel and friends sitting on porch.",
       "attribution": "bridgette cyr",
       "caption": "Michel, Reyna’s son, sits outside his house with friends and family after school. Renya hopes her music inspires Michel to respect and support women."
     },
     {
-      "src": "HopHop_sl_05.jpg",
+      "src": "hiphop_sl_05.jpg",
       "alt": "Group of children, Reyna and Yadira watch a video on Michel’s phone.",
       "attribution": "Kira Dalman",
       "caption": "Michel, Reyna’s son, shows his friends a video on his phone. Michel plays drums and is encouraged by his mother to express himself in a positive way through music."
     },
     {
-      "src": "HopHop_sl_04.jpg",
+      "src": "hiphop_sl_04.jpg",
       "alt": "Reyna works out.",
       "attribution": "Kira Dalman",
       "caption": "Reyna works out several times a week, often with Yadira. Staying in shape helps her prepare for performances."
     },
     {
-      "src": "HopHop_sl_03.jpg",
+      "src": "hiphop_sl_03.jpg",
       "alt": "Yadira mops her living room floor.",
       "attribution": "Kira Dalman",
       "caption": "Yadira Pintado Lazcano mops her living room floor."
     },
     {
-      "src": "HopHop_sl_02.jpg",
+      "src": "hiphop_sl_02.jpg",
       "alt": "Yadira stands in the doorframe of her home.",
       "attribution": "Kira Dalman",
       "caption": "Yadira Pintado Lazcano (La Real) stands in the doorframe of her home. One half of the popular rap duo, La Renya y La Real, she works each day to improve her craft."
