@@ -234,6 +234,6 @@
     margin-left: 18px; }
   .hiphop-card-mobile {
     width: 235px; }
-  .hiphop-card div > .hiphop-text {
+  .hiphop-card > .hiphop-text {
     width: 200px;
     margin-left: 33px; } }
