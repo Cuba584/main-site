@@ -101,7 +101,7 @@
 
 .hiphop-panel img {
   height: auto;
-  width: 100%;
+  width: calc(100% + 1px);
   position: absolute;
   bottom: 0;
 }
@@ -334,16 +334,20 @@
 }
 
 @include media("screen", "<=hiphop-xs") {
+  .hiphop-panel {
+    width: 215px;
+  }
   .hiphop-panel img {
     width: 180px;
   }
   .hiphop-card div {
     width: 180px;
+    margin-left: 18px;
   }
   .hiphop-card-mobile {
     width: 235px;
   }
-  .hiphop-card div .hiphop-text {
+  .hiphop-card > .hiphop-text {
     width: 200px;
     margin-left: 33px;
   }
