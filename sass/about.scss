@@ -26,7 +26,7 @@ $light-gray: #efefef;
   'videographer' $videographer,
   'reporter' $reporter,
   'designdev' $designdev,
-  'coach' $coach
+  'coaches' $coaches
 );
 
 
@@ -235,15 +235,6 @@ a:hover, a:focus {
    top: 0;
    left: 0;
    height: 100%;
-}
-
-.thanks-container{
-  width: 75%;
-  margin: 0 auto;
-  li{
-    text-align: left;
-    margin-bottom: 5px;
-}
 }
 
 
