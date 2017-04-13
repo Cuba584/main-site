@@ -296,6 +296,9 @@
   }
   .flipped {
     transform: rotateY( 180deg );
+    img {
+      visibility: hidden;
+    }
   }
   .hiphop-panel img {
     width: 248px;
@@ -331,6 +334,15 @@
   .hiphop-panel img {
     width: 225px;
   }
+  .hiphop-name {
+    font-size: .55em;
+  }
+  .hiphop-year {
+    font-size: .45em;
+  }
+  .hiphop-bio {
+    font-size: .4em;
+  }
 }
 
 @include media("screen", "<=hiphop-xs") {
@@ -348,7 +360,18 @@
     width: 235px;
   }
   .hiphop-card > .hiphop-text {
-    width: 200px;
-    margin-left: 33px;
+    width: 180px;
+    right: 18px;
+  }
+  .hiphop-name {
+    font-size: .5em;
+  }
+  .hiphop-year {
+    font-size: .4em;
+  }
+  .hiphop-text {
+      a {
+        font-size: 1.5em;
+      }
   }
 }

@@ -204,6 +204,8 @@
     display: none; }
   .flipped {
     transform: rotateY(180deg); }
+    .flipped img {
+      visibility: hidden; }
   .hiphop-panel img {
     width: 248px; } }
 
@@ -222,7 +224,13 @@
   .fa-youtube {
     font-size: 3em; }
   .hiphop-panel img {
-    width: 225px; } }
+    width: 225px; }
+  .hiphop-name {
+    font-size: .55em; }
+  .hiphop-year {
+    font-size: .45em; }
+  .hiphop-bio {
+    font-size: .4em; } }
 
 @media screen and (max-width: 350px) {
   .hiphop-panel {
@@ -235,5 +243,11 @@
   .hiphop-card-mobile {
     width: 235px; }
   .hiphop-card > .hiphop-text {
-    width: 200px;
-    margin-left: 33px; } }
+    width: 180px;
+    right: 18px; }
+  .hiphop-name {
+    font-size: .5em; }
+  .hiphop-year {
+    font-size: .4em; }
+  .hiphop-text a {
+    font-size: 1.5em; } }
