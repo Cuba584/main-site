@@ -128,7 +128,11 @@ $(document).ready(function(){
   </section>
     <div class="pull-quote-box change-bg <%= body["master-class"]["class"] %>">
       <h3 class="pull-quote">
-        <hr> <span><%=body["text"][i]["value"]["text"] %></span> </h3>
+        <hr> <span><%=body["text"][i]["value"]["text"] %></span>
+				<div class="attribution">
+					<%=body["text"][i]["value"]["attribution"]%>
+				</div>
+			 </h3>
     </div>
     <section class="center-wrapper">
       <div class="max-width">
