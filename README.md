@@ -67,6 +67,10 @@ You are now set up to run the project locally, and unless you delete this folder
   `git commit -m "updated articles"`
 
   `git push origin master`
+  
+## Updating Navigation Labels
+
+- In the gulpfile and in index.js, change the arrays at the top of the file to the proper titles in English and Spanish.
 
 ## Adding new inner pages
 

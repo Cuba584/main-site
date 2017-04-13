@@ -4,7 +4,7 @@ $(document).ready(function(){
   $(".expand-collapse").click(function(){
     $(".timeline").toggle();
     $(this).html(function(i, v) {
-      return v === '<i class="fa fa-chevron-up"></i> Hide the timeline' ? '<i class="fa fa-chevron-down"></i> View the timeline' : '<i class="fa fa-chevron-up"></i> Hide the timeline'
+      return v === '<i class="fa fa-chevron-up"></i> Hide details' ? '<i class="fa fa-chevron-down"></i> View details' : '<i class="fa fa-chevron-up"></i> Hide details'
     });
   });
 });
