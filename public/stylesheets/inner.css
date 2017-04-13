@@ -196,4 +196,7 @@ img.map {
   .inner .pull-quote {
     font-size: 1.3em; }
   .inner .pull-quote hr {
-    height: 5px; } }
+    height: 5px; }
+  img.map {
+    width: 100vw;
+    height: 100%; } }

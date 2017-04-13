@@ -148,10 +148,15 @@ $(document).ready(function(){
         <div class="max-width">
 
 		<% } else if (body["text"][i]["type"] == "map") { %>
+		</div>
+	</section>
 			<div class="center-wrapper">
 				<img class="map" src='assets/images/<%=body["text"][i]["value"]["src"] %> ' alt='
 				<%=body["text"][i]["value"]["alt"] %>'>
 			</div>
+
+			<section class="center-wrapper">
+				<div class="max-width">
 		<%} } %>
 
   </div>
