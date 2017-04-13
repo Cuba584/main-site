@@ -4,11 +4,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center; }
-  .internet-graphic h3 {
+  .internet-graphic h3, .internet-graphic .country-ratio {
     font-size: 1.75em;
     margin-bottom: 5pt;
     width: 400px;
     text-align: center; }
+  .internet-graphic #cuba-title, .internet-graphic #other-country-title {
+    text-align: center;
+    font-size: .8em; }
   .internet-graphic .fa.fa-male {
     padding: .05em;
     color: #888888;
