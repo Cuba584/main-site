@@ -84,54 +84,60 @@
   .money-left, .money-center, .money-right{
     align-self: center;
   }
+
 }
-
   @include media("screen", "<=sm"){
-    #money-slider-wrapper {
-      width: 90%;
-      height: 50vh;
-      overflow: hidden;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: -5%;
+
+    #moneyslider {
+      #money-slider-wrapper {
+        width: 90%;
+        height: 50vh;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -5%;
+      }
+
+      .money-slider-section{
+        flex-direction: column;
+      }
     }
 
-    .money-slider-section{
-      flex-direction: column;
-    }
+
   }
 
   @include media("screen", "<=sm") {
-  .money-slider .money-slider-section{
-    flex-direction: column;
-  }
-  .money-center {order: 1;}
-  .money-right {order:3;}
-  .money-left {order:2;}
-  .money-slider-section p, .money-slider-section h3 {
-    display: inline;
-  }
-.money-slider hr {
-    display: inline-block;
-    margin:0 15px;
-    height:10px;
-  }
 
-  #money-slider-wrapper {
-    height: 50vh;
-    overflow:visible;
-  }
-  #money-slider-wrapper button{
-    margin-top:25%;
-  }
-  #money-slider-left-button {
-    left:20px;
-    margin:0;
-    z-index:1000;
-  }
-  #money-slider-right-button {
-    right:20px;
-    margin:0;
-    z-index:1000;
-  }
-}
+      .money-slider .money-slider-section{
+        flex-direction: column;
+      }
+      .money-center {order: 1;}
+      .money-right {order:3;}
+      .money-left {order:2;}
+      .money-slider-section p, .money-slider-section h3 {
+        display: inline;
+      }
+      .money-slider hr {
+        display: inline-block;
+        margin:0 15px;
+        height:10px;
+      }
+
+      #money-slider-wrapper {
+        height: 50vh;
+        overflow:visible;
+      }
+      #money-slider-wrapper button{
+        margin-top:25%;
+      }
+      #money-slider-left-button {
+        left:20px;
+        margin:0;
+        z-index:1000;
+      }
+      #money-slider-right-button {
+        right:20px;
+        margin:0;
+        z-index:1000;
+      }
+    }

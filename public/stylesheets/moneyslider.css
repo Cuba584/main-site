@@ -61,14 +61,14 @@
     align-self: center; }
 
 @media screen and (max-width: 570px) {
-  #money-slider-wrapper {
+  #moneyslider #money-slider-wrapper {
     width: 90%;
     height: 50vh;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -5%; }
-  .money-slider-section {
+  #moneyslider .money-slider-section {
     flex-direction: column; } }
 
 @media screen and (max-width: 570px) {
