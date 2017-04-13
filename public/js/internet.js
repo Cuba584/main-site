@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+  $('<span class="country-ratio">31/100</span>').appendTo($('#cuba-title'));
+  $('<span class="country-ratio">75/100</span>').appendTo($('#other-country-title'));
+
+
 
   var selectedCountry = $('#country-dropdown').selected;
   var globalData;
@@ -8,8 +12,12 @@ $(document).ready(function(){
 
   //default country settings
   var setDefault = function(globalKeyedData, countryName, elementId){
+
+
     for (var i=0; i<100; i++){
       var ratio = globalKeyedData[countryName].internet_rounded;
+
+
 
       if (i<=ratio){
         $('<i class="fa fa-male fa-2x selected"></i>').appendTo($(elementId));
@@ -50,6 +58,7 @@ $(document).ready(function(){
     console.log(globalKeyedData);
     $('#other-country-title').empty();
     $('<h3>' + country + '</h3>').appendTo($('#other-country-title'));
+    $('<span class="country-ratio">' + globalKeyedData[country].internet_rounded + "/" + total + '</span>').appendTo($('#other-country-title'));
     $('#other-country').empty();
 
     for (var i=0; i<100; i++){

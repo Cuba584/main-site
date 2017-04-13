@@ -1,0 +1,8 @@
+img.wifi {
+  display: block;
+  margin: 0 auto; }
+
+@media screen and (max-width: 1020px) {
+  img.wifi {
+    width: 100%;
+    display: inline-block; } }
