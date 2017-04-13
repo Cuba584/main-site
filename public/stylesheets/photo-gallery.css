@@ -68,7 +68,7 @@
   #photo-gallery .pg-figcaption {
     padding-top: .6em;
     margin-top: 1.1em;
-    width: calc(100% - 200px); }
+    width: 80%; }
   #photo-gallery .fig-descr {
     line-height: 1.6em; }
   #photo-gallery .fig-attr {

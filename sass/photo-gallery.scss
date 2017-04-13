@@ -136,7 +136,8 @@
   .pg-figcaption {
     padding-top:.6em;
     margin-top:1.1em;
-    width:calc(100% - 200px);
+    // width:calc(100% - 200px);
+    width: 80%;
   }
 
   .fig-descr{
