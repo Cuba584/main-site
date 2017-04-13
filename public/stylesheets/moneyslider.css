@@ -82,7 +82,7 @@
     order: 2; }
   .money-slider-section p, .money-slider-section h3 {
     display: inline; }
-  hr {
+  .money-slider hr {
     display: inline-block;
     margin: 0 15px;
     height: 10px; }
