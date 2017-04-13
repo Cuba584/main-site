@@ -8,6 +8,8 @@ var archieml = require('archieml');
 var parsed = archieml.load('key: value');
 var fs = require('fs');
 
+var navEnglish = ["The Real Queens", "Damian y Dorian", "Across the Harbor", "Viva la Familia", "Revolution on Wheels", "About"];
+var navSpanish = ["Las reinas reales", "Damian y Dorian", "Cruzando el puerto", "Viva la familia", "Revolución sobre ruedas", "Sobre nosotros"];
 
 gulp.task('connect', function(){
 
@@ -22,13 +24,13 @@ gulp.task('connect', function(){
   });
 
   app.get('/', function(request, response) {
-    response.render('pages/index', {page: 'index', espanol: isEspanol(request)});
+    response.render('pages/index', {navEng: navEnglish, navSpan: navSpanish, page: 'index', espanol: isEspanol(request)});
   });
 
   app.get('/about', function(request, response){
     var teamData = JSON.parse(fs.readFileSync('./public/data/team.json'));
     bodyData = JSON.parse(fs.readFileSync('./public/data/about.json'));
-    response.render('pages/about', {body: bodyData, team: teamData, page: 'about', espanol: isEspanol(request)});
+    response.render('pages/about', {navEng: navEnglish, navSpan: navSpanish, body: bodyData, team: teamData, page: 'about', espanol: isEspanol(request)});
   });
 
   app.get('/pages/:id', function(req, res){
@@ -44,7 +46,7 @@ gulp.task('connect', function(){
   	} else {
   		bodyData = JSON.parse(fs.readFileSync('./public/data/' + pageName + '.json'));
   	}
-      res.render('pages/inner', {internet: internetData, body: bodyData, page: '/pages/' + pageName, espanol: isEspanol(req)});
+      res.render('pages/inner', {navEng: navEnglish, navSpan: navSpanish, internet: internetData, body: bodyData, page: '/pages/' + pageName, espanol: isEspanol(req)});
   });
 
   app.get('*', function(request, response){
