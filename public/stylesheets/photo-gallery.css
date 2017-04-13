@@ -21,9 +21,30 @@
 #photo-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
-  position: relative; }
+  align-items: flex-start; }
+  #photo-gallery #custom-slider {
+    width: 70vw;
+    height: auto;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto; }
+  #photo-gallery #custom-slider > ul {
+    width: 100%;
+    height: 70vh;
+    left: -110%;
+    transition: 0.5s left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: inline-flex; }
+  #photo-gallery #custom-slider > ul > li {
+    width: 100%;
+    height: 70vh;
+    color: black;
+    font-size: 3rem; }
+  #photo-gallery .pic {
+    width: 100%; }
   #photo-gallery .arrow-wrapper {
     z-index: 1;
     display: flex;
@@ -34,28 +55,6 @@
       padding: 0; }
     #photo-gallery .arrow-wrapper .slider-right {
       padding: 0; }
-  #photo-gallery .slider-left {
-    margin-right: auto !important; }
-  #photo-gallery #custom-slider {
-    width: 100%;
-    overflow: hidden;
-    margin: 1em auto 1em 0; }
-  #photo-gallery #custom-slider > ul {
-    width: 100%;
-    left: -100%;
-    transition: 0.5s left;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    display: inline-flex; }
-  #photo-gallery #custom-slider > ul > li {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    /**/ }
-  #photo-gallery .pic {
-    max-width: 70vw; }
   #photo-gallery button {
     background: transparent;
     border: none;
@@ -65,7 +64,7 @@
   #photo-gallery .caption {
     color: #000;
     width: 30%;
-    margin-left: 1vw;
+    left: 5%;
     position: relative;
     display: flex;
     flex-direction: column; }
@@ -89,9 +88,10 @@
     width: calc(100% - 150px); } }
 
 @media screen and (max-width: 1020px) {
-  #photo-gallery #custom-slider > ul > li {
-    flex-direction: column;
-    justify-content: center; }
+  #photo-gallery #custom-slider {
+    width: 90vw; }
+  #photo-gallery #custom-slider > ul {
+    height: 50vh; }
   #photo-gallery .pg-figcaption {
     border-top: none;
     margin-top: -62px;
@@ -102,7 +102,6 @@
   #photo-gallery .fig-descr {
     margin-bottom: 0; }
   #photo-gallery .pic {
-    max-height: 80vh;
     width: 100%;
     max-width: none; }
   #photo-gallery .caption {
@@ -110,11 +109,10 @@
     margin-top: 0;
     justify-content: space-around;
     flex-direction: column;
-    margin-left: 0; }
+    margin-left: 0;
+    left: 0; }
   #photo-gallery .arrow-wrapper {
     z-index: 1;
-    display: flex;
-    justify-content: space-around;
     width: initial;
     margin: 0 3em 0 3em; } }
 
