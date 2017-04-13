@@ -7,8 +7,8 @@
     "attribution": "Natalie Roush"
   },
   "header": {
-    "text": "Viva Familia",
-    "subtitle": "Unspoken empathy transcends generations"
+    "text": "Viva la Familia",
+    "subtitle": "Diego and his grandmother find common ground in a changing Cuba"
   },
   "reporters": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "type": "text",
-      "value": "<span class='italic'>Click[a].</span>"
+      "value": "<span class='italic'>Click[a]</span>."
     },
     {
       "type": "text",
@@ -63,7 +63,7 @@
     {
       "type": "interactive",
       "value": {
-        "filename": "interactives/aging-barchart.ejs"
+        "filename": "interactives/aging-line.ejs"
       }
     },
     {
@@ -291,9 +291,9 @@
     },
     {
       "src": "family_sl_02.jpg",
-      "alt": "Diego’s Active Lifestyle",
+      "alt": "Diego Delgado in his Grandmother’s Kitchen",
       "attribution": "Natalie Roush",
-      "caption": "Diego's life is just as active as Coralia's is sedentary. He is constantly on the go as he runs from photo shoots to futsal games."
+      "caption": "A portrait of Diego Delgado in his Grandmother's kitchen in the small, three-bedroom apartment where he has chosen to live."
     },
     {
       "src": "family_sl_03.jpg",

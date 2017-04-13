@@ -8,7 +8,7 @@
   },
   "header": {
     "text": "Let the Rice Burn",
-    "subtitle": "How two female rappers are using their voices"
+    "subtitle": "How two women are reshaping Cuba’s rap"
   },
   "reporters": [
     {
@@ -33,22 +33,22 @@
   ],
   "text": [
     {
-      "type": "video",
-      "value": {
-        "id": "200984993"
-      }
-    },
-    {
       "type": "text",
       "value": "A sharp stench is snaking its way out of a small pot on an old Cuban stove."
     },
     {
       "type": "text",
-      "value": "Reyna Hernandez Sandoval is in the other room trying to fit her long braided hair into a knot on the top of her head. The rice charcoaling on the stove is the least of her concerns; she’s busy getting ready to go out. She’s a rapper, a part of a duo with her best friend Yadira Pintado Lazcano, though they’re known around Havana by their rapper names: La Reyna y La Real."
+      "value": "Reyna Hernandez Sandoval is in the other room trying to fit her long braided hair into a knot on the top of her head. The rice charcoaling on the stove is the least of her concerns; she’s busy getting ready to go out. She’s a rapper, a part of a duo with her best friend Yadira Pintado Lazcano, though they’re known around Havana by their stage names: La Reyna y La Real."
     },
     {
       "type": "text",
-      "value": "The rice on the stove that she’s been neglecting isn’t totally neglected, though — lately, it’s been her and Yadira’s inspiration. Who cares if dinner is scorched? Why should they be the ones who have to watch it cook? Someone else can do it. It’s what they named one of their recent songs: “Que se queme el arroz,” — Let the rice burn. It’s a statement. It’s a protest."
+      "value": "The rice on the stove that she has been neglecting isn’t totally neglected, though — lately, it’s been her and Yadira’s inspiration. Who cares if dinner is scorched? Why should they be the ones who have to watch it cook? Someone else can do it. It’s what they named one of their recent songs: “Que se queme el arroz,” — Let the rice burn. It’s a statement. It’s a protest."
+    },
+    {
+      "type": "video",
+      "value": {
+        "id": "211344958"
+      }
     },
     {
       "type": "subhead",
@@ -58,7 +58,7 @@
     },
     {
       "type": "text",
-      "value": "Though rap is an emerging musical genre in Cuba, Alberto Faya, a professor of Cuban culture at the University of Havana, says music has always been integral to the country’s cultural development, specifically the process of transculturation: When different cultures meld over long periods of time to help form a national identity. It is transculturation that produced Son, the fusion of percussion created by African slaves with the stringed instruments introduced by the Spanish. Cuban music, Faya says, is reliant on the incorporation and adaptation of other sounds to continue evolving."
+      "value": "Though rap is an emerging musical genre in Cuba, Alberto Faya, a professor of Cuban culture at the University of Havana, says music has always been integral to the country’s cultural development, specifically the process of transculturation: When different cultures meld over long periods of time to help form a national identity. It is transculturation that produced Son, the fusion of percussion from African slaves mixed with the stringed instruments introduced by the Spanish. Cuban music, Faya says, is reliant on the incorporation and adaptation of other sounds to continue evolving."
     },
     {
       "type": "slider",
@@ -103,11 +103,11 @@
     },
     {
       "type": "text",
-      "value": "Reyna and Yadira didn’t always dream they’d be rappers. Yadira worked as a social worker for a few years, and Reyna was on her way to becoming a chemical engineer when a baby interrupted those plans — a son, Michel, who is now nine and wants to be a rapper, too. A few years after becoming a mom, she decided to pursue music."
+      "value": "Reyna and Yadira didn’t always dream they’d be rappers. Yadira worked as a social worker for a few years, and Reyna was on her way to becoming a chemical engineer when a baby interrupted her plans — a son, Michel, who is now nine and wants to be a rapper, too. A few years after becoming a mom, she decided to pursue music."
     },
     {
       "type": "text",
-      "value": "It was Moises Whittaker Alvarez who helped unite them in 2012, who is now the only manager they’ve ever worked with. He knew them as individual performers, but something about their styles — the way they can so fiercely perform their “protest music,” but also fill whatever room they’re in with instantaneous laughter and light — told him that, even though they didn’t know each other, they needed each other."
+      "value": "It was Moises Whittaker Alvarez who helped unite them in 2012, now the only manager they’ve ever worked with. He knew them as individual performers, but something about their styles — the way they can so fiercely perform their “protest music,” but also fill whatever room they’re in with instantaneous laughter and light — told him that, even though they didn’t know each other, they needed each other."
     },
     {
       "type": "text",
@@ -126,7 +126,7 @@
     },
     {
       "type": "text",
-      "value": "Reyna and Yadira rap about real life: their struggles, their triumphs, their relationships, everything. But they do so while staying optimistic and empowering other women, too. They acknowledge their chosen profession is mostly male — of the 34 artists currently working at the rap agency, six are female."
+      "value": "Reyna and Yadira rap about real life: Their struggles, their triumphs, their relationships, everything. But they do so while staying optimistic and empowering other women, too. They acknowledge a disparity about women in rap that they hope to change — of the 34 artists currently working at the rap agency, six are female."
     },
     {
       "type": "interactive",
@@ -145,61 +145,61 @@
   ],
   "slider-images": [
     {
-      "src": "HopHop_sl_01.jpg",
+      "src": "hiphop_sl_01.jpg",
       "alt": "Reyna in the studio",
       "attribution": "Anna Clare Spelman",
       "caption": "Renya Mercedes Hernadez Sandoval (La Reyna) rehearses in the studio located in her Moisés Whittaker Alvarez’ house."
     },
     {
-      "src": "HopHop_sl_10.jpg",
+      "src": "hiphop_sl_10.jpg",
       "alt": "Dark room under construction",
       "attribution": "Kira Dalman",
       "caption": "La Rayna and La Real are represented by The Agency of Rap. The main office space is under construction to create a space for artists to perform. The Agency represents 34 artists, 6 of which are women."
     },
     {
-      "src": "HopHop_sl_09.jpg",
+      "src": "hiphop_sl_09.jpg",
       "alt": "Yadira stands on her roof",
       "attribution": "kira dalman",
       "caption": "Yadira stands on her roof overlooking her neighborhood after fixing her water tank in order to mop her house."
     },
     {
-      "src": "HopHop_sl_08.jpg",
+      "src": "hiphop_sl_08.jpg",
       "alt": "yadira sits in her home.",
       "attribution": "kira dalman",
       "caption": "Yadira sits in her home watching her favorite show on her laptop. She frequently buys a “paquete,” a common way for Cubans consume popular media."
     },
     {
-      "src": "HopHop_sl_07.jpg",
+      "src": "hiphop_sl_07.jpg",
       "alt": "Renya shows off her tattoo in front of her house which bears the same emblem, a chess queen.",
       "attribution": "bridgette cyr",
       "caption": "Renya shows off her tattoo in front of her house which bears the same emblem, a chess queen. Not only a musician but a visual artist, she painted the piece on the front her home as a symbol of strength."
     },
     {
-      "src": "HopHop_sl_06.jpg",
+      "src": "hiphop_sl_06.jpg",
       "alt": "Michel and friends sitting on porch.",
       "attribution": "bridgette cyr",
       "caption": "Michel, Reyna’s son, sits outside his house with friends and family after school. Renya hopes her music inspires Michel to respect and support women."
     },
     {
-      "src": "HopHop_sl_05.jpg",
+      "src": "hiphop_sl_05.jpg",
       "alt": "Group of children, Reyna and Yadira watch a video on Michel’s phone.",
       "attribution": "Kira Dalman",
       "caption": "Michel, Reyna’s son, shows his friends a video on his phone. Michel plays drums and is encouraged by his mother to express himself in a positive way through music."
     },
     {
-      "src": "HopHop_sl_04.jpg",
+      "src": "hiphop_sl_04.jpg",
       "alt": "Reyna works out.",
       "attribution": "Kira Dalman",
       "caption": "Reyna works out several times a week, often with Yadira. Staying in shape helps her prepare for performances."
     },
     {
-      "src": "HopHop_sl_03.jpg",
+      "src": "hiphop_sl_03.jpg",
       "alt": "Yadira mops her living room floor.",
       "attribution": "Kira Dalman",
       "caption": "Yadira Pintado Lazcano mops her living room floor."
     },
     {
-      "src": "HopHop_sl_02.jpg",
+      "src": "hiphop_sl_02.jpg",
       "alt": "Yadira stands in the doorframe of her home.",
       "attribution": "Kira Dalman",
       "caption": "Yadira Pintado Lazcano (La Real) stands in the doorframe of her home. One half of the popular rap duo, La Renya y La Real, she works each day to improve her craft."
