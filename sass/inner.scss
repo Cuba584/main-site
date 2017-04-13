@@ -119,6 +119,18 @@
 
   }
 
+  .pull-quote .attribution::before{
+    content: '-';
+    margin-right: -4px;
+  }
+
+  .pull-quote .attribution{
+    display: inline;
+    font-weight: 300;
+    margin-left: 15px;
+    font-size: 0.9em;
+  }
+
   .subhead{
     font-weight:500;
     font-size:1.675em;
@@ -333,6 +345,10 @@ img.map {
 
     .pull-quote hr{
       height: 5px;
+    }
+
+    .pull-quote .attribution{
+      margin-left: 5px;
     }
   }
 

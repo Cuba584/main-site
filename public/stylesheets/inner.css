@@ -70,6 +70,14 @@
     margin-right: 55vw;
     margin-top: 0;
     border-style: none; }
+  .inner .pull-quote .attribution::before {
+    content: '-';
+    margin-right: -4px; }
+  .inner .pull-quote .attribution {
+    display: inline;
+    font-weight: 300;
+    margin-left: 15px;
+    font-size: 0.9em; }
   .inner .subhead {
     font-weight: 500;
     font-size: 1.675em;
@@ -197,6 +205,8 @@ img.map {
     font-size: 1.3em; }
   .inner .pull-quote hr {
     height: 5px; }
+  .inner .pull-quote .attribution {
+    margin-left: 5px; }
   img.map {
     width: 100vw;
     height: 100%; } }
