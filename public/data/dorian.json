@@ -48,6 +48,12 @@
       "value": "The duo founded Salon Donde Dorian eight years ago — remodeling their parent’s home into a high-end bar, barber shop and beauty parlor all in one. Dorian is the artist; Damian is the administrator. Together they entered into a family business which they said aims to reshape the idea of masculine style and beauty in Cuba. Dorian has a reputation for using his hairstyling expertise to help the images of Cuba’s top recording artists come alive, and, as a result, Havana’s youth flock to his salon so that they, too, can rock a Donde Dorian original ‘do. But before Dorian could transform the looks of his clients, he said he needed to undergo a transformation of his own."
     },
     {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/wifi-access.ejs"
+      }
+    },
+    {
       "type": "text",
       "value": "A self-proclaimed club rat, Dorian said he was very much like any typical Cuban guy in his 20s enjoying the party scene. In the 1990s, Cuba dealt with shortages after the country lost its main trade partner with the collapse of the Soviet Union. Dorian lived his life in ignorant bliss as a young model who secretly attended barber school classes at night as a hobby. His most prized possession, his German 1980’s model MZ motorcycle that he rode through the streets of Havana’s hottest Vedado neighborhood."
     },
