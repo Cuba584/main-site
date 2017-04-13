@@ -37,7 +37,7 @@ $(document).ready(function(){
         <% } %>
       </div>
       <div class="byline-item">
-      <p class="byline-head">photos by</p>
+      <p class="byline-head">photos and video by</p>
         <% for (v in body["videographers"]) {%>
         <p><%= body["videographers"][v]["name"] %></p>
         <% } %>
@@ -148,10 +148,15 @@ $(document).ready(function(){
         <div class="max-width">
 
 		<% } else if (body["text"][i]["type"] == "map") { %>
+		</div>
+	</section>
 			<div class="center-wrapper">
 				<img class="map" src='assets/images/<%=body["text"][i]["value"]["src"] %> ' alt='
 				<%=body["text"][i]["value"]["alt"] %>'>
 			</div>
+
+			<section class="center-wrapper">
+				<div class="max-width">
 		<%} } %>
 
   </div>
