@@ -12,7 +12,7 @@ var navEnglish = ["The Real Queens", "Damian y Dorian", "Across the Harbor", "Vi
 var navSpanish = ["Las reinas reales", "Damian y Dorian", "Cruzando el puerto", "Viva la familia", "Revolución sobre ruedas", "Sobre nosotros"];
 
 
-var usingHeroku = false;
+var usingHeroku = true;
 
 if (usingHeroku){
   app.set('port', (process.env.PORT || 5000));
@@ -23,7 +23,6 @@ if (usingHeroku){
   app.set('port', (server_port || 8080));
 }
 
-app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
 
 app.set('views', __dirname + '/views');
