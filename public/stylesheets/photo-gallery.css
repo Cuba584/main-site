@@ -31,7 +31,7 @@
   #photo-gallery #custom-slider > ul {
     width: 100%;
     height: 70vh;
-    left: -110%;
+    left: -100%;
     transition: 0.5s left;
     list-style: none;
     margin: 0;
