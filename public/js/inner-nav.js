@@ -7,7 +7,11 @@
     var didScroll;
     var lastScrollTop = 0;
     var delta = 5;
-    var navbarHeight = $('#cinemagraph').offset().top || 70;
+    if (currentPage !== '') {
+    var navbarHeight = $('#cinemagraph').offset().top;
+  } else {
+    var navbarHeight = 70;
+  }
     $(window).scroll(function(event){
         didScroll = true;
     });
