@@ -37,7 +37,7 @@
   "text": [
     {
       "type": "text",
-      "value": "Dorian Carbonell opens his scissors and peers between the two blades at the neon-yellow dyed head of hair of the eager young man in his barber chair. Dorian’s right eyebrow — coincidentally dyed the same bright hue —highlights his deep set, coffee brown eyes, which carefully ponder his next course of action. His eyebrows furrow and flicker in his eye is just visible before, in an instant, the scissors close, tresses fall to the floor- and electricity surges through the room. Dorian is shaping his next masterpiece."
+      "value": "Dorian Carbonell opens his scissors and peers between the two blades at the neon-yellow dyed head of hair of the eager young man in his barber chair. Dorian’s right eyebrow — coincidentally dyed the same bright hue —highlights his deep set, coffee brown eyes, which carefully ponder his next course of action. His eyebrows furrow and a flicker in his eye is just visible before, in an instant, the scissors close, tresses fall to the floor- and electricity surges through the room. Dorian is shaping his next masterpiece."
     },
     {
       "type": "text",
@@ -46,6 +46,12 @@
     {
       "type": "text",
       "value": "The duo founded Salon Donde Dorian eight years ago — remodeling their parent’s home into a high-end bar, barber shop and beauty parlor all in one. Dorian is the artist; Damian is the administrator. Together they entered into a family business which they said aims to reshape the idea of masculine style and beauty in Cuba. Dorian has a reputation for using his hairstyling expertise to help the images of Cuba’s top recording artists come alive, and, as a result, Havana’s youth flock to his salon so that they, too, can rock a Donde Dorian original ‘do. But before Dorian could transform the looks of his clients, he said he needed to undergo a transformation of his own."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/wifi-access.ejs"
+      }
     },
     {
       "type": "text",
@@ -208,75 +214,63 @@
   "slider-images": [
     {
       "src": "dorian_sl_01.jpg",
-      "alt": "lorem ipsum",
-      "attribution": "lorem ipsum",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+      "alt": "Dorian styles the bright yellow hair of a young male model.",
+      "attribution": "Emily Yue",
+      "caption": "Actors, models and dancers from Havana are frequent clients of Donde Dorian."
     },
     {
       "src": "dorian_sl_02.jpg",
-      "alt": "lorem ipsum",
-      "attribution": "lorem ipsum",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+      "alt": "portrait of damian",
+      "attribution": "Emily Yue",
+      "caption": "Damian Carbonell Fernandez is an entrepreneur who, with his younger brother Dorian, established a premiere men’s hair salon. Damian is the business-oriented partner."
     },
     {
       "src": "dorian_sl_03.jpg",
-      "alt": "lorem ipsum",
-      "attribution": "lorem ipsum",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
-    },
-    {
-      "src": "dorian_sl_04.jpg",
-      "alt": "lorem ipsum",
-      "attribution": "lorem ipsum",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+      "alt": "portrait of Dorian",
+      "attribution": "Emily Yue",
+      "caption": "Dorian Carbonell Fernandez is the artistic brother. A professional hair stylist and fashion adviser, he manages the images of many of the local reggaeton musicians in Havana."
     },
     {
       "src": "dorian_sl_05.jpg",
-      "alt": "lorem ipsum",
-      "attribution": "lorem ipsum",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+      "alt": "models in Havana",
+      "attribution": "Darian Woehr",
+      "caption": "Models pose on a rooftop overlooking the Malecón during a photo shoot to publicize the brothers’ business."
     },
     {
       "src": "dorian_sl_06.jpg",
-      "alt": "lorem ipsum",
-      "attribution": "lorem ipsum",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+      "alt": "the Malecón",
+      "attribution": "Ben Aijian",
+      "caption": "The Malecón is a road that follows the Northern coast of Cuba immediately adjacent to the ocean for much of the length of the island. It is also a popular spot to stop and sit or walk along the ocean."
     },
     {
       "src": "dorian_sl_07.jpg",
-      "alt": "lorem ipsum",
-      "attribution": "lorem ipsum",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+      "alt": "old havana cars",
+      "attribution": "Ben Aijian",
+      "caption": "Havana’s streets are full of 50s era cars that have been converted into taxicabs that both tourists and locals use to get around the city.  Most of the cars have been completely rebuilt on an engine level, but they still hold their rustic charm and feel."
     },
     {
       "src": "dorian_sl_08.jpg",
-      "alt": "lorem ipsum",
-      "attribution": "lorem ipsum",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+      "alt": "dorian jr.",
+      "attribution": "Darian Woehr",
+      "caption": "Dorian has a son named Dorian Jr. that often accompanies him to events."
     },
     {
       "src": "dorian_sl_09.jpg",
-      "alt": "lorem ipsum",
-      "attribution": "lorem ipsum",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+      "alt": "children in Havana",
+      "attribution": "Darian Woehr",
+      "caption": "Children often play in the streets of Havana while keeping a keen eye open for approaching cars and motorcycles. The CDR are neighborhood watch communities that report on counter revolutionary activities in Havana."
     },
     {
       "src": "dorian_sl_10.jpg",
-      "alt": "lorem ipsum",
-      "attribution": "lorem ipsum",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
-    },
-    {
-      "src": "dorian_sl_11.jpg",
-      "alt": "lorem ipsum",
-      "attribution": "lorem ipsum",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+      "alt": "old man haircut",
+      "attribution": "Emily Yue",
+      "caption": "Not only the young and beautiful come to Dorian to have their hair cut.  Dorian styles hair for customers of all ages. He does specialize in men however."
     },
     {
       "src": "dorian_sl_12.jpg",
-      "alt": "lorem ipsum",
-      "attribution": "lorem ipsum",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a auctor urna."
+      "alt": "Havana at sunset",
+      "attribution": "Ben Aijian",
+      "caption": "Havana at sunset is a beautiful sight. Every night, tourists and locals alike gather on the Malecón to watch the sun go down."
     }
   ]
 }
