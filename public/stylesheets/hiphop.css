@@ -3,6 +3,12 @@
 #hiphop-wrap {
   display: flex; }
 
+.no-display {
+  display: none; }
+
+.hiphop-info {
+  background-color: white; }
+
 #hiphop-wrap-mobile {
   display: none; }
   #hiphop-wrap-mobile button {
@@ -32,6 +38,9 @@
   -moz-hyphens: auto;
   hyphens: auto; }
 
+.hiphop-text {
+  color: black; }
+
 .hiphop-year, .hiphop-name {
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -53,7 +62,6 @@
   background-size: cover;
   display: block;
   position: relative;
-  background-color: black;
   perspective: 800px; }
   .hiphop-panel:hover .hiphop-text {
     visibility: visible; }
@@ -72,7 +80,9 @@
 
 .hiphop-panel img {
   height: auto;
-  width: 13vw; }
+  width: 100%;
+  position: absolute;
+  bottom: 0; }
 
 .hiphop-text {
   transform: rotateY(180deg);
@@ -97,21 +107,6 @@
 .fa-youtube {
   color: #bb0000;
   font-size: 2em; }
-
-#hiphop1 {
-  background-image: url("textures/harbor.JPG"); }
-
-#hiphop2 {
-  background-image: url("textures/skate.JPG"); }
-
-#hiphop3 {
-  background-image: url("textures/family.JPG"); }
-
-#hiphop4 {
-  background-image: url("textures/hiphop.JPG"); }
-
-#hiphop5 {
-  background-image: url("textures/dorian.JPG"); }
 
 #hiphop-wrap-mobile {
   width: 90%;
@@ -190,14 +185,15 @@
     margin-bottom: 12px; }
   .hiphop-panel {
     height: 65vh;
-    width: 38vw;
+    width: 268px;
     padding: 12px;
     margin: 0 auto; }
   .hiphop-card div {
     height: 65vh;
-    width: 38vw; }
+    width: 248px;
+    margin-left: 10px; }
   .hiphop-card-mobile {
-    width: 38vw; }
+    width: 268px; }
   .hiphop-bio {
     font-size: .5em; }
   .hiphop-text a {
@@ -207,18 +203,34 @@
   #desktop-instructions {
     display: none; }
   .flipped {
-    transform: rotateY(180deg); } }
+    transform: rotateY(180deg); }
+  .hiphop-panel img {
+    width: 248px; } }
 
 @media screen and (max-width: 570px) {
   .hiphop-card div {
     height: 60vh;
-    width: 65vw;
-    margin-top: 2.5vh; }
+    width: 225px;
+    margin-top: 2.5vh;
+    margin-left: 12px; }
   .hiphop-card-mobile {
-    width: 65vw;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 248px; }
   .hiphop-panel {
-    width: 72vw;
-    padding: 0; }
+    padding: 0;
+    width: 248px; }
   .fa-youtube {
-    font-size: 3em; } }
+    font-size: 3em; }
+  .hiphop-panel img {
+    width: 225px; } }
+
+@media screen and (max-width: 350px) {
+  .hiphop-panel img {
+    width: 180px; }
+  .hiphop-card div {
+    width: 180px; }
+  .hiphop-card-mobile {
+    width: 235px; }
+  .hiphop-card div .hiphop-text {
+    width: 200px;
+    margin-left: 33px; } }

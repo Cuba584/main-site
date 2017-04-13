@@ -63,7 +63,7 @@
     {
       "type": "interactive",
       "value": {
-        "filename": "interactives/aging-barchart.ejs"
+        "filename": "interactives/aging-line.ejs"
       }
     },
     {
