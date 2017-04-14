@@ -216,27 +216,48 @@ iframe {
 // }
 // }
 
+//https://codepen.io/MyXoToD/post/howto-self-drawing-svg-animation
+
 .cinema-sketch {
     position:absolute;
     margin-top:$nav-height;
-    stroke: #000;
-    opacity:0;
-    stroke-width: 1;
+    stroke: white;
+    // opacity:0;
+    stroke-width: 0;
     stroke-dasharray: 100px;
     stroke-dashoffset: 100px;
     animation-name: draw;
-    animation-delay: 6s;
-    animation-duration: 5s;
+    animation-delay: 3.5s;
+    animation-duration: 2s;
     animation-fill-mode: forwards; // Stay on the last frame
     animation-iteration-count: 1; // Run only once
     animation-timing-function: linear;
 
+    path{
+      // animation-name:fill;
+      // animation-delay:6s;
+      // animation-duration:1s;
+      // animation-fill-mode:forwards;
+      // animation-iteration-count: 1;
+      // animation-timing-function:linear;
+      fill:transparent!important;
+    }
+
 }
+
+// @keyframes fill{
+//   to{
+//     fill:#d0e9dd;
+//
+//   }
+// }
 
 @keyframes draw {
   to {
     stroke-dashoffset: 0;
-    opacity:1;
+    stroke-width:2;
+
+    // opacity:1;
   }
 }
 
