@@ -120,7 +120,7 @@
 .cinema-sketch {
   position: absolute;
   margin-top: 70px;
-  stroke: white;
+  stroke: #d0e9dd;
   stroke-width: 0;
   stroke-dasharray: 100px;
   stroke-dashoffset: 100px;
