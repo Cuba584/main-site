@@ -49,14 +49,14 @@
       "value": "He’s rattling off directions to his driver in Spanish — the Cuban kind, which sounds more like a song than a sentence. The taxi roars with every accelerating lunge, a symptom of the vehicle’s age, as it winds around the edges of ocean waves that confront the city’s border."
     },
     {
+      "type": "text",
+      "value": "This rush is for Regla, a neighborhood where Orlando lives with his parents. While still technically a part of the greater Havana area, Regla feels far more removed than a five-minute ferry ride. The star that pinpoints Havana as the country’s capital on any given map of Cuba stamps right over the harbor that divides these two areas. But these regions cannot be so simply merged — the star extinguishes Regla’s individuality, its smokestacks that hint at its industrial past, its streets blemished with missing chunks of cement and its homes stained with soot. There’s less urgency on this side of the harbor; in Regla, time is a suggestion of sorts. Orlando knows that while the final ferry home is always scheduled to leave Havana’s port at 12:15 a.m., the ferry driver often decides to leave at whatever time will get him home fastest, even if it’s the wrong one."
+    },
+    {
       "type": "map",
       "value": {
         "src": "harborMap.png"
       }
-    },
-    {
-      "type": "text",
-      "value": "This rush is for Regla, a neighborhood where Orlando lives with his parents. While still technically a part of the greater Havana area, Regla feels far more removed than a five-minute ferry ride. The star that pinpoints Havana as the country’s capital on any given map of Cuba stamps right over the harbor that divides these two areas. But these regions cannot be so simply merged — the star extinguishes Regla’s individuality, its smokestacks that hint at its industrial past, its streets blemished with missing chunks of cement and its homes stained with soot. There’s less urgency on this side of the harbor; in Regla, time is a suggestion of sorts. Orlando knows that while the final ferry home is always scheduled to leave Havana’s port at 12:15 a.m., the ferry driver often decides to leave at whatever time will get him home fastest, even if it’s the wrong one."
     },
     {
       "type": "text",
@@ -131,6 +131,12 @@
     {
       "type": "text",
       "value": "This disparity is two sided; visitors aren’t coming into Regla, but Reglans aren’t going out, either. Orlando is their resident roamer, a sojourner that crosses into Havana every day and gathers relics of the rest of the world to share with his community. What’s Santiago like? How about Los Angeles? The United States? The questions come mostly from older people, ones who feel worlds apart from the Facebook fanatics now flocking to their country. They’re happy asking Orlando their questions, and he’s happy being their window to the rest of the world."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/poem.ejs"
+      }
     },
     {
       "type": "subhead",
@@ -210,6 +216,12 @@
       "value": "Orlando doesn’t like talking about the money he’s making, he doesn’t like showing off. His mom thinks it’s great — Orlando says she jokes that she wants a flat screen television — but sometimes his dad seems sad about the situation. Orlando reminds them it’s not his money, it’s the family’s money. That’s why he puts it toward little luxuries like new floors and a gleaming new door — they’re practical renovations, yes, but they put a glisten back into his dad’s eyes that comes with having a purpose, something Orlando fears his dad is missing since retiring. For Orlando, that 1,000-dollar glisten doesn’t seem overpriced."
     },
     {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/moneyslider.ejs"
+      }
+    },
+    {
       "type": "subhead",
       "value": {
         "text": "“Because we’re creative”"
@@ -246,18 +258,6 @@
     {
       "type": "text",
       "value": "Orlando doesn’t know how his two worlds will merge in the upcoming years. But for now, that’s okay. There’s a ferry that can bridge them for him."
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/poem.ejs"
-      }
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/moneyslider.ejs"
-      }
     }
   ],
   "slider-images": [

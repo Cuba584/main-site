@@ -23,6 +23,18 @@ further down on the page or in any of the other .SCSS files.
     color: #F1861B;
     background-color: #F1861B; } }
 
+.hiphop.nav-title-footer:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: #fff;
+  transition: width .8s ease, background-color .8s ease; }
+
+.hiphop.nav-title-footer:hover:after {
+  width: 100%;
+  background: #fff; }
+
 .hiphop.nav-title:after {
   content: '';
   display: block;
@@ -71,6 +83,18 @@ further down on the page or in any of the other .SCSS files.
     background-size: cover;
     color: #9BD5BB;
     background-color: #9BD5BB; } }
+
+.dorian.nav-title-footer:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: #fff;
+  transition: width .8s ease, background-color .8s ease; }
+
+.dorian.nav-title-footer:hover:after {
+  width: 100%;
+  background: #fff; }
 
 .dorian.nav-title:after {
   content: '';
@@ -121,6 +145,18 @@ further down on the page or in any of the other .SCSS files.
     color: #A089CE;
     background-color: #A089CE; } }
 
+.skate.nav-title-footer:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: #fff;
+  transition: width .8s ease, background-color .8s ease; }
+
+.skate.nav-title-footer:hover:after {
+  width: 100%;
+  background: #fff; }
+
 .skate.nav-title:after {
   content: '';
   display: block;
@@ -169,6 +205,18 @@ further down on the page or in any of the other .SCSS files.
     background-size: cover;
     color: #F0BD53;
     background-color: #F0BD53; } }
+
+.family.nav-title-footer:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: #fff;
+  transition: width .8s ease, background-color .8s ease; }
+
+.family.nav-title-footer:hover:after {
+  width: 100%;
+  background: #fff; }
 
 .family.nav-title:after {
   content: '';
@@ -219,6 +267,18 @@ further down on the page or in any of the other .SCSS files.
     color: #6EA5C2;
     background-color: #6EA5C2; } }
 
+.harbor.nav-title-footer:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: #fff;
+  transition: width .8s ease, background-color .8s ease; }
+
+.harbor.nav-title-footer:hover:after {
+  width: 100%;
+  background: #fff; }
+
 .harbor.nav-title:after {
   content: '';
   display: block;
@@ -267,6 +327,18 @@ further down on the page or in any of the other .SCSS files.
     background-size: cover;
     color: #997A65;
     background-color: #997A65; } }
+
+.about.nav-title-footer:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: #fff;
+  transition: width .8s ease, background-color .8s ease; }
+
+.about.nav-title-footer:hover:after {
+  width: 100%;
+  background: #fff; }
 
 .about.nav-title:after {
   content: '';
@@ -519,6 +591,10 @@ nav {
   margin: 1.4em auto;
   padding: 1.4em 0;
   overflow: hidden; }
+  .interactive-wrapper .expand-collapse {
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center; }
 
 .interactive-wrapper-intro {
   text-align: center; }
