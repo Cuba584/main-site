@@ -34,13 +34,23 @@ further down on the page or in any of the other .SCSS files.
                 display: block;
                 height: 3px;
                 width: 0;
-                background: #fff;
+                background: transparent;
                 transition: width .8s ease, background-color .8s ease;
               }
               &:hover{
                 &:after{
                   width:100%;
                   background:#fff;
+                }
+              }
+              &.active-nav{
+                &:after{
+                  content: '';
+                  display: block;
+                  height: 3px;
+                  width: 100%;
+                  background: #fff;
+                  transition-property: none;
                 }
               }
             }
