@@ -41,7 +41,7 @@
     },
     {
       "type": "text",
-      "value": "On a Sunday afternoon El Prado, the smooth, stone promenade that divides Old and Central Havana, is full of life. Painters line the walkway, dipping brushes into the bright yellows and blues that make their art Cuban in the eyes of tourists. Other craftsmen have set up tables and chairs in the middle of the promenade, where they carve small wooden statues. Parents and strangers crowd around as a 10-year-old boy lifts and twirls his dance partner – a small girl wearing flat ballet shoes, her hair in a tight bun. The air carries the timba beat – trombones, conga drums and the <span class='italic'>clap, clap, clap[a]</span> of the clave – along with the smell of the ocean toward the heart of the city."
+      "value": "On a Sunday afternoon El Prado, the smooth, stone promenade that divides Old and Central Havana, is full of life. Painters line the walkway, dipping brushes into the bright yellows and blues that make their art Cuban in the eyes of tourists. Other craftsmen have set up tables and chairs in the middle of the promenade, where they carve small wooden statues. Parents and strangers crowd around as a 10-year-old boy lifts and twirls his dance partner – a small girl wearing flat ballet shoes, her hair in a tight bun. The air carries the timba beat – trombones, conga drums and the <span class='italic'>clap, clap, clap</span> of the clave – along with the smell of the ocean toward the heart of the city."
     },
     {
       "type": "text",
@@ -225,6 +225,5 @@
       "attribution": "Claire Collins",
       "caption": "Stephanie Borrero stands for a portrait by the Malecón in Havana, Cuba, on March 12, 2017."
     }
-  ],
-  "a": []
+  ]
 }

@@ -38,7 +38,7 @@
     },
     {
       "type": "text",
-      "value": "<span class='italic'>Click[a]</span>."
+      "value": "<span class='italic'>Click.</span>"
     },
     {
       "type": "text",
@@ -343,6 +343,5 @@
       "attribution": "Natalie Roush",
       "caption": "Every Tuesday, Diego makes time to help his Grandma, Coralia, walk to the market. They use this time to catch up on what's going on in each other's lives."
     }
-  ],
-  "a": []
+  ]
 }
