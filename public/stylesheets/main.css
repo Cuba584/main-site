@@ -495,12 +495,12 @@ nav {
     .overlay .overlay-content .mobile-home-link {
       color: black;
       position: absolute;
-      top: -29.5%;
+      top: -30.5%;
       right: 11%;
       font-size: 1.5em; }
     .overlay .overlay-content #closebtn {
       position: absolute;
-      top: -50.5%;
+      top: -51.5%;
       left: -5%;
       font-size: 75px;
       color: black;
@@ -509,7 +509,8 @@ nav {
     .overlay .overlay-content .overlay-item {
       color: black; }
       .overlay .overlay-content .overlay-item span {
-        font-size: 1.1em; }
+        font-size: 1.1em;
+        display: inline-flex; }
 
 /*------------------INTERACTIVE STYLES ---------*/
 .interactive-wrapper {

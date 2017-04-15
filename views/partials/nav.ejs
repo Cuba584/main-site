@@ -1,8 +1,5 @@
 <% var URL_LANG = espanol ? "?lang=es":"";  %>
 
-<script>
-</script>
-
   <header id="nav-header">
    <nav class="nav-bar">
 
@@ -30,21 +27,19 @@
       <ul>
 
         <li id="nav-art"><a class="hiphop nav-title" href="/pages/hiphop<%=URL_LANG%>">
-
-			   <%= espanol ? navSpan[0] : navEng[0] %>
-
+			<%= espanol ? "Que se queme el arroz" : "Let the Rice Burn" %>
 			</a></li>
         <li><a class="dorian nav-title" href="/pages/dorian<%=URL_LANG%>">
-          <%= espanol ? navSpan[1] : navEng[1] %>
+			<%= espanol ? "Damian y Dorian" : "Damian y Dorian" %>
 			</a></li>
         <li><a class="harbor nav-title" href="/pages/harbor<%=URL_LANG%>">
-          <%= espanol ? navSpan[2] : navEng[2] %>
+			<%= espanol ? "Cruzando el puerto" : "Across the Harbor" %>
 			</a></li>
         <li><a class="family nav-title" href="/pages/family<%=URL_LANG%>">
-          <%= espanol ? navSpan[3] : navEng[3] %>
+			<%= espanol ? "Viva la familia" : "Viva la Familia" %>
 			</a></li>
         <li><a class="skate nav-title" href="/pages/skate<%=URL_LANG%>">
-          <%= espanol ? navSpan[4] : navEng[4] %>
+			<%= espanol ? "Revolución sobre ruedas" : "Revolution on Wheels" %>
 			</a></li>
 
 
@@ -59,16 +54,14 @@
 
             <div class="trans-wrapper">
 
-              <a id="trans-link"><span id="trans-btn"><%= espanol ? "EN":"ES" %></span></a>
+              <a class="trans-link"><span id="trans-btn"><%= espanol ? "EN":"ES" %></span></a>
 
             </div>
 
             <div class="nav-line"></div>
 
             <div class="about-wrapper">
-                <a id="about-btn" class="about" href="/about">
-                  <%= espanol ? navSpan[5] : navEng[5] %>
-                </a>
+                <a id="about-btn" class="about" href="/about">About</a>
             </div>
 
           </div>
@@ -82,40 +75,29 @@
        <a href="/<%=URL_LANG%>" class="mobile-home-link"> <i class="fa fa-home fa-2x"></i></a>
 
       <a class="hiphop overlay-item" href="/pages/hiphop<%=URL_LANG%>"><span>
-        <%= espanol ? navSpan[0] : navEng[0] %>
-    </span>
+			<%= espanol ? "Que se queme el arroz" : "Let the Rice Burn" %></span>
 		</a>
         <a class="dorian overlay-item" href="/pages/dorian<%=URL_LANG%>">
-			<span>
-        <%= espanol ? navSpan[1] : navEng[1] %>
-      </span>
+			<span><%= espanol ? "Damian y Dorian" : "Damian y Dorian" %></span>
 		</a>
         <a class="harbor overlay-item" href="/pages/harbor<%=URL_LANG%>">
-			<span>
-        <%= espanol ? navSpan[2] : navEng[2] %>
-      </span>
+			<span><%= espanol ? "Cruzando el puerto" : "Across the Harbor" %></span>
 		</a>
         <a class="family overlay-item" href="/pages/family<%=URL_LANG%>">
-			<span>
-        <%= espanol ? navSpan[3] : navEng[3] %>
-      </span>
+			<span><%= espanol ? "Viva la familia" : "Viva la Familia" %></span>
 		</a>
         <a class="skate overlay-item" href="/pages/skate<%=URL_LANG%>">
-			<span>
-        <%= espanol ? navSpan[4] : navEng[4] %>
-      </span>
+			<span><%= espanol ? "Revolución sobre ruedas" : "Revolution on Wheels" %></span>
 		</a>
 
       <div class="nav-icons-mobile">
          <div class="sm-icons">
            <a class="about overlay-item" href="/about<%=URL_LANG%>">
-             <span>
-               <%= espanol ? navSpan[5] : navEng[5] %>
-             </span>
+             <span><%= espanol ? "Sobre nosotros" : "About" %></span>
            </a>
            <div class="mobile-icons">
 
-
+             <a class="trans-link"><span><%= espanol ? "EN":"ES" %></span></a>
 
              <a id="fb" href="https://www.facebook.com/CubasNewWave/" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
              <a id="twit" href="https://www.twitter.com/CubasNewWave/" target="_blank"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
@@ -131,7 +113,14 @@
   </nav>
 </header>
 <script>
-var transLink = document.getElementById('trans-link');
-var espanol = <%= espanol ? "true":"false" %>;
-transLink.setAttribute("href", espanol ? currentPage : currentPage + '?lang=es');
+ var espanol = <%= espanol ? "true":"false" %>;
+$('.trans-link').attr("href", espanol ? currentPage : currentPage + '?lang=es' );
+
+//
+// var transLink = document.getElementsByClassName('trans-link');
+// var espanol = <%= espanol ? "true":"false" %>;
+// transLink.setAttribute("href", espanol ? currentPage : currentPage + '?lang=es');
+
+
+
 </script>
