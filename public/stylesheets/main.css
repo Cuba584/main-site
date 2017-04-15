@@ -534,7 +534,10 @@ nav {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     font-weight: 400;
-    text-align: left; }
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw; }
   .interactive-wrapper-intro .expand-collapse {
     text-align: left;
     cursor: pointer;

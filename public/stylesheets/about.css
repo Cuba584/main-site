@@ -200,13 +200,6 @@ a:hover, a:focus {
   left: 0;
   height: 100%; }
 
-.thanks-container {
-  width: 75%;
-  margin: 0 auto; }
-  .thanks-container li {
-    text-align: left;
-    margin-bottom: 5px; }
-
 @media screen and (min-width: 2400px) {
   .team-nav ul {
     padding: 15px 20vw 15px 20vw; } }

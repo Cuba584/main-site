@@ -237,15 +237,6 @@ a:hover, a:focus {
    height: 100%;
 }
 
-.thanks-container{
-  width: 75%;
-  margin: 0 auto;
-  li{
-    text-align: left;
-    margin-bottom: 5px;
-}
-}
-
 
 
 @include media("screen", ">=xl"){
