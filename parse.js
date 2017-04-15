@@ -128,9 +128,11 @@ function getFileContents(exportLink, currentTopic){
           return;
       }
      data = archieml.load(body);
+	 //fs.writeFile("~"+count+".txt", JSON.stringify(data)); count++; 	//write 'data' to a file 
 	 data.text.forEach(function(el, index, arr){
 		 if (el.type !== "text" ) return;
-		 data.text[index].value = data.text[index].value.replace(/\*\*(.+)\*\*/gm, "<span class='italic'>$1</span>")
+		 el.value = el.value.replace(/\[a\]/gm, "");	//remove "[a]"
+		 el.value = el.value.replace(/\*\*([^*]+)\*\*/gm, "<span class='italic'>$1</span>");	//add italics class to **text**
 	 });
      sendIt(data, currentTopic);
   });
