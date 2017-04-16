@@ -58,11 +58,21 @@ $(document).ready(function(){
     <%} else if (body["text"][i]["type"] == "subhead") {%>
       <h4 class="subhead <%= body["master-class"]["class"] %>"><%=body["text"][i]["value"]["text"] %></h4>
     <%} else if (body["text"][i]["type"] == "video") {%>
-      <div id="video-top"></div>
+			<%  if (body["text"][i]["value"]["is360"] == "true") { %>
+				<div id="video-top2"></div>
+			<% } else { %>
+				<div id="video-top"></div>
+			<% } %>
+
     </div>
   </section>
   <div class="vimeo-container">
-      <div class="vimeo-wrapper" id="vimeo-wrap">
+		<%  if (body["text"][i]["value"]["is360"] == "true") { %>
+			<div class="vimeo-wrapper" id="vimeo-wrap2">
+		<% } else { %>
+			<div class="vimeo-wrapper" id="vimeo-wrap">
+		<% } %>
+
         <iframe data-src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
 
