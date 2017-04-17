@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+  
+
   $('<span class="country-ratio">31/100</span>').appendTo($('#cuba-title'));
   $('<span class="country-ratio">75/100</span>').appendTo($('#other-country-title'));
 

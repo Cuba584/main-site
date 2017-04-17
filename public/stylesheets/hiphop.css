@@ -9,6 +9,9 @@
 .hiphop-info {
   background-color: white; }
 
+.modal iframe {
+  max-width: 100%; }
+
 #hiphop-wrap-mobile {
   display: none; }
   #hiphop-wrap-mobile button {
@@ -62,12 +65,14 @@
   background-size: cover;
   display: block;
   position: relative;
-  perspective: 800px; }
+  perspective: 800px;
+  -webkit-perspective: 800px; }
   .hiphop-panel:hover .hiphop-text {
     visibility: visible; }
 
 .hiphop-card {
   height: 100%;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   transition: transform .1s; }
   .hiphop-card div {
@@ -76,15 +81,18 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden; }
 
 .hiphop-panel img {
   height: auto;
   width: calc(100% + 1px);
   position: absolute;
-  bottom: 0; }
+  bottom: 0;
+  -webkit-backface-visibility: hidden; }
 
 .hiphop-text {
+  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
   background-color: #fff; }
   .hiphop-text a {
@@ -165,14 +173,16 @@
     font-size: .9em;
     margin-top: 3px; }
   .hiphop-bio {
-    font-size: .77em; }
+    font-size: .7em; }
   .fa-youtube {
+    font-size: 2em; }
+  .hiphop-text a {
     font-size: 2em; } }
 
 @media screen and (max-width: 1020px) {
   #hiphop-wrap-mobile > ul > li {
     width: 72vw;
-    height: 65vh; }
+    height: 422px; }
   #hiphop-wrap-mobile {
     display: block; }
   #hiphop-wrap {
@@ -184,16 +194,17 @@
     font-size: .6em;
     margin-bottom: 12px; }
   .hiphop-panel {
-    height: 65vh;
+    height: 422px;
     width: 268px;
     padding: 12px;
     margin: 0 auto; }
   .hiphop-card div {
-    height: 65vh;
+    height: 422px;
     width: 248px;
     margin-left: 10px; }
   .hiphop-card-mobile {
-    width: 268px; }
+    width: 268px;
+    height: 422px; }
   .hiphop-bio {
     font-size: .5em; }
   .hiphop-text a {
@@ -203,13 +214,16 @@
   #desktop-instructions {
     display: none; }
   .flipped {
-    transform: rotateY(180deg); }
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg); }
+    .flipped img {
+      visibility: hidden; }
   .hiphop-panel img {
     width: 248px; } }
 
 @media screen and (max-width: 570px) {
   .hiphop-card div {
-    height: 60vh;
+    height: 390px;
     width: 225px;
     margin-top: 2.5vh;
     margin-left: 12px; }
@@ -222,7 +236,13 @@
   .fa-youtube {
     font-size: 3em; }
   .hiphop-panel img {
-    width: 225px; } }
+    width: 225px; }
+  .hiphop-name {
+    font-size: .55em; }
+  .hiphop-year {
+    font-size: .45em; }
+  .hiphop-bio {
+    font-size: .4em; } }
 
 @media screen and (max-width: 350px) {
   .hiphop-panel {
@@ -235,5 +255,11 @@
   .hiphop-card-mobile {
     width: 235px; }
   .hiphop-card > .hiphop-text {
-    width: 200px;
-    margin-left: 33px; } }
+    width: 180px;
+    right: 18px; }
+  .hiphop-name {
+    font-size: .5em; }
+  .hiphop-year {
+    font-size: .4em; }
+  .hiphop-text a {
+    font-size: 1.5em; } }

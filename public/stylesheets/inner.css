@@ -132,7 +132,11 @@ img.map {
 @media screen and (min-width: 2400px) {
   .inner figure .inner-image {
     height: 100%;
-    width: auto; } }
+    width: auto; }
+  .inner #inner-title-box h1 {
+    font-size: 4.5em; }
+  .inner #inner-title-box h3 {
+    margin: .1em 0 0 0; } }
 
 @media screen and (max-width: 1110px) {
   .inner figure .inner-image {
@@ -146,9 +150,18 @@ img.map {
 
 @media screen and (max-width: 1020px) {
   .inner .byline-box {
-    margin-top: 15pt; }
+    margin-top: 15pt;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    .inner .byline-box .byline-item {
+      margin-left: 9%;
+      max-width: 30%; }
     .inner .byline-box .byline-item p {
-      line-height: 1em; }
+      line-height: 1em;
+      margin-bottom: 8px; }
+  .inner .byline-item:first-of-type {
+    margin-left: 0; }
   .inner #title-box {
     margin-top: -2%; }
   .inner #inner-intro {

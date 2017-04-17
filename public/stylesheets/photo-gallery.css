@@ -26,7 +26,6 @@
     width: 70vw;
     height: auto;
     overflow: hidden;
-    margin-left: auto;
     margin-right: auto; }
   #photo-gallery #custom-slider > ul {
     width: 100%;
@@ -86,7 +85,8 @@
 
 @media screen and (max-width: 1020px) {
   #photo-gallery #custom-slider {
-    width: 90vw; }
+    width: 90vw;
+    margin-left: auto; }
   #photo-gallery .pg-figcaption {
     border-top: none;
     margin-top: -62px;

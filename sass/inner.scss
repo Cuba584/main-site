@@ -119,6 +119,7 @@
 
   }
 
+
   .pull-quote .attribution::before{
     content: '-';
     margin-right: -4px;
@@ -208,8 +209,18 @@ img.map {
          height: 100%;
          width: auto;
        }
+
+     } //figure
+     #inner-title-box {
+
+       h1 {
+         font-size: 4.5em;
+       }
+       h3 {
+         margin:.1em 0 0 0;
+       }
      }
-   }
+   } //inner
  }
 
  @include media("screen", "<=nav-mid"){
@@ -240,9 +251,20 @@ img.map {
     .inner {
       .byline-box {
         margin-top: 15pt;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        .byline-item {
+          margin-left: 9%;
+          max-width: 30%;
+        }
         .byline-item p {
           line-height: 1em;
+          margin-bottom: 8px;
         }
+      }
+      .byline-item:first-of-type{
+        margin-left:0;
       }
       #title-box {
         margin-top: -2%;
