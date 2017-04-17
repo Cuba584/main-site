@@ -80,7 +80,7 @@
     },
     {
       "type": "text",
-      "value": "High above the bustling city streets crowded with classic American build cars[b] from the 1950s and ‘60s, Dorian and a group of young models gather in a cluster on the rooftop of an apartment complex. Instead of breathing in the exhaust that circulates on the seaside motorway called <span class='italic'>El Malecón[c]</span> below them, these young men and women cough through a similar cloud of smoke coming from cans of hairspray. Dorian is feverishly adding finishing touches to the designs he so deliberately molded at the salon as photographers set up their equipment to begin the big photoshoot."
+      "value": "High above the bustling city streets crowded with classic American build cars[b] from the 1950s and ‘60s, Dorian and a group of young models gather in a cluster on the rooftop of an apartment complex. Instead of breathing in the exhaust that circulates on the seaside motorway called <span class='italic'>El Malecón</span> below them, these young men and women cough through a similar cloud of smoke coming from cans of hairspray. Dorian is feverishly adding finishing touches to the designs he so deliberately molded at the salon as photographers set up their equipment to begin the big photoshoot."
     },
     {
       "type": "text",
@@ -127,6 +127,7 @@
     {
       "type": "video",
       "value": {
+        "title": "Explore in 360: The Salon",
         "id": "210692653",
         "is360": "true"
       }
@@ -230,58 +231,57 @@
       "src": "dorian_sl_02.jpg",
       "alt": "portrait of damian",
       "attribution": "Emily Yue",
-      "caption": "Damian Carbonell Fernandez is an entrepreneur who, with his younger brother Dorian, established a premiere men’s hair salon. Damian is the business-oriented partner."
+      "caption": "Damian Carbonell helped his younger brother Dorian establish a premiere men’s hair salon. Damian has largely orchestrated the expansion of their business."
     },
     {
       "src": "dorian_sl_03.jpg",
       "alt": "portrait of Dorian",
       "attribution": "Emily Yue",
-      "caption": "Dorian Carbonell Fernandez is the artistic brother. A professional hair stylist and fashion adviser, he manages the images of many of the local reggaeton musicians in Havana."
+      "caption": "Dorian Carbonell has been a natural performer since childhood. As a highly esteemed hair stylist and image consultant, he manages many of the local reggaeton musicians in Havana."
     },
     {
       "src": "dorian_sl_05.jpg",
-      "alt": "models in Havana",
+      "alt": "A male model with bright pink hair poses with a female model sporting pink highlights on a rooftop overlooking the city.",
       "attribution": "Darian Woehr",
-      "caption": "Models pose on a rooftop overlooking the Malecón during a photo shoot to publicize the brothers’ business."
+      "caption": "Models pose on a rooftop overlooking the Malecón during a photo shoot to publicize the Donde Dorian’s spring collection of styles."
     },
     {
       "src": "dorian_sl_06.jpg",
-      "alt": "the Malecón",
+      "alt": "The bustling side of Havana that sits along the Malecón.",
       "attribution": "Ben Aijian",
-      "caption": "The Malecón is a road that follows the Northern coast of Cuba immediately adjacent to the ocean for much of the length of the island. It is also a popular spot to stop and sit or walk along the ocean."
+      "caption": "The Malecón is a road that follows the Northern coast of Cuba immediately adjacent to the ocean for much of the length of the island."
     },
     {
       "src": "dorian_sl_07.jpg",
-      "alt": "old havana cars",
+      "alt": "Vintage cars line the streets that lead to the ocean.",
       "attribution": "Ben Aijian",
-      "caption": "Havana’s streets are full of 50s era cars that have been converted into taxicabs that both tourists and locals use to get around the city.  Most of the cars have been completely rebuilt on an engine level, but they still hold their rustic charm and feel."
+      "caption": "Havana’s streets are full of 50s era cars that have been converted into taxis that both tourists and locals use to get around the city."
     },
     {
       "src": "dorian_sl_08.jpg",
-      "alt": "dorian jr.",
+      "alt": "Dorian’s toddler son, Dorian Jr., sits inside the family’s small car while waiting for his father to drive him home.",
       "attribution": "Darian Woehr",
-      "caption": "Dorian has a son named Dorian Jr. that often accompanies him to events."
+      "caption": "Dorian’s young son, Dorian Jr., is his father’s inspiration."
     },
     {
       "src": "dorian_sl_09.jpg",
-      "alt": "children in Havana",
+      "alt": "A young boy peeks his head over the top of a dilapidated wall. “Viva los CDR” is spray-painted on the wall beneath his splayed arms.",
       "attribution": "Darian Woehr",
-      "caption": "Children often play in the streets of Havana while keeping a keen eye open for approaching cars and motorcycles. The CDR are neighborhood watch communities that report on counter revolutionary activities in Havana."
+      "caption": "Children often play in the streets of Havana while keeping a keen eye for approaching cars and motorcycles. The CDR are neighborhood watch communities that report on counter revolutionary activities in Havana."
     },
     {
       "src": "dorian_sl_10.jpg",
-      "alt": "old man haircut",
+      "alt": "An older male customer receives a haircut at Donde Dorian.",
       "attribution": "Emily Yue",
-      "caption": "Not only the young and beautiful come to Dorian to have their hair cut.  Dorian styles hair for customers of all ages. He does specialize in men however."
+      "caption": "It’s not just the young and beautiful who come to Dorian to have their hair cut. While the salon was initially opened to cater to men’s hair, Dorian has expressed interest in appealing to a wider range of clientele in the future."
     },
     {
       "src": "dorian_sl_12.jpg",
-      "alt": "Havana at sunset",
+      "alt": "Blankets of orange and gray clouds drift above the ocean at sunset.",
       "attribution": "Ben Aijian",
-      "caption": "Havana at sunset is a beautiful sight. Every night, tourists and locals alike gather on the Malecón to watch the sun go down."
+      "caption": "Every night, tourists and locals alike gather on the Malecón to watch the sun go down."
     }
   ],
   "a": [],
-  "b": [],
-  "c": []
+  "b": []
 }

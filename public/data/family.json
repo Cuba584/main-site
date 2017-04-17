@@ -32,8 +32,8 @@
     {
       "type": "video",
       "value": {
-        "360": "false",
-        "id": "200984993"
+        "id": "200984993",
+        "is360": "false"
       }
     },
     {
@@ -137,8 +137,9 @@
     {
       "type": "video",
       "value": {
-        "360": "true",
-        "id": "213001549"
+        "title": "Explore in 360: Diego and Coralia",
+        "id": "213001549",
+        "is360": "true"
       }
     },
     {

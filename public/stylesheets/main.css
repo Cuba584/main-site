@@ -7,6 +7,13 @@ further down on the page or in any of the other .SCSS files.
 .hiphop.subhead {
   color: #F1861B; }
 
+.hiphop.title {
+  color: #F1861B;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em; }
+
 .hiphop.interactive {
   color: #F1861B; }
 
@@ -75,6 +82,13 @@ further down on the page or in any of the other .SCSS files.
 
 .dorian.subhead {
   color: #9BD5BB; }
+
+.dorian.title {
+  color: #9BD5BB;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em; }
 
 .dorian.interactive {
   color: #9BD5BB; }
@@ -145,6 +159,13 @@ further down on the page or in any of the other .SCSS files.
 .skate.subhead {
   color: #A089CE; }
 
+.skate.title {
+  color: #A089CE;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em; }
+
 .skate.interactive {
   color: #A089CE; }
 
@@ -213,6 +234,13 @@ further down on the page or in any of the other .SCSS files.
 
 .family.subhead {
   color: #F0BD53; }
+
+.family.title {
+  color: #F0BD53;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em; }
 
 .family.interactive {
   color: #F0BD53; }
@@ -283,6 +311,13 @@ further down on the page or in any of the other .SCSS files.
 .harbor.subhead {
   color: #6EA5C2; }
 
+.harbor.title {
+  color: #6EA5C2;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em; }
+
 .harbor.interactive {
   color: #6EA5C2; }
 
@@ -351,6 +386,13 @@ further down on the page or in any of the other .SCSS files.
 
 .about.subhead {
   color: #997A65; }
+
+.about.title {
+  color: #997A65;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em; }
 
 .about.interactive {
   color: #997A65; }
@@ -616,12 +658,12 @@ nav {
     .overlay .overlay-content .mobile-home-link {
       color: black;
       position: absolute;
-      top: -28.5%;
+      top: -24.5%;
       right: 11%;
       font-size: 1.5em; }
     .overlay .overlay-content #closebtn {
       position: absolute;
-      top: -46.5%;
+      top: -42.5%;
       left: -5%;
       font-size: 75px;
       color: black;
