@@ -21,6 +21,7 @@
 #photo-gallery {
   display: flex;
   flex-wrap: wrap;
+  margin: 5vh 0 5vh 0;
   align-items: flex-start; }
   #photo-gallery #custom-slider {
     width: 70vw;
