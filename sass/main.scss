@@ -28,6 +28,32 @@ further down on the page or in any of the other .SCSS files.
                     background-color: nth($i, 2);
                   }
             }
+            &.nav-title-footer{
+              &:after{
+                content: '';
+                display: block;
+                height: 3px;
+                width: 0;
+                background: transparent;
+                transition: width .8s ease, background-color .8s ease;
+              }
+              &:hover{
+                &:after{
+                  width:100%;
+                  background:#fff;
+                }
+              }
+              &.active-nav{
+                &:after{
+                  content: '';
+                  display: block;
+                  height: 3px;
+                  width: 100%;
+                  background: #fff;
+                  transition-property: none;
+                }
+              }
+            }
             &.nav-title{
               // border-bottom:3px solid transparent;
               // white-space:nowrap;
@@ -425,6 +451,12 @@ nav {
   margin:1.4em auto;
   padding: 1.4em 0;
   overflow:hidden;
+
+  .expand-collapse{
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+  }
 }
 
 .interactive-wrapper-intro{
@@ -467,8 +499,13 @@ nav {
   @include media("screen", ">=xl"){
     nav{
       // padding-bottom:15px;
+      font-size:1.05em;
       ul{
         width:1230px;
+        // li::after{
+        //   content:'\2022';
+        //   display:inline;
+        // }
       }
     }
   }
