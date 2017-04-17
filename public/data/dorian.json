@@ -59,7 +59,11 @@
     },
     {
       "type": "text",
+<<<<<<< HEAD
       "value": "Dorian and Damian founded a private business out of their parents’ home in 2009. Two years later, the Cuban government enacted a new policy called Los Lineamientos para la Política Económica y Social that lists 313[a] guidelines for allowing small and medium-sized businesses in Cuba to be privately operated."
+=======
+      "value": "Dorian and Damian founded a private business out of their parents’ home in 2009. Two years later, the Cuban government enacted a new policy called Los Lineamientos para la Política Económica y Social that lists 313 guidelines for allowing small and medium-sized businesses in Cuba to be privately operated."
+>>>>>>> aecf5b412f623859feb42e4aa2d745eb7985ddcb
     },
     {
       "type": "text",

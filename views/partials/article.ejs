@@ -13,7 +13,7 @@ $(document).ready(function(){
         <video id="cinemagraph" data-autoplay autoplay muted playsinline>
 
           <source src="/assets/video/<%=body["cinemagraph"]["src"] %>" type="video/mp4">
-          <!-- <source src="/assets/video/dorian_new.mp4" type="video/mp4"> -->
+          <!-- <source src="/assets/video/harbortextured.mp4" type="video/mp4"> -->
         </video>
 		</div>
       <div>
@@ -33,7 +33,7 @@ $(document).ready(function(){
         <% } %>
       </div>
       <div class="byline-item">
-      <p class="byline-head">photos by</p>
+      <p class="byline-head">photos and video by</p>
         <% for (v in body["videographers"]) {%>
         <p><%= body["videographers"][v]["name"] %></p>
         <% } %>
@@ -88,7 +88,7 @@ $(document).ready(function(){
 											<script>
 											captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
 												"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
-												"<p class='fig-attr'>Photo by</p>" +
+												"<p class='fig-attr'>Photo by&nbsp</p>" +
 												"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
 											"</figcaption>");
 											</script>
@@ -148,10 +148,15 @@ $(document).ready(function(){
         <div class="max-width">
 
 		<% } else if (body["text"][i]["type"] == "map") { %>
+		</div>
+	</section>
 			<div class="center-wrapper">
 				<img class="map" src='assets/images/<%=body["text"][i]["value"]["src"] %> ' alt='
 				<%=body["text"][i]["value"]["alt"] %>'>
 			</div>
+
+			<section class="center-wrapper">
+				<div class="max-width">
 		<%} } %>
 
   </div>

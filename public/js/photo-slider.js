@@ -18,7 +18,6 @@ $('#inner-caption').html(captionArray[0]);
     $('.slider-left').on("click", function toPrevious() {
       sliderUl.style.transition = "0.5s left";
       slideIndex --;
-      console.log(slideIndex)
       var captionIndex = slideIndex;
       if (slideIndex == 0) {
         sliderUl.style.left = "-100%";
@@ -42,7 +41,6 @@ $('#inner-caption').html(captionArray[0]);
 
     $('.slider-right').on("click", function toNext() {
       sliderUl.style.transition = "0.5s left";
-      console.log(slideIndex);
       slideIndex ++;
       var captionIndex = slideIndex;
       if (slideIndex == 0) {

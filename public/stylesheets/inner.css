@@ -70,6 +70,14 @@
     margin-right: 55vw;
     margin-top: 0;
     border-style: none; }
+  .inner .pull-quote .attribution::before {
+    content: '-';
+    margin-right: -4px; }
+  .inner .pull-quote .attribution {
+    display: inline;
+    font-weight: 300;
+    margin-left: 15px;
+    font-size: 0.9em; }
   .inner .subhead {
     font-weight: 500;
     font-size: 1.675em;
@@ -118,13 +126,17 @@
   margin-top: 70px; }
 
 img.map {
-  margin: 6% 0 6% 0; }
+  margin: 3% 0 3% 0; }
 
 /*------responsive styles------*/
 @media screen and (min-width: 2400px) {
   .inner figure .inner-image {
     height: 100%;
-    width: auto; } }
+    width: auto; }
+  .inner #inner-title-box h1 {
+    font-size: 4.5em; }
+  .inner #inner-title-box h3 {
+    margin: .1em 0 0 0; } }
 
 @media screen and (max-width: 1110px) {
   .inner figure .inner-image {
@@ -138,9 +150,18 @@ img.map {
 
 @media screen and (max-width: 1020px) {
   .inner .byline-box {
-    margin-top: 15pt; }
+    margin-top: 15pt;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    .inner .byline-box .byline-item {
+      margin-left: 9%;
+      max-width: 30%; }
     .inner .byline-box .byline-item p {
-      line-height: 1em; }
+      line-height: 1em;
+      margin-bottom: 8px; }
+  .inner .byline-item:first-of-type {
+    margin-left: 0; }
   .inner #title-box {
     margin-top: -2%; }
   .inner #inner-intro {
@@ -196,4 +217,9 @@ img.map {
   .inner .pull-quote {
     font-size: 1.3em; }
   .inner .pull-quote hr {
-    height: 5px; } }
+    height: 5px; }
+  .inner .pull-quote .attribution {
+    margin-left: 5px; }
+  img.map {
+    width: 100vw;
+    height: 100%; } }

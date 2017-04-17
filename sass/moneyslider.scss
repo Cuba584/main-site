@@ -1,6 +1,5 @@
 @import '_include-media';
 
-#moneyslider {
 #money-slider-wrapper {
   width: 50%;
   height: 50vh;
@@ -69,7 +68,7 @@
     font-size: 0.4em;
   }
   img{
-    height:20vh;
+    height:30vh;
   }
 
   .money-slider-section{
@@ -85,7 +84,7 @@
   .money-left, .money-center, .money-right{
     align-self: center;
   }
-}
+
 }
   @include media("screen", "<=sm"){
 
@@ -108,7 +107,7 @@
   }
 
   @include media("screen", "<=sm") {
-    #moneyslider {
+
       .money-slider .money-slider-section{
         flex-direction: column;
       }
@@ -118,11 +117,16 @@
       .money-slider-section p, .money-slider-section h3 {
         display: inline;
       }
-      hr {
+      .money-slider{
+        hr {
         display: inline-block;
         margin:0 15px;
         height:10px;
       }
+        img{
+          height: 22vh;
+        }
+    }
 
       #money-slider-wrapper {
         height: 50vh;
@@ -142,5 +146,3 @@
         z-index:1000;
       }
     }
-
-}

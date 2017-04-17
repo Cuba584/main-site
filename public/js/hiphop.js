@@ -66,4 +66,21 @@ rightHiphopButton.addEventListener("click", function toNext() {
     hiphopUl.style.left = (hiphopSlideIndex * -100) - 100 + '%';
   }
 
-})
+});
+
+var srcs = [
+	"https://www.youtube.com/embed/2TQqDHy3jeM",
+	"https://www.youtube.com/embed/oS_vI9dXigI",
+	"https://www.youtube.com/embed/bv09TfcbEqE",
+	"https://www.youtube.com/embed/TxRWQHCSmUg",
+	"https://www.youtube.com/embed/l6LjNOYvhMk"
+];
+
+// load the video when a Youtube icon is clicked
+$("a[rel='modal:open']").click(function(){
+	var name = $(this).data("modal");	
+	var index = name-1; //change from 1-indexed to 0-indexed
+	$("#hiphop"+name+"-modal iframe")[0].src = srcs[index];
+});
+
+
