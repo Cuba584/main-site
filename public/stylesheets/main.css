@@ -421,7 +421,7 @@ nav {
     font-size: 2em;
     margin-top: -11px; }
   nav .sm-icons {
-    display: inline-flex;
+    display: initial;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -486,21 +486,22 @@ nav {
     margin-top: 30px;
     -webkit-transition: 5s opacity; }
     .overlay .overlay-content a {
-      display: block;
       text-decoration: none;
       font-size: 1.7em;
       font-weight: 300;
       line-height: 2.6em;
-      padding: 0.5%; }
+      padding: 0.5%;
+      display: flex;
+      align-items: center; }
     .overlay .overlay-content .mobile-home-link {
       color: black;
       position: absolute;
-      top: -30.5%;
+      top: -28.5%;
       right: 11%;
       font-size: 1.5em; }
     .overlay .overlay-content #closebtn {
       position: absolute;
-      top: -51.5%;
+      top: -46.5%;
       left: -5%;
       font-size: 75px;
       color: black;
@@ -509,7 +510,7 @@ nav {
     .overlay .overlay-content .overlay-item {
       color: black; }
       .overlay .overlay-content .overlay-item span {
-        font-size: 1.1em;
+        font-size: 1em;
         display: inline-flex; }
 
 /*------------------INTERACTIVE STYLES ---------*/
@@ -568,8 +569,8 @@ nav {
     height: 23px; }
   nav .sm-icons .mobile-icons {
     display: inline-flex;
-    left: 70%;
-    position: relative; }
+    position: relative;
+    align-items: center; }
   nav .sm-icons #trans-btn, nav .sm-icons #about-btn {
     font-size: .8em; } }
 
