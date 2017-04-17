@@ -2,6 +2,34 @@ img.wifi {
   display: block;
   margin: 0 auto; }
 
+#internet-slider {
+  width: 90%;
+  height: 70vh;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto; }
+  #internet-slider ul {
+    width: 100%;
+    height: 70vh;
+    left: -100%;
+    transition: 0.5s left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: inline-flex; }
+    #internet-slider ul li {
+      width: 100%;
+      height: 70vh;
+      color: black;
+      font-size: 3rem; }
+
+.slider-right {
+  float: right; }
+
+.slider-left {
+  float: left; }
+
 @media screen and (max-width: 1020px) {
   img.wifi {
     width: 100%;

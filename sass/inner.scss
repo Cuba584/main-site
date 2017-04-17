@@ -196,8 +196,18 @@ img.map {
          height: 100%;
          width: auto;
        }
+
+     } //figure
+     #inner-title-box {
+
+       h1 {
+         font-size: 4.5em;
+       }
+       h3 {
+         margin:.1em 0 0 0;
+       }
      }
-   }
+   } //inner
  }
 
  @include media("screen", "<=nav-mid"){

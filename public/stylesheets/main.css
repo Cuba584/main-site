@@ -551,8 +551,10 @@ nav {
 
 /*------------------ RESPONSIVE NAV STYLES ---------*/
 @media screen and (min-width: 2400px) {
-  nav ul {
-    width: 1230px; } }
+  nav {
+    font-size: 1.05em; }
+    nav ul {
+      width: 1230px; } }
 
 @media screen and (max-width: 1280px) {
   nav ul {

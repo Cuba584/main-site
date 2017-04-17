@@ -124,7 +124,11 @@ img.map {
 @media screen and (min-width: 2400px) {
   .inner figure .inner-image {
     height: 100%;
-    width: auto; } }
+    width: auto; }
+  .inner #inner-title-box h1 {
+    font-size: 4.5em; }
+  .inner #inner-title-box h3 {
+    margin: .1em 0 0 0; } }
 
 @media screen and (max-width: 1110px) {
   .inner figure .inner-image {

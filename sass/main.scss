@@ -467,8 +467,13 @@ nav {
   @include media("screen", ">=xl"){
     nav{
       // padding-bottom:15px;
+      font-size:1.05em;
       ul{
         width:1230px;
+        // li::after{
+        //   content:'\2022';
+        //   display:inline;
+        // }
       }
     }
   }
