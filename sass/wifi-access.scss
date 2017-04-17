@@ -1,13 +1,14 @@
 @import '_include-media';
 
 img.wifi{
-  display: block;
-  margin: 0 auto;
+  width: 100%;
+  display: inline-block;
 }
 
 #internet-slider {
+  display:none;
   width: 90%;
-  height: 70vh;
+  // height: 70vh;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
@@ -25,7 +26,7 @@ img.wifi{
   }
   ul {
     width: 100%;
-    height: 70vh;
+    // height: 70vh;
     left: -100%;
     transition: 0.5s left;
     list-style: none;
@@ -35,7 +36,7 @@ img.wifi{
     display: inline-flex;
     li {
       width: 100%;
-      height: 70vh;
+      // height: 70vh;
       color: black;
       font-size: 3rem;
         img {
@@ -57,9 +58,13 @@ img.wifi{
 
 
 @include media("screen", "<=md"){
+
   img.wifi{
-    width: 100%;
-    display: inline-block;
+    display:none;
+  }
+
+  #internet-slider{
+    display:inline;
   }
 
 }
