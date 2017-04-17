@@ -31,7 +31,6 @@
     width: 70vw;
     height: auto;
     overflow: hidden;
-    margin-left: auto;
     margin-right: auto;
   }
 
@@ -175,6 +174,7 @@
         // justify-content: center;
     #custom-slider {
       width: 90vw;
+      margin-left: auto;
     }
     #custom-slider > ul {
       // height: 50vh;
