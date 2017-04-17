@@ -1,6 +1,7 @@
 @import '_vars';
 @import '_include-media';
 
+
 footer{
   text-align: left;
   background: none;
@@ -81,17 +82,17 @@ footer{
 
 /* ------- Media Queries --------- */
 
-@media screen and (min-device-width: 501px) and (max-width: 768px){
+@include media ("screen", ">=sm", "<=footer-md"){
   footer{
     .item ul li{
       padding:10px 5px 0 5px;
     }
     .item ul li a {
-      font-size: .6em;
+      font-size: .8em;
     }
   }
 }
-@media screen and (max-width: 500px){
+@include media ("screen", "<=sm"){
 
   footer{
 
@@ -117,14 +118,31 @@ footer{
       padding: 0;
       height:auto;
     }
-    .nav-title.active-nav:after, .nav-title:hover:after {
-      background:none!important;
-    }
+
+    // .nav-title-footer.active-nav{
+    //   background-color: white;
+    // //   font-weight: 900;
+    // // }
+    // .nav-title-footer.active-nav:after, .nav-title-footer:hover:after {
+    //   background:none!important;
+    //
+    // }
     .item ul li a:hover {
       font-weight: 700;
     }
     .item ul li a {
       font-size: .8em;
     }
+
+    .nav-title-footer::after{
+      .active-nav{
+        width: 36%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+
+    }
+
   }
 }
