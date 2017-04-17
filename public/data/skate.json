@@ -41,7 +41,7 @@
     },
     {
       "type": "text",
-      "value": "On a Sunday afternoon El Prado, the smooth, stone promenade that divides Old and Central Havana, is full of life. Painters line the walkway, dipping brushes into the bright yellows and blues that make their art Cuban in the eyes of tourists. Other craftsmen have set up tables and chairs in the middle of the promenade, where they carve small wooden statues. Parents and strangers crowd around as a 10-year-old boy lifts and twirls his dance partner – a small girl wearing flat ballet shoes, her hair in a tight bun. The air carries the timba beat – trombones, conga drums and the <span class='italic'>clap, clap, clap[a]</span> of the clave – along with the smell of the ocean toward the heart of the city."
+      "value": "On a Sunday afternoon El Prado, the smooth, stone promenade that divides Old and Central Havana, is full of life. Painters line the walkway, dipping brushes into the bright yellows and blues that make their art Cuban in the eyes of tourists. Other craftsmen have set up tables and chairs in the middle of the promenade, where they carve small wooden statues. Parents and strangers crowd around as a 10-year-old boy lifts and twirls his dance partner – a small girl wearing flat ballet shoes, her hair in a tight bun. The air carries the timba beat – trombones, conga drums and the <span class='italic'>clap, clap, clap</span> of the clave – along with the smell of the ocean toward the heart of the city."
     },
     {
       "type": "text",
@@ -179,52 +179,51 @@
   "slider-images": [
     {
       "src": "skate_sl_01.jpg",
-      "alt": "title placeholder",
-      "attribution": "photocredit name",
-      "caption": "placeholder caption"
+      "alt": "alt",
+      "attribution": "Claire Collins",
+      "caption": "William Almeida (right) adjusts his board in a park in Havana, Cuba, on March 11, 2017."
     },
     {
       "src": "skate_sl_02.jpg",
-      "alt": "title placeholder",
-      "attribution": "DeLaney McGuire",
-      "caption": "Police officers hover by a group of skaters, prompting them to move the location of their skate competition for the third time."
+      "alt": "alt",
+      "attribution": "Claire Collins",
+      "caption": "Alvaro Lores jumps onto a bench in a park in Havana, Cuba, on March 11, 2017."
     },
     {
       "src": "skate_sl_03.jpg",
-      "alt": "title placeholder",
-      "attribution": "photocredit name",
-      "caption": "placeholder caption"
+      "alt": "Skaters pause their activities with the presence of police",
+      "attribution": "Viviane Feldman",
+      "caption": "Police officers repeatedly stop skaters from practicing near the Prado, a historic promenade in Old Havana on March 12, 2017."
     },
     {
       "src": "skate_sl_04.jpg",
-      "alt": "title placeholder",
-      "attribution": "photocredit name",
-      "caption": "placeholder caption"
+      "alt": "Two skaters take a selfie with their boards.",
+      "attribution": "Viviane Feldman",
+      "caption": "Nathalie and Juan take a selfie on the Malecon with their skateboards on March 12, 2017."
     },
     {
       "src": "skate_sl_05.jpg",
-      "alt": "title placeholder",
-      "attribution": "photocredit name",
-      "caption": "placeholder caption"
+      "alt": "al",
+      "attribution": "Claire Collins",
+      "caption": "Leuvis Perez (left) and Enzo Valdés skate together in El Prado on March 16, 2017."
     },
     {
       "src": "skate_sl_07.jpg",
-      "alt": "title placeholder",
-      "attribution": "DeLaney McGuire",
-      "caption": "Cristian Alonzo Stewart practices his skate tricks along El Prado."
+      "alt": "Two skaters sit and watch people pass by on the Prado walkway",
+      "attribution": "Viviane Feldman",
+      "caption": "Two members of the skating community watch the pedestrians pass by on the Prado walkway in Old Havana, on March 16, 2017."
     },
     {
       "src": "skate_sl_08.jpg",
-      "alt": "title placeholder",
-      "attribution": "photocredit name",
-      "caption": "placeholder caption"
+      "alt": "Skaters sit along the Malecon at sunset.",
+      "attribution": "Viviane Feldman",
+      "caption": "Skaters sit along the Malecon of Havana as the evening winds down. An organized competition was forced to cancel due to police presence earlier that day on March 12, 2017."
     },
     {
       "src": "skate_sl_09.jpg",
-      "alt": "title placeholder",
-      "attribution": "photocredit name",
-      "caption": "placeholder caption"
+      "alt": "alt",
+      "attribution": "Claire Collins",
+      "caption": "Stephanie Borrero stands for a portrait by the Malecón in Havana, Cuba, on March 12, 2017."
     }
-  ],
-  "a": []
+  ]
 }

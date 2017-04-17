@@ -38,7 +38,7 @@
     },
     {
       "type": "text",
-      "value": "<span class='italic'>Click[a]</span>."
+      "value": "<span class='italic'>Click.</span>"
     },
     {
       "type": "text",
@@ -138,7 +138,7 @@
       "type": "video",
       "value": {
         "360": "true",
-        "id": "210269956"
+        "id": "213001549"
       }
     },
     {
@@ -171,7 +171,7 @@
     },
     {
       "type": "text",
-      "value": "The sun beats down on his brow while the hill he’s ascending pounds his legs. The longer Diego is outside pedaling his bike down the streets of Havana, the more he can feel the heat burrowing into his skin."
+      "value": "The sun beats down on his brow while the hill he’s ascending pounds his legs. The longer Diego is outside, pedaling his bike down the streets of Havana, the more he can feel the heat burrowing into his skin."
     },
     {
       "type": "text",
@@ -237,7 +237,7 @@
     },
     {
       "type": "text",
-      "value": "That smile stretches across Diego’s face now as he sits at the kitchen table and tells how he seeks Coralia’s opinion on clothing before leaving the house. “She always tells me that it’s cold,” he says, “that I need a jacket.” He stares at one of Coralia’s dangling <span class='italic'>brujitas</span> before turning back and continuing. If he’s sending an important email, he seeks input from his grandmother, the grammar aficionado. When he wants perspective outside the photography sphere, he consults Coralia. Daily tasks don’t slip through the cracks with his on-the-move lifestyle, because Coralia will bring the clothes on the line inside if it rains, and she’ll take a message on the phone."
+      "value": "That smile stretches across Diego’s face now, as he sits at the kitchen table and tells how he seeks Coralia’s opinion on clothing before leaving the house. “She always tells me that it’s cold,” he says, “that I need a jacket.” He stares at one of Coralia’s dangling <span class='italic'>brujitas</span> before turning back and continuing. If he’s sending an important email, he seeks input from his grandmother, the grammar aficionado. When he wants perspective outside the photography sphere, he consults Coralia. Daily tasks don’t slip through the cracks with his on-the-move lifestyle, because Coralia will bring the clothes on the line inside if it rains, and she’ll take a message on the phone."
     },
     {
       "type": "text",
@@ -343,6 +343,5 @@
       "attribution": "Natalie Roush",
       "caption": "Every Tuesday, Diego makes time to help his Grandma, Coralia, walk to the market. They use this time to catch up on what's going on in each other's lives."
     }
-  ],
-  "a": []
+  ]
 }
