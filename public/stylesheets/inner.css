@@ -175,7 +175,7 @@ img.map {
   .inner iframe {
     width: 100%; }
   .inner .pull-quote-box {
-    width: 88vw; }
+    margin: 0; }
   .inner figcaption {
     padding-right: 0vw; }
   #inner-title-box {

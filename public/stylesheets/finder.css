@@ -182,7 +182,7 @@
 .file-item:active {
   background: #F0BD53; }
 
-.active {
+.finder-wrapper.active {
   background-color: #F0BD53; }
 
 i.green-fold {
