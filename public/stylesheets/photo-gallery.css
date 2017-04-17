@@ -80,10 +80,6 @@
   #photo-gallery #custom-slider > ul > li {
     justify-content: center; } }
 
-@media screen and (max-width: 1110px) {
-  #photo-gallery .pg-figcaption {
-    width: calc(100% - 150px); } }
-
 @media screen and (max-width: 1020px) {
   #photo-gallery #custom-slider {
     width: 90vw;
