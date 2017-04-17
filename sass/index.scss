@@ -97,6 +97,7 @@
   padding: 20px;
 }
 
+
 @include media("screen", "<=sm"){
   #index-container {
     display: none;
@@ -114,9 +115,17 @@
 
 #intro-box {
   margin-top: $mobile-nav-height;
+  margin-bottom: -8px;
   img {
     width: 100%;
   }
+}
+
+#intro-text-box {
+  background: url("textures/family.JPG") no-repeat;
+  height: 200px;
+  padding-top: 2px;
+  padding-bottom: 36px;
 }
 
 #intro-text {
