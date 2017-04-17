@@ -13,6 +13,12 @@
   background-color: white;
 }
 
+.modal {
+  iframe {
+    max-width: 100%;
+  }
+}
+
 #hiphop-wrap-mobile {
   display: none;
   button {
@@ -79,6 +85,7 @@
   position: relative;
   // background-color: black;
   perspective: 800px;
+  -webkit-perspective: 800px;
   &:hover .hiphop-text {
     visibility: visible;
   }
@@ -86,6 +93,7 @@
 
 .hiphop-card {
   height: 100%;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   transition: transform .1s;
     div {
@@ -94,6 +102,7 @@
       position: absolute;
       width: 100%;
       height: 100%;
+      -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
     }
 }
@@ -104,9 +113,11 @@
   width: calc(100% + 1px);
   position: absolute;
   bottom: 0;
+  -webkit-backface-visibility: hidden;
 }
 
 .hiphop-text {
+    -webkit-transform: rotateY(180deg);
     transform: rotateY( 180deg );
     background-color: #fff;
     a {
@@ -246,7 +257,7 @@
 @include media("screen", "<=md") {
   #hiphop-wrap-mobile > ul > li {
     width: 72vw;
-    height: 65vh;
+    height: 422px;
   }
   #hiphop-wrap-mobile {
     display: block;
@@ -263,7 +274,7 @@
     margin-bottom: 12px;
   }
   .hiphop-panel {
-    height: 65vh;
+    height: 422px;
     // width: 38vw;
     width: 268px;
     // padding: 0;
@@ -274,7 +285,7 @@
     // width: 66vw;
     // height: 60vh;
     // margin: 2.5vh 3vw;
-    height: 65vh;
+    height: 422px;
     // width: 38vw;
     width: 248px;
     margin-left: 10px;
@@ -283,7 +294,7 @@
   .hiphop-card-mobile {
     // width: 38vw;
     width: 268px;
-
+    height: 422px;
   }
   .hiphop-bio {
     font-size: .5em;
@@ -301,6 +312,7 @@
   }
   .flipped {
     transform: rotateY( 180deg );
+    -webkit-transform: rotateY( 180deg );
     img {
       visibility: hidden;
     }
@@ -315,7 +327,7 @@
     // width: 66vw;
     // height: 60vh;
     // margin: 2.5vh 3vw;
-    height: 60vh;
+    height: 390px;
     width: 225px;
     // width: 65vw;
     margin-top: 2.5vh;

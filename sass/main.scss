@@ -526,8 +526,8 @@ nav {
   @include media("screen", "<=md"){
 
     header{
-    -webkit-box-shadow: none;
-    box-shadow: none;
+    -webkit-box-shadow: 0 -16px 21px 9px rgba(0, 0, 0, 0.3);
+    box-shadow:  0 -16px 21px 9px rgba(0, 0, 0, 0.3);
     top:0;
     }
     .logo-wrapper{

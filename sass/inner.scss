@@ -228,9 +228,20 @@ img.map {
     .inner {
       .byline-box {
         margin-top: 15pt;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        .byline-item {
+          margin-left: 9%;
+          max-width: 30%;
+        }
         .byline-item p {
           line-height: 1em;
+          margin-bottom: 8px;
         }
+      }
+      .byline-item:first-of-type{
+        margin-left:0;
       }
       #title-box {
         margin-top: -2%;
