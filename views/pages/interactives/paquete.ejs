@@ -6,7 +6,13 @@
       El paquete semanal, or the weekly package, is used by people all over Cuba. Explore what's available, and read what the people of Cuba have to say about the well-known package.
     </p>
 
+        <% include ../interactives/finder.ejs %>
+
+
+
     <div class="paquete">
+
+
 
       <div class="bgimg bgimg-1">
         <div class="other-caption">
@@ -62,7 +68,7 @@
 
     <div class="bgimg bgimg-5">
       <div class="other-caption">
-         <div class="other-border"><p>
+         <div class="other-border" id="alex"><p>
            <hr />"My favorite thing is movies or music because I'm a musician. I like music, videos, films. My mother is crazy about films, just like me. My nephew is crazy about cartoons. El paquete shows us what the Cuban media doesn't show us. In general, I think it's suitable for the Cuban people. It's a way to be out of the same thing." <br  /> <br /> Alejandro Benitez Mesa, 34</p>
          </div>
       </div>
@@ -80,23 +86,9 @@
     </div> <!--paquete wrapper-->
 
 
-    <div class="expand-collapse interactive skate"><i class='fa fa-chevron-down'></i> Read more.</div>
+    <!-- <div class="expand-collapse interactive skate"><i class='fa fa-chevron-down'></i> Read more.</div> -->
 
 
-    <% include ../interactives/finder.ejs %>
+
 
       </div>
-
-<script type="text/javascript">
-$(document).ready(function(){
-  $("#finder").hide();
-  $(".expand-collapse").click(function(){
-    $("#finder").toggle();
-    $(this).html(function(i, v) {
-  return v === '<i class="fa fa-chevron-up"></i> Read less' ? '<i class="fa fa-chevron-down"></i> Read more' : '<i class="fa fa-chevron-up"></i> Read less'
-})
-  });
-});
-
-
-</script>

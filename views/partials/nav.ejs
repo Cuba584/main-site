@@ -1,8 +1,5 @@
 <% var URL_LANG = espanol ? "?lang=es":"";  %>
 
-<script>
-</script>
-
   <header id="nav-header">
    <nav class="nav-bar">
 
@@ -57,7 +54,6 @@
         <li><a class="skate nav-title" href="/pages/skate<%=URL_LANG%>">
           <%= espanol ? navSpan[4] : navEng[4] %>
 
-
 			</a></li>
 
 
@@ -72,16 +68,14 @@
 
             <div class="trans-wrapper">
 
-              <a id="trans-link"><span id="trans-btn"><%= espanol ? "EN":"ES" %></span></a>
+              <a class="trans-link"><span id="trans-btn"><%= espanol ? "EN":"ES" %></span></a>
 
             </div>
 
             <div class="nav-line"></div>
 
             <div class="about-wrapper">
-                <a id="about-btn" class="about" href="/about">
-                  <%= espanol ? navSpan[5] : navEng[5] %>
-                </a>
+                <a id="about-btn" class="about" href="/about">About</a>
             </div>
 
           </div>
@@ -95,8 +89,7 @@
        <a href="/<%=URL_LANG%>" class="mobile-home-link"> <i class="fa fa-home fa-2x"></i></a>
 
       <a class="hiphop overlay-item" href="/pages/hiphop<%=URL_LANG%>"><span>
-        <%= espanol ? navSpan[0] : navEng[0] %>
-    </span>
+			<%= espanol ? navSpan[0] : navEng[0] %></span>
 		</a>
         <a class="dorian overlay-item" href="/pages/dorian<%=URL_LANG%>">
 			<span>
@@ -105,7 +98,7 @@
 		</a>
         <a class="harbor overlay-item" href="/pages/harbor<%=URL_LANG%>">
 			<span>
-        <%= espanol ? navSpan[2] : navEng[2] %>
+          <%= espanol ? navSpan[2] : navEng[2] %>
       </span>
 		</a>
         <a class="family overlay-item" href="/pages/family<%=URL_LANG%>">
@@ -128,7 +121,9 @@
            </a>
            <div class="mobile-icons">
 
+             <a class="trans-link"><span><%= espanol ? "EN":"ES" %></span></a>
 
+            <div class="nav-line"></div>
 
              <a id="fb" href="https://www.facebook.com/CubasNewWave/" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
              <a id="twit" href="https://www.twitter.com/CubasNewWave/" target="_blank"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
@@ -144,7 +139,14 @@
   </nav>
 </header>
 <script>
-var transLink = document.getElementById('trans-link');
-var espanol = <%= espanol ? "true":"false" %>;
-transLink.setAttribute("href", espanol ? currentPage : currentPage + '?lang=es');
+ var espanol = <%= espanol ? "true":"false" %>;
+$('.trans-link').attr("href", espanol ? currentPage : currentPage + '?lang=es' );
+
+//
+// var transLink = document.getElementsByClassName('trans-link');
+// var espanol = <%= espanol ? "true":"false" %>;
+// transLink.setAttribute("href", espanol ? currentPage : currentPage + '?lang=es');
+
+
+
 </script>

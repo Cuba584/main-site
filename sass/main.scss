@@ -302,7 +302,7 @@ nav {
  }
 
   .sm-icons {
-    display: inline-flex;
+    display: initial;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -409,23 +409,24 @@ nav {
     -webkit-transition: 5s opacity;
     // -moz-transition-duration:0s;
     a{
-      display:block;
       text-decoration:none;
       font-size:1.7em;
       font-weight: 300;
       line-height: 2.6em;
       padding: 0.5%;
+      display: flex;
+      align-items: center;
     }
     .mobile-home-link {
       color: black;
       position: absolute;
-      top: -31.5%;
+      top: -28.5%;
       right: 11%;
       font-size: 1.5em;
     }
     #closebtn{
       position:absolute;
-      top:-52.5%;
+      top:-46.5%;
       left: -5%;
       font-size:75px;
       color: black;
@@ -435,7 +436,8 @@ nav {
     .overlay-item{
       color:black;
       span{
-        font-size:1.2em;
+        font-size:1em;
+        display: inline-flex;
       }
     }
 
@@ -539,8 +541,8 @@ nav {
           }
           .mobile-icons {
             display: inline-flex;
-            left: 80%;
             position: relative;
+            align-items: center;
           }
           #trans-btn, #about-btn {
             font-size: .8em;
