@@ -50,7 +50,7 @@
   .money-slider p {
     font-size: 0.4em; }
   .money-slider img {
-    height: 20vh; }
+    height: 30vh; }
   .money-slider .money-slider-section {
     display: flex;
     flex-direction: row;
@@ -86,6 +86,8 @@
     display: inline-block;
     margin: 0 15px;
     height: 10px; }
+  .money-slider img {
+    height: 22vh; }
   #money-slider-wrapper {
     height: 50vh;
     overflow: visible; }

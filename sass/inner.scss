@@ -119,8 +119,17 @@
 
   }
 
-  .attribution::before{
-    content:'-';
+
+  .pull-quote .attribution::before{
+    content: '-';
+    margin-right: -4px;
+  }
+
+  .pull-quote .attribution{
+    display: inline;
+    font-weight: 300;
+    margin-left: 15px;
+    font-size: 0.9em;
   }
 
   .subhead{
@@ -185,7 +194,7 @@ iframe {
 }
 
 img.map {
-  margin: 6% 0 6% 0;
+  margin: 3% 0 3% 0;
 
 }
 
@@ -358,6 +367,10 @@ img.map {
 
     .pull-quote hr{
       height: 5px;
+    }
+
+    .pull-quote .attribution{
+      margin-left: 5px;
     }
   }
 
