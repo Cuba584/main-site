@@ -50,12 +50,3 @@ $(document).ready(function(){
 
 
 });
-
-function showReplay() {
-  $('#replay-btn').show();
-}
-
-function replayVideo() {
-  pageVideo.play();
-  $('#replay-btn').hide();
-}

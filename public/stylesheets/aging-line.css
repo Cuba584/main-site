@@ -11,6 +11,11 @@
   display: none;
   color: #696969; }
 
+.axis {
+  color: #696969;
+  font-size: 8pt;
+  text-align: center; }
+
 .xy {
   font-size: 8pt;
   margin-left: 3%;

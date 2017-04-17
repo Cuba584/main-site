@@ -1,5 +1,8 @@
 <% var URL_LANG = espanol ? "?lang=es":"";  %>
 
+<script>
+</script>
+
   <header id="nav-header">
    <nav class="nav-bar">
 
@@ -27,19 +30,34 @@
       <ul>
 
         <li id="nav-art"><a class="hiphop nav-title" href="/pages/hiphop<%=URL_LANG%>">
-			<%= espanol ? "Que se queme el arroz" : "Let the Rice Burn" %>
-			</a></li>
+
+			   <%= espanol ? navSpan[0] : navEng[0] %>
+			</a>
+      <!-- <span class="middle-dot">&#x2022;</span> -->
+
+</li>
         <li><a class="dorian nav-title" href="/pages/dorian<%=URL_LANG%>">
-			<%= espanol ? "Damian y Dorian" : "Damian y Dorian" %>
-			</a></li>
+          <%= espanol ? navSpan[1] : navEng[1] %>
+
+			</a>
+
+</li>
         <li><a class="harbor nav-title" href="/pages/harbor<%=URL_LANG%>">
-			<%= espanol ? "Cruzando el puerto" : "Across the Harbor" %>
-			</a></li>
+          <%= espanol ? navSpan[2] : navEng[2] %>
+
+			</a>
+
+</li>
         <li><a class="family nav-title" href="/pages/family<%=URL_LANG%>">
-			<%= espanol ? "Viva la familia" : "Viva la Familia" %>
-			</a></li>
+          <%= espanol ? navSpan[3] : navEng[3] %>
+
+			</a>
+
+</li>
         <li><a class="skate nav-title" href="/pages/skate<%=URL_LANG%>">
-			<%= espanol ? "Revolución sobre ruedas" : "Revolution on Wheels" %>
+          <%= espanol ? navSpan[4] : navEng[4] %>
+
+
 			</a></li>
 
 
@@ -61,7 +79,9 @@
             <div class="nav-line"></div>
 
             <div class="about-wrapper">
-                <a id="about-btn" class="about" href="/about">About</a>
+                <a id="about-btn" class="about" href="/about">
+                  <%= espanol ? navSpan[5] : navEng[5] %>
+                </a>
             </div>
 
           </div>
@@ -75,29 +95,40 @@
        <a href="/<%=URL_LANG%>" class="mobile-home-link"> <i class="fa fa-home fa-2x"></i></a>
 
       <a class="hiphop overlay-item" href="/pages/hiphop<%=URL_LANG%>"><span>
-			<%= espanol ? "Que se queme el arroz" : "Let the Rice Burn" %></span>
+        <%= espanol ? navSpan[0] : navEng[0] %>
+    </span>
 		</a>
         <a class="dorian overlay-item" href="/pages/dorian<%=URL_LANG%>">
-			<span><%= espanol ? "Damian y Dorian" : "Damian y Dorian" %></span>
+			<span>
+        <%= espanol ? navSpan[1] : navEng[1] %>
+      </span>
 		</a>
         <a class="harbor overlay-item" href="/pages/harbor<%=URL_LANG%>">
-			<span><%= espanol ? "Cruzando el puerto" : "Across the Harbor" %></span>
+			<span>
+        <%= espanol ? navSpan[2] : navEng[2] %>
+      </span>
 		</a>
         <a class="family overlay-item" href="/pages/family<%=URL_LANG%>">
-			<span><%= espanol ? "Viva la familia" : "Viva la Familia" %></span>
+			<span>
+        <%= espanol ? navSpan[3] : navEng[3] %>
+      </span>
 		</a>
         <a class="skate overlay-item" href="/pages/skate<%=URL_LANG%>">
-			<span><%= espanol ? "Revolución sobre ruedas" : "Revolution on Wheels" %></span>
+			<span>
+        <%= espanol ? navSpan[4] : navEng[4] %>
+      </span>
 		</a>
 
       <div class="nav-icons-mobile">
          <div class="sm-icons">
            <a class="about overlay-item" href="/about<%=URL_LANG%>">
-             <span><%= espanol ? "Sobre nosotros" : "About" %></span>
+             <span>
+               <%= espanol ? navSpan[5] : navEng[5] %>
+             </span>
            </a>
            <div class="mobile-icons">
 
-              
+
 
              <a id="fb" href="https://www.facebook.com/CubasNewWave/" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
              <a id="twit" href="https://www.twitter.com/CubasNewWave/" target="_blank"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
