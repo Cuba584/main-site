@@ -6,7 +6,7 @@ $(document).ready( function(){
   videoTop = $('#video-top').offset().top;
   videoHeight = $('#vimeo-wrap').outerHeight();
   $(window).scroll(function(event){
-    if (windowWidth > 1280) {
+    if (windowWidth > 1240) {
       goDark();
     }
   })
@@ -16,7 +16,7 @@ $( window ).resize(function() {
   windowWidth = $(window).width();
   videoTop = $('#video-top').offset().top;
   videoHeight = $('#vimeo-wrap').outerHeight();
-  if (windowWidth > 1280) {
+  if (windowWidth > 1240) {
     goDark();
   } else {
     $('body').css('background-color', '#fff')

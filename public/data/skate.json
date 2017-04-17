@@ -41,7 +41,7 @@
     },
     {
       "type": "text",
-      "value": "On a Sunday afternoon El Prado, the smooth, stone promenade that divides Old and Central Havana, is full of life. Painters line the walkway, dipping brushes into the bright yellows and blues that make their art Cuban in the eyes of tourists. Other craftsmen have set up tables and chairs in the middle of the promenade, where they carve small wooden statues. Parents and strangers crowd around as a 10-year-old boy lifts and twirls his dance partner – a small girl wearing flat ballet shoes, her hair in a tight bun. The air carries the timba beat – trombones, conga drums and the <span class='italic'>clap, clap, clap[a]</span> of the clave – along with the smell of the ocean toward the heart of the city."
+      "value": "On a Sunday afternoon El Prado, the smooth, stone promenade that divides Old and Central Havana, is full of life. Painters line the walkway, dipping brushes into the bright yellows and blues that make their art Cuban in the eyes of tourists. Other craftsmen have set up tables and chairs in the middle of the promenade, where they carve small wooden statues. Parents and strangers crowd around as a 10-year-old boy lifts and twirls his dance partner – a small girl wearing flat ballet shoes, her hair in a tight bun. The air carries the timba beat – trombones, conga drums and the <span class='italic'>clap, clap, clap</span> of the clave – along with the smell of the ocean toward the heart of the city."
     },
     {
       "type": "text",
@@ -116,7 +116,7 @@
     },
     {
       "type": "text",
-      "value": "To avoid the issue of slow internet connection, others turn to <span class='italic'>El Paquete**, or The Package. This compilation of over 1 terabyte of content – including international music, television series, soccer games, celebrity gossip, phone apps and YouTube videos of skating tricks – has been uploaded to various hard drives and circulated through Cuba. At a tent-like stand along a busy street, a salesman sits with his computer, ready to pass off a movie or an album to any local with a USB drive and a few **moneda nacional</span>, the local currency that’s worth roughly 25 to the U.S. dollar. Cubans can find skateboarding videos downloaded from YouTube in a digital folder labeled “Special Interests,” but most of them can’t spare the money (less than $3 USD for the entire terabyte of content). Instead, they circulate videos among themselves that have already been purchased or shared by foreign skaters visiting the area."
+      "value": "To avoid the issue of slow internet connection, others turn to <span class='italic'>El Paquete</span>, or The Package. This compilation of over 1 terabyte of content – including international music, television series, soccer games, celebrity gossip, phone apps and YouTube videos of skating tricks – has been uploaded to various hard drives and circulated through Cuba. At a tent-like stand along a busy street, a salesman sits with his computer, ready to pass off a movie or an album to any local with a USB drive and a few <span class='italic'>moneda nacional</span>, the local currency that’s worth roughly 25 to the U.S. dollar. Cubans can find skateboarding videos downloaded from YouTube in a digital folder labeled “Special Interests,” but most of them can’t spare the money (less than $3 USD for the entire terabyte of content). Instead, they circulate videos among themselves that have already been purchased or shared by foreign skaters visiting the area."
     },
     {
       "type": "interactive",
@@ -225,6 +225,5 @@
       "attribution": "Claire Collins",
       "caption": "Stephanie Borrero stands for a portrait by the Malecón in Havana, Cuba, on March 12, 2017."
     }
-  ],
-  "a": []
+  ]
 }
