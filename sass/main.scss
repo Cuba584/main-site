@@ -276,7 +276,7 @@ nav {
  }
 
   .sm-icons {
-    display: initial;
+    display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -596,7 +596,12 @@ nav {
           width:200px;
         }
       }
+      .sm-icons {
+        display: initial;
+      }
     }
+
+
 
 }
 

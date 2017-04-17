@@ -421,7 +421,7 @@ nav {
     font-size: 2em;
     margin-top: -11px; }
   nav .sm-icons {
-    display: initial;
+    display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -620,7 +620,9 @@ nav {
   nav .wrapper {
     width: 90vw; }
   nav .logo-wrapper #svg-logo {
-    width: 200px; } }
+    width: 200px; }
+  nav .sm-icons {
+    display: initial; } }
 
 @media screen and (max-width: 570px) and (min-width: 1020px) {
   .hiphop.change-mobile-bg {
