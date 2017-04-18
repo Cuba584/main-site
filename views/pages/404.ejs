@@ -2,13 +2,34 @@
 <html>
 <head>
   <% include ../partials/header.ejs %>
+
+  <style>
+
+  .error-page{
+    padding-top: 100px;
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  </style>
 </head>
 
 <body>
 
   <% include ../partials/nav.ejs %>
-  
-  <h1>Whoops, wrong link.</h1>
+
+  <div class="error-page">
+  <h1>¡Ay, Dios mio!</h1>
+  <h2>You've come to the wrong page!</h2>
+  <img id="404-image" style="width: 80vw; height: auto;" src="/assets/images/404page.png" alt="404"  />
+
+  </div>
+
+
+
 
 
 </body>
