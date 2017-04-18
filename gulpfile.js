@@ -80,6 +80,5 @@ gulp.task('watch', function() {
 gulp.task('default', ['connect', 'sass', 'watch']);
 
 var isEspanol = function(req){
-	//return req.query.lang && req.query.lang == "es";
-  return false;
+	return req.query.lang && req.query.lang == "es";
 };
