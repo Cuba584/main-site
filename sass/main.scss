@@ -56,10 +56,30 @@ further down on the page or in any of the other .SCSS files.
                   display: block;
                   height: 3px;
                   width: 100%;
+                  margin-left: auto;
+                  margin-right: auto;
                   background: #fff;
                   transition-property: none;
                 }
               }
+            }
+            @include media("screen", "<=sm"){
+              &.nav-title-footer{
+                    &.active-nav{
+                      &:after{
+                        width: 36%;
+                        margin-left: auto;
+                        margin-right: auto;
+                      }
+                    }
+                    &:hover{
+                      &:after{
+                        width: 36%;
+                        margin-left: auto;
+                        margin-right: auto;
+                      }
+                    }
+                  }
             }
             &.nav-title{
               // border-bottom:3px solid transparent;
@@ -396,7 +416,7 @@ nav {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   left: 0;
   top: 0;
   background-color:rgb(0,0,0);
@@ -466,6 +486,12 @@ nav {
     margin-top: 10px;
     text-align: center;
   }
+
+  .expand-collapse2{
+    text-align: left;
+    margin-top: 3%;
+    cursor: pointer;
+  }
 }
 
 .interactive-wrapper-intro{
@@ -487,6 +513,7 @@ nav {
       margin-left: auto;
       margin-right: auto;
       width: 50vw;
+      text-align:left;
     }
     .expand-collapse {
       text-align:left;
@@ -640,13 +667,11 @@ nav {
           width:200px;
         }
       }
-      .sm-icons {
-        display: initial;
-      }
+
     }
 
     .interactive-wrapper-intro p {
-      width: initial; 
+      width: initial;
     }
 
 
@@ -676,6 +701,10 @@ nav {
             margin: 0 0 5px 0;
           }
         }
+      }
+
+      .sm-icons {
+        display: initial;
       }
 
       .wrapper{

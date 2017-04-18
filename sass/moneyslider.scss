@@ -35,7 +35,6 @@
 
 #money-slider-wrapper > ul > li {
   width: 100%;
-  height: vh;
   color: black;
   font-size: 3rem;
 }
@@ -68,7 +67,7 @@
     font-size: 0.4em;
   }
   img{
-    height:30vh;
+    height:13vw;
   }
 
   .money-slider-section{
@@ -86,6 +85,13 @@
   }
 
 }
+
+  @include media("screen", "<=md", ">=sm"){
+    .money-slider h3{
+      font-size: 0.44em;
+    }
+  }
+
   @include media("screen", "<=sm"){
 
     #moneyslider {
@@ -138,11 +144,11 @@
       #money-slider-left-button {
         left:20px;
         margin:0;
-        z-index:1000;
+        z-index:8;
       }
       #money-slider-right-button {
         right:20px;
         margin:0;
-        z-index:1000;
+        z-index:8;
       }
     }
