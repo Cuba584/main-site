@@ -661,13 +661,10 @@ nav {
           width:200px;
         }
       }
-      .sm-icons {
-        display: initial;
-      }
     }
 
     .interactive-wrapper-intro p {
-      width: initial; 
+      width: initial;
     }
 
 
@@ -697,6 +694,10 @@ nav {
             margin: 0 0 5px 0;
           }
         }
+      }
+
+      .sm-icons {
+        display: initial;
       }
 
       .wrapper{
