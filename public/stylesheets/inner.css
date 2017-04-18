@@ -178,6 +178,8 @@ img.map {
     margin: 0; }
   .inner figcaption {
     padding-right: 0vw; }
+  .inner .vimeo-wrapper {
+    width: 100%; }
   #inner-title-box {
     width: 100%;
     margin-top: 0; }
