@@ -35,6 +35,16 @@ nav .wrapper {
 box-sizing: initial;
 }
 
+.mobile-only-text {
+  display: none;
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: .9em;
+  margin-bottom: 4px;
+}
+
 .center-wrapper{
   display:flex;
   justify-content: center;
@@ -157,6 +167,12 @@ a:hover, a:focus {
     display: block;
     margin-bottom: 12px;
     margin-top: 1.3em;
+    .visible-bio{
+      .bio {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
     &:hover .bio {
       visibility: visible;
       opacity: 1;
@@ -164,6 +180,7 @@ a:hover, a:focus {
     img {
       max-width: 303px;
       max-height: 202px;
+      cursor: pointer;
     }
   }
 }
@@ -248,6 +265,9 @@ a:hover, a:focus {
 }
 
 @include media("screen", "<=md") {
+  .mobile-only-text {
+    display: block;
+  }
   .team-nav {
     ul{
       flex-direction: column;
@@ -263,6 +283,7 @@ a:hover, a:focus {
   .mix {
     margin-left: auto;
     margin-right: auto;
+    // max-width: initial;
   }
   .about-container {
     text-align: center;
