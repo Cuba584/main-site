@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  
+
 
   $('<span class="country-ratio">31/100</span>').appendTo($('#cuba-title'));
   $('<span class="country-ratio">75/100</span>').appendTo($('#other-country-title'));
@@ -59,7 +59,7 @@ $(document).ready(function(){
     console.log(country);
     console.log(globalKeyedData);
     $('#other-country-title').empty();
-    $('<h3>' + country + '</h3>').appendTo($('#other-country-title'));
+    // $('<h3>' + country + '</h3>').appendTo($('#other-country-title'));
     $('<span class="country-ratio">' + globalKeyedData[country].internet_rounded + "/" + total + '</span>').appendTo($('#other-country-title'));
     $('#other-country').empty();
 

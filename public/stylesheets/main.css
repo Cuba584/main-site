@@ -702,7 +702,7 @@ nav {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   left: 0;
   top: 0;
   background-color: black;
@@ -759,6 +759,10 @@ nav {
     cursor: pointer;
     margin-top: 10px;
     text-align: center; }
+  .interactive-wrapper .expand-collapse2 {
+    text-align: left;
+    margin-top: 3%;
+    cursor: pointer; }
 
 .interactive-wrapper-intro {
   text-align: center; }

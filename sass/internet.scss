@@ -10,10 +10,14 @@
 
   h3, .country-ratio{
     font-size:1.75em;
-    margin-bottom:5pt;
+    margin:1.2em 0 5pt 0;
     width:400px;
     text-align:center;
   }
+
+  // select{
+  //   font-size:.8em;
+  // }
 
   #cuba-title, #other-country-title{
     text-align:center;
@@ -35,6 +39,10 @@
   #country-dropdown{
     width:200px;
     justify-content:center;
+    font-family:$montserrat;
+    font-size:1.75rem;
+    margin:1.2em 0 5pt 0;
+    background-color:white;
   }
 
   .people-cont{

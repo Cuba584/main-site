@@ -1,8 +1,10 @@
 @import '_include-media';
 
 img.wifi{
-  width: 100%;
+  // width: 100%;
   display: inline-block;
+  max-width:9141px;
+  max-height:1416px;
 }
 
 #internet-slider {
