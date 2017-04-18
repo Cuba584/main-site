@@ -8,8 +8,8 @@ var archieml = require('archieml');
 var parsed = archieml.load('key: value');
 var fs = require('fs');
 
-var navEnglish = ["The Real Queens", "Cutting Strings", "Across the Harbor", "Viva la Familia", "Revolution on Wheels", "About", "About the Project"];
-var navSpanish = ["Las reinas verdaderas", "Cortando lazos", "Cruzando el puerto", "Viva la familia", "Revolución sobre ruedas", "Sobre nosotros", "Sobre el proyecto"];
+var navEnglish = ["The Real Queens", "Cutting Edge", "Across the Harbor", "Viva la Familia", "Revolution on Wheels", "About", "About the Project"];
+var navSpanish = ["Las reinas verdaderas", "A la vanguardia", "Cruzando el puerto", "Viva la familia", "Revolución sobre ruedas", "Sobre nosotros", "Sobre el proyecto"];
 
 gulp.task('connect', function(){
 
@@ -47,6 +47,10 @@ gulp.task('connect', function(){
   		bodyData = JSON.parse(fs.readFileSync('./public/data/' + pageName + '.json'));
   	}
       res.render('pages/inner', {navEng: navEnglish, navSpan: navSpanish, internet: internetData, body: bodyData, page: '/pages/' + pageName, espanol: isEspanol(req)});
+  });
+
+  app.get('/*/*', function(request, response){
+    response.render('pages/404', {navEng: navEnglish, navSpan: navSpanish, page: '404', espanol: isEspanol(request)});
   });
 
   app.get('*', function(request, response){

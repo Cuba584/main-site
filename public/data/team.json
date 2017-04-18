@@ -101,9 +101,10 @@
         "rolespanish": "Periodista",
         "role": "Reporter",
         "roleid": "rep",
-        "bio": "Kiana is a junior studying Journalism with minors in History and Music, and you can often find her in another country. She thanks you for being here and is so excited to share Cuba's New Wave with you! ",
+        "bio": "Kiana is a junior studying journalism with minors in history and music, and you can often find her in another country. She thanks you for being here and is so excited to share Cuba's New Wave with you! ",
         "biospanish": "Kiana está en su tercer año estudiando periodismo y también historia y música. Frecuentamente puedes encontrarla en otro país. ¡Ella le agradece por estar aquí y está emocionada de compartir Cuba's New Wave contigo!",
         "charactercount": 215,
+        "portfolio": "https://www.linkedin.com/in/kiana-cole-31027ab0/ TY",
         "social": "http://www.twitter.com/kianamcole ",
         "handle": "kianamcole",
         "socialid": "twitter"
@@ -139,33 +140,6 @@
         "socialid": "instagram"
     },
     {
-        "fullname": "Kelly Creedon",
-        "lastname": "Creedon",
-        "firstname": "Kelly",
-        "rolespanish": "Instructor",
-        "role": "Coach",
-        "roleid": "coach",
-        "bio": "Kelly Creedon is an independent documentary filmmaker and adjunct lecturer at the UNC School of Media and Journalism where she received her MA in Visual Communication in 2015. ",
-        "biospanish": "Kelly Creedon es un cineasta documental independiente y profesor adjunto en UNC de La Escuela de Los Medios y Periodismo, donde recibió su maestría en comunicación visuales en 2015.",
-        "charactercount": 181,
-        "portfolio": "http://kellycreedon.com",
-        "social": "http://www.instagram.com/kelly_creedon",
-        "handle": "kelly_creedon",
-        "socialid": "instagram"
-    },
-    {
-        "fullname": "Paul Cuadros",
-        "lastname": "Cuadros",
-        "firstname": "Paul",
-        "rolespanish": "Instructor, Traductor",
-        "role": "Coach, Translator",
-        "roleid": "coach",
-        "bio": "Paul Cuadros is an associate professor in the School of Media and Journalism at UNC-Chapel Hill. He is an award-winning investigative reporter and author. ",
-        "biospanish": "Paul Cuadros es un profesor contratado en La Escuela de Los Medios y Periodismo en UNC-Chapel Hill. Él es un premiado reportero y autor investigativo.",
-        "charactercount": 150,
-        "portfolio": "http://mj.unc.edu/directory/faculty/paul-cuadros"
-    },
-    {
         "fullname": "Bridgette Cyr",
         "lastname": "Cyr",
         "firstname": "Bridgette",
@@ -193,18 +167,6 @@
         "portfolio": "http://www.kiradalman.com/"
     },
     {
-        "fullname": "Pat Davison",
-        "lastname": "Davison",
-        "firstname": "Pat",
-        "rolespanish": "Productor Ejecutivo/Instructor",
-        "role": "Executive Producer/Coach",
-        "roleid": "coach",
-        "bio": "Pat is the Julian Scheer Professor and Director of Documentary Projects for the school. He has led 25 student-team multimedia projects domestically and abroad that have been recognized by top industry awards.",
-        "biospanish": "Pat es el profesor Julian Scheer y el director de los proyectos documentales de la escuela. Ha conducido 25 equipos de estudiantes en proyectos multimedia en el país y en el extranjero que han sido reconocidos por los mejores premios de la industria.",
-        "charactercount": 250,
-        "portfolio": "http://mj.unc.edu/directory/faculty/patrick-davison"
-    },
-    {
         "fullname": "Viviane Feldman",
         "lastname": "Feldman",
         "firstname": "Viviane",
@@ -218,21 +180,6 @@
         "social": "http://twitter.com/vivianefeldman",
         "handle": "vivianefeldman",
         "socialid": "twitter"
-    },
-    {
-        "fullname": "Cristina M. Fletes",
-        "lastname": "Fletes",
-        "firstname": "Cristina",
-        "rolespanish": "Instructor",
-        "role": "Coach",
-        "roleid": "coach",
-        "bio": "Cristina is a Staff Photographer / Videographer at the St. Louis Post-Dispatch in St. Louis, Missouri. She was a part of the 2015 Pulitzer Prize for Breaking News Photography awarded to the P-D photo staff. ",
-        "biospanish": "Crisitina es una fotógrafa y videógrafa en el St. Louis Post-Dispatch en Missouri. Era una parte del Premio Pulitzer para Breaking News Fotografía, dado al personal de fotografía de Post-Dispatch.",
-        "charactercount": 196,
-        "portfolio": "http://www.cristinafletes.com",
-        "social": "http://www.instagram.com/cristinafletes",
-        "handle": "cristinafletes",
-        "socialid": "instagram"
     },
     {
         "fullname": "Robert Gourley",
@@ -280,21 +227,6 @@
         "socialid": "twitter"
     },
     {
-        "fullname": "Tamara Rice",
-        "lastname": "Rice",
-        "firstname": "Tamara",
-        "rolespanish": "Instructor",
-        "role": "Coach",
-        "roleid": "coach",
-        "bio": "Tamara has been teaching at the MJ school since 2015.  She is thrilled to be the design/dev coach for Cuba's New Wave.  When she's not teaching, she is busy running her own web dev shop and raising 3 crazy kids.",
-        "biospanish": "Tamara ha estado enseñando en La Escuela de Los Medios y Periodismo desde 2015. Ella está emocionada ser la instructora del equipo de diseñadores y desarrolladores para el proyecto. Cuando no está enseñando, está ocupada por su propia compañía de desarrollo web y también creciendo sus 3 hijos.",
-        "charactercount": 294,
-        "portfolio": "http://www.sliceinteractive.com",
-        "social": "http://www.instagram.com/tamarasrice",
-        "handle": "tamarasrice",
-        "socialid": "instagram"
-    },
-    {
         "fullname": "Blake Richardson",
         "lastname": "Richardson",
         "firstname": "Blake",
@@ -323,21 +255,6 @@
         "social": "http://www.twitter.com/thenatalieroush",
         "handle": "thenatalieroush",
         "socialid": "twitter"
-    },
-    {
-        "fullname": "Anna Clare Spelman",
-        "lastname": "Spelman",
-        "firstname": "Anna",
-        "rolespanish": "Instructor",
-        "role": "Coach",
-        "roleid": "coach",
-        "bio": "Anna is a documentary photographer and filmmaker finishing her MA in visual journalism at UNC. She has a passion for women's health issues and is working on her first feature film about a young transgender girl.",
-        "biospanish": "Anna es una fotógrafa y videógrafa documental y está acabando su maestría de periodismo visual en UNC. Tiene una pasión por los problemas de salud de las mujeres y está trabajando su primer largometraje de una joven transexual.",
-        "charactercount": 227,
-        "portfolio": "http://www.annaclarespelman.com ",
-        "social": "http://www.instagram.com/annaclarespelman ",
-        "handle": "annaclarespelman",
-        "socialid": "instagram"
     },
     {
         "fullname": "Danielle Wallace",
@@ -412,6 +329,92 @@
         "portfolio": "http://echozhou.com",
         "social": "http://www.instagram.com/echojo519",
         "handle": "echojo519",
+        "socialid": "instagram"
+    },
+    {
+        "fullname": "Paul Cuadros",
+        "lastname": "Cuadros",
+        "firstname": "Paul",
+        "rolespanish": "Instructor, Traductor",
+        "role": "Coach, Translator",
+        "roleid": "coach",
+        "bio": "Paul Cuadros is an associate professor in the School of Media and Journalism at UNC-Chapel Hill. He is an award-winning investigative reporter and author. ",
+        "biospanish": "Paul Cuadros es un profesor contratado en La Escuela de Los Medios y Periodismo en UNC-Chapel Hill. Él es un premiado reportero y autor investigativo.",
+        "charactercount": 150,
+        "portfolio": "http://mj.unc.edu/directory/faculty/paul-cuadros"
+    },
+    {
+        "fullname": "Anna Clare Spelman",
+        "lastname": "Spelman",
+        "firstname": "Anna",
+        "rolespanish": "Instructor",
+        "role": "Coach",
+        "roleid": "coach",
+        "bio": "Anna is a documentary photographer and filmmaker finishing her MA in visual journalism at UNC. She has a passion for women's health issues and is working on her first feature film about a young transgender girl.",
+        "biospanish": "Anna es una fotógrafa y videógrafa documental y está acabando su maestría de periodismo visual en UNC. Tiene una pasión por los problemas de salud de las mujeres y está trabajando su primer largometraje de una joven transexual.",
+        "charactercount": 227,
+        "portfolio": "http://www.annaclarespelman.com ",
+        "social": "http://www.instagram.com/annaclarespelman ",
+        "handle": "annaclarespelman",
+        "socialid": "instagram"
+    },
+    {
+        "fullname": "Cristina M. Fletes",
+        "lastname": "Fletes",
+        "firstname": "Cristina",
+        "rolespanish": "Instructor",
+        "role": "Coach",
+        "roleid": "coach",
+        "bio": "Cristina is a Staff Photographer / Videographer at the St. Louis Post-Dispatch in St. Louis, Missouri. She was a part of the 2015 Pulitzer Prize for Breaking News Photography awarded to the P-D photo staff. ",
+        "biospanish": "Crisitina es una fotógrafa y videógrafa en el St. Louis Post-Dispatch en Missouri. Era una parte del Premio Pulitzer para Breaking News Fotografía, dado al personal de fotografía de Post-Dispatch.",
+        "charactercount": 196,
+        "portfolio": "http://www.cristinafletes.com",
+        "social": "http://www.instagram.com/cristinafletes",
+        "handle": "cristinafletes",
+        "socialid": "instagram"
+    },
+    {
+        "fullname": "Kelly Creedon",
+        "lastname": "Creedon",
+        "firstname": "Kelly",
+        "rolespanish": "Instructor",
+        "role": "Coach",
+        "roleid": "coach",
+        "bio": "Kelly Creedon is an independent documentary filmmaker and adjunct lecturer at the UNC School of Media and Journalism where she received her MA in Visual Communication in 2015. ",
+        "biospanish": "Kelly Creedon es un cineasta documental independiente y profesor adjunto en UNC de La Escuela de Los Medios y Periodismo, donde recibió su maestría en comunicación visuales en 2015.",
+        "charactercount": 181,
+        "portfolio": "http://kellycreedon.com",
+        "social": "http://www.instagram.com/kelly_creedon",
+        "handle": "kelly_creedon",
+        "socialid": "instagram"
+    },
+    {
+        "fullname": "Tamara Rice",
+        "lastname": "Rice",
+        "firstname": "Tamara",
+        "rolespanish": "Instructor",
+        "role": "Design/Dev Coach",
+        "roleid": "coach",
+        "bio": "Tamara has been teaching at the MJ school since 2015.  She is thrilled to be the design/dev coach for Cuba's New Wave.  When she's not teaching, she is busy running her own web dev shop and raising three crazy kids.",
+        "biospanish": "Tamara ha estado enseñando en La Escuela de Los Medios y Periodismo desde 2015. Ella está emocionada ser la instructora del equipo de diseñadores y desarrolladores para el proyecto. Cuando no está enseñando, está ocupada por su propia compañía de desarrollo web y también creciendo sus 3 hijos.",
+        "charactercount": 294,
+        "portfolio": "http://www.sliceinteractive.com",
+        "social": "http://www.twitter.com/tamarasrice",
+        "handle": "tamarasrice",
+        "socialid": "twitter"
+    },
+    {
+        "fullname": "Pat Davison",
+        "lastname": "Davison",
+        "firstname": "Pat",
+        "rolespanish": "Productor Ejecutivo/Instructor",
+        "role": "Executive Producer/Coach",
+        "roleid": "coach",
+        "bio": "Pat is the Julian Scheer Professor and Director of Documentary Projects for the school. He has led 25 student-team multimedia projects domestically and abroad that have been recognized by top industry awards.",
+        "biospanish": "Pat es el profesor Julian Scheer y el director de los proyectos documentales de la escuela. Ha conducido 25 equipos de estudiantes en proyectos multimedia en el país y en el extranjero que han sido reconocidos por los mejores premios de la industria.",
+        "charactercount": 250,
+        "portfolio": "http://patdavison.com",
+        "handle": "patdavison",
         "socialid": "instagram"
     }
 ]
