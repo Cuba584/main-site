@@ -37,33 +37,7 @@
   "text": [
     {
       "type": "text",
-      "value": "Dorian Carbonell opens his scissors and peers between the two blades at the neon-yellow dyed head of hair of the eager young man in his barber chair. Dorian’s right eyebrow — coincidentally dyed the same bright hue — highlights his deep set, coffee brown eyes, which carefully ponder his next course of action. His eyebrows furrow and a flicker in his eye is just visible before, in an instant, the scissors close, tresses fall to the floor — and electricity surges through the room. Dorian is shaping his next masterpiece."
-    },
-    {
-      "type": "text",
-      "value": "Across the salon stands the other Carbonell brother sporting a far less eccentric style. Clean-shaven and tanned from the Havana sun, Damian Carbonell studies the screen of his phone instead of his brother’s chromatic creations. He leans over, boasting about the salon’s updated website accessible through Wi-Fi in the salon, a rare arrangement in Cuba where internet access usually requires a prepaid government card that can only be used in certain hotspots."
-    },
-    {
-      "type": "text",
-      "value": "The duo founded Salon Donde Dorian eight years ago — remodeling their parent’s home into a high-end bar, barber shop and beauty parlor all in one. Dorian is the artist; Damian is the administrator. Together they entered into a family business which they said aims to reshape the idea of masculine style and beauty in Cuba. Dorian has a reputation for using his hairstyling expertise to help the images of Cuba’s top recording artists come alive, and, as a result, Havana’s youth flock to his salon so that they, too, can rock a Donde Dorian original ‘do. But before Dorian could transform the looks of his clients, he said he needed to undergo a transformation of his own."
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/wifi-access.ejs"
-      }
-    },
-    {
-      "type": "text",
-      "value": "A self-proclaimed club rat, Dorian said he was very much like any typical Cuban guy in his 20s enjoying the party scene. In the 1990s, Cuba dealt with shortages after the country lost its main trade partner with the collapse of the Soviet Union. Dorian lived his life in ignorant bliss as a young model who secretly attended barber school classes at night as a hobby. His most prized possession, his German 1980s model MZ motorcycle that he rode through the streets of Havana’s hottest Vedado neighborhood."
-    },
-    {
-      "type": "text",
-      "value": "Dorian and Damian founded a private business out of their parents’ home in 2009. Two years later, the Cuban government enacted a new policy called Los Lineamientos para la Política Económica y Social that lists 313 guidelines for allowing small and medium-sized businesses in Cuba to be privately operated."
-    },
-    {
-      "type": "text",
-      "value": "As a result, some state-owned barber shops were allowed to be privately run by staff, giving them more agency to make managerial decisions. Dorian and Damian were granted a license to operate Salon Donde Dorian out of their private residence, but now that their business is trying to expand, they face new challenges in a country that still very much limits entrepreneurship and internet access. As the Cuban government loosens its hold, allowing its citizens to go into business for themselves, pursuing a Cuban Dream still proves difficult in a nation that limits opportunity and prides itself on the equal distribution of wealth."
+      "value": "Dorian Carbonell opens his scissors and peers between the two blades at the neon-yellow dyed hair of the eager young man in his barber chair. Dorian’s right eyebrow — coincidentally dyed the same bright hue — highlights his deep set, coffee brown eyes, which carefully ponder his next course of action. His eyebrows furrow and a flicker in his eye is just visible before, in an instant, the scissors close, tresses fall to the floor — and electricity surges through the room. Dorian is shaping his next masterpiece."
     },
     {
       "type": "video",
@@ -73,6 +47,32 @@
       }
     },
     {
+      "type": "text",
+      "value": "Across the salon stands the other Carbonell brother sporting a far less eccentric style. Clean-shaven and tanned from the Havana sun, Damian Carbonell studies the screen of his phone instead of his brother’s chromatic creations. He leans over, boasting about the salon’s updated website accessible through Wi-Fi in the salon, a rare arrangement in Cuba where internet access usually requires a prepaid government card that can only be used in certain hotspots."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/wifi-access.ejs"
+      }
+    },
+    {
+      "type": "text",
+      "value": "The duo founded Salon Donde Dorian eight years ago — remodeling their parent’s home into a high-end bar, barber shop and beauty parlor all in one. Dorian is the artist; Damian is the administrator. Together they entered into a family business which they said aims to reshape the idea of masculine style and beauty in Cuba. Dorian has a reputation for using his hairstyling expertise to help the images of Cuba’s top recording artists come alive, and, as a result, Havana’s youth flock to his salon so that they, too, can rock a Donde Dorian original ‘do. But before Dorian could transform the looks of his clients, he said he needed to undergo a transformation of his own."
+    },
+    {
+      "type": "text",
+      "value": "A self-proclaimed club rat, Dorian said he was very much like any typical Cuban guy in his 20s enjoying the party scene. In the 1990s, Cuba dealt with shortages after the country lost its main trade partner with the collapse of the Soviet Union. Dorian lived his life in ignorant bliss as a young model who secretly attended barber school classes at night as a hobby. His most prized possession, his German 1980s model MZ motorcycle that he rode through the streets of Havana’s hottest Vedado neighborhood."
+    },
+    {
+      "type": "text",
+      "value": "Dorian and Damian founded a private business out of their parents’ home in 2009. Two years later, the Cuban government enacted a new policy called <span class='italic'>Los Lineamientos para la Política Económica y Social</span> that lists 313 guidelines for allowing small and medium-sized businesses in Cuba to be privately operated."
+    },
+    {
+      "type": "text",
+      "value": "As a result, some state-owned barber shops were allowed to be privately run by staff, giving them more agency to make managerial decisions. Dorian and Damian were granted a license to operate Salon Donde Dorian out of their private residence, but now that their business is trying to expand, they face new challenges in a country that still very much limits entrepreneurship and internet access. As the Cuban government loosens its hold, allowing its citizens to go into business for themselves, pursuing a Cuban Dream still proves difficult in a nation that limits opportunity and prides itself on the equal distribution of wealth."
+    },
+    {
       "type": "subhead",
       "value": {
         "text": "Overcoming creative obstacles"
@@ -80,21 +80,15 @@
     },
     {
       "type": "text",
-      "value": "High above the bustling city streets crowded with classic American build cars from the 1950s and ‘60s, Dorian and a group of young models gather in a cluster on the rooftop of an apartment complex. Instead of breathing in the exhaust that circulates on the seaside motorway called <span class='italic'>El Malecón</span> below them, these young men and women cough through a similar cloud of smoke coming from cans of hairspray. Dorian is feverishly adding finishing touches to the designs he so deliberately molded at the salon as photographers set up their equipment to begin the big photoshoot."
+      "value": "High above the bustling city streets crowded with classic American built cars from the 1950s and ‘60s, Dorian and a group of young models gather in a cluster on the rooftop of an apartment complex. Instead of breathing in the exhaust that circulates on the seaside motorway called <span class='italic'>El Malecón</span> below them, these young people cough through a similar cloud of smoke coming from cans of hairspray. Dorian is feverishly adding finishing touches to the designs he so deliberately molded at the salon as photographers set up their equipment to begin the big photoshoot."
     },
     {
       "type": "text",
-      "value": "A young man with fluorescent pink strands cut into a punk rock chop smolders in front of reflective disks that cast the light just right across his jawline. The goal? To capture a shot that brings young men and women clamoring to Donde Dorian’s door. In Cuba, the government bans public advertising. Because restrictions prevent private businesses from running ads in the newspaper or renting billboard space, Donde Dorian has chosen to create new collections that can be posted to social media as a part of their strategy to bring in new customers."
+      "value": "A young man with fluorescent pink strands cut into a punk rock chop smolders in front of reflective disks that cast the light right across his jawline. The goal? To capture a shot that brings young people clamoring to Donde Dorian’s door. In Cuba, the government bans public advertising. Because restrictions prevent private businesses from running ads in the newspaper or renting billboard space, Donde Dorian has chosen to create new collections that can be posted to social media as a part of their strategy to bring in new customers."
     },
     {
       "type": "text",
-      "value": "Damian stands like a wall flower glued to the perimeter of the rooftop snapping shots on his phone camera, some of the photoshoot and some of the sprawling city below. He checks his phone again but this time for missed calls from different fashion designers Donde Dorian is collaborating with on their new social media campaign. Donde Dorian partners with other businesses facing limits on expansion. Their latest collection launched on March 25."
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/internet.ejs"
-      }
+      "value": "Damian stands like a wall flower glued to the perimeter of the rooftop snapping shots on his phone camera, some of the photo shoot and some of the sprawling city below. He checks his phone again but this time for missed calls from different fashion designers Donde Dorian is collaborating with on their new social media campaign. Donde Dorian partners with other businesses facing limits on expansion. Their latest collection launched on March 25."
     },
     {
       "type": "text",
@@ -111,6 +105,12 @@
     {
       "type": "text",
       "value": "Dorian said limited access to the internet in Cuba has restricted his creativity in the past, but he’s working with his brother to overcome the challenges it presents in advertising and developing their business."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/internet.ejs"
+      }
     },
     {
       "type": "text",
@@ -140,15 +140,19 @@
     },
     {
       "type": "text",
-      "value": "Damian sips his cafecito while thumbing through a small and slightly tattered photo album in the front bar at the salon. Just above his head, Dorian appears with one of the music artists he styles in a video being played from the television screen hanging on the wall above the bar for all incoming customers to view. Damian speaks about the past captured in the photos of the album and about his hopes for the future as his brother gains more views online. He’s particularly proud of one old photograph of his great grandfather and his grandfather standing in front of their family-owned cafeteria in pre-revolutionary Cuba."
+      "value": "Damian sips his <span class='italic'>cafecito</span> while thumbing through a small and slightly tattered photo album in the front bar at the salon. Just above his head, Dorian appears with one of the music artists he styles in a video being played from the television screen hanging on the wall above the bar for all incoming customers to view. Damian speaks about the past captured in the photos of the album and about his hopes for the future as his brother gains more views online. He’s particularly proud of one old photograph of his great-grandfather and his grandfather standing in front of their family-owned cafeteria in pre-revolutionary Cuba."
     },
     {
       "type": "text",
-      "value": "“We were born in a humble house, in a humble neighborhood,” Damian said. “But before the Revolution, the ‘50s, our family were owners of a type of business called “de Barrio.” It was a cafeteria named El Buen Gusto.”"
+      "value": "“We were born in a humble house, in a humble neighborhood,” Damian said. “But before the Revolution, the ‘50s, our family were owners of a type of business called ‘de Barrio.’ It was a cafeteria named El Buen Gusto.”"
     },
     {
       "type": "text",
       "value": "The family lost their business after the Revolution triumphed and privately owned businesses were nationalized. But Damian said his family has always had an entrepreneurial spirit, something he’s determined to keep alive with the expansion of Donde Dorian."
+    },
+    {
+      "type": "text",
+      "value": "“My mom and my grandma who are alive, luckily, happily, have that spirit of entrepreneurship that nobody can take from them, that will be buried with them — and the same with us.”"
     },
     {
       "type": "slider",
@@ -156,15 +160,11 @@
     },
     {
       "type": "text",
-      "value": "“My mom and my grandma who are alive, luckily, happily, have that spirit of entrepreneurship that nobody can take from them, that will be buried with them — and the same with us.”"
+      "value": "The two brothers want to use Salon Donde Dorian as more than place to get a haircut. They also have a social mission to reawaken this entrepreneurial spirit in Cuban youth and enable young people to develop a pride in their unique style. As the salon is planning an expansion to a new location, the brothers are also planning to transform the original salon in their parents’ home into a school to train up-and-coming hairdressers in Cuba according to Donde Dorian’s practices and principles."
     },
     {
       "type": "text",
-      "value": "The two brothers want to use Salon Donde Dorian as more than place to get a haircut. They also have a social mission to reawaken this entrepreneurial spirit in Cuban youth and enable young people to develop a pride in their unique style. As the salon is planning an expansion to a new location, the brothers are also planning to transform the original salon in their parent’s home into a school to train up-and-coming hairdressers in Cuba according to Donde Dorian’s practices and principles."
-    },
-    {
-      "type": "text",
-      "value": "“I’m going to try to make a welcoming place, a place where they cut you hair well and they guide you and they know what they’re doing,” said Dorian. “It’s to have the freedom to tell them, ‘Cut my hair how you think it’ll look good on me.’ That didn’t exist in Cuba. In Cuba, the barber would say, ‘what do you want to do?’ And then like that the client had to guide the barber.”"
+      "value": "“I’m going to try to make a welcoming place, a place where they cut your hair well and they guide you and they know what they’re doing,” said Dorian. “It’s to have the freedom to tell them, ‘cut my hair how you think it’ll look good on me.’ That didn’t exist in Cuba. In Cuba, the barber would say, ‘what do you want to do?’ And then like that the client had to guide the barber.”"
     },
     {
       "type": "pullquote",
@@ -175,11 +175,11 @@
     },
     {
       "type": "text",
-      "value": "It’s about developing an expertise in the craft of hairdressing. Dorian reminisces about his days attending barber school and said his line is also meant to start new conversations within the Cuban culture about masculinity. When he first became a hairdresser, Dorian was ashamed of it because it wasn’t something men did, but haircutting and fashion always caught his attention when he attended University. And reimagining style for men in Cuba was a challenge after barber shops always had been state owned. Before competition allowed for high-end salons to enter the market, Dorian said he remembers a lot of push back when he wanted to charge more than the state-set prices."
+      "value": "Dorian reminisces about his days attending barber school and said his line is also meant to start new conversations within the Cuban culture about masculinity. When he first became a hairdresser, Dorian was ashamed because it wasn’t something men did, but haircutting and fashion always caught his attention when he attended university. And reimagining style for men in Cuba was a challenge because barber shops had always been state-owned. Before competition allowed for high-end salons to enter the market, Dorian said he remembers a lot of push back when he wanted to charge more than the state-set prices."
     },
     {
       "type": "text",
-      "value": "People would tell him, “You’re being crazy Dorian! How are you going to charge that?”"
+      "value": "People would tell him, “You’re being crazy, Dorian! How are you going to charge that?”"
     },
     {
       "type": "text",
@@ -193,7 +193,7 @@
     },
     {
       "type": "text",
-      "value": "The sun casts a shadow through the rod iron gate as sunset approaches, and the door squeaks close as Damian locks up the construction site. The fresh layer of concrete from the salon’s entryway contrasts abruptly with the pavement from the neighbor’s weathered sidewalk. He parts ways with a woman, a banker who came to inspect the property, with the customary kiss to the cheek and strategically steps over the broken cement into the passenger side of Dorian’s Peugeot."
+      "value": "The sun casts a shadow through the rod iron gate as sunset approaches, and the door squeaks closed as Damian locks up the construction site. The fresh layer of concrete from the salon’s entryway contrasts abruptly with the pavement from the neighbor’s weathered sidewalk. He parts ways with a woman, a banker who came to inspect the property, with the customary kiss to the cheek and strategically steps over the broken cement into the passenger side of Dorian’s Peugeot."
     },
     {
       "type": "text",
@@ -217,7 +217,7 @@
     },
     {
       "type": "text",
-      "value": "“He’s my inspiration to keep fighting for a tomorrow so that when he grows up and reasons a little more, he’ll say my dad is big and feels proud of me,” said Dorian."
+      "value": "“He’s my inspiration to keep fighting for a tomorrow so that when he grows up and reasons a little more, he’ll say, ‘my dad is big’ and feel proud of me,” said Dorian."
     }
   ],
   "slider-images": [
@@ -237,50 +237,49 @@
       "src": "dorian_sl_03.jpg",
       "alt": "portrait of Dorian",
       "attribution": "Emily Yue",
-      "caption": "Dorian Carbonell has been a natural performer since childhood. As a highly esteemed hair stylist and image consultant, he manages many of the local reggaeton musicians in Havana."
+      "caption": "As a hair stylist and image consultant, Dorian Carbonell manages many of the local reggaetón musicians in Havana."
     },
     {
       "src": "dorian_sl_05.jpg",
       "alt": "A male model with bright pink hair poses with a female model sporting pink highlights on a rooftop overlooking the city.",
       "attribution": "Darian Woehr",
-      "caption": "Models pose on a rooftop overlooking the Malecón during a photo shoot to publicize the Donde Dorian’s spring collection of styles."
+      "caption": "Models pose on a rooftop overlooking the Malecón during a photo shoot to publicize the Donde Dorian spring style collection."
     },
     {
       "src": "dorian_sl_06.jpg",
       "alt": "The bustling side of Havana that sits along the Malecón.",
       "attribution": "Ben Aijian",
-      "caption": "The Malecón is a road that follows the Northern coast of Cuba immediately adjacent to the ocean for much of the length of the island."
+      "caption": "The Malecón is a road that follows the northern coast of Cuba immediately adjacent to the ocean for much of the length of the island."
     },
     {
       "src": "dorian_sl_07.jpg",
       "alt": "Vintage cars line the streets that lead to the ocean.",
       "attribution": "Ben Aijian",
-      "caption": "Havana’s streets are full of 50s era cars that have been converted into taxis that both tourists and locals use to get around the city."
+      "caption": "Havana’s streets are full of ‘50s era cars that have been converted into taxis that both tourists and locals use to get around the city."
     },
     {
       "src": "dorian_sl_08.jpg",
       "alt": "Dorian’s toddler son, Dorian Jr., sits inside the family’s small car while waiting for his father to drive him home.",
       "attribution": "Darian Woehr",
-      "caption": "Dorian’s young son, Dorian Jr., is his father’s inspiration."
+      "caption": "Dorian’s son, Dorian Jr., sits inside the family’s small car while waiting for his father to drive him home."
     },
     {
       "src": "dorian_sl_09.jpg",
       "alt": "A young boy peeks his head over the top of a dilapidated wall. “Viva los CDR” is spray-painted on the wall beneath his splayed arms.",
       "attribution": "Darian Woehr",
-      "caption": "Children often play in the streets of Havana while keeping a keen eye for approaching cars and motorcycles. The CDR are neighborhood watch communities that report on counter revolutionary activities in Havana."
+      "caption": "Children often play in the streets of Havana while keeping a keen eye for approaching cars and motorcycles. The Committee for the Defense of the Revolution (CDR) are neighborhood watch communities that report on counter-revolutionary activities in Havana."
     },
     {
       "src": "dorian_sl_10.jpg",
-      "alt": "An older male customer receives a haircut at Donde Dorian.",
+      "alt": "A customer receives a haircut at Donde Dorian.",
       "attribution": "Emily Yue",
-      "caption": "It’s not just the young and beautiful who come to Dorian to have their hair cut. While the salon was initially opened to cater to men’s hair, Dorian has expressed interest in appealing to a wider range of clientele in the future."
+      "caption": "Traditionally, there were no salons that catered specifically to men, only state-owned barber shops. Dorian said he wanted to elevate the haircut experience for all his clients."
     },
     {
       "src": "dorian_sl_12.jpg",
       "alt": "Blankets of orange and gray clouds drift above the ocean at sunset.",
       "attribution": "Ben Aijian",
-      "caption": "Every night, tourists and locals alike gather on the Malecón to watch the sun go down."
+      "caption": "The sun sets over the Malecón, a common spot for tourists and locals to gather."
     }
-  ],
-  "a": []
+  ]
 }

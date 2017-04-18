@@ -31,7 +31,7 @@
   "text": [
     {
       "type": "text",
-      "value": "It’s 11:37 p.m. — did he read that right? Orlando Ochoa Méndez is exhausted, hunched over with friends in the middle of the dance floor, but his tired brown eyes flicker to life when he realizes how late it is. He says frantic goodbyes, quick kisses on both cheeks flying through the air as he bolts out of Fábrica de Arte Cubano, a warehouse now transformed into one of Havana’s most well-known nightclubs. He scans the street for a taxi, his dark skin no longer livened by blankets of blue and green light from inside the club — everything feels dim now that he’s competing with the clock. Orlando chooses a classic Cuban ride, a baby blue Chevy born in 1956, somehow finding the driver who’s an old friend — or maybe they’re meeting for the first time, with Orlando you’re never quite sure.  “Llevame a la lanchita de Regla,” he tells the driver."
+      "value": "It’s 11:37 p.m. — did he read that right? Orlando Ochoa Méndez is exhausted, hunched over with friends in the middle of the dance floor, but his tired brown eyes flicker to life when he realizes how late it is. He says frantic goodbyes, quick kisses on both cheeks flying through the air as he bolts out of Fábrica de Arte Cubano, a warehouse now transformed into one of Havana’s most well-known nightclubs. He scans the street for a taxi, his dark skin no longer livened by blankets of blue and green light from inside the club — everything feels dim now that he’s competing with the clock. Orlando chooses a classic Cuban ride, a baby blue Chevy born in 1956, somehow finding the driver who’s an old friend — or maybe they’re meeting for the first time, with Orlando you’re never quite sure. “Llevame a la lanchita de Regla,” he tells the driver."
     },
     {
       "type": "text",
@@ -40,7 +40,7 @@
     {
       "type": "video",
       "value": {
-        "id": "200984993",
+        "id": "211785431",
         "is360": "false"
       }
     },
@@ -67,16 +67,20 @@
       "value": "But on the other side of the harbor, it’s different. And when Orlando says goodnight to Havana every evening as he retreats into Regla, he says goodnight to a part of himself he won’t see again until morning."
     },
     {
+      "type": "video",
+      "value": {
+        "title": "Explore in 360: Orlando’s Commute",
+        "id": "213020533",
+        "is360": "true"
+      }
+    },
+    {
       "type": "text",
       "value": "When Orlando reaches Regla, there’s something about him that feels out of place, a part of him that his job in Havana has altered. Maybe it’s the collared shirts — he buys all his clothes in America, he says — or his enigmatic energy that feels foreign in Regla’s sleepy streets, or the fact that, unlike some of his neighbors, Orlando could afford to take a taxi around the harbor back home if he were to miss the boat."
     },
     {
       "type": "text",
       "value": "“I have a feeling that people know who I am in my neighborhood, and that’s kind of weird,” he says. “But I don’t always know their name.”"
-    },
-    {
-      "type": "slider",
-      "value": {}
     },
     {
       "type": "text",
@@ -105,20 +109,16 @@
       "value": "Though former President Obama didn’t detail the logistics of how this relationship would change in his address, both countries knew that, for the first time many of them could remember, there would be a notion of normalcy between the two nations. Now, Orlando’s job is entirely dependent on the success of an industry in Havana that seems to be broadening with each passing day as a result of those fifteen words: Tourism."
     },
     {
-      "type": "video",
-      "value": {
-        "title": "Explore in 360: Orlando’s Commute",
-        "id": "213020533",
-        "is360": "true"
-      }
-    },
-    {
       "type": "text",
       "value": "Tourism existed while the U.S. and Cuba were estranged — Canadians, Spaniards and Italians are some of the largest sections of visitors — but now, it’s an industry that is rapidly changing as airlines shuttle in more Americans. In 2015, the Cuban government reported 145,000 Americans traveled to Cuba — a 79 percent increase from the year before. Tourism from visitors all over the world has been on the rise, too — over two million travelers visited Cuba during the first half of 2016, an 11.7 percent increase from 2015, according to the National Office of Statistics and Information."
     },
     {
       "type": "text",
       "value": "Though the door allowing Americans into Cuba continues to widen, it hasn’t completely opened — in order to enter the country, U.S. citizens must be going for one of 12 specific reasons issued by the Office of Foreign Assets Control (OFAC), an office of the U.S. Department of Treasury that enforces economic and trade sanctions. These reasons include family visits, journalistic activity, educational activity and humanitarian projects, but according to the treasury department, a traveler is not allowed to visit Cuba for the pure purpose of tourism."
+    },
+    {
+      "type": "slider",
+      "value": {}
     },
     {
       "type": "text",
@@ -185,6 +185,13 @@
       "value": "Music was — is — his Bible, he says. It’s how he learned a language almost no one else around him can comprehensively understand; it’s what fueled him through his two mandatory years of military service in the Cuban army. American hip-hop was an escape throughout his tough upbringing, but it was also a way to expand his mind, to grasp at a country just 90 miles away that sometimes felt like another world."
     },
     {
+      "type": "pullquote",
+      "value": {
+        "text": "“People don’t even recognize me — they think I’m from somewhere else.”",
+        "attribution": "Orlando Méndez"
+      }
+    },
+    {
       "type": "text",
       "value": "That was nearly a decade ago. Orlando has been fluent in English for a while now, even taking his love of hip-hop to the next level by performing around Havana, though he’s too busy working to do that these days. English is an asset that, while necessary for his job, is one of the factors that muddles his Cuban identity. That annoying thing that happens when you’re clearly a tourist walking the streets of Havana, when people pester you to buy their cigars or ride in their taxis — they do it to Orlando, too. He says people don’t even recognize him, “They think I’m from somewhere else,” he says. He likes to turn it into a game, talking with waiters in the most American accent possible to see if they believe him. They always do."
     },
@@ -195,13 +202,6 @@
     {
       "type": "text",
       "value": "Orlando doesn’t spend too much time worrying about how people perceive him, though — he’s too busy, and it shows. He’s always yawning, even in the middle of the day, with watery eyes that blink in slow motion. Even before he accepted the offer as a full-time tour coordinator, Orlando knew it would be more work than he’d ever done before. He starts most mornings before the sun, and he ends most nights squirming his way through his apartment so he won’t wake his parents, feeling his way around in the dark after another double-digit-hour workday."
-    },
-    {
-      "type": "pullquote",
-      "value": {
-        "text": "“People don’t even recognize me — they think I’m from somewhere else.”",
-        "attribution": "Orlando Méndez"
-      }
     },
     {
       "type": "text",
@@ -273,74 +273,73 @@
       "src": "harbor_sl_01.jpg",
       "alt": "Child riding ferry in Havana",
       "attribution": "Robert Gourley",
-      "caption": "Yosue Soto rides a ferry from Havana to school in Regla, Cuba, as the Sun rises over the harbor on March 13, 2017."
+      "caption": "Yosue Soto rides a ferry from Havana to school in Regla, Cuba, as the sun rises over the harbor."
     },
     {
       "src": "harbor_sl_02.jpg",
       "alt": "The old ferry station in Regla",
       "attribution": "Robert Gourley",
-      "caption": "The old ferry station in Regla, Cuba, in the foreground with Old Havana and a cruise ship in the distance. The morning ferry carries passengers to Regla on March 17, 2017."
+      "caption": "The old ferry station in Regla in the foreground with Old Havana and a cruise ship in the distance. The morning ferry carries passengers to Regla."
     },
     {
       "src": "harbor_sl_03.jpg",
       "alt": "Fisherman casting net in Havana",
       "attribution": "Veasey Conway",
-      "caption": "A fisherman casts a net into Havana Harbor on March 10, 2017, in the Regla district of Havana, Cuba."
+      "caption": "A fisherman casts a net into Havana Harbor in Regla."
     },
     {
       "src": "harbor_sl_04.jpg",
       "alt": "Flowers in Havana’s harbor",
       "attribution": "Robert Gourley",
-      "caption": "Flowers thrown into the water during a Santeria ritual float in the harbor on March 10th, 2017, with Old Havana in the distance."
+      "caption": "Flowers thrown into the water during a Santeria ritual float in the harbor with Old Havana in the distance."
     },
     {
       "src": "harbor_sl_05.jpg",
       "alt": "Neighborhood of Regla, Havana, Cuba",
       "attribution": "Veasey Conway",
-      "caption": "The neighborhood of Regla is seen March 10, 2017, from Lenin Hill."
+      "caption": "The neighborhood of Regla is seen from Lenin Hill."
     },
     {
       "src": "harbor_sl_06.jpg",
       "alt": "Girl skips with family in Regla, Havana, Cuba",
       "attribution": "Veasey Conway",
-      "caption": "A young girl skips along with her parents after stepping off the ferry, March 17, 2017, in the Regla district of Havana, Cuba."
+      "caption": "A young girl skips along with her parents after stepping off the ferry in Regla."
     },
     {
       "src": "harbor_sl_07.jpg",
       "alt": "Kids play soccer on the streets of Regla",
       "attribution": "Robert Gourley",
-      "caption": "Young men play soccer in a parking lot on Lenin Hill in Regla, Cuba, on March 10th, 2017."
+      "caption": "Young men play soccer in a parking lot on Lenin Hill in Regla."
     },
     {
       "src": "harbor_sl_08.jpg",
       "alt": "Cuban boys use payphones in Regla, Havana, Cuba",
       "attribution": "Veasey Conway",
-      "caption": "Cuban boys use payphones March 10, 2017, in the Regla district of Havana, Cuba."
+      "caption": "Cuban boys use payphones in Regla."
     },
     {
       "src": "harbor_sl_09.jpg",
       "alt": "Horse grazes near Lenin Hill in Regla, Havana, Cuba",
       "attribution": "Veasey Conway",
-      "caption": "A horse grazes near Lenin Hill, March 10, 2017, in the Regla district of Havana, Cuba."
+      "caption": "A horse grazes near Lenin Hill."
     },
     {
       "src": "harbor_sl_10.jpg",
       "alt": "Boy rests on a bust of Vladimir Lenin in Regla, Havana, Cuba",
       "attribution": "Veasey Conway",
-      "caption": "Angel rests on a bust of Vladimir Lenin during a pickup soccer game, March 10, 2017, in the Regla district of Havana, Cuba."
+      "caption": "Angel rests on a bust of Vladimir Lenin during a pickup soccer game in Regla."
     },
     {
       "src": "harbor_sl_11.jpg",
       "alt": "Man rides morning ferry to Regla, Cuba",
       "attribution": "Robert Gourley",
-      "caption": "A man rides the early morning ferry to Regla, Cuba, on March 15th, 2015."
+      "caption": "A man rides the early morning ferry to Regla."
     },
     {
       "src": "harbor_sl_12.jpg",
       "alt": "Long exposure of Regla neighborhood at night",
       "attribution": "Robert Gourley",
-      "caption": "A bus drives through a quiet neighborhood in Regla, Cuba, at night on March 16, 2017."
+      "caption": "A bus drives through a quiet neighborhood in Regla."
     }
-  ],
-  "a": []
+  ]
 }
