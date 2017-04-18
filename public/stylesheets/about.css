@@ -88,7 +88,7 @@ a:hover, a:focus {
   #team-photos .team-info {
     display: block;
     margin: 0px auto;
-    max-width: 250px; }
+    max-width: 303px; }
     #team-photos .team-info p {
       margin: 0px;
       font-family: "Roboto", sans-serif;
@@ -119,14 +119,14 @@ a:hover, a:focus {
     position: absolute;
     line-height: 1.5em;
     vertical-align: middle;
-    width: 255px;
-    height: 170px;
+    width: 303px;
+    height: 202px;
     background: rgba(255, 255, 255, 0.85);
     color: #000;
     visibility: hidden;
     opacity: 0;
-    padding: 17px 20px;
-    font-size: .85em;
+    padding: 20px 20px;
+    font-size: .9em;
     font-family: "Roboto", sans-serif;
     -webkit-transition: visibility opacity 0.2s;
     transition: visibility opacity 0.2s;
@@ -134,7 +134,7 @@ a:hover, a:focus {
   #team-photos .team-image-box {
     display: block;
     margin: 0px auto;
-    max-width: 250px; }
+    max-width: 303px; }
     #team-photos .team-image-box:hover {
       cursor: default; }
   #team-photos .mix {
@@ -146,8 +146,8 @@ a:hover, a:focus {
       visibility: visible;
       opacity: 1; }
     #team-photos .mix img {
-      max-width: 250px;
-      max-height: 225px; }
+      max-width: 303px;
+      max-height: 202px; }
 
 .about-container {
   text-align: center;
