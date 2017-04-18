@@ -203,6 +203,18 @@ i.green-fold {
   line-height: 1.6em;
   text-align: left; }
 
+.sport-brand {
+  padding: 0 5px; }
+
+.series-brand {
+  padding: 0 10px 10px 0; }
+
+.apps-brand {
+  padding: 0 10px 10px 0; }
+
+.music-brand {
+  padding: 0 0 10px 0; }
+
 .info-window p {
   font-family: "Roboto", sans-serif;
   font-size: 2.6em;
@@ -215,6 +227,13 @@ i.green-fold {
   border: none;
   width: 70px;
   margin: 0 0 8px 0; }
+
+#info-cat-bar {
+  height: 4px;
+  background: #484848;
+  border: none;
+  width: 70px;
+  margin: 8px 0; }
 
 /*Mobile Styles*/
 .mobile .finder-window {
@@ -342,8 +361,7 @@ i.green-fold {
     -moz-box-shadow: 6px 44px 77px -4px rgba(0, 0, 0, 0.25);
     box-shadow: 6px 44px 77px -4px rgba(0, 0, 0, 0.25); }
   .finder-wrapper {
-    height: 100%;
-    overflow: scroll; }
+    height: 100%; }
   .sidebar {
     float: none;
     height: 35px; }
