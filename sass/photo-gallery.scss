@@ -160,9 +160,9 @@
   }
 
   @include media("screen", "<=nav-mid"){
-    .pg-figcaption{
-      width:calc(100% - 150px);
-    }
+    // .pg-figcaption{
+    //   // width:calc(100% - 150px);
+    // }
   }
 
 //STACK
