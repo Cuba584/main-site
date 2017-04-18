@@ -178,8 +178,6 @@ img.map {
     margin: 0; }
   .inner figcaption {
     padding-right: 0vw; }
-  .inner .vimeo-wrapper {
-    width: 100%; }
   #inner-title-box {
     width: 100%;
     margin-top: 0; }
@@ -189,6 +187,12 @@ img.map {
     #inner-title-box h3 {
       font-size: 1.1em;
       margin: 0; } }
+
+@media screen and (max-width: 800px) {
+  .vimeo-wrapper {
+    width: 100%; }
+  .vimeo-wrapper {
+    padding-bottom: 54.9%; } }
 
 @media screen and (max-width: 570px) {
   .inner #cinemagraph {
