@@ -98,7 +98,9 @@
     margin-top: 25%; }
   #money-slider-left-button {
     left: 20px;
-    margin: 0; }
+    margin: 0;
+    z-index: 8; }
   #money-slider-right-button {
     right: 20px;
-    margin: 0; } }
+    margin: 0;
+    z-index: 8; } }
