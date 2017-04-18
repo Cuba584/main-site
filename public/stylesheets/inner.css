@@ -151,7 +151,7 @@ img.map {
 @media screen and (max-width: 1020px) {
   .inner .byline-box {
     margin-top: 15pt;
-    width: 100%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto; }
     .inner .byline-box .byline-item {
