@@ -30,13 +30,6 @@
   ],
   "text": [
     {
-      "type": "video",
-      "value": {
-        "id": "200984993",
-        "is360": "false"
-      }
-    },
-    {
       "type": "text",
       "value": "<span class='italic'>Click.</span>"
     },
@@ -51,6 +44,13 @@
     {
       "type": "text",
       "value": "That’s what fascinates Diego. Tall and lean with long eyelashes that frame his deep brown eyes, he exudes energy. Between taking pictures for the animal magazine El Arca, freelancing photography, playing soccer and caring for Coralia, Diego can’t spend too much time on one task. Besides, he loves action; he craves it. So he admires that Coralia can be still for hours, consumed by her craft, that apartment walls and ailing health cannot confine her creative spirit — that her passion is so captivating, she doesn’t realize her rapture has become the focus of her grandson’s art."
+    },
+    {
+      "type": "video",
+      "value": {
+        "id": "213615010",
+        "is360": "false"
+      }
     },
     {
       "type": "text",
