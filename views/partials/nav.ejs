@@ -1,8 +1,5 @@
 <% var URL_LANG = espanol ? "?lang=es":"";  %>
 
-<script>
-</script>
-
   <header id="nav-header">
    <nav class="nav-bar">
 
@@ -29,32 +26,33 @@
 
       <ul>
 
-        <li id="nav-art"><a class="hiphop nav-title" href="/pages/hiphop<%=URL_LANG%>">
+
+        <li><a class="hiphop nav-title nav-indiv" href="/pages/hiphop<%=URL_LANG%>">
 
 			   <%= espanol ? navSpan[0] : navEng[0] %>
 			</a>
       <!-- <span class="middle-dot">&#x2022;</span> -->
 
 </li>
-        <li><a class="dorian nav-title" href="/pages/dorian<%=URL_LANG%>">
+        <li><a class="dorian nav-title nav-indiv" href="/pages/dorian<%=URL_LANG%>">
           <%= espanol ? navSpan[1] : navEng[1] %>
 
 			</a>
 
 </li>
-        <li><a class="harbor nav-title" href="/pages/harbor<%=URL_LANG%>">
+        <li><a class="harbor nav-title nav-indiv" href="/pages/harbor<%=URL_LANG%>">
           <%= espanol ? navSpan[2] : navEng[2] %>
 
 			</a>
 
 </li>
-        <li><a class="family nav-title" href="/pages/family<%=URL_LANG%>">
+        <li><a class="family nav-title nav-indiv" href="/pages/family<%=URL_LANG%>">
           <%= espanol ? navSpan[3] : navEng[3] %>
 
 			</a>
 
 </li>
-        <li><a class="skate nav-title" href="/pages/skate<%=URL_LANG%>">
+        <li><a class="skate nav-title nav-indiv" href="/pages/skate<%=URL_LANG%>">
           <%= espanol ? navSpan[4] : navEng[4] %>
 
 
@@ -72,7 +70,7 @@
 
             <div class="trans-wrapper">
 
-              <a id="trans-link"><span id="trans-btn"><%= espanol ? "EN":"ES" %></span></a>
+              <a class="trans-link"><span id="trans-btn"><%= espanol ? "EN":"ES" %></span></a>
 
             </div>
 
@@ -84,9 +82,9 @@
                 </a>
             </div>
 
-          </div>
+          </div> <!--/sm-icons-->
 
-      </div>
+      </div><!--/nav-icons-->
 
 <div id="hidden-nav" class="overlay">
     <div class="overlay-content">
@@ -94,30 +92,31 @@
 
        <a href="/<%=URL_LANG%>" class="mobile-home-link"> <i class="fa fa-home fa-2x"></i></a>
 
-      <a class="hiphop overlay-item" href="/pages/hiphop<%=URL_LANG%>"><span>
-        <%= espanol ? navSpan[0] : navEng[0] %>
-    </span>
-		</a>
-        <a class="dorian overlay-item" href="/pages/dorian<%=URL_LANG%>">
+      <a class="hiphop overlay-item" href="/pages/hiphop<%=URL_LANG%>">
+        <span>
+			     <%= espanol ? navSpan[0] : navEng[0] %>
+        </span>
+		  </a>
+      <a class="dorian overlay-item" href="/pages/dorian<%=URL_LANG%>">
+  			<span>
+          <%= espanol ? navSpan[1] : navEng[1] %>
+        </span>
+		  </a>
+      <a class="harbor overlay-item" href="/pages/harbor<%=URL_LANG%>">
 			<span>
-        <%= espanol ? navSpan[1] : navEng[1] %>
+          <%= espanol ? navSpan[2] : navEng[2] %>
       </span>
-		</a>
-        <a class="harbor overlay-item" href="/pages/harbor<%=URL_LANG%>">
-			<span>
-        <%= espanol ? navSpan[2] : navEng[2] %>
-      </span>
-		</a>
-        <a class="family overlay-item" href="/pages/family<%=URL_LANG%>">
-			<span>
-        <%= espanol ? navSpan[3] : navEng[3] %>
-      </span>
-		</a>
-        <a class="skate overlay-item" href="/pages/skate<%=URL_LANG%>">
-			<span>
-        <%= espanol ? navSpan[4] : navEng[4] %>
-      </span>
-		</a>
+  		</a>
+      <a class="family overlay-item" href="/pages/family<%=URL_LANG%>">
+  			<span>
+          <%= espanol ? navSpan[3] : navEng[3] %>
+        </span>
+    	</a>
+      <a class="skate overlay-item" href="/pages/skate<%=URL_LANG%>">
+  			<span>
+          <%= espanol ? navSpan[4] : navEng[4] %>
+        </span>
+  		</a>
 
       <div class="nav-icons-mobile">
          <div class="sm-icons">
@@ -128,7 +127,9 @@
            </a>
            <div class="mobile-icons">
 
+             <a class="trans-link"><span><%= espanol ? "EN":"ES" %></span></a>
 
+            <div class="nav-line"></div>
 
              <a id="fb" href="https://www.facebook.com/CubasNewWave/" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
              <a id="twit" href="https://www.twitter.com/CubasNewWave/" target="_blank"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
@@ -144,7 +145,14 @@
   </nav>
 </header>
 <script>
-var transLink = document.getElementById('trans-link');
-var espanol = <%= espanol ? "true":"false" %>;
-transLink.setAttribute("href", espanol ? currentPage : currentPage + '?lang=es');
+ var espanol = <%= espanol ? "true":"false" %>;
+$('.trans-link').attr("href", espanol ? currentPage : currentPage + '?lang=es' );
+
+//
+// var transLink = document.getElementsByClassName('trans-link');
+// var espanol = <%= espanol ? "true":"false" %>;
+// transLink.setAttribute("href", espanol ? currentPage : currentPage + '?lang=es');
+
+
+
 </script>

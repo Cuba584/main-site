@@ -39,7 +39,7 @@
 
   .people-cont{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     // padding:0 20vw 0 20vw;
   }
 
@@ -51,6 +51,11 @@
     width:400px;
   }
 
+@include media('screen', '>=internet-lg'){
+  .people-cont{
+    margin:0 15vw 0 15vw;
+  }
+}
 
 @include media('screen', '<=nav-mid'){
     .dropdown-cont{

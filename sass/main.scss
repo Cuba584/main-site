@@ -11,6 +11,13 @@ further down on the page or in any of the other .SCSS files.
             &.subhead{
               color: nth($i, 2);
             }
+            &.title {
+              color: nth($i,2);
+              width: 70%;
+              margin-left: auto;
+              margin-right: auto;
+              font-size: 2em;
+            }
             &.interactive{
               color: nth($i, 2);
             }
@@ -49,10 +56,30 @@ further down on the page or in any of the other .SCSS files.
                   display: block;
                   height: 3px;
                   width: 100%;
+                  margin-left: auto;
+                  margin-right: auto;
                   background: #fff;
                   transition-property: none;
                 }
               }
+            }
+            @include media("screen", "<=sm"){
+              &.nav-title-footer{
+                    &.active-nav{
+                      &:after{
+                        width: 36%;
+                        margin-left: auto;
+                        margin-right: auto;
+                      }
+                    }
+                    &:hover{
+                      &:after{
+                        width: 36%;
+                        margin-left: auto;
+                        margin-right: auto;
+                      }
+                    }
+                  }
             }
             &.nav-title{
               // border-bottom:3px solid transparent;
@@ -409,23 +436,24 @@ nav {
     -webkit-transition: 5s opacity;
     // -moz-transition-duration:0s;
     a{
-      display:block;
       text-decoration:none;
       font-size:1.7em;
       font-weight: 300;
       line-height: 2.6em;
       padding: 0.5%;
+      display: flex;
+      align-items: center;
     }
     .mobile-home-link {
       color: black;
       position: absolute;
-      top: -31.5%;
+      top: -24.5%;
       right: 11%;
       font-size: 1.5em;
     }
     #closebtn{
       position:absolute;
-      top:-52.5%;
+      top:-42.5%;
       left: -5%;
       font-size:75px;
       color: black;
@@ -435,7 +463,8 @@ nav {
     .overlay-item{
       color:black;
       span{
-        font-size:1.2em;
+        font-size:1em;
+        display: inline-flex;
       }
     }
 
@@ -478,6 +507,7 @@ nav {
       margin-left: auto;
       margin-right: auto;
       width: 50vw;
+      text-align:left;
     }
     .expand-collapse {
       text-align:left;
@@ -539,8 +569,8 @@ nav {
           }
           .mobile-icons {
             display: inline-flex;
-            left: 80%;
             position: relative;
+            align-items: center;
           }
           #trans-btn, #about-btn {
             font-size: .8em;
@@ -633,6 +663,11 @@ nav {
       }
     }
 
+    .interactive-wrapper-intro p {
+      width: initial;
+    }
+
+
 }
 
   @include media("screen", "<=sm"){
@@ -659,6 +694,10 @@ nav {
             margin: 0 0 5px 0;
           }
         }
+      }
+
+      .sm-icons {
+        display: initial;
       }
 
       .wrapper{
