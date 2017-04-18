@@ -211,6 +211,13 @@
   cursor: pointer;
 }
 
+@include media("screen", ">photog-mid") {
+  .hiphop-bio {
+    line-height: 1.1;
+    hyphens: auto;
+  }
+}
+
 @include media("screen", ">md") {
   .hiphop-card:hover{
     transform: rotateY( 180deg );
@@ -242,6 +249,7 @@
   .hiphop-bio {
     font-size: .8em;
     margin-bottom: 2px;
+    line-height: 1;
   }
 
 }
