@@ -6,7 +6,7 @@
   justify-content: center; }
   .internet-graphic h3, .internet-graphic .country-ratio {
     font-size: 1.75em;
-    margin-bottom: 5pt;
+    margin: 1.2em 0 5pt 0;
     width: 400px;
     text-align: center; }
   .internet-graphic #cuba-title, .internet-graphic #other-country-title {
@@ -23,7 +23,9 @@
     width: 200px;
     justify-content: center;
     font-family: "Montserrat", sans-serif;
-    font-size: 1.75rem; }
+    font-size: 1.75rem;
+    margin: 1.2em 0 5pt 0;
+    background-color: white; }
   .internet-graphic .people-cont {
     display: flex;
     justify-content: space-around; }
