@@ -113,9 +113,16 @@
     visibility: hidden; } }
 
 #intro-box {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: -8px; }
   #intro-box img {
     width: 100%; }
+
+#intro-text-box {
+  background: url("textures/family.JPG") no-repeat;
+  height: 200px;
+  padding-top: 2px;
+  padding-bottom: 36px; }
 
 #intro-text {
   color: white;

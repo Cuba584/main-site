@@ -15,6 +15,10 @@
     text-align:center;
   }
 
+  // select{
+  //   font-size:.8em;
+  // }
+
   #cuba-title, #other-country-title{
     text-align:center;
     font-size:.8em;
@@ -35,11 +39,13 @@
   #country-dropdown{
     width:200px;
     justify-content:center;
+    font-family:$montserrat;
+    font-size:1.75rem;
   }
 
   .people-cont{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     // padding:0 20vw 0 20vw;
   }
 
@@ -51,6 +57,11 @@
     width:400px;
   }
 
+@include media('screen', '>=internet-lg'){
+  .people-cont{
+    margin:0 15vw 0 15vw;
+  }
+}
 
 @include media('screen', '<=nav-mid'){
     .dropdown-cont{
