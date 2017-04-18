@@ -20,23 +20,25 @@
     max-width: 100%; }
 
 #hiphop-wrap-mobile {
-  display: none; }
-  #hiphop-wrap-mobile button {
-    border: none;
-    background: transparent;
-    font-size: 4em;
-    cursor: pointer;
-    position: absolute;
-    margin-top: 25vh;
-    z-index: 1; }
-  #hiphop-wrap-mobile button:focus {
-    outline: none; }
+  display: none;
+  position: relative; }
+
+.hiphop-button {
+  border: none;
+  display: none;
+  background: transparent;
+  font-size: 4em;
+  cursor: pointer;
+  z-index: 1; }
+
+.hiphop-button:focus {
+  outline: none; }
 
 #hiphop-left {
-  left: 3%; }
+  float: left; }
 
 #hiphop-right {
-  right: 3%; }
+  float: right; }
 
 .hiphop-bio {
   line-height: 1;
@@ -125,14 +127,14 @@
 
 #hiphop-wrap-mobile {
   width: 90%;
-  height: 70vh;
+  height: 450px;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto; }
 
 #hiphop-wrap-mobile > ul {
   width: 100%;
-  height: 70vh;
+  height: 450px;
   left: -100%;
   transition: 0.5s left;
   list-style: none;
@@ -190,6 +192,8 @@
   #hiphop-wrap-mobile > ul > li {
     width: 72vw;
     height: 422px; }
+  .hiphop-button {
+    display: block; }
   #hiphop-wrap-mobile {
     display: block; }
   #hiphop-wrap {
@@ -249,7 +253,8 @@
   .hiphop-year {
     font-size: .45em; }
   .hiphop-bio {
-    font-size: .4em; } }
+    font-size: .4em;
+    line-height: 1.2; } }
 
 @media screen and (max-width: 350px) {
   .hiphop-panel {

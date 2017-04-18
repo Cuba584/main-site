@@ -33,15 +33,14 @@
   ],
   "text": [
     {
-      "type": "video",
-      "value": {
-        "id": "210700371",
-        "password": "sk@te"
-      }
-    },
-    {
       "type": "text",
       "value": "On a Sunday afternoon El Prado, the smooth, stone promenade that divides Old and Central Havana, is full of life. Painters line the walkway, dipping brushes into the bright yellows and blues that make their art Cuban in the eyes of tourists. Other craftsmen have set up tables and chairs in the middle of the promenade, where they carve small wooden statues. Parents and strangers crowd around as a 10-year-old boy lifts and twirls his dance partner – a small girl wearing flat ballet shoes, her hair in a tight bun. The air carries the timba beat – trombones, conga drums and the <span class='italic'>clap, clap, clap</span> of the clave – along with the smell of the ocean toward the heart of the city."
+    },
+    {
+      "type": "video",
+      "value": {
+        "id": "210700371"
+      }
     },
     {
       "type": "text",
@@ -50,14 +49,6 @@
     {
       "type": "text",
       "value": "The noise gradually fades and the street clears but for two lone skaters: a tall one with dyed blonde curls peeking out from under a black snapback, and a small 12-year-old rolling behind him. All the commotion has stopped, and a still quiet sets in. Skaters sit along the walls conversing in hushed voices as two men wearing stiff, gray uniforms and old-fashioned berets stroll through El Prado. They walk with purpose, examining the throng of skaters with suspicion, pausing only to speak to the two rebels who continued skating. Finally, they walk away, the two young skaters trailing leisurely behind in a cooperative, but unenthusiastic manner. They’re gone. And, just like that, everything goes back to normal. The skaters pile back onto the street. The loud bangs and chatter and laughter fill the air once more. None of the skaters mention the disappearance of their friends or seem concerned about their welfare. When two more are taken away 30 minutes later, the reaction is equally indifferent."
-    },
-    {
-      "type": "video",
-      "value": {
-        "title": "Explore in 360: Havana’s Streets",
-        "id": "213595525",
-        "is360": "true"
-      }
     },
     {
       "type": "text",
@@ -94,16 +85,20 @@
       "value": "El Prado’s flat, polished surface makes it one of the best places to skate in all of Havana. It’s also one of the countless places in this city where skateboarding is prohibited. “The police will ban us one day, and then they will be fine with us the next day,” Cristian said. “They don’t get much respect from skateboarders.” Most of the skaters here have been reprimanded, fined and taken to jail numerous times. Yet, they keep skating."
     },
     {
+      "type": "video",
+      "value": {
+        "title": "Explore in 360: Havana’s Streets",
+        "id": "213595525",
+        "is360": "true"
+      }
+    },
+    {
       "type": "text",
       "value": "“If you like something, you do it because you love it,” said Stephanie Borrero, who learned to skate about a year ago when her younger half-brother, Alvaro Lores, proved to be one of the best skaters in Cuba. “No matter what happens, what they’re going to do to you, the threats they give you, you’re going to do it just the same because you like it.”"
     },
     {
       "type": "text",
       "value": "For these skaters, the worst punishment is a broken board. When the police confiscate a skateboard and return it in two pieces, the skater will have to wait months before a foreigner comes to donate another deck or until he or she has enough saved up to barter for a new board."
-    },
-    {
-      "type": "slider",
-      "value": {}
     },
     {
       "type": "subhead",
@@ -132,6 +127,10 @@
     {
       "type": "text",
       "value": "“To get the boards most of the time we film videos, take photos and upload them to the internet,” Stephanie said. “Many people come from other countries to help us. They’re interested in why so many Cubans skate if they don’t have a place to get the equipment. So they bring them to us. They give them as gifts.”"
+    },
+    {
+      "type": "slider",
+      "value": {}
     },
     {
       "type": "subhead",
@@ -180,51 +179,51 @@
   "slider-images": [
     {
       "src": "skate_sl_01.jpg",
-      "alt": "alt",
+      "alt": "William Almeida (right) adjusts his board in a park in Havana, Cuba.",
       "attribution": "Claire Collins",
-      "caption": "William Almeida (right) adjusts his board in a park in Havana, Cuba, on March 11, 2017."
+      "caption": "William Almeida (right) adjusts his board in a park in Havana, Cuba."
     },
     {
       "src": "skate_sl_02.jpg",
-      "alt": "alt",
+      "alt": "Alvaro Lores jumps onto a bench in a park in Havana.",
       "attribution": "Claire Collins",
-      "caption": "Alvaro Lores jumps onto a bench in a park in Havana, Cuba, on March 11, 2017."
+      "caption": "Alvaro Lores jumps onto a bench in a park in Havana."
     },
     {
       "src": "skate_sl_03.jpg",
-      "alt": "Skaters pause their activities with the presence of police",
+      "alt": "Skaters pause their activities with the presence of police.",
       "attribution": "Viviane Feldman",
-      "caption": "Police officers repeatedly stop skaters from practicing near the Prado, a historic promenade in Old Havana on March 12, 2017."
+      "caption": "Police officers repeatedly stop skaters from practicing near the Prado, a historic promenade in Old Havana."
     },
     {
       "src": "skate_sl_04.jpg",
       "alt": "Two skaters take a selfie with their boards.",
       "attribution": "Viviane Feldman",
-      "caption": "Nathalie and Juan take a selfie on the Malecon with their skateboards on March 12, 2017."
+      "caption": "Nathalie and Juan take a selfie on the Malecón with their skateboards."
     },
     {
       "src": "skate_sl_05.jpg",
-      "alt": "al",
+      "alt": "Leuvis Perez (left) and Enzo Valdés skate together in El Prado.",
       "attribution": "Claire Collins",
-      "caption": "Leuvis Perez (left) and Enzo Valdés skate together in El Prado on March 16, 2017."
+      "caption": "Leuvis Perez (left) and Enzo Valdés skate together in El Prado."
     },
     {
       "src": "skate_sl_07.jpg",
       "alt": "Two skaters sit and watch people pass by on the Prado walkway",
       "attribution": "Viviane Feldman",
-      "caption": "Two members of the skating community watch the pedestrians pass by on the Prado walkway in Old Havana, on March 16, 2017."
+      "caption": "Two members of the skating community watch the pedestrians pass by on the Prado walkway in Old Havana."
     },
     {
       "src": "skate_sl_08.jpg",
       "alt": "Skaters sit along the Malecon at sunset.",
       "attribution": "Viviane Feldman",
-      "caption": "Skaters sit along the Malecon of Havana as the evening winds down. An organized competition was forced to cancel due to police presence earlier that day on March 12, 2017."
+      "caption": "Skaters sit along the Malecón, the main highway in Havana, as the evening winds down. An organized competition was forced to cancel due to police presence earlier that day."
     },
     {
       "src": "skate_sl_09.jpg",
       "alt": "alt",
       "attribution": "Claire Collins",
-      "caption": "Stephanie Borrero stands for a portrait by the Malecón in Havana, Cuba, on March 12, 2017."
+      "caption": "Stephanie Borrero stands for a portrait by the Malecón in Havana."
     }
   ]
 }
