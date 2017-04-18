@@ -24,12 +24,16 @@
     justify-content: center; }
   .internet-graphic .people-cont {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-around; }
   .internet-graphic .fa.fa-male.selected {
     color: #89cdaf;
     opacity: 1; }
   .internet-graphic .country-cont {
     width: 400px; }
+
+@media screen and (min-width: 1600px) {
+  .internet-graphic .people-cont {
+    margin: 0 15vw 0 15vw; } }
 
 @media screen and (max-width: 1110px) {
   .internet-graphic .dropdown-cont {
