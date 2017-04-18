@@ -80,7 +80,7 @@
     },
     {
       "type": "text",
-      "value": "High above the bustling city streets crowded with classic American build cars[b] from the 1950s and ‘60s, Dorian and a group of young models gather in a cluster on the rooftop of an apartment complex. Instead of breathing in the exhaust that circulates on the seaside motorway called <span class='italic'>El Malecón</span> below them, these young men and women cough through a similar cloud of smoke coming from cans of hairspray. Dorian is feverishly adding finishing touches to the designs he so deliberately molded at the salon as photographers set up their equipment to begin the big photoshoot."
+      "value": "High above the bustling city streets crowded with classic American build cars from the 1950s and ‘60s, Dorian and a group of young models gather in a cluster on the rooftop of an apartment complex. Instead of breathing in the exhaust that circulates on the seaside motorway called <span class='italic'>El Malecón</span> below them, these young men and women cough through a similar cloud of smoke coming from cans of hairspray. Dorian is feverishly adding finishing touches to the designs he so deliberately molded at the salon as photographers set up their equipment to begin the big photoshoot."
     },
     {
       "type": "text",
@@ -282,6 +282,5 @@
       "caption": "Every night, tourists and locals alike gather on the Malecón to watch the sun go down."
     }
   ],
-  "a": [],
-  "b": []
+  "a": []
 }
