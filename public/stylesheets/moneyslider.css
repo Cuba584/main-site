@@ -49,7 +49,7 @@
   .money-slider p {
     font-size: 0.4em; }
   .money-slider img {
-    height: 30vh; }
+    height: 13vw; }
   .money-slider .money-slider-section {
     display: flex;
     flex-direction: row;
@@ -58,6 +58,10 @@
       text-align: center; }
   .money-slider .money-left, .money-slider .money-center, .money-slider .money-right {
     align-self: center; }
+
+@media screen and (max-width: 1020px) and (min-width: 570px) {
+  .money-slider h3 {
+    font-size: 0.44em; } }
 
 @media screen and (max-width: 570px) {
   #moneyslider #money-slider-wrapper {
@@ -94,9 +98,7 @@
     margin-top: 25%; }
   #money-slider-left-button {
     left: 20px;
-    margin: 0;
-    z-index: 1000; }
+    margin: 0; }
   #money-slider-right-button {
     right: 20px;
-    margin: 0;
-    z-index: 1000; } }
+    margin: 0; } }

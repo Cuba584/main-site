@@ -759,6 +759,10 @@ nav {
     cursor: pointer;
     margin-top: 10px;
     text-align: center; }
+  .interactive-wrapper .expand-collapse2 {
+    text-align: left;
+    margin-top: 3%;
+    cursor: pointer; }
 
 .interactive-wrapper-intro {
   text-align: center; }

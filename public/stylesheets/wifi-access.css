@@ -1,6 +1,7 @@
 img.wifi {
-  width: 100%;
-  display: inline-block; }
+  display: inline-block;
+  max-width: 9141px;
+  max-height: 1416px; }
 
 #internet-slider {
   display: none;
