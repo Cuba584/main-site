@@ -31,6 +31,7 @@ gulp.task('connect', function(){
     var teamData = JSON.parse(fs.readFileSync('./public/data/team.json'));
     bodyData = JSON.parse(fs.readFileSync('./public/data/about.json'));
     response.render('pages/about', {navEng: navEnglish, navSpan: navSpanish, body: bodyData, team: teamData, page: 'about', espanol: isEspanol(request)});
+
   });
 
   app.get('/pages/:id', function(req, res){
@@ -47,14 +48,17 @@ gulp.task('connect', function(){
   		bodyData = JSON.parse(fs.readFileSync('./public/data/' + pageName + '.json'));
   	}
       res.render('pages/inner', {navEng: navEnglish, navSpan: navSpanish, internet: internetData, body: bodyData, page: '/pages/' + pageName, espanol: isEspanol(req)});
+
   });
 
   app.get('/*/*', function(request, response){
     response.render('pages/404', {navEng: navEnglish, navSpan: navSpanish, page: '404', espanol: isEspanol(request)});
+
   });
 
   app.get('*', function(request, response){
     response.render('pages/404', {navEng: navEnglish, navSpan: navSpanish, page: '404', espanol: isEspanol(request)});
+
   });
 
 });
@@ -76,5 +80,6 @@ gulp.task('watch', function() {
 gulp.task('default', ['connect', 'sass', 'watch']);
 
 var isEspanol = function(req){
-	return req.query.lang && req.query.lang == "es";
+	//return req.query.lang && req.query.lang == "es";
+  return false;
 };

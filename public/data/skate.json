@@ -4,7 +4,7 @@
   },
   "cinemagraph": {
     "src": "skate.mp4",
-    "attribution": "Claire Collins"
+    "attribution": "Claire Hannah Collins"
   },
   "header": {
     "text": "Revolution on Wheels",
@@ -20,7 +20,7 @@
       "name": "Viviane Feldman"
     },
     {
-      "name": "Claire Collins"
+      "name": "Claire Hannah Collins"
     }
   ],
   "designers": [
@@ -176,24 +176,16 @@
       "value": "A bearded man wearing dark sunglasses sits by El Prado, pulling wheels and metal skateboard parts from a backpack. Local skaters swarm around the foreigner, like a flock of gulls plunging toward a piece of bread left on the sand. They take what they can get and ration the gear among themselves before rolling back down the promenade to attach the new parts or practice a trick. They migrate toward Cristian and the other skaters whose boards are still intact, and the group zigzags toward the center of the city."
     }
   ],
+  "src": "skate_sl_03.jpg",
+  "alt": "Alvaro Lores jumps onto a bench in a park in Havana.",
+  "attribution": "Claire Hannah Collins",
+  "caption": "Alvaro Lores jumps onto a bench in a park in Havana.",
   "slider-images": [
     {
       "src": "skate_sl_01.jpg",
       "alt": "William Almeida (right) adjusts his board in a park in Havana, Cuba.",
-      "attribution": "Claire Collins",
+      "attribution": "Claire Hannah Collins",
       "caption": "William Almeida (right) adjusts his board in a park in Havana, Cuba."
-    },
-    {
-      "src": "skate_sl_02.jpg",
-      "alt": "Alvaro Lores jumps onto a bench in a park in Havana.",
-      "attribution": "Claire Collins",
-      "caption": "Alvaro Lores jumps onto a bench in a park in Havana."
-    },
-    {
-      "src": "skate_sl_03.jpg",
-      "alt": "Skaters pause their activities with the presence of police.",
-      "attribution": "Viviane Feldman",
-      "caption": "Police officers repeatedly stop skaters from practicing near the Prado, a historic promenade in Old Havana."
     },
     {
       "src": "skate_sl_04.jpg",
@@ -204,7 +196,7 @@
     {
       "src": "skate_sl_05.jpg",
       "alt": "Leuvis Perez (left) and Enzo Valdés skate together in El Prado.",
-      "attribution": "Claire Collins",
+      "attribution": "Claire Hannah Collins",
       "caption": "Leuvis Perez (left) and Enzo Valdés skate together in El Prado."
     },
     {
@@ -212,6 +204,12 @@
       "alt": "Two skaters sit and watch people pass by on the Prado walkway",
       "attribution": "Viviane Feldman",
       "caption": "Two members of the skating community watch the pedestrians pass by on the Prado walkway in Old Havana."
+    },
+    {
+      "src": "skate_sl_02.jpg",
+      "alt": "Skaters pause their activities with the presence of police.",
+      "attribution": "Viviane Feldman",
+      "caption": "Police officers repeatedly stop skaters from practicing near the Prado, a historic promenade in Old Havana."
     },
     {
       "src": "skate_sl_08.jpg",
@@ -222,7 +220,7 @@
     {
       "src": "skate_sl_09.jpg",
       "alt": "alt",
-      "attribution": "Claire Collins",
+      "attribution": "Claire Hannah Collins",
       "caption": "Stephanie Borrero stands for a portrait by the Malecón in Havana."
     }
   ]

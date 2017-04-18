@@ -211,6 +211,13 @@
   cursor: pointer;
 }
 
+@include media("screen", ">photog-mid") {
+  .hiphop-bio {
+    line-height: 1.1;
+    hyphens: auto;
+  }
+}
+
 @include media("screen", ">md") {
   .hiphop-card:hover{
     transform: rotateY( 180deg );
@@ -242,7 +249,9 @@
   .hiphop-bio {
     font-size: .8em;
     margin-bottom: 2px;
+    line-height: 1;
   }
+
 }
 
 @include media("screen", "<=nav-mid") {
@@ -332,6 +341,16 @@
   .hiphop-panel img {
     width: 248px;
   }
+  .hiphop-button {
+    margin-top: 175px;
+    position: absolute;
+  }
+  #hiphop-left {
+    left: 3%;
+  }
+  #hiphop-right {
+    right: 3%;
+  }
 }
 
 @include media("screen", "<=sm") {
@@ -372,6 +391,10 @@
   .hiphop-bio {
     font-size: .4em;
     line-height: 1.2;
+  }
+  .hiphop-button {
+    margin-top: 0;
+    position: inherit;
   }
 }
 
