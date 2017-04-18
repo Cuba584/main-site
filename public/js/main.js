@@ -36,13 +36,13 @@ $(document).ready(function(){
 
   $('#trans-btn').on('click', function(){
 
-    this.classList.toggle("spanish");
-
-    if (this.classList.value.includes("spanish")){
-      this.innerHTML = "ES";
-    } else {
-      this.innerHTML = "EN";
-    }
+    // this.classList.toggle("spanish");
+    //
+    // if (this.classList.value.includes("spanish")){
+    //   this.innerHTML = "ES";
+    // } else {
+    //   this.innerHTML = "EN";
+    // }
 
 
   });
