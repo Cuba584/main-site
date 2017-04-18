@@ -15,6 +15,10 @@
     text-align:center;
   }
 
+  // select{
+  //   font-size:.8em;
+  // }
+
   #cuba-title, #other-country-title{
     text-align:center;
     font-size:.8em;
@@ -35,6 +39,8 @@
   #country-dropdown{
     width:200px;
     justify-content:center;
+    font-family:$montserrat;
+    font-size:1.75rem;
   }
 
   .people-cont{

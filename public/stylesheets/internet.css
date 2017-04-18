@@ -21,7 +21,9 @@
     justify-content: center; }
   .internet-graphic #country-dropdown {
     width: 200px;
-    justify-content: center; }
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.75rem; }
   .internet-graphic .people-cont {
     display: flex;
     justify-content: space-around; }
