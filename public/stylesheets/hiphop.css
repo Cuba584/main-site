@@ -230,7 +230,14 @@
     .flipped img {
       visibility: hidden; }
   .hiphop-panel img {
-    width: 248px; } }
+    width: 248px; }
+  .hiphop-button {
+    margin-top: 25vh;
+    position: absolute; }
+  #hiphop-left {
+    left: 3%; }
+  #hiphop-right {
+    right: 3%; } }
 
 @media screen and (max-width: 570px) {
   .hiphop-card div {
@@ -254,7 +261,10 @@
     font-size: .45em; }
   .hiphop-bio {
     font-size: .4em;
-    line-height: 1.2; } }
+    line-height: 1.2; }
+  .hiphop-button {
+    margin-top: 0;
+    position: inherit; } }
 
 @media screen and (max-width: 350px) {
   .hiphop-panel {
