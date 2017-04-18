@@ -101,7 +101,8 @@
 #intro-text {
   color: white;
   font-family: "Montserrat", sans-serif;
-  padding: 20px; }
+  padding: 20px;
+  text-align: center; }
 
 @media screen and (max-width: 570px) {
   #index-container {
@@ -120,9 +121,8 @@
 
 #intro-text-box {
   background: url("textures/family.JPG") no-repeat;
-  height: 200px;
   padding-top: 2px;
-  padding-bottom: 36px; }
+  padding-bottom: 10px; }
 
 #intro-text {
   color: white;
@@ -131,10 +131,10 @@
   padding: 5px 6%; }
 
 #intro-line {
-  width: 65%;
+  width: 85%;
   background-color: white;
   height: 5px;
-  margin: 40px auto 0px 7%; }
+  margin: 30px auto 0px; }
 
 .photo-box {
   height: 220px;
