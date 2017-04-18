@@ -56,10 +56,30 @@ further down on the page or in any of the other .SCSS files.
                   display: block;
                   height: 3px;
                   width: 100%;
+                  margin-left: auto;
+                  margin-right: auto;
                   background: #fff;
                   transition-property: none;
                 }
               }
+            }
+            @include media("screen", "<=sm"){
+              &.nav-title-footer{
+                    &.active-nav{
+                      &:after{
+                        width: 36%;
+                        margin-left: auto;
+                        margin-right: auto;
+                      }
+                    }
+                    &:hover{
+                      &:after{
+                        width: 36%;
+                        margin-left: auto;
+                        margin-right: auto;
+                      }
+                    }
+                  }
             }
             &.nav-title{
               // border-bottom:3px solid transparent;
@@ -487,6 +507,7 @@ nav {
       margin-left: auto;
       margin-right: auto;
       width: 50vw;
+      text-align:left;
     }
     .expand-collapse {
       text-align:left;

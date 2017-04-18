@@ -47,8 +47,20 @@ further down on the page or in any of the other .SCSS files.
   display: block;
   height: 3px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   background: #fff;
   transition-property: none; }
+
+@media screen and (max-width: 570px) {
+  .hiphop.nav-title-footer.active-nav:after {
+    width: 36%;
+    margin-left: auto;
+    margin-right: auto; }
+  .hiphop.nav-title-footer:hover:after {
+    width: 36%;
+    margin-left: auto;
+    margin-right: auto; } }
 
 .hiphop.nav-title:after {
   content: '';
@@ -123,8 +135,20 @@ further down on the page or in any of the other .SCSS files.
   display: block;
   height: 3px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   background: #fff;
   transition-property: none; }
+
+@media screen and (max-width: 570px) {
+  .dorian.nav-title-footer.active-nav:after {
+    width: 36%;
+    margin-left: auto;
+    margin-right: auto; }
+  .dorian.nav-title-footer:hover:after {
+    width: 36%;
+    margin-left: auto;
+    margin-right: auto; } }
 
 .dorian.nav-title:after {
   content: '';
@@ -199,8 +223,20 @@ further down on the page or in any of the other .SCSS files.
   display: block;
   height: 3px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   background: #fff;
   transition-property: none; }
+
+@media screen and (max-width: 570px) {
+  .skate.nav-title-footer.active-nav:after {
+    width: 36%;
+    margin-left: auto;
+    margin-right: auto; }
+  .skate.nav-title-footer:hover:after {
+    width: 36%;
+    margin-left: auto;
+    margin-right: auto; } }
 
 .skate.nav-title:after {
   content: '';
@@ -275,8 +311,20 @@ further down on the page or in any of the other .SCSS files.
   display: block;
   height: 3px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   background: #fff;
   transition-property: none; }
+
+@media screen and (max-width: 570px) {
+  .family.nav-title-footer.active-nav:after {
+    width: 36%;
+    margin-left: auto;
+    margin-right: auto; }
+  .family.nav-title-footer:hover:after {
+    width: 36%;
+    margin-left: auto;
+    margin-right: auto; } }
 
 .family.nav-title:after {
   content: '';
@@ -351,8 +399,20 @@ further down on the page or in any of the other .SCSS files.
   display: block;
   height: 3px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   background: #fff;
   transition-property: none; }
+
+@media screen and (max-width: 570px) {
+  .harbor.nav-title-footer.active-nav:after {
+    width: 36%;
+    margin-left: auto;
+    margin-right: auto; }
+  .harbor.nav-title-footer:hover:after {
+    width: 36%;
+    margin-left: auto;
+    margin-right: auto; } }
 
 .harbor.nav-title:after {
   content: '';
@@ -427,8 +487,20 @@ further down on the page or in any of the other .SCSS files.
   display: block;
   height: 3px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   background: #fff;
   transition-property: none; }
+
+@media screen and (max-width: 570px) {
+  .about.nav-title-footer.active-nav:after {
+    width: 36%;
+    margin-left: auto;
+    margin-right: auto; }
+  .about.nav-title-footer:hover:after {
+    width: 36%;
+    margin-left: auto;
+    margin-right: auto; } }
 
 .about.nav-title:after {
   content: '';
@@ -704,7 +776,8 @@ nav {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 50vw; }
+    width: 50vw;
+    text-align: left; }
   .interactive-wrapper-intro .expand-collapse {
     text-align: left;
     cursor: pointer;
