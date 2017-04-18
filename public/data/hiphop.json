@@ -28,7 +28,7 @@
       "name": "Kate Boyd"
     },
     {
-      "name": "Mary Claire (MC) Brogden"
+      "name": "Mary Claire Brogden"
     }
   ],
   "text": [
@@ -38,7 +38,7 @@
     },
     {
       "type": "text",
-      "value": "Reyna Hernandez Sandoval is in the other room trying to fit her long braided hair into a knot on the top of her head. The rice charcoaling on the stove is the least of her concerns — she’s busy getting ready to go out. She’s a rapper, a part of a duo with her best friend Yadira Pintado Lazcano, though they’re known around Havana by their stage names: La Reyna y La Real."
+      "value": "Reyna Hernandez Sandoval is in the other room trying to fit her long, braided hair into a knot on the top of her head. The rice charcoaling on the stove is the least of her concerns — she’s busy getting ready to go out. She’s a rapper, a part of a duo with her best friend Yadira Pintado Lazcano, though they’re known around Havana by their stage names: La Reyna y La Real."
     },
     {
       "type": "text",
@@ -58,7 +58,7 @@
     },
     {
       "type": "text",
-      "value": "Though rap is an emerging musical genre in Cuba, Alberto Faya, a professor of Cuban culture at the University of Havana, says music has always been integral to the country’s cultural development, specifically the process of transculturation: When different cultures meld over long periods of time to help form a national identity. It is transculturation that produced Son, the fusion of percussion from African slaves mixed with the stringed instruments introduced by the Spanish. Cuban music, Faya says, is reliant on the incorporation and adaptation of other sounds to continue evolving."
+      "value": "Though rap is an emerging musical genre in Cuba, Alberto Faya, a professor of Cuban culture at the University of Havana, says music has always been integral to the country’s cultural development, specifically the process of transculturation: when different cultures meld over long periods of time to help form a national identity. It is transculturation that produced <span class='italic'>son</span>, the fusion of percussion from African slaves mixed with the stringed instruments introduced by the Spanish. Cuban music, Faya says, is reliant on the incorporation and adaptation of other sounds to continue evolving."
     },
     {
       "type": "slider",
@@ -74,11 +74,11 @@
     },
     {
       "type": "text",
-      "value": "But in a Communist country, how loud can the voice of protest be?"
+      "value": "But in a communist country, how loud can the voice of protest be?"
     },
     {
       "type": "text",
-      "value": "In 2002, the Cuban government created the Agencia Cubana de Rap — the Cuban Rap Agency. The agency, though helpful in securing publicity, is how the government keeps tabs on what Cuba’s rap artists are doing. Being a part of the agency isn’t mandatory — it’s competitive, and though they are in it now, Reyna and Yadira didn’t make it when they first auditioned — but attempting to be a successful rapper without the press and benefits the agency secures isn’t ideal."
+      "value": "In 2002, the Cuban government created the <span class='italic'>Agencia Cubana de Rap</span> — the Cuban Rap Agency. The agency, though helpful in securing publicity, is how the government keeps tabs on what Cuba’s rap artists are doing. Being a part of the agency isn’t mandatory — it’s competitive, and though they are in it now, Reyna and Yadira didn’t make it when they first auditioned — but attempting to be a successful rapper without the press and benefits the agency secures isn’t ideal."
     },
     {
       "type": "text",
@@ -91,7 +91,7 @@
     {
       "type": "pullquote",
       "value": {
-        "text": "“Rap is a genre of protest”",
+        "text": "“Rap is a genre of protest.”",
         "attribution": "Reyna Hernandez Sandoval"
       }
     },
@@ -141,7 +141,7 @@
     },
     {
       "type": "text",
-      "value": "Yes, they’re still cooking rice for dinner, maybe in arroz con pollo or arroz a la cubana, the traditional Cuban dishes they grew up eating. But these days, it’s okay to let it burn. It tastes better that way."
+      "value": "Yes, they’re still cooking rice for dinner, maybe in <span class='italic'>arroz con pollo</span> or <span class='italic'>arroz a la cubana</span>, the traditional Cuban dishes they grew up eating. But these days, it’s okay to let it burn. It tastes better that way."
     }
   ],
   "slider-images": [
@@ -149,49 +149,13 @@
       "src": "hiphop_sl_01.jpg",
       "alt": "Reyna in the studio",
       "attribution": "Anna Clare Spelman",
-      "caption": "Renya Mercedes Hernadez Sandoval (La Reyna) rehearses in the studio located in her Moisés Whittaker Alvarez’ house."
+      "caption": "Reyna Mercedes Hernadez Sandoval (La Reyna) rehearses in the studio located in her manager, Moisés Whittaker Alvarez’s, house."
     },
     {
-      "src": "hiphop_sl_10.jpg",
-      "alt": "Dark room under construction",
+      "src": "hiphop_sl_02.jpg",
+      "alt": "Yadira stands in the doorframe of her home.",
       "attribution": "Kira Dalman",
-      "caption": "La Rayna and La Real are represented by The Agency of Rap. The main office space is under construction to create a space for artists to perform. The Agency represents 34 artists, 6 of which are women."
-    },
-    {
-      "src": "hiphop_sl_09.jpg",
-      "alt": "Yadira stands on her roof",
-      "attribution": "Kira Dalman",
-      "caption": "Yadira stands on her roof overlooking her neighborhood after fixing her water tank in order to mop her house."
-    },
-    {
-      "src": "hiphop_sl_08.jpg",
-      "alt": "yadira sits in her home.",
-      "attribution": "Kira Dalman",
-      "caption": "Yadira sits in her home watching her favorite show on her laptop. She frequently buys a “paquete,” a common way for Cubans consume popular media."
-    },
-    {
-      "src": "hiphop_sl_07.jpg",
-      "alt": "Renya shows off her tattoo in front of her house which bears the same emblem, a chess queen.",
-      "attribution": "Bridgette Cyr",
-      "caption": "Renya shows off her tattoo in front of her house which bears the same emblem, a chess queen. Not only a musician but a visual artist, she painted the piece on the front her home as a symbol of strength."
-    },
-    {
-      "src": "hiphop_sl_06.jpg",
-      "alt": "Michel and friends sitting on porch.",
-      "attribution": "Bridgette Cyr",
-      "caption": "Michel, Reyna’s son, sits outside his house with friends and family after school. Renya hopes her music inspires Michel to respect and support women."
-    },
-    {
-      "src": "hiphop_sl_05.jpg",
-      "alt": "Group of children, Reyna and Yadira watch a video on Michel’s phone.",
-      "attribution": "Kira Dalman",
-      "caption": "Michel, Reyna’s son, shows his friends a video on his phone. Michel plays drums and is encouraged by his mother to express himself in a positive way through music."
-    },
-    {
-      "src": "hiphop_sl_04.jpg",
-      "alt": "Reyna works out.",
-      "attribution": "Kira Dalman",
-      "caption": "Reyna works out several times a week, often with Yadira. Staying in shape helps her prepare for performances."
+      "caption": "Yadira Pintado Lazcano (La Real) stands in the doorframe of her home. One half of the popular rap duo, La Reyna y La Real, she is dedicated to her craft and works each day to improve her skills."
     },
     {
       "src": "hiphop_sl_03.jpg",
@@ -200,10 +164,46 @@
       "caption": "Yadira Pintado Lazcano mops her living room floor."
     },
     {
-      "src": "hiphop_sl_02.jpg",
-      "alt": "Yadira stands in the doorframe of her home.",
+      "src": "hiphop_sl_04.jpg",
+      "alt": "Reyna works out.",
       "attribution": "Kira Dalman",
-      "caption": "Yadira Pintado Lazcano (La Real) stands in the doorframe of her home. One half of the popular rap duo, La Renya y La Real, she works each day to improve her craft."
+      "caption": "Reyna works out several times a week, often with Yadira. Staying in shape is important to her as it helps her prepare for performances."
+    },
+    {
+      "src": "hiphop_sl_05.jpg",
+      "alt": "Group of children, Reyna and Yadira watch a video on Michel’s phone.",
+      "attribution": "Kira Dalman",
+      "caption": "Michel, Reyna’s son, shows his friends a video on his phone. Michel plays drums and is encouraged by his mother to express himself in a positive way through music."
+    },
+    {
+      "src": "hiphop_sl_06.jpg",
+      "alt": "Michel and friends sitting on porch.",
+      "attribution": "Bridgette Cyr",
+      "caption": "Michel, Reyna’s son outside his house with friends and family after school. Reyna hopes her music will inspire Michel to respect and support women."
+    },
+    {
+      "src": "hiphop_sl_07.jpg",
+      "alt": "Renya shows off her tattoo in front of her house which bears the same emblem, a chess queen.",
+      "attribution": "Bridgette Cyr",
+      "caption": "Reyna shows off her tattoo in front of her house which bears the same emblem, a chess queen. Reyna is not only a musician but a visual artist having painted the piece on the front her home as a symbol of strength."
+    },
+    {
+      "src": "hiphop_sl_08.jpg",
+      "alt": "yadira sits in her home.",
+      "attribution": "Kira Dalman",
+      "caption": "Yadira at home watching her favorite show. She frequently buys the “paquete,” a common way for Cubans to consume popular media."
+    },
+    {
+      "src": "hiphop_sl_09.jpg",
+      "alt": "Yadira stands on her roof",
+      "attribution": "Kira Dalman",
+      "caption": "Yadira stands on her roof overlooking her neighborhood after fixing her water tank. She often has issues with consistent water flow which is problematic when doing chores around her house."
+    },
+    {
+      "src": "hiphop_sl_10.jpg",
+      "alt": "Dark room under construction",
+      "attribution": "Kira Dalman",
+      "caption": "La Reyna and La Real are represented by the state-run Agency of Rap. The main office is under construction while a space is created for artists to perform. The Agency represents 34 artists, 6 of which are women."
     }
   ]
 }
