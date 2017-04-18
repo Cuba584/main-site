@@ -208,7 +208,7 @@ a:hover, a:focus {
 #special-thanks {
   background-color: $light-gray;
   color: $medium-gray;
-  text-align: center;
+  text-align: left;
   padding: 20px 0px;
   margin-top: 40px;
   h3 {
@@ -222,6 +222,12 @@ a:hover, a:focus {
   ul{
     list-style-type: none;
   }
+  .row{
+    text-align: left;
+    li{
+      margin-bottom: 4%;
+    }
+  }
 }
 
 .about-cinema-wrapper{
@@ -229,6 +235,7 @@ a:hover, a:focus {
     margin-top:$nav-height;
   }
 }
+
 
 #about-cinemagraph {
    width: 100%;
