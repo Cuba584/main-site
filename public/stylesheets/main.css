@@ -28,7 +28,8 @@ further down on the page or in any of the other .SCSS files.
     background: none;
     background-size: cover;
     color: #F1861B;
-    background-color: #F1861B; } }
+    background-color: #F1861B;
+    height: 45px; } }
 
 .hiphop.nav-title-footer:after {
   content: '';
@@ -116,7 +117,8 @@ further down on the page or in any of the other .SCSS files.
     background: none;
     background-size: cover;
     color: #9BD5BB;
-    background-color: #9BD5BB; } }
+    background-color: #9BD5BB;
+    height: 45px; } }
 
 .dorian.nav-title-footer:after {
   content: '';
@@ -204,7 +206,8 @@ further down on the page or in any of the other .SCSS files.
     background: none;
     background-size: cover;
     color: #A089CE;
-    background-color: #A089CE; } }
+    background-color: #A089CE;
+    height: 45px; } }
 
 .skate.nav-title-footer:after {
   content: '';
@@ -292,7 +295,8 @@ further down on the page or in any of the other .SCSS files.
     background: none;
     background-size: cover;
     color: #F0BD53;
-    background-color: #F0BD53; } }
+    background-color: #F0BD53;
+    height: 45px; } }
 
 .family.nav-title-footer:after {
   content: '';
@@ -380,7 +384,8 @@ further down on the page or in any of the other .SCSS files.
     background: none;
     background-size: cover;
     color: #6EA5C2;
-    background-color: #6EA5C2; } }
+    background-color: #6EA5C2;
+    height: 45px; } }
 
 .harbor.nav-title-footer:after {
   content: '';
@@ -468,7 +473,8 @@ further down on the page or in any of the other .SCSS files.
     background: none;
     background-size: cover;
     color: #997A65;
-    background-color: #997A65; } }
+    background-color: #997A65;
+    height: 45px; } }
 
 .about.nav-title-footer:after {
   content: '';

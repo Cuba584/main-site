@@ -33,6 +33,7 @@ further down on the page or in any of the other .SCSS files.
                     background-size:cover;
                     color: nth($i, 2);
                     background-color: nth($i, 2);
+                    height: 45px;
                   }
             }
             &.nav-title-footer{
