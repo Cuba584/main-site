@@ -4,6 +4,8 @@
   margin-right: auto;
   margin-bottom: 2%;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  line-height: 0.8em;
 }
 
   .interactive-wrapper .poem-hide{
@@ -20,6 +22,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-top: 30px; }
   .interactive-wrapper #section-0, .interactive-wrapper #section-1, .interactive-wrapper #section-2, .interactive-wrapper #section-3, .interactive-wrapper #section-4, .interactive-wrapper #section-5, .interactive-wrapper #section-6 {
     width: 400px;
@@ -56,7 +59,15 @@
   text-align: center;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 1000px){
+  #poem-wrapper #section-0, #poem-wrapper #section-1, #poem-wrapper #section-2, #poem-wrapper #section-3, #poem-wrapper #section-4, #poem-wrapper #section-5, #poem-wrapper #section-6 {
+    margin-top: 3%;
+    width: 100%;
+    font-size: 0.7;
+    line-height: -5px;
+  }
+}
+@media screen and (max-width: 900px){
 
   #poem-wrapper .poem-row{
     flex-direction: column;
@@ -76,7 +87,7 @@
   }
 
   .poem p{
-    line-height: 1em;
-    font-size: 13px;
+    line-height: 1.4em;
+    font-size: 15px;
   }
 }
