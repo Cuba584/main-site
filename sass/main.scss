@@ -486,6 +486,12 @@ nav {
     margin-top: 10px;
     text-align: center;
   }
+
+  .expand-collapse2{
+    text-align: left;
+    margin-top: 3%;
+    cursor: pointer;
+  }
 }
 
 .interactive-wrapper-intro{
@@ -661,13 +667,11 @@ nav {
           width:200px;
         }
       }
-      .sm-icons {
-        display: initial;
-      }
+
     }
 
     .interactive-wrapper-intro p {
-      width: initial; 
+      width: initial;
     }
 
 
@@ -697,6 +701,10 @@ nav {
             margin: 0 0 5px 0;
           }
         }
+      }
+
+      .sm-icons {
+        display: initial;
       }
 
       .wrapper{
