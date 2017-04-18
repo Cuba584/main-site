@@ -862,8 +862,6 @@ nav {
     width: 90vw; }
   nav .logo-wrapper #svg-logo {
     width: 200px; }
-  nav .sm-icons {
-    display: initial; }
   .interactive-wrapper-intro p {
     width: initial; } }
 
@@ -913,6 +911,8 @@ nav {
         height: 2px;
         width: 24px;
         margin: 0 0 5px 0; }
+    nav .sm-icons {
+      display: initial; }
     nav .wrapper {
       width: 90vw;
       align-items: center;

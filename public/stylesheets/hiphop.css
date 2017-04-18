@@ -3,14 +3,21 @@
 #hiphop-wrap {
   display: flex; }
 
+.attribution-hiphop {
+  color: #696969;
+  font-size: 8pt;
+  text-align: right; }
+
 .no-display {
   display: none; }
 
 .hiphop-info {
   background-color: white; }
 
-.modal iframe {
-  max-width: 100%; }
+.modal {
+  z-index: 100; }
+  .modal iframe {
+    max-width: 100%; }
 
 #hiphop-wrap-mobile {
   display: none; }
@@ -21,7 +28,7 @@
     cursor: pointer;
     position: absolute;
     margin-top: 25vh;
-    z-index: 10; }
+    z-index: 1; }
   #hiphop-wrap-mobile button:focus {
     outline: none; }
 
