@@ -50,7 +50,7 @@
       <div id="intro-line"></div>
     <p id="intro-text">
       <% if (espanol) { %>
-      TO TRANSLATE Cuba's youth are bringing in a wave of change. Join us as we journey through Havana through their eyes.
+      Olas de cambio social, económico y político están rizando en Cuba. Ahora, todo lo que es cierto sobre el futuro de la nación es quien determinará: la juventud.
       <% } else { %>
       Waves of social, economic and political change are rippling across Cuba. Now, all that is certain about the nation’s future is who will determine it: the youth.      		<% } %>
       </p>
@@ -59,36 +59,36 @@
     <div class="photo-box" id="family-box">
       <a href="/pages/family<%=URL_LANG%>">
       <div class="overlay-black">
-        <h3>Viva la Familia</h3>
-        <p>Diego and his grandmother find common ground in a changing Cuba</p>
+          <h3><%= espanol ? navSpan[0] : navEng[0] %></h3>
+          <p>Diego and his grandmother find common ground in a changing Cuba</p>
       </div></a>
 
     </div>
     <div class="photo-box" id="dorian-box">
-      <a href="/pages/harbor<%=URL_LANG%>">
+      <a href="/pages/dorian<%=URL_LANG%>">
       <div class="overlay-black">
-        <h3>Cutting Strings</h3>
+          <h3><%= espanol ? navSpan[1] : navEng[1] %></h3>
         <p>A bond of brothers breaks boundaries in communist Cuba</p>
       </div></a>
     </div>
     <div class="photo-box" id="harbor-box">
-      <a href="/pages/dorian<%=URL_LANG%>">
+      <a href="/pages/harbor<%=URL_LANG%>">
       <div class="overlay-black">
-        <h3>Across the Harbor</h3>
+        <h3><%= espanol ? navSpan[2] : navEng[2] %></h3>
         <p>One commute bridges two worlds</p>
       </div></a>
     </div>
     <div class="photo-box" id="hiphop-box">
       <a href="/pages/hiphop<%=URL_LANG%>">
       <div class="overlay-black">
-        <h3>The Real Queens</h3>
+        <h3><%= espanol ? navSpan[3] : navEng[3] %></h3>
         <p>Two rappers challenge stereotypes through their beats</p>
       </div></a>
     </div>
     <div class="photo-box" id="skate-box">
       <a href="/pages/skate<%=URL_LANG%>">
       <div class="overlay-black">
-        <h3>Revolution on Wheels</h3>
+        <h3><%= espanol ? navSpan[4] : navEng[4] %></h3>
         <p>Cuba’s youth refuse to be curbed by tradition</p>
       </div></a>
     </div>
@@ -103,7 +103,7 @@
       </div>
       <div id="about-footer">
       <a href="/about<%=URL_LANG%>">
-        <%= espanol ? navSpan[6] : navEng[6] %>
+        <%= espanol ? navSpan[5] : navEng[5] %>
       </a></li><br>
       </div>
         <div class="sm-icons">
