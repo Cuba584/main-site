@@ -15,49 +15,53 @@ var slideIndex = 0;
 var captionIndex = 0;
 $('#inner-caption').html(captionArray[0]);
 
-    $('.slider-left').on("click swipeleft", function toPrevious() {
-      sliderUl.style.transition = "0.5s left";
-      slideIndex --;
-      var captionIndex = slideIndex;
-      if (slideIndex == 0) {
-        sliderUl.style.left = "-100%";
-      } else if (slideIndex == -1) {
-        sliderUl.style.left = "0%";
-        setTimeout(function() {
-          sliderUl.style.transition = "0s left";
-          sliderUl.style.left = (sliderSections.length - 2) * -100 + '%';
-           slideIndex = sliderSections.length - 3;
-        }, 500);
-        captionIndex = sliderSections.length - 3;
-      }
-      else {
-        sliderUl.style.left = (slideIndex * -100) - 100 + '%';
-      }
-      var currentCaption = captionArray[captionIndex];
-      $('#inner-caption').html(currentCaption);
-    })
+var toPrevious = function(){
+  sliderUl.style.transition = "0.5s left";
+  slideIndex --;
+  var captionIndex = slideIndex;
+  if (slideIndex == 0) {
+    sliderUl.style.left = "-100%";
+  } else if (slideIndex == -1) {
+    sliderUl.style.left = "0%";
+    setTimeout(function() {
+      sliderUl.style.transition = "0s left";
+      sliderUl.style.left = (sliderSections.length - 2) * -100 + '%';
+       slideIndex = sliderSections.length - 3;
+    }, 500);
+    captionIndex = sliderSections.length - 3;
+  }
+  else {
+    sliderUl.style.left = (slideIndex * -100) - 100 + '%';
+  }
+  var currentCaption = captionArray[captionIndex];
+  $('#inner-caption').html(currentCaption);
+}
 
+var toNext = function(){
+  sliderUl.style.transition = "0.5s left";
+  slideIndex ++;
+  var captionIndex = slideIndex;
+  if (slideIndex == 0) {
+    sliderUl.style.left = "-100%";
+  }
+  else if (slideIndex > sliderSections.length - 3) {
+    sliderUl.style.left = (slideIndex * -100) - 100 + '%';
+    setTimeout(function() {
+      sliderUl.style.transition = "0s left";
+      sliderUl.style.left = "-100%";
+       slideIndex = 0;
+    }, 500);
+    captionIndex = 0;
+  }
+  else {
+    sliderUl.style.left = (slideIndex * -100) - 100 + '%';
+  }
+    var currentCaption = captionArray[captionIndex];
+    $('#inner-caption').html(currentCaption);
+}
 
+    $('#custom-slider').on("swipeleft", toPrevious);
+    $('#custom-slider').on("swipeleft", toNext);
 
-    $('.slider-right').on("click swiperight", function toNext() {
-      sliderUl.style.transition = "0.5s left";
-      slideIndex ++;
-      var captionIndex = slideIndex;
-      if (slideIndex == 0) {
-        sliderUl.style.left = "-100%";
-      }
-      else if (slideIndex > sliderSections.length - 3) {
-        sliderUl.style.left = (slideIndex * -100) - 100 + '%';
-        setTimeout(function() {
-          sliderUl.style.transition = "0s left";
-          sliderUl.style.left = "-100%";
-           slideIndex = 0;
-        }, 500);
-        captionIndex = 0;
-      }
-      else {
-        sliderUl.style.left = (slideIndex * -100) - 100 + '%';
-      }
-        var currentCaption = captionArray[captionIndex];
-        $('#inner-caption').html(currentCaption);
-    })
+    $('.slider-left').on("click", toPrevious);
+    $('.slider-right').on("click", toNext);
