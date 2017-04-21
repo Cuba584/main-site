@@ -15,7 +15,7 @@ var slideIndex = 0;
 var captionIndex = 0;
 $('#inner-caption').html(captionArray[0]);
 
-    $('.slider-left').on("click", function toPrevious() {
+    $('.slider-left').on("click swipeleft", function toPrevious() {
       sliderUl.style.transition = "0.5s left";
       slideIndex --;
       var captionIndex = slideIndex;
@@ -39,7 +39,7 @@ $('#inner-caption').html(captionArray[0]);
 
 
 
-    $('.slider-right').on("click", function toNext() {
+    $('.slider-right').on("click swiperight", function toNext() {
       sliderUl.style.transition = "0.5s left";
       slideIndex ++;
       var captionIndex = slideIndex;
