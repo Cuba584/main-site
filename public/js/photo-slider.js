@@ -60,8 +60,8 @@ var toNext = function(){
     $('#inner-caption').html(currentCaption);
 }
 
-    $('#custom-slider').on("swipeleft", toPrevious);
-    $('#custom-slider').on("swipeleft", toNext);
+    $('.slider-section').on("swipeleft", toPrevious);
+    $('.slider-section').on("swipeleft", toNext);
 
     $('.slider-left').on("click", toPrevious);
     $('.slider-right').on("click", toNext);
