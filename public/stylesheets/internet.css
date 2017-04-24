@@ -58,4 +58,7 @@
 
 @media screen and (max-width: 570px) {
   .internet-graphic .fa.fa-male {
-    font-size: 1.2em; } }
+    font-size: 1.2em; }
+  .internet-graphic #country-dropdown {
+    width: 100%;
+    padding-right: 0; } }
