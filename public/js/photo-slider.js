@@ -15,7 +15,8 @@ var slideIndex = 0;
 var captionIndex = 0;
 $('#inner-caption').html(captionArray[0]);
 
-var toPrevious = function(){
+function toPrevious(msg){
+  console.log(msg);
   sliderUl.style.transition = "0.5s left";
   slideIndex --;
   var captionIndex = slideIndex;
@@ -37,7 +38,8 @@ var toPrevious = function(){
   $('#inner-caption').html(currentCaption);
 }
 
-var toNext = function(){
+function toNext(msg){
+  console.log(msg);
   sliderUl.style.transition = "0.5s left";
   slideIndex ++;
   var captionIndex = slideIndex;
@@ -60,8 +62,8 @@ var toNext = function(){
     $('#inner-caption').html(currentCaption);
 }
 
-    $('.slider-section').on("swipeleft", toPrevious);
-    $('.slider-section').on("swipeleft", toNext);
+    // $('.slider-section').on("swipeleft", toPrevious("swipe left"));
+    // $('.slider-section').on("swiperight", toNext("swipe right"));
 
     $('.slider-left').on("click", toPrevious);
     $('.slider-right').on("click", toNext);

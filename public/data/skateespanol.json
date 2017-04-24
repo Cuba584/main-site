@@ -4,11 +4,11 @@
   },
   "cinemagraph": {
     "src": "skate.mp4",
-    "attribution": "Claire Collins"
+    "attribution": "Claire Hannah Collins"
   },
   "header": {
-    "text": "Skate Libre",
-    "subtitle": "Exploring freedom through a non-traditional sport"
+    "text": "Revolución sobre ruedas",
+    "subtitle": "Los jóvenes de Cuba se niegan a ser frenados por la tradición"
   },
   "reporters": [
     {
@@ -17,10 +17,10 @@
   ],
   "videographers": [
     {
-      "name": "Vivian Feldman"
+      "name": "Viviane Feldman"
     },
     {
-      "name": "Claire Collins"
+      "name": "Claire Hannah Collins"
     }
   ],
   "designers": [
@@ -34,33 +34,33 @@
   "text": [
     {
       "type": "text",
-      "value": "On Sunday afternoon El Prado, the smooth, stone promenade that divides Old and Central Havana, is full of life. Painters line the walkway, dipping brushes into the bright yellows and blues that make their art Cuban in the eyes of tourists. Other craftsmen have set up tables and chairs in the middle of the promenade, where they carve small wooden statues or thread colorful beads into bracelets. Ahead, a little closer to the seaside, small children play leapfrog and chase each other on bikes and scooters. Parents and strangers crowd around as a 10-year-old boy lifts and twirls his dance partner, a small girl wearing flat ballet shoes and her hair in a tight bun. She holds her form like someone who’s been dancing for longer than she’s been alive. The air carries the timba beat –trombones, conga drums and the clap, clap… clap of the clave – along with the smell of the Atlantic Ocean toward the heart of the city."
-    },
-    {
-      "type": "text",
-      "value": "A teenager on pink roller blades maneuvers through the dance performance, stopping at a bench crowded with tattooed teens sharing a cigarette. In Cuba, tattooing is illegal in all circumstances, and, without a legal age restriction, it’s not uncommon to see older teens with tattoos they got from an makeshift parlor set up in a dilapidated Havana apartment. At their feet, skateboards scatter the ground. The sound of silicone wheels slapping the marble surface overwhelms the place as skaters land ollies and kickflips and toss their boards onto the hard floor. An 8-year-old boy skates up to a group of guys in their early 20’s, and daps them up like old friends. Age doesn’t seem to be discriminating factor here, and neither does style. Skaters in black share the street with Hawaiian shirts and gym shorts. Here, punk and rock and rasta are all familia. They’ve come to El Prado for a competition, many with twisted ankles or broken boards, happy just to be there witnessing the action."
-    },
-    {
-      "type": "text",
-      "value": "The noise gradually fades and the street clears but for two lone skaters: a tall one with dyed blonde curls peaking out from under a black snapback, and a 12-year-old rolling behind him. All the commotion has stopped, and an ominous quiet sets in. Skaters sit along the walls conversing in hushed voices as two men wearing stiff, gray uniforms and old-fashioned barrettes stroll through El Prado. They walk with purpose, examining the throng of skaters with suspicion, pausing only to speak to the two rebels who continue skating. Finally, they walk away, the two young skaters trailing leisurely behind in a cooperative, but unenthusiastic manner. Just like that, everything goes back to normal. The skaters pile back onto the street, the loud bangs and chatter and laughter filling the air once more. None of the skaters mention the disappearance of their friends or seem concerned about their welfare. And, when two more are taken away 30 minutes later, the reaction is equally indifferent."
-    },
-    {
-      "type": "text",
-      "value": "“When you see police, you sit,” said Junnior Gilberto Terré, 20, who’s perched on a concrete bench rolling a skateboard back and forth with his leg, which is bandaged at the knee. Junnior has come to El Prado to visit friends, chain smoke cigarettes and maybe try out a few tricks now that his knee is healing. It’s been more than a year since he injured it landing a faulty jump and he’s eager to get back in the air."
-    },
-    {
-      "type": "text",
-      "value": "Junnior’s face becomes pensive, his reddish brows scrunch together and his pale cheeks go hollow as he takes a long drag from his cigarette and thinks about his future. He’s been skating since he was 16 years old. Four years of heelflips and boardslides and elbow scrapes and strained muscles. Four years of falling and getting back up and being arrested and paying fines. Like most skaters his age, he dreams of sponsors, the X Games and prize money. But for skaters in his country, it’s likely to remain just that: a dream. In Cuba, you can make a living as a professional boxer, baseball player or ballerina, but for a non-traditionally Cuban sport like skating, there’s no money to be made. Skaters here are going against the grain. The act of skating itself is an expression of freedom. It demonstrates this generation’s ability to break free of the strict traditions found in Cuba. However, despite everything they have overcome in order to skate, they have a long way to go before their dreams of going pro and having the support of Cuban society can become a reality."
+      "value": "On a Sunday afternoon El Prado, the smooth, stone promenade that divides Old and Central Havana, is full of life. Painters line the walkway, dipping brushes into the bright yellows and blues that make their art Cuban in the eyes of tourists. Other craftsmen have set up tables and chairs in the middle of the promenade, where they carve small wooden statues. Parents and strangers crowd around as a 10-year-old boy lifts and twirls his dance partner – a small girl wearing flat ballet shoes, her hair in a tight bun. The air carries the timba beat – trombones, conga drums and the <span class='italic'>clap, clap, clap</span> of the clave – along with the smell of the ocean toward the heart of the city."
     },
     {
       "type": "video",
       "value": {
-        "id": "200984993"
+        "id": "210700371"
       }
     },
     {
       "type": "text",
-      "value": "Donec gravida vestibulum nisl ut ullamcorper. Donec efficitur efficitur feugiat. Pellentesque eu turpis sit amet lectus interdum scelerisque. Nam a mi non ante auctor molestie. Duis ut faucibus ligula, sed viverra magna. Duis id lacus posuere, hendrerit magna vitae, fringilla lectus. Sed pulvinar suscipit convallis."
+      "value": "A teenager on roller blades maneuvers through the dance performance, stopping at a bench crowded with tattooed teens sharing a cigarette. In Cuba, tattooing is illegal, but it’s not uncommon to see older teens with tattoos they got from a makeshift parlor hidden in a dilapidated Havana apartment. At their feet, skateboards scatter the ground. The sound of silicone wheels slapping the marble surface overwhelms the place as skaters land ollies and kickflips and toss their boards onto the hard floor. An 8-year-old boy skates up to a group of guys in their early 20’s and daps them up like old friends. Age doesn’t seem to be a discriminating factor here, and neither does style. Skaters in black share the street with those in Hawaiian shirts and gym shorts. Here, punk and rock and Rasta are all <span class='italic'>familia</span>. They’ve come to El Prado for a competition, many with twisted ankles or broken boards, happy just to be there witnessing the action."
+    },
+    {
+      "type": "text",
+      "value": "The noise gradually fades and the street clears but for two lone skaters: a tall one with dyed blonde curls peeking out from under a black snapback, and a small 12-year-old rolling behind him. All the commotion has stopped, and a still quiet sets in. Skaters sit along the walls conversing in hushed voices as two men wearing stiff, gray uniforms and old-fashioned berets stroll through El Prado. They walk with purpose, examining the throng of skaters with suspicion, pausing only to speak to the two rebels who continued skating. Finally, they walk away, the two young skaters trailing leisurely behind in a cooperative, but unenthusiastic manner. They’re gone. And, just like that, everything goes back to normal. The skaters pile back onto the street. The loud bangs and chatter and laughter fill the air once more. None of the skaters mention the disappearance of their friends or seem concerned about their welfare. When two more are taken away 30 minutes later, the reaction is equally indifferent."
+    },
+    {
+      "type": "text",
+      "value": "“When you see police, you sit,” said Junnior Gilberto Terré, 20, who’s perched on a concrete bench rolling a skateboard back and forth with his bandaged leg. Junnior has come to El Prado to visit friends, chain smoke cigarettes and maybe try out a few tricks now that his knee is healing. It’s been more than a year since he injured it landing a faulty jump and he’s eager to get back in the air."
+    },
+    {
+      "type": "text",
+      "value": "Junnior’s face becomes pensive, his reddish brows scrunch together and his pale cheeks go hollow as he takes a long drag from his cigarette and thinks about his future. He’s been skating since he was 16 years old. Four years of heelflips and boardslides and elbow scrapes and strained muscles. Four years of falling and getting back up and being arrested and paying fines. Like most skaters his age, he dreams of sponsors, the X Games and prize money. But for skaters in his country, it’s likely to remain just that: a dream. In Cuba, you can make a living as a professional boxer, baseball player or ballerina. But, for an untraditional sport like skating, there’s no money to be made."
+    },
+    {
+      "type": "text",
+      "value": "Skaters here are going against the grain. The act of skating itself is an expression of freedom. It demonstrates this generation’s ability to break free of the strict traditions found in Cuba. However, despite everything they have overcome in order to skate, they have a long way to go before their dreams of going pro and having the support of Cuban society can become a reality."
     },
     {
       "type": "subhead",
@@ -70,34 +70,35 @@
     },
     {
       "type": "text",
-      "value": "Seventeen-year-old Cristian Alonzo Stewart traded a pullover, a backpack and a pair of shoes for his first skateboard. And it wasn’t a good one. Cuban skaters can’t simply ride to the skate shop and buy a new pair of Vans when theirs begin to fall apart, or replace the deck they broke grinding on a rail. In Cuba, there are no skate shops. Equipment is usually donated by organizations from other countries and then bartered for and passed around among skaters."
+      "value": "Seventeen-year-old Cristian Alonzo Stewart traded a pullover, a backpack and a pair of shoes for his first skateboard. And it wasn’t a good one. Cuban skaters can’t ride to the skate shop and buy a new pair of Vans when theirs begin to fall apart or replace the deck they broke grinding on a rail. In Cuba there are no skate shops. Equipment is usually donated by organizations from other countries, then bartered for and passed around among skaters."
     },
     {
       "type": "text",
-      "value": "“It’s not like other countries where you can buy shoes or skateboards very easily,” Cristian said. “You need to work hard. Or if you’re lucky and your parents have money you can buy different shoes all the time, but many people here don’t have that possibility.”"
+      "value": "“You need to work hard,” Cristian said. “Or if you’re lucky, and your parents have money, you can buy different shoes all the time, but many people here don’t have that possibility.”"
     },
     {
       "type": "text",
-      "value": "But even if a skater can get hold of the equipment, learning to skate is another challenge. With just ONE [?] skate park in the entire country, there’s no place to cultivate skate talent. In the United States, if skaters want to learn to slide down a stair railing, they start at the skate park, where they learn to jump onto lower rails and gradually improve until they’re ready for the big one. But here, they go straight for the big one and hope they don’t break a bone or, more importantly, a board.  Additionally, there are no professional skaters in the country or other experts to teach skaters advanced moves. They mostly learn from each other, looking up to the best of their peers, like Fabian Lopez and Alvaro Lores who are sponsored by Toda Fuerza, an organization designed specifically to support Havana-based skateboarders."
+      "value": "But even if a skater can get hold of the equipment, learning to skate is another challenge. With just one skate park, <span class='italic'>El Patinodromo</span>, in all of Havana, it’s not easy to cultivate skate talent. In the United States, if skaters want to learn to slide down a stair railing, they start at the skate park, where they learn to jump onto lower rails and gradually improve until they’re ready for the big one. But here they go straight for the real deal and hope they don’t break a bone or, more importantly, a board. There are no professional skaters in the country and no other experts to teach skaters the advanced moves. They mostly learn from each other, looking up to the best of their peers, like Fabian Lopez and Alvaro Lores, who are both sponsored by Toda Fuerza, an organization designed specifically to support Havana-based skateboarders. Sponsors supply Cuban skaters with boards and shoes, but don’t pay enough to constitute a full-time job."
     },
     {
       "type": "text",
-      "value": "El Prado’s flat, polished surface makes it one of the best places to skate in all of Havana. It’s also one of the countless places in this city where skateboarding is prohibited. “The police will ban us one day, and then they will be fine with us the next day,” Cristian said. “They don’t get much respect from skateboarders.” Most of the skaters here have been reprimanded, fined and taken to jail numerous times. But, to them, the worst punishment is a broken board. When the police confiscate a skateboard and return it in two pieces, the skater will have to wait months before a foreigner comes to donate another deck or until he or she has enough saved up to barter for a new board."
+      "value": "El Prado’s flat, polished surface makes it one of the best places to skate in all of Havana. It’s also one of the countless places in this city where skateboarding is prohibited. “The police will ban us one day, and then they will be fine with us the next day,” Cristian said. “They don’t get much respect from skateboarders.” Most of the skaters here have been reprimanded, fined and taken to jail numerous times. Yet, they keep skating."
     },
     {
-      "type": "text",
-      "value": "Talk about jail… police scolding, some days yes some days no... break boards when take to jail"
-    },
-    {
-      "type": "pullquote",
+      "type": "video",
       "value": {
-        "text": "Most of the skaters here have been reprimanded, fined and taken to jail numerous times. But, to them, the worst punishment is a broken board.",
-        "attribution": "Juan Doe"
+        "title": "Explore in 360: Havana’s Streets",
+        "id": "213595525",
+        "is360": "true"
       }
     },
     {
       "type": "text",
-      "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
+      "value": "“If you like something, you do it because you love it,” said Stephanie Borrero, who learned to skate about a year ago when her younger half-brother, Alvaro Lores, proved to be one of the best skaters in Cuba. “No matter what happens, what they’re going to do to you, the threats they give you, you’re going to do it just the same because you like it.”"
+    },
+    {
+      "type": "text",
+      "value": "For these skaters, the worst punishment is a broken board. When the police confiscate a skateboard and return it in two pieces, the skater will have to wait months before a foreigner comes to donate another deck or until he or she has enough saved up to barter for a new board."
     },
     {
       "type": "subhead",
@@ -107,7 +108,29 @@
     },
     {
       "type": "text",
-      "value": "So they wait for foreigners to visit and leave them with a new board and some good tips, and they use up their limited Internet access searching skate tutorials on YouTube. [MENTION PACKET HERE]"
+      "value": "Much of time spent in Cuba is a waiting game. Waiting for friends who show up 30 minutes late, waiting for a bus or a taxi that’s heading in the right direction. Skaters wait for foreigners to visit and leave them with a new board and some good tips. They wait in long lines to purchase a Wi-Fi card, type in the 12-digit number and then wait some more until the page finally loads. They use up their limited internet access searching skate tutorials on YouTube."
+    },
+    {
+      "type": "text",
+      "value": "To avoid the issue of slow internet connection, others turn to <span class='italic'>El Paquete</span>, or The Package. This compilation of over 1 terabyte of content – including international music, television series, soccer games, celebrity gossip, phone apps and YouTube videos of skating tricks – has been uploaded to various hard drives and circulated through Cuba. At a tent-like stand along a busy street, a salesman sits with his computer, ready to pass off a movie or an album to any local with a USB drive and a few <span class='italic'>moneda nacional</span>, the local currency that’s worth roughly 25 to the U.S. dollar. Cubans can find skateboarding videos downloaded from YouTube in a digital folder labeled “Special Interests,” but most of them can’t spare the money (less than $3 USD for the entire terabyte of content). Instead, they circulate videos among themselves that have already been purchased or shared by foreign skaters visiting the area."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/paquete.ejs"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Like many in the United States, the skaters of Havana are constantly recording. They’ll tell you they’re photographers or videographers, but the subject of their work is the same: skateboarders. Using phone cameras they film each other jumping over walls or doing 180 ollies and backside heelflips, then edit the footage together on mobile apps."
+    },
+    {
+      "type": "text",
+      "value": "“To get the boards most of the time we film videos, take photos and upload them to the internet,” Stephanie said. “Many people come from other countries to help us. They’re interested in why so many Cubans skate if they don’t have a place to get the equipment. So they bring them to us. They give them as gifts.”"
+    },
+    {
+      "type": "slider",
+      "value": {}
     },
     {
       "type": "subhead",
@@ -117,45 +140,88 @@
     },
     {
       "type": "text",
-      "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
+      "value": "Although skateboarding seeped into Cuban society back in the 1980s, it’s just now emerging as a mainstream trend for Havana’s youth. Cubans as a whole seem to feel a nationalistic pride for traditional sports, like boxing and baseball. However, the younger generation’s interest in modern sports, like skating, is met with unease. Members of the older generation, who were once young revolutionaries themselves, have trouble relating to their grandchildren’s rebellious desires to dream outside of Cuba."
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "“The best future I could hope for him is that he studies and becomes an older, educated man.”",
+        "attribution": "Mayra Rodriguez"
+      }
     },
     {
       "type": "text",
-      "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
+      "value": "Cristian lives with his grandmother and great-grandmother, who have strong opinions about his obsession with skateboarding. “The best future I could hope for him is that he studies and becomes an older, educated man,” said Mayra Rodriguez, Cristian’s grandmother. “He’s under age – under 18 – and he still doesn’t have a job. That’s why he entertains himself with skateboarding.”"
+    },
+    {
+      "type": "text",
+      "value": "His great-grandmother chimes in, “A skater, that’s all he does. He doesn’t think of studying or going to school.”"
+    },
+    {
+      "type": "text",
+      "value": "While Mayra said she doesn’t mind Cristian skating from time to time, she doesn’t want it to consume his life and sees no future for him in the sport. However, she does support one of Cristian’s more “Cuban” hobbies: painting. She said she wishes he would become a professional painter and even suggested that he paint skateboards as a sort of compromise.  Like most Cubans her age, Mayra sees skating as a game. She can’t imagine it as a refined art or skillful sport that deserves to be taken seriously and has the potential to be a fame-launching career."
     },
     {
       "type": "subhead",
       "value": {
-        "text": "Finding a New Wave on Concrete"
+        "text": "Rolling Forward"
       }
     },
     {
       "type": "text",
-      "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
+      "value": "With or without his family’s approval, Cristian will spend his days riding through Havana and admiring professional skateboarders in other parts of the world. What he has is raw passion. It’s something that can’t be stopped by a grandmother’s reprimands or a slap on the wrist and few hefty fines. A lack of space and supplies and mentors may slow a skater down, but it also drives ingenuity. Cristian and his fellow skaters will always find a way to skate. And, maybe, one day they’ll find a way to do it professionally."
     },
     {
       "type": "text",
-      "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
+      "value": "A bearded man wearing dark sunglasses sits by El Prado, pulling wheels and metal skateboard parts from a backpack. Local skaters swarm around the foreigner, like a flock of gulls plunging toward a piece of bread left on the sand. They take what they can get and ration the gear among themselves before rolling back down the promenade to attach the new parts or practice a trick. They migrate toward Cristian and the other skaters whose boards are still intact, and the group zigzags toward the center of the city."
+    }
+  ],
+  "src": "skate_sl_03.jpg",
+  "alt": "Alvaro Lores jumps onto a bench in a park in Havana.",
+  "attribution": "Claire Hannah Collins",
+  "caption": "Alvaro Lores jumps onto a bench in a park in Havana.",
+  "slider-images": [
+    {
+      "src": "skate_sl_01.jpg",
+      "alt": "William Almeida (right) adjusts his board in a park in Havana, Cuba.",
+      "attribution": "Claire Hannah Collins",
+      "caption": "William Almeida (right) adjusts his board in a park in Havana, Cuba."
     },
     {
-      "type": "subhead",
-      "value": {
-        "text": "Closing Scene"
-      }
+      "src": "skate_sl_04.jpg",
+      "alt": "Two skaters take a selfie with their boards.",
+      "attribution": "Viviane Feldman",
+      "caption": "Nathalie and Juan take a selfie on the Malecón with their skateboards."
     },
     {
-      "type": "text",
-      "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
+      "src": "skate_sl_05.jpg",
+      "alt": "Leuvis Perez (left) and Enzo Valdés skate together in El Prado.",
+      "attribution": "Claire Hannah Collins",
+      "caption": "Leuvis Perez (left) and Enzo Valdés skate together in El Prado."
     },
     {
-      "type": "text",
-      "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
+      "src": "skate_sl_07.jpg",
+      "alt": "Two skaters sit and watch people pass by on the Prado walkway",
+      "attribution": "Viviane Feldman",
+      "caption": "Two members of the skating community watch the pedestrians pass by on the Prado walkway in Old Havana."
     },
     {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/paquete.ejs"
-      }
+      "src": "skate_sl_02.jpg",
+      "alt": "Skaters pause their activities with the presence of police.",
+      "attribution": "Viviane Feldman",
+      "caption": "Police officers repeatedly stop skaters from practicing near the Prado, a historic promenade in Old Havana."
+    },
+    {
+      "src": "skate_sl_08.jpg",
+      "alt": "Skaters sit along the Malecon at sunset.",
+      "attribution": "Viviane Feldman",
+      "caption": "Skaters sit along the Malecón, the main highway in Havana, as the evening winds down. An organized competition was forced to cancel due to police presence earlier that day."
+    },
+    {
+      "src": "skate_sl_09.jpg",
+      "alt": "alt",
+      "attribution": "Claire Hannah Collins",
+      "caption": "Stephanie Borrero stands for a portrait by the Malecón in Havana."
     }
   ]
 }
