@@ -5,8 +5,6 @@ footer {
   background: none;
   padding-top: 2rem;
   padding-bottom: 1.5rem; }
-  footer #about-footer {
-    margin-top: 1.2em; }
   footer .wrapper {
     display: flex;
     flex-flow: row wrap;
