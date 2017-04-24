@@ -29,12 +29,10 @@ $(document).ready(function(){
         console.log(timelineMax)
         var that = $(this)
         if (i == itemLength - 2 && timelinePos > timelineMin + $(this).height() / 2) {
-          console.log('butt')
           timelineSelectors.item.removeClass(timelineSelectors.activeClass);
           /*selectors.id.css("background-image", "url(" + selectors.item.last().find(selectors.img).attr('src') + ")"); */
           timelineSelectors.item.last().addClass(timelineSelectors.activeClass)
         } else if (timelinePos <= timelineMax - 40 && timelinePos >= timelineMin) {
-          console.log('cat')
 
           /*selectors.id.css("background-image", "url(" + $(this).find(selectors.img).attr('src') + ")"); */
           timelineSelectors.item.removeClass(timelineSelectors.activeClass);
