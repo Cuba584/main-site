@@ -1,11 +1,23 @@
 <div class="interactive-wrapper">
   <div class="interactive-wrapper-intro">
-    <h1 class="dorian interactive">The Long Line to Get Online</h1>
-    <p>In Cuba, the national government holds a virtual monopoly on internet access. Citizens, tourists and entrepreneurs alike have to go through <em>La Empresa de Telecomunicaciones de Cuba S.A.</em> (ETECSA), the government-owned telecommunications service provider for the country, to get online.</p>
+    <h1 class="dorian interactive"><%= espanol ? "La línea larga para ponerse en línea": "The Long Line to Get Online" %></h1>
+    <% if (espanol){ %>
+      <p>En Cuba, el gobierno nacional tiene prácticamente el monopolio del acceso a Internet. Tanto los ciudadanos como los turistas y empresarios deben pasar por La Empresa de Telecomunicaciones de Cuba S.A. (ETECSA), el proveedor de servicios de telecomunicaciones estatales del país.</p>
+    <% } else { %>
+      <p>In Cuba, the national government holds a virtual monopoly on internet access. Citizens, tourists and entrepreneurs alike have to go through <em>La Empresa de Telecomunicaciones de Cuba S.A.</em> (ETECSA), the government-owned telecommunications service provider for the country, to get online.</p>
+    <%  } %>
+
+
+
   </div>
 
   <div class="center-wrapper">
-    <img src="assets/images/wifiAccess.png" class="wifi">
+    <% if (espanol){ %>
+      <img src="assets/images/internet/wifiAccess_espanol.png" class="wifi">
+    <% } else { %>
+      <img src="assets/images/internet/wifiAccess.png" class="wifi">
+    <%  } %>
+
   </div>
 
   <div id="internet-slider" class="mobile-only">
@@ -15,37 +27,62 @@
     <ul id="internet-slider-ul">
       <li class="internet-slider-section">
         <div>
-          <img src="assets/images/internet/internet_step_one.png" />
+          <% if (!espanol){ %>
+            <img src="assets/images/internet/internet_step_one.png" />
+          <% } else { %>
+            <img src="assets/images/internet/internet_paso_uno.png" />
+          <%  } %>
+
         </div>
       </li>
 
       <li class="internet-slider-section">
         <div>
-          <img src="assets/images/internet/internet_step_two.png" />
+          <% if (!espanol){ %>
+            <img src="assets/images/internet/internet_step_two.png" />
+          <% } else { %>
+            <img src="assets/images/internet/internet_paso_dos.png" />
+          <%  } %>
         </div>
       </li>
 
       <li  class="internet-slider-section">
         <div>
-          <img src="assets/images/internet/internet_step_three.png" />
+          <% if (!espanol){ %>
+            <img src="assets/images/internet/internet_step_three.png" />
+          <% } else { %>
+            <img src="assets/images/internet/internet_paso_tres.png" />
+          <%  } %>
         </div>
       </li>
 
       <li  class="internet-slider-section">
         <div>
-          <img src="assets/images/internet/internet_step_four.png" />
+          <% if (!espanol){ %>
+            <img src="assets/images/internet/internet_step_four.png" />
+          <% } else { %>
+            <img src="assets/images/internet/internet_paso_cuatro.png" />
+          <%  } %>
         </div>
       </li>
 
       <li  class="internet-slider-section">
         <div>
-          <img src="assets/images/internet/internet_step_five.png" />
+          <% if (!espanol){ %>
+            <img src="assets/images/internet/internet_step_five.png" />
+          <% } else { %>
+            <img src="assets/images/internet/internet_paso_cinco.png" />
+          <%  } %>
         </div>
       </li>
 
       <li  class="internet-slider-section">
         <div>
-          <img src="assets/images/internet/internet_step_six.png" />
+          <% if (!espanol){ %>
+            <img src="assets/images/internet/internet_step_six.png" />
+          <% } else { %>
+            <img src="assets/images/internet/internet_paso_seis.png" />
+          <%  } %>
         </div>
       </li>
     </ul>
