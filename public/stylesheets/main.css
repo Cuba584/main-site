@@ -9,9 +9,12 @@ further down on the page or in any of the other .SCSS files.
 
 .hiphop.title {
   color: #F1861B;
-  width: 70%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto; }
+
+.hiphop.vid-title {
+  font-size: 2.7em; }
 
 .hiphop.interactive {
   color: #F1861B; }
@@ -97,9 +100,12 @@ further down on the page or in any of the other .SCSS files.
 
 .dorian.title {
   color: #9BD5BB;
-  width: 70%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto; }
+
+.dorian.vid-title {
+  font-size: 2.7em; }
 
 .dorian.interactive {
   color: #9BD5BB; }
@@ -185,9 +191,12 @@ further down on the page or in any of the other .SCSS files.
 
 .skate.title {
   color: #A089CE;
-  width: 70%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto; }
+
+.skate.vid-title {
+  font-size: 2.7em; }
 
 .skate.interactive {
   color: #A089CE; }
@@ -273,9 +282,12 @@ further down on the page or in any of the other .SCSS files.
 
 .family.title {
   color: #F0BD53;
-  width: 70%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto; }
+
+.family.vid-title {
+  font-size: 2.7em; }
 
 .family.interactive {
   color: #F0BD53; }
@@ -361,9 +373,12 @@ further down on the page or in any of the other .SCSS files.
 
 .harbor.title {
   color: #6EA5C2;
-  width: 70%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto; }
+
+.harbor.vid-title {
+  font-size: 2.7em; }
 
 .harbor.interactive {
   color: #6EA5C2; }
@@ -449,9 +464,12 @@ further down on the page or in any of the other .SCSS files.
 
 .about.title {
   color: #997A65;
-  width: 70%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto; }
+
+.about.vid-title {
+  font-size: 2.7em; }
 
 .about.interactive {
   color: #997A65; }

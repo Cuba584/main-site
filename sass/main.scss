@@ -13,9 +13,13 @@ further down on the page or in any of the other .SCSS files.
             }
             &.title {
               color: nth($i,2);
-              width: 70%;
+              // width: 70%;
+              width:100%;
               margin-left: auto;
               margin-right: auto;
+            }
+            &.vid-title{
+              font-size:2.7em;
             }
             &.interactive{
               color: nth($i, 2);
