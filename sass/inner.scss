@@ -283,6 +283,7 @@ img.map {
       .video-wrapper{
         width: 100vw!important;
       }
+
       iframe {
         width: 100%;
       }
@@ -298,9 +299,7 @@ img.map {
 
       }
 
-    .vimeo-wrapper {
-      width: 100%;
-    }
+
 
     } // inner
 
@@ -321,6 +320,18 @@ img.map {
 
 
 }
+
+@include media("screen", "<=vimeo-break"){
+  .vimeo-wrapper {
+    width: 100%;
+  }
+
+  .vimeo-wrapper{
+      padding-bottom: 54.9%;
+  }
+
+}
+
 
 @include media("screen", "<=sm"){
   .inner{
@@ -375,6 +386,7 @@ img.map {
     .pull-quote .attribution{
       margin-left: 5px;
     }
+
   }
 
   img.map{
