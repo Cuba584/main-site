@@ -3,10 +3,15 @@
     <h1 class="interactive skate">The Weekly Package</h1>
     <h2 class="interactive skate">Explore what is in the terabyte of content distributed to Cubans every week</h2>
     <p>
-      El paquete semanal, or the weekly package, is used by people all over Cuba, opening their world to outside influences. Explore what's available by clicking the folders below, and read what the people of Cuba have to say about the well-known "paquete".
+      <% if (espanol) { %>
+        Hay muchas cubanos quien usan el paquete para abren su mundo. Explorar lo que está disponible por hacer clic en las carpetas abajo, y leer lo que la gente de Cuba tienen que decir sobre el paquete conocido.
+      <% } else { %>
+        El paquete semanal, or the weekly package, is used by people all over Cuba, opening their world to outside influences. Explore what's available by clicking the folders below, and read what the people of Cuba have to say about the well-known paquete.
+      <% } %>
+
     </p>
 
-        <% include ../interactives/finder.ejs %>
+        <% //include ../interactives/finder.ejs %>
 
 
 

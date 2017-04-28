@@ -13,7 +13,7 @@
       <div class="sidebar">
         <ul class="sidebar__list">
           <li class="sidebar__list-item sidebar__list-item--section">
-            <span class="sidebar__list-name sidebar__list-name--section">Devices</span>
+            <span class="sidebar__list-name sidebar__list-name--section"><%= espanol ? "Dispositivos" : "Devices" %></span>
             <ul class="sidebar__sub-list">
               <li class="sidebar__list-item">
 
@@ -27,10 +27,10 @@
         <!-- categories -->
         <div class="category-container">
             <ul class="file-list">
-              <li class="file-item parent" id="applications"><i class="fa fa-folder" aria-hidden="true"></i>Applications</li>
-              <li class="file-item parent" id="music"><i class="fa fa-folder" aria-hidden="true"></i>Music</li>
-              <li class="file-item parent" id="series"><i class="fa fa-folder" aria-hidden="true"></i>TV Series</li>
-              <li class="file-item parent" id="sports"><i class="fa fa-folder" aria-hidden="true"></i>Weekly Sports</li>
+              <li class="file-item parent" id="applications"><i class="fa fa-folder" aria-hidden="true"></i><%= espanol ? "Aplicaciones" : "Applications" %></li>
+              <li class="file-item parent" id="music"><i class="fa fa-folder" aria-hidden="true"></i><%= espanol ? "Música" : "Music" %></li>
+              <li class="file-item parent" id="series"><i class="fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "TV Series" %></li>
+              <li class="file-item parent" id="sports"><i class="fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Weekly Sports" %></li>
               <li class="file-item parent" id="youtube"><i class="fa fa-folder" aria-hidden="true"></i>YouTube</li>
 
             </ul>
@@ -41,17 +41,17 @@
           <!-- Applications -->
 
           <ul class="file-list" id="sub-apps">
-            <li class="file-item parent" id="android"><i class="fa fa-folder" aria-hidden="true"></i>Android Applications</li>
-            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>iOS Applications</li>
+            <li class="file-item parent" id="android"><i class="fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Android Applications" %></li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "iOS Applications" %></li>
           </ul>
 
           <!-- Music -->
           <ul class="file-list" id="sub-music">
-            <li class="file-item parent" id="international"><i class="fa fa-folder" aria-hidden="true"></i>International Music</li>
-            <li class="file-item parent" id="music-vids"><i class="fa fa-folder" aria-hidden="true"></i>Music Videos</li>
-            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>CDs</li>
-            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>National Music</li>
-            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Unreleased Music</li>
+            <li class="file-item parent" id="international"><i class="fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "International Music" %></li>
+            <li class="file-item parent" id="music-vids"><i class="fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Music Videos" %></li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "CDs" : "CDs" %></li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "National Music" %></li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Unreleased Music" %></li>
           </ul>
 
           <!-- Series -->
@@ -67,7 +67,7 @@
           <!-- Sports -->
           <ul class="file-list" id="sub-sport">
             <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Boxing</li>
-            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Cubans in MLB</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "Cubanos en MLB" : "Cubans in MLB" %></li>
             <li class="file-item parent" id="soccer"><i class="fa fa-folder" aria-hidden="true"></i>Soccer</li>
             <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>MLB</li>
             <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>NBA</li>
@@ -78,15 +78,15 @@
 
           <!-- Youtube -->
           <ul class="file-list is-active" id="sub-tube">
-            <li class="file-item parent" id="fashion"><i class="fa fa-folder" aria-hidden="true"></i>Fashion and Beauty</li>
-            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Soccer Videos</li>
-            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Skating Videos</li>
-            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Gossip and Showbiz</li>
-            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Animals</li>
-            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Cooking</li>
-            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Exercise</li>
-            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Magic</li>
-            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Technology</li>
+            <li class="file-item parent" id="fashion"><i class="fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Fashion and Beauty" %></li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Soccer Videos" %></li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Skating Videos" %></li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Gossip and Showbiz" %></li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Animals" %></li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Cooking" %></li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Exercise" %></li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Magic" %></li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Technology" %></li>
           </ul>
         </div>
 
@@ -96,18 +96,18 @@
 
           <!-- Applications -->
           <ul class="file-list is-active" id="files-apps">
-            <li class="file-item">Four in a Row</li>
-            <li class="file-item is-active">English-Spanish Dictionary</li>
-            <li class="file-item">Screen Off and Lock</li>
-            <li class="file-item">Assassins Creed</li>
-            <li class="file-item">Minesweeper</li>
-            <li class="file-item">Panorama</li>
+            <li class="file-item"><%= espanol ? "SPANISH" : "Four in a Row" %></li>
+            <li class="file-item is-active"><%= espanol ? "SPANISH" : "English-Spanish Dictionary" %></li>
+            <li class="file-item"><%= espanol ? "SPANISH" : "Screen Off and Lock" %></li>
+            <li class="file-item"><%= espanol ? "SPANISH" : "Assassins Creed" %></li>
+            <li class="file-item"><%= espanol ? "SPANISH" : "Minesweeper" %></li>
+            <li class="file-item"><%= espanol ? "SPANISH" : "Panorama" %></li>
           </ul>
 
           <!-- International Music -->
           <ul class="file-list is-active" id="files-music">
-            <li class="file-item is-active">Dance Vol.2</li>
-            <li class="file-item">Dance Vol.3</li>
+            <li class="file-item is-active"><%= espanol ? "SPANISH" : "Dance Vol.2" %></li>
+            <li class="file-item"><%= espanol ? "SPANISH" : "Dance Vol.3" %></li>
             <li class="file-item">Drake and Future</li>
             <li class="file-item">Taylor Swift</li>
           </ul>
@@ -162,7 +162,7 @@
       <div class="sidebar">
         <ul class="sidebar__list">
           <li class="sidebar__list-item sidebar__list-item--section">
-            <span class="sidebar__list-name sidebar__list-name--section">Devices
+            <span class="sidebar__list-name sidebar__list-name--section"><%= espanol ? "SPANISH" : "Devices" %>
               <span id="pkt-device"><i class="fa-hdd-o fa icon" aria-hidden="true"></i>
                 PKT (D:)
               </span>
@@ -174,32 +174,32 @@
       <div class="finder-main mobile">
         <!-- Applications -->
         <div class="mobile-toggle file-item parent" id="apps-mobile">
-          <i class="fa fa-folder" aria-hidden="true"></i><span>Applications</span>
+          <i class="fa fa-folder" aria-hidden="true"></i><span><%= espanol ? "SPANISH" : "Applications" %></span>
         </div>
         <!-- Sub Apps -->
         <div class="file-list" id="sub-apps-mobile">
-          <li class="file-item parent" id="android-mobile"><i class="fa fa-folder" aria-hidden="true"></i>Android Applications</li>
+          <li class="file-item parent" id="android-mobile"><i class="fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Android Applications" %></li>
           <!-- Files Apps -->
           <ul class="file-list" id="files-apps-mobile">
-            <li class="file-item">Four in a Row</li>
-            <li class="file-item">English-Spanish Dictionary</li>
-            <li class="file-item">Screen Off and Lock</li>
-            <li class="file-item">Assassins Creed</li>
-            <li class="file-item">Minesweeper</li>
-            <li class="file-item">Panorama</li>
+            <li class="file-item"><%= espanol ? "SPANISH" : "Four in a Row" %></li>
+            <li class="file-item"><%= espanol ? "SPANISH" : "English-Spanish Dictionary" %></li>
+            <li class="file-item"><%= espanol ? "SPANISH" : "Screen Off and Lock" %></li>
+            <li class="file-item"><%= espanol ? "SPANISH" : "Assassins Creed" %></li>
+            <li class="file-item"><%= espanol ? "SPANISH" : "Minesweeper" %></li>
+            <li class="file-item"><%= espanol ? "SPANISH" : "Panorama" %></li>
           </ul>
-          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>iOS Applications</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "iOS Applications" %></li>
         </div>
 
 
         <!-- Music -->
         <div class="mobile-toggle file-item parent" id="music-mobile">
-          <i class="fa fa-folder" aria-hidden="true"></i>Music
+          <i class="fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Music" %>
         </div>
         <!-- Sub Music -->
         <div class="file-list" id="sub-music-mobile">
           <ul class="file-list" id="sub-music">
-            <li class="file-item parent" id="international-mobile"><i class="fa fa-folder" aria-hidden="true"></i>International Music</li>
+            <li class="file-item parent" id="international-mobile"><i class="fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "International Music" %></li>
             <!-- International Music -->
             <ul class="file-list" id="files-music-mobile">
               <li class="file-item">Dance Vol.2</li>
@@ -273,7 +273,7 @@
         </div>
         <!-- subcategories youtube -->
         <ul class="file-list" id="sub-tube-mobile">
-          <li class="file-item parent" id="fashion-mobile"><i class="fa fa-folder" aria-hidden="true"></i>Fashion and Beauty</li>
+          <li class="file-item parent" id="fashion-mobile"><i class="fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Fashion and Beauty" %></li>
           <!-- files youtube -->
           <ul class="file-list" id="files-tube-mobile">
             <li class="file-item">Academia Anatassia</li>
@@ -282,14 +282,14 @@
             <li class="file-item">For Him</li>
             <li class="file-item">For Her</li>
           </ul>
-          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Soccer Videos</li>
-          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Skating Videos</li>
-          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Gossip and Showbiz</li>
-          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Animals</li>
-          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Cooking</li>
-          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Exercise</li>
-          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Magic</li>
-          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Technology</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>%= espanol ? "SPANISH" : "Soccer Videos" %></li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>%= espanol ? "SPANISH" : "Skating Videos" %></li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>%= espanol ? "SPANISH" : "Gossip and Showbiz" %></li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Animals" %></li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Cooking" %></li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Exercise" %></li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Magic" %></li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i><%= espanol ? "SPANISH" : "Technology" %></li>
         </ul>
 
       </div>
@@ -301,7 +301,8 @@
     <div id="intro-info">
       <hr id="info-intro-bar"></hr>
       <p>
-        Click on a folder to see what kind of content you can find in the packet.
+        <%= espanol ? "SPANISH" : "Click on a folder to see what kind of content you can find in the packet." %>
+
       </p>
     </div>
 
@@ -313,11 +314,11 @@
       </div>
       <hr id="info-cat-bar"></hr>
       <h3>
-        Phone Applications
+        <%= espanol ? "SPANISH" : "Phone Applications" %>
       </h3>
       <p>
-        Cubans can get new apps without going through the tiresome process
-        necessary to gain access to the internet.
+        <%= espanol ? "SPANISH" : "Cubans can get new apps without going through the tiresome process necessary to gain access to the internet." %>
+
       </p>
     </div>
 
@@ -329,11 +330,11 @@
       </div>
       <hr id="info-cat-bar"></hr>
       <h3>
-        Music
+        <%= espanol ? "Música" : "Music" %>
       </h3>
       <p>
-        Cubans love music. It's the most popular item in the package. Many Cubans learn English through listening to songs from the United States
-        and the UK that are only available through the package.
+        <%= espanol ? "SPANISH" : "Cubans love music. It's the most popular item in the package. Many Cubans learn English through listening to songs from the United States and the UK that are only available through the package." %>
+
       </p>
     </div>
 
@@ -348,11 +349,12 @@
       </div>
       <hr id="info-cat-bar"></hr>
       <h3>
-        TV Series
+        <%= espanol ? "SPANISH" : "TV Series" %>
       </h3>
       <p>
-        Shows streamed on state-owned TV channels are edited to omit sexual and controversial content. The package
-        allows Cubans to see the unedited versions that are available in other countries.
+          <%= espanol ? "SPANISH" : "Shows streamed on state-owned TV channels are edited to omit sexual and controversial content. The package
+          allows Cubans to see the unedited versions that are available in other countries." %>
+
       </p>
     </div>
 
@@ -366,11 +368,11 @@
       </div>
       <hr id="info-cat-bar"></hr>
       <h3>
-        Sports
+        <%= espanol ? "Deportes" : "Sports" %>
       </h3>
       <p>
-        A new package is distributed to vendors weekly with entirely new content. Cubans can stay up to date with sports by watching games right after
-        they happen.
+        <%= espanol ? "SPANISH" : "A new package is distributed to vendors weekly with entirely new content. Cubans can stay up to date with sports by watching games right after they happen." %>
+
       </p>
     </div>
 
@@ -384,9 +386,8 @@
         YouTube
       </h3>
       <p>
-        Cubans stay in tune with internet culture through downloaded YouTube channels.
-        People walk around Cuba wearing elaborate makeup that they learned from
-        YouTube tutorials in the package.
+        <%= espanol ? "SPANISH" : "Cubans stay in tune with internet culture through downloaded YouTube channels. People walk around Cuba wearing elaborate makeup that they learned from YouTube tutorials in the package." %>
+
       </p>
     </div>
   </div>
