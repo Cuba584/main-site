@@ -39,7 +39,8 @@
     {
       "type": "video",
       "value": {
-        "id": "210700371"
+        "id": "215055744",
+        "is360": "false"
       }
     },
     {
@@ -87,7 +88,7 @@
     {
       "type": "video",
       "value": {
-        "title": "Explore in 360: Havana’s Streets",
+        "title": "Explorar en 360: Las calles de Havana",
         "id": "213595525",
         "is360": "true"
       }
