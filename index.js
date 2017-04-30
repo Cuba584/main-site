@@ -55,7 +55,7 @@ app.get('/pages/:id', function(req, res){
   } else {
     bodyData = JSON.parse(fs.readFileSync('./public/data/' + pageName + '.json'));
   }
-    res.render('pages/inner', {navEng: navEnglish, navSpan: navSpanish, internet: internetData, body: bodyData, page: '/pages/' + pageName, espanol: isEspanol(req)});
+    res.render('pages/inner', {pageName: pageName, navEng: navEnglish, navSpan: navSpanish, internet: internetData, body: bodyData, page: '/pages/' + pageName, espanol: isEspanol(req)});
 });
 
 app.get('*', function(request, response){
