@@ -4,6 +4,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center; }
+  .internet-graphic .attribution {
+    font-size: 8pt;
+    float: right; }
   .internet-graphic h3, .internet-graphic .country-ratio {
     font-size: 1.75em;
     margin: 1.2em 0 5pt 0;
