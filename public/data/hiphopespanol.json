@@ -7,8 +7,9 @@
     "attribution": "Kira Dalman"
   },
   "header": {
-    "text": "The Agency of Rap",
-    "subtitle": "Social issues are front and center"
+    "text": "Las reinas verdaderas",
+    "seo": "Dos raperas en La Habana, Cuba desafían los estereotipos a través de sus ritmos",
+    "subtitle": "Dos raperas desafían los estereotipos a través de sus ritmos"
   },
   "reporters": [
     {
@@ -28,100 +29,107 @@
       "name": "Kate Boyd"
     },
     {
-      "name": "Mary Claire (MC) Brogden"
+      "name": "Mary Claire Brogden"
     }
   ],
   "text": [
     {
       "type": "text",
-      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum nibh imperdiet dolor maximus tempor. Morbi at dui et sem semper rhoncus eget vel ex. Nulla ante mi, maximus quis risus ut, egestas gravida lacus. Donec ornare finibus lectus gravida egestas. Cras lobortis ultricies massa, id luctus risus semper vitae. Suspendisse sodales mauris sed ex malesuada porta. Praesent a commodo mi, ut convallis lacus. Vivamus rhoncus velit vel arcu efficitur, id blandit libero dictum. Etiam vitae velit turpis. Nunc quis imperdiet erat. Nulla sodales eros at erat lacinia eleifend. Aliquam erat volutpat. Maecenas enim lectus, facilisis ac suscipit a, dictum nec dui. Sed in lectus aliquet, tristique sem id, convallis neque."
+      "value": "Un olor fuerte está escapando de una olla pequeña encima de una vieja cocina cubana."
+    },
+    {
+      "type": "text",
+      "value": "Reyna Hernandez Sandoval está en el otra cuarto tratando de meter su pelo trenzado en una moño encima de la cabeza. El arroz que estaba quemándose en la cocina no le importaba – ella está preparándose para salir. Es rapera y forma parte de un dúo con su mejor amiga Yadira Pintado Lazcano. Pero en Habana se conocen por sus nombres artísticos: La Reyna y La Real."
+    },
+    {
+      "type": "text",
+      "value": "El arroz encima de la cocina no está completamente desatendido. Últimamente, ha sida la inspiración de ella y de Yadira. ¿A quién le importa si la cena está chamuscada? ¿Y por qué tienen que ser ellas que la cocinan? Alguien más puede hacerla. Ese concepto inspiró el nombre de una de sus canciones recientes: “Que se queme el arroz”. Es una declaración. Es una protesta."
     },
     {
       "type": "video",
       "value": {
-        "id": "200984993"
+        "id": "215059043",
+        "is360": "false"
       }
-    },
-    {
-      "type": "text",
-      "value": "Donec gravida vestibulum nisl ut ullamcorper. Donec efficitur efficitur feugiat. Pellentesque eu turpis sit amet lectus interdum scelerisque. Nam a mi non ante auctor molestie. Duis ut faucibus ligula, sed viverra magna. Duis id lacus posuere, hendrerit magna vitae, fringilla lectus. Sed pulvinar suscipit convallis."
     },
     {
       "type": "subhead",
       "value": {
-        "text": "Burning Rice"
+        "text": "Un género de protesta"
       }
     },
     {
       "type": "text",
-      "value": "I.               The lede should grab attention with the idea of burning rice — letting the kitchen go by the wayside, letting “maternal” responsibilities go to follow what you really want to do."
+      "value": "Aunque el rap es un género emergente de la música cubana, Alberto Faya, estimado profesor de la cultura cubana en la Universidad de Habana, dice que la música siempre ha sido integral al desarrollo cultural del país, específicamente al proceso de la transculturación. Cuando culturas distintas se mezclan a través del tiempo para formar una identidad unida, es la transculturación. Es también la transculturación que produjo Son, la fusión de los tambores de los esclavos africanos y los instrumentos de cuerda introducidos por los españoles. La música cubana, según Faya, depende de la incorporación y adaptación de los sonidos extranjeros para seguir evolucionando."
+    },
+    {
+      "type": "slider",
+      "value": {}
     },
     {
       "type": "text",
-      "value": "II.             Expanding into hip hop and rap in Cuba"
+      "value": "Por eso es que Faya, 73, y muchos otros cubanos de su edad no prefieren el rap – según ellos, en lugar de incorporar los géneros extranjeros y mezclarlos con la música cubana, el rap es más una imitación de la música estadounidense. El hip hop se hizo popular en Cuba durante el Segundo Periodo, cuando la Unión Soviética se cayó, dejando a Cuba en un estado desesperado. Fue durante esta época en los años 90 cuando los jóvenes empezaron a rapear sobre sus quejas con el gobierno."
     },
     {
       "type": "text",
-      "value": "III.           Narrowing in on all female rap groups in Cuba"
+      "value": "“El rap se trata de la protesta,” dice Reyna."
     },
     {
       "type": "text",
-      "value": "-       It’s a genre of protest"
+      "value": "Pero en un país comunista, ¿cómo efectiva es la protesta?"
     },
     {
       "type": "text",
-      "value": "-       Down with chauvinism (?)"
+      "value": "En el año 2002, el gobierno Cubano creó la Agencia Cubana de Rap. La agencia ayuda con la publicidad de los artistas, pero sigue siendo una manera en la que el gobierno puede vigilarlos. Ser una parte de la agencia no es obligatorio. Es competitivo, y a pesar de que Reyna y Yadira están en el grupo ahora, no lograron entrar la primera vez que intentaron. Tratar de ser un rapero exitoso sin la publicidad gratuita otorgada por la agencia no es pan comido."
     },
     {
       "type": "text",
-      "value": "IV.           Their music is more than looking at a problem, it’s also about looking at a solution (12:54)"
+      "value": "Reyna y Yadira, ambos 31, dicen que nunca han sentido ninguna presión de la agencia para cambiar las letras de sus canciones, pero la agencia ha sido criticada en el pasado para regular las letras y los estilos de otros artistas más atrevidos."
     },
     {
       "type": "text",
-      "value": "-       Bring in Moises’ info – it’s a genre of protest, but it’s positive protest."
-    },
-    {
-      "type": "text",
-      "value": "-       Their generation of rappers is much more optimistic – they don’t blame the “system,” they blame their own work ethics, they can work their way out of situations"
-    },
-    {
-      "type": "text",
-      "value": "V.             The future?"
+      "value": "Como Geoff Baker discute en su libro, “‘La Habana Que No Conoces’: Cuban Rap and the Social Construction of Urban Space,” la agencia ha creado un tipo de divergencia entre los artistas de rap en Cuba. Hay un contraste entre los “rappers clandestinos que elegir ‘conseguir su línea’ a pesar de la falta de visibilidad comercial,” versus “‘rappers comerciales que han cambiado de táctica para que sacar provecho del auge de reggaetón.”"
     },
     {
       "type": "pullquote",
       "value": {
-        "text": "Donec in euismod lectus, eget sollicitudin ante. Cras porta sapien quis finibus pulvinar.",
-        "attribution": "Juan Doe"
+        "text": "“Rap es un género de protesta.”",
+        "attribution": "Reyna Hernandez Sandoval"
+      }
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "“Si yo puedo hacerlo, pueden hacerlo.”"
       }
     },
     {
       "type": "text",
-      "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
+      "value": "Reyna y Yadira no siempre tenían sueños de ser rappers. Yadira era una trabajadora social durante unos años, y Reyna estaba en camino convertirse una ingeniera química cuando un bebé interrumpió sus planes — un hijo, Miguel, ahora tiene nueve años y quiere ser un rapper, también. Pocos años después de ser una mamá, decidió a perseguir la música."
     },
     {
       "type": "text",
-      "value": "Suspendisse potenti. Quisque luctus faucibus dolor quis egestas. Integer fermentum arcu nulla, id finibus diam molestie condimentum. Aenean ullamcorper ultrices tellus quis vulputate. Proin dictum sem nisi, id iaculis mauris vehicula vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero arcu, bibendum ac arcu non, tincidunt ullamcorper leo."
+      "value": "Fue Moises Whittaker Alvarez quien ayudó a unirlas en 2012, ahora el único jefe con que nunca han trabajado. Les conocía como ejecutantes individuales, pero algo sobre sus estilos — la manera que pueden representar tan ferozmente su “música de protesta,” sino también llenar cualquier habitación con risa instantánea y luz — le dijeron que, aunque no conocían uno al otro, se necesitaban uno al otro."
     },
     {
       "type": "text",
-      "value": "Quisque ultrices, arcu sed lobortis ullamcorper, purus ex egestas justo, at faucibus orci diam et quam. Nullam volutpat ullamcorper arcu eu imperdiet. Maecenas euismod libero eget pharetra pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra neque ut magna semper, id dictum eros consequat. Nullam mollis neque ac odio pellentesque sagittis. Proin ornare nunc sed velit lobortis, ut convallis sapien efficitur. Donec elementum felis ut ligula convallis, vel faucibus arcu tempor. Aenean mollis id ante sed ornare. Mauris non porta magna, eu lacinia mauris. Nulla facilisi."
+      "value": "Tienen un optimismo que impulsa su música; en un género de protesta, sí, pero es una protesta contra el pesimismo que en ocasiones siente como inunda las perspectivas de los Cubanos. Demasiados Cubanos culpan a los conflictos de su país para cualquiera dificultad que experimentan, dijo Moises, y eso crea nada pero la complacencia. Rap es avanzar con atrevimiento, no mirar al pasado para diagnosticar el presente pero trabajar duro asegurar un futuro cumplimiento."
+    },
+    {
+      "type": "video",
+      "value": {
+        "title": "Explore in 360: Moises Alvarez’s Studio",
+        "id": "213599399",
+        "is360": "true"
+      }
     },
     {
       "type": "text",
-      "value": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec dapibus mi et rutrum hendrerit. Quisque orci nisl, ornare id eros at, posuere accumsan purus. Donec dignissim magna id tincidunt faucibus. Proin venenatis justo ut metus vehicula sagittis. Nulla facilisi. Nunc hendrerit ornare justo, in imperdiet ligula pharetra quis. Duis mauris velit, rutrum mollis vestibulum ac, maximus sed purus."
+      "value": "“Estamos tratando de enseñar otra gente que, si puedo hacerlo, pueden hacerlo,” dijo Moises. “No importa cómo te pasan las cosas — conviertes todos esas malas cosas en cosas buenas.”"
     },
     {
       "type": "text",
-      "value": "Donec pulvinar arcu odio, sodales dignissim neque varius eget. Vivamus pretium risus sit amet ornare efficitur. Nullam ullamcorper turpis quis nisi molestie faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras pharetra eros ut augue convallis cursus. Mauris pharetra dolor quis libero pellentesque finibus. Nunc mollis consectetur enim, eget pellentesque quam tristique non. Maecenas id faucibus enim. Nunc feugiat est vitae vulputate condimentum. Nulla feugiat lectus magna, id dignissim massa elementum at. Phasellus turpis diam, mollis varius commodo sed, efficitur ut orci."
-    },
-    {
-      "type": "text",
-      "value": "Nam scelerisque massa ut dolor maximus consectetur. Quisque maximus in turpis eu condimentum. Donec eget laoreet augue, et ullamcorper enim. Mauris eu elit at justo mattis mattis eu at mauris. Praesent cursus fringilla quam eu hendrerit. Vestibulum vel enim vel tellus vehicula faucibus et eget leo. Nullam facilisis ante sed diam pulvinar, at hendrerit augue viverra. Curabitur in orci aliquam, imperdiet tortor et, fringilla lectus. Morbi dapibus in mauris non fringilla. Morbi urna urna, tempus eu lacinia at, tempus et nisl. Fusce in ex elementum, eleifend magna quis, ultrices neque. Suspendisse imperdiet at sapien sagittis gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam viverra consectetur tortor, vitae tempus mauris volutpat et. Nunc auctor magna a nisl vulputate, vitae consequat justo euismod. Donec hendrerit lorem id volutpat euismod."
-    },
-    {
-      "type": "text",
-      "value": "Ut vehicula tortor id leo mattis, tincidunt pharetra lacus dapibus. Aliquam quis sem metus. Nulla volutpat dignissim ex nec tempor. Nulla facilisi. Integer congue aliquet mi in sollicitudin. Vestibulum ut sem tempus, luctus arcu at, faucibus mi. Nam in quam tortor. Ut euismod ornare maximus. Aenean finibus, neque sit amet ullamcorper tempor, ipsum magna dictum orci, sit amet rhoncus augue dolor eget ligula. Cras sem tellus, egestas sit amet risus dictum, sagittis feugiat massa. Aenean efficitur justo eu mauris facilisis, non mollis quam euismod. Vivamus vitae fermentum arcu. Praesent sagittis efficitur neque, ultrices facilisis nibh feugiat non. Vestibulum sed arcu ut velit ullamcorper pulvinar."
+      "value": "Reyna y Yadira rap sobre vida real: Sus dificultades, sus triunfos, sus relaciones, todo. Pero hacen eso mientras quedan optimista y empoderar otras mujeres, también. Reconocen una disparidad de mujeres en rap que esperan cambiar — en los 34 artistas que trabajan en la agencia de rap, hay seis mujeres."
     },
     {
       "type": "interactive",
@@ -131,7 +139,73 @@
     },
     {
       "type": "text",
-      "value": "Vestibulum dapibus gravida interdum. Etiam convallis feugiat urna, vel fermentum libero vestibulum quis. Sed quam ipsum, dapibus at suscipit eget, placerat eu lorem. Nunc vulputate enim eros, ut consequat diam scelerisque non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ornare dolor vel ante sodales bibendum at sed dolor. Vestibulum at purus euismod, suscipit lorem eleifend, varius massa. Nullam vel vestibulum turpis, ut pulvinar lorem."
+      "value": "El sonido de Cuba está desarrollando — tal vez transculturación nunca para. Pero Reyna y Yadira no quieren olvidar las tradiciones del pasado de Cuba; en vez, están aprendiendo cómo traer las partes mejores de la historia de Cuba al futuro, preparar otras mujeres con empoderamiento a dejar escuchar sus voces."
+    },
+    {
+      "type": "text",
+      "value": "Sí todavía están cocinando arroz para la cena, tal vez arroz con pollo o arroz a la cubana los platos tradicionales cubanos que crecieron comiendo. Pero hoy en día, está bien dejarlo quemar. Tiene un sabor mejor así."
+    }
+  ],
+  "slider-images": [
+    {
+      "src": "hiphop_sl_01.jpg",
+      "alt": "Reyna in the studio",
+      "attribution": "Anna Clare Spelman",
+      "caption": "Reyna Mercedes Hernadez Sandoval (La Reyna) practica en el estudio en la casa de su agente, Moisés Whittaker Alvarez."
+    },
+    {
+      "src": "hiphop_sl_02.jpg",
+      "alt": "Yadira stands in the doorframe of her home.",
+      "attribution": "Kira Dalman",
+      "caption": "Yadira Pintado Lazcano (La Real) se sitúa en su casa. Una mitad del dúo popular de rap, La Reyna y La Real, se dedica a su música y trabaja cada día para mejorarse."
+    },
+    {
+      "src": "hiphop_sl_03.jpg",
+      "alt": "Yadira mops her living room floor.",
+      "attribution": "Kira Dalman",
+      "caption": "Yadira Pintado Lazcano friega el suelo de su salón."
+    },
+    {
+      "src": "hiphop_sl_04.jpg",
+      "alt": "Reyna works out.",
+      "attribution": "Kira Dalman",
+      "caption": "Reyna se ejercita varias veces por semana, frecuentemente con Yadira. Mantenerse en forma le importa porque le ayuda prepara para cantar en público."
+    },
+    {
+      "src": "hiphop_sl_05.jpg",
+      "alt": "Group of children, Reyna and Yadira watch a video on Michel’s phone.",
+      "attribution": "Kira Dalman",
+      "caption": "Michel, el hijo de Reyan, enseña a sus amigos un video en su móvil. Michel toca la batería y su madre le anima expresarse en una manera positiva a través de su música."
+    },
+    {
+      "src": "hiphop_sl_06.jpg",
+      "alt": "Michel and friends sitting on porch.",
+      "attribution": "Bridgette Cyr",
+      "caption": "Michel afuera de su casa con amigos y familia después del día escolar."
+    },
+    {
+      "src": "hiphop_sl_07.jpg",
+      "alt": "Reyna shows off her tattoo in front of her house which bears the same emblem, a chess queen.",
+      "attribution": "Bridgette Cyr",
+      "caption": "Reyna enseña su tatuaje enfrente de su casa que tiene el mismo emblema, una reina de ajedrez. Reyna no solo es músico sino también una artista visual. Pintó el símbolo en la pared de su casa."
+    },
+    {
+      "src": "hiphop_sl_08.jpg",
+      "alt": "yadira sits in her home.",
+      "attribution": "Kira Dalman",
+      "caption": "Yadira en su casa mira su programa de televisión favorito. Frecuentemente compra “el paquete,” una manera común en que los cubanos consumen los medios de comunicación populares."
+    },
+    {
+      "src": "hiphop_sl_09.jpg",
+      "alt": "Yadira stands on her roof",
+      "attribution": "Kira Dalman",
+      "caption": "Yadira en su techo con una vista de su barrio después de arreglar su depósito de agua."
+    },
+    {
+      "src": "hiphop_sl_10.jpg",
+      "alt": "Dark room under construction",
+      "attribution": "Kira Dalman",
+      "caption": "La Reyna and La Real son representadas por la Agencia de Rap. La oficina principal está en construcción mientras construye un espacio para los artistas. La Agencia representa a 34 artistas, incluso 6 mujeres."
     }
   ]
 }

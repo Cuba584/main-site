@@ -7,8 +7,9 @@
     "attribution": "Rob Gourley"
   },
   "header": {
-    "text": "Across the Harbor",
-    "subtitle": "A journey across race, economics, and water"
+    "text": "Cruzando la bahía",
+    "seo": "Cruzando la bahía: Un joven cubano que trabaja en el turismo puentes dos mundos a través de su viaje diario a Regla",
+    "subtitle": "Un conmute puentea dos mundos"
   },
   "reporters": [
     {
@@ -31,162 +32,319 @@
   "text": [
     {
       "type": "text",
-      "value": "It’s 11:37 p.m. — did he read that right? Orlando Méndez is exhausted, hunched over friends in the middle of the dance floor, but his tired brown eyes flicker to life when he realizes how late it is. He says frantic goodbyes, quick kisses on both cheeks flying through the air as he bolts out of Fábrica de Arte Cubano, a warehouse now transformed into one of Havana’s most well-known nightclubs. He scans the street for a taxi, his dark skin no longer livened by blankets of blue and green light from inside the club — everything feels dim now that he’s competing with the clock. The street is painted with old American cars in every pigment of pastel. Orlando chooses a classic Cuban ride, a baby blue Chevy born in 1956, somehow finding the driver who’s an old friend — or maybe they’re meeting for the first time, with Orlando you’re never quite sure.  “Llevame a la lanchita de Regla,” he tells the driver."
+      "value": "Son las 11:37 de la noche — ¿lo leyó correctamente? Orlando Ochoa Méndez está agotado, encorvado por sus amigos en la discoteca, pero sus ojos cansados iluminan cuando se da cuenta de la hora. Se despide frenéticamente, besos vuelan por el aire mientras se va de la Fábrica de Arte Cubanoa, un almacén que hoy en día es uno de las más conocidas de las discotecas de la Habana. Busca el calle para pedir un taxi, su piel negro oscuro sin las luces de la discoteca — el mundo aparece tenue durante su lucha con el reloj. Orlando elige un coche cubano clásico, un Chevy de 1956. De alguna manera, el conductor es un amigo bueno - o quizás Orlando y él se conocen por primera vez, con Orlando nunca se sabe. “Llévame a la lanchita de Regla,” dice al conductor."
     },
     {
       "type": "text",
-      "value": "He has to get to the Regla ferry by midnight."
-    },
-    {
-      "type": "text",
-      "value": "He’s rattling off directions to his driver in Spanish — the Cuban kind, which seems to have no break for a breath and sounds more like a song than a sentence. The taxi roars with every accelerating lunge, a symptom of the vehicle’s age, as it winds around the edges of the ocean that confront the city’s border. Most drivers sigh when they hear a destination requires this route — the spritzes of ocean saltwater that often shower onto the street rust the cars — but Orlando’s driver surges forward without fearing the waves — speed limits are a loose suggestion here."
-    },
-    {
-      "type": "text",
-      "value": "This rush is for Regla, a borough of the city where Orlando lives with his parents. While still technically a part of the greater Havana area, Regla feels far more removed than a five-minute ferry ride. The star that pinpoints Havana as the country’s capital on any given map of Cuba stamps right over the harbor one must cross to reach Regla. But these regions cannot be so simply merged — the star extinguishes Regla’s individuality, its smokestacks that hint at its industrial past, its streets blemished with missing chunks of cement and its homes with the undertones of faded Cuban color now stained with soot. There’s less urgency on this side of the harbor; in Regla, time is another suggestion of sorts. Orlando knows that while the final ferry home is always scheduled to leave Havana’s port at 12:15 a.m., any set-in-stone schedule is subjective, and the ferry driver often decides to leave at whatever time will get him home fastest, even if it’s the wrong one."
-    },
-    {
-      "type": "text",
-      "value": "Orlando is used to this hustle. He has spent the last 15 hours on his feet, working in the heart of Havana as a tour coordinator, carting visitors — recently, more Americans — around his island country. Scheduling tours, enduring endless Hola’s with a little too much H, hailing convertible cabs so visitors can fully feel that Cuban breeze, reserving restaurants, reserving new restaurants when visitors decide they actually wanted something different — this is an hour of Orlando’s day at work. But on the other side of the harbor, the side Orlando is now racing toward, it’s different. Any utterance of English sounds sour in Regla; unlike Old Havana, there are no sun-screened map holders drifting through the streets and hardly any old cars roaming to scoop those tourists up. And as Orlando says goodnight to Havana every night by retreating into Regla, he says goodnight to a part of himself he won’t see again until morning."
-    },
-    {
-      "type": "text",
-      "value": "But even after reaching Regla, there’s something about Orlando that makes him an outlier on this side of the harbor, a part of him that his job in Havana has altered, though it’s hard to pinpoint what, exactly. Maybe it’s the collared shirts — he buys all his clothes in America, he says — or his enigmatic energy that feels out of place in Regla’s sleepy streets, or the fact that, unlike some of his Reglan neighbors, Orlando could afford to take a taxi around the harbor back home if he were to miss the boat. But there’s something about Orlando that sticks out — something that, despite years of living with his parents in this neighborhood, or how obviously Cuban his Spanish is, feels foreign to the rest of Regla."
-    },
-    {
-      "type": "text",
-      "value": "Since December 2014, the doors that have kept Americans from traveling to Cuba for over 50 years have begun to crack open, ushering in an era of tourism for the country that this generation of Cubans has never known. These jobs in tourism are changing families, introducing new household dynamics as children make more money than their parents ever thought plausible. It’s forcing this generation of young workers to reconcile the hardships of their youth — like the “Special Period” of economic collapse in Cuba during the 1990s — with a now-tangible notion of hope that lives in Havana. Beyond lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
+      "value": "Tiene que llegar a la lanchita de Regla para la medianoche."
     },
     {
       "type": "video",
       "value": {
-        "id": "200984993"
+        "id": "215067004",
+        "is360": "false"
       }
     },
     {
       "type": "text",
-      "value": "Donec gravida vestibulum nisl ut ullamcorper. Donec efficitur efficitur feugiat. Pellentesque eu turpis sit amet lectus interdum scelerisque. Nam a mi non ante auctor molestie. Duis ut faucibus ligula, sed viverra magna. Duis id lacus posuere, hendrerit magna vitae, fringilla lectus. Sed pulvinar suscipit convallis."
+      "value": "Da direcciones al conductor en español - el español cubano, que suena más como una canción que una frase. El taxi ruge con cada embestida, un síntoma de la edad del vehículo, mientras serpentea cerca del borde de las olas que luchan con la frontera de la ciudad."
+    },
+    {
+      "type": "text",
+      "value": "Este viaje es para Regla, el barrio en que vive Orlando con sus padres. Aunque sea una parte del área de la Habana, Regla se siente más lejos de un viaje de cinco minutos en la lanchita. La estrella que indica Havana, la capital de Cuba, en el mapa cubre la bahía que divide las dos zonas distintas. Esta estrella extingue la individualidad de Regla, sus chimeneas que insinúan su pasado industrial, sus calles con cachos perdidos de cemento, y sus casa cubiertas con hollín. Hay menos urgencia en este lado de la bahía; en Relga, el tiempo es una sugerencia. Orlando sabe que aunque la última lancha sale de la Habana a las 12:15 de la madrugada, muchas veces el capitán decide salir temprano para que pueda llegar a casa más temprano."
+    },
+    {
+      "type": "map",
+      "value": {
+        "src": "harborMap.png"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Está acostumbrado a la prisa. El coordinador de tours tiene 28 años y ha pasado las últimas 15 horas de pie, guiando visitantes — recientemente, más estadounidenses — por su país. Superando “Hola’s” con demasiado “H,” pidiendo taxis para que los visitantes puedan sentir la brisa cubana, reservando restaurantes, reservando otros restaurantes cuando deciden los visitantes que quieren algo diferent — esta es una hora de su trabajo."
+    },
+    {
+      "type": "text",
+      "value": "Pero en el otro lado de la bahía, es diferent. Y cuando se despide Orlando a la Habana cada noche, se despide una parte de su mismo que no verá otra veza hasta la mañana."
+    },
+    {
+      "type": "video",
+      "value": {
+        "title": "Explorar en 360: el commute de Orlando",
+        "id": "213020533",
+        "is360": "true"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Cuando llega a Regla, hay algo sobre Orlando que siente fuera de lugar, una parte de su mismo que ha cambiado por su trabajo en la Habana Vieja. Quizás son las camisas — compra toda su ropa de los Estados Unidos, dice — o su energía carismática que siente extranjera en las calles tranquilas de Regla. O quizás es el hecho que, a diferencia de sus vecinos, Orlando tendría bastante dinero para pedir un taxi si no llegara a la lanchita a tiempo."
+    },
+    {
+      "type": "text",
+      "value": "“Me siento como la gente de mi barrio me conoce, y es raro,” dice. “Pero no siempre conozco sus nombres.”"
+    },
+    {
+      "type": "text",
+      "value": "Desde el diciembre de 2014, las puertas que han restringido la entrada de los estadounidenses a Cuba han empezado a abrir. Este cambio marca el inicio de una época de turismo que los cubanos nunca han conocido. Los empleos nuevos van cambiando las familias, introduciendo dinámicos nuevos del hogar mientras los niños van ganando más dinero que sus padres han imaginado. Obliga a esta generación nueva de trabajadores a reconciliar el apuro de su niñez — el período especial de colapso económico durante la década del noventa — con la noción de esperanza que habita la Habana."
+    },
+    {
+      "type": "text",
+      "value": "Además a los precios bajados de vuelas, coches antiguos, ron y cigarros, además a las maneras en que el turismo va a influir la economía cubana, la industria del turismo va cambiando las vidas de los cubanos que la hace funcionar, los cubanos que van cruzando la bahía."
     },
     {
       "type": "subhead",
       "value": {
-        "text": "Tourism"
+        "text": "Una noción de normalidad"
       }
     },
     {
       "type": "text",
-      "value": "How is it changing Cuba? What will happen to Havana – what does Orlando think will happen to Regla? Move this section up higher. It’s the reason why Regla has become a bedroom community for the tourist workers. Cheaper and more affordable for people to live in and only across the harbor.  OR—put this right after the nut graf and talk about the industry growing"
+      "value": "El 17 de diciembre 2017, quince palabras inglesas cambiaron la relación entre dos países que han sido separados durante 53 años."
     },
     {
       "type": "text",
-      "value": "How is it changing Cuba? What will happen to Havana – what does Orlando think will happen to Regla? Move this section up higher. It’s the reason why Regla has become a bedroom community for the tourist workers. Cheaper and more affordable for people to live in and only across the harbor.  OR—put this right after the nut graf and talk about the industry growing"
+      "value": "“Hoy, los Estados Unidos de América está cambiando su relación con la gente de Cuba.”"
     },
     {
       "type": "text",
-      "value": "How is it changing Cuba? What will happen to Havana – what does Orlando think will happen to Regla? Move this section up higher. It’s the reason why Regla has become a bedroom community for the tourist workers. Cheaper and more affordable for people to live in and only across the harbor.  OR—put this right after the nut graf and talk about the industry growing"
-    },
-    {
-      "type": "pullquote",
-      "value": {
-        "text": "Orlando",
-        "attribution": "Orlando Méndez"
-      }
-    },
-    {
-      "type": "subhead",
-      "value": {
-        "text": "Regla and Cinderella People"
-      }
+      "value": "Aunque el presidente anterior Obama no detalló la logística de esta nueva relación en su discurso, los dos países sabían que, por primera vez en más que 50 años, hará una noción de normalidad entre las naciones. Hoy, el trabajo de Orlando depende del éxito de la industria que va ampliando cada día debido a esas quince palabras: el turismo."
     },
     {
       "type": "text",
-      "value": "What are they like? Who are they?"
+      "value": "El turismo en Cuba existía durante el período de separación de Cuba y los EEUU — los canadienses, españoles y italianos son algunos de los visitantes más populosos — pero ahora, es una industria que cambia rápidamente mientras las aerolíneas traen más estadounidenses. En 2015, el gobierno cubano reportó que 145.000 estadounidenses viajaron a Cuba — un aumento de 79 por ciento del año anterior. El turismo de visitantes de todas partes va aumentando también — más que dos millones de viajeros visitaron a Cuba durante la mitad primera del año 2016, un aumento de 11,7 por ciento del año 2015, según la Oficina Nacional de Estadística e Información de Cuba (ONEI)."
     },
     {
       "type": "text",
-      "value": "Sleepy couples cuddle up on benches, American movie plays, green walls, windy, dark, small conversations, headphones"
+      "value": "Aunque la puerta que deja de entrar los estadounidenses va abriendo, todavía no ha abrido completamente - para entrar al país, los ciudadanos de los EEUU tienen que declarar una de las doce razones publicadas por la Oficina del Control de los Valores Extranjeros (OFAC), una oficina del Departamento del Tesoro de los EEUU que impone las sanciones. Estas razones incluyen visitas familiares, actividad periodística, actividad educacional y humanitaria, pero según el tesoro, un viajero no puede visitar a Cuba solamente para el turismo."
+    },
+    {
+      "type": "slider",
+      "value": {}
     },
     {
       "type": "text",
-      "value": "Coming back from nights out, working"
+      "value": "Pero esta no impide que los Americanos frecuenten las atracciones típicas cuando llegan al país, como visitar museos, comer en paladares, y disfrutar de un viaje por el Malecón. Por esta razón — el hecho de que el turismo no se puede controlar — la industria en que labora Orlando va logrando, aunque sus consecuencias se sienten en una parte muy específica del país: la Haban Vieja."
     },
     {
       "type": "text",
-      "value": "What does it look like?"
+      "value": "“Es la parte más atractiva de la ciudad,” dice Orlando. “Pues, todo se ha desarrolado allá — llanamente todas las oportunidades pasarán allá, ¿no?”"
     },
     {
       "type": "text",
-      "value": "What do the homes look like?"
+      "value": "Y quizás esa explica porque Regla ha transformado en una habitación para la Habana Vieja, el barrio quieto en que pueden relajarse los cubanos al fin de un día larga en la ciudad. Lugares como Regla tienen poco para mostrar, dice, o así cree la gente. Es la razón porque los cubanos doblan sus cabezas cuando ven los estadounidenses en la lancha a Regla — ¿porque quieren visitar a Regla?"
     },
     {
       "type": "text",
-      "value": "History of Regla – old history, new history, demography make up, income, race, the *money used here is different – maybe introduce CUCs in the beginning and talk about monera here"
-    },
-    {
-      "type": "subhead",
-      "value": {
-        "text": "Regla and Cinderella People"
-      }
+      "value": "“Regla es menos abarrotada que la Habana, mucho más quieto  — menos gentrificada,” dice Orlando. Aunque piensa que muy pronto los visitantes verán el encanto de Regla, no pasa ahora. “No hay turismo allá,” dice, “Todavía no.”"
     },
     {
       "type": "text",
-      "value": "What are they like? Who are they?"
-    },
-    {
-      "type": "text",
-      "value": "Sleepy couples cuddle up on benches, American movie plays, green walls, windy, dark, small conversations, headphones"
-    },
-    {
-      "type": "text",
-      "value": "Coming back from nights out, working"
-    },
-    {
-      "type": "text",
-      "value": "What does it look like?"
-    },
-    {
-      "type": "text",
-      "value": "What do the homes look like?"
-    },
-    {
-      "type": "text",
-      "value": "History of Regla – old history, new history, demography make up, income, race, the *money used here is different – maybe introduce CUCs in the beginning and talk about monera here"
-    },
-    {
-      "type": "text",
-      "value": "Donec pulvinar arcu odio, sodales dignissim neque varius eget. Vivamus pretium risus sit amet ornare efficitur. Nullam ullamcorper turpis quis nisi molestie faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras pharetra eros ut augue convallis cursus. Mauris pharetra dolor quis libero pellentesque finibus. Nunc mollis consectetur enim, eget pellentesque quam tristique non. Maecenas id faucibus enim. Nunc feugiat est vitae vulputate condimentum. Nulla feugiat lectus magna, id dignissim massa elementum at. Phasellus turpis diam, mollis varius commodo sed, efficitur ut orci."
-    },
-    {
-      "type": "text",
-      "value": "Nam scelerisque massa ut dolor maximus consectetur. Quisque maximus in turpis eu condimentum. Donec eget laoreet augue, et ullamcorper enim. Mauris eu elit at justo mattis mattis eu at mauris. Praesent cursus fringilla quam eu hendrerit. Vestibulum vel enim vel tellus vehicula faucibus et eget leo. Nullam facilisis ante sed diam pulvinar, at hendrerit augue viverra. Curabitur in orci aliquam, imperdiet tortor et, fringilla lectus. Morbi dapibus in mauris non fringilla. Morbi urna urna, tempus eu lacinia at, tempus et nisl. Fusce in ex elementum, eleifend magna quis, ultrices neque. Suspendisse imperdiet at sapien sagittis gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam viverra consectetur tortor, vitae tempus mauris volutpat et. Nunc auctor magna a nisl vulputate, vitae consequat justo euismod. Donec hendrerit lorem id volutpat euismod."
-    },
-    {
-      "type": "text",
-      "value": "Ut vehicula tortor id leo mattis, tincidunt pharetra lacus dapibus. Aliquam quis sem metus. Nulla volutpat dignissim ex nec tempor. Nulla facilisi. Integer congue aliquet mi in sollicitudin. Vestibulum ut sem tempus, luctus arcu at, faucibus mi. Nam in quam tortor. Ut euismod ornare maximus. Aenean finibus, neque sit amet ullamcorper tempor, ipsum magna dictum orci, sit amet rhoncus augue dolor eget ligula. Cras sem tellus, egestas sit amet risus dictum, sagittis feugiat massa. Aenean efficitur justo eu mauris facilisis, non mollis quam euismod. Vivamus vitae fermentum arcu. Praesent sagittis efficitur neque, ultrices facilisis nibh feugiat non. Vestibulum sed arcu ut velit ullamcorper pulvinar."
-    },
-    {
-      "type": "text",
-      "value": "Vestibulum dapibus gravida interdum. Etiam convallis feugiat urna, vel fermentum libero vestibulum quis. Sed quam ipsum, dapibus at suscipit eget, placerat eu lorem. Nunc vulputate enim eros, ut consequat diam scelerisque non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ornare dolor vel ante sodales bibendum at sed dolor. Vestibulum at purus euismod, suscipit lorem eleifend, varius massa. Nullam vel vestibulum turpis, ut pulvinar lorem."
-    },
-    {
-      "type": "subhead",
-      "value": {
-        "text": "Regla in the news"
-      }
-    },
-    {
-      "type": "text",
-      "value": "In 1954 The New Yorker released an article about the small across-the-harbor district of Regla, Cuba. The article featured the following poem by Philip Murray, which invokes vivid illustrations of the Regla of the past. While economic and racial diversity has increased in Regla in the last sixty years, echoes of Murray's Regla resonate with the modern day municipality."
-    },
-    {
-      "type": "text",
-      "value": "Click the audio to hear Havana resident Luis Miguel Luis Miguel Yllobre Peña read Regla, Cuba by Philip Murray and explore the sights of Regla that have stood the test of time."
+      "value": "La disparidad tiene dos lados; visitantes no viajan a Regla, pero la gente de Regla no sale, tampoco. Orlando es su vagabundo, un residente temporal que cruza a la Habana Vieja cada día y colecta reliquias del mundo externo para compartir con su comunidad. ¿Como es Santiago? ¿Los Angeles? ¿Los Estados Unidos? La mayoría de estas preguntas vienen de los viejos, los cubanos que se sienten en otro mundo que los fanáticos de Facebook que llegan a su país. Preguntan a Orlando, y está feliz sirviendo como una venta al resto del mundo."
     },
     {
       "type": "interactive",
       "value": {
-        "filename": "interactives/poem.ejs"
+        "filename": "interactives/poemEspanol.ejs"
       }
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "The $1,000 glisten"
+      }
+    },
+    {
+      "type": "text",
+      "value": "<span class='italic'>If you had one shot…</span>"
+    },
+    {
+      "type": "text",
+      "value": "“If you had one shot,” Orlando repite a su público de uno: El reflejo en el espejo de su habitación."
+    },
+    {
+      "type": "text",
+      "value": "<span class='italic'>…or one opportunity, to seize everything you ever wanted in one moment…</span>"
+    },
+    {
+      "type": "text",
+      "value": "“Opp-or-tune-ih-tee,” — cinco sílabos. Esa es difícil."
+    },
+    {
+      "type": "text",
+      "value": "<span class='italic'>…would you capture it or just let it slip?</span>"
+    },
+    {
+      "type": "text",
+      "value": "Aparta la mirada del espejo, su pecho se hunde con un suspiro. No ha impresionado a su público —  lo intenta otra vez, rebobina la canción “Lose Yourself” por Eminem al inicio. A él le ha gustado el rap estadounidense hace unos años, aunque recientemente sus amigos se han burlado de su gusto en la música. “Escuchas a este rapero estadounidense — no entiendes lo que dice,” burlan. Y tienen razón. Aparece raro practicar las líricas que no se entiende."
+    },
+    {
+      "type": "text",
+      "value": "¿Porque no aprender el ingles?"
+    },
+    {
+      "type": "text",
+      "value": "La música era — es —su Biblia, dice. El rap le ayudaba a aprender un idioma que muchos de sus vecinos no entienden; le alimentaba durante dos años de servicio militar obligatorio. El hip-hop estadounidense servía como un evasión de su niñez duro, pero también le ayudaba expandir su mente y entender un país solo 90 millas de distancia que a veces parece otro mundo."
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "“La gente no me reconoce —creen que soy alguien diferente.”",
+        "attribution": "Orlando Méndez"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Orlando empezó a aprender el ingles hace una década. Hoy habla el idioma con fluidez, aún lleva su amor de hip-hop un paso más allá por rapear en Havana, aunque hoy está demasiado ocupado con su trabajo. El inglés es una ventaja que, aunque es necesario para su trabajo, es uno de los factores que confunde su identidad cubana. Las molestias de la gente intentando a vender cigarros a los turistas afectan a Orlando también. Dice que la gente no le reconoce, “Creen que soy de otro lugar,” dice. Le gusta convertirlo en un juego — habla en un acento estadounidense para ver si su camarero lo cree. Siempre lo cree."
+    },
+    {
+      "type": "text",
+      "value": "Pero a veces, puede sentirse triste. Si, es divertido pasar por la aduana rápidamente porque habla bien el inglés, dice, pero es difícil explicarse todo el tiempo. Es difícil no encajar bien con su comunidad."
+    },
+    {
+      "type": "text",
+      "value": "Orlando no pasa mucho tiempo preocupándose de la manera en que la gente le percibe — está tan ocupado, y es evidente. Siempre bosteza, aún en la mediodía, con ojos mojados que parpadean lentamente.  Antes de aceptar su posición como un coordinador de viajes, Orlando sabía que tendría que trabajar más que en el pasado. Empieza la mayoría de sus mañanas antes de que salga el sol, y termina sus noches entrando a su apartamento silenciosamente para no despertar sus padres, palpando en la oscuridad después de otro día laboral de dos cifras."
+    },
+    {
+      "type": "text",
+      "value": "Como su niño, la puerta de los Méndez se destaca. Todavía está envuelta en celofán, protegiendo una capa nueva de pintura cereza oscura que brilla entre las puertas erosionadas que la rodean. Debido al ingreso de Orlando, su familia puede permitirse de estas renovaciones. Su padre, Orlando Sr., mueve por el apartamento como un niño en la Navidad cuando enseña los suelos nuevos. Son tasados en 1.000 dólares."
+    },
+    {
+      "type": "text",
+      "value": "Orlando Sr. no quería el gasto grande al inicio. “Dijo, ‘No podemos pagarlo,’” recuerda Orlando. “Y yo dije ‘Papá, está bien. Yo tengo el dinero.’ Yo creo que esto fue el momento en que entendí que, económicamente, era yo el alfa de la familia.”"
+    },
+    {
+      "type": "text",
+      "value": "Orlando no siempre ha soñado de ser el sustentador — so sabía que un día trabajaría en una industria de turismo floreciente; no sabía que ganaría 200 veces el salario de su padre."
+    },
+    {
+      "type": "text",
+      "value": "Empresas privadas como el empleador de Orlando pagan sus empleados en el peso convertible cubano (CUC), que vale 25 veces más que un peso tradicional, la moneda que recibe Orlando Sr. para su trabajo."
+    },
+    {
+      "type": "text",
+      "value": "“Creo que su vida va a ser mucho más próspera que la mía,” dice Orlando Sr. sobre su hijo. “No creo que tendrá que superar los mismos desafíos.”"
+    },
+    {
+      "type": "text",
+      "value": "Orlando no prefiere discutir el dinero que gana, no le gusta vanagloriarse. Su madre piensa que es bueno — Orlando dice que a veces ella dice que quiere una plantalla plana — pero a veces su padre aparece triste sobre la situación. Orlando recuerda a ellos que no es su propio dinero, pero el dinero de la familia. Eso es porque paga por lujos como suelos nuevos y una puerta nueva — son renovaciones prácticas, sí, pero ponen otra vez en sitio el destello de felicidad en los ojos de su padre porque tiene un propósito por primera vez desde su jubilación. Para Orlando, el destello de 1.000 dólares no es con sobreprecio."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "interactives/moneysliderEspanol.ejs"
+      }
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "“Porque somos creativos”"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Solo han pasado ocho horas, pero Orlando ya está en la lancha otra vez. Su brazo dobla en un “L” perfecto mientras agarra la barandilla. Articula las palabras de una canción de Kendrick Lamar que transmite en sus audífonos."
+    },
+    {
+      "type": "text",
+      "value": "Su viaje por la lancha en la mañana también sirve como la calabaza mágica para Cinderellas incontables, con paradas de azúl y blanco y un suelo verde erosionado. Tiene el espacio de un salón — una comparación apropiada, porque casi vive aquí — con personajes de cualquier edad, sus ojos mirando a la Habana Vieja mientras la lancha se acerca a la estación."
+    },
+    {
+      "type": "text",
+      "value": "Orlando está en el camino para recoger a un grupo de estadounidenses que van a visitar su país esta semana. Dice que muchos de los visitantes que conoce tienen preconceptos de cómo es Cuba antes de llegar — los coches antiguos, acceso restringido al mundo externo — y deciden que el país está atascado en el pasado."
+    },
+    {
+      "type": "text",
+      "value": "No tienen razón."
+    },
+    {
+      "type": "text",
+      "value": "“Cómo piensas que los coches siguen funcionando?” pregunta. “Porque somos creativos.”"
+    },
+    {
+      "type": "text",
+      "value": "Esta creatividad vive en los jóvenes ahora — es un rasgo genético como sus rasgos físicos. Es lo que motiva a un niño sin dinero a aprender el inglés para divertirse, a conseguir un trabajo que puede sostener su familia con seguridad en un país que no siempre ha sido tan seguro. En la misma manera que los vecinos de Orlando saben quien es por verlo, el resto del mundo está vigilando a Cuba — como va a crecer, como el acceso estadounidense influirá a la isla, como va a cambiar."
+    },
+    {
+      "type": "text",
+      "value": "Como el pasado tumultuoso de Cuba influirá su futuro."
+    },
+    {
+      "type": "text",
+      "value": "Orlando no sabe como sus dos mundos van a fusionarse en los años que vienen. Pero para hoy, está bien. Hay una lancha que los puede puentear para él."
+    }
+  ],
+  "slider-images": [
+    {
+      "src": "harbor_sl_01.jpg",
+      "alt": "Un niño en la lancha de la Habana, Cuba",
+      "attribution": "Robert Gourley",
+      "caption": "Yosue Soto viaja por la lancha desde la Habana para asistir a la escuela en Regla, Cuba, mientras sale el sol."
+    },
+    {
+      "src": "harbor_sl_02.jpg",
+      "alt": "La estación antigua de la lancha en Regla",
+      "attribution": "Robert Gourley",
+      "caption": "La estación antigua de la lancha de Regla en el primero plano plan y un crucero en el fondo. La lancha matutina lleva los pasajeros a Regla."
+    },
+    {
+      "src": "harbor_sl_03.jpg",
+      "alt": "Un pescador trabajando en la Habana",
+      "attribution": "Veasey Conway",
+      "caption": "Pescando para pescardos, un pescador trabaja en la bahía de la Habana en Regla entre las ruinas de la estación antigua."
+    },
+    {
+      "src": "harbor_sl_04.jpg",
+      "alt": "Flores en la bahía de la Habana",
+      "attribution": "Robert Gourley",
+      "caption": "Flores tirados en el agua durante un ritual de Santería flotan en la bahía con la Habana Vieja en el fondo."
+    },
+    {
+      "src": "harbor_sl_05.jpg",
+      "alt": "Regla, Havana, Cuba",
+      "attribution": "Veasey Conway",
+      "caption": "El visto del barrio de Regla desde la Colina Lenin. The neighborhood of Regla is seen from Lenin Hill. “Regla es conocido por hacer gente fuerte,” dijo Orlando Méndez."
+    },
+    {
+      "src": "harbor_sl_06.jpg",
+      "alt": "Girl skips with family in Regla, Havana, Cuba",
+      "attribution": "Veasey Conway",
+      "caption": "A young girl skips along with her parents after stepping off the ferry in Regla. The ferry represents a lifeline for Regla residents -- it transports professionals and schoolchildren alike."
+    },
+    {
+      "src": "harbor_sl_07.jpg",
+      "alt": "Niños juegan en un estacionamiento en Regla",
+      "attribution": "Robert Gourley",
+      "caption": "Hombres jóvenes juegan en un estacionamiento en la Colina “Lenin” en Regla."
+    },
+    {
+      "src": "harbor_sl_08.jpg",
+      "alt": "Cuban boys use payphones in Regla, Havana, Cuba",
+      "attribution": "Veasey Conway",
+      "caption": "Uniformed boys use payphones on a streetcorner in Regla. While payphones are nearly extinct in the United States, the colorful bulb-shaped hoods are common sights around Havana."
+    },
+    {
+      "src": "harbor_sl_09.jpg",
+      "alt": "Horse grazes near Lenin Hill in Regla, Havana, Cuba",
+      "attribution": "Veasey Conway",
+      "caption": "Un caballo pasta cerca de la Colina “Lenin.” En Regla, como otras partes de la Habana, las modas de transportación incluyen bicicletas, coches, y coches de caballo."
+    },
+    {
+      "src": "harbor_sl_10.jpg",
+      "alt": "Un hombre se apoya en un busto de Vladimir Lenin en Regla, Havana, Cuba",
+      "attribution": "Veasey Conway",
+      "caption": "Ángel se apoya en un busto de Vladimir Lenin mientras un grupo de amigos juego el fútbol. En el día del funeral de Lenin en 1924, miles de cubanos vinieron a la colina."
+    },
+    {
+      "src": "harbor_sl_11.jpg",
+      "alt": "Man rides morning ferry to Regla, Cuba",
+      "attribution": "Robert Gourley",
+      "caption": "Un hombre viaja por la lancha en la mañana."
+    },
+    {
+      "src": "harbor_sl_12.jpg",
+      "alt": "Una exposición larga de Regla en la noche",
+      "attribution": "Robert Gourley",
+      "caption": "Un autobús maneja en las calles de Regla."
     }
   ]
 }
