@@ -13,21 +13,11 @@
   // var where = currentPage.lastIndexOf('/');
   // var cleanPage = currentPage.substring(where+1);
   </script>
-  <meta property="og:image" content="http://cubayouth.herokuapp.com/assets/images/features/<%= pageName %>.jpg" />
-  <% if (page.includes('harbor')){ %>
-    <title>Across the Harbor: A young Cuban who works in tourism commutes daily from Regla - Cuba's New Wave</title>
-  <% } else if (page.includes('dorian')){ %>
-    <title>Cutting Edge: A trendsetting entrepreneur opens a hair salon in Havana, Cuba - Cuba's New Wave</title>
-  <% } else if (page.includes('family')){ %>
-    <title>Viva La Familia: Diego and his grandmother find common ground in a changing Cuba - Cuba's New Wave</title>
-  <%   } else if (page.includes('hiphop')){ %>
-    <title>The Real Queens: A multimedia feature about two female hip-hop artists in Havana, Cuba - Cuba's New Wave</title>
-  <%   } else if (page.includes('skate')){ %>
-    <title>Revolution on Wheels: A brother and sister in Havana, Cuba pursue their dreams as skateboarders - Cuba's New Wave</title>
-  <%   } else { %>
-    <title>Cuba’s New Wave: Multimedia Feature from UNC School of Media and Journalism - Cuba's New Wave</title>
-  <% } %>
+  <meta property="og:image" content="http://cubasnewwave.com/assets/images/features/<%= body["master-class"]["class"] %>.jpg" />
+  <meta property="og:site_name" content="<%= espanol ? "Nueva ola de cuba":"Cuba\'s New Wave" %>" />
 
+    <title><%= body["header"]["seo"] %></title>
+    <meta property="og:title" content="<%= body["header"]["seo"] %>" />
 
 
 </head>
