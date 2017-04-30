@@ -9,7 +9,7 @@ var parsed = archieml.load('key: value');
 var fs = require('fs');
 
 var navEnglish = ["The Real Queens", "Cutting Edge", "Across the Harbor", "Viva la Familia", "Revolution on Wheels", "About", "About the Project"];
-var navSpanish = ["Las reinas verdaderas", "A la vanguardia", "Cruzando el puerto", "Viva la familia", "Revolución sobre ruedas", "Sobre nosotros", "Sobre el proyecto"];
+var navSpanish = ["Las reinas verdaderas", "A la vanguardia", "Cruzando la bahía", "Viva la familia", "Revolución sobre ruedas", "Sobre nosotros", "Sobre el proyecto"];
 
 gulp.task('connect', function(){
 
