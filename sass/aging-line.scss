@@ -1,43 +1,15 @@
 @import '_vars';
 @import '_include-media';
 
-#c {
-  display: block;
-  margin: 0 auto;
+#aging-chart-img{
+  width:80%;
+  height:80%;
 }
 
-.label {
-  height: 1em;
-  padding: .3em;
-  position: absolute;
-  display: none;
-  color:#696969;
-}
+@include media("screen", "<=sm"){
 
-.axis {
-  color: #696969;
-  font-size: 8pt;
-  text-align: center;
+#aging-chart-img{
+  width:calc(100vw - 20%);
+  height:100%;
 }
-
-.xy{
-  font-size: 8pt;
-  margin-left: 3%;
-  margin-top: -18pt;
-  text-align: center;
-}
-
-.xy p{
-  margin-top: 0;
-  margin-bottom: -3pt;
-  color: #696969;
-}
-
-@include media("screen", "<=linegraph-sm") {
-  #c {
-    width: 100%;
-  }
-  .xy{
-    margin-top: 3px;
-  }
 }
