@@ -59,3 +59,11 @@
 @media screen and (max-width: 570px) {
   .internet-graphic .fa.fa-male {
     font-size: 1.2em; } }
+
+@media screen and (max-width: 320px) {
+  .internet-graphic .dropdown-cont {
+    padding-right: 0; }
+  .internet-graphic h1 {
+    font-size: 2em; }
+  .internet-graphic h3 {
+    margin-top: 0; } }

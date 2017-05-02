@@ -99,4 +99,16 @@
 
   }
 
+  @include media("screen", "<=iphone5"){
+    .dropdown-cont{
+      padding-right:0;
+    }
+    h1{
+      font-size:2em;
+    }
+    h3{
+      margin-top:0;
+    }
+  }
+
 } //internet-graphic

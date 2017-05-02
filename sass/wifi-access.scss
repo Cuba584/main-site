@@ -70,3 +70,12 @@ img.wifi{
   }
 
 }
+
+@include media("screen", "<=iphone5"){
+  #internet-slider{
+    button{
+      margin-top:12vh;
+      font-size:2em;
+    }
+  }
+}
