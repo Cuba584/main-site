@@ -5,7 +5,7 @@ var windowWidth;
 $(document).ready(function(){
   // $('#hidden-nav').hide();
   windowWidth = $(window).width();
-  console.log(currentNav);
+  //console.log(currentNav);
   $(currentNav).addClass('active-nav');
   $(mobileNav).addClass('mobile-active-nav');
 

@@ -104,6 +104,18 @@
   padding: 20px;
   text-align: center; }
 
+#explore-story {
+  font-size: .61em;
+  font-weight: bold; }
+  #explore-story:hover {
+    cursor: pointer; }
+
+.fa.fa-angle-right {
+  font-size: 1.4em;
+  vertical-align: middle;
+  margin-bottom: 5px;
+  margin-left: 3px; }
+
 @media screen and (max-width: 570px) {
   #index-container {
     display: none; }
@@ -191,7 +203,7 @@
   z-index: 10;
   width: 5%;
   right: 8.5%;
-  bottom: 25px;
+  bottom: .5%;
   color: white;
   text-align: center;
   vertical-align: middle; }
@@ -200,3 +212,7 @@
   #replay-btn i {
     font-size: 1.3em;
     display: inline; }
+
+@media screen and (max-width: 850px) {
+  #replay-btn {
+    top: -50px; } }

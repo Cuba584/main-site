@@ -98,6 +98,20 @@
   text-align: center;
 }
 
+#explore-story{
+  font-size:.61em;
+  font-weight:bold;
+  &:hover{
+    cursor:pointer;
+  }
+}
+
+.fa.fa-angle-right{
+  font-size:1.4em;
+  vertical-align: middle;
+  margin-bottom:5px;
+  margin-left:3px;
+}
 
 @include media("screen", "<=sm"){
   #index-container {
@@ -209,7 +223,8 @@
   z-index:10;
   width:5%;
   right: 8.5%;
-  bottom: 25px;
+  // bottom: 25px;
+  bottom:.5%;
   color:white;
   text-align:center;
   vertical-align:middle;
@@ -221,4 +236,10 @@
       display:inline;
     }
 
+}
+
+@include media("screen", "<=index-md"){
+  #replay-btn{
+    top:-50px;
+  }
 }
