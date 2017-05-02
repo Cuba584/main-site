@@ -6,10 +6,42 @@
   height:80%;
 }
 
+#aging-table {
+  display: none;
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+  th {
+    border-bottom: 1px solid black;
+    font-family: $montserrat;
+  }
+  th, td {
+    text-align: center;
+    padding: 4px;
+  }
+  tr:nth-child(even) {
+      background-color: #e6e6e6;
+  }
+}
+
+@include media("screen", "<=md"){
+  #aging-table {
+    display: table;
+  }
+}
+
 @include media("screen", "<=sm"){
 
-#aging-chart-img{
-  width:calc(100vw - 20%);
-  height:100%;
-}
+  #aging-chart-img{
+    width:calc(100vw - 20%);
+    height:100%;
+  }
+  #aging-table {
+    th {
+      font-size: .75em;
+    }
+    td {
+      font-size: .8em;
+    }
+  }
 }
