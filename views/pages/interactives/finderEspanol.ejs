@@ -1,0 +1,393 @@
+
+  <div class="finder-wrapper" id="finder">
+  <div class="paquete-container">
+  <div class="finder-window" id="finder-window-desktop">
+    <div class="finder-header">
+      <div class="window-controls">
+        <div class="window-controls__close"></div>
+        <div class="window-controls__minimize"></div>
+        <div class="window-controls__maximize"></div>
+      </div>
+    </div>
+    <div class="content-container">
+      <div class="sidebar">
+        <ul class="sidebar__list">
+          <li class="sidebar__list-item sidebar__list-item--section">
+            <span class="sidebar__list-name sidebar__list-name--section">Dispositivos</span>
+            <ul class="sidebar__sub-list">
+              <li class="sidebar__list-item">
+
+                <i class="fa-hdd-o fa icon" aria-hidden="true"></i>PKT (D:)
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="finder-main">
+        <!-- categories -->
+        <div class="category-container">
+            <ul class="file-list">
+              <li class="file-item parent" id="applications"><i class="fa fa-folder" aria-hidden="true"></i>Aplicaciones</li>
+              <li class="file-item parent" id="music"><i class="fa fa-folder" aria-hidden="true"></i>Música</li>
+              <li class="file-item parent" id="series"><i class="fa fa-folder" aria-hidden="true"></i>Series de Televisión</li>
+              <li class="file-item parent" id="sports"><i class="fa fa-folder" aria-hidden="true"></i>Deportes semanales</li>
+              <li class="file-item parent" id="youtube"><i class="fa fa-folder" aria-hidden="true"></i>YouTube</li>
+
+            </ul>
+        </div>
+
+        <!-- subcategories -->
+        <div class="sub-container">
+          <!-- Aplicaciones -->
+
+          <ul class="file-list" id="sub-apps">
+            <li class="file-item parent" id="android"><i class="fa fa-folder" aria-hidden="true"></i>Aplicaciones de Android</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Aplicaciones de iOS</li>
+          </ul>
+
+          <!-- Música -->
+          <ul class="file-list" id="sub-music">
+            <li class="file-item parent" id="international"><i class="fa fa-folder" aria-hidden="true"></i>Música internacional</li>
+            <li class="file-item parent" id="music-vids"><i class="fa fa-folder" aria-hidden="true"></i>Videos de música</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Discos compactos</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Música nacional</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Música inédita</li>
+          </ul>
+
+          <!-- Series -->
+          <ul class="file-list" id="sub-series">
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Bones</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Blackish</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Game of Thrones</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Girls</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Greys Anatomy</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Feud</li>
+          </ul>
+
+          <!-- Sports -->
+          <ul class="file-list" id="sub-sport">
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Boxeo</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Cubans en MLB</li>
+            <li class="file-item parent" id="soccer"><i class="fa fa-folder" aria-hidden="true"></i>Fútbol</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>MLB</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>NBA</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>UFC</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>WWE</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Moto GP</li>
+          </ul>
+
+          <!-- Youtube -->
+          <ul class="file-list is-active" id="sub-tube">
+            <li class="file-item parent" id="fashion"><i class="fa fa-folder" aria-hidden="true"></i>Moda y belleza</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Videos de fútbol</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Videos de patinaje</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Chismes y la farándula</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Animales</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Concinar</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Ejercicio</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Magia</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Tecnología</li>
+          </ul>
+        </div>
+
+
+        <!-- subcategory files -->
+        <div class="files-container">
+
+          <!-- Aplicaciones -->
+          <ul class="file-list is-active" id="files-apps">
+            <li class="file-item">Cuatro En Linea</li>
+            <li class="file-item is-active">Diccionario Inglés-Español</li>
+            <li class="file-item">Pantalla apagada y bloqueo</li>
+            <li class="file-item">Credo del asesino</li>
+            <li class="file-item">Dragaminas</li>
+            <li class="file-item">Panorama</li>
+          </ul>
+
+          <!-- Música internacional -->
+          <ul class="file-list is-active" id="files-music">
+            <li class="file-item is-active">Dance Vol.2</li>
+            <li class="file-item">Dance Vol.3</li>
+            <li class="file-item">Drake and Future</li>
+            <li class="file-item">Taylor Swift</li>
+          </ul>
+
+          <!-- Videos de música -->
+          <ul class="file-list is-active" id="files-musicvids">
+            <li class="file-item">Concierto</li>
+            <li class="file-item is-active">Extended Para DJs</li>
+            <li class="file-item">Hip Hop (Especial Lyon King)</li>
+            <li class="file-item">Top de Billboard</li>
+            <li class="file-item">Chago</li>
+          </ul>
+
+          <!-- YouTube -->
+          <ul class="file-list is-active" id="files-tube">
+            <li class="file-item">Academia Anatassia</li>
+            <li class="file-item is-active">Forever 21</li>
+            <li class="file-item">Para tu boda</li>
+            <li class="file-item">Para él</li>
+            <li class="file-item">Para ella</li>
+          </ul>
+
+          <!-- Sports -->
+          <ul class="file-list is-active" id="files-sport">
+            <li class="file-item">Liga (alemán)</li>
+            <li class="file-item is-active">Liga (Español)</li>
+            <li class="file-item">Liga (francés)</li>
+            <li class="file-item">Liga (inglés)</li>
+            <li class="file-item">Liga (italiano)</li>
+            <li class="file-item">UEFA (Champions Liga)</li>
+            <li class="file-item">UEFA (Europe Liga)</li>
+            <li class="file-item">Barcelona vs Deportivo La Coruña Fecha</li>
+            <li class="file-item">Liga 1 - OGC Nice vs. SM</li>
+          </ul>
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </div>
+  <div class="mobile finder-window" id="finder-window-mobile">
+    <div class="finder-header">
+      <div class="window-controls">
+        <div class="window-controls__close"></div>
+        <div class="window-controls__minimize"></div>
+        <div class="window-controls__maximize"></div>
+      </div>
+    </div>
+    <div class="mobile content-container">
+      <div class="sidebar">
+        <ul class="sidebar__list">
+          <li class="sidebar__list-item sidebar__list-item--section">
+            <span class="sidebar__list-name sidebar__list-name--section">Dispositivos
+              <span id="pkt-device"><i class="fa-hdd-o fa icon" aria-hidden="true"></i>
+                PKT (D:)
+              </span>
+            </span>
+
+          </li>
+        </ul>
+      </div>
+      <div class="finder-main mobile">
+        <!-- Aplicaciones -->
+        <div class="mobile-toggle file-item parent" id="apps-mobile">
+          <i class="fa fa-folder" aria-hidden="true"></i><span>Aplicaciones</span>
+        </div>
+        <!-- Sub Apps -->
+        <div class="file-list" id="sub-apps-mobile">
+          <li class="file-item parent" id="android-mobile"><i class="fa fa-folder" aria-hidden="true"></i>Aplicaciones de Android</li>
+          <!-- Files Apps -->
+          <ul class="file-list" id="files-apps-mobile">
+            <li class="file-item">Cuatro En Linea</li>
+            <li class="file-item">Diccionario Inglés-Español</li>
+            <li class="file-item">Pantalla apagada y bloqueo</li>
+            <li class="file-item">Credo del asesino</li>
+            <li class="file-item">Dragaminas</li>
+            <li class="file-item">Panorama</li>
+          </ul>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Aplicaciones de iOS</li>
+        </div>
+
+
+        <!-- Música -->
+        <div class="mobile-toggle file-item parent" id="music-mobile">
+          <i class="fa fa-folder" aria-hidden="true"></i>Música
+        </div>
+        <!-- Sub Música -->
+        <div class="file-list" id="sub-music-mobile">
+          <ul class="file-list" id="sub-music">
+            <li class="file-item parent" id="international-mobile"><i class="fa fa-folder" aria-hidden="true"></i>Música internacional</li>
+            <!-- Música internacional -->
+            <ul class="file-list" id="files-music-mobile">
+              <li class="file-item">Dance Vol.2</li>
+              <li class="file-item">Dance Vol.3</li>
+              <li class="file-item">Drake and Future</li>
+              <li class="file-item">Taylor Swift</li>
+            </ul>
+
+            <li class="file-item parent" id="music-vids-mobile"><i class="fa fa-folder" aria-hidden="true"></i>Videos de música</li>
+            <!-- Videos de música -->
+            <ul class="file-list" id="files-musicvids-mobile">
+              <li class="file-item">Concierto</li>
+              <li class="file-item">Extended Para DJs</li>
+              <li class="file-item">Hip Hop (Especial Lyon King)</li>
+              <li class="file-item">Top Billboard</li>
+              <li class="file-item">Chago</li>
+            </ul>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Discos compactos</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Música nacional</li>
+            <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Música inédito</li>
+          </ul>
+        </div>
+
+        <!-- Series -->
+        <div class="mobile-toggle file-item parent" id="series-mobile">
+          <i class="fa fa-folder" aria-hidden="true"></i>Series de Televisión
+        </div>
+        <!-- Series subcategories -->
+        <div class="file-list" id="sub-series-mobile">
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Bones</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Blackish</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Game of Thrones</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Girls</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Greys Anatomy</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Feud</li>
+        </div>
+
+
+
+        <!-- Deportes semanales -->
+        <div class="mobile-toggle file-item parent" id="sports-mobile">
+          <i class="fa fa-folder" aria-hidden="true"></i>Deportes semanales
+        </div>
+        <!-- subcategories Sports -->
+        <ul class="file-list" id="sub-sport-mobile">
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Boxeo</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Cubans en MLB</li>
+          <li class="file-item parent" id="soccer-mobile"><i class="fa fa-folder" aria-hidden="true"></i>Fútbol</li>
+          <!-- Files Sports -->
+          <ul class="file-list" id="files-sport-mobile">
+            <li class="file-item">Liga (alemán)</li>
+            <li class="file-item">Liga (Español)</li>
+            <li class="file-item">Liga (francés)</li>
+            <li class="file-item">Liga (inglés)</li>
+            <li class="file-item">Liga (italiano)</li>
+            <li class="file-item">UEFA (Liga de Campeones)</li>
+            <li class="file-item">UEFA (Liga de Europa)</li>
+            <li class="file-item">Barcelona vs Deportivo La Coruña Fecha</li>
+            <li class="file-item">Liga 1 - OGC Nice vs. SM</li>
+          </ul>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>MLB</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>NBA</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>UFC</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>WWE</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Moto GP</li>
+        </ul>
+
+        <!-- Youtube -->
+        <div class="mobile-toggle file-item parent" id="tube-mobile">
+          <i class="fa fa-folder" aria-hidden="true"></i>YouTube
+        </div>
+        <!-- subcategories youtube -->
+        <ul class="file-list" id="sub-tube-mobile">
+          <li class="file-item parent" id="fashion-mobile"><i class="fa fa-folder" aria-hidden="true"></i>Moda y belleza</li>
+          <!-- files youtube -->
+          <ul class="file-list" id="files-tube-mobile">
+            <li class="file-item">Academia Anatassia</li>
+            <li class="file-item">Forever 21</li>
+            <li class="file-item">Para tu boda</li>
+            <li class="file-item">Para él</li>
+            <li class="file-item">Para ella</li>
+          </ul>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Videos de fútbol</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Videos de patinaje</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Chismes y la farándula</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Animales</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Concinar</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Ejercicio</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Magia</li>
+          <li class="file-item"><i class="green-fold fa fa-folder" aria-hidden="true"></i>Tecnología</li>
+        </ul>
+
+      </div>
+    </div>
+  </div> <!--end paquete-container-->
+
+  <div class="info-window">
+    <!-- Info Intro -->
+    <div id="intro-info">
+      <hr id="info-intro-bar"></hr>
+      <p>
+Haz clic en una carpeta para ver que tipo de contenido puedes encontrar en el paquete.
+      </p>
+    </div>
+
+    <!-- Aplicaciones Info -->
+    <div id="apps-info">
+      <div class="info-logos">
+        <img class="apps-brand" src="/assets/images/paquete/brands/android.png" alt="Android" width="50">
+        <img class="apps-brand" src="/assets/images/paquete/brands/apple.png" alt="Apple" width="35">
+      </div>
+      <hr id="info-cat-bar"></hr>
+      <h3>
+        Aplicaciones de telefonía
+      </h3>
+      <p>
+        Los cubanos pueden descargar aplicaciones nuevas sin acceso a internet.
+      </p>
+    </div>
+
+    <!-- Música Info -->
+    <div id="music-info">
+      <div class="info-logos">
+        <img src="/assets/images/paquete/brands/swift.png" alt="Taylor Swift" width="100">
+        <img class="music-brand" src="/assets/images/paquete/brands/billboard.png" alt="Billboard" width="90">
+      </div>
+      <hr id="info-cat-bar"></hr>
+      <h3>
+        Música
+      </h3>
+      <p>
+        A los cubanos les encanta la música. Es el elemento más popular en el paquete. Muchos cubanos aprenden inglés a través escuchando canciones de los Estados Unidos y Inglaterra.
+      </p>
+    </div>
+
+    <!-- Series Info -->
+    <div id="series-info">
+      <div class="info-logos">
+        <img class="series-brand" src="/assets/images/paquete/brands/blackish.png" alt="blackish" width="75">
+        <img class="series-brand" src="/assets/images/paquete/brands/bones.png" alt="bones" width="85">
+        <img class="series-brand" src="/assets/images/paquete/brands/GOT.png" alt="Game of Thrones" width="75">
+        <img class="series-brand" src="/assets/images/paquete/brands/greys.png" alt="Grey's Anatomy" width="90">
+        <img class="series-brand" src="/assets/images/paquete/brands/girls.png" alt="girls" width="75">
+      </div>
+      <hr id="info-cat-bar"></hr>
+      <h3>
+        Series de Televisión
+      </h3>
+      <p>
+        Los canales de televisión son controlados por el gobierno quien edita las series para omitir contenido sexual y polémico. El paquete se permite a los cubanos ver las versiones sin editos que están disponibles en otros países.
+      </p>
+    </div>
+
+    <!-- Sports Info -->
+    <div id="sports-info">
+      <div class="info-logos">
+        <img class="sport-brand" src="/assets/images/paquete/brands/MLB.png" alt="MLB" width="75" height="46">
+        <img class="sport-brand" src="/assets/images/paquete/brands/moto-gp.png" alt="Moto GP" width="75" height="43">
+        <img class="sport-brand" src="/assets/images/paquete/brands/NBA.png" alt="NBA" width="75" height="51">
+        <img class="sport-brand" src="/assets/images/paquete/brands/UFC.png" alt="UFC" width="75" height="39">
+      </div>
+      <hr id="info-cat-bar"></hr>
+      <h3>
+        Deportes
+      </h3>
+      <p>
+        Un paquete nuevo se distribuye a los vendedores semanales con contenido totalmente nuevo. Los cubanos pueden ver partidos deportivo directamente después de que sucedan.
+      </p>
+    </div>
+
+    <!-- YouTube Info -->
+    <div id="tube-info">
+      <div class="info-logos">
+        <img src="/assets/images/paquete/brands/play.png" alt="MLB" width="55">
+      </div>
+      <hr id="info-cat-bar"></hr>
+      <h3>
+        YouTube
+      </h3>
+      <p>
+        Los cubanos se mantienen al día con la cultura del Internet a través de los canales descargados de YouTube. Hay personas que andan en Cuba con maquillaje elaborado que aprendieron de los totorales de YouTube.
+      </p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/finder.js"></script>
