@@ -1,6 +1,5 @@
 #money-slider-wrapper {
   width: 50%;
-  height: 50vh;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
@@ -38,7 +37,6 @@
   margin-left: -7%; }
 
 .money-slider {
-  height: 50vh;
   text-align: center; }
   .money-slider li {
     width: 100%; }
@@ -65,8 +63,7 @@
 
 @media screen and (max-width: 570px) {
   #moneyslider #money-slider-wrapper {
-    width: 90%;
-    height: 50vh;
+    width: 100%;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
@@ -92,7 +89,6 @@
   .money-slider img {
     height: 22vh; }
   #money-slider-wrapper {
-    height: 50vh;
     overflow: visible; }
   #money-slider-wrapper button {
     margin-top: 25%; }
@@ -104,3 +100,7 @@
     right: 20px;
     margin: 0;
     z-index: 8; } }
+
+@media screen and (max-width: 320px) {
+  #money-slider-wrapper > ul {
+    height: 60vh; } }

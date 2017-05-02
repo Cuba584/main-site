@@ -47,3 +47,8 @@ img.wifi {
     display: none; }
   #internet-slider {
     display: inline; } }
+
+@media screen and (max-width: 320px) {
+  #internet-slider button {
+    margin-top: 12vh;
+    font-size: 2em; } }
