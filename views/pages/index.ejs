@@ -4,8 +4,8 @@
   <% include ../partials/header.ejs %>
   <% var URL_LANG = espanol ? "?lang=es":"";  %>
   <title><%= espanol ? "Nueva ola de cuba":"Cuba\'s New Wave - A multimedia project by the UNC School of Media and Journalism" %></title>
-  <meta property="og:title" content="<%= espanol ? "Nueva ola de cuba - Un proyecto multimedia por UNC School of Media and Journalism":"Cuba&rsquo;s New Wave - A multimedia project by the UNC School of Media and Journalism" %>" />
-  <meta property="og:image" content="http://" + window.location.host + "/assets/images/features/home.jpg" />
+  <meta property="og:title" content="<%= espanol ? "Nueva ola de cuba - Un proyecto multimedia por UNC School of Media and Journalism":"Cuba\'s New Wave - A multimedia project by the UNC School of Media and Journalism" %>" />
+  <meta property="og:image" content="http://<%= window.location.host %>/assets/images/features/home.jpg" />
 
 </head>
 
