@@ -1,12 +1,40 @@
 
 $(document).ready(function(){
   $(".timeline").hide();
-  $(".expand-collapse").click(function(){
-    $(".timeline").toggle();
-    $(this).html(function(i, v) {
-      return v === '<i class="fa fa-chevron-up"></i> Hide details' ? '<i class="fa fa-chevron-down"></i> View details' : '<i class="fa fa-chevron-up"></i> Hide details'
-    });
+  $('.expand-collapse').click(function(){
+    $('.timeline').toggle();
+    console.log(this);
+    $(this).empty();
+    $(this).toggleClass('shown');
+    if (this.classList.contains("spanish-collapse")){
+      if (this.classList.contains("shown")){
+        console.log('shown');
+        $('<i class="fa fa-chevron-down"></i> ver detalles').appendTo(this);
+        console.log('append down');
+
+      } else {
+        $('<i class="fa fa-chevron-up"></i> ocultar detalles').appendTo(this);
+      }
+
+    } else {
+      if (this.classList.contains("shown")){
+        $('<i class="fa fa-chevron-down"></i> View detalles').appendTo(this);
+      } else {
+        $('<i class="fa fa-chevron-up"></i> Hide details').appendTo(this);
+      }
+    }
   });
+  // $(".expand-collapse").click(function(){
+  //   $(".timeline").toggle();
+  //   $(this).html(function(i, v) {
+  //     if (this.classList.includes("spanish-collapse")){
+  //       return v === '<i class="fa fa-chevron-up"></i> ocultar detalles' ? '<i class="fa fa-chevron-down"></i> ver detalles' : '<i class="fa fa-chevron-up"></i> ocultar detalles'
+  //     } else {
+  //       return v === '<i class="fa fa-chevron-up"></i> Hide details' ? '<i class="fa fa-chevron-down"></i> View details' : '<i class="fa fa-chevron-up"></i> Hide details';
+  //     }
+  //
+  //   });
+  // });
 });
 (function($) {
   $.fn.timeline = function() {
@@ -26,7 +54,6 @@ $(document).ready(function(){
       timelineSelectors.item.each(function(i) {
         timelineMin = $(this).offset().top;
         timelineMax = ($(this).height() + $(this).offset().top);
-        console.log(timelineMax)
         var that = $(this)
         if (i == itemLength - 2 && timelinePos > timelineMin + $(this).height() / 2) {
           timelineSelectors.item.removeClass(timelineSelectors.activeClass);
