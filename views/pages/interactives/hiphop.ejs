@@ -1,4 +1,4 @@
-<div class="interactive-wrapper">
+<div class="interactive-wrapper overflow-visible">
   <div class="interactive-wrapper-intro">
     <% if (espanol) { %>
         <h1 class="hiphop interactive">Las reinas de la música Cubana</h5>
@@ -148,135 +148,141 @@
 </div>
 </div>
 
-<button class="hiphop-button" id="hiphop-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-<button class="hiphop-button" id="hiphop-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-<div id="hiphop-wrap-mobile">
-  <ul id="hiphop-ul">
-  <li class="hiphop-mobile-li">
-  <div class="hiphop-panel  change-bg hiphop">
-    <div class="hiphop-card hiphop-card-mobile">
-      <div class="hiphop-info"  id="hiphop1">
-        <img src="/assets/images/hiphop-omara.png">
-      </div>
-      <div class="hiphop-text">
-        <p class="hiphop-name">Omara Portuondo</p>
-        <p class="hiphop-year">
-          <% if (espanol) { %>
-            1930 - Actual
-          <% } else { %>
-            1930 - Present
-          <% } %>
-        </p>
-        <p class="hiphop-bio">
-          <% if (espanol) { %>
-            Nacida y criada en la Habana, comenzó su carrera con su hermana Haydee, actuando en Clubs de la Habana. Más tarde formó el grupo Cuarteto las d'Aida, que giraba en los Estados Unidos y Europa. Saltó a la fama aún mayor mediante la realización del álbum "Buena Vista Social Club" (1997).
-          <% } else { %>
-            Born and raised in Havana, she started her career performing in Havana Clubs with her sister Haydee. She later formed the group Cuarteto las d’Aida, which toured in the United States and Europe. She later performed on the popular album Buena Vista Social Club (1997).
-          <% } %>
-        </p>
-        <a href="#hiphop1-modal" rel="modal:open" data-modal="1"><i class="fa fa-youtube"></i></a>
-        <!-- <a href="https://www.youtube.com/watch?v=2TQqDHy3jeM" target="_blank"><i class="fa fa-youtube"></i></a> -->
-       </div>
+<div id="hiphop-relative">
+  <div id="hiphop-button-wrapper">
+    <div class="button-center">
+    <a class="hiphop-button" id="hiphop-left"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+    <a class="hiphop-button" id="hiphop-right"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
     </div>
   </div>
-</li>
-  <li class="hiphop-mobile-li">
-  <div class="hiphop-panel  change-bg hiphop">
-    <div class="hiphop-card hiphop-card-mobile">
-      <div class="hiphop-info" id="hiphop2">
-        <img src="/assets/images/hiphop-rosita.png">
-      </div>
-      <div class="hiphop-text">
-        <p class="hiphop-name">Rosita Fornes</p>
-        <p class="hiphop-year">
-          <% if (espanol) { %>
-            1923 - Actual
-          <% } else { %>
-            1923 - Present
-          <% } %>
-        </p>
-        <p class="hiphop-bio">
-          <% if (espanol) { %>
-          Hizo su debut de la etapa después de ganar el premio al mejor en un conocido show de talento cubano en 1938. Rosita apareció en dos películas cubanas y protagonizó uen varias películas durante la edad de oro del cine mexicano. En los años 50 ella giras en América Latina, Europa y Estados Unidos.
-          <% } else { %>
-          She made her stage debut after winning a Cuban talent show in 1938. Rosita appeared in two Cuban films and starred in several films during the Golden Age of Mexican Cinema. In the 50’s she toured in Latin America, Europe and the US.
-          <% } %>
-         </p>
-        <a href="#hiphop2-modal" rel="modal:open" data-modal="2"><i class="fa fa-youtube"></i></a>
+  <div id="hiphop-wrap-mobile">
+    <ul id="hiphop-ul">
+    <li class="hiphop-mobile-li">
+    <div class="hiphop-panel  change-bg hiphop">
+      <div class="hiphop-card hiphop-card-mobile">
+        <div class="hiphop-info"  id="hiphop1">
+          <img src="/assets/images/hiphop-omara.png">
         </div>
-    </div>
-  </div>
-</li>
-  <li class="hiphop-mobile-li">
-  <div class="hiphop-panel change-bg hiphop">
-    <div class="hiphop-card hiphop-card-mobile">
-      <div class="hiphop-info" id="hiphop3">
-        <img src="/assets/images/hiphop-lupe.png">
+        <div class="hiphop-text">
+          <p class="hiphop-name">Omara Portuondo</p>
+          <p class="hiphop-year">
+            <% if (espanol) { %>
+              1930 - Actual
+            <% } else { %>
+              1930 - Present
+            <% } %>
+          </p>
+          <p class="hiphop-bio">
+            <% if (espanol) { %>
+              Nacida y criada en la Habana, comenzó su carrera con su hermana Haydee, actuando en Clubs de la Habana. Más tarde formó el grupo Cuarteto las d'Aida, que giraba en los Estados Unidos y Europa. Saltó a la fama aún mayor mediante la realización del álbum "Buena Vista Social Club" (1997).
+            <% } else { %>
+              Born and raised in Havana, she started her career performing in Havana Clubs with her sister Haydee. She later formed the group Cuarteto las d’Aida, which toured in the United States and Europe. She later performed on the popular album Buena Vista Social Club (1997).
+            <% } %>
+          </p>
+          <a href="#hiphop1-modal" rel="modal:open" data-modal="1"><i class="fa fa-youtube"></i></a>
+          <!-- <a href="https://www.youtube.com/watch?v=2TQqDHy3jeM" target="_blank"><i class="fa fa-youtube"></i></a> -->
+         </div>
       </div>
+    </div>
+  </li>
+    <li class="hiphop-mobile-li">
+    <div class="hiphop-panel  change-bg hiphop">
+      <div class="hiphop-card hiphop-card-mobile">
+        <div class="hiphop-info" id="hiphop2">
+          <img src="/assets/images/hiphop-rosita.png">
+        </div>
+        <div class="hiphop-text">
+          <p class="hiphop-name">Rosita Fornes</p>
+          <p class="hiphop-year">
+            <% if (espanol) { %>
+              1923 - Actual
+            <% } else { %>
+              1923 - Present
+            <% } %>
+          </p>
+          <p class="hiphop-bio">
+            <% if (espanol) { %>
+            Hizo su debut de la etapa después de ganar el premio al mejor en un conocido show de talento cubano en 1938. Rosita apareció en dos películas cubanas y protagonizó uen varias películas durante la edad de oro del cine mexicano. En los años 50 ella giras en América Latina, Europa y Estados Unidos.
+            <% } else { %>
+            She made her stage debut after winning a Cuban talent show in 1938. Rosita appeared in two Cuban films and starred in several films during the Golden Age of Mexican Cinema. In the 50’s she toured in Latin America, Europe and the US.
+            <% } %>
+           </p>
+          <a href="#hiphop2-modal" rel="modal:open" data-modal="2"><i class="fa fa-youtube"></i></a>
+          </div>
+      </div>
+    </div>
+  </li>
+    <li class="hiphop-mobile-li">
+    <div class="hiphop-panel change-bg hiphop">
+      <div class="hiphop-card hiphop-card-mobile">
+        <div class="hiphop-info" id="hiphop3">
+          <img src="/assets/images/hiphop-lupe.png">
+        </div>
+        <div class="hiphop-text">
+          <p class="hiphop-name">Lupe Raymond</p>
+          <p class="hiphop-year">1936 – 1992</p>
+          <p class="hiphop-bio">
+            <% if (espanol) { %>
+            "La Lupe" fue el primer cantante Latino en Carnegie Hall y Madison Square Garden de Nueva York. Ella era tan acertada como el resultado de su estilo de funcionamiento: escandaloso, teatral y excéntrico. La Lupe se mira hoy como la "Reina del Soul Latino"
+            <% } else { %>
+            “La Lupe” was the first Latin singer to perform at Carnegie Hall and Madison Square Garden in New York. Her success was the result of her performance style: scandalous, theatrical and eccentric. Today La Lupe is regarded as the “Queen of Latin Soul.”
+            <% } %>
+          </p>
+          <a href="#hiphop3-modal" rel="modal:open" data-modal="3"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </li>
+    <li class="hiphop-mobile-li">
+    <div class="hiphop-panel change-bg hiphop">
+      <div class="hiphop-card hiphop-card-mobile">
+        <div class="hiphop-info" id="hiphop4">
+          <img src="/assets/images/hiphop-celia.png">
+        </div>
       <div class="hiphop-text">
-        <p class="hiphop-name">Lupe Raymond</p>
-        <p class="hiphop-year">1936 – 1992</p>
+        <p class="hiphop-name">Celia Cruz</p>
+        <p class="hiphop-year">1925 – 2003</p>
         <p class="hiphop-bio">
           <% if (espanol) { %>
-          "La Lupe" fue el primer cantante Latino en Carnegie Hall y Madison Square Garden de Nueva York. Ella era tan acertada como el resultado de su estilo de funcionamiento: escandaloso, teatral y excéntrico. La Lupe se mira hoy como la "Reina del Soul Latino"
+          Su padre quería tomar el trabajo femenino tradicional de la enseñanza. Después de abandonar la Universidad se convirtió en el jefe de La Sonora Matancera. Ganó varios premios grammy, grabó más de 75 discos y obtuvo una estrella en caminata de la fama de Hollywood.
           <% } else { %>
-          “La Lupe” was the first Latin singer to perform at Carnegie Hall and Madison Square Garden in New York. Her success was the result of her performance style: scandalous, theatrical and eccentric. Today La Lupe is regarded as the “Queen of Latin Soul.”
+          Her father wanted her to take the traditional female job of teaching. After dropping out of college she became the head of La Sonora Matancera. She won several Grammy awards, recorded over 75 albums and earned a star on Hollywood’s Walk of Fame.
           <% } %>
         </p>
-        <a href="#hiphop3-modal" rel="modal:open" data-modal="3"><i class="fa fa-youtube"></i></a>
+        <a href="#hiphop4-modal" rel="modal:open" data-modal="4"><i class="fa fa-youtube"></i></a>
       </div>
     </div>
   </div>
-</li>
+  </li>
   <li class="hiphop-mobile-li">
-  <div class="hiphop-panel change-bg hiphop">
-    <div class="hiphop-card hiphop-card-mobile">
-      <div class="hiphop-info" id="hiphop4">
-        <img src="/assets/images/hiphop-celia.png">
-      </div>
-    <div class="hiphop-text">
-      <p class="hiphop-name">Celia Cruz</p>
-      <p class="hiphop-year">1925 – 2003</p>
-      <p class="hiphop-bio">
-        <% if (espanol) { %>
-        Su padre quería tomar el trabajo femenino tradicional de la enseñanza. Después de abandonar la Universidad se convirtió en el jefe de La Sonora Matancera. Ganó varios premios grammy, grabó más de 75 discos y obtuvo una estrella en caminata de la fama de Hollywood.
-        <% } else { %>
-        Her father wanted her to take the traditional female job of teaching. After dropping out of college she became the head of La Sonora Matancera. She won several Grammy awards, recorded over 75 albums and earned a star on Hollywood’s Walk of Fame.
-        <% } %>
-      </p>
-      <a href="#hiphop4-modal" rel="modal:open" data-modal="4"><i class="fa fa-youtube"></i></a>
-    </div>
-  </div>
-</div>
-</li>
-<li class="hiphop-mobile-li">
-  <div class="hiphop-panel change-bg hiphop">
-    <div class="hiphop-card hiphop-card-mobile">
-      <div class="hiphop-info"  id="hiphop5">
-        <img src="/assets/images/hiphop-gloria.png">
-      </div>
-      <div class="hiphop-text">
-        <p class="hiphop-name">Gloria Estefan</p>
-        <p class="hiphop-year">
-          <% if (espanol) { %>
-          1957 – Actual
-          <% } else { %>
-          1957 – Present
-          <% } %>
-        </p>
-        <p class="hiphop-bio">
-          <% if (espanol) { %>
-          Estefan y su familia huyeron de la Habana cuando Fidel Castro ascendió al poder. Ella comenzó a ganar atención al unirse a la banda de su marido futuro conocida como "Miami Sound Machine." Estefan rápidamente desarrolló su propia personalidad como una sensación del pop.
-          <% } else { %>
-          Estefan and her family fled from Havana when Fidel Castro rose to power. She started to gain attention after joining her future husband’s band known as “Miami Sound Machine.” Estefan quickly rose as the star attraction and developed her own personality as a pop sensation.
-          <% } %>
-         </p>
-        <a href="#hiphop5-modal" rel="modal:open" data-modal="5"><i class="fa fa-youtube"></i></a>
+    <div class="hiphop-panel change-bg hiphop">
+      <div class="hiphop-card hiphop-card-mobile">
+        <div class="hiphop-info"  id="hiphop5">
+          <img src="/assets/images/hiphop-gloria.png">
+        </div>
+        <div class="hiphop-text">
+          <p class="hiphop-name">Gloria Estefan</p>
+          <p class="hiphop-year">
+            <% if (espanol) { %>
+            1957 – Actual
+            <% } else { %>
+            1957 – Present
+            <% } %>
+          </p>
+          <p class="hiphop-bio">
+            <% if (espanol) { %>
+            Estefan y su familia huyeron de la Habana cuando Fidel Castro ascendió al poder. Ella comenzó a ganar atención al unirse a la banda de su marido futuro conocida como "Miami Sound Machine." Estefan rápidamente desarrolló su propia personalidad como una sensación del pop.
+            <% } else { %>
+            Estefan and her family fled from Havana when Fidel Castro rose to power. She started to gain attention after joining her future husband’s band known as “Miami Sound Machine.” Estefan quickly rose as the star attraction and developed her own personality as a pop sensation.
+            <% } %>
+           </p>
+          <a href="#hiphop5-modal" rel="modal:open" data-modal="5"><i class="fa fa-youtube"></i></a>
+        </div>
       </div>
     </div>
+  </li>
+  </ul>
   </div>
-</li>
-</ul>
 </div>
 
 
