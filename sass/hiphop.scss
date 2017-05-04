@@ -295,14 +295,14 @@
   }
   .hiphop-button {
     display: block;
-    z-index: 100;
+    z-index: 1;
   }
   .button-center {
     margin-left: auto;
     margin-right: auto;
     display: block;
     width: 400px;
-    z-index: 100;
+    z-index: 1;
   }
   #hiphop-button-wrapper{
     display: flex;
@@ -310,7 +310,7 @@
     width: 100%;
     top: 35%;
     justify-content: space-between;
-    z-index: 100;
+    z-index: 1;
   }
   #hiphop-relative {
     display: block;

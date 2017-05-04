@@ -3,22 +3,38 @@ img.wifi {
   max-width: 9141px;
   max-height: 1416px; }
 
+#internet-relative {
+  position: relative;
+  width: 100%;
+  min-height: 200px; }
+  #internet-relative #internet-button-wrapper {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    height: 50px;
+    justify-content: space-between;
+    z-index: 1; }
+  #internet-relative .internet-button {
+    border: none;
+    background: transparent;
+    font-size: 4em;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1; }
+  #internet-relative #internet-slider-left {
+    left: 0px; }
+  #internet-relative #internet-slider-right {
+    right: 0px; }
+  #internet-relative .internet-button:focus {
+    outline: none; }
+
 #internet-slider {
   display: none;
   width: 90%;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto; }
-  #internet-slider button {
-    border: none;
-    background: transparent;
-    font-size: 4em;
-    cursor: pointer;
-    position: absolute;
-    margin-top: 25vh;
-    z-index: 10; }
-  #internet-slider button:focus {
-    outline: none; }
   #internet-slider ul {
     width: 100%;
     left: -100%;
@@ -34,13 +50,8 @@ img.wifi {
       font-size: 3rem; }
       #internet-slider ul li img {
         width: 100%;
-        height: auto; }
-
-#internet-slider-right {
-  right: 3%; }
-
-#internet-slider-left {
-  left: 3%; }
+        height: auto;
+        margin-bottom: 20px; }
 
 @media screen and (max-width: 1020px) {
   img.wifi {
