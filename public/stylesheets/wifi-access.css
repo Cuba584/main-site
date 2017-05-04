@@ -3,6 +3,9 @@ img.wifi {
   max-width: 9141px;
   max-height: 1416px; }
 
+.mobile-only {
+  display: none; }
+
 #internet-relative {
   position: relative;
   width: 100%;
@@ -11,7 +14,7 @@ img.wifi {
     display: flex;
     position: absolute;
     width: 100%;
-    bottom: 20px;
+    bottom: 6%;
     height: 50px;
     justify-content: space-between;
     z-index: 1; }
@@ -30,7 +33,6 @@ img.wifi {
     outline: none; }
 
 #internet-slider {
-  display: none;
   width: 90%;
   overflow: hidden;
   margin-left: auto;
@@ -56,8 +58,8 @@ img.wifi {
 @media screen and (max-width: 1020px) {
   img.wifi {
     display: none; }
-  #internet-slider {
-    display: inline; } }
+  .mobile-only {
+    display: block; } }
 
 @media screen and (max-width: 320px) {
   #internet-slider button {
